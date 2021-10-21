@@ -20,7 +20,6 @@ xml_files = xml_files[grepl('NCT(.*).xml',xml_files)]
 # folders = setdiff(folders, existing_data)
 
 N = length(xml_files)
-
 studies = NULL
 
 # loop through folders
@@ -44,7 +43,7 @@ for (f in 1:N){ # should be 1:N
   submitted = null_na(xml_data$study_first_submitted)
   posted = null_na(xml_data$study_first_posted$text)
   updated = null_na(xml_data$last_update_submitted)
-
+  
   #info on study design
   study_type = null_na(xml_data$study_type)  
   study_design_allocation = null_na(xml_data$study_design_info$allocation)
@@ -53,14 +52,13 @@ for (f in 1:N){ # should be 1:N
   #mesh terms and keyword lists
   mesh_terms = sapply(getNodeSet(data,"//mesh_term"),xpathSApply,".",xmlValue) %>% str_c(.,collapse = '|')
   keywords = sapply(getNodeSet(data,"//keyword"),xpathSApply,".",xmlValue) %>% str_c(.,collapse = '|')
-
-  #enrollment
-  total_enrollment = null_na(xml_data$enrollment$text)
-  total_enrollment_type = null_na(xml_data$enrollment$.attrs)
-
   
+  
+  brief_summary = sapply(getNodeSet(data,"//brief_summary"),xpathSApply,"./textblock",xmlValue) %>% str_remove_all(.,'\\r|\\n|\\s{2,}')
+
   frame = data.frame(id=id,
                      brief_title=brief_title,
+                     brief_summary=brief_summary,
                      overall_status=overall_status,
                      last_known_status=last_known_status,
                      submitted=submitted,
@@ -75,12 +73,11 @@ for (f in 1:N){ # should be 1:N
                      total_enrollment_type=total_enrollment_type)
   studies = bind_rows(studies, frame)
   
-    
+  
   
 } #end of f loop
 
-  # save 
-  setwd(home)
-  outfile = paste('U:/Research/Projects/ihbi/aushsi/aushsi_barnetta/meta.research/ANZCTR/data/raw/', folders[f], '.RData', sep='')
-  save(studies, excluded, file=outfile)
-} # end of folders loop
+# save 
+setwd(home)
+save(studies, file='processed_studies.rda')
+
