@@ -11,15 +11,24 @@ results <- ct_read_results(url_str)
 # Not run:
 
 
-# library(rclinicaltrials) #//throws errors in clinicaltrials_search.Try running clinicaltrials_download on HPC
-# library(tidyverse)
-# 
-# title_str <- "diagnostic OR prognostic OR prediction model OR machine learning OR artificial intelligence OR algorithm OR score OR deep learning OR regression"
-# search_query <- paste0('titles = ',title_str)
-# #total number of hist for given title_str
-# n_titles<-clinicaltrials_count(search_query)
-# 
-# search_results <- clinicaltrials_download(query=c(search_query),count=1)
+library(rclinicaltrials) #//throws errors in clinicaltrials_search.Try running clinicaltrials_download on HPC
+library(tidyverse)
+
+search_query_1 <- "('risk prediction' OR prediction score' OR 'predictive score' OR 'prediction model' OR 'predictive model' OR 'prediction algorithm' OR 'predictive algorithm' OR 'prediction tool' OR 'predictive tool' OR 'warning algorithm' OR 'warning score' OR 'prediction rule' OR 'predictive rule')"
+search_query_2 <- "(development OR develop OR establishment OR establish)"
+search_query_3 <- "(diagnosis OR diagnostic OR prognosis OR prognostic OR identification OR identify)"
+
+search_query <- paste(search_query_1,search_query_2,search_query_3,sep=" AND ")
+
+
+query_url <- "http://clinicaltrials.gov/ct2/results?"
+
+#total number of hist for given title_str
+n_titles<-clinicaltrials_count(search_query)
+
+ 
+search_results <- clinicaltrials_download(query=c(search_query),count=10)
+
 # 
 # #review titles
 # search_results$study_info %>% nrow()

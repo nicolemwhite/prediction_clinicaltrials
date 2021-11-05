@@ -68,12 +68,8 @@ for (f in 1:N){ # should be 1:N
                      study_design_allocation=study_design_allocation,
                      study_design_purpose=study_design_purpose,
                      mesh_terms=mesh_terms,
-                     keywords=keywords,
-                     total_enrollment=total_enrollment,
-                     total_enrollment_type=total_enrollment_type)
+                     keywords=keywords)
   studies = bind_rows(studies, frame)
-  
-  
   
 } #end of f loop
 
