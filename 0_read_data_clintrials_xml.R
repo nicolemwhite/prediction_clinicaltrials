@@ -4,8 +4,7 @@
 # read the clinicaltrials.gov data from XML files using the web
 # version reading XMLs from mega zip file, see https://www.clinicaltrials.gov/ct2/resources/download, from https://clinicaltrials.gov/AllPublicXML.zip 
 # March 2021
-library(XML)
-library(tidyverse)
+source('99_packages.R')
 source('99_functions.R')
 home = getwd()
 

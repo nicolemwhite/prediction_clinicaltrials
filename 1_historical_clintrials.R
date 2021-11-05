@@ -2,11 +2,7 @@
 # get historical data on sample size from clinicaltrials.gov
 # see here for help https://stackoverflow.com/questions/44320008/parse-html-data-using-r
 # March 2021
-library(RCurl)
-library(XML)
-library(rvest)
-library(dplyr)
-library(stringr)
+source('99_packages.R')
 source('99_functions.R')
 
 # get the data
