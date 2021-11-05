@@ -4,11 +4,7 @@
 # get historical data on sample size from clinicaltrials.gov
 # see here for help https://stackoverflow.com/questions/44320008/parse-html-data-using-r
 # March 2021
-library(RCurl)
-library(XML)
-library(rvest)
-library(dplyr)
-library(stringr)
+source('99_packages.R')
 source('99_functions.R')
 
 batch_number = 2
@@ -78,3 +74,9 @@ data = distinct(data)
 
 # save
 save(data, k, file=paste0('data/clintrials_history',batch_number,'.RData'))
+
+
+
+load('data/processed_studies.rda')
+
+library(tidytext)
