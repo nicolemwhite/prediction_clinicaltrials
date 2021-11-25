@@ -59,14 +59,14 @@ for (f in 1:N){ # should be 1:N
   keywords = sapply(getNodeSet(data,"//keyword"),xpathSApply,".",xmlValue) %>% str_c(.,collapse = '|')
   
   
-  brief_summary = sapply(getNodeSet(data,"//brief_summary"),xpathSApply,"./textblock",xmlValue) %>% str_remove_all(.,'\\r|\\n|\\s{2,}')
-  detailed_summary = sapply(getNodeSet(data,"//detailed_description"),xpathSApply,"./textblock",xmlValue) %>% str_remove_all(.,'\\r|\\n|\\s{2,}')
+  brief_summary = null_na(sapply(getNodeSet(data,"//brief_summary"),xpathSApply,"./textblock",xmlValue) %>% str_remove_all(.,'\\r|\\n|\\s{2,}'))
+  detailed_summary = null_na(sapply(getNodeSet(data,"//detailed_description"),xpathSApply,"./textblock",xmlValue) %>% str_remove_all(.,'\\r|\\n|\\s{2,}'))
   
   #outcome measures
-  primary_outcome_measures = str_c(sapply(getNodeSet(data,"//primary_outcome"),xpathSApply,"./measure",xmlValue),collapse='. ') %>% str_remove_all(.,'\\r|\\n|\\s{2,}')
-  primary_outcome_description = str_c(sapply(getNodeSet(data,"//primary_outcome"),xpathSApply,"./description",xmlValue),collapse=' ') %>% str_remove_all(.,'\\r|\\n|\\s{2,}')
-  secondary_outcome_measures = str_c(sapply(getNodeSet(data,"//secondary_outcome"),xpathSApply,"./measure",xmlValue),collapse=' ') %>% str_remove_all(.,'\\r|\\n|\\s{2,}')
-  secondary_outcome_description = str_c(sapply(getNodeSet(data,"//secondary_outcome"),xpathSApply,"./description",xmlValue),collapse=' ') %>% str_remove_all(.,'\\r|\\n|\\s{2,}')
+  primary_outcome_measures = null_na(str_c(sapply(getNodeSet(data,"//primary_outcome"),xpathSApply,"./measure",xmlValue),collapse='. ') %>% str_remove_all(.,'\\r|\\n|\\s{2,}'))
+  primary_outcome_description = null_na(str_c(sapply(getNodeSet(data,"//primary_outcome"),xpathSApply,"./description",xmlValue),collapse=' ') %>% str_remove_all(.,'\\r|\\n|\\s{2,}'))
+  secondary_outcome_measures = null_na(str_c(sapply(getNodeSet(data,"//secondary_outcome"),xpathSApply,"./measure",xmlValue),collapse=' ') %>% str_remove_all(.,'\\r|\\n|\\s{2,}'))
+  secondary_outcome_description = null_na(str_c(sapply(getNodeSet(data,"//secondary_outcome"),xpathSApply,"./description",xmlValue),collapse=' ') %>% str_remove_all(.,'\\r|\\n|\\s{2,}'))
   
   #add intervention type/name?
   
