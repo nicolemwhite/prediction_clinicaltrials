@@ -6,6 +6,11 @@
 # March 2021
 source('99_packages.R')
 source('99_functions.R')
+
+#define current set of search terms
+search_terms_1 <- c("machine learning","artificial intelligence","deep learning","prediction model","predictive model","prediction score","predictive score","warning score","risk prediction","risk score")
+search_terms_2 <- c("prognosis","prognostic")
+
 home = getwd()
 
 # folders to download
@@ -34,6 +39,7 @@ for (f in 1:N){ # should be 1:N
   xml_data <- xmlToList(data) # only gets top level children, so vulnerable to missing information where there are multiple lists
   #get high-level information
   id = null_na(xml_data$id_info$nct_id)
+  official_title = null_na(xml_data$official_title)
   brief_title = null_na(xml_data$brief_title)
   overall_status = null_na(xml_data$overall_status)
   last_known_status = null_na(xml_data$last_known_status)
@@ -54,10 +60,21 @@ for (f in 1:N){ # should be 1:N
   
   
   brief_summary = sapply(getNodeSet(data,"//brief_summary"),xpathSApply,"./textblock",xmlValue) %>% str_remove_all(.,'\\r|\\n|\\s{2,}')
-
+  detailed_summary = sapply(getNodeSet(data,"//detailed_description"),xpathSApply,"./textblock",xmlValue) %>% str_remove_all(.,'\\r|\\n|\\s{2,}')
+  
+  #outcome measures
+  primary_outcome_measures = str_c(sapply(getNodeSet(data,"//primary_outcome"),xpathSApply,"./measure",xmlValue),collapse='. ') %>% str_remove_all(.,'\\r|\\n|\\s{2,}')
+  primary_outcome_description = str_c(sapply(getNodeSet(data,"//primary_outcome"),xpathSApply,"./description",xmlValue),collapse=' ') %>% str_remove_all(.,'\\r|\\n|\\s{2,}')
+  secondary_outcome_measures = str_c(sapply(getNodeSet(data,"//secondary_outcome"),xpathSApply,"./measure",xmlValue),collapse=' ') %>% str_remove_all(.,'\\r|\\n|\\s{2,}')
+  secondary_outcome_description = str_c(sapply(getNodeSet(data,"//secondary_outcome"),xpathSApply,"./description",xmlValue),collapse=' ') %>% str_remove_all(.,'\\r|\\n|\\s{2,}')
+  
+  #add intervention type/name?
+  
   frame = data.frame(id=id,
+                     official_title=official_title,
                      brief_title=brief_title,
                      brief_summary=brief_summary,
+                     detailed_summary=detailed_summary,
                      overall_status=overall_status,
                      last_known_status=last_known_status,
                      submitted=submitted,
@@ -66,6 +83,10 @@ for (f in 1:N){ # should be 1:N
                      study_type=study_type,
                      study_design_allocation=study_design_allocation,
                      study_design_purpose=study_design_purpose,
+                     primary_outcome_measures=primary_outcome_measures,
+                     primary_outcome_description=primary_outcome_description,
+                     secondary_outcome_measures=secondary_outcome_measures,
+                     secondary_outcome_description=secondary_outcome_description,
                      mesh_terms=mesh_terms,
                      keywords=keywords)
   studies = bind_rows(studies, frame)
@@ -75,4 +96,12 @@ for (f in 1:N){ # should be 1:N
 # save 
 setwd(home)
 save(studies, file='processed_studies.rda')
+# 
+# #Not run:
+# #create additional columns to identify which search terms were found in each record
+# studies = studies %>% mutate(search_terms_1_title = grepl(paste0('\\b',str_c(search_terms_1,collapse='\\b|\\b'),'\\b'),official_title),
+#                              search_terms_2_title = grepl(paste0('\\b',str_c(search_terms_2,collapse='\\b|\\b'),'\\b'),official_title),
+#                              search_terms_1_summary = grepl(paste0('\\b',str_c(search_terms_1,collapse='\\b|\\b'),'\\b'),brief_summary),
+#                              search_terms_2_summary = grepl(paste0('\\b',str_c(search_terms_2,collapse='\\b|\\b'),'\\b'),official_title))
+# 
 
