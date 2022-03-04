@@ -13,8 +13,10 @@ search_terms_2 <- c("prognosis","prognostic")
 
 home = getwd()
 
-# folders to download
-unzip('Z:/clinicaltrials/AllPublicXML.zip',exdir="Z:/clinicaltrials/search_result")
+# review files in zipped folder
+all_results = unzip('Z:/clinicaltrials/AllPublicXML.zip',list=TRUE) %>% data.frame() %>%
+  filter(Name!='Contents.txt')
+
 
 #filepath to downloaded XML files
 xml_files = dir('Z:/clinicaltrials/search_result')

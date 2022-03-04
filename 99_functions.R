@@ -339,5 +339,5 @@ getXMLrecord_zip <- function(FilePath){
    on.exit(close(study_record))
    data <- xmlParse(go)
    xml_data <- xmlToList(data) 
-   return(xml_data)
+   return(list(xml=xml_data,data=data))
 }
