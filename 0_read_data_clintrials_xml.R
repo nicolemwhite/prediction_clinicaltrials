@@ -14,6 +14,8 @@ search_terms_2 <- c("prognosis","prognostic")
 home = getwd()
 
 # folders to download
+unzip('Z:/clinicaltrials/AllPublicXML.zip',exdir="Z:/clinicaltrials/search_result")
+
 #filepath to downloaded XML files
 xml_files = dir('Z:/clinicaltrials/search_result')
 xml_files = xml_files[grepl('NCT(.*).xml',xml_files)]
