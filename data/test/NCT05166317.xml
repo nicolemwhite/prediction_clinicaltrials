@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="409">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05166317</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ILBS-Bleed-01</org_study_id>
+    <nct_id>NCT05166317</nct_id>
+  </id_info>
+  <brief_title>Comparative Efficacy of Various Non-invasive Methods in Assessing Response to Beta-blockers as Secondary Prophylaxis for Acute Variceal Bleed.</brief_title>
+  <official_title>Comparative Efficacy of Various Non-invasive Methods in Assessing Response to Beta-blockers as Secondary Prophylaxis for Acute Variceal Bleed.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Institute of Liver and Biliary Sciences, India</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Institute of Liver and Biliary Sciences, India</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Portal hypertension (PH) is a common complication of chronic liver disease and a major cause&#xD;
+      of morbidity and mortality in cirrhotic patients. One of the most serious complications of&#xD;
+      liver cirrhosis is esophageal varices (EV) bleeding. The hepatic venous pressure gradient&#xD;
+      (HVPG) is the gold standard for detecting portal hypertension and its complications.&#xD;
+      Furthermore, HVPG is the most reliable method for assessing the efficacy of treatment with&#xD;
+      nonselective -blockers (NSBB), which is the preferred therapy in patients with EV who are at&#xD;
+      high risk of bleeding (HRV) and as a secondary prophylaxis in the prevention of rebleed.&#xD;
+      However, the HVPG is an invasive method that is not widely used and necessitates specialized&#xD;
+      skills. For these reasons, clinical research over the last decade has been focused on&#xD;
+      identifying non-invasive tests (NITs) capable of evaluating the PH degree and its changes.&#xD;
+      The most investigated non-invasive tests are liver and splenic stiffness measurement. In&#xD;
+      advanced cirrhosis, the increase in portal pressure is less dependent on intrahepatic&#xD;
+      resistance to portal flow due to fibrosis progression and more dependent on extra-hepatic&#xD;
+      factors such as hyperdynamic circulation and splanchnic vasodilation hence correlation&#xD;
+      between LSM and PH decreases for HVPG values higher than 12 mmHg.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Aim:&#xD;
+&#xD;
+      To determine the diagnostic accuracy of non-invasive tests in predicting response to NSBB for&#xD;
+      secondary prophylaxis of variceal bleed at 6wks.&#xD;
+&#xD;
+      Primary objective:&#xD;
+&#xD;
+      To compare the diagnostic accuracy of non-invasive modalities in correctly predicting&#xD;
+      response to beta-blockers as compared with HVPG in preventing variceal rebleed at 6 weeks.&#xD;
+&#xD;
+      Secondary objectives:&#xD;
+&#xD;
+        -  Assessment of severity of portal hypertension by non-invasive methods.&#xD;
+&#xD;
+        -  Correlation and Cut-off values for non-invasive methods in responders and&#xD;
+           non-responders.&#xD;
+&#xD;
+        -  AAR, APRI, FIB-4 index, CSPH risk score,fibrosis index, GPR, King's score, Lok score are&#xD;
+           other non- invasive tests.&#xD;
+&#xD;
+        -  Correlation between HVPG &amp;non invasive test, responder and non-responder.&#xD;
+&#xD;
+        -  Comparison ofhypersplenism(Splenic volume and area) and hematological parameters before&#xD;
+           and after treatment.&#xD;
+&#xD;
+        -  Diagnosis and response assessment by convolutional neural network- AI based model.&#xD;
+&#xD;
+        -  Prognostic implication of HVPG rebleed on EVL+beta-blockers.&#xD;
+&#xD;
+      Methodology:&#xD;
+&#xD;
+        -  Study population:All the consecutive patients of cirrhosis admitted to Intensive care&#xD;
+           unit of Hepatology department of ILBS will be evaluated for inclusion&#xD;
+&#xD;
+        -  Study design: Prospective observational study. The study will be conducted in Department&#xD;
+           of Hepatology ILBS.&#xD;
+&#xD;
+        -  Study period: 1.5 years&#xD;
+&#xD;
+        -  Sample size: Assuming that Sn of 92%, α of 5%, Power 80, we need to have 186 patients.&#xD;
+           So we decided to enroll ~200 cases (Including 5% defaulter rate)&#xD;
+&#xD;
+      Intervention:&#xD;
+&#xD;
+        -  HVPG done at the baseline within 5days of acute variceal bleed and at 6weeks&#xD;
+&#xD;
+        -  Endoscopic variceal band ligation at 3rd week&#xD;
+&#xD;
+        -  NSBB started on day 6 which optimised according to heart rate and continued for 6 weeks.&#xD;
+&#xD;
+        -  Monitoring and assessment&#xD;
+&#xD;
+        -  Patients with acute variceal bleed after endovariceal band ligation will be undergoing&#xD;
+           HVPG, TE to measure splenic stiffness and baseline investigations such as complete blood&#xD;
+           count, liver and kidney function test, ultrasonography of the abdomen, contrast enhanced&#xD;
+           computerized tomography of abdomen. These investigations will be carried out within&#xD;
+           5days. After 5 days NSBB is started and is optimsed to maximum dose according to heart&#xD;
+           rate and blood pressure. After 3 weeks EVL is done. After 6 weeks of NSBB, after 3weeks&#xD;
+           of secondary EVL;HVPG, TE to measure liver and splenic stiffness and other baseline&#xD;
+           investigations are done.&#xD;
+&#xD;
+           • Hepatic venous pressure gradient (HVPG):&#xD;
+&#xD;
+        -  Prior to the HVPG measurement, a venous access was performed under ultrasonography after&#xD;
+           local anesthesia. The Seldinger technique was used to insert a catheter into the right&#xD;
+           brachial vein or the right internal jugular vein. An occlusion balloon catheter of 6 F&#xD;
+           was guided in a branch of the hepatic veins, usually the median or right vein, under&#xD;
+           fluoroscopic control and continuous electrocardiographic and pressure monitoring.&#xD;
+&#xD;
+        -  After inflating the balloon at the catheter's tip (maximum diameter ranges from 8.5-11.5&#xD;
+           mm), a venous check was performed to demonstrate complete vessel occlusion. The wedged&#xD;
+           hepatic vein pressure (WHVP) was measured in this condition. Following that, the free&#xD;
+           hepatic vein pressure (FHVP) was measured after deflating the balloon at the catheter's&#xD;
+           tip. On a multi-channel recorder, a permanent trace was obtained. Pressures were also&#xD;
+           achieved in the inferior vena cava and the right atrium. According to the Baveno VI&#xD;
+           consensus, the HVPG-response was defined as a 20% or 12 mmHg reduction in HVPG after&#xD;
+           NSBB treatment.&#xD;
+&#xD;
+        -  HVPG= WHVP - FHVP (Normal is &lt;5mm of Hg)&#xD;
+&#xD;
+           • Ultrasonography of the abdomen:&#xD;
+&#xD;
+        -  dilated portal vein (&gt;13 mm): non-specific&#xD;
+&#xD;
+        -  biphasic or reverse flow in portal vein (late stage): pathognomonic&#xD;
+&#xD;
+        -  recanalization of paraumbilical vein: pathognomonic&#xD;
+&#xD;
+        -  portal-systemic collateral pathways (collateral vessels/varices)&#xD;
+&#xD;
+        -  splenomegaly&#xD;
+&#xD;
+        -  ascites&#xD;
+&#xD;
+        -  The damping index (showing changes in the doppler hepatic vein waveform) corresponds&#xD;
+           with hemodynamically significant portal hypertension and HVPG values (together with HVPG&#xD;
+           changes after treatment)&#xD;
+&#xD;
+        -  splenic arterial resistive index&#xD;
+&#xD;
+           • Liver and splenic stiffness:&#xD;
+&#xD;
+        -  A 3.5-MHz ultrasound transducer probe is mounted on the axis of a vibrator in the&#xD;
+           FibroScan device. Mild amplitude, low-frequency (50 Hz) vibrations are transmitted to&#xD;
+           the liver tissue, causing an elastic shear wave to propagate through the underlying&#xD;
+           tissue.If the success rate was greater than 60% and the interquartile range (IQR) was&#xD;
+           greater than 30% of the median value, LS values were accepted.&#xD;
+&#xD;
+        -  Guidelines for measuring SS is same as LS. SS was performed on a supine patient with&#xD;
+           maximal abduction of the left arm, with the probe positioned in an intercostal space&#xD;
+           where the spleen was correctly visualized by US. Furthermore, in accordance with the&#xD;
+           FibroScan's technical features, patients with a splenic parenchymal thickness of &gt;4 cm&#xD;
+           under the probe were excluded.&#xD;
+&#xD;
+           • Radiomics:&#xD;
+&#xD;
+        -  Convolutional neural network - Deep learning using liver and splenic channels for&#xD;
+           assessment of portal hypertension.&#xD;
+&#xD;
+        -  STATISTICAL ANALYSIS:&#xD;
+&#xD;
+        -  Continuous variables are expressed as the median and categorical data as numbers&#xD;
+           (percentages) (range). For group comparison, use the Mann-Whitney test for continuous&#xD;
+           variables and the 2 test for categorical variables. The Pearson correlation coefficient&#xD;
+           will be used to assess the linear relationship between noninvasive tests and HVPG (r).&#xD;
+           Receiver operating characteristic (ROC) curves will be computed for each of the&#xD;
+           diagnostic parameters evaluated (age, transaminases, platelet count, spleen diameter,&#xD;
+           Plt/Spl, LS, SS, LSPS), as well as the area under the ROC curve (AUROC).For all tests,&#xD;
+           p≤ 0.05 will be considered statistically significant. Analysis will be performed using&#xD;
+           SPSS .The analysis will be done with intention to treat and per protocol analysis if&#xD;
+           applicable.&#xD;
+&#xD;
+        -  Adverse effects:&#xD;
+&#xD;
+        -  1. Major Sideeffects of Betablockers&#xD;
+&#xD;
+        -  Bradycardia,Heart block&#xD;
+&#xD;
+        -  Hyperglycaemia&#xD;
+&#xD;
+        -  Heart failure&#xD;
+&#xD;
+        -  Increase in airway resistance&#xD;
+&#xD;
+        -  Worsening lipid profile&#xD;
+&#xD;
+        -  Exacerbration of peripheral vascular disease&#xD;
+&#xD;
+           2. HVPG related complications&#xD;
+&#xD;
+        -  Transient arrhythmias&#xD;
+&#xD;
+        -  Vagal reaction&#xD;
+&#xD;
+        -  Local access pain and bleeding&#xD;
+&#xD;
+        -  Stopping rule: Development of serious adverse effects leading to withdrawal of the drug&#xD;
+           or death from any cause.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">January 10, 2022</start_date>
+  <completion_date type="Anticipated">October 10, 2022</completion_date>
+  <primary_completion_date type="Anticipated">October 10, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in HVPG and its correlation with non-invasive methods.</measure>
+    <time_frame>6 Weeks</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Assessment of severity of portal hypertension by non-invasive methods.</measure>
+    <time_frame>6 weeks</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation and Cut-off values for non-invasive methods in responders and non-responders in relation to HVPG.</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>Non invasive methods - LSM,SSM &amp; LSPS</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation of Serological and radiological non invasive tests response in comparison with HVPG.</measure>
+    <time_frame>6 weeks</time_frame>
+    <description>AAR, APRI, FIB-4 index, CSPH risk score,fibrosis index, GPR, King's score, Lok score are other non- invasive tests.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Comparison of hypersplenism (Splenic volume and area) and hematological parameters before and after treatment.</measure>
+    <time_frame>6 weeks</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnosis and response assessment by convolutional neural network- AI based model.</measure>
+    <time_frame>6 weeks</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Prognostic implication of HVPG rebleed on EVL+beta-blockers.</measure>
+    <time_frame>6 weeks</time_frame>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Acute Variceal Bleed</condition>
+  <arm_group>
+    <arm_group_label>Liver Cirrhosis</arm_group_label>
+    <description>All the consecutive patients of cirrhosis admitted to Intensive care unit of Hepatology department of ILBS.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>This is an observational study</intervention_name>
+    <description>This is an observational study</description>
+    <arm_group_label>Liver Cirrhosis</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All the consecutive patients of cirrhosis admitted to Intensive care unit of Hepatology&#xD;
+        department of ILBS will be evaluated for inclusion&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Clinical / radiological /histologic diagnosis of cirrhosis (Child A&amp;B)&#xD;
+&#xD;
+          -  Age &gt;18 years&#xD;
+&#xD;
+          -  Advanced compensated liver disease of different etiology(Viral,metabolic,alcoholic)&#xD;
+&#xD;
+          -  Upper GI bleed&#xD;
+&#xD;
+          -  Valid consent&#xD;
+&#xD;
+          -  No history of NSBB use in last 6 weeks&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Age &gt; 70 years&#xD;
+&#xD;
+          -  Portal vein thrombosis&#xD;
+&#xD;
+          -  Underlaying shunts&#xD;
+&#xD;
+          -  Spleen anteroposterior diameter &lt;4cm&#xD;
+&#xD;
+          -  Non cirrhotic portal hypertension&#xD;
+&#xD;
+          -  Only PHG, Ectopic varices&#xD;
+&#xD;
+          -  Heart rate &lt;50bpm, SBP&lt;100mm of Hg,Asthma, COPD, Aortic disease, atrioventricular&#xD;
+             block, Peripheral vascular disease.&#xD;
+&#xD;
+          -  Pregnancy&#xD;
+&#xD;
+          -  obese(BMI&gt;30mm of Hg)&#xD;
+&#xD;
+          -  HIV&#xD;
+&#xD;
+          -  HCC / Other malignancy&#xD;
+&#xD;
+          -  Other Comorbidities: Chronic kidney disease [ CrCl&lt; 30] Cirrhosis : Child C Stroke&#xD;
+             Cardiac failure, Uncontrolled diabetes(HbA1c &gt;9)&#xD;
+&#xD;
+          -  AST/ALT &gt;5 times&#xD;
+&#xD;
+          -  Drug allergies&#xD;
+&#xD;
+          -  ACLF&#xD;
+&#xD;
+          -  Narrow intercoastal space&#xD;
+&#xD;
+          -  Failure to give informed consent from family members.&#xD;
+&#xD;
+          -  Patient enrolled in other clinical study&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Dr Akhil Deshmukh, MD</last_name>
+    <phone>01146300000</phone>
+    <email>akhildeshmukh52@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Institute of Liver and Biliary Sciences</name>
+      <address>
+        <city>New Delhi</city>
+        <state>Delhi</state>
+        <zip>110070</zip>
+        <country>India</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Dr. Akhil Deshmukh, MD</last_name>
+      <phone>011-46300000</phone>
+      <email>akhildeshmukh52@gmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>India</country>
+  </location_countries>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>October 8, 2021</study_first_submitted>
+  <study_first_submitted_qc>December 8, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 21, 2021</study_first_posted>
+  <last_update_submitted>December 28, 2021</last_update_submitted>
+  <last_update_submitted_qc>December 28, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 14, 2022</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Hemorrhage</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

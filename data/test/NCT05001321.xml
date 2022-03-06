@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="22">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05001321</url>
+  </required_header>
+  <id_info>
+    <org_study_id>FirstHCMU_DL_oncology</org_study_id>
+    <nct_id>NCT05001321</nct_id>
+  </id_info>
+  <brief_title>Multi-center and Multi-modal Deep Learning Study of Gastric Cancer</brief_title>
+  <official_title>Multi-center and Multi-modal Deep Learning Study of Diagnosis, Therapeutic Outcome and Prognosis of Gastric Cancer</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>First Hospital of China Medical University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>The Second Hospital of Shandong University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Chaoyang Central Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The General Hospital of Fushun Mining Bureau</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>The fourth People's Hospital of Changzhou</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>First Hospital of Jinzhou Medical University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>First Hospital of China Medical University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      To assist postoperative pathological diagnosis and classification of gastric cancer by&#xD;
+      machine learning; To improve the accuracy of pathological diagnosis of gastric cancer by&#xD;
+      machine learning; To predict the effectiveness of treatment for gastric cancer by deep&#xD;
+      learning; To construct a model to predict the survival of gastric cancer patients by&#xD;
+      multimodal deep learning.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">July 1, 2021</start_date>
+  <completion_date type="Anticipated">December 31, 2024</completion_date>
+  <primary_completion_date type="Anticipated">January 31, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Maximum diameter of tumor</measure>
+    <time_frame>1 day</time_frame>
+    <description>To measure the maximum diameter of tumor on preoperative enhanced abdominal CT of patients with gastric cancer.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Growth pattern</measure>
+    <time_frame>1 day</time_frame>
+    <description>To assess the growth pattern on preoperative enhanced abdominal CT of patients with gastric cancer, including endophytic, exophytic and mixed.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Enhancement pattern</measure>
+    <time_frame>1 day</time_frame>
+    <description>To assess the enhancement pattern on preoperative enhanced abdominal CT of patients with gastric cancer, including homogeneous and heterogeneous.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Enhancement degree</measure>
+    <time_frame>1 day</time_frame>
+    <description>To assess the enhancement degree on preoperative enhanced abdominal CT of patients with gastric cancer, including hypoenhancement, isoenhancement and hyperenhancement.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Nucleus size</measure>
+    <time_frame>1 day</time_frame>
+    <description>To obtain the nucleus size of postoperative H&amp;E stained sections and slides of gastric cancer by deep learning.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Nucleus shape</measure>
+    <time_frame>1 day</time_frame>
+    <description>To obtain the nucleus shape of postoperative H&amp;E stained sections and slides of gastric cancer by deep learning.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Distribution of pixel intensity</measure>
+    <time_frame>1 day</time_frame>
+    <description>To obtain the distribution of pixel intensity of postoperative H&amp;E stained sections and slides of gastric cancer by deep learning.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Texture of nuclei</measure>
+    <time_frame>1 day</time_frame>
+    <description>To obtain the texture of nuclei of postoperative H&amp;E stained sections and slides of gastric cancer by deep learning.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Survival status</measure>
+    <time_frame>1 day</time_frame>
+    <description>To analyze the survival status of patients with gastric cancer, involving dead and alive.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Overall survival</measure>
+    <time_frame>1 day</time_frame>
+    <description>To calculate the overall survival of patients with gastric cancer based on days to death and days to last follow-up.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Recurrence/metastasis</measure>
+    <time_frame>1 day</time_frame>
+    <description>To calculate the days to recurrence/metastasis of patients with gastric cancer.</description>
+  </secondary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Actual">3300</enrollment>
+  <condition>Stomach Neoplasms</condition>
+  <arm_group>
+    <arm_group_label>Training Group</arm_group_label>
+    <description>Based on the inclusion criteria, 2000 gastric cancer patients will be recruited in the analysis. And a model will be constructed based on deep learning.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Internal Validation Group</arm_group_label>
+    <description>Based on the inclusion criteria, 1000 gastric cancer patients will be recruited in this group to verify the sensitivity and specificity of the constructed model.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>External Validation Group</arm_group_label>
+    <description>Based on the inclusion criteria, 300 gastric cancer patients from 5 other medical centers will be recruited in this group to verify the sensitivity and specificity of the constructed model.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>The whole abdomen contrast-enhanced CT scan</intervention_name>
+    <description>All the participants were measured by the whole abdomen contrast-enhanced CT scan.</description>
+    <arm_group_label>External Validation Group</arm_group_label>
+    <arm_group_label>Internal Validation Group</arm_group_label>
+    <arm_group_label>Training Group</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>H&amp;E stained sections and slides</intervention_name>
+    <description>HE pathological examination was performed on all specimens of enrolled patients.</description>
+    <arm_group_label>External Validation Group</arm_group_label>
+    <arm_group_label>Internal Validation Group</arm_group_label>
+    <arm_group_label>Training Group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        3000 gastric cancer patients will participate in the phase I study, they will be divided&#xD;
+        into training group and internal validation group. 300 gastric cancer patients in five&#xD;
+        other medical centers will form the external validation group.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  The diagnosis of gastric cancer was confirmed by pathology;&#xD;
+&#xD;
+          -  Preoperative enhanced abdominal CT;&#xD;
+&#xD;
+          -  Available detailed clinical and pathological data;&#xD;
+&#xD;
+          -  Integrated follow-up data.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  The patients had severe underlying disease;&#xD;
+&#xD;
+          -  Overall survival was less than 3 months;&#xD;
+&#xD;
+          -  No detailed information could be collected.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>79 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Kai Li, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>First Hospital of China Medical University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>The fourth People's Hospital of Changzhou</name>
+      <address>
+        <city>Changzhou</city>
+        <state>Jiangsu</state>
+        <zip>213001</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Chaoyang Central Hospital</name>
+      <address>
+        <city>Chaoyang</city>
+        <state>Liaoning</state>
+        <zip>122099</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>The General Hospital of Fushun Mining Bureau</name>
+      <address>
+        <city>Fushun</city>
+        <state>Liaoning</state>
+        <zip>113012</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>First Hospital of Jinzhou Medical University</name>
+      <address>
+        <city>Jinzhou</city>
+        <state>Liaoning</state>
+        <zip>121012</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>The First Affiliated Hospital of China Medical University</name>
+      <address>
+        <city>Shenyang</city>
+        <state>Liaoning</state>
+        <zip>110000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>The Second Hospital of Shandong University</name>
+      <address>
+        <city>Ji'nan</city>
+        <state>Shandong</state>
+        <zip>250033</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>August 1, 2021</study_first_submitted>
+  <study_first_submitted_qc>August 4, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 11, 2021</study_first_posted>
+  <last_update_submitted>August 4, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 4, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 11, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>First Hospital of China Medical University</investigator_affiliation>
+    <investigator_full_name>Kai Li</investigator_full_name>
+    <investigator_title>Deputy Director of surgical Oncology</investigator_title>
+  </responsible_party>
+  <keyword>Diagnosis</keyword>
+  <keyword>Prognosis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stomach Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

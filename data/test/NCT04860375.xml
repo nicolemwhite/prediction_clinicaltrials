@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="342">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04860375</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Care4COPD</org_study_id>
+    <nct_id>NCT04860375</nct_id>
+  </id_info>
+  <brief_title>Multidisciplinary Management of Severe COPD</brief_title>
+  <official_title>Longitudinal, Open Label, Clinical Trial Evaluating the Effectiveness of Detailed Phenotyping and Subsequent Multidisciplinary Management of Both COPD and Multimorbidity in Patients With COPD After a Hospitalization Due to Acute Exacerbation of COPD.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Vastra Gotaland Region</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Vastra Gotaland Region</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Chronic Obstructive Pulmonary Disease (COPD) is a common chronic disease that is&#xD;
+      characterized by persistent airflow limitation, that is due to airway and/or alveolar&#xD;
+      abnormalities usually caused by significant exposure to noxious particles or gases,&#xD;
+      particularly cigarette smoking. Latest updates of the Global Burden of Disease emphasize the&#xD;
+      dramatic size of the problem. In 2015, 3,2 million people died from COPD worldwide, an&#xD;
+      increase of 11,6% compared with 1990. The overall prevalence of COPD increased by 44,2% and&#xD;
+      was associated with a significant increase of disability-adjusted life years. In Sweden the&#xD;
+      prevalence of COPD is approximately 8% bringing the annual total estimated cost for society&#xD;
+      of 9.1 billion SEK. About 1/3 of patients with COPD undergo periods of acute worsening of&#xD;
+      respiratory symptoms, particularly dyspnea. Acute worsening of respiratory symptoms is&#xD;
+      associated with increased in-hospital mortality (up to 20%), short term- (up to 60% at 1&#xD;
+      year) and long-term mortality (&gt; 50% at 5 years) and high risk of re-hospitalization. Because&#xD;
+      patients with COPD often suffer concomitant disorders that significantly worsen their health&#xD;
+      status and vital prognosis, the management of the patients is not only the management of COPD&#xD;
+      but must include identification and treatment of other concomitant chronic diseases.&#xD;
+&#xD;
+      Accurate diagnosis, assessment of severity, and long-term interdisciplinary management of&#xD;
+      both COPD and concomitant chronic diseases in patients with COPD could be associated with a&#xD;
+      decreased number of hospitalizations and deaths, improved quality of life and decreased&#xD;
+      health care utilization in the following 3 years. This longitudinal study will evaluate the&#xD;
+      effectiveness of detailed phenotyping and comprehensive multidisciplinary management of COPD&#xD;
+      and multimorbidity in patients.&#xD;
+&#xD;
+      This is a prospective, open label, cohort study using design of intervention and registries&#xD;
+      data. The anticipated study time is 5 years, with 3 years of intervention (including 2 years&#xD;
+      of recruitment period) and 1-year data collection from the National Registries. The study&#xD;
+      will compare number of rehospitalizations from all causes of patient recruited after a&#xD;
+      hospitalization due to acute exacerbations of COPD to control patients included from the&#xD;
+      Swedish Airway Register (SAR). The selection of the control population within the SAR is&#xD;
+      based on risk score matching. At the first visit a thorough individual's assessment will be&#xD;
+      performed. The assessment includes information about demographics, COPD and exacerbations,&#xD;
+      medical history, comorbidities, vital parameters, blood and sputum tests and assessment of&#xD;
+      quality of life. Based on the outcome from the assessment and disease phenotype, personalized&#xD;
+      care plans will be prepared and given to the patients, including dietary program, adjusted&#xD;
+      exercise program, psychological counselling, treatment of comorbidities etc. Patients will&#xD;
+      come for planned follow-up visits, according to the protocol. The last visit will take place&#xD;
+      at 5th year after the study start. The &quot;end of study&quot; is defined as last visit of the last&#xD;
+      subject or if the effectiveness of the intervention is shown before. Data collected at eCRFs&#xD;
+      will be combined with the data from SAR and complemented with data from Swedish National&#xD;
+      Registries.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">September 22, 2021</start_date>
+  <completion_date type="Anticipated">March 31, 2027</completion_date>
+  <primary_completion_date type="Anticipated">March 31, 2026</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>This is a prospective, open label, cohort study using design of intervention and registries data. Eligible patients for intervention group will be recruited consecutively from patients referred to the COPD-Center at the Sahlgrenska University Hospital, after a hospital admission because of acute or progressive worsening dyspnea. The control group will be recruited from the Swedish Airway Register and selection will be based on propensity score matching. A total of 110 patients will be included in the intervention group and 220 in the control group.</intervention_model_description>
+    <primary_purpose>Prevention</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Total number of hospitalizations</measure>
+    <time_frame>Baseline and 3 years after baseline</time_frame>
+    <description>The aim is to investigate whether comprehensive care according to an individual plan (accurate diagnosis, assessment of severity, and multidisciplinary management of COPD patients referred to the COPD center after hospitalization caused by hospitalization due to acute exacerbation of COPD) will be associated with a decreased number of hospitalizations from all causes compared to a standard care.&#xD;
+Change in number of hospitalizations will be calculated by total number of hospitalizations from all causes per year.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Number of hospitalizations for COPD diagnosis</measure>
+    <time_frame>Baseline and 3 years after baseline</time_frame>
+    <description>Change will be calculated by number of hospitalizations for COPD and compared to a total number of hospitalizations from other causes.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Length of hospitalization</measure>
+    <time_frame>Baseline and 3 years after baseline</time_frame>
+    <description>Change in mean hospitalization time will be calculated by number of hospitalization days per year and in total study period.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mortality</measure>
+    <time_frame>Baseline and up to 3 years after baseline</time_frame>
+    <description>Change in all cause mortality will be measured by time to death (days, months or years).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Impact of COPD on patient's health</measure>
+    <time_frame>Baseline and 3 years after baseline</time_frame>
+    <description>Change in disease-specific impact on health will be assessed by using a COPD Assessment Test (CAT) questionnaire. CAT measures COPD symptoms with scores from 0 to 5 points (0 indicating no impact or symptoms, 5- worst possible impact or symptoms) summing up to a total CAT score range of 0-40 points.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Dyspnea</measure>
+    <time_frame>Baseline and 3 years after baseline</time_frame>
+    <description>Change in dyspnea will be measured by Modified Medical Research Council Dyspnea Scale (mMRC). The scale ranges 0 to 4 points, higher score indicating higher degree of disability that breathlessness poses on day-to-day activities.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Anxiety and depression</measure>
+    <time_frame>Baseline and 3 years after baseline</time_frame>
+    <description>Change in anxiety and depression will be assessed by using the Hospital Anxiety and Depression Scale (HADS). HADS is a fourteen-item scale with seven items each for anxiety and depression subscales. Scoring for each item ranges from zero to three. A subscale score &gt;10 denotes anxiety or depression.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Sleepiness</measure>
+    <time_frame>Baseline and 3 years after baseline</time_frame>
+    <description>Change in sleepiness will be measured by the Epworth Sleepiness Scale (ESS). The result is a sum of 8 item scores (0-3) can range from 0 to 24. The higher the ESS score, the higher that person's average sleep propensity in daily life or their 'daytime sleepiness'.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Physical activity</measure>
+    <time_frame>Baseline and 3 years after baseline</time_frame>
+    <description>Change in physical activity will be measured by 6-Minute Walking Test.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">110</enrollment>
+  <condition>Copd</condition>
+  <condition>COPD Exacerbation</condition>
+  <arm_group>
+    <arm_group_label>Multidisciplinary, holistic and patient-centered care</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>Based on the outcome from the assessment and disease phenotype, personalized care plans will be prepared and given to the patients, including dietary program, adjusted exercise program, psychological counselling, treatment of comorbidities etc. Patients will come for planned follow-up visits, according to the protocol (total 5 visits).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Standard care</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>The control group will be recruited from the Swedish Airway Register at the end of the study. Selection will be based on propensity score matching to the intervention group.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Multidisciplinary patient care</intervention_name>
+    <description>A holistic, multidisciplinary, patient-centered care.</description>
+    <arm_group_label>Multidisciplinary, holistic and patient-centered care</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Standard care</intervention_name>
+    <description>Standard care in Sweden</description>
+    <arm_group_label>Standard care</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Male or female patients, aged ≥40 years.&#xD;
+&#xD;
+          2. Smokers or ex-smokers (≥10 pack-year).&#xD;
+&#xD;
+          3. Prior hospitalization because of progressively worsening dyspnea (associated or not&#xD;
+             with increased cough and sputum, and or sputum purulence), with a clinically suspected&#xD;
+             diagnosis of exacerbations of COPD that prompt the discharging physician to refer the&#xD;
+             patient to the COPD Center.&#xD;
+&#xD;
+          4. Signed informed concent form.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Presenting to the hospital for similar symptoms, which are not defined by the&#xD;
+             clinicians as suspected exacerbations of COPD, because of alternative diagnoses not&#xD;
+             related to patients with COPD (e.g., chest wall trauma, neurological disorders,&#xD;
+             sepsis, cancer and anemia).&#xD;
+&#xD;
+          2. Already enrolled in other studies perceived to interfere with this protocol.&#xD;
+&#xD;
+          3. In whom spirometry test is contraindicated (e.g., hemoptysis, detached retina, active&#xD;
+             tuberculosis).&#xD;
+&#xD;
+          4. Unable to comply with study procedures and follow-ups in the opinion of the&#xD;
+             Investigator (e.g., other severe diseases with short life expectancy or who make it&#xD;
+             impossible for the patients to participate into the study, evidence of alcohol or drug&#xD;
+             abuse, dementia, severe psychiatric disorder).&#xD;
+&#xD;
+          5. Acute myocardial infarction and unstable angina pectoris or arrhythmias requiring&#xD;
+             specific cardiology ICU.&#xD;
+&#xD;
+          6. Diagnosed stroke, dementia, degenerative neurological disorders or psychiatry&#xD;
+             disorders requiring specialized care.&#xD;
+&#xD;
+          7. At the discretion of the recruiting clinician would not be able to be considered for&#xD;
+             the study.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Lowie Vanfleteren</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>COPD-center, Sahlgrenska University Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Lowie Vanfleteren</last_name>
+    <phone>0046736601730</phone>
+    <email>lowie.vanfleteren@vgregion.se</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>COPD-Center</name>
+      <address>
+        <city>Gothenburg</city>
+        <state>VGR</state>
+        <country>Sweden</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Lowie Vanfleteren</last_name>
+    </contact>
+    <contact_backup>
+      <last_name>Anna Lundborg</last_name>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Sweden</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>April 15, 2021</study_first_submitted>
+  <study_first_submitted_qc>April 23, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">April 26, 2021</study_first_posted>
+  <last_update_submitted>January 31, 2022</last_update_submitted>
+  <last_update_submitted_qc>January 31, 2022</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 1, 2022</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Vastra Gotaland Region</investigator_affiliation>
+    <investigator_full_name>Lowie Vanfleteren</investigator_full_name>
+    <investigator_title>Principal Investigator, Head of COPD-center</investigator_title>
+  </responsible_party>
+  <keyword>COPD</keyword>
+  <keyword>Multidisciplinary management</keyword>
+  <keyword>COPD exacerbation</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pulmonary Disease, Chronic Obstructive</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

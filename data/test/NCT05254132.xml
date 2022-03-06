@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="254">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05254132</url>
+  </required_header>
+  <id_info>
+    <org_study_id>0060RDX</org_study_id>
+    <nct_id>NCT05254132</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence for Help Non-Small Cell Lung Cancer: Measure Cancer Biology and Treatment Response Via Imaging</brief_title>
+  <acronym>SALMON</acronym>
+  <official_title>Artificial Intelligence to Help Non-Small Cell Lung Cancer Patients: Measure Lung Cancer Biology and Treatment Response Via Imaging</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>OncoRadiomics</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University Hospital, Antwerp</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>OncoRadiomics</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      SALMON is a prospective, multi-center, multi-country, biomarker validation study that&#xD;
+      synergizes an extensive non-interventional biomarker discovery study on diagnostic images and&#xD;
+      tissue biopsies of non-small cell lung cancer NSCLC (rATLAS) with a smaller biomarker&#xD;
+      minimally interventional study on patients with metastases who undergo liquid biopsy and&#xD;
+      imaging follow-up for 2 years (aRECIST). A total of 1120 patients will be screened to get&#xD;
+      1000 participants enrolled in rATLAS, and a subset of 250 participants will be screened to&#xD;
+      then recruit 150 participants also for aRECIST. The study will end after one visit for&#xD;
+      participants in rATLAS while there is a 2-years follow-up period for participants in aRECIST.&#xD;
+      Participants will not receive any treatment specific for this study, but might receive&#xD;
+      standard of care therapy or investigational products in the framework of another clinical&#xD;
+      study following the baseline visit.&#xD;
+&#xD;
+      The objectives of optimizing AI based tools for the assessment of EGFR status (rATLAS) and&#xD;
+      automated Response Evaluation Criteria in Solid Tumours 1.1 (RECIST 1.1) (aRECIST) will be&#xD;
+      achieved using a trial design that combines a biomarker discovery study design&#xD;
+      (cross-sectional for rATLAS) with a reader study design (follow-up study in aRECIST). Medical&#xD;
+      treatments in the aRECIST cohort are not dictated by study protocol, rather determined by the&#xD;
+      clinicians in line with standard clinical practice.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Lung cancer is the leading cause of cancer-related death worldwide, accounting for an&#xD;
+      estimated 2.1 million deaths in 2018. About 80%-85% of lung cancers are NSCLC. The main&#xD;
+      subtypes of NSCLC are adenocarcinoma, squamous cell carcinoma, and large cell carcinoma.&#xD;
+      These subtypes, which start from different types of lung cells, are grouped together as&#xD;
+      NSCLC. For these reasons, the choice of NSCLC for this trial is the most relevant, as there&#xD;
+      is a clear societal burden / clinical need that will be addressed in SALMON.&#xD;
+&#xD;
+      A pressing need exists to uncover the genetic and molecular composition of tumors, as this&#xD;
+      information would accelerate the development of more effective cancer therapies. Since tumors&#xD;
+      differ in their biological makeup, treatments can now often be tailored towards individual&#xD;
+      patients, in a strategy termed personalized medicine. NSCLC perfectly illustrates this&#xD;
+      paradigm, with treatments either targeted at well-defined oncogenic pathways (epidermal&#xD;
+      growth factor receptor (EGFR) mutations, Anaplastic lymphoma kinase (ALK) &amp; receptor tyrosine&#xD;
+      kinase 1 (ROS1) gene rearrangements, B-Rapidly Accelerated Fibrosarcoma gene (BRAF)&#xD;
+      mutations), and for so-called &quot;wild-type&quot; NSCLC, immunotherapy (with or without&#xD;
+      chemotherapy). The recent development of different types of immunotherapy has led to&#xD;
+      promising advances in the treatment of patients with NSCLC in advanced or metastatic disease.&#xD;
+&#xD;
+      Medical imaging plays a pivotal role in the assessment of tumors, including lung cancer, as&#xD;
+      it provides non-invasively the features to identify, characterize and stage the local tumor&#xD;
+      and its overall metastatic burden. The information provided by imaging can be still improved&#xD;
+      with a thorough post-processing analysis of the images, with &quot;radiomics&quot; being the most&#xD;
+      sophisticated tool for quantitative imaging. Through radiomics the imaging data obtained can&#xD;
+      be linked to specific biological properties of the tumor, acquired either from tissue or&#xD;
+      liquid biopsies. However, the knowledge on this is fragmented to date.&#xD;
+&#xD;
+      The first objective of this trial is to generate a radiomics atlas (rATLAS) that provides a&#xD;
+      broader link between biological descriptors and medical imaging features in NSCLC, to&#xD;
+      eventually identify oncologic pathways through medical images and quantify the overall burden&#xD;
+      of specific markers for targeted therapies. In particular, imaging biomarkers that can&#xD;
+      predict immunosensitivity and more accurately predict the prognosis than the existing ones&#xD;
+      will be assessed on the medical images and compared to tissue and liquid biopsies.&#xD;
+&#xD;
+      Apart from NSCLC diagnosis and staging, imaging plays a key role also in the evaluation of&#xD;
+      patient's follow-up, representing the gold standard for the assessment of response to&#xD;
+      therapy. However, the evaluation of medical images is amenable to radiologist's&#xD;
+      interpretation and many attempts have been made to face this issue in the last decades. The&#xD;
+      RECIST is a one-dimensional measure (shortest/longest diameter in the plane of measurement)&#xD;
+      created in 2000, updated in 2009 (RECIST 1.1), with a branch for immunotherapy finalized in&#xD;
+      2017 (iRECIST). RECIST, in all its different declination, is used to assess whether a tumor&#xD;
+      in cancer patients is progressing, regressing or did not change before and after some event,&#xD;
+      such as therapy. RECIST criteria are recognized both in the EU and in US. Although&#xD;
+      representing an international attempt to overcome the subjective evaluation of tumor response&#xD;
+      to cancer treatment, biases of measurements remain as it relies on human assessments. In 1976&#xD;
+      Moertel and Hanley acknowledged that &quot;the culmination of most experimental therapeutic trials&#xD;
+      for solid tumors occurs when a [physician] places a ruler or caliper over a lump and attempts&#xD;
+      to estimate its size,&quot; and with this measurement comes the inevitable component of human&#xD;
+      error. In 2021 this issue is still present in clinical practice, but in the last years&#xD;
+      Artificial Intelligence (AI) has demonstrated remarkable progress in image-recognition tasks&#xD;
+      in research.&#xD;
+&#xD;
+      Thus, the investigators propose to eliminate the shortcomings of measurement biases with the&#xD;
+      second objective of our trial that is focused on the validation of a new automated RECIST&#xD;
+      (aRECIST) workflow for the assessment of therapy response.&#xD;
+&#xD;
+      A signed and dated informed consent form will be obtained from each patient before any&#xD;
+      screening procedures are conducted. The participants will be prospectively enrolled to rATLAS&#xD;
+      only, to both rATLAS and aRECIST, or considered as screen failure. If enrolled then a unique&#xD;
+      study-specific subject number shall be assigned, Informed consent form will be signed and the&#xD;
+      following evaluations will be included:&#xD;
+&#xD;
+      The following data will be obtained for each participant from medical files and records:&#xD;
+&#xD;
+        -  Demographic data (Age, Gender, Race, country);&#xD;
+&#xD;
+        -  Anthropometric data (Weight in kg, Height in cm, body mass index (BMI) in kg/m^2);&#xD;
+&#xD;
+        -  Medical history (comorbidities, oncology-related history, Chronic obstructive pulmonary&#xD;
+           disease (COPD), Interstitial lung disease (ILD), Pulmonary vascular disease, history&#xD;
+           related to NSCLC);&#xD;
+&#xD;
+        -  Substance use (cigarettes/e-cigarettes/alcohol), duration and dose/frequency [smoking&#xD;
+           required, others optional];&#xD;
+&#xD;
+        -  Concomitant treatment only linked to immunotherapy, chemotherapy, radiotherapy, and&#xD;
+           targeted therapy (subtype, drug name, line of treatment (first/second/third line),&#xD;
+           reason for discontinuation (completed regimen/completed response/progression&#xD;
+           disease/toxicity/other);&#xD;
+&#xD;
+        -  Eastern Cooperative Oncology Group (ECOG) performance status (0 to 5);&#xD;
+&#xD;
+        -  Histological diagnosis (adenocarcinoma, squamous cell carcinoma, large cell carcinoma,&#xD;
+           adenosquamous cell carcinoma, other);&#xD;
+&#xD;
+        -  Laboratoristic data: Hematology (hemoglobin, hematocrit, leukocytes, neutrophils,&#xD;
+           eosinophils, basophils, lymphocytes, monocytes, platelets) and Chemistry (sodium,&#xD;
+           bicarbonate, chloride, calcium, albumin, magnesium, phosphate, blood urea nitrogen,&#xD;
+           protein, urea, potassium, creatinine, estimated glomerular filtration rate, bilirubin,&#xD;
+           direct bilirubin, aspartate aminotransferase (AST), alanine aminotransferase (ALT),&#xD;
+           alkaline phosphatase, lactate dehydrogenase (LDH), carcinoembryonic antigen (CEA),&#xD;
+           squamous cell carcinoma (SCC)).&#xD;
+&#xD;
+      From clinical examination and imaging (and multidisciplinary discussion report if available)&#xD;
+      the following data will be recorded per participant: Clinical Tumor Staging (cTNM) upon&#xD;
+      initial diagnosis.&#xD;
+&#xD;
+      From Radiology department the following data will be recorded per participant: The staging&#xD;
+      computed tomography (CT) scan data already performed at the site per standard of care (SoC)&#xD;
+      will be pseudo-anonymized and sent to the central reader, along with Positron Emission&#xD;
+      Tomography (PET)/CT and brain magnetic resonance imaging (MRI) scans obtained per patient&#xD;
+      staging, when available.&#xD;
+&#xD;
+      Then, depending on group (aRECIST or rATLAS), the following steps will also be considered:&#xD;
+&#xD;
+      rATLAS: Diagnostic samples of tissue biopsy (ideally 1 block or 25 slides - minimum required:&#xD;
+      10 slides) performed at the participating site per standard of care will be shipped to the&#xD;
+      central laboratory for testing on oncogenic biomarkers. After this baseline visit all&#xD;
+      participants in rATLAS may start their treatment as per SoC. rATLAS study ends after this&#xD;
+      baseline and enrolment visit.&#xD;
+&#xD;
+      aRECIST: A liquid biopsy will be obtained (blood sample, 1 tube of 10 ml) and shipped within&#xD;
+      2 days to the central laboratory for oncogenic biomarker testing. In order not to influence&#xD;
+      therapeutic decision making, biomarker results will be shared with the sites only after the&#xD;
+      decision concerning NSCLC therapy has been made. Diagnostic samples of tissue biopsy which&#xD;
+      have been obtained for ATLAS (ideally 1 block or 25 slides - minimum required: 10 slides)&#xD;
+      performed at the participating site per standard of care will be shipped to the central&#xD;
+      laboratory for oncogenetic biomarker testing. In those cases where standard tissue biopsy is&#xD;
+      not obtained, fine needle biopsy and cells obtained per SoC by fine needle aspiration could&#xD;
+      be analyzed and send to the central laboratory following specific procedures. Enough material&#xD;
+      should be available to be analyzed, otherwise the genetic testing would not be possible.&#xD;
+&#xD;
+      After baseline all participants of the aRECIST group will undergo standard chemotherapy&#xD;
+      and/or immunotherapy and will be followed up for a maximum of 2 years to investigate a&#xD;
+      possible treatment response (manual local &amp; central and automated RECIST) by imaging&#xD;
+      parameters and liquid biopsy. These participants will need to return to the clinic for liquid&#xD;
+      biopsies (2 tubes of 10 mL) at 3, 6, 12 and 24 months within 5 days (before or after) of&#xD;
+      their imaging follow-up as per SoC. It is the site staff that will be responsible for&#xD;
+      providing a copy of all relevant post-treatment CT-scans (and PET/CT scan if available) as&#xD;
+      taken per SoC together with local RECIST scoring, NSCLC treatment(s) information (class,&#xD;
+      dose, duration) and NSCLC-related events. The data will be collected at time-points as per&#xD;
+      standard of care (at 3, 6, 12, and 24 months approximately). The participant's participation&#xD;
+      to aRECIST will end 2 years after baseline or earlier in case of death or any event that in&#xD;
+      the opinion of the investigator requires an early termination.&#xD;
+&#xD;
+      In particular, the site staff will be responsible to provide a liquid biopsy (2 tubes of 10ml&#xD;
+      each) and to share the following data at 3 (visit1), 6 (visit 2), 12 (visit 3), and 24 (visit&#xD;
+      4) months):&#xD;
+&#xD;
+        -  A copy of all relevant post-treatment CT scans - and PET/CT scans if available - as&#xD;
+           taken per SoC&#xD;
+&#xD;
+        -  Detailed description of CT acquisition for each participant, including contrast media&#xD;
+           injection characteristics&#xD;
+&#xD;
+        -  Local reading of treatment response by using RECIST 1.1 criteria (manual local reading),&#xD;
+           along with the time needed for evaluating each participant,&#xD;
+&#xD;
+        -  A liquid biopsy (2 tubes of 10 ml each) within 5 days of the CT scan performed for&#xD;
+           participant follow up&#xD;
+&#xD;
+        -  NSCLC treatment(s) information (class, dose, duration, specific timeframes)&#xD;
+&#xD;
+        -  NSCLC-related events.&#xD;
+&#xD;
+      Any rATLAS participant are considered as having completed the study after performing the&#xD;
+      initial baseline visit (Day 0), except for those also participating to aRECIST. Participants&#xD;
+      of aRECIST are considered as having completed the study after the 2-year follow-up period, or&#xD;
+      earlier, in case of death or any event that in the opinion of the investigator requires an&#xD;
+      early termination.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 1, 2022</start_date>
+  <completion_date type="Anticipated">June 30, 2025</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2025</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Equivalence between aRECIST and manual RECIST in the evaluation of target lesions at time of study enrolment</measure>
+    <time_frame>At time of study enrolment</time_frame>
+    <description>Equivalence will be assessed by comparing manual RECIST target response (central readings) with the target response as generated by the automated Radiomics aRECIST workflow. Categorical similarity measures between central panel RECIST and aRECIST will be computed through Cohen's kappa coefficient. aRECIST is considered successful if kappa is at least 0.7 (lower bound), in the full dataset of 150 patients.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Equivalence between aRECIST and manual RECIST in the evaluation of target lesions at month 3</measure>
+    <time_frame>Month 3</time_frame>
+    <description>Equivalence will be assessed by comparing manual RECIST target response (central readings) with the target response as generated by the automated Radiomics aRECIST workflow. Categorical similarity measures between central panel RECIST and aRECIST will be computed through Cohen's kappa coefficient. aRECIST is considered successful if kappa is at least 0.7 (lower bound), in the full dataset of 150 patients.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Equivalence between aRECIST and manual RECIST in the evaluation of target lesions at month 6</measure>
+    <time_frame>Month 6</time_frame>
+    <description>Equivalence will be assessed by comparing manual RECIST target response (central readings) with the target response as generated by the automated Radiomics aRECIST workflow. Categorical similarity measures between central panel RECIST and aRECIST will be computed through Cohen's kappa coefficient. aRECIST is considered successful if kappa is at least 0.7 (lower bound), in the full dataset of 150 patients.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Equivalence between aRECIST and manual RECIST in the evaluation of target lesions at month 12</measure>
+    <time_frame>Month 12</time_frame>
+    <description>Equivalence will be assessed by comparing manual RECIST target response (central readings) with the target response as generated by the automated Radiomics aRECIST workflow. Categorical similarity measures between central panel RECIST and aRECIST will be computed through Cohen's kappa coefficient. aRECIST is considered successful if kappa is at least 0.7 (lower bound), in the full dataset of 150 patients.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Equivalence between aRECIST and manual RECIST in the evaluation of target lesions at month 24</measure>
+    <time_frame>Month 24</time_frame>
+    <description>Equivalence will be assessed by comparing manual RECIST target response (central readings) with the target response as generated by the automated Radiomics aRECIST workflow. Categorical similarity measures between central panel RECIST and aRECIST will be computed through Cohen's kappa coefficient. aRECIST is considered successful if kappa is at least 0.7 (lower bound), in the full dataset of 150 patients.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Identification of imaging biomarkers that discriminate EGFR status in patients with NSCLC with a minimum area under the curve of 0.65</measure>
+    <time_frame>At time of study enrolment</time_frame>
+    <description>A radiomics-based EGFR mutation prediction model will be trained and tested. The EGFR mutation prediction model is considered successful if its AUC of ROC is ≥ 0.65 in the independent test set of 200 patients.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Reduction in diagnostic time and inter-reader variability compared to manual RECIST (local reading) in determining therapeutic response on target lesions.</measure>
+    <time_frame>Month 24</time_frame>
+    <description>Statistical testing on the performance difference between models predicting survival at 24 months will be performed to compare the prognostic value of aRECIST to that of RECIST. Categorical similarity measures between central panel RECIST and local RECIST will be computed through Cohen's kappa coefficient. Inter-reader agreement within the central panel will be computed trough the kappa coefficient.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Identification of imaging biomarkers that correlate with major oncogenic biomarkers to help guide drug development and therapy choice in NSCLC, with a minimum AUC of 0.65</measure>
+    <time_frame>At time of study enrolment</time_frame>
+    <description>This is assessed by comparing biomarker results from solid biopsies with CT-scan imaging features collected at the baseline visit. A customized radiomics approach to identify statistically significant differences in radiomics features between numerous genomic/biological statuses will be used to map the rATLAS.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Non Small Cell Lung Cancer</condition>
+  <arm_group>
+    <arm_group_label>aRECIST</arm_group_label>
+    <description>Treatment naive patients with metastatic NSCLC (stage four) with life expectancy of more than three months.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>rATLAS</arm_group_label>
+    <description>Treatment naive patients diagnosed with NSCLC.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Liquid biopsy</intervention_name>
+    <description>Participants in the aRECIST group will undergo a blood draw for liquid biopsy analysis at baseline and follow up visits</description>
+    <arm_group_label>aRECIST</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Blood sample for liquid biopsy analysis (DNA and RNA analysis, immunohistochemistry) Tumor&#xD;
+      biopsy sample (DNA and RNA analysis, immunohistochemistry)&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The multi-racial population of rATLAS will be prospectively recruited from 35 different EU&#xD;
+        sites. No gender predilection will be applied, so that the final population could represent&#xD;
+        a real spectrum of the population affected by NSCLC. The aRECIST cohort will include stage&#xD;
+        IV NSCLC patients recruited from 10 different sites.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Participant must be aged at least 18 years&#xD;
+&#xD;
+          -  Willing and able to comply with clinic visits and study-related procedures.&#xD;
+&#xD;
+          -  Willing and able to provide signed informed consent.&#xD;
+&#xD;
+          -  Participant must be at first diagnosis of NSCLC and have the largest diameter of the&#xD;
+             primary tumor equal or greater than 2 cm.&#xD;
+&#xD;
+          -  Participant must be treatment naïve (includes radiotherapy).&#xD;
+&#xD;
+          -  Participant must have received a CT scan for the diagnosis of NSCLC according to&#xD;
+             &quot;Imaging Protocol&quot; document (Appendix 1).&#xD;
+&#xD;
+          -  Participant with confirmed availability of representative tumor specimens in&#xD;
+             formalin-fixed, paraffin-embedded (FFPE) blocks or ≥25 unstained slides (at least 10&#xD;
+             unstained slides). Participant without adequate archival tumor specimens cannot be&#xD;
+             included&#xD;
+&#xD;
+        Additional inclusion criteria specific to aRECIST cohort:&#xD;
+&#xD;
+          -  Participant must be diagnosed with NSCLC Stage IV.&#xD;
+&#xD;
+          -  Participant must have a life expectancy ≥ 3 months.&#xD;
+&#xD;
+          -  Participant must have at least one lesion that is suitable for accurate repeated&#xD;
+             assessment (according to RECIST criteria).&#xD;
+&#xD;
+          -  Participant must be able to comply with standard of care visits for imaging purposes&#xD;
+             to follow-up on treatment response.&#xD;
+&#xD;
+          -  Participant must need to agree to undergo a liquid biopsy at baseline and at follow-up&#xD;
+             visits.&#xD;
+&#xD;
+          -  Participant must undergo either chemotherapy or immunotherapy after baseline visit,&#xD;
+             according to SoC.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Pregnant or breast-feeding participants (to avoid radiation exposure)&#xD;
+&#xD;
+          -  Participant is either an employee of Radiomics or the investigational center or an&#xD;
+             immediate relative of an employee of Radiomics or the investigational center.&#xD;
+&#xD;
+          -  Participant with total body CT scan already performed at a different site with&#xD;
+             acquisition parameters different from those reported in the Imaging Protocol&#xD;
+&#xD;
+        Additional inclusion criteria specific to aRECIST cohort:&#xD;
+&#xD;
+        • Participant who previously underwent or are planned for curable cancer surgery&#xD;
+        (lobectomy, wedge resection, pneumonectomy) or ablative radiotherapy on metastases.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jan P Van Meerbeeck, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Hospital, Antwerp</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Lise Barbeaux</last_name>
+    <phone>+3242292280</phone>
+    <email>lise.barbeaux@radiomics.bio</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Mariaelena Occhipinti, MD PhD</last_name>
+    <phone>+3242292280</phone>
+    <email>mariaelena.occhipinti@radiomics.bio</email>
+  </overall_contact_backup>
+  <reference>
+    <citation>Gridelli C, Rossi A, Carbone DP, Guarize J, Karachaliou N, Mok T, Petrella F, Spaggiari L, Rosell R. Non-small-cell lung cancer. Nat Rev Dis Primers. 2015 May 21;1:15009. doi: 10.1038/nrdp.2015.9. Review.</citation>
+    <PMID>27188576</PMID>
+  </reference>
+  <reference>
+    <citation>Goldstraw P, Ball D, Jett JR, Le Chevalier T, Lim E, Nicholson AG, Shepherd FA. Non-small-cell lung cancer. Lancet. 2011 Nov 12;378(9804):1727-40. doi: 10.1016/S0140-6736(10)62101-0. Epub 2011 May 10. Review.</citation>
+    <PMID>21565398</PMID>
+  </reference>
+  <reference>
+    <citation>Dempke WC, Suto T, Reck M. Targeted therapies for non-small cell lung cancer. Lung Cancer. 2010 Mar;67(3):257-74. doi: 10.1016/j.lungcan.2009.10.012. Epub 2009 Nov 14. Review.</citation>
+    <PMID>19914732</PMID>
+  </reference>
+  <reference>
+    <citation>El-Deiry WS, Goldberg RM, Lenz HJ, Shields AF, Gibney GT, Tan AR, Brown J, Eisenberg B, Heath EI, Phuphanich S, Kim E, Brenner AJ, Marshall JL. The current state of molecular testing in the treatment of patients with solid tumors, 2019. CA Cancer J Clin. 2019 Jul;69(4):305-343. doi: 10.3322/caac.21560. Epub 2019 May 22. Review.</citation>
+    <PMID>31116423</PMID>
+  </reference>
+  <reference>
+    <citation>Aerts HJ. The Potential of Radiomic-Based Phenotyping in Precision Medicine: A Review. JAMA Oncol. 2016 Dec 1;2(12):1636-1642. doi: 10.1001/jamaoncol.2016.2631. Review.</citation>
+    <PMID>27541161</PMID>
+  </reference>
+  <reference>
+    <citation>Gillies RJ, Kinahan PE, Hricak H. Radiomics: Images Are More than Pictures, They Are Data. Radiology. 2016 Feb;278(2):563-77. doi: 10.1148/radiol.2015151169. Epub 2015 Nov 18.</citation>
+    <PMID>26579733</PMID>
+  </reference>
+  <reference>
+    <citation>Eisenhauer EA, Therasse P, Bogaerts J, Schwartz LH, Sargent D, Ford R, Dancey J, Arbuck S, Gwyther S, Mooney M, Rubinstein L, Shankar L, Dodd L, Kaplan R, Lacombe D, Verweij J. New response evaluation criteria in solid tumours: revised RECIST guideline (version 1.1). Eur J Cancer. 2009 Jan;45(2):228-47. doi: 10.1016/j.ejca.2008.10.026.</citation>
+    <PMID>19097774</PMID>
+  </reference>
+  <reference>
+    <citation>Seymour L, Bogaerts J, Perrone A, Ford R, Schwartz LH, Mandrekar S, Lin NU, Litière S, Dancey J, Chen A, Hodi FS, Therasse P, Hoekstra OS, Shankar LK, Wolchok JD, Ballinger M, Caramella C, de Vries EGE; RECIST working group. iRECIST: guidelines for response criteria for use in trials testing immunotherapeutics. Lancet Oncol. 2017 Mar;18(3):e143-e152. doi: 10.1016/S1470-2045(17)30074-8. Epub 2017 Mar 2. Review. Erratum in: Lancet Oncol. 2019 May;20(5):e242.</citation>
+    <PMID>28271869</PMID>
+  </reference>
+  <reference>
+    <citation>Moertel CG, Hanley JA. The effect of measuring error on the results of therapeutic trials in advanced cancer. Cancer. 1976 Jul;38(1):388-94.</citation>
+    <PMID>947531</PMID>
+  </reference>
+  <verification_date>February 2022</verification_date>
+  <study_first_submitted>February 11, 2022</study_first_submitted>
+  <study_first_submitted_qc>February 21, 2022</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 24, 2022</study_first_posted>
+  <last_update_submitted>February 21, 2022</last_update_submitted>
+  <last_update_submitted_qc>February 21, 2022</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 24, 2022</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>AI</keyword>
+  <keyword>Radiomics</keyword>
+  <keyword>Oncology</keyword>
+  <keyword>RECIST</keyword>
+  <keyword>Lung cancer</keyword>
+  <keyword>Medical imaging</keyword>
+  <keyword>Imaging biomarkers</keyword>
+  <keyword>Immunotherapy</keyword>
+  <keyword>iRECIST</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Lung Neoplasms</mesh_term>
+    <mesh_term>Carcinoma, Non-Small-Cell Lung</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

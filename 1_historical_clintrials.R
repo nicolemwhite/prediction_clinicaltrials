@@ -5,7 +5,7 @@
 source('99_packages.R')
 source('99_functions.R')
 
-load('data/processed_studies.rda')
+load('data/processed_studies_test.rda')
 # get the trials already done
 to_load = dir('data', pattern='history')
 all_data = NULL

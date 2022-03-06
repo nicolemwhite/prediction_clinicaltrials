@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="11">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04705103</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020KYPJ185</org_study_id>
+    <nct_id>NCT04705103</nct_id>
+  </id_info>
+  <brief_title>Development of AI Model for Uveitis Progression and Prognosis</brief_title>
+  <official_title>Development of Artificial Intelligence Prediction Model for Uveitis Progression and Prognosis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sun Yat-sen University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Sun Yat-sen University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Uveitis is a recurrent inflammation of the eye that can lead to vision loss with various and&#xD;
+      complicated etiologies. There are many difficulties in uveitis management due to the&#xD;
+      requirement of long-term monitoring and treatment. This study intends to establish a&#xD;
+      longitudinal cohort of uveitis patients to colloect multimodal clinical data including visual&#xD;
+      acuity, intraocular pressure, anterior segment photography, fundus photography, fluoroscopy&#xD;
+      and other ophthalmic examinations, and final diagnosis in order to use artificial&#xD;
+      intelligence and deep learning technology to extract ocular features, explore the association&#xD;
+      with the progression and prognosis of uveitis and finally establish a disease management&#xD;
+      model for uveitis.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">January 10, 2021</start_date>
+  <completion_date type="Anticipated">December 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">November 30, 2022</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>6 Months</target_duration>
+  <primary_outcome>
+    <measure>uveitis progression</measure>
+    <time_frame>up to 1 month</time_frame>
+    <description>uveitis progression is divided into remission, relapse, or initial</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">450</enrollment>
+  <condition>Uveitis</condition>
+  <arm_group>
+    <arm_group_label>initial</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>relapse</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>inactive</arm_group_label>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        1. Initial stage of uveitis: The first episode of uveitis without treatment;&#xD;
+&#xD;
+          2. Remission of uveitis: Uveitis caused by various reasons in the stable disease period&#xD;
+             of more than 3 months without treatment;&#xD;
+&#xD;
+          3. Relapse of uveitis: After discontinuation of uveitis treatment, the disease stabilized&#xD;
+             for more than 3 months.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Participants who were diagnosed as uveitis, including the initial stage or relapse, or&#xD;
+             remission of uveitis.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Participants who cannnot cooperate with ocualr examination.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Haotian Lin, M.D.,Ph.D</last_name>
+    <phone>13802793086</phone>
+    <email>gddlht@aliyun.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>shuyi Zhang, M.D.</last_name>
+    <phone>15622177115</phone>
+    <email>shuyi_z@163.com</email>
+  </overall_contact_backup>
+  <verification_date>January 2021</verification_date>
+  <study_first_submitted>January 8, 2021</study_first_submitted>
+  <study_first_submitted_qc>January 8, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 12, 2021</study_first_posted>
+  <last_update_submitted>January 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>January 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Sun Yat-sen University</investigator_affiliation>
+    <investigator_full_name>Haotian Lin</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Uveitis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

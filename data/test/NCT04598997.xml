@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="117">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04598997</url>
+  </required_header>
+  <id_info>
+    <org_study_id>38RC20.307</org_study_id>
+    <secondary_id>2020-A02379-30</secondary_id>
+    <nct_id>NCT04598997</nct_id>
+  </id_info>
+  <brief_title>Artificial Intelligence With DEep Learning on COROnary Microvascular Disease</brief_title>
+  <acronym>AIDECORO</acronym>
+  <official_title>Artificial Intelligence With DEep Learning on COROnary Microvascular Disease</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Grenoble</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Hospital, Grenoble</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Despite the progress made in the management of myocardial infarction (MI), the associated&#xD;
+      morbidity and mortality remains high. Numerous scientific data show that damage of the&#xD;
+      coronary microcirculation (CM) during a STEMI remains a problem because the techniques for&#xD;
+      measuring it are still imperfect. We have simple methods for estimating the damage to the MC&#xD;
+      during the initial coronary angiography, the best known being the calculation of the&#xD;
+      myocardial blush grade (MBG), but which is semi-quantitative and therefore not very precise,&#xD;
+      or more precise imaging techniques, such as cardiac MRI, which are performed 48 hours after&#xD;
+      the infarction and which make the development of early applicable therapeutics not very&#xD;
+      propitious. Finally, lately, the use of special coronary guides to measure a precise CM index&#xD;
+      remains non-optimal because it prolongs the procedure. However, the information is in the&#xD;
+      picture and this information could allow the development of therapeutic strategies adapted to&#xD;
+      the patient's CM. Indeed, the arrival of iodine in CM increases the density of the pixels of&#xD;
+      the image, this has been demonstrated by the implementation in 2009 of a software allowing&#xD;
+      the calculation of the MBG assisted by computer. But the performances of this software did&#xD;
+      not allow its wide diffusion. Today, the field of medical image analysis presents dazzling&#xD;
+      progress thanks to artificial intelligence (AI). Deep Learning, a sub-category of Machine&#xD;
+      Learning, is probably the most powerful form of AI for automated image analysis today. Made&#xD;
+      up of a network of artificial neurons, it allows, using a very large number of known&#xD;
+      examples, to extract the most relevant characteristics of the image to solve a given problem.&#xD;
+      Thus, it uses thousands of pieces of information, sometimes imperceptible to the naked eye.&#xD;
+      We hypothesize that a supervised Deep Learning algorithm trained with a set of relevant data,&#xD;
+      will be able to identify a patient with a pejorative prognosis, probably related to a&#xD;
+      microcirculatory impairment visible in the image.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The aim of this study is to develop an algorithm capable of identifying patients with poor&#xD;
+      prognosis criteria at the time of hospitalization for STEMI, despite successful&#xD;
+      revascularization by analyzing coronary angiography images using supervised Deep Learning&#xD;
+      type artificial intelligence methods.&#xD;
+&#xD;
+      The protocol will be subdivided into 4 steps:&#xD;
+&#xD;
+      - Step 1: Patient selection&#xD;
+&#xD;
+      Data mining to identify and select patients via PMSI data. Patients will be contacted by&#xD;
+      telephone follow-up to check the participation agreement and collect the primary outcome.&#xD;
+      Other data from the patient's medical file will be collected through PREDIMED.&#xD;
+&#xD;
+      - Step 2: Data annotation&#xD;
+&#xD;
+      To identify for each patient with successful revascularization according to the usual&#xD;
+      criteria (TIMI Flow = 3, MBG = 2 or 3 and ST segment resolution &gt; 70%) whether or not he or&#xD;
+      she presents, at the time of hospitalization for STEMI, pejorative evolution criteria defined&#xD;
+      by the occurrence of death or rehospitalization for heart Failure at the time of follow-up .&#xD;
+      This step requires the expertise of an angioplastician and will result in the generation of a&#xD;
+      database of 600 cases. To train the algorithm to recognize images in the context of STEMI&#xD;
+      revascularization, 1000 normal coronary angiographies performed in a stable disease context&#xD;
+      will also be identified.&#xD;
+&#xD;
+      - Step 3: Development of a new method for analyzing coronary angiography images to identify&#xD;
+      patients with non-optimal revascularization.&#xD;
+&#xD;
+      Develop using Tensorflow/Keras libraries a supervised Deep Learning AI algorithm trained to&#xD;
+      identify patients with non-optimal revascularization (patient with poor prognosis). The&#xD;
+      algorithm will be based on convolutional neural network methodology and the model will be&#xD;
+      trained using data from the two previous steps. All or part of the sequence of interest will&#xD;
+      be used at the input of the model which will propose at the output a probability of good or&#xD;
+      bad prognosis of the patient.The 1000 complementary coronary angiographies will be used to&#xD;
+      artificially increase the learning base by increasing the number of cases or will be&#xD;
+      exploited for a transfer learning method.&#xD;
+&#xD;
+      - Step 4: Evaluation of the pathophysiological hypothesis.&#xD;
+&#xD;
+      The main weakness of AI is the &quot;Black Box&quot;. That is, the algorithm can predict correctly&#xD;
+      without knowing how. It is then difficult to link the result to a physiopathological&#xD;
+      phenomenon and to develop therapeutics. Here we will evaluate the correlation of the&#xD;
+      algorithm's result with the reference method for measuring CD used in the patients of the&#xD;
+      Guardiancory study (NCT03087175).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 20, 2020</start_date>
+  <completion_date type="Anticipated">May 2022</completion_date>
+  <primary_completion_date type="Anticipated">June 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Death or re-hospitalization for heart Failure</measure>
+    <time_frame>Baseline (at the time of the phone call) - From nov 2020 and jan 2021 [anticipated]</time_frame>
+    <description>The predictive accuracy will be evaluated by calculating the sensitivity, specificity, positive predictive value, and negative predictive value on the test cohort.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Algorithm study</measure>
+    <time_frame>After data annotation (step 2) and developping the algorithm (step 3) - In Jan 2022 [anticipated]</time_frame>
+    <description>Study of the correlations of the result of the algorithm with the reference method for measuring coronary microcirculation.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">600</enrollment>
+  <condition>Coronary Microvascular Disease</condition>
+  <condition>Artificial Intelligence</condition>
+  <condition>Cardiovascular Diseases</condition>
+  <condition>Heart Failure</condition>
+  <arm_group>
+    <arm_group_label>600 patients involved in the prospective study</arm_group_label>
+    <description>These patients will be contacted by telephone follow-up, offered participation in the study and sent the information and non-opposition letter. In case of refusal, data will not be used.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>1000 patients involved in a non-human study</arm_group_label>
+    <description>To train the algorithm to recognize images in the context of STEMI revascularization, 1000 normal coronary angiograms performed in a stable disease context will also be identified.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult patients undergoing coronary angioplasty revascularization at CHUGA for STEMI from&#xD;
+        2015 to 2018.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Age over 18 years&#xD;
+&#xD;
+          -  Patients who have undergone coronary angioplasty revascularization at CHUGA for STEMI&#xD;
+             from 2015 to 2018 for which images are usable.&#xD;
+&#xD;
+          -  Patient affiliated with social security&#xD;
+&#xD;
+          -  Non-opposition to participation&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Coronary artery image not usable&#xD;
+&#xD;
+          -  Patient under guardianship or deprived of liberty&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Gilles Barone-Rochette</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Hospital, Grenoble</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Gilles Barone-Rochette</last_name>
+    <phone>+33476765172</phone>
+    <email>gbarone@chu-grenoble.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Pauline PERETOUT</last_name>
+    <phone>+33476766700</phone>
+    <email>pperetout@chu-grenoble.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Chu Grenoble Alpes</name>
+      <address>
+        <city>Grenoble</city>
+        <zip>38043</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Gilles Barone-Rochette</last_name>
+      <phone>+33476765172</phone>
+      <email>gbarone@chu-grenoble.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>December 2020</verification_date>
+  <study_first_submitted>October 5, 2020</study_first_submitted>
+  <study_first_submitted_qc>October 16, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 22, 2020</study_first_posted>
+  <last_update_submitted>December 3, 2020</last_update_submitted>
+  <last_update_submitted_qc>December 3, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 7, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Artificial intelligence ; Coronary Microvascular Disease</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Cardiovascular Diseases</mesh_term>
+    <mesh_term>Microvascular Angina</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

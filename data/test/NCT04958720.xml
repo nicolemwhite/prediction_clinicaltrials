@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="399">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04958720</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-01</org_study_id>
+    <secondary_id>RXSCXJ3E6E</secondary_id>
+    <nct_id>NCT04958720</nct_id>
+  </id_info>
+  <brief_title>Spanish Registry of Esophagogastric Cancer</brief_title>
+  <acronym>AGAMENON</acronym>
+  <official_title>AGAMENON-SEOM Study: Spanish Registry of Esophagogastric Cancer</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Fundación Sociedad Española de Oncologia Médica</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Fundación Sociedad Española de Oncologia Médica</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study aims to development of a database through a web page for epidemiological and&#xD;
+      clinical research purposes that is accessible to members of the AGAMENON - SEOM group that&#xD;
+      guarantees a rigorous collection, exploitation and analysis of the data and information&#xD;
+      contained, increases the knowledge of esophageal and stomach cancer in order to optimize the&#xD;
+      management, treatment and evolution of patients, the possibility of comparing variables with&#xD;
+      those of other series or groups, and promotes the quality of scientific publications.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patient data will be collected from medical records retrospectively.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 27, 2020</start_date>
+  <completion_date type="Anticipated">December 1, 2035</completion_date>
+  <primary_completion_date type="Anticipated">December 1, 2034</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnostic and therapeutic approach</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>To evaluate survival (time in months) according to treatment of esophagogastric cancer in all stages, patients, and contexts.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Epidemiological profiles</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>To know the epidemiological profiles of esophagogastric cancer in Spain: temporal and regional trends, morbidity, and mortality.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Risk factors</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>To study risk factors associated with each subtype of esophagogastric cancer and localization.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pathological features</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>To evaluate the pathological features (TNM, grade, histological response)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Clinical and diagnostic approach</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>To know the diagnostic approch according to the center, type of studies performed: endoscopy, CT, echoendoscopy and/or PET/CT.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Treatments adjusted to prognostic variables</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>To compare treatments adjusted to prognostic variables and baseline characteristics.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Validate and compare prognostic models</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>To validate and compare the three prognostic models for advanced esophagogastric adenocarcinoma: The Royal Marsden Hospital index (Chau et al, 2004), and the models of Kim (2008) and Lee (2007), in a real sample of patients based on daily clinical practice.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Prognostic factors</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>To analyze the prognostic factors in this population and build a predictive and/or prognostic model.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Create and validate a predictive model</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>To create and validate a predictive model of early mortality.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Improve the quality of care</measure>
+    <time_frame>Up to 12 months</time_frame>
+    <description>To know the quality of care: chemotherapy, biological treatment, immunotherapy, radiotherapy and/or surgery or locoregional treatment depending on the tumor and patient.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">10000</enrollment>
+  <condition>Esophageal Cancer</condition>
+  <condition>Gastric Cancer</condition>
+  <arm_group>
+    <arm_group_label>Cohort 1</arm_group_label>
+    <description>Resectable non-advanced cancer</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Cohort 2</arm_group_label>
+    <description>Unresectable advanced cancer</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Surgery</intervention_name>
+    <description>Surgery</description>
+    <arm_group_label>Cohort 1</arm_group_label>
+    <arm_group_label>Cohort 2</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Chemotherapy, anti-targeted agents and immunotherapy</intervention_name>
+    <description>Chemotherapy, anti-targeted agents and immunotherapy</description>
+    <arm_group_label>Cohort 1</arm_group_label>
+    <arm_group_label>Cohort 2</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>Radiotherapy</intervention_name>
+    <description>Radiotherapy</description>
+    <arm_group_label>Cohort 1</arm_group_label>
+    <arm_group_label>Cohort 2</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study plans to enroll patients with histologically confirmed carcinoma of the&#xD;
+        esophagus, gastroesophageal junction, and stomach. The inclusion of patients is required to&#xD;
+        be done consecutively, being valid any time point if data are available.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Adult patient (≥18 years) diagnosed with carcinoma of the esophagus, gastroesophageal&#xD;
+             junction and stomach, including all histologic subtypes, with or without erbB2&#xD;
+             overexpression (and tumors in which this data is unknown).&#xD;
+&#xD;
+          -  Follow-up of at least 3 months with clinical information during this period, exempting&#xD;
+             patients with early death from any cause.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  A patient for whom, for whatever reason, the information necessary to complete the&#xD;
+             database cannot be known or obtained.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Hospital General Universitario de Elche</name>
+      <address>
+        <city>Elche</city>
+        <state>Alicante</state>
+        <zip>03203</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital General Universitario de Elda</name>
+      <address>
+        <city>Elda</city>
+        <state>Alicante</state>
+        <zip>03600</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Virgen Macarena</name>
+      <address>
+        <city>Sevilla</city>
+        <state>Andalucia</state>
+        <zip>41009</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jimenez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Reina Sofia</name>
+      <address>
+        <city>Córdoba</city>
+        <state>Andalucía</state>
+        <zip>14004</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Regional Universitario de Málaga</name>
+      <address>
+        <city>Málaga</city>
+        <state>Andalucía</state>
+        <zip>29010</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Virgen del Rocio</name>
+      <address>
+        <city>Sevilla</city>
+        <state>Andalucía</state>
+        <zip>41013</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jimenez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Central de Asturias</name>
+      <address>
+        <city>Oviedo</city>
+        <state>Asturias</state>
+        <zip>33011</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitari Parc Taulí</name>
+      <address>
+        <city>Sabadell</city>
+        <state>Barcelona</state>
+        <zip>08208</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Marques de Valdecillas</name>
+      <address>
+        <city>Santander</city>
+        <state>Cantabria</state>
+        <zip>39008</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Son Espases</name>
+      <address>
+        <city>Palma De Mallorca</city>
+        <state>Islas Baleares</state>
+        <zip>07120</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Son Llàtzer</name>
+      <address>
+        <city>Palma De Mallorca</city>
+        <state>Islas Baleares</state>
+        <zip>07198</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Complejo Hospitalario Universitario de A Coruña</name>
+      <address>
+        <city>A Coruña</city>
+        <state>La Coruña</state>
+        <zip>15006</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital San Pedro</name>
+      <address>
+        <city>Logroño</city>
+        <state>La Rioja</state>
+        <zip>26006</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Fundación Alcorcón</name>
+      <address>
+        <city>Alcorcón</city>
+        <state>Madrid</state>
+        <zip>28922</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital General Universitario Santa Lucía</name>
+      <address>
+        <city>Cartagena</city>
+        <state>Murcia</state>
+        <zip>30202</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital General Universitario Morales Meseguer</name>
+      <address>
+        <city>Murcia</city>
+        <state>Región De Murcia</state>
+        <zip>30008</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario de Canarias</name>
+      <address>
+        <city>San Cristóbal de la Laguna</city>
+        <state>Santa Cruz De Tenerife</state>
+        <zip>38320</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario de Galdakao</name>
+      <address>
+        <city>Galdakao</city>
+        <state>Vizcaya</state>
+        <zip>48960</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital General Universitario de Alicante</name>
+      <address>
+        <city>Alicante</city>
+        <zip>03010</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital del Mar</name>
+      <address>
+        <city>Barcelona</city>
+        <zip>08003</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Vall d'Hebrón</name>
+      <address>
+        <city>Barcelona</city>
+        <zip>08035</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Clínic de Barcelona</name>
+      <address>
+        <city>Barcelona</city>
+        <zip>08036</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr. Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital de la Santa Creu i Sant Pau</name>
+      <address>
+        <city>Barcelona</city>
+        <zip>08041</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital General Universitario de Ciudad Real</name>
+      <address>
+        <city>Ciudad Real</city>
+        <zip>13005</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital General Universitario Gregorio Marañón</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28007</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Ramón y Cajal</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28034</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Clínico San Carlos</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28040</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario 12 de Octubre</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28041</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr. Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario La Paz</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28046</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Central de la Defensa Gómez Ulla</name>
+      <address>
+        <city>Madrid</city>
+        <zip>28047</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Complejo Hospitalario Universitario de Ourense</name>
+      <address>
+        <city>Ourense</city>
+        <zip>32005</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Provincial de Pontevedra</name>
+      <address>
+        <city>Pontevedra</city>
+        <zip>36002</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Complejo Asistencial Universitario de Salamanca</name>
+      <address>
+        <city>Salamanca</city>
+        <zip>37007</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jimenez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Nuestra Señora de la Candelaria</name>
+      <address>
+        <city>Santa Cruz De Tenerife</city>
+        <zip>38010</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jimenez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital General Universitario de Valencia</name>
+      <address>
+        <city>Valencia</city>
+        <zip>46014</zip>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Paula Dr Jiménez Fonseca, MD-PhD</last_name>
+      <phone>985106121</phone>
+      <phone_ext>36582</phone_ext>
+      <email>palucaji@hotmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>June 14, 2021</study_first_submitted>
+  <study_first_submitted_qc>July 1, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 12, 2021</study_first_posted>
+  <last_update_submitted>July 1, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 1, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Gastric Cancer</keyword>
+  <keyword>Gastroesophageal junction cancer</keyword>
+  <keyword>Esophageal Cancer</keyword>
+  <keyword>Surgery</keyword>
+  <keyword>Chemotherapy</keyword>
+  <keyword>Radiotherapy</keyword>
+  <keyword>Antitargeted drug</keyword>
+  <keyword>Inmunotherapy</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stomach Neoplasms</mesh_term>
+    <mesh_term>Esophageal Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

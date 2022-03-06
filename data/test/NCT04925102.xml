@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="303">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04925102</url>
+  </required_header>
+  <id_info>
+    <org_study_id>REC/0882 Anam Habib</org_study_id>
+    <nct_id>NCT04925102</nct_id>
+  </id_info>
+  <brief_title>Prediction of Recovery in Spastic Cerebral Palsy.</brief_title>
+  <official_title>Prediction of Recovery in Spastic Cerebral Palsy.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Riphah International University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Helping Hand Institute of Rehabilitation Sciences</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Riphah International University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Until now, for children with cerebral palsy (CP) , diagnostic and some prognostic predictive&#xD;
+      machine learning studies have been conducted, but prognostic studies targeted specific&#xD;
+      milestone according to specific gross motor function measure (GMFCS) levels; such as walking&#xD;
+      and running predictors at GMFCS II and III and GMFCS II respectively, and not covered&#xD;
+      specific types of cerebral palsy. Predictions studies were limited by the lack of specificity&#xD;
+      of child and family characteristics was not taken into the account prospectively.&#xD;
+&#xD;
+      It is therefore the utmost need to support clinical decision making by predicting the&#xD;
+      recovery in spastic cerebral palsy. Recovery predictive factors can play an important role&#xD;
+      for this purpose. Thus, this study aims to predict the recovery in spastic cerebral palsy&#xD;
+      according to all GMFCS level by means of a prediction index/model.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Spasticity is often considered as the main cause of functional limitation in cerebral palsy&#xD;
+      (CP) children. The main feature of cerebral palsy is the impaired development of gross motor&#xD;
+      functions in children. Gross motor functions are considered as an indicator of the overall&#xD;
+      prognosis of cerebral palsy as these are closely associated with other impairments in the&#xD;
+      cerebral palsy child such as auditory, cognitive or visual impairments. The gross motor&#xD;
+      function measure (GMFM) tool is most widely used to assess motor function, severity and&#xD;
+      treatment response of children with cerebral palsy. The five levels of GMFCS have been widely&#xD;
+      employed in cerebral palsy children less than 12 years of age with the focus on sitting and&#xD;
+      walking abilities of the child. Literature confirmed the importance of addressing the gross&#xD;
+      and fine motor skills in cerebral palsy children. Childhood factors that predict the&#xD;
+      participation of young adults with cerebral palsy in domestic life include; intellectual&#xD;
+      disability, low manual ability, limited motor capacity and epilepsy. Moreover, CP child&#xD;
+      primary and secondary impairments, co-morbidities, their adaptive behaviour, family,&#xD;
+      rehabilitation services all are determinants of changes in the gross motor ability of the&#xD;
+      child and their participation in daily routine activities. Thus, all these determinants need&#xD;
+      to be considered while planning the intervention for a cerebral palsy child and at the time&#xD;
+      outcome evaluation as well. Good prognostic predictors for ambulation in cerebral palsy&#xD;
+      children were identified through meta-analysis of observational studies which includes;&#xD;
+      independent sitting at 2 years of age, epilepsy, absence of intellectual disability and&#xD;
+      visual impairment. Machine learning (ML) approaches have been increasingly used in cerebral&#xD;
+      palsy research. Jing Zhang et al identified GMFCS and intellectual capacity as associated&#xD;
+      factors of self-care activity development, it was also mentioned that GMFCS has a role in&#xD;
+      mobility activities development. A predictive machine learning model was developed to&#xD;
+      highlight the factors associated with intellectual disability in the cerebral palsy&#xD;
+      population of the teenager, with the sensitivity, specificity and average accuracy of 78%.&#xD;
+      The result of this model confirmed the significant association of gross motor function, poor&#xD;
+      manual abilities and epilepsy with profound intellectual disability.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 14, 2021</start_date>
+  <completion_date type="Anticipated">April 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">April 30, 2022</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>3 Months</target_duration>
+  <primary_outcome>
+    <measure>Gross motor function measure</measure>
+    <time_frame>12 Weeks</time_frame>
+    <description>The Gross Motor Function Measure (GMFM) is used to assess change in gross motor function in children with cerebral palsy aged 5 months to 16 years of age. The original GMFM version has 88 items each scored on a 4-point ordinal scale of 0 to 3, where 0 indicates that the child does not initiate the task; 1 indicates that the child initiates the task (completes &lt; 10% of the activity); 2 indicates that the child partially completes the task (completes from 10 to 99% of the activity), and 3 indicates that the child completes the task (100%). Up to 12 weeks</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Modified Ashworth scale</measure>
+    <time_frame>12 weeks</time_frame>
+    <description>Modified Ashworth scale (MAS) is used for the assessment of spasticity. Muscle tone is quantified in MAS by the assessment of the resistance of the spastic muscles. It is similar to Ashworth but adds a 1+ scoring category to indicate resistance through less than half of the movement. Score range from 0-4, with 6 choices. 0 indicates, no increase in the muscle tone and 4 indicates rigidity of the affected part. Up to 12 weeks</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Functional Independence Measure for Children</measure>
+    <time_frame>12 weeks</time_frame>
+    <description>Functional Independence Measure (FIM) is an 18-item, 7-level ordinal scale instrument that measures a child's consistent performance in essential daily functional skills. FIM is categorized into 2 main functional streams: &quot;Dependent&quot; (i.e; requires helper: scores 1-5) and &quot;Independent&quot; (i.e; requires no helper: scores 6-7). Scores 1 (total assistance) and 2 (maximal assistance) belonged to the &quot;Complete Dependence&quot; category. Scores 3 (moderate assistance), 4 (minimal contact assistance), and 5 (supervision or set-up) belonged to the &quot;Modified Dependence&quot; category. Scores 6 (modified independence) and 7 (complete independence) belonged to the &quot;Independent&quot; category. Up to 12 weeks</description>
+  </primary_outcome>
+  <number_of_groups>5</number_of_groups>
+  <enrollment type="Anticipated">125</enrollment>
+  <condition>Spastic Cerebral Palsy</condition>
+  <arm_group>
+    <arm_group_label>GMFCS level I</arm_group_label>
+    <description>Goal specific treatment protocol with respect to the problem enlisted in gross motor function measure (GMFCS) level I will be provided to the spastic cerebral palsy children in the sets of 15-30 repetitions. The protocol will be performed in 30-40 minute sessions thrice a week.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>GMFCS level II</arm_group_label>
+    <description>Goal specific treatment protocol with respect to the problem enlisted in gross motor function measure (GMFCS) level II will be provided to the spastic cerebral palsy children in the sets of 15-30 repetitions. The protocol will be performed in 30-40 minute sessions thrice a week.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>GMFCS level III</arm_group_label>
+    <description>Goal specific treatment protocol with respect to the problem enlisted in GMFCS level III will be provided to the spastic cerebral palsy children in the sets of 15-30 repetitions. The protocol will be performed in 30-40 minute sessions thrice a week.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>GMFCS level IV</arm_group_label>
+    <description>Goal specific treatment protocol with respect to the problem enlisted in gross motor function measure (GMFCS) level IV will be provided to the spastic cerebral palsy children in the sets of 15-30 repetitions. The protocol will be performed in 30-40 minute sessions thrice a week.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>GMFCS level V</arm_group_label>
+    <description>Goal specific treatment protocol with respect to the problem enlisted in gross motor function measure (GMFCS) level V will be provided to the spastic cerebral palsy children in the sets of 15-30 repetitions. The protocol will be performed in 30-40 minute sessions thrice a week.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Standardized treatment protocol for cerebral palsy</intervention_name>
+    <description>Passive and active range of motion (ROM) exercises of all joints, prone positioning, slow prolonged manual stretching (30 minutes daily), standing frame for children with GMFCS IV-V, supported sitting, supported walking, lower limb serial casting (if needed), active strength training, progressive resistance training, functional exercises, sensory integration: therapeutic activities to organize sensation from the body and environment, bimanual training: repetitive task training in the use of two hands together, context-focused therapy: changing the task or the environment, the occupational therapy, cognitive behaviour therapy and home programmes.</description>
+    <arm_group_label>GMFCS level I</arm_group_label>
+    <arm_group_label>GMFCS level II</arm_group_label>
+    <arm_group_label>GMFCS level III</arm_group_label>
+    <arm_group_label>GMFCS level IV</arm_group_label>
+    <arm_group_label>GMFCS level V</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Spastic cerebral palsy children&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Cerebral palsy children with positive score 1 on items 3 and 4 of Hypertonia&#xD;
+             Assessment Tool (HAT).&#xD;
+&#xD;
+          -  Spastic cerebral palsy children with any functional ability level(Gross Motor Function&#xD;
+             Classification System (GMFCS) levels I-V)&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Children of any other type of cerebral palsy&#xD;
+&#xD;
+          -  Not willing to participate&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>2 Years</minimum_age>
+    <maximum_age>12 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Imran Amjad, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Riphah International University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Imran Amjad, PhD</last_name>
+    <phone>(+92)3324390125</phone>
+    <email>imran.amjad@riphah.edu.pk</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Helping Hand Institute of Rehabilitation Sciences</name>
+      <address>
+        <city>Mansehra</city>
+        <state>Khyber Pakhtunkhwa</state>
+        <zip>21310</zip>
+        <country>Pakistan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Keramat Ullah</last_name>
+      <phone>0992371001</phone>
+      <email>karamatjee@yahoo.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Pakistan</country>
+  </location_countries>
+  <reference>
+    <citation>Wagenaar N, Verhage CH, de Vries LS, van Gasselt BPL, Koopman C, Leemans A, Groenendaal F, Benders MJNL, van der Aa NE. Early prediction of unilateral cerebral palsy in infants at risk: MRI versus the hand assessment for infants. Pediatr Res. 2020 Apr;87(5):932-939. doi: 10.1038/s41390-019-0664-5. Epub 2019 Nov 13.</citation>
+    <PMID>31722367</PMID>
+  </reference>
+  <reference>
+    <citation>Schertz M, Shiran SI, Myers V, Weinstein M, Fattal-Valevski A, Artzi M, Ben Bashat D, Gordon AM, Green D. Imaging Predictors of Improvement From a Motor Learning-Based Intervention for Children With Unilateral Cerebral Palsy. Neurorehabil Neural Repair. 2016 Aug;30(7):647-60. doi: 10.1177/1545968315613446. Epub 2015 Nov 11.</citation>
+    <PMID>26564999</PMID>
+  </reference>
+  <reference>
+    <citation>Begnoche DM, Chiarello LA, Palisano RJ, Gracely EJ, McCoy SW, Orlin MN. Predictors of Independent Walking in Young Children With Cerebral Palsy. Phys Ther. 2016 Feb;96(2):183-92. doi: 10.2522/ptj.20140315. Epub 2015 Jun 18.</citation>
+    <PMID>26089044</PMID>
+  </reference>
+  <reference>
+    <citation>Böhm H, Wanner P, Rethwilm R, Döderlein L. Prevalence and predictors for the ability to run in children and adolescents with cerebral palsy. Clin Biomech (Bristol, Avon). 2018 Oct;58:103-108. doi: 10.1016/j.clinbiomech.2018.07.014. Epub 2018 Jul 27.</citation>
+    <PMID>30071441</PMID>
+  </reference>
+  <verification_date>February 2022</verification_date>
+  <study_first_submitted>May 19, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 11, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 14, 2021</study_first_posted>
+  <last_update_submitted>February 4, 2022</last_update_submitted>
+  <last_update_submitted_qc>February 4, 2022</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 7, 2022</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Muscle Spasticity</mesh_term>
+    <mesh_term>Cerebral Palsy</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

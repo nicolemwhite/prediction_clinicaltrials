@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="64">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03826407</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ComaML2018</org_study_id>
+    <secondary_id>CPG158287</secondary_id>
+    <secondary_id>CHRP 523461-18</secondary_id>
+    <nct_id>NCT03826407</nct_id>
+  </id_info>
+  <brief_title>Development of a Point of Care System for Automated Coma Prognosis</brief_title>
+  <official_title>Development of a Point of Care System for Automated Coma Prognosis - A Prospective Cohort Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>McMaster University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Canadian Institutes of Health Research (CIHR)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Natural Sciences and Engineering Research Council, Canada</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Hamilton Health Sciences Corporation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Brain Vision Solutions Inc.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>McGill University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>McMaster University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Electroencephalogram/event-related potentials (EEG/ERP) data will be collected from 50&#xD;
+      participants in coma or other disorder of consciousness (DOC; i.e., Unresponsive Wakefulness&#xD;
+      Syndrome [UWS] or Minimally Conscious State [MCS]), clinically diagnosed using the Glasgow&#xD;
+      Coma Scale (GCS). For coma patients, EEG recordings will be conducted for up to 24&#xD;
+      consecutive hours at a maximum of 5 timepoints, spanning 30 days from the date of&#xD;
+      recruitment, to track participants' clinical state. For DOC patients, there will be an&#xD;
+      initial EEG recording up to 24 hours, with possible subsequent weekly recordings up to 2&#xD;
+      hours. An additional dataset from 40 healthy controls will be collected, each spanning up to&#xD;
+      a 12-hour recording period in order to formulate a baseline. Collected data are to form the&#xD;
+      basis for automatic analysis and detection of ERP components in DOC, using a machine learning&#xD;
+      paradigm. Salient features (i.e., biomarkers) extracted from the ERPs and resting-state EEG&#xD;
+      will be identified and combined in an optimal fashion to give an accurate indicator of&#xD;
+      prognosis.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The Problem: Coma is a state of unconsciousness with a variety of causes. Traditional tests&#xD;
+      for coma outcome prediction are mainly based on a set of clinical observations (e.g.,&#xD;
+      pupillary constriction). Recently however, event-related potentials (ERPs; which are&#xD;
+      transient electroencephalogram [EEG] responses to auditory, visual, or tactile stimuli) have&#xD;
+      been introduced as useful predictors of a positive coma outcome (i.e., emergence). However,&#xD;
+      such tests require a skilled neurophysiologist, and such people are in short supply. Also,&#xD;
+      none of the current approaches has sufficient positive and negative predictive accuracies to&#xD;
+      provide definitive prognoses in the clinical setting.&#xD;
+&#xD;
+      Objective: The investigators will apply innovative machine learning methods to analyze&#xD;
+      patient EEGs (50 patients and 40 healthy controls) to develop a simple, objective,&#xD;
+      replicable, and inexpensive point of care system which can significantly improve the accuracy&#xD;
+      of coma prognosis relative to current methods. The physical requirements of the proposed&#xD;
+      system consist only of an EEG system (inexpensive in terms of medical equipment) and a&#xD;
+      conventional laptop computer.&#xD;
+&#xD;
+      Methodology: The investigators intend to extend the team's newest algorithms and develop&#xD;
+      machine learning tools for automatic analysis and detection of ERP components. Preliminary&#xD;
+      results by the team in this respect have been very promising. The most salient features&#xD;
+      (i.e., biomarkers) extracted from the ERP will be identified and combined in an optimal&#xD;
+      fashion to give an accurate indicator of prognosis. Features will be extracted from resting&#xD;
+      state brain networks and from network trajectories associated with the processing of ERP&#xD;
+      signals.&#xD;
+&#xD;
+      Significance: The proposed work will enable critical care physicians to assess coma prognosis&#xD;
+      with speed and accuracy. Thus, families and their health care team will be provided the most&#xD;
+      accurate information possible to guide discussions of goals of care and life-sustaining&#xD;
+      therapies in the context of dealing with the consequences of devastating neurological injury.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 1, 2019</start_date>
+  <completion_date type="Anticipated">December 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change in multiple electrophysiological measures across specified time points during coma</measure>
+    <time_frame>up to 30 days from date of recruitment</time_frame>
+    <description>Event-related potentials (ERP) and resting state periods will be assessed at the specified intervals as a difference between successive timepoints. The ERP measures will include amplitude and latency values of N1, P2, MMN, P3a, P3b, and N400 to assess different levels of conscious processing and presence of signs of a conscious state predictive of subsequent emergence. Also, resting EEG measures will be obtained at regular intervals. EEG/ERP data will be recorded for up to 24 consecutive hours at a maximum of 5 timepoints spanning 30 days from the date of recruitment to track the participants' progression. The date of the initial assessment will be denoted as Day 0, and the subsequent assessments will take place ideally on Day 3, Day 10, Day 20 and Day 30, unless there is a ≥ 2 point of change in the patient's GCS score. Change in all specified measures will be assessed across the up to 24-hour recordings taken at 5 different timepoints.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Change in multiple electrophysiological measures across specified time points during MCS or UWS</measure>
+    <time_frame>up to 6 months from date of recruitment</time_frame>
+    <description>Event-related potentials (ERP) and resting state periods will be assessed at the specified intervals as a difference between successive timepoints. The ERP measures will include amplitude and latency values of N1, P2, MMN, P3a, P3b, and N400 to assess different levels of conscious processing and presence of signs of a conscious state predictive of subsequent emergence. Also, resting EEG measures will be obtained at regular intervals. EEG/ERP data will be recorded for an initial period of up to 24 consecutive hours, followed by up to 2-hour long recordings that may be conducted approximately once a week until the patient either regains full consciousness, is no longer within the Hamilton Health Sciences system, or until 6 months from the date of their enrollment into the study, whichever occurs first. Change in all specified measures will be assessed across the recordings taken at each timepoint.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Correlation between behavioral and electrophysiological measures after coma/DOC emergence</measure>
+    <time_frame>Within a 30-day time period post recruitment</time_frame>
+    <description>Patient emergence will be monitored using the Glasgow Outcome Scale (GOS). In the case of patient emergence, the full electrophysiological test procedures are recorded to correlate with traditional behavioral measures. The electrophysiological measures obtained at this timepoint (emergence) will be compared to the same measures obtained at the different time points during coma/DOC (Outcome 1/2) to detect both clinically relevant change and possible prognostic markers that may have been obtained at an earlier test point.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Sensitivity and specificity of prognostic capabilities of electrophysiological measures</measure>
+    <time_frame>Within a 30-day time period post recruitment</time_frame>
+    <description>Analyses will compare the electrophysiological measures as outcome predictors to traditional behaviorally-based tools.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Feasibility of procedure</measure>
+    <time_frame>up to 6 months from date of recruitment</time_frame>
+    <description>The team will also evaluate whether the repeated EEG sessions, lasting up to 24 hours, during the coma/DOC duration is a feasible approach to predict the emergence and outcome from coma.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Correlation between individual patient factors, EEG results, and outcome for coma</measure>
+    <time_frame>up to 30 days from date of recruitment</time_frame>
+    <description>The study also collects demographic, medical history, injury information, and other physiological markers from the patient's health record and concurrent physiological assessment during the study period. Analyses will assess correlations between these factors and coma outcome and EEG findings.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlations between individual patient factors, EEG results, and outcome for DOC</measure>
+    <time_frame>up to 6 months from date of recruitment</time_frame>
+    <description>The study also collects demographic, medical history, injury information, and other physiological markers from the patient's health record and concurrent physiological assessment during the study period. Analyses will assess correlations between these factors and DOC outcome and EEG findings.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">90</enrollment>
+  <condition>Coma</condition>
+  <condition>Disorder of Consciousness</condition>
+  <condition>Minimally Conscious State</condition>
+  <condition>Vegetative State</condition>
+  <condition>Neuropathology</condition>
+  <arm_group>
+    <arm_group_label>DOC patients</arm_group_label>
+    <description>Patients in coma (GCS score of 3-8) or with other disorder of consciousness, primarily Minimally Conscious State (MCS) or Unresponsive Wakefulness Syndrome (UWS; also known as vegetative state)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Healthy Control</arm_group_label>
+    <description>Matched healthy controls without current neurological diagnoses</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The Coma/DOC Group will include 50 patients from the Intensive Care Units, Neurological&#xD;
+        Step Down Unit, or Coronary Care Unit at Hamilton General Hospital (Ontario, Canada) who&#xD;
+        are in coma (GCS score =3-8), or who have other disorders of consciousness (MCS or UWS).&#xD;
+&#xD;
+        The Control Group of 40 matched healthy controls will be recruited primarily from the&#xD;
+        Hamilton community (Ontario, Canada).&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients (≥ 18 years of age) primarily admitted to the Intensive Care Units,&#xD;
+             Neurological Step Down Unit, or Coronary Care Unit at Hamilton General Hospital who&#xD;
+             are in coma with Glasgow Coma Scale (GCS) score of 3-8, or;&#xD;
+&#xD;
+          -  Patients (≥ 18 years of age) who have other disorders of consciousness, primarily&#xD;
+             Minimally Conscious State (MCS) or Unresponsive Wakefulness Syndrome (UWS; also known&#xD;
+             as vegetative state).&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Severe liver failure (i.e., Child-Pugh Class C)&#xD;
+&#xD;
+          -  Severe renal failure (i.e., Urea ≥ 40)&#xD;
+&#xD;
+          -  Previous open-head injury&#xD;
+&#xD;
+          -  Known primary and secondary central nervous system malignancy&#xD;
+&#xD;
+          -  Known hearing impairment&#xD;
+&#xD;
+          -  Previous intracranial pathology requiring neurosurgical interventions in the past 72&#xD;
+             hours&#xD;
+&#xD;
+          -  Anyone who is deemed medically unsuitable for this study by the attending intensivists&#xD;
+&#xD;
+        Healthy Controls:&#xD;
+&#xD;
+        Inclusion:&#xD;
+&#xD;
+          -  ≥ 18 years of age&#xD;
+&#xD;
+          -  no visual, language, learning, or hearing problems&#xD;
+&#xD;
+          -  no history of neurological or psychiatric disorder&#xD;
+&#xD;
+          -  not currently taking any medications that act on the central nervous system, such as&#xD;
+             antidepressants, anxiolytics, or anti-epileptics&#xD;
+&#xD;
+        Exclusion:&#xD;
+&#xD;
+        (During the COVID-19 pandemic only)&#xD;
+&#xD;
+          -  ≥ 60 years of age&#xD;
+&#xD;
+          -  have a weakened immune system&#xD;
+&#xD;
+          -  have one or more of the COVID-19 high risk medical conditions, according to the&#xD;
+             government of Canada website:&#xD;
+             https://www.canada.ca/en/public-health/services/publications/diseases-conditions/peopl&#xD;
+             e-high-risk-for-severe-illness-covid-19.html.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>John F Connolly, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>McMaster University</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Alison Fox-Robichaud, MD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Hamilton Health Sciences - Hamilton General site</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Hope Morrison</last_name>
+    <phone>2893396348</phone>
+    <email>lmb_coma@mcmaster.ca</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>John F Connolly, PhD</last_name>
+    <phone>9055259140</phone>
+    <phone_ext>21106</phone_ext>
+    <email>jconnol@mcmaster.ca</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>McMaster University Hamilton Health Sciences / Hamilton General Hospital</name>
+      <address>
+        <city>Hamilton</city>
+        <state>Ontario</state>
+        <zip>L8L 2X2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>John F Connolly, PhD</last_name>
+      <phone>1-905-525-9140</phone>
+      <phone_ext>27095</phone_ext>
+      <email>jconnol@mcmaster.ca</email>
+    </contact>
+    <contact_backup>
+      <last_name>Alison Fox-Robichaud, MD</last_name>
+      <phone>1-905-521-2100</phone>
+      <phone_ext>40742</phone_ext>
+      <email>afoxrob@mcmaster.ca</email>
+    </contact_backup>
+    <investigator>
+      <last_name>John F Connolly, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>James Reilly, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Alison Fox-Robichaud, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Stefanie Blain-Moraes, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ranil Sonnadara, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Morgan Johnson, MSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Cindy Hamielec, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Rober Boshra, MSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Richard Kolesar, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Paniz Tavakoli, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Adianes Herrera-Díaz, MSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <reference>
+    <citation>Jones C. Glasgow coma scale. Am J Nurs. 1979 Sep;79(9):1551-3.</citation>
+    <PMID>258560</PMID>
+  </reference>
+  <reference>
+    <citation>Chiappa KH, Hill RA. Evaluation and prognostication in coma. Electroencephalogr Clin Neurophysiol. 1998 Feb;106(2):149-55. Review.</citation>
+    <PMID>9741776</PMID>
+  </reference>
+  <reference>
+    <citation>de Sousa LC, Colli BO, Piza MR, da Costa SS, Ferez M, Lavrador M. Auditory brainstem response: prognostic value in patients with a score of 3 on the Glasgow Coma Scale. Otol Neurotol. 2007 Apr;28(3):426-8.</citation>
+    <PMID>17303965</PMID>
+  </reference>
+  <reference>
+    <citation>Logi F, Fischer C, Murri L, Mauguière F. The prognostic value of evoked responses from primary somatosensory and auditory cortex in comatose patients. Clin Neurophysiol. 2003 Sep;114(9):1615-27.</citation>
+    <PMID>12948790</PMID>
+  </reference>
+  <reference>
+    <citation>Lew HL, Poole JH, Castaneda A, Salerno RM, Gray M. Prognostic value of evoked and event-related potentials in moderate to severe brain injury. J Head Trauma Rehabil. 2006 Jul-Aug;21(4):350-60. Review.</citation>
+    <PMID>16915010</PMID>
+  </reference>
+  <reference>
+    <citation>Kane NM, Butler SR, Simpson T. Coma outcome prediction using event-related potentials: P(3) and mismatch negativity. Audiol Neurootol. 2000 May-Aug;5(3-4):186-91. Review.</citation>
+    <PMID>10859412</PMID>
+  </reference>
+  <reference>
+    <citation>Morlet D, Fischer C. MMN and novelty P3 in coma and other altered states of consciousness: a review. Brain Topogr. 2014 Jul;27(4):467-79. doi: 10.1007/s10548-013-0335-5. Epub 2013 Nov 27. Review.</citation>
+    <PMID>24281786</PMID>
+  </reference>
+  <reference>
+    <citation>Fischer C, Morlet D, Bouchet P, Luaute J, Jourdan C, Salord F. Mismatch negativity and late auditory evoked potentials in comatose patients. Clin Neurophysiol. 1999 Sep;110(9):1601-10.</citation>
+    <PMID>10479027</PMID>
+  </reference>
+  <reference>
+    <citation>Holeckova I, Fischer C, Giard MH, Delpuech C, Morlet D. Brain responses to a subject's own name uttered by a familiar voice. Brain Res. 2006 Apr 12;1082(1):142-52.</citation>
+    <PMID>16703673</PMID>
+  </reference>
+  <reference>
+    <citation>Garrido MI, Kilner JM, Stephan KE, Friston KJ. The mismatch negativity: a review of underlying mechanisms. Clin Neurophysiol. 2009 Mar;120(3):453-63. doi: 10.1016/j.clinph.2008.11.029. Epub 2009 Jan 31. Review.</citation>
+    <PMID>19181570</PMID>
+  </reference>
+  <reference>
+    <citation>Sonnadara RR, Alain C, Trainor LJ. Occasional changes in sound location enhance middle latency evoked responses. Brain Res. 2006 Mar 3;1076(1):187-92. Epub 2006 Feb 17.</citation>
+    <PMID>16487494</PMID>
+  </reference>
+  <reference>
+    <citation>Duncan CC, Barry RJ, Connolly JF, Fischer C, Michie PT, Näätänen R, Polich J, Reinvang I, Van Petten C. Event-related potentials in clinical research: guidelines for eliciting, recording, and quantifying mismatch negativity, P300, and N400. Clin Neurophysiol. 2009 Nov;120(11):1883-1908. doi: 10.1016/j.clinph.2009.07.045. Epub 2009 Sep 30. Review.</citation>
+    <PMID>19796989</PMID>
+  </reference>
+  <reference>
+    <citation>Schnakers C, Vanhaudenhuyse A, Giacino J, Ventura M, Boly M, Majerus S, Moonen G, Laureys S. Diagnostic accuracy of the vegetative and minimally conscious state: clinical consensus versus standardized neurobehavioral assessment. BMC Neurol. 2009 Jul 21;9:35. doi: 10.1186/1471-2377-9-35.</citation>
+    <PMID>19622138</PMID>
+  </reference>
+  <reference>
+    <citation>Guldenmund P, Stender J, Heine L, Laureys S. Mindsight: diagnostics in disorders of consciousness. Crit Care Res Pract. 2012;2012:624724. doi: 10.1155/2012/624724. Epub 2012 Nov 14.</citation>
+    <PMID>23213492</PMID>
+  </reference>
+  <reference>
+    <citation>Giacino JT, Fins JJ, Laureys S, Schiff ND. Disorders of consciousness after acquired brain injury: the state of the science. Nat Rev Neurol. 2014 Feb;10(2):99-114. doi: 10.1038/nrneurol.2013.279. Epub 2014 Jan 28. Review.</citation>
+    <PMID>24468878</PMID>
+  </reference>
+  <reference>
+    <citation>Laureys S, Celesia GG, Cohadon F, Lavrijsen J, León-Carrión J, Sannita WG, Sazbon L, Schmutzhard E, von Wild KR, Zeman A, Dolce G; European Task Force on Disorders of Consciousness. Unresponsive wakefulness syndrome: a new name for the vegetative state or apallic syndrome. BMC Med. 2010 Nov 1;8:68. doi: 10.1186/1741-7015-8-68.</citation>
+    <PMID>21040571</PMID>
+  </reference>
+  <reference>
+    <citation>Armanfard N, Komeili M, Reilly JP, Mah R, Connolly JF. Automatic and continuous assessment of ERPs for mismatch negativity detection. Annu Int Conf IEEE Eng Med Biol Soc. 2016 Aug;2016:969-972. doi: 10.1109/EMBC.2016.7590863.</citation>
+    <PMID>28268485</PMID>
+  </reference>
+  <reference>
+    <citation>Ghosh-Dastidar S, Adeli H, Dadmehr N. Principal component analysis-enhanced cosine radial basis function neural network for robust epilepsy and seizure detection. IEEE Trans Biomed Eng. 2008 Feb;55(2 Pt 1):512-8. doi: 10.1109/TBME.2007.905490.</citation>
+    <PMID>18269986</PMID>
+  </reference>
+  <reference>
+    <citation>Güler I, Ubeyli ED. Multiclass support vector machines for EEG-signals classification. IEEE Trans Inf Technol Biomed. 2007 Mar;11(2):117-26.</citation>
+    <PMID>17390982</PMID>
+  </reference>
+  <reference>
+    <citation>Cao C, Tutwiler RL, Slobounov S. Automatic classification of athletes with residual functional deficits following concussion by means of EEG signal using support vector machine. IEEE Trans Neural Syst Rehabil Eng. 2008 Aug;16(4):327-35. doi: 10.1109/TNSRE.2008.918422.</citation>
+    <PMID>18701381</PMID>
+  </reference>
+  <reference>
+    <citation>Ravan M, Hasey G, Reilly JP, MacCrimmon D, Khodayari-Rostamabad A. A machine learning approach using auditory odd-ball responses to investigate the effect of Clozapine therapy. Clin Neurophysiol. 2015 Apr;126(4):721-30. doi: 10.1016/j.clinph.2014.07.017. Epub 2014 Aug 27.</citation>
+    <PMID>25213349</PMID>
+  </reference>
+  <reference>
+    <citation>Khodayari-Rostamabad A, Reilly JP, Hasey GM, de Bruin H, Maccrimmon DJ. A machine learning approach using EEG data to predict response to SSRI treatment for major depressive disorder. Clin Neurophysiol. 2013 Oct;124(10):1975-85. doi: 10.1016/j.clinph.2013.04.010. Epub 2013 May 15.</citation>
+    <PMID>23684127</PMID>
+  </reference>
+  <reference>
+    <citation>Wijdicks EF, Bamlet WR, Maramattom BV, Manno EM, McClelland RL. Validation of a new coma scale: The FOUR score. Ann Neurol. 2005 Oct;58(4):585-93.</citation>
+    <PMID>16178024</PMID>
+  </reference>
+  <reference>
+    <citation>Jennett B, Bond M. Assessment of outcome after severe brain damage. Lancet. 1975 Mar 1;1(7905):480-4.</citation>
+    <PMID>46957</PMID>
+  </reference>
+  <reference>
+    <citation>Armanfard N, Reilly JP, Komeili M. Local Feature Selection for Data Classification. IEEE Trans Pattern Anal Mach Intell. 2016 Jun;38(6):1217-27. doi: 10.1109/TPAMI.2015.2478471. Epub 2015 Sep 14.</citation>
+    <PMID>26390448</PMID>
+  </reference>
+  <reference>
+    <citation>Armanfard N, Reilly JP, Komeili M. Logistic Localized Modeling of the Sample Space for Feature Selection and Classification. IEEE Trans Neural Netw Learn Syst. 2018 May;29(5):1396-1413. doi: 10.1109/TNNLS.2017.2676101. Epub 2017 Mar 21.</citation>
+    <PMID>28333643</PMID>
+  </reference>
+  <verification_date>January 2021</verification_date>
+  <study_first_submitted>January 18, 2019</study_first_submitted>
+  <study_first_submitted_qc>January 30, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 1, 2019</study_first_posted>
+  <last_update_submitted>January 26, 2021</last_update_submitted>
+  <last_update_submitted_qc>January 26, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 29, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Coma</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Prognosis</keyword>
+  <keyword>Electrophysiology</keyword>
+  <keyword>Event-related potentials</keyword>
+  <keyword>Electroencephalography</keyword>
+  <keyword>Mismatch Negativity</keyword>
+  <keyword>Auditory Brainstem Response</keyword>
+  <keyword>Disorders of Consciousness</keyword>
+  <keyword>EEG</keyword>
+  <keyword>ERP</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coma</mesh_term>
+    <mesh_term>Consciousness Disorders</mesh_term>
+    <mesh_term>Persistent Vegetative State</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>To be decided</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

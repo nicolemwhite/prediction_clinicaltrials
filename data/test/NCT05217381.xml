@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="425">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05217381</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MEDOPP367</org_study_id>
+    <nct_id>NCT05217381</nct_id>
+  </id_info>
+  <brief_title>Real-World Data of Clinicopathological Characteristics and Management of Patients With HER2+ Breast Cancer (RosHER)</brief_title>
+  <acronym>RosHER</acronym>
+  <official_title>Retrospective Observational Study With Real-World Data to Assess Demographic and Clinicopathological Profiles, and Management of Breast Cancer Patients With Positive, Low or Negative Expression of HER2 in Spain</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>MedSIR</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Daiichi Sankyo, Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>AstraZeneca</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>MedSIR</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a data-driven, retrospective, longitudinal, population- based, observational,&#xD;
+      multi-centered study using secondary data captured from congruent electronic health records&#xD;
+      (EHRs).&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Patients with pathologically documented locally recurrent or inoperable advanced breast&#xD;
+      cancer that progressed during or after prior treatment for primary invasive breast cancer.&#xD;
+      Documented HER2 and estrogen receptor (ER)/progesterone receptor (PgR) expression status&#xD;
+      evaluated both in the invasive component of the primary carcinoma of the breast (in the early&#xD;
+      setting) and primary or metastatic lesion (in the advanced setting) is required.&#xD;
+&#xD;
+      Data to determine the primary endpoint is estimated to be derived from the EHRs of over 2,000&#xD;
+      patients that have been diagnosed of early breast cancer between 2005 and 2020, and who&#xD;
+      developed locally recurrent or advanced inoperable breast cancer between January 2015 and&#xD;
+      January 2020 in at least 10 clinical centers.&#xD;
+&#xD;
+      The secondary endpoints utilize a larger collection of data from over 30,000 patients with&#xD;
+      early and/or advanced breast cancer diagnose between 2015 and 2020.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">January 31, 2022</start_date>
+  <completion_date type="Anticipated">June 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Prevalence of HER2 expression change</measure>
+    <time_frame>180 months</time_frame>
+    <description>Change in HER2 expression between primary and advanced breast cancer by IHC and/or ISH validated assays.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Prevalence of changes in HER2 expression among different lines of treatment</measure>
+    <time_frame>180 months</time_frame>
+    <description>HER2 expression changes as assessed by IHC (0+, 1+, 2+, 3+) and/or ISH (positive or negative) validated assays among different lines of treatment in the advanced setting, and/or among different metastatic sites.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Description of the clinicopathological characteristics</measure>
+    <time_frame>180 months</time_frame>
+    <description>Description of all the comprehensive clinicopathological characteristics (age at diagnosis, gender [male or female], baseline Eastern Cooperative Oncology Group [ECOG] performance status [0, 1, or 2], breast cancer pathological subtype at primary site, intrinsic subtype at primary and/or metastatic site by PAM50 test [including luminal A, luminal B, HER2-overexpressing, and basal-like], ER and PgR status [positive and/or negative] at primary and/or metastatic site, HER2 status by IHC and/or ISH testing [HER2-positive, HER2-low expressing, and HER2-negative status per ASCO-CAP guidelines] at primary and/or metastatic site, Ki67 at primary and/or metastatic site, endocrine resistance [primary or secondary]), metastatic sites (bone, brain, visceral involvement) nodal involvement, presence of measurable or evaluable disease per Response Evaluation Criteria In Solid Tumors (RECIST) in all patients enrolled.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Evaluation of the disease management</measure>
+    <time_frame>180 months</time_frame>
+    <description>Description of disease management and treatment patterns in all patients enrolled for gaining contemporary insights into HER2-low expressing breast cancer treatment trends that may inform clinicians for future management plans.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Description of genomic profile</measure>
+    <time_frame>180 months</time_frame>
+    <description>Identification of patients' genomic profile including DNA alterations and/or RNA expression of genes commonly disrupted in breast cancer, including driver, prognostic-related, and drug-response associated genes in tissue or liquid biopsies from all patients enrolled.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Efficacy (OS)</measure>
+    <time_frame>180 months</time_frame>
+    <description>Overall survival (OS) is defined as the time from date of primary treatment initiation to date of death due to any cause. In the absence of confirmation of death, survival time will be censored to last date the participant was known to be alive.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Efficacy (ORR)</measure>
+    <time_frame>180 months</time_frame>
+    <description>Objective response rate (ORR) is defined as the sum of complete response (CR) and partial response (PR) relative to the number of patients in the analysis set with measurable disease at baseline as per RECIST v.1.1.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Efficacy (CBR)</measure>
+    <time_frame>180 months</time_frame>
+    <description>Clinical benefit rate (CBR) is defined as the proportion of participants with CR, PR or stable disease (SD) ≥24 weeks relative to the number of patients in the analysis set as per RECIST v.1.1.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Efficacy (PFS)</measure>
+    <time_frame>180 months</time_frame>
+    <description>Progression-free survival (PFS) is defined as the period of time from treatment initiation to the first occurrence of disease progression or death from any cause, whichever occurs first, as determined locally by the investigator using RECIST v.1.1.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Efficacy (DoR)</measure>
+    <time_frame>180 months</time_frame>
+    <description>Duration of response (DoR) is defined as the time from the first documentation of objective tumor response (CR or PR) to the first documentation of disease progression, death due to any cause or treatment discontinuation, whichever occurs first as per RECIST v.1.1.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">30000</enrollment>
+  <condition>Early Breast Cancer</condition>
+  <condition>Metastatic Breast Cancer</condition>
+  <arm_group>
+    <arm_group_label>Cohort 1</arm_group_label>
+    <description>Patients with pathologically documented locally recurrent or inoperable advanced breast cancer that progressed during or after prior treatment for primary invasive breast cancer</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with confirmed diagnosis of metastatic breast cancer managed in clinical practice&#xD;
+        during the predefined timeframe in the selected hospitals.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Male or female patients who have at least 18 years of age at enrollment.&#xD;
+&#xD;
+          2. Patients with locally recurrent or advanced inoperable breast cancer diagnosed between&#xD;
+             January 2015 and January 2020.&#xD;
+&#xD;
+             AND/OR&#xD;
+&#xD;
+             Patients with early breast cancer diagnosed between 2005 and 2020.&#xD;
+&#xD;
+          3. Pathologically documented breast cancer that:&#xD;
+&#xD;
+             Has a history of HER2-positive expression (defined as immunohistochemistry [IHC] 3+ or&#xD;
+             concurrent IHC 2+ with in situ hybridization [ISH]- positive) or HER2-low expression&#xD;
+             (defined as IHC 2+ with ISH-negative or IHC 1+ with ISH-negative or untested) or&#xD;
+             HER2-negative expression (defined as IHC 0) with a validated assay according to&#xD;
+             American Society Of Clinical Oncology-College of American Pathologists (ASCO/CAP)&#xD;
+             recommendations at the time of diagnose, during early and/or advanced setting.&#xD;
+&#xD;
+             Note: In patients with locally recurrent or advanced inoperable breast cancer, HER2&#xD;
+             expression should have been performed on the most recent tumor biopsy since last&#xD;
+             progression from metastatic tissue.&#xD;
+&#xD;
+             Is documented as hormone receptor (HR)-positive (either estrogen receptor [ER]- and/or&#xD;
+             progesterone receptor [PgR]-positive [ER or PgR ≥1%]) or HR- negative (ER- and&#xD;
+             PgR-negative [ER and PgR &lt;1%] per ASCO/CAP guidelines during early and/or advanced&#xD;
+             setting.&#xD;
+&#xD;
+             Has documented progression during or after prior treatment in the adjuvant or&#xD;
+             neo-adjuvant setting.&#xD;
+&#xD;
+          4. Electronic Health Records (EHRs), with guaranteed data to meet requisites, about&#xD;
+             clinicopathological characteristics, type of surgery, treatment management, disease&#xD;
+             outcomes, and genomic profile. Centers that agree to participate must commit to&#xD;
+             include all subjects who meet the inclusion criteria, in order to reduce possible&#xD;
+             selection bias.&#xD;
+&#xD;
+        Exclusion criteria:&#xD;
+&#xD;
+          1. Medical charts at Hospital that cannot guarantee reliable and congruent EHRs.&#xD;
+&#xD;
+          2. If sufficient data cannot be obtained from EHRs.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Javier Cortés, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>MedSIR</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Alicia García-Sanz, PhD</last_name>
+    <phone>+34 932 214 135</phone>
+    <email>alicia.garcia@medsir.org</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Hospital del Mar</name>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Sonia Servitja Tormo</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Sant Joan Despí - Moisès Broggi</name>
+      <address>
+        <city>Barcelona</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Sabela Recalde Penabad</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitari Son Espases</name>
+      <address>
+        <city>La Palma</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Antonia Perelló Martorell</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario 12 de Octubre</name>
+      <address>
+        <city>Madrid</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Pablo Tolosa Ortega</last_name>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario Fundación de Alcorcón</name>
+      <address>
+        <city>Madrid</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Clara Olier Gárate</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <verification_date>January 2022</verification_date>
+  <study_first_submitted>January 19, 2022</study_first_submitted>
+  <study_first_submitted_qc>January 19, 2022</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 1, 2022</study_first_posted>
+  <last_update_submitted>January 19, 2022</last_update_submitted>
+  <last_update_submitted_qc>January 19, 2022</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 1, 2022</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Breast Cancer</keyword>
+  <keyword>Real-World Data</keyword>
+  <keyword>HER2 negative</keyword>
+  <keyword>HER2 positive</keyword>
+  <keyword>HER2 low</keyword>
+  <keyword>Artificial Intelligence</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

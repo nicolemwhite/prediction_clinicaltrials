@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="344">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05185713</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SYSEC-KY-KS-2021-214</org_study_id>
+    <nct_id>NCT05185713</nct_id>
+  </id_info>
+  <brief_title>The Mechanism of Vaginal Flora and Its Metabolites in the Pathogenesis of Cervical Cancer</brief_title>
+  <official_title>The Mechanism of Vaginal Flora and Its Metabolites in the Pathogenesis of Cervical Cancer</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The disorder of vaginal microflora and its metabolites is considered to be a facilitating&#xD;
+      factor to human papillomavirus-mediated cervical cancer. However, the mechanism is still&#xD;
+      unclear. This study intends to carry out a cross-sectional study and a cohort study. The&#xD;
+      cross-sectional study intends to recruit 300 premenopausal non-pregnant women, dividing them&#xD;
+      into five groups, with 60 in each group: HPV negative [Ctrl HPV (-)], HPV positive [Ctrl HPV&#xD;
+      (+)], low-grade squamous Intraepithelial lesion (LSIL), high-grade squamous intraepithelial&#xD;
+      lesion (HSIL) and newly diagnosed invasive cervical cancer (ICC). Obtain basic information&#xD;
+      through the questionnaire, and collect vaginal secretion and blood samples. At the same time,&#xD;
+      patients who are diagnosed with cervical cancer for the first time will be included in the&#xD;
+      cohort study. Collect the same kind of information. The follow-up period is set to be 3&#xD;
+      years, and samples will be collected every six months. If any condition changes within the 3&#xD;
+      years, samples should be collected. If new treatments are taken, samples should be taken&#xD;
+      before and after treatment. And if the lesion turns negative after treatment within the 3&#xD;
+      years, complete the follow-up. Using 16S rRNA gene sequencing, metabolomics, and&#xD;
+      immunological methods to determine the vaginal microbiota and its metabolites and&#xD;
+      inflammation condition, select biomarkers related to the onset of cervical cancer. construct&#xD;
+      a cervical cancer risk model and outcome prediction model, and reveal the mechanism of&#xD;
+      vaginal flora and its metabolites in the pathogenesis and development of cervical cancer.&#xD;
+      Therefore provides a new direction for the prevention and treatment of cervical cancer.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The disorder of vaginal microflora and its metabolites is considered to be a facilitating&#xD;
+      factor to human papillomavirus-mediated cervical cancer. However, the mechanism is still&#xD;
+      unclear.&#xD;
+&#xD;
+      This study intends to carry out a cross-sectional study and a cohort study. The&#xD;
+      cross-sectional study intends to recruit 300 premenopausal non-pregnant women, dividing them&#xD;
+      into five groups, with 60 in each group: HPV negative [Ctrl HPV (-)], HPV positive [Ctrl HPV&#xD;
+      (+)], low-grade squamous Intraepithelial lesion (LSIL group), high-grade squamous&#xD;
+      intraepithelial lesion (HSIL group) and newly diagnosed invasive cervical cancer (ICC group).&#xD;
+&#xD;
+      Obtain basic information through the questionnaire, and collect vaginal secretion and blood&#xD;
+      samples every time the patients review the clincal department as scheduled. At the same time,&#xD;
+      patients who are diagnosed with cervical cancer for the first time will be included in the&#xD;
+      cohort study. Collect the same kind of information. The follow-up period is set to be 3&#xD;
+      years, and samples will be collected every six months. If any condition changes within the 3&#xD;
+      years, samples should be collected. If new treatments are taken, samples should be taken&#xD;
+      before and after treatment. And if the lesion turns negative after treatment within the 3&#xD;
+      years, complete the follow-up.&#xD;
+&#xD;
+      Using 16S rRNA gene sequencing, metabolomics, and immunological methods to determine the&#xD;
+      vaginal microbiota and its metabolites and inflammation condition, select biomarkers related&#xD;
+      to the onset of cervical cancer.&#xD;
+&#xD;
+      Carry out the genital tract inflammation score calculating, blood inflammatory factors&#xD;
+      testing, biological information analyzing, and metabolite composition and content in vaginal&#xD;
+      secretions analyzing.&#xD;
+&#xD;
+      The purpose of this study is to construct a cervical cancer risk model and outcome prediction&#xD;
+      model, and reveal the mechanism of vaginal flora and its metabolites in the pathogenesis and&#xD;
+      development of cervical cancer. Therefore provides a new direction for the prevention and&#xD;
+      treatment of cervical cancer.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">April 1, 2022</start_date>
+  <completion_date type="Anticipated">January 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">January 1, 2023</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <target_duration>3 Years</target_duration>
+  <primary_outcome>
+    <measure>Genital tract inflammation score</measure>
+    <time_frame>immediately after the sample collection</time_frame>
+    <description>ELISA kit is used to detect the expression levels of 7 cytokines (IL-1α, IL-1β, IL-8, MIP-1β, CCL20, RANTES and TNF-α, etc.) in the vaginal secretions, and determine a cumulative score according to the level of each cytokine. If 3 or more than 3 of the 7 cytokines ranks in the upper quartile of all participants, it's considered high-level reproductive tract inflammation. A score of 5 to 7 is considered high-grade genital tract inflammation, 1 to 5 is low-grade genital tract inflammation, and a score of 0 is no inflammation.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Blood inflammatory factors</measure>
+    <time_frame>immediately after the sample collection</time_frame>
+    <description>Use ELISA kit to detect 7 kinds of inflammatory factors (IL-1α, IL-1β, IL-8, MIP-1β, CCL20, RANTES and TNF-α.) in the blood sample.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>16sDNA sequencing and biological information analysis</measure>
+    <time_frame>immediately after the sample collection</time_frame>
+    <description>Extract DNA with a total bacterial DNA extraction kit, using bacterial DNA as a template, bacterial 16S rDNA V3~V4 variable regions as targets, and barcode-equipped universal primers for PCR amplification. The PCR products will be sequenced using Illumina NovaSeq sequencing technology. After quality control, trimming, denoising, splicing, and chimera removal of the obtained raw data and reads, the high-throughput original base sequence is obtained, and the data will be analyzed using Qiime2 software. Data analysis includes operational unit (OTU) clustering, genetic enrichment analysis, principal component analysis (PCoA), community structure diversity (α and β diversity), and analysis of bacterial genus differences between groups (using linear discriminant effect analysis of LefSe ), correlation analysis, intestinal flora prediction model (random forest model).</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>The metabolite composition and content in vaginal secretions</measure>
+    <time_frame>immediately after the sample collection</time_frame>
+    <description>The non-targeted metabolomics method is used to detect the metabolite composition and content in vaginal secretions. Quantitative analysis of metabolomics in each group, principal component analysis (PCOA, group analysis), differential metabolite spectrum analysis (increased/decreased metabolites in each group), correlation analysis (correlation analysis of inflammatory factors and metabolites). Correlation analysis between microbiology and metabolomics (including correlation analysis between different species and different metabolites, Scatter plot analysis, etc).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>The content of the questionnaire</measure>
+    <time_frame>immediately after the first visit of the patients</time_frame>
+    <description>The content of the questionnaire includes:&#xD;
+General information: name, place of origin, age, nationality, occupation, education level, family income, etc.&#xD;
+Marriage and childbirth history: menstruation, marital status, pregnancy and parity, history of sexual life, contraceptive methods, etc.&#xD;
+Lifestyle: smoking history, drinking history, sleep time, moderate to high-intensity physical activity, etc.&#xD;
+Disease history and family history: diabetes, hypertension, venereal history, history of gynecological tumors.&#xD;
+Testing and laboratory examinations: height, weight, gynecological examinations, HPV testing, TCT or cervical pathological diagnosis, etc.</description>
+  </secondary_outcome>
+  <number_of_groups>5</number_of_groups>
+  <enrollment type="Anticipated">300</enrollment>
+  <condition>Cervical Cancer</condition>
+  <arm_group>
+    <arm_group_label>Ctrl HPV (-)</arm_group_label>
+    <description>Patients with normal cervix and HPV negative</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Ctrl HPV (+)</arm_group_label>
+    <description>Patients with normal cervix and HPV positive</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>LSIL group</arm_group_label>
+    <description>Patients with low-grade squamous Intraepithelial lesion</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>HSIL group</arm_group_label>
+    <description>Patients with high-grade squamous Intraepithelial lesion</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>ICC group</arm_group_label>
+    <description>Patients newly diagnosed invasive cervical cancer</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>This project is a clinical observational study. No additional medication or surgical interventions are performed on the subjects.</intervention_name>
+    <description>This project is a clinical observational study. No additional medication or surgical interventions are performed on the subjects.</description>
+    <arm_group_label>Ctrl HPV (+)</arm_group_label>
+    <arm_group_label>Ctrl HPV (-)</arm_group_label>
+    <arm_group_label>HSIL group</arm_group_label>
+    <arm_group_label>ICC group</arm_group_label>
+    <arm_group_label>LSIL group</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Extract the total DNA of the bacteria from the vaginal discharge of the patients enrolled.&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All patients are selected from the gynecology clinical department of the Sun Yat-Sen&#xD;
+        Memorial Hospital of Sun Yat-Sen University.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Age 18 to 60 years women;&#xD;
+&#xD;
+          2. have a history of sexual life for 3 years or more;&#xD;
+&#xD;
+          3. women not in the menstrual period, pregnancy, or puerperium.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Women who received antibiotics and antifungal treatment within one month before the&#xD;
+             sample collection (records);&#xD;
+&#xD;
+          2. Women suffering from the following diseases: other cancer, vaginal infections,&#xD;
+             bacterial vaginosis, vulvar infections, urinary tract infections or sexually&#xD;
+             transmitted infections including chlamydia, gonorrhea, trichomoniasis and genital&#xD;
+             herpes, type I or type II diabetes, AIDS Virus positive;&#xD;
+&#xD;
+          3. Women with abnormal vaginal secretions or dirt in the vagina, and women who used&#xD;
+             flushing substances within three weeks before the sample collection;&#xD;
+&#xD;
+          4. Have sexual intercourse or use vaginal lubricant within 48 hours before sample&#xD;
+             collection.&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>60 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Rao Qunxian</last_name>
+    <role>Study Director</role>
+    <affiliation>The Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Rao Qunxian</last_name>
+    <phone>+86 13902250700</phone>
+    <email>raoqx3@mail.sysu.edu.cn</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>The Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University</name>
+      <address>
+        <city>Guangzhou</city>
+        <state>Guangdong</state>
+        <country>China</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Rao Qunxian</last_name>
+      <phone>+86 13902250700</phone>
+      <email>raoqx3@mail.sysu.edu.cn</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Bray F, Ferlay J, Soerjomataram I, Siegel RL, Torre LA, Jemal A. Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin. 2018 Nov;68(6):394-424. doi: 10.3322/caac.21492. Epub 2018 Sep 12. Erratum in: CA Cancer J Clin. 2020 Jul;70(4):313.</citation>
+    <PMID>30207593</PMID>
+  </reference>
+  <reference>
+    <citation>Hinkula M, Pukkala E, Kyyrönen P, Laukkanen P, Koskela P, Paavonen J, Lehtinen M, Kauppila A. A population-based study on the risk of cervical cancer and cervical intraepithelial neoplasia among grand multiparous women in Finland. Br J Cancer. 2004 Mar 8;90(5):1025-9.</citation>
+    <PMID>14997202</PMID>
+  </reference>
+  <reference>
+    <citation>Syrjänen S, Shabalova I, Petrovichev N, Kozachenko V, Zakharova T, Pajanidi J, Podistov J, Chemeris G, Sozaeva L, Lipova E, Tsidaeva I, Ivanchenko O, Pshepurko A, Zakharenko S, Nerovjna R, Kljukina L, Erokhina O, Branovskaja M, Nikitina M, Grujnberga V, Grujnberg A, Juschenko A, Johansson B, Tosi P, Cintorino M, Santopietro R, Syrjänen K. Sexual habits and human papillomavirus infection among females in three New Independent States of the former Soviet Union. Sex Transm Dis. 2003 Sep;30(9):680-4.</citation>
+    <PMID>12972789</PMID>
+  </reference>
+  <reference>
+    <citation>Moreno V, Bosch FX, Muñoz N, Meijer CJ, Shah KV, Walboomers JM, Herrero R, Franceschi S; International Agency for Research on Cancer. Multicentric Cervical Cancer Study Group. Effect of oral contraceptives on risk of cervical cancer in women with human papillomavirus infection: the IARC multicentric case-control study. Lancet. 2002 Mar 30;359(9312):1085-92.</citation>
+    <PMID>11943255</PMID>
+  </reference>
+  <reference>
+    <citation>Lee SA, Kang D, Seo SS, Jeong JK, Yoo KY, Jeon YT, Kim JW, Park NH, Kang SB, Lee HP, Song YS. Multiple HPV infection in cervical cancer screened by HPVDNAChip. Cancer Lett. 2003 Aug 20;198(2):187-92.</citation>
+    <PMID>12957357</PMID>
+  </reference>
+  <reference>
+    <citation>Patterson JL, Stull-Lane A, Girerd PH, Jefferson KK. Analysis of adherence, biofilm formation and cytotoxicity suggests a greater virulence potential of Gardnerella vaginalis relative to other bacterial-vaginosis-associated anaerobes. Microbiology (Reading). 2010 Feb;156(Pt 2):392-399. doi: 10.1099/mic.0.034280-0. Epub 2009 Nov 12.</citation>
+    <PMID>19910411</PMID>
+  </reference>
+  <reference>
+    <citation>Gonzalez A, Navas-Molina JA, Kosciolek T, McDonald D, Vázquez-Baeza Y, Ackermann G, DeReus J, Janssen S, Swafford AD, Orchanian SB, Sanders JG, Shorenstein J, Holste H, Petrus S, Robbins-Pianka A, Brislawn CJ, Wang M, Rideout JR, Bolyen E, Dillon M, Caporaso JG, Dorrestein PC, Knight R. Qiita: rapid, web-enabled microbiome meta-analysis. Nat Methods. 2018 Oct;15(10):796-798. doi: 10.1038/s41592-018-0141-9. Epub 2018 Oct 1.</citation>
+    <PMID>30275573</PMID>
+  </reference>
+  <verification_date>December 2021</verification_date>
+  <study_first_submitted>December 7, 2021</study_first_submitted>
+  <study_first_submitted_qc>December 22, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 11, 2022</study_first_posted>
+  <last_update_submitted>January 23, 2022</last_update_submitted>
+  <last_update_submitted_qc>January 23, 2022</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 25, 2022</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>cervical cancer</keyword>
+  <keyword>vaginal flora</keyword>
+  <keyword>metaboliomics</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Uterine Cervical Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol and Statistical Analysis Plan</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>September 6, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/13/NCT05185713/Prot_SAP_000.pdf</document_url>
+    </provided_document>
+    <provided_document>
+      <document_type>Informed Consent Form</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>No</document_has_sap>
+      <document_date>September 6, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/13/NCT05185713/ICF_001.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

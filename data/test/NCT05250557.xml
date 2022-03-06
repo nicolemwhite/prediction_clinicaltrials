@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="36">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05250557</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H-2107-230-1240</org_study_id>
+    <nct_id>NCT05250557</nct_id>
+  </id_info>
+  <brief_title>Prognostic Impact of Lesion-specific Hemodynamic Index in Patients With Coronary Artery Disease</brief_title>
+  <acronym>PRIME-FFR</acronym>
+  <official_title>Prognostic Impact of Lesion-specific Hemodynamic Index and Disease Characteristics in Patients With Coronary Artery Disease Assessed by Fractional Flow Reserve</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Seoul National University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Keimyung University Dongsan Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Inje University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Ulsan University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Dong-A University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Gyeongsang National University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>KangWon National University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Wonju Severance Christian Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Yongin Severance Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Seoul National University Bundang Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Tsuchiura Kyodo General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Seoul National University Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators aim to investigate the additive prognostic value of lesion-specific&#xD;
+      hemodynamic index such as ΔFFR, non-hyperemic pressure ratio such as RFR, over % diameter&#xD;
+      stenosis and FFR according to treatment strategy, and to find the prognostic implications of&#xD;
+      post-PCI FFR after adjustment of various clinical and disease characteristics, and to&#xD;
+      construct a comprehensive risk prediction model for post-PCI outcomes.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Fractional flow reserve (FFR)-based revascularization is the currently best practice&#xD;
+      recommended by guidelines. In addition to the use of coronary physiological indices as a&#xD;
+      vessel-specific metric, recent studies suggested the clinical importance of local&#xD;
+      hemodynamics in prediction of risk for target vessel failure or acute coronary syndrome in&#xD;
+      patients with coronary artery disease. In patients who receive percutaneous coronary&#xD;
+      intervention (PCI), the absolute value and pattern of FFR change after stenting are helpful&#xD;
+      in defining the additional target for PCI and risk stratification after PCI. However, there&#xD;
+      has been no prospective study that proved the benefit of change in FFR across the lesion&#xD;
+      (ΔFFR) in daily clinical practice, and FFR usage after stenting is much less than before&#xD;
+      stenting. Accordingly, we will prove the benefit of ΔFFR in addition to FFR, prognostic&#xD;
+      implications of combining RFR and FFR, and the comprehensive risk model with post-PCI FFR,&#xD;
+      clinical and disease characteristics in a prospective study, to maximize the benefit of&#xD;
+      invasive physiologic assessment.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 1, 2021</start_date>
+  <completion_date type="Anticipated">December 31, 2026</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2025</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Adverse cardiovascular event according to ΔFFR (Deferral of PCI group)</measure>
+    <time_frame>Upto 2 years after index procedure</time_frame>
+    <description>Composite of 2-year target vessel revascularization, target vessel myocardial infarction, and cardiac death</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Adverse cardiovascular event according to post-PCI FFR (PCI group)</measure>
+    <time_frame>Upto 2 years after index procedure</time_frame>
+    <description>Composite of 2-year target vessel revascularization, target vessel myocardial infarction, and cardiac death</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">2429</enrollment>
+  <condition>Coronary Artery Disease</condition>
+  <arm_group>
+    <arm_group_label>Deferral of PCI group</arm_group_label>
+    <description>Patients who undergo successful FFR pullback tracing and have a vessel determined to defer revascularization after FFR measurement will be included.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PCI group</arm_group_label>
+    <description>Patients who undergo successful FFR pullback tracing and have a vessel that undergo stent implantation and FFR measurement both before and after revascularization (pre-PCI FFR and post-PCI FFR) will be included.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Fractional flow reserve</intervention_name>
+    <description>Physiologic assessment includes Δ FFR (lesion-specific) and FFR (vessel-specific) measurement. Δ FFR is defined as a pressure step up across the lesion. Coronary angiography and physiologic assessment will be analyzed by an independent core laboratory (Seoul National University Hospital, Clinical Trial Center, Seoul, South Korea).</description>
+    <arm_group_label>Deferral of PCI group</arm_group_label>
+    <arm_group_label>PCI group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with suspected coronary artery disease who undergo FFR measurement and pullback&#xD;
+        tracing will be included. If the patients receive PCI after FFR measurement, those with&#xD;
+        available both preprocedural and postprocedural FFR measurement will be included.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Age ≥20 years&#xD;
+&#xD;
+          2. All comers who underwent successful FFR measurement and pullback tracing&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Chronic renal failure (estimated glomerular filtration rate &lt;30)&#xD;
+&#xD;
+          2. ST-elevation myocardial infarction within 72 hours or previous coronary artery bypass&#xD;
+             graft surgery history&#xD;
+&#xD;
+          3. Primary myocardial or valvular disease&#xD;
+&#xD;
+          4. Left ventricular ejection fraction &lt; 30%&#xD;
+&#xD;
+          5. Hemodynamically unstable clinical conditions&#xD;
+&#xD;
+          6. Life expectancy &lt; 2 years&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Bon-Kwon Koo, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Seoul National University Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Bon-Kwon Koo, MD, PhD</last_name>
+    <phone>+82-2-2072-2062</phone>
+    <email>bkkoo@snu.ac.kr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Seokhun Yang, MD</last_name>
+    <phone>+82-2-2072-2062</phone>
+    <email>newturnz7@gmail.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Seoul National University Hospital</name>
+      <address>
+        <city>Seoul</city>
+        <zip>110-744</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Bon-Kwon Koo, MD, PhD</last_name>
+      <phone>+82-2-2072-2062</phone>
+      <email>bkkoo@snu.ac.kr</email>
+    </contact>
+    <contact_backup>
+      <last_name>Seokhun Yang, MD</last_name>
+      <phone>+82-2-2072-2062</phone>
+      <email>newturnz7@gmail.com</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <reference>
+    <citation>Neumann FJ, Sousa-Uva M, Ahlsson A, Alfonso F, Banning AP, Benedetto U, Byrne RA, Collet JP, Falk V, Head SJ, Jüni P, Kastrati A, Koller A, Kristensen SD, Niebauer J, Richter DJ, Seferovic PM, Sibbing D, Stefanini GG, Windecker S, Yadav R, Zembala MO; ESC Scientific Document Group. 2018 ESC/EACTS Guidelines on myocardial revascularization. Eur Heart J. 2019 Jan 7;40(2):87-165. doi: 10.1093/eurheartj/ehy394. Erratum in: Eur Heart J. 2019 Oct 1;40(37):3096.</citation>
+    <PMID>30165437</PMID>
+  </reference>
+  <reference>
+    <citation>Park JB, Choi G, Chun EJ, Kim HJ, Park J, Jung JH, Lee MH, Otake H, Doh JH, Nam CW, Shin ES, De Bruyne B, Taylor CA, Koo BK. Computational fluid dynamic measures of wall shear stress are related to coronary lesion characteristics. Heart. 2016 Oct 15;102(20):1655-61. doi: 10.1136/heartjnl-2016-309299. Epub 2016 Jun 14.</citation>
+    <PMID>27302987</PMID>
+  </reference>
+  <reference>
+    <citation>Choi G, Lee JM, Kim HJ, Park JB, Sankaran S, Otake H, Doh JH, Nam CW, Shin ES, Taylor CA, Koo BK. Coronary Artery Axial Plaque Stress and its Relationship With Lesion Geometry: Application of Computational Fluid Dynamics to Coronary CT Angiography. JACC Cardiovasc Imaging. 2015 Oct;8(10):1156-1166. doi: 10.1016/j.jcmg.2015.04.024. Epub 2015 Sep 9.</citation>
+    <PMID>26363834</PMID>
+  </reference>
+  <reference>
+    <citation>Lee JM, Choi G, Koo BK, Hwang D, Park J, Zhang J, Kim KJ, Tong Y, Kim HJ, Grady L, Doh JH, Nam CW, Shin ES, Cho YS, Choi SY, Chun EJ, Choi JH, Nørgaard BL, Christiansen EH, Niemen K, Otake H, Penicka M, de Bruyne B, Kubo T, Akasaka T, Narula J, Douglas PS, Taylor CA, Kim HS. Identification of High-Risk Plaques Destined to Cause Acute Coronary Syndrome Using Coronary Computed Tomographic Angiography and Computational Fluid Dynamics. JACC Cardiovasc Imaging. 2019 Jun;12(6):1032-1043. doi: 10.1016/j.jcmg.2018.01.023. Epub 2018 Mar 14. Erratum in: JACC Cardiovasc Imaging. 2019 Nov;12(11 Pt 1):2288-2289.</citation>
+    <PMID>29550316</PMID>
+  </reference>
+  <reference>
+    <citation>Hwang D, Lee JM, Yang S, Chang M, Zhang J, Choi KH, Kim CH, Nam CW, Shin ES, Kwak JJ, Doh JH, Hoshino M, Hamaya R, Kanaji Y, Murai T, Zhang JJ, Ye F, Li X, Ge Z, Chen SL, Kakuta T, Koo BK. Role of Post-Stent Physiological Assessment in a Risk Prediction Model After Coronary Stent Implantation. JACC Cardiovasc Interv. 2020 Jul 27;13(14):1639-1650. doi: 10.1016/j.jcin.2020.04.041.</citation>
+    <PMID>32703590</PMID>
+  </reference>
+  <reference>
+    <citation>Rimac G, Fearon WF, De Bruyne B, Ikeno F, Matsuo H, Piroth Z, Costerousse O, Bertrand OF. Clinical value of post-percutaneous coronary intervention fractional flow reserve value: A systematic review and meta-analysis. Am Heart J. 2017 Jan;183:1-9. doi: 10.1016/j.ahj.2016.10.005. Epub 2016 Oct 11. Review.</citation>
+    <PMID>27979031</PMID>
+  </reference>
+  <reference>
+    <citation>Hwang D, Lee JM, Lee HJ, Kim SH, Nam CW, Hahn JY, Shin ES, Matsuo A, Tanaka N, Matsuo H, Lee SY, Doh JH, Koo BK. Influence of target vessel on prognostic relevance of fractional flow reserve after coronary stenting. EuroIntervention. 2019 Aug 29;15(5):457-464. doi: 10.4244/EIJ-D-18-00913.</citation>
+    <PMID>30561367</PMID>
+  </reference>
+  <reference>
+    <citation>Li SJ, Ge Z, Kan J, Zhang JJ, Ye F, Kwan TW, Santoso T, Yang S, Sheiban I, Qian XS, Tian NL, Rab TS, Tao L, Chen SL. Cutoff Value and Long-Term Prediction of Clinical Events by FFR Measured Immediately After Implantation of a Drug-Eluting Stent in Patients With Coronary Artery Disease: 1- to 3-Year Results From the DKCRUSH VII Registry Study. JACC Cardiovasc Interv. 2017 May 22;10(10):986-995. doi: 10.1016/j.jcin.2017.02.012. Epub 2017 Apr 26.</citation>
+    <PMID>28456699</PMID>
+  </reference>
+  <reference>
+    <citation>Hakeem A, Uretsky BF. Role of Postintervention Fractional Flow Reserve to Improve Procedural and Clinical Outcomes. Circulation. 2019 Jan 29;139(5):694-706. doi: 10.1161/CIRCULATIONAHA.118.035837. Review.</citation>
+    <PMID>30689413</PMID>
+  </reference>
+  <reference>
+    <citation>Lee JM, Hwang D, Choi KH, Rhee TM, Park J, Kim HY, Jung HW, Hwang JW, Lee HJ, Jang HJ, Kim SH, Song YB, Cho YK, Nam CW, Hahn JY, Shin ES, Kawase Y, Matsuo A, Tanaka N, Doh JH, Koo BK, Matsuo H. Prognostic Implications of Relative Increase and Final Fractional Flow Reserve in Patients With Stent Implantation. JACC Cardiovasc Interv. 2018 Oct 22;11(20):2099-2109. doi: 10.1016/j.jcin.2018.07.031.</citation>
+    <PMID>30336814</PMID>
+  </reference>
+  <reference>
+    <citation>Johnson NP, Tóth GG, Lai D, Zhu H, Açar G, Agostoni P, Appelman Y, Arslan F, Barbato E, Chen SL, Di Serafino L, Domínguez-Franco AJ, Dupouy P, Esen AM, Esen OB, Hamilos M, Iwasaki K, Jensen LO, Jiménez-Navarro MF, Katritsis DG, Kocaman SA, Koo BK, López-Palop R, Lorin JD, Miller LH, Muller O, Nam CW, Oud N, Puymirat E, Rieber J, Rioufol G, Rodés-Cabau J, Sedlis SP, Takeishi Y, Tonino PA, Van Belle E, Verna E, Werner GS, Fearon WF, Pijls NH, De Bruyne B, Gould KL. Prognostic value of fractional flow reserve: linking physiologic severity to clinical outcomes. J Am Coll Cardiol. 2014 Oct 21;64(16):1641-54. doi: 10.1016/j.jacc.2014.07.973.</citation>
+    <PMID>25323250</PMID>
+  </reference>
+  <reference>
+    <citation>Schoenfeld DA. Sample-size formula for the proportional-hazards regression model. Biometrics. 1983 Jun;39(2):499-503.</citation>
+    <PMID>6354290</PMID>
+  </reference>
+  <reference>
+    <citation>Lee JM, Lee SH, Hwang D, Rhee TM, Choi KH, Kim J, Park J, Kim HY, Jung HW, Cho YK, Yoon HJ, Song YB, Hahn JY, Nam CW, Shin ES, Doh JH, Hur SH, Koo BK. Long-Term Clinical Outcomes of Nonhyperemic Pressure Ratios: Resting Full-Cycle Ratio, Diastolic Pressure Ratio, and Instantaneous Wave-Free Ratio. J Am Heart Assoc. 2020 Sep 15;9(18):e016818. doi: 10.1161/JAHA.120.016818. Epub 2020 Sep 11.</citation>
+    <PMID>32914672</PMID>
+  </reference>
+  <reference>
+    <citation>Hsieh FY, Lavori PW. Sample-size calculations for the Cox proportional hazards regression model with nonbinary covariates. Control Clin Trials. 2000 Dec;21(6):552-60.</citation>
+    <PMID>11146149</PMID>
+  </reference>
+  <verification_date>February 2022</verification_date>
+  <study_first_submitted>February 10, 2022</study_first_submitted>
+  <study_first_submitted_qc>February 10, 2022</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 22, 2022</study_first_posted>
+  <last_update_submitted>February 10, 2022</last_update_submitted>
+  <last_update_submitted_qc>February 10, 2022</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 22, 2022</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Seoul National University Hospital</investigator_affiliation>
+    <investigator_full_name>Bon-Kwon Koo</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>The sharing plan will be decided by the study committee.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

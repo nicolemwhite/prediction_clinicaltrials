@@ -12,14 +12,15 @@ search_terms_1 <- c("machine learning","artificial intelligence","deep learning"
 search_terms_2 <- c("prognosis","prognostic")
 
 home = getwd()
-
+xml_folder <- 'data/test'
+date_run = Sys.Date()
 # review files in zipped folder
 all_results = unzip('Z:/clinicaltrials/AllPublicXML.zip',list=TRUE) %>% data.frame() %>%
   filter(Name!='Contents.txt')
 
 
 #filepath to downloaded XML files
-xml_files = dir('Z:/clinicaltrials/search_result')
+xml_files = dir(xml_folder)
 xml_files = xml_files[grepl('NCT(.*).xml',xml_files)]
 
 #not run: revisit later after multiple batches of xml downloads
@@ -32,7 +33,7 @@ studies = NULL
 
 # loop through folders
 for (f in 1:N){ # should be 1:N
-  go = paste('Z:/clinicaltrials/search_result/', xml_files[f], sep='')
+  go = paste(xml_folder, xml_files[f], sep='/')
   #setwd(go)
   #xml_files = dir() # find all xml files in this folder (individual trials)
   
@@ -99,7 +100,7 @@ for (f in 1:N){ # should be 1:N
 
 # save 
 setwd(home)
-save(studies, file='processed_studies.rda')
+save(studies, xml_folder, date_run,file='processed_studies_test.rda')
 # 
 # #Not run:
 # #create additional columns to identify which search terms were found in each record

@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="216">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04547231</url>
+  </required_header>
+  <id_info>
+    <org_study_id>H-2007-201-1144</org_study_id>
+    <nct_id>NCT04547231</nct_id>
+  </id_info>
+  <brief_title>Impact of Coronary CT Angiography, Physiologic Assessment and Pharmacotherapy on the Clinical Outcomes</brief_title>
+  <acronym>PRIME-CT</acronym>
+  <official_title>Impact of Stenosis and Plaque Features in Coronary CT Angiography, Physiologic Assessment and Pharmacotherapy on the Clinical Outcomes After Invasive Coronary Angiography</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Seoul National University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Seoul National University Bundang Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Keimyung University Dongsan Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Ulsan Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Inje University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Sejong Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Chosun University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Gachon University Gil Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Dong-A University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Wonju Severance Christian Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Incheon St.Mary's Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Tsuchiura Kyodo General Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Second Affiliated Hospital, School of Medicine, Zhejiang University</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Dong-A ST Co., Ltd.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Seoul National University Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The investigators aim to investigate the prognostic implication of stenosis and plaque&#xD;
+      features on coronary CT angiography (CCTA), physiologic assessment, and pharmacotherapy after&#xD;
+      invasive coronary angiography.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Stenosis severity, plaque features, and myocardial ischemia have been known as important&#xD;
+      indicators in diagnosis and prognostication of patients with coronary artery disease.&#xD;
+      Invasive physiologic indies such as fractional flow reserve (FFR) are used to define&#xD;
+      ischemia-causing stenosis in the catheterization laboratory. FFR represents maximal blood&#xD;
+      flow to the myocardium supplied by an artery with stenosis as a fraction of normal maximum&#xD;
+      flow. The FFR-guided strategy was reported to improve the patients' outcomes in comparison&#xD;
+      with the angiography-guided strategy. However, clinical events still occur in patients with&#xD;
+      FFR &gt;0.80, and invasive therapy did not improve prognosis in patients with moderate to severe&#xD;
+      ischemia compared to optimal medical therapy in the ISCHEMIA trial. In the recent report, the&#xD;
+      prognosis in the vessel with FFR &gt;0.80 was associated with high-risk plaque characteristics&#xD;
+      on coronary CT angiography (CCTA). Likewise, incorporation of stenosis and plaque features&#xD;
+      and myocardial ischemia may provide better risk stratification of patients with coronary&#xD;
+      artery disease than evaluating each attribute alone. Recent proposed novel measurement such&#xD;
+      as pericoronary inflammation or epicardial fat metrics and lesion-specific or vessel-specific&#xD;
+      hemodynamic parameters derived from CCTA has also been known as a robust prognostic&#xD;
+      predictor. In addition, antiplatelet agents and lipid-lowering medication such as aspirin,&#xD;
+      clopidogrel, or statin are commonly used for primary and secondary prevention of adverse&#xD;
+      cardiovascular events. However, the relationship of combination and dosage of those drugs&#xD;
+      with prevention of plaque progression and clinical outcomes has not been fully understood.&#xD;
+      Accordingly, the investigators aim to find the prognostic implications of stenosis and plaque&#xD;
+      features, fat metrics on CCTA along with physiologic assessment and pharmocotherapy according&#xD;
+      to the different treatment strategies.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">August 12, 2020</start_date>
+  <completion_date type="Anticipated">December 31, 2025</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2024</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Adverse cardiovascular event according to stenosis and plaque features (Deferral group).</measure>
+    <time_frame>Upto 2 years after index procedure</time_frame>
+    <description>A composite of cardiac death, vessel-related myocardial infarction (MI), or vessel-related ischemia-driven revascularization. The target vessel will be defined as the vessel with FFR measurement.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Adverse cardiovascular event according to pre-PCI FFR in vessels with low post-PCI FFR (PCI group).</measure>
+    <time_frame>Upto 2 years after index procedure</time_frame>
+    <description>A composite of cardiac death, vessel-related myocardial infarction (MI), or vessel-related ischemia-driven revascularization. The target vessel will be defined as the vessel with FFR measurement.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Additive prognostic value of stenosis and plaque features on CCTA over FFR in prediction of adverse cardiovascular events (Deferral group).</measure>
+    <time_frame>Upto 2 years after index procedure</time_frame>
+    <description>Comparison of outcome discrimination ability.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Comprehensive risk prediction model by integrating stenosis and plaque features, local hemodynamic parameters (Deferral group).</measure>
+    <time_frame>Upto 2 years after index procedure</time_frame>
+    <description>Risk prediction model using conventional statistics or machine learning.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Clinical events and plaque and physiologic characteristics by medication history including antiplatelet agents and statin and serum lipid level during follow-up (Deferral group).</measure>
+    <time_frame>Upto 2 years after index procedure</time_frame>
+    <description>Changes in lesion characteristics and outcome by medication history.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Prognostic value of CT-defined pericoronary and epicardial fat metrics (fat attenuation index [FAI], epicardial fat attenuation index [EFAI], and epicardial fat volume [EFV]) (Deferral group).</measure>
+    <time_frame>Upto 2 years after index procedure</time_frame>
+    <description>Prognostic implications of fat metrics.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Risk prediction model by stenosis and plaque features, local hemodynamic parameters, and fat metrics and physiologic assessment (delta FFR and FFR) (Deferral group).</measure>
+    <time_frame>Upto 2 years after index procedure</time_frame>
+    <description>Risk prediction model using conventional statistics or machine learning.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Risk of adverse cardiovascular events according to pre-PCI FFR (PCI group).</measure>
+    <time_frame>Upto 2 years after index procedure</time_frame>
+    <description>Prognostic implications of pre-PCI FFR after PCI.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Prognostic impact of stenosis and plaque features on CCTA, local hemodynamic parameters (PCI group).</measure>
+    <time_frame>Upto 2 years after index procedure</time_frame>
+    <description>Prognostic implications of stenosis and plaque features on CCTA after PCI.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Comprehensive risk prediction model by integrating stenosis and plaque features on CCTA and physiologic assessment before and after PCI (PCI group).</measure>
+    <time_frame>Upto 2 years after index procedure</time_frame>
+    <description>Risk prediction model using conventional statistics or machine learning.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Clinical events and plaque and physiologic characteristics by medication history including antiplatelet agents and statin and serum lipid level during follow-up (PCI group).</measure>
+    <time_frame>Upto 2 years after index procedure</time_frame>
+    <description>Changes in lesion characteristics and outcome by medication history.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Prognostic value of CT-defined pericoronary and epicardial fat metrics (FAI, EFAI, EFV) (PCI group).</measure>
+    <time_frame>Upto 2 years after index procedure</time_frame>
+    <description>Prognostic implications of fat metrics.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Risk prediction model by stenosis and plaque features, local hemodynamic parameters, and fat metrics and physiologic assessment (delta FFR and FFR) (PCI group).</measure>
+    <time_frame>Upto 2 years after index procedure</time_frame>
+    <description>Risk prediction model using conventional statistics or machine learning.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Comparison of risk for future events by comprehensive CCTA analysis and physiologic assessment between the deferral of PCI and PCI group (Whole population).</measure>
+    <time_frame>Upto 2 years after index procedure</time_frame>
+    <description>Risk comparison and prediction model using conventional statistics or machine learning.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Relationship among FFR values, CT-derived plaque qualification and quantification, and CT-defined pericoronary and epicardial fat metrics including FAI, EFAI, and EFV (Whole population).</measure>
+    <time_frame>Upto 2 years after index procedure</time_frame>
+    <description>Association among CCTA parameters and physiologic indices.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">992</enrollment>
+  <condition>Coronary Artery Disease</condition>
+  <arm_group>
+    <arm_group_label>Deferral of PCI group</arm_group_label>
+    <description>Patients with a vessel determined to defer revascularization after FFR measurement who undergo CCTA within 90 days before FFR measurement will be included.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>PCI group</arm_group_label>
+    <description>Patients with a vessel that undergo stent implantation and FFR measurement both before and after revascularization (pre-PCI FFR and post-PCI FFR) with available coronary CT angiography within 90 days before FFR measurement will be included.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Fractional flow reserve, Coronary CT angiography</intervention_name>
+    <description>Coronary CT angiography (CCTA) and measurement of fractional flow reserve (FFR) will be performed as part of routine clinical practice. The decision to perform CCTA before invasive angiography was at the judgment of the physicians in charge.&#xD;
+Physiologic assessment includes delta FFR (lesion-specific) and FFR (vessel-specific) measurement. Delta FFR is defined as a pressure step up across the lesion. Coronary angiography and physiologic assessment will be analyzed by an independent core laboratory (Seoul National University Hospital, Clinical Trial Center, Seoul, South Korea).&#xD;
+Stenosis and plaque features on CCTA will be analyzed by an independent CCTA core laboratory (Severance Cardiovascular Hospital, Seoul, Korea), and pericoronary and epicardial fat metrics (fat attenuation index, epicardial fat attenuation index, epicardial fat volume, etc.) will be obtained by an independent cardiac CT fat core laboratory (Tsuchiura Kyodo general hospital, Ibaraki, Japan).</description>
+    <arm_group_label>Deferral of PCI group</arm_group_label>
+    <arm_group_label>PCI group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with suspected coronary artery disease who underwent CCTA within 90 days before&#xD;
+        FFR measurement will be included. If the patients receive PCI after FFR measurement, those&#xD;
+        with available both preprocedural and postprocedural FFR measurement will be included.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        1) Deferral of PCI group&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Age ≥ 20 years&#xD;
+&#xD;
+          2. Patients who undergo CCTA within 90 days before FFR measurement by clinical needs&#xD;
+&#xD;
+          3. Patients with a vessel determined to defer revascularization after FFR measurement.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Left ventricular ejection fraction &lt; 35%&#xD;
+&#xD;
+          2. Acute ST-elevation myocardial infarction within 72 hours or previous coronary artery&#xD;
+             bypass graft surgery&#xD;
+&#xD;
+          3. Abnormal epicardial coronary flow (TIMI flow &lt; 3)&#xD;
+&#xD;
+          4. Failed FFR measurement&#xD;
+&#xD;
+          5. Planned coronary artery bypass graft surgery after diagnostic angiography&#xD;
+&#xD;
+          6. Poor quality of CCTA which is unsuitable for plaque analysis&#xD;
+&#xD;
+          7. Patients with a stent in the target vessel&#xD;
+&#xD;
+        2) PCI group&#xD;
+&#xD;
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Age ≥ 20 years&#xD;
+&#xD;
+          2. Patients who undergo CCTA within 90 days before FFR measurement by clinical needs&#xD;
+&#xD;
+          3. Patients with a vessel that undergo stent implantation and FFR measurement both before&#xD;
+             and after revascularization (pre-PCI FFR and post-PCI FFR).&#xD;
+&#xD;
+               -  Patients with multiple vessels that meet inclusion criteria of the deferral of&#xD;
+                  PCI group and PCI group will be assigned to the PCI group.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Left ventricular ejection fraction &lt; 35%&#xD;
+&#xD;
+          2. Acute ST-elevation myocardial infarction within 72 hours or previous coronary artery&#xD;
+             bypass graft surgery&#xD;
+&#xD;
+          3. Abnormal epicardial coronary flow (TIMI flow &lt; 3)&#xD;
+&#xD;
+          4. Failed FFR measurement&#xD;
+&#xD;
+          5. Planned coronary artery bypass graft surgery after diagnostic angiography&#xD;
+&#xD;
+          6. Poor quality of CCTA which is unsuitable for plaque analysis&#xD;
+&#xD;
+          7. Patients with a stent in the target vessel&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Bon-Kwon Koo, MD, PhD</last_name>
+    <role>Study Chair</role>
+    <affiliation>Seoul National University Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Bon-Kwon Koo, MD, PhD</last_name>
+    <phone>+82-1033561869</phone>
+    <email>bkkoo@snu.ac.kr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Seokhun Yang, MD</last_name>
+    <phone>+82-1025953470</phone>
+    <email>newturnz7@gmail.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Seoul National University Hospital</name>
+      <address>
+        <city>Seoul</city>
+        <state>Select</state>
+        <zip>03080</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Bon-Kwon Koo, MD, PhD</last_name>
+      <phone>+82-1033561869</phone>
+      <email>bkkoo@snu.ac.kr</email>
+    </contact>
+    <contact_backup>
+      <last_name>Seokhun Yang, MD</last_name>
+      <phone>+82-1025953470</phone>
+      <email>newturnz7@gmail.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Bon-Kwon Koo, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <reference>
+    <citation>Stone GW, Maehara A, Lansky AJ, de Bruyne B, Cristea E, Mintz GS, Mehran R, McPherson J, Farhat N, Marso SP, Parise H, Templin B, White R, Zhang Z, Serruys PW; PROSPECT Investigators. A prospective natural-history study of coronary atherosclerosis. N Engl J Med. 2011 Jan 20;364(3):226-35. doi: 10.1056/NEJMoa1002358. Erratum in: N Engl J Med. 2011 Nov 24;365(21):2040.</citation>
+    <PMID>21247313</PMID>
+  </reference>
+  <reference>
+    <citation>Lee JM, Koo BK, Shin ES, Nam CW, Doh JH, Hwang D, Park J, Kim KJ, Zhang J, Hu X, Wang J, Ahn C, Ye F, Chen S, Yang J, Chen J, Tanaka N, Yokoi H, Matsuo H, Takashima H, Shiono Y, Akasaka T. Clinical implications of three-vessel fractional flow reserve measurement in patients with coronary artery disease. Eur Heart J. 2018 Mar 14;39(11):945-951. doi: 10.1093/eurheartj/ehx458.</citation>
+    <PMID>29020260</PMID>
+  </reference>
+  <reference>
+    <citation>Motoyama S, Ito H, Sarai M, Kondo T, Kawai H, Nagahara Y, Harigaya H, Kan S, Anno H, Takahashi H, Naruse H, Ishii J, Hecht H, Shaw LJ, Ozaki Y, Narula J. Plaque Characterization by Coronary Computed Tomography Angiography and the Likelihood of Acute Coronary Events in Mid-Term Follow-Up. J Am Coll Cardiol. 2015 Jul 28;66(4):337-46. doi: 10.1016/j.jacc.2015.05.069.</citation>
+    <PMID>26205589</PMID>
+  </reference>
+  <reference>
+    <citation>Pijls NH, De Bruyne B, Peels K, Van Der Voort PH, Bonnier HJ, Bartunek J Koolen JJ, Koolen JJ. Measurement of fractional flow reserve to assess the functional severity of coronary-artery stenoses. N Engl J Med. 1996 Jun 27;334(26):1703-8.</citation>
+    <PMID>8637515</PMID>
+  </reference>
+  <reference>
+    <citation>Tonino PA, De Bruyne B, Pijls NH, Siebert U, Ikeno F, van' t Veer M, Klauss V, Manoharan G, Engstrøm T, Oldroyd KG, Ver Lee PN, MacCarthy PA, Fearon WF; FAME Study Investigators. Fractional flow reserve versus angiography for guiding percutaneous coronary intervention. N Engl J Med. 2009 Jan 15;360(3):213-24. doi: 10.1056/NEJMoa0807611.</citation>
+    <PMID>19144937</PMID>
+  </reference>
+  <reference>
+    <citation>Xaplanteris P, Fournier S, Pijls NHJ, Fearon WF, Barbato E, Tonino PAL, Engstrøm T, Kääb S, Dambrink JH, Rioufol G, Toth GG, Piroth Z, Witt N, Fröbert O, Kala P, Linke A, Jagic N, Mates M, Mavromatis K, Samady H, Irimpen A, Oldroyd K, Campo G, Rothenbühler M, Jüni P, De Bruyne B; FAME 2 Investigators. Five-Year Outcomes with PCI Guided by Fractional Flow Reserve. N Engl J Med. 2018 Jul 19;379(3):250-259. doi: 10.1056/NEJMoa1803538. Epub 2018 May 22.</citation>
+    <PMID>29785878</PMID>
+  </reference>
+  <reference>
+    <citation>Maron DJ, Hochman JS, Reynolds HR, Bangalore S, O'Brien SM, Boden WE, Chaitman BR, Senior R, López-Sendón J, Alexander KP, Lopes RD, Shaw LJ, Berger JS, Newman JD, Sidhu MS, Goodman SG, Ruzyllo W, Gosselin G, Maggioni AP, White HD, Bhargava B, Min JK, Mancini GBJ, Berman DS, Picard MH, Kwong RY, Ali ZA, Mark DB, Spertus JA, Krishnan MN, Elghamaz A, Moorthy N, Hueb WA, Demkow M, Mavromatis K, Bockeria O, Peteiro J, Miller TD, Szwed H, Doerr R, Keltai M, Selvanayagam JB, Steg PG, Held C, Kohsaka S, Mavromichalis S, Kirby R, Jeffries NO, Harrell FE Jr, Rockhold FW, Broderick S, Ferguson TB Jr, Williams DO, Harrington RA, Stone GW, Rosenberg Y; ISCHEMIA Research Group. Initial Invasive or Conservative Strategy for Stable Coronary Disease. N Engl J Med. 2020 Apr 9;382(15):1395-1407. doi: 10.1056/NEJMoa1915922. Epub 2020 Mar 30.</citation>
+    <PMID>32227755</PMID>
+  </reference>
+  <reference>
+    <citation>Lee JM, Choi KH, Koo BK, Park J, Kim J, Hwang D, Rhee TM, Kim HY, Jung HW, Kim KJ, Yoshiaki K, Shin ES, Doh JH, Chang HJ, Cho YK, Yoon HJ, Nam CW, Hur SH, Wang J, Chen S, Kuramitsu S, Tanaka N, Matsuo H, Akasaka T. Prognostic Implications of Plaque Characteristics and Stenosis Severity in Patients With Coronary Artery Disease. J Am Coll Cardiol. 2019 May 21;73(19):2413-2424. doi: 10.1016/j.jacc.2019.02.060.</citation>
+    <PMID>31097161</PMID>
+  </reference>
+  <reference>
+    <citation>Driessen RS, Stuijfzand WJ, Raijmakers PG, Danad I, Min JK, Leipsic JA, Ahmadi A, Narula J, van de Ven PM, Huisman MC, Lammertsma AA, van Rossum AC, van Royen N, Knaapen P. Effect of Plaque Burden and Morphology on Myocardial Blood Flow and Fractional Flow Reserve. J Am Coll Cardiol. 2018 Feb 6;71(5):499-509. doi: 10.1016/j.jacc.2017.11.054.</citation>
+    <PMID>29406855</PMID>
+  </reference>
+  <reference>
+    <citation>Gaur S, Øvrehus KA, Dey D, Leipsic J, Bøtker HE, Jensen JM, Narula J, Ahmadi A, Achenbach S, Ko BS, Christiansen EH, Kaltoft AK, Berman DS, Bezerra H, Lassen JF, Nørgaard BL. Coronary plaque quantification and fractional flow reserve by coronary computed tomography angiography identify ischaemia-causing lesions. Eur Heart J. 2016 Apr 14;37(15):1220-7. doi: 10.1093/eurheartj/ehv690. Epub 2016 Jan 12.</citation>
+    <PMID>26763790</PMID>
+  </reference>
+  <reference>
+    <citation>Ahmadi A, Leipsic J, Øvrehus KA, Gaur S, Bagiella E, Ko B, Dey D, LaRocca G, Jensen JM, Bøtker HE, Achenbach S, De Bruyne B, Nørgaard BL, Narula J. Lesion-Specific and Vessel-Related Determinants of Fractional Flow Reserve Beyond Coronary Artery Stenosis. JACC Cardiovasc Imaging. 2018 Apr;11(4):521-530. doi: 10.1016/j.jcmg.2017.11.020. Epub 2018 Jan 5.</citation>
+    <PMID>29311033</PMID>
+  </reference>
+  <reference>
+    <citation>Hwang D, Lee JM, Yang S, Chang M, Zhang J, Choi KH, Kim CH, Nam CW, Shin ES, Kwak JJ, Doh JH, Hoshino M, Hamaya R, Kanaji Y, Murai T, Zhang JJ, Ye F, Li X, Ge Z, Chen SL, Kakuta T, Koo BK. Role of Post-Stent Physiological Assessment in a Risk Prediction Model After Coronary Stent Implantation. JACC Cardiovasc Interv. 2020 Jul 27;13(14):1639-1650. doi: 10.1016/j.jcin.2020.04.041.</citation>
+    <PMID>32703590</PMID>
+  </reference>
+  <reference>
+    <citation>Oikonomou EK, Marwan M, Desai MY, Mancio J, Alashi A, Hutt Centeno E, Thomas S, Herdman L, Kotanidis CP, Thomas KE, Griffin BP, Flamm SD, Antonopoulos AS, Shirodaria C, Sabharwal N, Deanfield J, Neubauer S, Hopewell JC, Channon KM, Achenbach S, Antoniades C. Non-invasive detection of coronary inflammation using computed tomography and prediction of residual cardiovascular risk (the CRISP CT study): a post-hoc analysis of prospective outcome data. Lancet. 2018 Sep 15;392(10151):929-939. doi: 10.1016/S0140-6736(18)31114-0. Epub 2018 Aug 28.</citation>
+    <PMID>30170852</PMID>
+  </reference>
+  <reference>
+    <citation>Hoshino M, Yang S, Sugiyama T, Zhang J, Kanaji Y, Yamaguchi M, Hada M, Sumino Y, Horie T, Nogami K, Ueno H, Misawa T, Usui E, Murai T, Lee T, Yonetsu T, Kakuta T. Peri-coronary inflammation is associated with findings on coronary computed tomography angiography and fractional flow reserve. J Cardiovasc Comput Tomogr. 2020 Nov - Dec;14(6):483-489. doi: 10.1016/j.jcct.2020.02.002. Epub 2020 Feb 6.</citation>
+    <PMID>32057707</PMID>
+  </reference>
+  <reference>
+    <citation>Koo BK, Erglis A, Doh JH, Daniels DV, Jegere S, Kim HS, Dunning A, DeFrance T, Lansky A, Leipsic J, Min JK. Diagnosis of ischemia-causing coronary stenoses by noninvasive fractional flow reserve computed from coronary computed tomographic angiograms. Results from the prospective multicenter DISCOVER-FLOW (Diagnosis of Ischemia-Causing Stenoses Obtained Via Noninvasive Fractional Flow Reserve) study. J Am Coll Cardiol. 2011 Nov 1;58(19):1989-97. doi: 10.1016/j.jacc.2011.06.066.</citation>
+    <PMID>22032711</PMID>
+  </reference>
+  <reference>
+    <citation>Lee JM, Choi G, Koo BK, Hwang D, Park J, Zhang J, Kim KJ, Tong Y, Kim HJ, Grady L, Doh JH, Nam CW, Shin ES, Cho YS, Choi SY, Chun EJ, Choi JH, Nørgaard BL, Christiansen EH, Niemen K, Otake H, Penicka M, de Bruyne B, Kubo T, Akasaka T, Narula J, Douglas PS, Taylor CA, Kim HS. Identification of High-Risk Plaques Destined to Cause Acute Coronary Syndrome Using Coronary Computed Tomographic Angiography and Computational Fluid Dynamics. JACC Cardiovasc Imaging. 2019 Jun;12(6):1032-1043. doi: 10.1016/j.jcmg.2018.01.023. Epub 2018 Mar 14. Erratum in: JACC Cardiovasc Imaging. 2019 Nov;12(11 Pt 1):2288-2289.</citation>
+    <PMID>29550316</PMID>
+  </reference>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>September 7, 2020</study_first_submitted>
+  <study_first_submitted_qc>September 7, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 14, 2020</study_first_posted>
+  <last_update_submitted>March 19, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 19, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 23, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Seoul National University Hospital</investigator_affiliation>
+    <investigator_full_name>Bon-Kwon Koo</investigator_full_name>
+    <investigator_title>Professor</investigator_title>
+  </responsible_party>
+  <keyword>Coronary Artery Disease</keyword>
+  <keyword>Coronary CT angiography</keyword>
+  <keyword>Atherosclerosis</keyword>
+  <keyword>Fractional Flow Reserve</keyword>
+  <keyword>Clinical outcome</keyword>
+  <keyword>Pharmacotherapy</keyword>
+  <keyword>Percutaneous coronary intervention</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>The sharing plan will be decided by the study committee</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

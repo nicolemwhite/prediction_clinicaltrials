@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="142">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04798456</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ERAPERMED2019-101 - PerBrain</org_study_id>
+    <secondary_id>01KU2003</secondary_id>
+    <nct_id>NCT04798456</nct_id>
+  </id_info>
+  <brief_title>Aiming for a Better Understanding and Improvement of the Diagnosis and Prognosis of Patients With Disorders of Consciousness Through Multimodal Observations</brief_title>
+  <acronym>PerBrain</acronym>
+  <official_title>A Multimodal Approach to Personalized Tracking of Evolving State-Of-Consciousness in Brain- Injured Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Brain &amp; Spine Institute (ICM)</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Milan</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Fondazione Don Carlo Gnocchi Onlus</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Weizmann Institute of Science</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Ludwig-Maximilians - University of Munich</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Brain &amp; Spine Institute (ICM)</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Improved treatment of severe brain injuries has resulted in increased survival rates. While&#xD;
+      some of these patients regain consciousness after a transient state of coma, others may&#xD;
+      develop a disorder of consciousness (DoC). Diagnosis of DoC currently relies on standardized&#xD;
+      behavioral assessment. The importance of accuracy in such diagnosis cannot be overstated, as&#xD;
+      it guides critical decisions on treatment (including pain management), and could underlie&#xD;
+      end-of-life decisions. Despite this importance, current behavioral diagnosis often fails, if&#xD;
+      because of the major sensory and motor deficits associated with DoC, or because of the&#xD;
+      heterogeneous etiology and pathophysiology associated with the condition. Finally, the need&#xD;
+      for accurate diagnosis and prognosis transcends the needs of the patients alone: caregiving&#xD;
+      of these patients is very stressful, principally for the large uncertainty associated with&#xD;
+      them. Thus, more accurate diagnosis and prognosis provide major relief for caregivers, and&#xD;
+      paradoxically, even if the news is not &quot;good&quot;. For all these reasons it is critical to&#xD;
+      developing personalized diagnosis and prognosis prediction tools that permit a stratified&#xD;
+      analysis at the single-patient level. The PerBrain Project will benefit from the&#xD;
+      multidisciplinary partners' expertise, and the unique opportunity to perform longitudinal&#xD;
+      assessments in four clinical sites through both established and novel electrophysiological,&#xD;
+      neuroimaging, and physiological techniques. Based on the collected data, the investigators&#xD;
+      will develop a multimodal personalized diagnostic tool for DoC patients using&#xD;
+      state-of-the-art computational tools, such as machine learning, in order to better determine&#xD;
+      the current state (diagnosis) and future outcome (prognosis). The overall aim of this project&#xD;
+      will provide for a better understanding of the pathophysiological mechanisms in DoC, which&#xD;
+      will, in turn, allow personalized rehabilitation strategies, and improved single-patient&#xD;
+      predictions of state and prognosis.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 1, 2020</start_date>
+  <completion_date type="Anticipated">June 2023</completion_date>
+  <primary_completion_date type="Anticipated">June 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Patients: Implementation of a hierarchical multi-modal personalized procedure to diagnose and track the change of the state of consciousness in brain-injured patients</measure>
+    <time_frame>Changes from T1: 1-2 Months from injury; T2: 4-7 Months from injury; T3: 9-12 months from injury</time_frame>
+    <description>Coma Recovery Scale Revised (CRS-R) [0-23] Higher score better outcome</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patients: Implementation of a hierarchical multi-modal personalized procedure to diagnose and track the change of the state of consciousness in brain-injured patients</measure>
+    <time_frame>Changes from T1: 1-2 Months from injury; T2: 4-7 Months from injury; T3: 9-12 months from injury</time_frame>
+    <description>Extended Glasgow Outcome Scale (GOSE) [1-8] Higher score better outcome</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patients: Implementation of a hierarchical multi-modal personalized procedure to diagnose and track the change of the state of consciousness in brain-injured patients</measure>
+    <time_frame>Changes from T1: 1-2 Months from injury; T2: 4-7 Months from injury; T3: 9-12 months from injury</time_frame>
+    <description>Quantitative high density EEG (64 Electrodes)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patients: Implementation of a hierarchical multi-modal personalized procedure to diagnose and track the change of the state of consciousness in brain-injured patients</measure>
+    <time_frame>Changes from T1: 1-2 Months from injury; T2: 4-7 Months from injury; T3: 9-12 months from injury</time_frame>
+    <description>Standard EEG and transcranial magnetic stimulation (TMS-EEG)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Patients: Implementation of a hierarchical multi-modal personalized procedure to diagnose and track the change of the state of consciousness in brain-injured patients</measure>
+    <time_frame>Changes from T1: 1-2 Months from injury; T2: 4-7 Months from injury; T3: 9-12 months from injury</time_frame>
+    <description>Structural MRI and functional MRI (without contrast agent)</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Caregivers: use of questionnaires to asses change in factors that impact well-being and treatment decisions of informal caregivers/family members confronted with multimodal technology-based tests for DoC patients</measure>
+    <time_frame>Changes from C0: before T1 (1-2 Months from injury); C1: between T1(1-2 Months from injury) and T2 (4-7 Months from injury); C2: between T2 (4-7 Months from injury) and T3 (9-12 Months from injury); C3: after T3 (9-12 Months from injury)</time_frame>
+    <description>Sociodemographic characteristics</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Caregivers: use of questionnaires to asses change in factors that impact well-being and treatment decisions of informal caregivers/family members confronted with multimodal technology-based tests for DoC patients</measure>
+    <time_frame>Changes from C0: before T1 (1-2 Months from injury); C1: between T1(1-2 Months from injury) and T2 (4-7 Months from injury); C2: between T2 (4-7 Months from injury) and T3 (9-12 Months from injury); C3: after T3 (9-12 Months from injury)</time_frame>
+    <description>Brief Illness Perception Questionnaire (BIPQ) [0-80] Higher score more positive illness representation</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Caregivers: use of questionnaires to asses change in factors that impact well-being and treatment decisions of informal caregivers/family members confronted with multimodal technology-based tests for DoC patients</measure>
+    <time_frame>Changes from C0: before T1 (1-2 Months from injury); C1: between T1(1-2 Months from injury) and T2 (4-7 Months from injury); C2: between T2 (4-7 Months from injury) and T3 (9-12 Months from injury); C3: after T3 (9-12 Months from injury)</time_frame>
+    <description>Euro-Qol 5 (EQ-5D61) [0-15] higher values indicating better perceived quality of life.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Caregivers: use of questionnaires to asses change in factors that impact well-being and treatment decisions of informal caregivers/family members confronted with multimodal technology-based tests for DoC patients</measure>
+    <time_frame>Changes from 0: before T1 (1-2 Months from injury); C1: between T1(1-2 Months from injury) and T2 (4-7 Months from injury); C2: between T2 (4-7 Months from injury) and T3 (9-12 Months from injury); C3: after T3 (9-12 Months from injury)</time_frame>
+    <description>Adult Carer Quality of Life Questionnaire (ACQoL24) [0-120] higher values better quality of life</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Caregivers: use of questionnaires to asses change in factors that impact well-being and treatment decisions of informal caregivers/family members confronted with multimodal technology-based tests for DoC patients</measure>
+    <time_frame>Changes from C0: before T1 (1-2 Months from injury); C1: between T1(1-2 Months from injury) and T2 (4-7 Months from injury); C2: between T2 (4-7 Months from injury) and T3 (9-12 Months from injury); C3: after T3 (9-12 Months from injury)</time_frame>
+    <description>Hospital Anxiety and Depression Scale (HADS) [0-52] higher scores indicating higher levels of anxiety and depression.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Caregivers: use of questionnaires to asses change in factors that impact well-being and treatment decisions of informal caregivers/family members confronted with multimodal technology-based tests for DoC patients</measure>
+    <time_frame>Changes from C0: before T1 (1-2 Months from injury); C1: between T1(1-2 Months from injury) and T2 (4-7 Months from injury); C2: between T2 (4-7 Months from injury) and T3 (9-12 Months from injury); C3: after T3 (9-12 Months from injury)</time_frame>
+    <description>Resilience (RS14) [14-98] higher scores relate to higher resilience levels.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Caregivers: use of questionnaires to asses change in factors that impact well-being and treatment decisions of informal caregivers/family members confronted with multimodal technology-based tests for DoC patients</measure>
+    <time_frame>Changes from C0: before T1 (1-2 Months from injury); C1: between T1(1-2 Months from injury) and T2 (4-7 Months from injury); C2: between T2 (4-7 Months from injury) and T3 (9-12 Months from injury); C3: after T3 (9-12 Months from injury)</time_frame>
+    <description>Sense of coherence (SOCS) [13-91] higher scores indicate higher sense of coherence.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Caregivers: use of questionnaires to asses change in factors that impact well-being and treatment decisions of informal caregivers/family members confronted with multimodal technology-based tests for DoC patients</measure>
+    <time_frame>Changes from C0: before T1 (1-2 Months from injury); C1: between T1(1-2 Months from injury) and T2 (4-7 Months from injury); C2: between T2 (4-7 Months from injury) and T3 (9-12 Months from injury); C3: after T3 (9-12 Months from injury)</time_frame>
+    <description>Treatment choices survey [28-140] higher score indicates a stronger agreement with the treatment and higher reason to take a given treatment decision</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Caregivers: use of questionnaires to asses change in factors that impact well-being and treatment decisions of informal caregivers/family members confronted with multimodal technology-based tests for DoC patients</measure>
+    <time_frame>Changes from C0: before T1 (1-2 Months from injury); C1: between T1(1-2 Months from injury) and T2 (4-7 Months from injury); C2: between T2 (4-7 Months from injury) and T3 (9-12 Months from injury); C3: after T3 (9-12 Months from injury)</time_frame>
+    <description>Semi-structured qualitative Interview based on a thematic grid for brochure development</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Caregivers: develop a brochure/guide to be applied in clinical practice for the effective communication of technology-based results</measure>
+    <time_frame>12 months</time_frame>
+    <description>Working closely with Patient organizations/ patient representatives:&#xD;
+Representatives of organizations (&quot;Schädel- Hirnpatienten in Not e.V.&quot; in Germany) will be consulted in focus groups to jointly discuss the met and unmet needs and communication problems reported by caregivers in the study. Additionally, we will conduct a semi-structures interview with the caregivers. This information will help to devise with the research team effective communication strategies to be implemented in a brochure for the presentation of multimodal technology-based DOC testing.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">150</enrollment>
+  <condition>Disorders of Consciousness</condition>
+  <condition>Minimally Conscious State</condition>
+  <condition>Unresponsive Wakefulness Syndrome</condition>
+  <condition>Caregivers</condition>
+  <arm_group>
+    <arm_group_label>Patients with DoC</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Caregivers/ legal guardian of patients with DoC</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Coma scales</intervention_name>
+    <description>CRS-R and GOSE</description>
+    <arm_group_label>Patients with DoC</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Imaging, electrophysiology, body signals, and brain stimulation</intervention_name>
+    <description>MRI, fMRI, EEG, TMS-EEG, Olfaction, Respiration, EKG</description>
+    <arm_group_label>Patients with DoC</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Behavioral</intervention_type>
+    <intervention_name>Questionnaires</intervention_name>
+    <description>several questionnaires and an interview with the caregiver</description>
+    <arm_group_label>Caregivers/ legal guardian of patients with DoC</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        intensive care units and rehabilitation centres&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        -  Recruitment is taking place in:&#xD;
+&#xD;
+               -  France, Paris, Pitie-Salpetriere Hospital;&#xD;
+&#xD;
+               -  Italy, Milan, Dipartimento di Cura e Riabilitazione delle Gravi Cerebrolesioni&#xD;
+                  Acquisite (GCA);&#xD;
+&#xD;
+               -  Israel, Raanana, Loewenstein Hospital;&#xD;
+&#xD;
+               -  Germany, Munich: intensive care units of the University Clinic LMU Munich and&#xD;
+                  Therapiezentrum Burgau&#xD;
+&#xD;
+          -  Inclusion criteria:&#xD;
+&#xD;
+               -  Disorder of consciousness (UWS and MCS) patients and their caregiver/legal&#xD;
+                  guardian&#xD;
+&#xD;
+               -  Patient age: 18-85 years&#xD;
+&#xD;
+               -  Informed consent signed by legal guardian&#xD;
+&#xD;
+          -  Exclusion criteria:&#xD;
+&#xD;
+               -  Pregnancy&#xD;
+&#xD;
+               -  Pre-existing coma/VS/MCS&#xD;
+&#xD;
+               -  Continuous medical sedation (induced coma)&#xD;
+&#xD;
+               -  Use of barbiturates for sedation&#xD;
+&#xD;
+               -  Terminal malignant disease, as it increases the likelihood of not being alive for&#xD;
+                  the 12-month follow-up&#xD;
+&#xD;
+               -  Prediction of a highly unlikely survival until the time of the 12-month follow-up&#xD;
+                  due to conditions such as multi-organ failure based on the judgement of a&#xD;
+                  critical care physician&#xD;
+&#xD;
+               -  Withdrawal of life-support&#xD;
+&#xD;
+               -  Palliative care setting&#xD;
+&#xD;
+               -  Epileptic seizures (TMS contraindication)&#xD;
+&#xD;
+               -  MRI contraindications (magnetic material in or on person such as pacemakers,&#xD;
+                  cochlear implants, shell splinters, metal plates, certain prosthetic&#xD;
+                  joints/limbs, copper-based intrauterine device, magnetic clips or stents, some&#xD;
+                  large tattoos)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>85 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Jacobo Sitt, MD/PhD</last_name>
+    <phone>+33 (0)1 57 27 40 00</phone>
+    <email>jacobo.sitt@icm-institute.org</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Benjamin Rohaut, MD/PhD</last_name>
+    <phone>+33 (0)1 57 27 40 00</phone>
+    <email>benjamin.rohaut@icm-institute.org</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Paris Brain Institute (ICM)</name>
+      <address>
+        <city>Paris</city>
+        <zip>75013</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jacobo Sitt, MD/PhD</last_name>
+      <email>jacobo.sitt@icm-institute.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Benjamin Rohaut, MD/PhD</last_name>
+      <email>benjamin.rohaut@icm-institute.org</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>University Hospital of the Ludwig-Maximilians-University of Munich</name>
+      <address>
+        <city>Munich</city>
+        <zip>81377</zip>
+        <country>Germany</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Andreas Bender, MD/Prof</last_name>
+      <email>andreas.bender@med.uni-muenchen.de</email>
+    </contact>
+    <contact_backup>
+      <last_name>Theresa Raiser, PhD</last_name>
+      <email>theresa.raiser@med.uni-muenchen.de</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Loewenstein Hospital</name>
+      <address>
+        <city>Raanana</city>
+        <zip>43100</zip>
+        <country>Israel</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Noam Sobel, Prof</last_name>
+      <email>noam.sobel@weizmann.ac.il</email>
+    </contact>
+    <contact_backup>
+      <last_name>Danielle Honigstein, PhD</last_name>
+      <email>danielle.honigstein@weizmann.ac.il</email>
+    </contact_backup>
+  </location>
+  <location>
+    <facility>
+      <name>Dipartimento di Cura e Riabilitazione delle Gravi Cerebrolesioni Acquisite (GCA)</name>
+      <address>
+        <city>Milan</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Angela Comanducci, MD</last_name>
+      <email>acomanducci@dongnocchi.it</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+    <country>Germany</country>
+    <country>Israel</country>
+    <country>Italy</country>
+  </location_countries>
+  <reference>
+    <citation>Giacino JT, Kalmar K. Diagnostic and prognostic guidelines for the vegetative and minimally conscious states. Neuropsychol Rehabil. 2005 Jul-Sep;15(3-4):166-74.</citation>
+    <PMID>16350959</PMID>
+  </reference>
+  <reference>
+    <citation>Raimondo F, Rohaut B, Demertzi A, Valente M, Engemann DA, Salti M, Fernandez Slezak D, Naccache L, Sitt JD. Brain-heart interactions reveal consciousness in noncommunicating patients. Ann Neurol. 2017 Oct;82(4):578-591. doi: 10.1002/ana.25045. Epub 2017 Oct 11.</citation>
+    <PMID>28892566</PMID>
+  </reference>
+  <reference>
+    <citation>Arzi A, Rozenkrantz L, Gorodisky L, Rozenkrantz D, Holtzman Y, Ravia A, Bekinschtein TA, Galperin T, Krimchansky BZ, Cohen G, Oksamitni A, Aidinoff E, Sacher Y, Sobel N. Olfactory sniffing signals consciousness in unresponsive patients with brain injuries. Nature. 2020 May;581(7809):428-433. doi: 10.1038/s41586-020-2245-5. Epub 2020 Apr 29.</citation>
+    <PMID>32461641</PMID>
+  </reference>
+  <reference>
+    <citation>Casali AG, Gosseries O, Rosanova M, Boly M, Sarasso S, Casali KR, Casarotto S, Bruno MA, Laureys S, Tononi G, Massimini M. A theoretically based index of consciousness independent of sensory processing and behavior. Sci Transl Med. 2013 Aug 14;5(198):198ra105. doi: 10.1126/scitranslmed.3006294.</citation>
+    <PMID>23946194</PMID>
+  </reference>
+  <reference>
+    <citation>Engemann DA, Raimondo F, King JR, Rohaut B, Louppe G, Faugeras F, Annen J, Cassol H, Gosseries O, Fernandez-Slezak D, Laureys S, Naccache L, Dehaene S, Sitt JD. Robust EEG-based cross-site and cross-protocol classification of states of consciousness. Brain. 2018 Nov 1;141(11):3179-3192. doi: 10.1093/brain/awy251.</citation>
+    <PMID>30285102</PMID>
+  </reference>
+  <reference>
+    <citation>Vogler J, Klein AM, Bender A. Long-term health-related quality-of-life in patients with acquired brain injury and their caregivers. Brain Inj. 2014;28(11):1381-8. doi: 10.3109/02699052.2014.919536. Epub 2014 Jun 19.</citation>
+    <PMID>24945467</PMID>
+  </reference>
+  <verification_date>March 2021</verification_date>
+  <study_first_submitted>March 3, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 12, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 15, 2021</study_first_posted>
+  <last_update_submitted>March 12, 2021</last_update_submitted>
+  <last_update_submitted_qc>March 12, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">March 15, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Brain &amp; Spine Institute (ICM)</investigator_affiliation>
+    <investigator_full_name>Jacobo Sitt</investigator_full_name>
+    <investigator_title>Research Director, INSERM</investigator_title>
+  </responsible_party>
+  <keyword>Clinical Neuroscience</keyword>
+  <keyword>Disorders of Consciousness</keyword>
+  <keyword>Neuroimaging</keyword>
+  <keyword>Brain-Body interactions</keyword>
+  <keyword>Multimodal precision diagnosis</keyword>
+  <keyword>Machine Learning</keyword>
+  <keyword>Caregivers well-being</keyword>
+  <keyword>Unresponsive wakefulness syndrome</keyword>
+  <keyword>Minimally conscious state</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Consciousness Disorders</mesh_term>
+    <mesh_term>Persistent Vegetative State</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

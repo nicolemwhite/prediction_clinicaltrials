@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="83">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04753814</url>
+  </required_header>
+  <id_info>
+    <org_study_id>PMMHRI-BCO.39/2020</org_study_id>
+    <nct_id>NCT04753814</nct_id>
+  </id_info>
+  <brief_title>Predictors of an Unfavorable Outcome in Patients With Heart Failure</brief_title>
+  <official_title>Predictors of an Unfavorable Outcome in Patients With Heart Failure With Reduced, Midrange and Preserved Left Ventricular Ejection Fraction</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Polish Mother Memorial Hospital Research Institute</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Polish Mother Memorial Hospital Research Institute</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The subject of the study is the factors of unfavorable prognosis in heart failure. We would&#xD;
+      like to identify independent variables associated with a bad prognosis of patients&#xD;
+      hospitalized for heart failure with a reduced vs. a mid range and preserved left ventricular&#xD;
+      ejection fraction based on specific predictive models. It is planned to create multifactorial&#xD;
+      models that can be used to predict prognosis for individual patients.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      About 100 adult patients hospitalized for HF in the Department of Cardiology will be included&#xD;
+      in the study, including: the study group with HFrEF, HFmrEF and HFpEF. Selected prognostic&#xD;
+      factors will be analyzed, among others: demographic data of the patient, physical&#xD;
+      examination, symptoms, etiology and history of HF, co-morbidities, results of selected&#xD;
+      laboratory tests, selected electrocardiographic and echocardiographic data, patient's&#xD;
+      cooperation with the doctor, treatment applied, parameters in the spiroergometric study and&#xD;
+      distance in 6MWT and subjective assessment of quality of life according to the KCCQ&#xD;
+      questionnaire. One year after inclusion in the study, a telephone interview will be conducted&#xD;
+      with patients. These will be questions about death, cardiovascular adverse events,&#xD;
+      hospitalization for heart failure and re-evaluation of the quality of life according to the&#xD;
+      KCCQ questionnaire.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">February 1, 2019</start_date>
+  <completion_date type="Actual">February 28, 2021</completion_date>
+  <primary_completion_date type="Actual">February 28, 2020</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Non-Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <intervention_model_description>About 100 adult patients hospitalized for HF in the Department of Cardiology will be included in the study, including: the study group with HFrEF, with HFmrEF and with HFpEF</intervention_model_description>
+    <primary_purpose>Supportive Care</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Prognosis in heart failure</measure>
+    <time_frame>One year after inclusion in the study</time_frame>
+    <description>A telephone interview will be conducted with patients. These will be questions about death, cardiovascular adverse events, hospitalization for heart failure and re-evaluation of the quality of life according to the KCCQ questionnaire.</description>
+  </primary_outcome>
+  <number_of_arms>3</number_of_arms>
+  <enrollment type="Actual">100</enrollment>
+  <condition>Heart Failure</condition>
+  <arm_group>
+    <arm_group_label>Identyfication of prognostic factors in HFrEF</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Selected prognostic factors will be analyzed in patients with LVEF ≤40%</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Identyfication of prognostic factors in HFmrEF</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Selected prognostic factors will be analyzed in patients with LVEF 41-49%</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Identyfication of prognostic factors in HFpEF</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Selected prognostic factors will be analyzed in patients with LVEF ≥50%</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Diagostic tests</intervention_name>
+    <description>Selected prognostic factors will be analyzed, among others: demographic data of the patient, physical examination, symptoms, etiology and history of HF, co-morbidities, results of selected laboratory tests, selected electrocardiographic and echocardiographic data, patient's cooperation with the doctor, treatment applied, parameters in the spiroergometric study and distance in 6MWT and subjective assessment of quality of life according to the KCCQ questionnaire.</description>
+    <arm_group_label>Identyfication of prognostic factors in HFmrEF</arm_group_label>
+    <arm_group_label>Identyfication of prognostic factors in HFpEF</arm_group_label>
+    <arm_group_label>Identyfication of prognostic factors in HFrEF</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Age equal to or older than 18 years&#xD;
+&#xD;
+          -  HF (ischemic and non-ischemic) diagnosed according to the 2016 European Society of&#xD;
+             Cardiology (ESC) guidelines on HF [1], with HF class I, II or III according to the&#xD;
+             NYHA classification&#xD;
+&#xD;
+          -  current HF hospitalization&#xD;
+&#xD;
+          -  left ventricular ejection fraction (LVEF) documented in echocardiography during the&#xD;
+             current hospitalization&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  advanced liver failure (class B and C according to Child-Pugh score&#xD;
+&#xD;
+          -  advanced chronic kidney disease (stages G4 and G5 according to the 2012 Kidney&#xD;
+             Disease: Improving Global Outcomes (KDIGO) classification&#xD;
+&#xD;
+          -  cerebrovascular accident (transient ischemic attack (TIA) / stroke / intracerebral&#xD;
+             haemorrhage) within 3 months prior to the hospitalization&#xD;
+&#xD;
+          -  current pregnancy or lactation&#xD;
+&#xD;
+          -  alcohol and drug abuse&#xD;
+&#xD;
+          -  active autoimmune disease&#xD;
+&#xD;
+          -  surgery or a serious injury within 1 months prior to the hospitalization&#xD;
+&#xD;
+          -  other important medical condition that could have shortened the survival time during&#xD;
+             the study&#xD;
+&#xD;
+          -  impaired cognitive status that compromises the understanding of the steps and&#xD;
+             completion of the study&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Agata Bielecka-Dabrowa</last_name>
+    <role>Study Chair</role>
+    <affiliation>Heart Failure Unit; Department of Cardiology and Congenital Diseases of Adults, PMMHRI</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Heart Failure Unit; Department of Cardiology and Congenital Diseases of Adults, Polish Mother's Memorial Hospital Research Institute</name>
+      <address>
+        <city>Lodz</city>
+        <zip>93-338</zip>
+        <country>Poland</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Poland</country>
+  </location_countries>
+  <results_reference>
+    <citation>Ponikowski P, Voors AA, Anker SD, Bueno H, Cleland JGF, Coats AJS, Falk V, González-Juanatey JR, Harjola VP, Jankowska EA, Jessup M, Linde C, Nihoyannopoulos P, Parissis JT, Pieske B, Riley JP, Rosano GMC, Ruilope LM, Ruschitzka F, Rutten FH, van der Meer P; ESC Scientific Document Group. 2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure: The Task Force for the diagnosis and treatment of acute and chronic heart failure of the European Society of Cardiology (ESC)Developed with the special contribution of the Heart Failure Association (HFA) of the ESC. Eur Heart J. 2016 Jul 14;37(27):2129-2200. doi: 10.1093/eurheartj/ehw128. Epub 2016 May 20. Erratum in: Eur Heart J. 2016 Dec 30;:.</citation>
+    <PMID>27206819</PMID>
+  </results_reference>
+  <verification_date>January 2021</verification_date>
+  <study_first_submitted>February 9, 2021</study_first_submitted>
+  <study_first_submitted_qc>February 9, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 15, 2021</study_first_posted>
+  <last_update_submitted>December 17, 2021</last_update_submitted>
+  <last_update_submitted_qc>December 17, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 20, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

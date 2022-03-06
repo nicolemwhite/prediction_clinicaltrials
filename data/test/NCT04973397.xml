@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="305">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04973397</url>
+  </required_header>
+  <id_info>
+    <org_study_id>MP-02-2022-9889</org_study_id>
+    <nct_id>NCT04973397</nct_id>
+  </id_info>
+  <brief_title>Vascular Events In Patients Undergoing Same-day Noncardiac Surgery (VALIANCE) Study</brief_title>
+  <acronym>VALIANCE</acronym>
+  <official_title>Vascular Events In Patients Undergoing Same-day Noncardiac Surgery (VALIANCE) Study - A Prospective Observational Cohort Study Evaluating Major Cardiovascular and Adverse Events in Patients Undergoing Elective Same-day Noncardiac Surgery</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Centre hospitalier de l'Université de Montréal (CHUM)</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Canadian Institutes of Health Research (CIHR)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Université de Montréal</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Fonds de la Recherche en Santé du Québec</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Centre hospitalier de l'Université de Montréal (CHUM)</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The proportion of noncardiac surgeries performed as same-day surgery is increasing worldwide,&#xD;
+      with more complex surgeries being performed on higher risk patients in the outpatient&#xD;
+      setting. Little is known on the risk factors, incidence and prognosis of patients undergoing&#xD;
+      same-day noncardiac surgery. The main objective of this study is to inform on the incidence&#xD;
+      and risk factors of cardiovascular and other adverse events after same-day surgery and to&#xD;
+      develop risk prediction tools to better inform on the risk and selection of patients&#xD;
+      undergoing same-day surgery.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The VALIANCE Study is a 15,000 patient, multicentre, prospective observational cohort of&#xD;
+      adults undergoing elective same-day noncardiac surgery and who will be followed for 90 days&#xD;
+      after surgery. The primary objective of the study is to determine the incidence of major&#xD;
+      cardiovascular complications after same-day surgery. Patients will also be followed for the&#xD;
+      occurence of other adverse postoperative complications and determine their change in quality&#xD;
+      of life at 90 days after surgery. VALIANCE will inform on the risk factors for postoperative&#xD;
+      complications and allow to develop risk prediction tools to guide patient selection and risk&#xD;
+      stratification of patients undergoing same-day sugery. The study will also look at validating&#xD;
+      the use of the Duke Activity Status Index questionnaire in this population and the Revised&#xD;
+      Cardiac Risk Index.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">December 2021</start_date>
+  <completion_date type="Anticipated">August 2026</completion_date>
+  <primary_completion_date type="Anticipated">August 2025</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>major cardiovascular complications</measure>
+    <time_frame>90 days</time_frame>
+    <description>the number of patients who have at least on of the following: myocardial infarction, non-fatal cardiac arrest, coronary revascularization, stroke, transient ischemic attack, new clinically significant arrythmia, congestive heart failure, unplanned postoperative admission for vascular reasons, emergency room visit for vascular reasons, rehospitalization for vascular reasons, and all-cause mortality</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>myocardial injury after noncardiac surgery (MINS)</measure>
+    <time_frame>90 days</time_frame>
+    <description>the number of patients who experience a MINS</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>myocardial infarction</measure>
+    <time_frame>90 days</time_frame>
+    <description>the number of patients who experience a myocardial infarction</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>non-fatal cardiac arrest</measure>
+    <time_frame>90 days</time_frame>
+    <description>the number of patients who experience a non-fatal cardiac arrest</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>coronary revascularization</measure>
+    <time_frame>90 days</time_frame>
+    <description>the number of patients who undergo coronary revascularization</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>stroke</measure>
+    <time_frame>90 days</time_frame>
+    <description>the number of patients who experience a stroke</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>transient ischemic attack</measure>
+    <time_frame>90 days</time_frame>
+    <description>the number of patients who experience a transient ischemic attack</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>unplanned admission for vascular reasons</measure>
+    <time_frame>90 days</time_frame>
+    <description>the number of patients who have to be admitted to the hospital for a vascular complications after undergoing a surgery planned as same-day</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>re-hospitalization for vascular reasons</measure>
+    <time_frame>90 days</time_frame>
+    <description>the number of patients who have to be readmitted to the hospital for a vascular complications after being discharged home following their same-day surgery</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>new clinically important arrythmia</measure>
+    <time_frame>90 days</time_frame>
+    <description>the number of patients who experience a new clinically important arrythmia</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>acute congestive heart failure</measure>
+    <time_frame>90 days</time_frame>
+    <description>the number of patients who experience an acute congestive heart failure episode</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>deep vein thrombosis</measure>
+    <time_frame>90 days</time_frame>
+    <description>the number of patients who experience a deep vein thrombosis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>pulmonary embolism</measure>
+    <time_frame>90 days</time_frame>
+    <description>the number of patients who experience a pulmonary embolism</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>major postoperative and life-threatening bleeding</measure>
+    <time_frame>90 days</time_frame>
+    <description>the number of patients who experience a major postoperative and/or life-threatening bleeding</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>postoperative infection</measure>
+    <time_frame>90 days</time_frame>
+    <description>the number of patients who experience a postoperative infection</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>acute kidney injury</measure>
+    <time_frame>90 days</time_frame>
+    <description>the number of patients who experience a acute kidney injury after surgery</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>quality of life score on the 5-level EQ-5D version (EQ-5D-5L) questionnaire</measure>
+    <time_frame>90 days</time_frame>
+    <description>score on the EQ-5D-5L questionnaire on 4 health profiles (level 1 to 5), overall self-rated health status (0-100 visual analogue scale), and EQ-5D-5L index value (0.01-0.99)</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">15000</enrollment>
+  <condition>Preoperative Care</condition>
+  <condition>Surgery--Complications</condition>
+  <condition>Myocardial Infarction</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All eligible adults undergoing elective same-day noncardiac surgery under general or&#xD;
+        regional anesthesia&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  45-64 years of age with at least one risk factor, or ≥65 years of age;&#xD;
+&#xD;
+          -  undergoing elective noncardiac same-day surgery under regional or general anaesthesia;&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  undergoing surgery under local anaesthesia or surveillance only;&#xD;
+&#xD;
+          -  planned duration in the operating room is estimated to be less than 60 minutes;&#xD;
+&#xD;
+          -  intervention does not require the presence of an anesthesiologist;&#xD;
+&#xD;
+          -  procedure is performed by a nonsurgical specialty (e.g., endoscopy by&#xD;
+             gastroenterology, bronchoscopy by pneumology, radiotherapy or radiology procedures);&#xD;
+&#xD;
+          -  intervention is an ophthalmologic procedure;&#xD;
+&#xD;
+          -  previously enrolled in the VALIANCE study&#xD;
+&#xD;
+          -  patients who do not consent to participate in the study&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>45 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Emmanuelle Duceppe, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Centre Hospitalier de l'Universite de Montreal (CHUM)</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Roberta Daila Carling, MSc</last_name>
+    <phone>514-890-8000</phone>
+    <phone_ext>31541</phone_ext>
+    <email>roberta-daila.carling.chum@ssss.gouv.qc.ca</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Centre Hospitalier de l'Université de Montréal (CHUM)</name>
+      <address>
+        <city>Montreal</city>
+        <state>Quebec</state>
+        <zip>H2X0C1</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Roberta Daila Carling, MSc</last_name>
+      <phone>514-890-8000</phone>
+      <phone_ext>31541</phone_ext>
+      <email>roberta-daila.carling.chum@ssss.gouv.qc.ca</email>
+    </contact>
+    <investigator>
+      <last_name>Emmanuelle Duceppe, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Centre hospitalier universitaire de Sherbrooke (CHUS) - Hôpital Fleurimont</name>
+      <address>
+        <city>Sherbrooke</city>
+        <state>Quebec</state>
+        <zip>J1H 5N4</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Frederick D'Aragon, MD, MSc</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>July 13, 2021</study_first_submitted>
+  <study_first_submitted_qc>July 13, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 22, 2021</study_first_posted>
+  <last_update_submitted>November 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>November 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 16, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Preoperative Care</keyword>
+  <keyword>Surgery</keyword>
+  <keyword>Postoperative complications</keyword>
+  <keyword>Same-day surgery</keyword>
+  <keyword>Ambulatory surgery</keyword>
+  <keyword>Outpatient surgery</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Myocardial Infarction</mesh_term>
+    <mesh_term>Infarction</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

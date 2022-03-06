@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="314">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04794868</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NCT20210308-JM</org_study_id>
+    <nct_id>NCT04794868</nct_id>
+  </id_info>
+  <brief_title>PreDiction and Validation of Clinical CoursE of Coronary Artery DiSease With CT-Derived Non-Invasive HemodYnamic Phenotyping and Plaque Characterization (DESTINY Study)</brief_title>
+  <acronym>DESTINY</acronym>
+  <official_title>Prediction and Validation of Clinical Course of Coronary Artery Disease With CT-Derived Non-Invasive Hemodynamic Phenotyping and Plaque Characterization</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Samsung Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Elucid Bioimaging Inc.</agency>
+      <agency_class>Industry</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Shanghai Institute of Cardiovascular Diseases</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Samsung Medical Center</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Acute coronary syndrome (ACS) and sudden cardiac death can be the first manifestation of&#xD;
+      coronary artery disease and are the leading cause of death in the majority of the world's&#xD;
+      population. The main pathophysiology of ACS is well-known and fibrous cap thickness, presence&#xD;
+      of a lipid core, and the degree of inflammation have been proposed as the key determinants of&#xD;
+      plaque vulnerability. Previous studies using virtual histology intravascular ultrasound or&#xD;
+      optical coherence tomography showed that clinical application of this concept improved risk&#xD;
+      prediction of ACS. However, these approaches have not been widely adopted in daily practice&#xD;
+      due to relatively low positive predictive values, low prevalence of high-risk plaques and the&#xD;
+      invasive nature of diagnostic modalities.&#xD;
+&#xD;
+      Non-invasive imaging studies with coronary computed tomography angiography (CCTA) also showed&#xD;
+      the clinical value of CCTA-derived high risk plaque characteristics (HRPC). In addition, the&#xD;
+      recent progress in CCTA and computational fluid dynamics (CFD) technologies enables&#xD;
+      simultaneous assessment of anatomical lesion severity, presence of HRPC and quantification of&#xD;
+      hemodynamic forces acting on plaques in patient-specific geometric models. As plaque rupture&#xD;
+      is a complicated biomechanical process influenced by the structure and constituents of the&#xD;
+      plaque as well as the external mechanical and hemodynamic forces acting on the plaque, a&#xD;
+      comprehensive evaluation of lesion geometry, plaque characteristics and hemodynamic&#xD;
+      parameters may enhance the identification of high-risk plaque and the prediction of ACS risk.&#xD;
+&#xD;
+      In this regard, the current study is designed to evaluate prognostic implications of&#xD;
+      comprehensive non-invasive hemodynamic assessment using CCTA and CFD in the identification of&#xD;
+      high risk plaques that caused subsequent ACS.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study population was collected from Samsung Medical Center. Target population is patients&#xD;
+      who suffered a clearly documented ACS (acute myocardial infarction [MI] or unstable angina&#xD;
+      with objective evidence of plaque rupture) or those who underwent significant lesion&#xD;
+      progression in angiography and treated by percutaneous coronary intervention (PCI) and had&#xD;
+      undergone CCTA from 6 months to 3 years prior to the coronary events.&#xD;
+&#xD;
+      CCTA images were screened for plaque characteristics and CFD analysis at core laboratories in&#xD;
+      Elucid Bioimaging, Inc, MA, USA and Shanghai Institute of Cardiovascular Diseases, Shanghai,&#xD;
+      China, respectively. Lesions with diameter stenosis (DS) &gt; 30% based on CCTA evaluation were&#xD;
+      included analysis. The presence of conventional CCTA-HRPC (minimum lumen area&lt;&lt;4 mm2, plaque&#xD;
+      burden≥70%, low-attenuation plaque, positive remodeling, napkin-ring sign, and spotty&#xD;
+      calcification) and parameters from tissue characterization using VascuCAP software will be&#xD;
+      assessed in each lesion by an independent observer blinded to the clinical data and CFD&#xD;
+      results. The hemodynamic parameters from CFD will include 1) per-vessel FFR derived from CCTA&#xD;
+      (FFRCT); 2) change in FFRCT across the lesion (△FFRCT); 3) FFRCT pullback pressure gradient&#xD;
+      (PPG) index (FFRCT-PPG index); 4) Fractional myocardial mass (FMM) of the target stenosis.&#xD;
+&#xD;
+      Using the occurrence of ACS or PCI for the progressed lesion as clinical endpoint, prognostic&#xD;
+      implications of CCTA-derived HRPC or hemodynamic parameters will be analyzed.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">April 1, 2020</start_date>
+  <completion_date type="Anticipated">December 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 2022</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>3 Years</target_duration>
+  <primary_outcome>
+    <measure>Acute myocardial infarction</measure>
+    <time_frame>3 years after index CCTA</time_frame>
+    <description>Target vessel-related acute myocardial infarction</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Revascularization</measure>
+    <time_frame>3 years after index CCTA</time_frame>
+    <description>Target vessel-related revsacularization</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Target vessel failure</measure>
+    <time_frame>3 years after index CCTA</time_frame>
+    <description>A composite of Cardiac death, Target vessel-related acute myocardial infarction, Target vessel-related revsacularization</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>All-cause death</measure>
+    <time_frame>3 years after index CCTA</time_frame>
+    <description>All-cause death</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cardiac death</measure>
+    <time_frame>3 years after index CCTA</time_frame>
+    <description>Death due to cardiac cause</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Major adverse cardiac and cerebral events</measure>
+    <time_frame>3 years after index CCTA</time_frame>
+    <description>A composite of All-cause death, Target vessel-related acute myocardial infarction, Target vessel-related revsacularization, Cerebrovascular accident</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">356</enrollment>
+  <condition>Acute Coronary Syndrome</condition>
+  <condition>Ischemic Heart Disease</condition>
+  <arm_group>
+    <arm_group_label>Culprit vessel of acute coronary syndrome</arm_group_label>
+    <description>Culprit vessel of acute coronary syndrome</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Non-culprit vessel of acute coronary syndrome</arm_group_label>
+    <description>Non-culprit vessel of acute coronary syndrome</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>CCTA-derived high risk plaque characteristics</intervention_name>
+    <description>Presence of CCTA-derived high risk plaque characteristics</description>
+    <arm_group_label>Culprit vessel of acute coronary syndrome</arm_group_label>
+    <arm_group_label>Non-culprit vessel of acute coronary syndrome</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>CFD-derived hemodynamic parameters</intervention_name>
+    <description>CFD-derived hemodynamic parameters</description>
+    <arm_group_label>Culprit vessel of acute coronary syndrome</arm_group_label>
+    <arm_group_label>Non-culprit vessel of acute coronary syndrome</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population was collected from Samsung Medical Center. Target population is&#xD;
+        patients who suffered a clearly documented ACS (acute myocardial infarction [MI] or&#xD;
+        unstable angina with objective evidence of plaque rupture) or those who underwent&#xD;
+        significant lesion progression in angiography and treated by percutaneous coronary&#xD;
+        intervention (PCI) and had undergone CCTA from 6 months to 3 years prior to the coronary&#xD;
+        events.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Patients who presented with ACS and underwent invasive coronary angiography with&#xD;
+             identifiable culprit lesion&#xD;
+&#xD;
+          2. Patients who presented with stable ischemic heart disease and underwent invasive&#xD;
+             coronary angiography for the significant epicardial coronary stenosis&#xD;
+&#xD;
+          3. The patients who underwent coronary CT angiography, regardless of the reason (for&#xD;
+             example, routine healthcare check-up, or evaluation for stable angina or atypical&#xD;
+             chest pain) prior to the acute event.&#xD;
+&#xD;
+          4. Time limit of CCTA: 6 months ~ 3 years prior to the event.&#xD;
+&#xD;
+          5. Definition of ACS:&#xD;
+&#xD;
+               -  The patients with acute myocardial infarction should meet one of the following&#xD;
+                  criteria;&#xD;
+&#xD;
+                    -  Cardiac enzyme elevation &quot;and&quot;&#xD;
+&#xD;
+                    -  Identified culprit lesion confirmed by invasive coronary angiography, IVUS,&#xD;
+                       or OCT&#xD;
+&#xD;
+               -  The patients with unstable angina should be accompanied by the evidence of plaque&#xD;
+                  rupture confirmed with invasive coronary angiography, IVUS, or OCT&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        Exclusion criteria for Patient enrollment&#xD;
+&#xD;
+          -  Patients with acute coronary syndrome without clear evidence of culprit lesion&#xD;
+&#xD;
+          -  Patients with stents in two or more vessel territories prior to CCTA&#xD;
+&#xD;
+          -  Poor quality of CCTA which is unsuitable for plaque and CFD analysis&#xD;
+&#xD;
+          -  Patients with ACS culprit lesion in a stented vessel&#xD;
+&#xD;
+          -  Patients with previous history of coronary artery bypass graft surgery&#xD;
+&#xD;
+          -  Secondary myocardial infarction due to other general medical conditions, such as&#xD;
+             sepsis, arrhythmia, bleeding, etc.&#xD;
+&#xD;
+          -  Poor quality CCTA images unsuitable for CFD analysis&#xD;
+&#xD;
+          -  No available unprocessed CCTA data&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Joo Myung Lee, MD, MPH, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Samsung Medical Center</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Shanghai Institute of Cardiovascular Diseases</name>
+      <address>
+        <city>Shanghai</city>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Samsung Medical Center</name>
+      <address>
+        <city>Seoul</city>
+        <zip>06351</zip>
+        <country>Korea, Republic of</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+    <country>Korea, Republic of</country>
+  </location_countries>
+  <verification_date>July 2021</verification_date>
+  <study_first_submitted>March 8, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 11, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 12, 2021</study_first_posted>
+  <last_update_submitted>July 22, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 22, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 29, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Samsung Medical Center</investigator_affiliation>
+    <investigator_full_name>Joo Myung Lee</investigator_full_name>
+    <investigator_title>Assistant Professor</investigator_title>
+  </responsible_party>
+  <keyword>acute coronary syndrome</keyword>
+  <keyword>plaque characteristics</keyword>
+  <keyword>fractional flow reserve</keyword>
+  <keyword>fractional myocardial mass</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Disease</mesh_term>
+    <mesh_term>Heart Diseases</mesh_term>
+    <mesh_term>Acute Coronary Syndrome</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>Anatomized patient data can be shared upon reasonable request after decision by principal investigator</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

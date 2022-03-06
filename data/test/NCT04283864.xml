@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="181">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04283864</url>
+  </required_header>
+  <id_info>
+    <org_study_id>0722-19 -RMC</org_study_id>
+    <nct_id>NCT04283864</nct_id>
+  </id_info>
+  <brief_title>Decoding Personalized Nutritional, Microbiome and Host Patterns Impacting Clinical and Prognostic Features in Crohn's Disease</brief_title>
+  <official_title>Decoding Personalized Nutritional, Microbiome and Host Patterns Impacting Clinical and Prognostic Features in Crohn's Disease</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Weizmann Institute of Science</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>The Leona M. and Harry B. Helmsley Charitable Trust</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Weizmann Institute of Science</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The study is 3 arms observational study with no intervention that aims to understand the link&#xD;
+      between Crohn's disease, microbiome and diet in children.&#xD;
+&#xD;
+      150 children newly diagnosed with Crohn's disease will participate in the study and their&#xD;
+      data will be used to create an algorithm about their microbiome, disease, diet, etc.&#xD;
+&#xD;
+      100 other children newly diagnosed will participate in the study and their data will be use&#xD;
+      to validate the algorithm.&#xD;
+&#xD;
+      The investigators will be recruiting 50 healthy participants: 20 that are undergoing an&#xD;
+      endoscopy for abdominal pain and 30 that comes to the physician for different reasons.&#xD;
+&#xD;
+      After parental consent, the participants will receive an explanation of the study and sign a&#xD;
+      consent form for colonoscopy. Before colonoscopy, participants will bring fecal samples, give&#xD;
+      blood samples, biopsies and biopsy brushes (superficial scraping of the tissue) will be taken&#xD;
+      during the operation. These samples will be retained until further consent is obtained for&#xD;
+      further study.&#xD;
+&#xD;
+      After receiving the results of the colonoscopy, children who have been diagnosed with Crohn's&#xD;
+      disease will be offered to participate in the second part of the study, they will receive an&#xD;
+      explanation about the app, collection of fecal samples at home, diet logs and anthropometric&#xD;
+      measurements, demographic information, medical and family history will be registered.&#xD;
+&#xD;
+      During the first 3 months: the participants will be asked to log data in the app and collect&#xD;
+      fecal samples at home. They will be asked to come for a follow up visit where anthropomorphic&#xD;
+      measurements and blood samples will be taken.&#xD;
+&#xD;
+      Participants will be asked to log in every day to report in the app daily activity and food&#xD;
+      intake throughout the study period. Each week, the research coordinator will call on&#xD;
+      participants to make sure the app is correctly filled in, collect the stool samples correctly&#xD;
+      and answer questions. During the entire study participants will collect fecal samples, every&#xD;
+      first week of the month participants will enter information in the app.&#xD;
+&#xD;
+      For children who have not been diagnosed with Crohn's disease by the colonoscopy, or children&#xD;
+      who visit the institute for reasons other than inflammatory bowel disease without a clear&#xD;
+      finding will participate in the study control group. If consent is given, fecal samples will&#xD;
+      be collected at the entrance of the study and after one year, blood samples, a food&#xD;
+      questionnaire and anthropometric indices, demographic information, medical and family history&#xD;
+      will be completed.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 29, 2020</start_date>
+  <completion_date type="Anticipated">December 2024</completion_date>
+  <primary_completion_date type="Anticipated">December 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Personalised nutrition Algorithm based on microbiome.</measure>
+    <time_frame>3 years</time_frame>
+    <description>Using machine learning we will create a trained personalised decision-tree based predictor enabling a significant prediction of nutritional impacts on CD clinical and inflammatory features during the first year of follow-up. It will be based on information gathered from microbiome ( metagenomic and 16s sequencing of stool microbiome), nutritional questionnaire and disease states (via fecal calprotectin test) in children with Crohn's disease.</description>
+  </primary_outcome>
+  <number_of_groups>3</number_of_groups>
+  <enrollment type="Anticipated">300</enrollment>
+  <condition>Crohn Disease</condition>
+  <arm_group>
+    <arm_group_label>Group A</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group B</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group C</arm_group_label>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Children between 6 to 18 years old. 250 with crohn disease ( undergoing endoscopy) 20&#xD;
+        children without Crohn Disease ( undergoing endoscopy) 30 healthy children ( not undergoing&#xD;
+        endoscopy)&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  CD study group - 'Consent form - Part 1'&#xD;
+&#xD;
+               1. Children with clinical suspicion for CD.&#xD;
+&#xD;
+               2. Between 6 and 18 years of age.&#xD;
+&#xD;
+               3. Naïve to any medical or nutritional intervention.&#xD;
+&#xD;
+        CD study group - 'Consent form - Part 2'&#xD;
+&#xD;
+          1. Children with CD confirmed by endoscopy (and based on accepted criteria7)&#xD;
+&#xD;
+          2. Between 6 and 18 years of age.&#xD;
+&#xD;
+          3. Naïve to any medical or nutritional intervention.&#xD;
+&#xD;
+        Control group undergoing endoscopy en between 6 and 18 years of age undergoing colonoscopy&#xD;
+        for non-specific abdominal pain or other non-inflammatory gastrointestinal conditions.&#xD;
+&#xD;
+        Control group not undergoing colonoscopy&#xD;
+&#xD;
+          1. Children with no symptoms or signs of gastrointestinal disease and no known medical&#xD;
+             conditions.&#xD;
+&#xD;
+          2. Children between 6 and 18 years of age. These children will be recruited from general&#xD;
+             pediatric clinics (children attending for routine check-up), orthopedic clinics,&#xD;
+             ophthalmology clinics or schools.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  CD study group&#xD;
+&#xD;
+               1. Chronic treatment with any drug upon enrolment and the use of systemic&#xD;
+                  antibiotics, probiotics or proton pump inhibitors during 30 days prior to&#xD;
+                  enrollment.&#xD;
+&#xD;
+               2. Morbid obesity (BMI &gt; 95th percentile for their age and gender).&#xD;
+&#xD;
+               3. Following particular dietary regimen/dietitian consultation/participation in&#xD;
+                  another study.&#xD;
+&#xD;
+               4. Chronic use of steroids or immunomodulatory medications prior to CD diagnosis.&#xD;
+&#xD;
+               5. Any other chronic disease (e.g. HIV, Cushing disease, acromegaly,&#xD;
+                  hyperthyroidism, etc.), cancer and recent anti-cancer therapy, neuro-psychiatric&#xD;
+                  disorders, coagulation disorders, celiac disease or any other chronic GI&#xD;
+                  disorder.&#xD;
+&#xD;
+               6. Gut-related surgery, including bariatric surgery.&#xD;
+&#xD;
+               7. Inability of the participant and nuclear family to follow and utilize the&#xD;
+                  smartphone application.&#xD;
+&#xD;
+        Control group not undergoing colonoscopy&#xD;
+&#xD;
+          1. Children with no symptoms or signs of gastrointestinal disease and no known medical&#xD;
+             conditions.&#xD;
+&#xD;
+          2. Children between 6 and 18 years of age. These children will be recruited from general&#xD;
+             pediatric clinics (children attending for routine check-up), orthopedic clinics,&#xD;
+             ophthalmology clinics or schools.&#xD;
+&#xD;
+        Control group undergoing endoscopy&#xD;
+&#xD;
+          1. Any known chronic illness.&#xD;
+&#xD;
+          2. Following particular dietary regimen/dietitian consultation/participation in another&#xD;
+             study.&#xD;
+&#xD;
+          3. Chronic treatment with any drug upon enrolment and the use of systemic antibiotics,&#xD;
+             probiotics or proton pump inhibitors during 30 days prior to enrollment.&#xD;
+&#xD;
+          4. Gut-related surgery, including bariatric surgery.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>6 Years</minimum_age>
+    <maximum_age>18 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Eran Elinav, Prof</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Weizmann Institute of Science</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Aurelie Bukimer</last_name>
+    <phone>+972542477540</phone>
+    <email>aurelie.bukimer@weizmann.ac.il</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Alona Metz, Msc</last_name>
+    <phone>+972525455367</phone>
+    <email>alona.metz@weizmann.ac.il</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Schneider children's medical center</name>
+      <address>
+        <city>Petah tikva</city>
+        <country>Israel</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Hadas Ozeri</last_name>
+      <email>hadasoz@clalit.org.il</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>University of Naples &quot;Federico II&quot;</name>
+      <address>
+        <city>Naples</city>
+        <zip>80131</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Rosa Manca, Ph.D</last_name>
+      <phone>+39 0817462679</phone>
+      <email>rosa.manca@unina.it</email>
+    </contact>
+    <investigator>
+      <last_name>AnnaMaria Staiano, MD/Ph.D</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Israel</country>
+    <country>Italy</country>
+  </location_countries>
+  <verification_date>January 2022</verification_date>
+  <study_first_submitted>November 19, 2019</study_first_submitted>
+  <study_first_submitted_qc>February 23, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 25, 2020</study_first_posted>
+  <last_update_submitted>January 31, 2022</last_update_submitted>
+  <last_update_submitted_qc>January 31, 2022</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 1, 2022</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Weizmann Institute of Science</investigator_affiliation>
+    <investigator_full_name>Eran Elinav</investigator_full_name>
+    <investigator_title>Principal Investigator, Host-Microbiome Interaction Research Group</investigator_title>
+  </responsible_party>
+  <keyword>Crohn Disease</keyword>
+  <keyword>microbiome</keyword>
+  <keyword>Personal diet</keyword>
+  <keyword>personalized nutrition</keyword>
+  <keyword>Nutribiome</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Crohn Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

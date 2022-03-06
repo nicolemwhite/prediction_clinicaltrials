@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="72">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05081531</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2986</org_study_id>
+    <nct_id>NCT05081531</nct_id>
+  </id_info>
+  <brief_title>AI for Head Neck Cancer Treated With Adaptive RadioTherapy (RadiomicART)</brief_title>
+  <acronym>RadiomicArt</acronym>
+  <official_title>Artificial Intelligence for Locally Advanced Head Neck Cancer Treated With Multi-modality Adaptive RadioTherapy: Machine Learning-based Radiomic Prediction of Outcome and Toxicity (RadiomicART)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Istituto Clinico Humanitas</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Istituto Clinico Humanitas</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Current clinical management algorithms for squamous cell carcinoma of head and neck (HNSCC)&#xD;
+      involve the use of surgery and / or radiotherapy (RT) depending on the stage of the disease&#xD;
+      at diagnosis. Radical RT, exclusive or in combination with systemic therapy, represents an&#xD;
+      effective therapeutic option according to the international guidelines. Despite the recent&#xD;
+      technological advancements in the field of RT, about 30-50% of patients will develop&#xD;
+      locoregional failure after primary treatment . Moreover, although the development of&#xD;
+      Intensity modulated radiation therapy (IMRT) and Volumetric modulated arc therapy (VMAT)&#xD;
+      techniques allowed a greater sparing of dose on healthy tissues, radiation-induced toxicity&#xD;
+      still represents a relevant concern, impacting on quality of life. The continuous effort of&#xD;
+      personalized medicine has the goal of improving patient's outcome, in terms of both disease's&#xD;
+      control and pattern of toxicity. Advanced imaging modalities appear to play an essential role&#xD;
+      in the customization of the radiation treatment as shown through the use of Adaptive&#xD;
+      Radiotherapy (ART) and radiomic. With ART we mean the adaptation of tumor volumes and&#xD;
+      surrounding organs at risk (OARs) to the shrinkage and patient emaciation during RT&#xD;
+      treatment. Adaptive radiotherapy (ART) includes techniques that allow knowledge of&#xD;
+      patient-specific anatomical variations informed by Image-guided radiotherapies (IGRTs) to&#xD;
+      feedback into the plan and dose-delivery optimization during the treatment course. Radiomic&#xD;
+      is the extraction of quantitative features from medical images to characterize tumor&#xD;
+      pathology or heterogeneity. Radiomic features extracted from medical images can be used as&#xD;
+      input features to create a machine learning model able to predict survival, and to guide&#xD;
+      treatment thanks to its predictive value in view of therapy personalization.&#xD;
+&#xD;
+      The combination of both ART and radiomic analysis could potentially be considered a further&#xD;
+      advance in the personalization of oncological treatments, and in particular for radiation&#xD;
+      treatments. For this reason, the investigators designed the present research project with the&#xD;
+      aim to prospectively evaluate a machine learning-based radiomic approach to predict outcome&#xD;
+      and toxicity of HNSCC patients treated with ART by mean of CT, MRI and PET-scan.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Squamous cell carcinoma of the head and neck (HNSCC) is characterized by an incidence in&#xD;
+      Europe of 140.000 new cases per year, with survival rates at 5 years ranging from 25 to 65%.&#xD;
+&#xD;
+      Current clinical management algorithms for HNSCC patients involve the use of surgery and / or&#xD;
+      radiotherapy depending on the stage of the disease at diagnosis. Radical radiotherapy (RT),&#xD;
+      exclusive or in combination with systemic therapy, represents an effective therapeutic option&#xD;
+      according to the international guidelines.&#xD;
+&#xD;
+      Despite the recent technological advancements in the field of radiation therapy, about 30-50%&#xD;
+      of patients will develop locoregional failure after primary treatment of head and neck&#xD;
+      cancer. Moreover, although the development of Intensity modulated radiation therapy (IMRT)&#xD;
+      and Volumetric modulated arc therapy (VMAT) techniques allowed a greater sparing of dose on&#xD;
+      healthy tissues, radiation-induced toxicity still represents a relevant concern, impacting on&#xD;
+      quality of life of cancer patients even for long time after treatment.&#xD;
+&#xD;
+      The continuous effort of personalized medicine has the goal of improving patient's outcome,&#xD;
+      in terms of both disease's control and pattern of toxicity. Advanced imaging modalities&#xD;
+      appear to play an essential role in the customization of the radiation treatment as shown&#xD;
+      through the use of Adaptive Radiotherapy (ART) and radiomic.&#xD;
+&#xD;
+      With ART the investigators mean the adaptation of tumor volumes and surrounding organs at&#xD;
+      risk (OARs) to the shrinkage and patient emaciation during RT treatment.&#xD;
+&#xD;
+      The recent literature showed that tumor shrinkage can reach 70% by the end of the RT&#xD;
+      treatment, and at the same time OARs, such as parotid glands, can reduce their size by 7 to&#xD;
+      70%. These alterations, if not taken into account, can lead to an unexpected delivery of&#xD;
+      lower dose on the tumor and higher dose of OARs compared to what planned.&#xD;
+&#xD;
+      Adaptive radiotherapy (ART) includes techniques that allow knowledge of patient-specific&#xD;
+      anatomical variations informed by Image-guided radiotherapies (IGRTs) to feedback into the&#xD;
+      plan and dose-delivery optimization during the treatment course. The persisting weakest link&#xD;
+      in the treatment chain for radiotherapy remains clinician-led target identification.&#xD;
+&#xD;
+      Compared to CT or CBCT, MRI offers superior soft-tissue definition with no associated&#xD;
+      radiation risk. MRI identifies targets larger than on CT because tumour that otherwise would&#xD;
+      have been missed is now seenah; however, most commonly, targets are reported to be smaller&#xD;
+      when delineated on MRI. The resulting smaller MRI-derived target improves the therapeutic&#xD;
+      ratio so enabling dose escalation. The availability of 'functional' MRI sequences holds&#xD;
+      promise that geometric adaptation maybe complemented by biological adaptation.&#xD;
+      Diffusion-weighted imaging (DWI) is a functional imaging technique dependent on the random&#xD;
+      motion of water molecules to generate image contrast. As tumours usually have greater&#xD;
+      cellularity than normal tissue, they demonstrate higher signal intensity, i.e., restricted&#xD;
+      diffusion on MRI. This is reflected in the low mean apparent diffusion coefficient (ADC)&#xD;
+      value. This has potential to provide both qualitative and quantitative information. Change in&#xD;
+      the ADC has been used to identify early treatment response, and to predict local recurrence.&#xD;
+      Therefore, on-board DWI could identify early non-responders who may benefit from change in&#xD;
+      treatment approach.&#xD;
+&#xD;
+      Radiomic is the extraction of quantitative features from medical images to characterize tumor&#xD;
+      pathology or heterogeneity. Radiomic features extracted from medical images can be used as in&#xD;
+      put features to create a machine learning model able to predict survival, and to guide&#xD;
+      treatment thanks to its predictive value in view of therapy personalization.&#xD;
+&#xD;
+      We previously evaluated in a retrospective study the qualitative analysis of the radiomic&#xD;
+      characteristics of head and neck tumor tissues, in order to identify a predictive signature&#xD;
+      of the biological characteristics of the tumor. The investigators stratified HNSCC patients&#xD;
+      according to the most significant radiomic features into high- and low-risk groups of relapse&#xD;
+      and survival after radio-chemotherapy.&#xD;
+&#xD;
+      The combination of both ART and radiomic analysis could potentially be considered a further&#xD;
+      advance in the personalization of oncological treatments, and in particular for radiation&#xD;
+      treatments. For this reason, the investigator designed the present research project with the&#xD;
+      aim to prospectively evaluate a machine learning-based radiomic approach to predict outcome&#xD;
+      and toxicity of HNSCC patients treated with ART by mean of CT, MRI and PET-scan.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 5, 2021</start_date>
+  <completion_date type="Anticipated">October 1, 2024</completion_date>
+  <primary_completion_date type="Anticipated">October 1, 2024</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Locoregional recurrence free survival</measure>
+    <time_frame>1 year</time_frame>
+    <description>Locoregional recurrence free survival in head and neck cancer patients treated with adaptive radiotherapy</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Progression Free Survival</measure>
+    <time_frame>1 year</time_frame>
+    <description>Progression Free Survival in head and neck cancer patients treated with adaptive radiotherapy</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Overall Survival</measure>
+    <time_frame>1 year</time_frame>
+    <description>Overall Survival in head and neck cancer patients treated with adaptive radiotherapy</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">50</enrollment>
+  <condition>Head and Neck Cancer</condition>
+  <arm_group>
+    <arm_group_label>Adaptive Radiotherapy in Head and Neck cancer patients</arm_group_label>
+    <arm_group_type>Other</arm_group_type>
+    <description>Patients will be treated with a total dose of 66 Gy, 60 Gy and 54 Gy on PTV1, PTV2 and PTV3, respectively, delivered in 30 fractions, 5 fractions per week.&#xD;
+At week 3 from RT start, patients will repeat contrast simulation CT with, and MRI and FDG-PET scan for treatment replanning. Patient will start with the new plan in week 4.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Radiation</intervention_type>
+    <intervention_name>Adaptive Radiotherapy</intervention_name>
+    <description>All the patients will be treated with VMAT technique in its RapidArc form. A simultaneous integrated boost (SIB) technique will be used. The GTV will encompass the tumor delineated on CT scan, adjusted for MRI and PET scans. Patients will be treated with a total dose of 66 Gy, 60 Gy and 54 Gy on PTV1, PTV2 and PTV3, respectively, delivered in 30 fractions, 5 fractions per week.</description>
+    <arm_group_label>Adaptive Radiotherapy in Head and Neck cancer patients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  ECOG Performance status 0 to 2&#xD;
+&#xD;
+          -  Life expectancy &gt; 12 months&#xD;
+&#xD;
+          -  Histological proven squamous cell carcinoma of the pharynx, larynx or oral cavity&#xD;
+&#xD;
+          -  Locally advanced stage disease classified as T3-T4 or N1-3&#xD;
+&#xD;
+          -  Radical radiotherapy +/- chemotherapy indicated as the primary treatment modality&#xD;
+&#xD;
+          -  Visible disease at the primary site on imaging performed within 4 weeks of starting&#xD;
+             treatment&#xD;
+&#xD;
+          -  Adequate liver function&#xD;
+&#xD;
+          -  Adequate renal function for infusion of iv. contrast for CT-scan and MRI-scan&#xD;
+&#xD;
+          -  Adequate bone marrow function&#xD;
+&#xD;
+          -  Written informed consent&#xD;
+&#xD;
+          -  No previous radiation therapy on head and neck region&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Inability to provide informed consent&#xD;
+&#xD;
+          -  Presence of distant metastases&#xD;
+&#xD;
+          -  Previous radiation therapy on head and neck region&#xD;
+&#xD;
+          -  Pregnant or breastfeeding patients&#xD;
+&#xD;
+          -  Prior malignancy within the last five years (except adequately treated basal cell&#xD;
+             carcinoma of the skin or in situ carcinoma of the skin or in situ carcinoma of the&#xD;
+             cervix, surgically cured, or localized prostate cancer without evidence of biochemical&#xD;
+             progression)&#xD;
+&#xD;
+          -  Mental conditions rendering the patient incapable to understand the nature, scope, and&#xD;
+             consequences of the study&#xD;
+&#xD;
+          -  Allergy or contraindication to contrast agents&#xD;
+&#xD;
+          -  General contraindications to MRI&#xD;
+&#xD;
+          -  ECOG PS &gt;=3&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Ciro Franzese, MD</last_name>
+    <phone>+390282247454</phone>
+    <email>ciro.franzese@hunimed.eu</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Federico Fornasier, M.Sc</last_name>
+    <phone>+390282247026</phone>
+    <email>federico.fornasier@humanitas.it</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Humanitas Clinical institute</name>
+      <address>
+        <city>Rozzano</city>
+        <state>Milano</state>
+        <zip>20089</zip>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ciro Franzese, MD</last_name>
+      <phone>+390282247454</phone>
+      <email>ciro.franzese@hunimed.eu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Federico Fornasier, M.Sc</last_name>
+      <phone>+390282247026</phone>
+      <email>federico.fornasier@humanitas.it</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>October 5, 2021</study_first_submitted>
+  <study_first_submitted_qc>October 5, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 18, 2021</study_first_posted>
+  <last_update_submitted>October 18, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 18, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 26, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Head and Neck Neoplasms</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

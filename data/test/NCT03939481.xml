@@ -1,0 +1,3428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="294">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03939481</url>
+  </required_header>
+  <id_info>
+    <org_study_id>S1714</org_study_id>
+    <secondary_id>NCI-2018-01568</secondary_id>
+    <secondary_id>S1714</secondary_id>
+    <secondary_id>SWOG-S1714</secondary_id>
+    <secondary_id>S1714</secondary_id>
+    <secondary_id>UG1CA189974</secondary_id>
+    <nct_id>NCT03939481</nct_id>
+  </id_info>
+  <brief_title>Treatment Effects on Development of Chemotherapy-Induced Peripheral Neuropathy in Patients With Cancer</brief_title>
+  <official_title>A Prospective Observational Cohort Study to Develop a Predictive Model of Taxane-Induced Peripheral Neuropathy in Cancer Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Southwest Oncology Group</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Cancer Institute (NCI)</agency>
+      <agency_class>NIH</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Southwest Oncology Group</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This trial studies treatment effects on development of chemotherapy-induced peripheral&#xD;
+      neuropathy in patients with cancer. Treatments for cancer can cause a problem to the nervous&#xD;
+      system (called peripheral neuropathy) that can lead to tingling or less feeling in hands and&#xD;
+      feet. Studying certain risk factors, such as age, gender, pre-existing conditions, and the&#xD;
+      type of treatment for cancer may help doctors estimate how likely patients are to develop the&#xD;
+      nerve disorder.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      PRIMARY OBJECTIVES:&#xD;
+&#xD;
+      I. To develop and validate a clinical risk prediction model using clinical factors for the&#xD;
+      development of peripheral neuropathy in patients receiving taxane-based chemotherapy&#xD;
+      regimens.&#xD;
+&#xD;
+      SECONDARY OBJECTIVES:&#xD;
+&#xD;
+      I. To examine patient-reported outcomes (PROs) and objective measures of chemotherapy induced&#xD;
+      peripheral neuropathy (CIPN) to better define the phenotype of peripheral neuropathy in this&#xD;
+      patient population.&#xD;
+&#xD;
+      II. To assess the incidence of CIPN within one year in this patient population. III. To&#xD;
+      identify predictors of treatment dose reductions, delays, and discontinuations associated&#xD;
+      with CIPN symptoms in this patient population.&#xD;
+&#xD;
+      OTHER OBJECTIVES:&#xD;
+&#xD;
+      I. To collect serum and plasma samples for future testing for biomarker and mechanistic&#xD;
+      studies of CIPN.&#xD;
+&#xD;
+      OUTLINE:&#xD;
+&#xD;
+      Patients receive chemotherapy regimen per treating physician for 52 weeks in the absence of&#xD;
+      disease progression or unacceptable toxicity. Patients also complete questionnaires at weeks&#xD;
+      4, 8, 12, 24 and 52.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">March 1, 2019</start_date>
+  <completion_date type="Anticipated">February 28, 2026</completion_date>
+  <primary_completion_date type="Anticipated">February 28, 2025</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Development of peripheral neuropathy</measure>
+    <time_frame>Up to 24 weeks</time_frame>
+    <description>Will be measured as an absolute increase of &gt;= 8 points over the baseline chemotherapy-induced peripheral neuropathy (CIPN)-20 sensory neuropathy subscale score. Will be collected before or at the 24-week assessment as the taxane-based chemotherapy regimens in this study are expected to be completed within 8 to 18 weeks. The presence of CIPN will be captured at 52 weeks to evaluate the duration of neuropathy which is anticipated to wane after treatment discontinuation.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>CIPN symptoms</measure>
+    <time_frame>Up to 52 weeks</time_frame>
+    <description>Patients experiencing a treatment change attributed to CIPN symptoms</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Dose Changes</measure>
+    <time_frame>Up to 52 weeks</time_frame>
+    <description>Dose reductions, delays, and discontinuations of treatment (prior to completing the original treatment plan)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Health-related Quality of Life</measure>
+    <time_frame>Up to 52 weeks</time_frame>
+    <description>Assessed using the Patient-Reported Outcomes Measurement Information System 29 (PROMIS-29). The PROMIS-29 is a well validated assessment tool that offers both qualitative and quantitative measures of health-related quality of life. The PROMIS-29 includes 29 questions evaluating areas of physical function, anxiety, depression, fatigue, sleep, social functioning, and pain interference. The PROMIS-29 assesses severity levels of symptoms and their effect on the patient's functioning.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Visual Analog Toxicity Score</measure>
+    <time_frame>Up to 52 weeks</time_frame>
+    <description>Assessed using the Visual Analog Toxicity Score. The Visual Analog Toxicity Score is a single question asking the physician to rate how the physician feels the patient's disease and treatment affects their daily life on a scale from 0 (no symptoms and no effect on life) to 10 (severe effects of treatment and patient would rather be dead).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient Reported Symptom</measure>
+    <time_frame>Up to 52 weeks</time_frame>
+    <description>Assessed using the Patient Reported Symptom Burden Score. The Patient Reported Symptom Score at baseline contains one question to assess how cancer symptoms affect the patient's life (scale 0 [no burden at all] to 10 [a great burden]). At follow-up, the Symptom Burden Score contains five questions: 1) to assess burden of side effects of cancer treatment on life (scale 0 [no burden at all] to 10 [a great burden]), 2) to assess severity of side effects from cancer treatment (scale 0 [no side effects]) to 10 [side effects extremely severe and unbearable]), 3) to assess tolerability of side effects for set time periods (yes/no), 4) to assess level at which treatment would be considered intolerable (scale 0 [side effects not severe at all] to 10 [side effects extremely severe and unbearable]), and 5) to assess the burden of cancer symptoms and treatment symptoms (scale 0 [no burden at all] to 10 [a great burden]).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Leisure-time Exercise Habits</measure>
+    <time_frame>Up to 52 weeks</time_frame>
+    <description>Assessed using the Godin-Shephard Leisure-Time Physical Activity Questionnaire (GSLTPAQ). The GSLTPAQ is a brief 4 item self-administered questionnaire of usual leisure-time exercise habits over a typical 7-day period. The Leisure Score Index (LSI) is calculated based on the first 3 questions. The LSI scores can be used to classify respondents into active (LSI &gt; 24) and insufficiently active (LSI &lt; 23) categories.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Patient-Reported Outcomes</measure>
+    <time_frame>Up to 52 weeks</time_frame>
+    <description>Assessed using the Patient Reported Outcomes Common Terminology Criteria for Adverse Events (PRO-CTCAE [CTCAE Version 5.0]). PRO-CTCAE assesses 78 adverse events by self-report with 124 items. Each item uses a plain language term for the adverse event, the attribute of interest, and the standard recall period of &quot;the past 7 days&quot;.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>National Cancer Institute-Common Terminology Criteria for Adverse Events</measure>
+    <time_frame>Up to 52 weeks</time_frame>
+    <description>The NCI-CTCAE is a subjective method to evaluate CIPN performed by a healthcare professional. The treating physician will grade the subject's dysesthesia, paresthesia, neuralgia, peripheral sensory neuropathy, and peripheral motor neuropathy on a scale of 0 to 5 depending on the severity. The advantage of the NCI-CTCAE is that the assessment is quick and easy for providers to perform, (8) but it is limited by the subjectivity of interpretation, lack of detail about location, type, and severity of impairment, and narrow scoring range.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Assess incidence of CIPN</measure>
+    <time_frame>Up to 52 weeks</time_frame>
+    <description>Assessed using European Organization for Research and Treatment of Cancer (EORTC) QLQ-CIPN20 (CIPN-20). The EORTC QLQ-CIPN20 is a 20-item questionnaire that evaluates CIPN using 3 subscales that assess sensory (9 items), motor (8 items), and autonomic (3 items) symptoms and functioning with each item measured on a 1-4 scale (1, not at all; 4, very much). The sensory subscale raw scores range from 1 to 36. The CIPN-20 subscale raw scores are linearly converted to a 0-100 scale such that a high score corresponds to a worse condition or more symptoms.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">1050</enrollment>
+  <condition>Anatomic Stage I Breast Cancer AJCC v8</condition>
+  <condition>Anatomic Stage IA Breast Cancer AJCC v8</condition>
+  <condition>Anatomic Stage IB Breast Cancer AJCC v8</condition>
+  <condition>Anatomic Stage II Breast Cancer AJCC v8</condition>
+  <condition>Anatomic Stage IIA Breast Cancer AJCC v8</condition>
+  <condition>Anatomic Stage IIB Breast Cancer AJCC v8</condition>
+  <condition>Anatomic Stage III Breast Cancer AJCC v8</condition>
+  <condition>Anatomic Stage IIIA Breast Cancer AJCC v8</condition>
+  <condition>Anatomic Stage IIIB Breast Cancer AJCC v8</condition>
+  <condition>Anatomic Stage IIIC Breast Cancer AJCC v8</condition>
+  <condition>Lung Non-Small Cell Carcinoma</condition>
+  <condition>Prognostic Stage I Breast Cancer AJCC v8</condition>
+  <condition>Prognostic Stage IA Breast Cancer AJCC v8</condition>
+  <condition>Prognostic Stage IB Breast Cancer AJCC v8</condition>
+  <condition>Prognostic Stage II Breast Cancer AJCC v8</condition>
+  <condition>Prognostic Stage IIA Breast Cancer AJCC v8</condition>
+  <condition>Prognostic Stage IIB Breast Cancer AJCC v8</condition>
+  <condition>Prognostic Stage III Breast Cancer AJCC v8</condition>
+  <condition>Prognostic Stage IIIA Breast Cancer AJCC v8</condition>
+  <condition>Prognostic Stage IIIB Breast Cancer AJCC v8</condition>
+  <condition>Prognostic Stage IIIC Breast Cancer AJCC v8</condition>
+  <condition>Stage I Lung Cancer AJCC v8</condition>
+  <condition>Stage I Ovarian Cancer AJCC v8</condition>
+  <condition>Stage IA Ovarian Cancer AJCC v8</condition>
+  <condition>Stage IA1 Lung Cancer AJCC v8</condition>
+  <condition>Stage IA2 Lung Cancer AJCC v8</condition>
+  <condition>Stage IA3 Lung Cancer AJCC v8</condition>
+  <condition>Stage IB Lung Cancer AJCC v8</condition>
+  <condition>Stage IB Ovarian Cancer AJCC v8</condition>
+  <condition>Stage IC Ovarian Cancer AJCC v8</condition>
+  <condition>Stage II Lung Cancer AJCC v8</condition>
+  <condition>Stage II Ovarian Cancer AJCC v8</condition>
+  <condition>Stage IIA Lung Cancer AJCC v8</condition>
+  <condition>Stage IIA Ovarian Cancer AJCC v8</condition>
+  <condition>Stage IIB Lung Cancer AJCC v8</condition>
+  <condition>Stage IIB Ovarian Cancer AJCC v8</condition>
+  <condition>Stage III Lung Cancer AJCC v8</condition>
+  <condition>Stage III Ovarian Cancer AJCC v8</condition>
+  <condition>Stage IIIA Lung Cancer AJCC v8</condition>
+  <condition>Stage IIIA Ovarian Cancer AJCC v8</condition>
+  <condition>Stage IIIA1 Ovarian Cancer AJCC v8</condition>
+  <condition>Stage IIIA2 Ovarian Cancer AJCC v8</condition>
+  <condition>Stage IIIB Lung Cancer AJCC v8</condition>
+  <condition>Stage IIIB Ovarian Cancer AJCC v8</condition>
+  <condition>Stage IIIC Lung Cancer AJCC v8</condition>
+  <condition>Stage IIIC Ovarian Cancer AJCC v8</condition>
+  <arm_group>
+    <arm_group_label>Observational (non-study chemo, questionnaire, assessments)</arm_group_label>
+    <description>Patients receive chemotherapy regimen per treating physician for 52 weeks in the absence of disease progression or unacceptable toxicity. Patients also complete questionnaires at weeks 4, 8, 12, 24 and 52.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Chemotherapy</intervention_name>
+    <description>Given chemotherapy regimen</description>
+    <arm_group_label>Observational (non-study chemo, questionnaire, assessments)</arm_group_label>
+    <other_name>Chemo</other_name>
+    <other_name>Chemotherapy (NOS)</other_name>
+    <other_name>Chemotherapy, Cancer, General</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Functional Assessment</intervention_name>
+    <description>Functional and sensory clinician assessments</description>
+    <arm_group_label>Observational (non-study chemo, questionnaire, assessments)</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Questionnaire Administration</intervention_name>
+    <description>Patient and physician reported responses</description>
+    <arm_group_label>Observational (non-study chemo, questionnaire, assessments)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Participants with stage I, II, or III primary non-small cell lung, primary breast, or&#xD;
+        primary ovarian cancer&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients must have stage I, II, or III primary non-small cell lung, primary breast, or&#xD;
+             primary ovarian cancer based on clinical or pathologic evaluation. Patients with Stage&#xD;
+             IV disease are not eligible.&#xD;
+&#xD;
+          -  Patients must be planning to start treatment with a taxane-based chemotherapy as part&#xD;
+             of one of the study-approved taxane regimens (docetaxel chemotherapy regimens for&#xD;
+             treatment of breast or ovarian cancer, or paclitaxel chemotherapy regimen for&#xD;
+             treatment of breast, non-small cell lung, or ovarian cancer) within 14 days after&#xD;
+             registration. (Note that docetaxel or paclitaxel may be administered with a&#xD;
+             non-neurotoxic chemotherapy, such as cyclophosphamide, and/or biologic agent, such as&#xD;
+             trastuzumab, and/or carboplatin. Additionally, nab-paclitaxel may not be substituted&#xD;
+             for paclitaxel for purposes of this study.)&#xD;
+&#xD;
+          -  Patients who will receive treatment in the setting of any other clinical trial are&#xD;
+             eligible as long as it is one of the study-approved regimens. Patients may receive&#xD;
+             additional treatments (i.e., experimental therapy, immunotherapy, biologics, etc.) as&#xD;
+             part of another clinical trial in addition to any regimen approved in this study.&#xD;
+&#xD;
+          -  Patients must not have received a taxane (paclitaxel, docetaxel, or protein-bound&#xD;
+             paclitaxel), platinum (cisplatin, carboplatin, or oxaliplatin), vinca alkaloid&#xD;
+             (vinblastine, vincristine, or vinorelbine), or bortezomib-based chemotherapy regimen&#xD;
+             prior to registration. (Note that while patients must not have received carboplatin in&#xD;
+             the past, patients may receive a carboplatin-containing regimen after registration as&#xD;
+             part of the docetaxel or paclitaxel regimen.)&#xD;
+&#xD;
+          -  Patients who can complete Patient-Reported Outcome (PRO) instruments in English or&#xD;
+             Spanish must:&#xD;
+&#xD;
+               -  Agree to complete PROs at all scheduled assessments&#xD;
+&#xD;
+               -  Complete the baseline PRO forms prior to registration&#xD;
+&#xD;
+          -  Patients with pre-existing neuropathy are eligible, including those with diabetes and&#xD;
+             neurological conditions such as multiple sclerosis or Parkinson?s disease.&#xD;
+&#xD;
+          -  Patients must agree to submit required specimens for defined translational medicine.&#xD;
+&#xD;
+          -  Patients must be offered the opportunity to submit additional optional specimens for&#xD;
+             future, unspecified translational medicine and banking. With patient?s consent,&#xD;
+             specimens must be submitted.&#xD;
+&#xD;
+          -  Patients must be informed of the investigational nature of this study and must sign&#xD;
+             and give written informed consent in accordance with institutional and federal&#xD;
+             guidelines.&#xD;
+&#xD;
+          -  As a part of the OPEN registration process the treating institution's identity is&#xD;
+             provided in order to ensure that the current (within 365 days) date of institutional&#xD;
+             review board approval for this study has been entered in the system.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Meghna S Trivedi</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Southwest Oncology Group</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Kaiser Permanente-Deer Valley Medical Center</name>
+      <address>
+        <city>Antioch</city>
+        <state>California</state>
+        <zip>94531</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>877-642-4691</phone>
+      <email>Kpoct@kp.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jennifer M. Suga</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kaiser Permanente Dublin</name>
+      <address>
+        <city>Dublin</city>
+        <state>California</state>
+        <zip>94568</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>877-642-4691</phone>
+    </contact>
+    <investigator>
+      <last_name>Jennifer M. Suga</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kaiser Permanente-Fremont</name>
+      <address>
+        <city>Fremont</city>
+        <state>California</state>
+        <zip>94538</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>877-642-4691</phone>
+      <email>Kpoct@kp.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jennifer M. Suga</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kaiser Permanente-Fresno</name>
+      <address>
+        <city>Fresno</city>
+        <state>California</state>
+        <zip>93720</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>877-642-4691</phone>
+      <email>Kpoct@kp.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jennifer M. Suga</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kaiser Permanente-Oakland</name>
+      <address>
+        <city>Oakland</city>
+        <state>California</state>
+        <zip>94611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>877-642-4691</phone>
+      <email>Kpoct@kp.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jennifer M. Suga</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kaiser Permanente-San Francisco</name>
+      <address>
+        <city>San Francisco</city>
+        <state>California</state>
+        <zip>94115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>877-642-4691</phone>
+      <email>Kpoct@kp.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jennifer M. Suga</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kaiser Permanente-Santa Teresa-San Jose</name>
+      <address>
+        <city>San Jose</city>
+        <state>California</state>
+        <zip>95119</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>877-642-4691</phone>
+      <email>Kpoct@kp.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jennifer M. Suga</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kaiser Permanente San Leandro</name>
+      <address>
+        <city>San Leandro</city>
+        <state>California</state>
+        <zip>94577</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>877-642-4691</phone>
+      <email>Kpoct@kp.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jennifer M. Suga</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kaiser San Rafael-Gallinas</name>
+      <address>
+        <city>San Rafael</city>
+        <state>California</state>
+        <zip>94903</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>877-642-4691</phone>
+      <email>Kpoct@kp.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jennifer M. Suga</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kaiser Permanente-Santa Rosa</name>
+      <address>
+        <city>Santa Rosa</city>
+        <state>California</state>
+        <zip>95403</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>877-642-4691</phone>
+      <email>Kpoct@kp.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jennifer M. Suga</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kaiser Permanente Medical Center-Vacaville</name>
+      <address>
+        <city>Vacaville</city>
+        <state>California</state>
+        <zip>95688</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>877-642-4691</phone>
+      <email>Kpoct@kp.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jennifer M. Suga</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kaiser Permanente-Vallejo</name>
+      <address>
+        <city>Vallejo</city>
+        <state>California</state>
+        <zip>94589</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>877-642-4691</phone>
+      <email>Kpoct@kp.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jennifer M. Suga</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kaiser Permanente-Walnut Creek</name>
+      <address>
+        <city>Walnut Creek</city>
+        <state>California</state>
+        <zip>94596</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>877-642-4691</phone>
+      <email>Kpoct@kp.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jennifer M. Suga</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Rocky Mountain Regional VA Medical Center</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>888-336-8262</phone>
+    </contact>
+    <investigator>
+      <last_name>Jessica D. McDermott</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Bayhealth Hospital Kent Campus</name>
+      <address>
+        <city>Dover</city>
+        <state>Delaware</state>
+        <zip>19901</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>302-744-6755</phone>
+      <email>mary_ella_quillen@bayhealth.org</email>
+    </contact>
+    <investigator>
+      <last_name>Iftekhar A. Khan</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Bayhealth Hospital Sussex Campus</name>
+      <address>
+        <city>Milford</city>
+        <state>Delaware</state>
+        <zip>19963</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>302-744-6755</phone>
+      <email>jenni_glick@bayhealth.org</email>
+    </contact>
+    <investigator>
+      <last_name>Iftekhar A. Khan</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Florida Gynecologic Oncology</name>
+      <address>
+        <city>Fort Myers</city>
+        <state>Florida</state>
+        <zip>33905</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>800-874-7502</phone>
+    </contact>
+    <investigator>
+      <last_name>Bianca B. Ferrari</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Regional Cancer Center-Lee Memorial Health System</name>
+      <address>
+        <city>Fort Myers</city>
+        <state>Florida</state>
+        <zip>33905</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <email>protocols@swog.org</email>
+    </contact>
+    <investigator>
+      <last_name>Bianca B. Ferrari</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Sacred Heart Hospital</name>
+      <address>
+        <city>Pensacola</city>
+        <state>Florida</state>
+        <zip>32504</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>850-416-4611</phone>
+      <email>eebrou@ascension.org</email>
+    </contact>
+    <investigator>
+      <last_name>Dany El-Sayah</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Lewis Cancer and Research Pavilion at Saint Joseph's/Candler</name>
+      <address>
+        <city>Savannah</city>
+        <state>Georgia</state>
+        <zip>31405</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>912-819-5704</phone>
+      <email>underberga@sjchs.org</email>
+    </contact>
+    <investigator>
+      <last_name>John A. Pablo</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hawaii Cancer Care - Savio</name>
+      <address>
+        <city>'Aiea</city>
+        <state>Hawaii</state>
+        <zip>96701</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>808-539-2273</phone>
+    </contact>
+    <investigator>
+      <last_name>Christa Braun-Inglis</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Pali Momi Medical Center</name>
+      <address>
+        <city>'Aiea</city>
+        <state>Hawaii</state>
+        <zip>96701</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>808-486-6000</phone>
+    </contact>
+    <investigator>
+      <last_name>Christa Braun-Inglis</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hawaii Cancer Care Inc - Waterfront Plaza</name>
+      <address>
+        <city>Honolulu</city>
+        <state>Hawaii</state>
+        <zip>96813</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>808-524-6115</phone>
+      <email>i.webster@hawaiicancercare.com</email>
+    </contact>
+    <investigator>
+      <last_name>Christa Braun-Inglis</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Straub Clinic and Hospital</name>
+      <address>
+        <city>Honolulu</city>
+        <state>Hawaii</state>
+        <zip>96813</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>808-522-4333</phone>
+    </contact>
+    <investigator>
+      <last_name>Christa Braun-Inglis</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University of Hawaii Cancer Center</name>
+      <address>
+        <city>Honolulu</city>
+        <state>Hawaii</state>
+        <zip>96813</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>808-586-2979</phone>
+    </contact>
+    <investigator>
+      <last_name>Christa Braun-Inglis</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kaiser Permanente Moanalua Medical Center</name>
+      <address>
+        <city>Honolulu</city>
+        <state>Hawaii</state>
+        <zip>96819</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>808-432-5195</phone>
+      <email>shelley.a.clark@kp.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jennifer M. Suga</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kapiolani Medical Center for Women and Children</name>
+      <address>
+        <city>Honolulu</city>
+        <state>Hawaii</state>
+        <zip>96826</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>808-983-6090</phone>
+    </contact>
+    <investigator>
+      <last_name>Christa Braun-Inglis</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Wilcox Memorial Hospital and Kauai Medical Clinic</name>
+      <address>
+        <city>Lihue</city>
+        <state>Hawaii</state>
+        <zip>96766</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>808-535-7960</phone>
+    </contact>
+    <investigator>
+      <last_name>Christa Braun-Inglis</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Centralia Oncology Clinic</name>
+      <address>
+        <city>Centralia</city>
+        <state>Illinois</state>
+        <zip>62801</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>217-876-4740</phone>
+      <email>rhamrick@dmhhs.org</email>
+    </contact>
+    <investigator>
+      <last_name>Bryan A. Faller</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Carle on Vermilion</name>
+      <address>
+        <city>Danville</city>
+        <state>Illinois</state>
+        <zip>61832</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>800-446-5532</phone>
+      <email>Research@carle.com</email>
+    </contact>
+    <investigator>
+      <last_name>Maria T. Grosse-Perdekamp</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Cancer Care Specialists of Illinois - Decatur</name>
+      <address>
+        <city>Decatur</city>
+        <state>Illinois</state>
+        <zip>62526</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>217-876-4740</phone>
+      <email>rhamrick@dmhhs.org</email>
+    </contact>
+    <investigator>
+      <last_name>Bryan A. Faller</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Decatur Memorial Hospital</name>
+      <address>
+        <city>Decatur</city>
+        <state>Illinois</state>
+        <zip>62526</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>217-876-4740</phone>
+      <email>rhamrick@dmhhs.org</email>
+    </contact>
+    <investigator>
+      <last_name>Bryan A. Faller</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Carle Physician Group-Effingham</name>
+      <address>
+        <city>Effingham</city>
+        <state>Illinois</state>
+        <zip>62401</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>800-446-5532</phone>
+      <email>Research@carle.com</email>
+    </contact>
+    <investigator>
+      <last_name>Maria T. Grosse-Perdekamp</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Crossroads Cancer Center</name>
+      <address>
+        <city>Effingham</city>
+        <state>Illinois</state>
+        <zip>62401</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>217-876-4740</phone>
+      <email>rhamrick@dmhhs.org</email>
+    </contact>
+    <investigator>
+      <last_name>Bryan A. Faller</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Little Company of Mary Hospital</name>
+      <address>
+        <city>Evergreen Park</city>
+        <state>Illinois</state>
+        <zip>60805</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>708-229-5547</phone>
+    </contact>
+    <investigator>
+      <last_name>M. Bassel Atassi</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Edward Hines Jr VA Hospital</name>
+      <address>
+        <city>Hines</city>
+        <state>Illinois</state>
+        <zip>60141</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>708-202-8387</phone>
+    </contact>
+    <investigator>
+      <last_name>Cheryl M. Czerlanis</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Carle Physician Group-Mattoon/Charleston</name>
+      <address>
+        <city>Mattoon</city>
+        <state>Illinois</state>
+        <zip>61938</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>800-446-5532</phone>
+      <email>Research@carle.com</email>
+    </contact>
+    <investigator>
+      <last_name>Maria T. Grosse-Perdekamp</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Cancer Care Center of O'Fallon</name>
+      <address>
+        <city>O'Fallon</city>
+        <state>Illinois</state>
+        <zip>62269</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>217-876-4762</phone>
+      <email>morganthaler.jodi@mhsil.com</email>
+    </contact>
+    <investigator>
+      <last_name>Bryan A. Faller</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Carle Cancer Center</name>
+      <address>
+        <city>Urbana</city>
+        <state>Illinois</state>
+        <zip>61801</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>800-446-5532</phone>
+      <email>Research@carle.com</email>
+    </contact>
+    <investigator>
+      <last_name>Maria T. Grosse-Perdekamp</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>The Carle Foundation Hospital</name>
+      <address>
+        <city>Urbana</city>
+        <state>Illinois</state>
+        <zip>61801</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>800-446-5532</phone>
+      <email>Research@carle.com</email>
+    </contact>
+    <investigator>
+      <last_name>Maria T. Grosse-Perdekamp</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Mercy Hospital</name>
+      <address>
+        <city>Cedar Rapids</city>
+        <state>Iowa</state>
+        <zip>52403</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>319-365-4673</phone>
+    </contact>
+    <investigator>
+      <last_name>Deborah W. Wilbur</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Oncology Associates at Mercy Medical Center</name>
+      <address>
+        <city>Cedar Rapids</city>
+        <state>Iowa</state>
+        <zip>52403</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>319-363-2690</phone>
+    </contact>
+    <investigator>
+      <last_name>Deborah W. Wilbur</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Medical Oncology and Hematology Associates-West Des Moines</name>
+      <address>
+        <city>Clive</city>
+        <state>Iowa</state>
+        <zip>50325</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>308-398-6518</phone>
+      <email>clinicaltrials@sfmc-gi.org</email>
+    </contact>
+    <investigator>
+      <last_name>Richard L. Deming</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Mercy Cancer Center-West Lakes</name>
+      <address>
+        <city>Clive</city>
+        <state>Iowa</state>
+        <zip>50325</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>308-398-6518</phone>
+      <email>clinicaltrials@sfmc-gi.org</email>
+    </contact>
+    <investigator>
+      <last_name>Richard L. Deming</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Greater Regional Medical Center</name>
+      <address>
+        <city>Creston</city>
+        <state>Iowa</state>
+        <zip>50801</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>308-398-6518</phone>
+      <email>clinicaltrials@sfmc-gi.org</email>
+    </contact>
+    <investigator>
+      <last_name>Richard L. Deming</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Iowa Methodist Medical Center</name>
+      <address>
+        <city>Des Moines</city>
+        <state>Iowa</state>
+        <zip>50309</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>515-241-6727</phone>
+    </contact>
+    <investigator>
+      <last_name>Robert J. Behrens</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Medical Oncology and Hematology Associates-Des Moines</name>
+      <address>
+        <city>Des Moines</city>
+        <state>Iowa</state>
+        <zip>50309</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>515-282-2921</phone>
+    </contact>
+    <investigator>
+      <last_name>Robert J. Behrens</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Broadlawns Medical Center</name>
+      <address>
+        <city>Des Moines</city>
+        <state>Iowa</state>
+        <zip>50314</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>515-282-2200</phone>
+    </contact>
+    <investigator>
+      <last_name>Robert J. Behrens</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Medical Oncology and Hematology Associates-Laurel</name>
+      <address>
+        <city>Des Moines</city>
+        <state>Iowa</state>
+        <zip>50314</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>308-398-6518</phone>
+      <email>clinicaltrials@sfmc-gi.org</email>
+    </contact>
+    <investigator>
+      <last_name>Richard L. Deming</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Mercy Medical Center - Des Moines</name>
+      <address>
+        <city>Des Moines</city>
+        <state>Iowa</state>
+        <zip>50314</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>308-398-6518</phone>
+      <email>clinicaltrials@sfmc-gi.org</email>
+    </contact>
+    <investigator>
+      <last_name>Richard L. Deming</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Mercy Medical Center-West Lakes</name>
+      <address>
+        <city>West Des Moines</city>
+        <state>Iowa</state>
+        <zip>50266</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>308-398-6518</phone>
+      <email>clinicaltrials@sfmc-gi.org</email>
+    </contact>
+    <investigator>
+      <last_name>Richard L. Deming</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>HaysMed University of Kansas Health System</name>
+      <address>
+        <city>Hays</city>
+        <state>Kansas</state>
+        <zip>67601</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>785-623-5774</phone>
+    </contact>
+    <investigator>
+      <last_name>Gary C. Doolittle</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Lawrence Memorial Hospital</name>
+      <address>
+        <city>Lawrence</city>
+        <state>Kansas</state>
+        <zip>66044</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>785-505-2800</phone>
+      <email>Stephanie.Norris@LMH.ORG</email>
+    </contact>
+    <investigator>
+      <last_name>Gary C. Doolittle</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Olathe Health Cancer Center</name>
+      <address>
+        <city>Olathe</city>
+        <state>Kansas</state>
+        <zip>66061</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>913-355-8000</phone>
+      <email>Jeni.wakefield@olathehealth.org</email>
+    </contact>
+    <investigator>
+      <last_name>Gary C. Doolittle</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Salina Regional Health Center</name>
+      <address>
+        <city>Salina</city>
+        <state>Kansas</state>
+        <zip>67401</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>785-452-7038</phone>
+      <email>mleepers@srhc.com</email>
+    </contact>
+    <investigator>
+      <last_name>Gary C. Doolittle</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University of Kansas Health System Saint Francis Campus</name>
+      <address>
+        <city>Topeka</city>
+        <state>Kansas</state>
+        <zip>66606</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>785-295-8000</phone>
+    </contact>
+    <investigator>
+      <last_name>Gary C. Doolittle</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Associates In Womens Health</name>
+      <address>
+        <city>Wichita</city>
+        <state>Kansas</state>
+        <zip>67208</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Cancer Center of Kansas-Wichita Medical Arts Tower</name>
+      <address>
+        <city>Wichita</city>
+        <state>Kansas</state>
+        <zip>67208</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Cancer Center of Kansas - Wichita</name>
+      <address>
+        <city>Wichita</city>
+        <state>Kansas</state>
+        <zip>67214</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Active, not recruiting</status>
+  </location>
+  <location>
+    <facility>
+      <name>Flaget Memorial Hospital</name>
+      <address>
+        <city>Bardstown</city>
+        <state>Kentucky</state>
+        <zip>40004</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>308-398-6518</phone>
+      <email>clinicaltrials@sfmc-gi.org</email>
+    </contact>
+    <investigator>
+      <last_name>Richard L. Deming</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Saint Joseph Hospital East</name>
+      <address>
+        <city>Lexington</city>
+        <state>Kentucky</state>
+        <zip>40509</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>308-398-6518</phone>
+      <email>clinicaltrials@sfmc-gi.org</email>
+    </contact>
+    <investigator>
+      <last_name>Richard L. Deming</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Saint Joseph London</name>
+      <address>
+        <city>London</city>
+        <state>Kentucky</state>
+        <zip>40741</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>308-398-6518</phone>
+      <email>clinicaltrials@sfmc-gi.org</email>
+    </contact>
+    <investigator>
+      <last_name>Richard L. Deming</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Louisiana State University Health Science Center</name>
+      <address>
+        <city>New Orleans</city>
+        <state>Louisiana</state>
+        <zip>70112</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>504-210-3539</phone>
+      <email>emede1@lsuhsc.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Agustin A. Garcia</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Tulane University Health Sciences Center</name>
+      <address>
+        <city>New Orleans</city>
+        <state>Louisiana</state>
+        <zip>70112</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>504-988-6121</phone>
+    </contact>
+    <investigator>
+      <last_name>Pedro M. Barata</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University Medical Center New Orleans</name>
+      <address>
+        <city>New Orleans</city>
+        <state>Louisiana</state>
+        <zip>70112</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>504-210-3539</phone>
+      <email>emede1@lsuhsc.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Agustin A. Garcia</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>LSU Health Sciences Center at Shreveport</name>
+      <address>
+        <city>Shreveport</city>
+        <state>Louisiana</state>
+        <zip>71103</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>318-813-1404</phone>
+      <email>LPost@lsuhsc.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Gary V. Burton</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Harold Alfond Center for Cancer Care</name>
+      <address>
+        <city>Augusta</city>
+        <state>Maine</state>
+        <zip>04330</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>207-626-4855</phone>
+    </contact>
+    <investigator>
+      <last_name>Rachit Kumar</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Waldo County General Hospital</name>
+      <address>
+        <city>Belfast</city>
+        <state>Maine</state>
+        <zip>04915</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>207-338-2500</phone>
+    </contact>
+    <investigator>
+      <last_name>Rachit Kumar</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>MaineHealth/SMHC Cancer Care and Blood Disorders-Biddeford</name>
+      <address>
+        <city>Biddeford</city>
+        <state>Maine</state>
+        <zip>04005</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <email>LLemire@mmc.org</email>
+    </contact>
+    <investigator>
+      <last_name>Rachit Kumar</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Penobscot Bay Medical Center</name>
+      <address>
+        <city>Rockport</city>
+        <state>Maine</state>
+        <zip>04856</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>207-396-8670</phone>
+      <email>ClinicalResearch@mmc.org</email>
+    </contact>
+    <investigator>
+      <last_name>Rachit Kumar</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>MaineHealth/SMHC Cancer Care and Blood Disorders-Sanford</name>
+      <address>
+        <city>Sanford</city>
+        <state>Maine</state>
+        <zip>04073</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <email>LLemire@mmc.org</email>
+    </contact>
+    <investigator>
+      <last_name>Rachit Kumar</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Maine Medical Center- Scarborough Campus</name>
+      <address>
+        <city>Scarborough</city>
+        <state>Maine</state>
+        <zip>04074</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>207-396-8090</phone>
+      <email>wrighd@mmc.org</email>
+    </contact>
+    <investigator>
+      <last_name>Rachit Kumar</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Greater Baltimore Medical Center</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21204</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>443-849-3706</phone>
+    </contact>
+    <investigator>
+      <last_name>Robert B. Donegan</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University of Maryland Shore Medical Center at Easton</name>
+      <address>
+        <city>Easton</city>
+        <state>Maryland</state>
+        <zip>21601</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>410-822-1000</phone>
+      <email>Christina.weisenborn@umm.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Mary S. De Shields</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Lahey Hospital and Medical Center</name>
+      <address>
+        <city>Burlington</city>
+        <state>Massachusetts</state>
+        <zip>01805</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>781-744-3421</phone>
+      <email>cancerclinicaltrials@lahey.org</email>
+    </contact>
+    <investigator>
+      <last_name>Corrine L. Zarwan</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Winchester Hospital</name>
+      <address>
+        <city>Winchester</city>
+        <state>Massachusetts</state>
+        <zip>01890</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <email>protocols@swog.org</email>
+    </contact>
+    <investigator>
+      <last_name>Corrine L. Zarwan</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Mercy Health Saint Mary's</name>
+      <address>
+        <city>Grand Rapids</city>
+        <state>Michigan</state>
+        <zip>49503</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>616-391-1230</phone>
+      <email>crcwm-regulatory@crcwm.org</email>
+    </contact>
+    <investigator>
+      <last_name>Kathleen J. Yost</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Spectrum Health at Butterworth Campus</name>
+      <address>
+        <city>Grand Rapids</city>
+        <state>Michigan</state>
+        <zip>49503</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>616-391-1230</phone>
+      <email>crcwm-regulatory@crcwm.org</email>
+    </contact>
+    <investigator>
+      <last_name>Kathleen J. Yost</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Spectrum Health Reed City Hospital</name>
+      <address>
+        <city>Reed City</city>
+        <state>Michigan</state>
+        <zip>49677</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>616-391-1230</phone>
+      <email>crcwm-regulatory@crcwm.org</email>
+    </contact>
+    <investigator>
+      <last_name>Kathleen J. Yost</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Munson Medical Center</name>
+      <address>
+        <city>Traverse City</city>
+        <state>Michigan</state>
+        <zip>49684</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>616-391-1230</phone>
+      <email>crcwm-regulatory@crcwm.org</email>
+    </contact>
+    <investigator>
+      <last_name>Kathleen J. Yost</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Metro Health Hospital</name>
+      <address>
+        <city>Wyoming</city>
+        <state>Michigan</state>
+        <zip>49519</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>616-391-1230</phone>
+      <email>crcwm-regulatory@crcwm.org</email>
+    </contact>
+    <investigator>
+      <last_name>Kathleen J. Yost</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Fairview Ridges Hospital</name>
+      <address>
+        <city>Burnsville</city>
+        <state>Minnesota</state>
+        <zip>55337</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Minnesota Oncology - Burnsville</name>
+      <address>
+        <city>Burnsville</city>
+        <state>Minnesota</state>
+        <zip>55337</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Mercy Hospital</name>
+      <address>
+        <city>Coon Rapids</city>
+        <state>Minnesota</state>
+        <zip>55433</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Fairview Southdale Hospital</name>
+      <address>
+        <city>Edina</city>
+        <state>Minnesota</state>
+        <zip>55435</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Unity Hospital</name>
+      <address>
+        <city>Fridley</city>
+        <state>Minnesota</state>
+        <zip>55432</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Fairview Clinics and Surgery Center Maple Grove</name>
+      <address>
+        <city>Maple Grove</city>
+        <state>Minnesota</state>
+        <zip>55369</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Minnesota Oncology Hematology PA-Maplewood</name>
+      <address>
+        <city>Maplewood</city>
+        <state>Minnesota</state>
+        <zip>55109</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Saint John's Hospital - Healtheast</name>
+      <address>
+        <city>Maplewood</city>
+        <state>Minnesota</state>
+        <zip>55109</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Abbott-Northwestern Hospital</name>
+      <address>
+        <city>Minneapolis</city>
+        <state>Minnesota</state>
+        <zip>55407</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hennepin County Medical Center</name>
+      <address>
+        <city>Minneapolis</city>
+        <state>Minnesota</state>
+        <zip>55415</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Monticello Cancer Center</name>
+      <address>
+        <city>Monticello</city>
+        <state>Minnesota</state>
+        <zip>55362</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>North Memorial Medical Health Center</name>
+      <address>
+        <city>Robbinsdale</city>
+        <state>Minnesota</state>
+        <zip>55422</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Park Nicollet Clinic - Saint Louis Park</name>
+      <address>
+        <city>Saint Louis Park</city>
+        <state>Minnesota</state>
+        <zip>55416</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Regions Hospital</name>
+      <address>
+        <city>Saint Paul</city>
+        <state>Minnesota</state>
+        <zip>55101</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>United Hospital</name>
+      <address>
+        <city>Saint Paul</city>
+        <state>Minnesota</state>
+        <zip>55102</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Lakeview Hospital</name>
+      <address>
+        <city>Stillwater</city>
+        <state>Minnesota</state>
+        <zip>55082</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Rice Memorial Hospital</name>
+      <address>
+        <city>Willmar</city>
+        <state>Minnesota</state>
+        <zip>56201</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Minnesota Oncology Hematology PA-Woodbury</name>
+      <address>
+        <city>Woodbury</city>
+        <state>Minnesota</state>
+        <zip>55125</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Fairview Lakes Medical Center</name>
+      <address>
+        <city>Wyoming</city>
+        <state>Minnesota</state>
+        <zip>55092</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>952-993-1517</phone>
+      <email>mmcorc@healthpartners.com</email>
+    </contact>
+    <investigator>
+      <last_name>David M. King</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Mercy Clinic-Rolla-Cancer and Hematology</name>
+      <address>
+        <city>Rolla</city>
+        <state>Missouri</state>
+        <zip>65401</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>573-458-6379</phone>
+    </contact>
+    <investigator>
+      <last_name>Jay W. Carlson</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Missouri Baptist Medical Center</name>
+      <address>
+        <city>Saint Louis</city>
+        <state>Missouri</state>
+        <zip>63131</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>314-996-5569</phone>
+    </contact>
+    <investigator>
+      <last_name>Bryan A. Faller</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Mercy Hospital Springfield</name>
+      <address>
+        <city>Springfield</city>
+        <state>Missouri</state>
+        <zip>65804</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>417-269-4520</phone>
+    </contact>
+    <investigator>
+      <last_name>Jay W. Carlson</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>CHI Health Saint Francis</name>
+      <address>
+        <city>Grand Island</city>
+        <state>Nebraska</state>
+        <zip>68803</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>308-398-6518</phone>
+      <email>clinicaltrials@sfmc-gi.org</email>
+    </contact>
+    <investigator>
+      <last_name>Richard L. Deming</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Saint Joseph Hospital</name>
+      <address>
+        <city>Nashua</city>
+        <state>New Hampshire</state>
+        <zip>03060</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>603-880-3408</phone>
+      <email>carcieri@sjh-nh.org</email>
+    </contact>
+    <investigator>
+      <last_name>Mary A. Voltz</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>NYP/Columbia University Medical Center/Herbert Irving Comprehensive Cancer Center</name>
+      <address>
+        <city>New York</city>
+        <state>New York</state>
+        <zip>10032</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>212-305-6361</phone>
+      <email>nr2616@cumc.columbia.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Meghna S. Trivedi</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Randolph Hospital</name>
+      <address>
+        <city>Asheboro</city>
+        <state>North Carolina</state>
+        <zip>27203</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>336-832-0836</phone>
+      <email>vivian.sheidler@conehealth.com</email>
+    </contact>
+    <investigator>
+      <last_name>Vinay K. Gudena</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>AdventHealth Infusion Center Asheville</name>
+      <address>
+        <city>Asheville</city>
+        <state>North Carolina</state>
+        <zip>28803</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>828-650-8037</phone>
+      <email>AMBER.WHEELER@AdventHealth.com</email>
+    </contact>
+    <investigator>
+      <last_name>Raymond Thertulien</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Cone Health Cancer Center at Alamance Regional</name>
+      <address>
+        <city>Burlington</city>
+        <state>North Carolina</state>
+        <zip>27215</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>336-538-7725</phone>
+      <email>kaye.shoffner@conehealth.com</email>
+    </contact>
+    <investigator>
+      <last_name>Vinay K. Gudena</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Southeastern Medical Oncology Center-Clinton</name>
+      <address>
+        <city>Clinton</city>
+        <state>North Carolina</state>
+        <zip>28328</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>919-587-9084</phone>
+      <email>jfields@cancersmoc.com</email>
+    </contact>
+    <investigator>
+      <last_name>Samer S. Kasbari</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>AdventHealth Infusion Center Haywood</name>
+      <address>
+        <city>Clyde</city>
+        <state>North Carolina</state>
+        <zip>28721</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>828-650-8037</phone>
+      <email>AMBER.WHEELER@AdventHealth.com</email>
+    </contact>
+    <investigator>
+      <last_name>Raymond Thertulien</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>CaroMont Regional Medical Center</name>
+      <address>
+        <city>Gastonia</city>
+        <state>North Carolina</state>
+        <zip>28054</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>704-834-2810</phone>
+      <email>tammy.cozad@caromonthealth.org</email>
+    </contact>
+    <investigator>
+      <last_name>Bolanle Gbadamosi</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Southeastern Medical Oncology Center-Goldsboro</name>
+      <address>
+        <city>Goldsboro</city>
+        <state>North Carolina</state>
+        <zip>27534</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>919-587-9084</phone>
+      <email>jfields@cancersmoc.com</email>
+    </contact>
+    <investigator>
+      <last_name>Samer S. Kasbari</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Cone Health Cancer Center</name>
+      <address>
+        <city>Greensboro</city>
+        <state>North Carolina</state>
+        <zip>27403</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>336-832-0821</phone>
+      <email>vivian.sheidler@conehealth.com</email>
+    </contact>
+    <investigator>
+      <last_name>Vinay K. Gudena</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>AdventHealth Hendersonville</name>
+      <address>
+        <city>Hendersonville</city>
+        <state>North Carolina</state>
+        <zip>28792</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>828-650-8037</phone>
+      <email>AMBER.WHEELER@AdventHealth.com</email>
+    </contact>
+    <investigator>
+      <last_name>Raymond Thertulien</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Southeastern Medical Oncology Center-Jacksonville</name>
+      <address>
+        <city>Jacksonville</city>
+        <state>North Carolina</state>
+        <zip>28546</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>910-587-9084</phone>
+      <email>jfields@cancersmoc.com</email>
+    </contact>
+    <investigator>
+      <last_name>Samer S. Kasbari</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>CarolinaEast Medical Center</name>
+      <address>
+        <city>New Bern</city>
+        <state>North Carolina</state>
+        <zip>28561</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>252-634-6589</phone>
+      <email>lharrison@carolinaeasthealth.com</email>
+    </contact>
+    <investigator>
+      <last_name>John M. Cho</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>FirstHealth of the Carolinas-Moore Regional Hospital</name>
+      <address>
+        <city>Pinehurst</city>
+        <state>North Carolina</state>
+        <zip>28374</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>910-715-3500</phone>
+      <email>jcwilliams@firsthealth.org</email>
+    </contact>
+    <investigator>
+      <last_name>Charles S. Kuzma</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Nash General Hospital</name>
+      <address>
+        <city>Rocky Mount</city>
+        <state>North Carolina</state>
+        <zip>27804</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>252-962-8947</phone>
+    </contact>
+    <investigator>
+      <last_name>Jayadev Manikkam Umakanthan</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>New Hanover Regional Medical Center/Zimmer Cancer Center</name>
+      <address>
+        <city>Wilmington</city>
+        <state>North Carolina</state>
+        <zip>28401</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>910-342-3000</phone>
+    </contact>
+    <investigator>
+      <last_name>Lucybeth Nieves-Arriba</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Trinity Cancer Care Center</name>
+      <address>
+        <city>Minot</city>
+        <state>North Dakota</state>
+        <zip>58701</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>800-862-0005</phone>
+    </contact>
+    <investigator>
+      <last_name>Madhu Unnikrishnan</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Cleveland Clinic Akron General</name>
+      <address>
+        <city>Akron</city>
+        <state>Ohio</state>
+        <zip>44307</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>866-223-8100</phone>
+      <email>CancerAnswer@ccf.org</email>
+    </contact>
+    <investigator>
+      <last_name>Sonia Sandhu</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Good Samaritan Hospital - Cincinnati</name>
+      <address>
+        <city>Cincinnati</city>
+        <state>Ohio</state>
+        <zip>45220</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>308-398-6518</phone>
+      <email>clinicaltrials@sfmc-gi.org</email>
+    </contact>
+    <investigator>
+      <last_name>Richard L. Deming</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Kaiser Permanente Northwest</name>
+      <address>
+        <city>Portland</city>
+        <state>Oregon</state>
+        <zip>97227</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>503-335-2400</phone>
+      <email>information@kpchr.org</email>
+    </contact>
+    <investigator>
+      <last_name>Abdul Hai Mansoor</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Phoenixville Hospital</name>
+      <address>
+        <city>Phoenixville</city>
+        <state>Pennsylvania</state>
+        <zip>19460</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Suspended</status>
+  </location>
+  <location>
+    <facility>
+      <name>AnMed Health Cancer Center</name>
+      <address>
+        <city>Anderson</city>
+        <state>South Carolina</state>
+        <zip>29621</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>864-512-4651</phone>
+      <email>rhonda.ballew@anmedhealth.org</email>
+    </contact>
+    <investigator>
+      <last_name>John E. Doster</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Saint Joseph's/Candler - Bluffton Campus</name>
+      <address>
+        <city>Bluffton</city>
+        <state>South Carolina</state>
+        <zip>29910</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>912-819-5704</phone>
+      <email>underberga@sjchs.org</email>
+    </contact>
+    <investigator>
+      <last_name>John A. Pablo</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Prisma Health Cancer Institute - Spartanburg</name>
+      <address>
+        <city>Boiling Springs</city>
+        <state>South Carolina</state>
+        <zip>29316</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>864-522-2066</phone>
+      <email>kim.williams3@prismahealth.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jeffrey K. Giguere</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>McLeod Regional Medical Center</name>
+      <address>
+        <city>Florence</city>
+        <state>South Carolina</state>
+        <zip>29506</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>843-777-0770</phone>
+      <email>dorie.sturgill@mcleodhealth.org</email>
+    </contact>
+    <investigator>
+      <last_name>Rajesh Bajaj</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Gibbs Cancer Center-Gaffney</name>
+      <address>
+        <city>Gaffney</city>
+        <state>South Carolina</state>
+        <zip>29341</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>864-560-6104</phone>
+      <email>kmertz-rivera@gibbscc.org</email>
+    </contact>
+    <investigator>
+      <last_name>Amarinthia (Amy) Curtis</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Saint Francis Hospital</name>
+      <address>
+        <city>Greenville</city>
+        <state>South Carolina</state>
+        <zip>29601</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>864-603-6213</phone>
+      <email>melissa_beckman@bshsi.org</email>
+    </contact>
+    <investigator>
+      <last_name>Robert D. Siegel</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Prisma Health Cancer Institute - Butternut</name>
+      <address>
+        <city>Greenville</city>
+        <state>South Carolina</state>
+        <zip>29605</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>864-522-2066</phone>
+      <email>kim.williams3@prismahealth.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jeffrey K. Giguere</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Prisma Health Cancer Institute - Faris</name>
+      <address>
+        <city>Greenville</city>
+        <state>South Carolina</state>
+        <zip>29605</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>864-522-2066</phone>
+      <email>kim.williams3@prismahealth.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jeffrey K. Giguere</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Saint Francis Cancer Center</name>
+      <address>
+        <city>Greenville</city>
+        <state>South Carolina</state>
+        <zip>29607</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>864-603-6213</phone>
+      <email>melissa_beckman@bshsi.org</email>
+    </contact>
+    <investigator>
+      <last_name>Robert D. Siegel</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Prisma Health Cancer Institute - Eastside</name>
+      <address>
+        <city>Greenville</city>
+        <state>South Carolina</state>
+        <zip>29615</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>864-522-2066</phone>
+      <email>kim.williams3@prismahealth.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jeffrey K. Giguere</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Prisma Health Cancer Institute - Greer</name>
+      <address>
+        <city>Greer</city>
+        <state>South Carolina</state>
+        <zip>29650</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>864-522-2066</phone>
+      <email>kim.williams3@prismahealth.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jeffrey K. Giguere</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Gibbs Cancer Center-Pelham</name>
+      <address>
+        <city>Greer</city>
+        <state>South Carolina</state>
+        <zip>29651</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>864-560-6104</phone>
+      <email>kmertz-rivera@gibbscc.org</email>
+    </contact>
+    <investigator>
+      <last_name>Amarinthia (Amy) Curtis</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Prisma Health Cancer Institute - Seneca</name>
+      <address>
+        <city>Seneca</city>
+        <state>South Carolina</state>
+        <zip>29672</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>864-522-2066</phone>
+      <email>kim.williams3@prismahealth.org</email>
+    </contact>
+    <investigator>
+      <last_name>Jeffrey K. Giguere</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Spartanburg Medical Center</name>
+      <address>
+        <city>Spartanburg</city>
+        <state>South Carolina</state>
+        <zip>29303</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>864-560-6104</phone>
+      <email>kmertz-rivera@gibbscc.org</email>
+    </contact>
+    <investigator>
+      <last_name>Amarinthia (Amy) Curtis</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>MGC Hematology Oncology-Union</name>
+      <address>
+        <city>Union</city>
+        <state>South Carolina</state>
+        <zip>29379</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>864-560-6104</phone>
+      <email>kmertz-rivera@gibbscc.org</email>
+    </contact>
+    <investigator>
+      <last_name>Amarinthia (Amy) Curtis</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Cookeville Regional Medical Center</name>
+      <address>
+        <city>Cookeville</city>
+        <state>Tennessee</state>
+        <zip>38501</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>931-783-2714</phone>
+    </contact>
+    <investigator>
+      <last_name>Thomas J. Summers</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Regional Cancer Center at Indian Path Community Hospital</name>
+      <address>
+        <city>Kingsport</city>
+        <state>Tennessee</state>
+        <zip>37660</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>423-578-8538</phone>
+      <email>Justin.reynolds@balladhealth.org</email>
+    </contact>
+    <investigator>
+      <last_name>Asheesh Shipstone</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>UMC Cancer Center / UMC Health System</name>
+      <address>
+        <city>Lubbock</city>
+        <state>Texas</state>
+        <zip>79415</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>806-775-8590</phone>
+    </contact>
+    <investigator>
+      <last_name>Shabnam Rehman</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Texas Tech University Health Sciences Center-Lubbock</name>
+      <address>
+        <city>Lubbock</city>
+        <state>Texas</state>
+        <zip>79430</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>806-775-8590</phone>
+    </contact>
+    <investigator>
+      <last_name>Shabnam Rehman</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Wellmont Medical Associates-Bristol</name>
+      <address>
+        <city>Bristol</city>
+        <state>Virginia</state>
+        <zip>24201</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>423-578-8538</phone>
+      <email>justin.reynolds@wellmont.org</email>
+    </contact>
+    <investigator>
+      <last_name>Asheesh Shipstone</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University of Virginia Cancer Center</name>
+      <address>
+        <city>Charlottesville</city>
+        <state>Virginia</state>
+        <zip>22908</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>434-243-6303</phone>
+      <email>PAS9E@virginia.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Linda R. Duska</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Bon Secours Memorial Regional Medical Center</name>
+      <address>
+        <city>Mechanicsville</city>
+        <state>Virginia</state>
+        <zip>23116</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>804-893-8663</phone>
+      <email>Jaime_scott@bshsi.org</email>
+    </contact>
+    <investigator>
+      <last_name>William J. Irvin</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Bon Secours Saint Francis Medical Center</name>
+      <address>
+        <city>Midlothian</city>
+        <state>Virginia</state>
+        <zip>23114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>804-893-8663</phone>
+      <email>Jaime_scott@bshsi.org</email>
+    </contact>
+    <investigator>
+      <last_name>William J. Irvin</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Bon Secours Saint Mary's Hospital</name>
+      <address>
+        <city>Richmond</city>
+        <state>Virginia</state>
+        <zip>23226</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>804-893-8663</phone>
+      <email>Jaime_scott@bshsi.org</email>
+    </contact>
+    <investigator>
+      <last_name>William J. Irvin</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Swedish Cancer Institute-Issaquah</name>
+      <address>
+        <city>Issaquah</city>
+        <state>Washington</state>
+        <zip>98029</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>206-215-3086</phone>
+      <email>PCRC-NCORP@Swedish.org</email>
+    </contact>
+    <investigator>
+      <last_name>Gary E. Goodman</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Jefferson Healthcare</name>
+      <address>
+        <city>Port Townsend</city>
+        <state>Washington</state>
+        <zip>98368</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Site Public Contact</last_name>
+      <phone>360-344-3091</phone>
+    </contact>
+    <investigator>
+      <last_name>Nicholas DiBella</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Instituto Nacional De Cancerologia</name>
+      <address>
+        <city>Bogota</city>
+        <zip>99999</zip>
+        <country>Colombia</country>
+      </address>
+    </facility>
+    <status>Suspended</status>
+  </location>
+  <location>
+    <facility>
+      <name>Instituto Nacional De Cancerologia de Mexico</name>
+      <address>
+        <city>Mexico City</city>
+        <state>Tlalpan</state>
+        <zip>14080</zip>
+        <country>Mexico</country>
+      </address>
+    </facility>
+    <status>Suspended</status>
+  </location>
+  <location_countries>
+    <country>Colombia</country>
+    <country>Mexico</country>
+    <country>United States</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>May 1, 2019</study_first_submitted>
+  <study_first_submitted_qc>May 3, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 6, 2019</study_first_posted>
+  <last_update_submitted>April 29, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 29, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 30, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Breast Neoplasms</mesh_term>
+    <mesh_term>Lung Neoplasms</mesh_term>
+    <mesh_term>Ovarian Neoplasms</mesh_term>
+    <mesh_term>Carcinoma, Ovarian Epithelial</mesh_term>
+    <mesh_term>Carcinoma, Non-Small-Cell Lung</mesh_term>
+    <mesh_term>Peripheral Nervous System Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

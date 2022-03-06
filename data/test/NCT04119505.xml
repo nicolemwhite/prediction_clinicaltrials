@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="138">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04119505</url>
+  </required_header>
+  <id_info>
+    <org_study_id>RECHMPL19_0141</org_study_id>
+    <nct_id>NCT04119505</nct_id>
+  </id_info>
+  <brief_title>Value of Diaphragmatic Motion Measurement at Ultrasonography to Predict Poor Prognosis in Emergency Department Patients With Acute Respiratory Failure</brief_title>
+  <acronym>PREDIRE</acronym>
+  <official_title>Pronostic Value of Diaphragmatic Excursion Measurement in Patients With Acute Respiratory Failure in the ED.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Montpellier</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Poitiers University Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Hospital, Brest</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Nord-Vienne Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital, Montpellier</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Acute respiratory failure is one of the most common diagnosis in patients admitted in the&#xD;
+      Emergency Department. Acute respiratory failure is associated with morbidity and mortality.&#xD;
+      Fifteen percent of patient will require ventilatory support and among them 40% will die.&#xD;
+&#xD;
+      Measurement of diaphragmatic motion (excursion) at ultrasonography is a noninvasive measure,&#xD;
+      allowing to assess diaphragm dysfunction. It could be useful in predicting poor prognosis in&#xD;
+      ED patients with respiratory failure .&#xD;
+&#xD;
+      In this study the investigators will compare the prognostic value of diaphragmatic excursion&#xD;
+      measurement at ultrasonography to that of the National Early Warning Score (NEWS) 2 in&#xD;
+      patients presenting with acute respiratory failure in the ED&#xD;
+&#xD;
+      The Investigators made the hypothesis that measurement of diaphragmatic excursion in ED&#xD;
+      patients with acute respiratory failure could be of value in predicting the need for&#xD;
+      ventilatory support or mortality within 28 days from ED admission&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Diaphragmatic dysfunction can be explored by measuring diaphragmatic excursion using&#xD;
+      ultrasonography in spontaneous ventilation patients.&#xD;
+&#xD;
+      Patients in spontaneous ventilation will undergo both diaphragmatic excursion measurement at&#xD;
+      ultrasonography and assessment of the News2 score as part of standard care.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">November 1, 2019</start_date>
+  <completion_date type="Actual">December 28, 2020</completion_date>
+  <primary_completion_date type="Actual">November 1, 2020</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Number of patients with adverse events</measure>
+    <time_frame>28 days</time_frame>
+    <description>Adverse events are defined as a composite of mortality and/or cardiac arrest and/or need for ventilatory support (including invasive and/or noninvasive ventilation and/or high flow nasal cannula therapy) within 28 days from ED admission.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Delay to initiation of ventilatory support</measure>
+    <time_frame>at day 28</time_frame>
+    <description>Ventilatory support is defined as invasive mechanical ventilation or non invasive ventilation or high-flow nasal cannula</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of patients with adverse events at ED discharge</measure>
+    <time_frame>through ED stay (up to a day)</time_frame>
+    <description>Adverse events are defined as a composite of mortality and/or cardiac arrest and/or need for ventilatory support (including invasive and/or noninvasive ventilation and/or high flow nasal cannula therapy).</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of patients with adverse events at hospital discharge</measure>
+    <time_frame>through hospital stay (up to a week)</time_frame>
+    <description>Adverse events are defined as a composite of mortality and/or cardiac arrest and/or need for ventilatory support (including invasive and/or noninvasive ventilation and/or high flow nasal cannula therapy).</description>
+  </secondary_outcome>
+  <enrollment type="Actual">350</enrollment>
+  <condition>Dyspnea</condition>
+  <condition>Acute Respiratory Failure</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Adult patients admitted in the Emergency Department for Acute Respiratory Failure&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion criteria:&#xD;
+&#xD;
+          -  Age equal or over 18 y.o&#xD;
+&#xD;
+          -  Signs of acute respiratory failure defined by RR equal or over 25 br/min and/or signs&#xD;
+             of increased work of breathing&#xD;
+&#xD;
+          -  Patients on spontaneous breathing&#xD;
+&#xD;
+        Exclusion criteria:&#xD;
+&#xD;
+          -  Medical history of diaphragmatic dysfunction including stroke or diaphragmatic&#xD;
+             paralysis&#xD;
+&#xD;
+          -  Patients on ventilatory support at ED admission or prior to inclusion&#xD;
+&#xD;
+          -  Patients treated with curare&#xD;
+&#xD;
+          -  Trauma patients&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Nicolas MARJANOVIC, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Hospital, Montpellier</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Uhmontpellier</name>
+      <address>
+        <city>Montpellier</city>
+        <zip>34295</zip>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>December 2020</verification_date>
+  <study_first_submitted>September 25, 2019</study_first_submitted>
+  <study_first_submitted_qc>October 7, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 8, 2019</study_first_posted>
+  <last_update_submitted>December 28, 2020</last_update_submitted>
+  <last_update_submitted_qc>December 28, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 29, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Diaphragmatic Excursion</keyword>
+  <keyword>Diaphragmatic Dysfunction</keyword>
+  <keyword>Emergency Department</keyword>
+  <keyword>Respiratory insufficiency</keyword>
+  <keyword>Acute respiratory failure</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Respiratory Insufficiency</mesh_term>
+    <mesh_term>Dyspnea</mesh_term>
+    <mesh_term>Respiratory Distress Syndrome</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>NC</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -81,3 +81,5 @@ studies = bind_rows(studies, frame)
 
 
 }
+
+save(studies,file='data/processed_studies_v2.rda')

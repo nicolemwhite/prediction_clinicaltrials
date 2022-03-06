@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="368">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04707859</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Dan-NICAD 3</org_study_id>
+    <nct_id>NCT04707859</nct_id>
+  </id_info>
+  <brief_title>Danish Study of Non-Invasive Diagnostic Testing in Coronary Artery Disease 3</brief_title>
+  <acronym>Dan-NICAD 3</acronym>
+  <official_title>Danish Study of Non-Invasive Diagnostic Testing in Coronary Artery Disease 3</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Aarhus</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Aarhus</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In a cohort of symptomatic patients referred to coronary computed tomography angiography&#xD;
+      (CCTA), the investigators aim is:&#xD;
+&#xD;
+        1. To investigate and compare the diagnostic precision of Rubidium Positron Emission&#xD;
+           Tomography (Rb PET) and 15O-water PET (15O-water PET) in patients where CCTA does not&#xD;
+           exclude obstructive coronary artery disease (CAD) using invasive coronary angiography&#xD;
+           with fractional flow reserve (ICA-FFR) as reference standard.&#xD;
+&#xD;
+        2. To study the diagnostic accuracy and prognostic value of computed tomography fractional&#xD;
+           flow reserve (CT-FFR) in patients where CCTA does not exclude obstructive CAD with&#xD;
+           ICA-FFR as reference standard.&#xD;
+&#xD;
+        3. To validated a pre-test probability model including genetic and circulating biomarkers.&#xD;
+&#xD;
+        4. To identify and characterize genetic risk variants and circulating biomarkers importance&#xD;
+           in developing CAD.&#xD;
+&#xD;
+        5. To evaluate the bone mineral density in the hip and spine and correlate this to the&#xD;
+           degree of vascular calcification.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      CCTA has become the preferred diagnostic modality for symptomatic patients with low to&#xD;
+      intermediate risk of CAD. Of the patients examined, CCTA exclude cardiovascular disease in&#xD;
+      70-80% with an excellent negative predictive value of more than 95%. Having a low positive&#xD;
+      predictive value, however, CCTA often overestimates the severity of CAD, especially in&#xD;
+      patients with moderate to severe coronary calcification. Following CCTA, patients are hence&#xD;
+      unnecessarily tested using golden standard ICA-FFR. These ICAs often show no obstructive&#xD;
+      coronary stenosis and are therefore not followed by revascularization. The issues outlined&#xD;
+      raises the question of whether it is possible (1) to make a more precise risk stratification&#xD;
+      and consequently better selection of patients prior to CCTA and (2) to reduce the number of&#xD;
+      patients referred for unnecessary ICAs following CCTA.&#xD;
+&#xD;
+      In patients with suspicion of coronary stenosis detected by CCTA, current guidelines&#xD;
+      recommend verification of myocardial ischemia. Dan-NICAD 3 investigate the diagnostic&#xD;
+      accuracy of advanced non-invasive myocardial perfusion imaging tests; Rb PET and 15O-water&#xD;
+      PET. These examinations have shown a high diagnostic accuracy in symptomatic patients with&#xD;
+      high risk of ischemic heart disease. However, the diagnostic accuracy is not investigated in&#xD;
+      patients as follow-up after CCTA. In addition, microcirculation may impact the correlation&#xD;
+      between PET and ICA-FFR which this study will investigate further.&#xD;
+&#xD;
+      An alternative way to increase the diagnostic accuracy of CCTA and thus avoid unnecessary&#xD;
+      downstream testing using ICA is to utilize the ability to extract physiological information&#xD;
+      from the anatomical CCTA images. CT-FFR has in previous studies shown promising results. In&#xD;
+      addition, calculated estimation of microcirculatiory function is under development and this&#xD;
+      study will validated these algorithms. Furthermore, the prognostic value of CT-FFR is unknown&#xD;
+      and will be tested in the pooled cohort of Dan-NICAD 1, 2 and 3.&#xD;
+&#xD;
+      Obtained during ICA, quantitative flow ratio (QFR) is a novel wire-free approach for fast&#xD;
+      computation of FFR with potential to increase the global use of physiological lesion&#xD;
+      assessment. QFR is superior to traditional assessment of intermediate coronary lesions based&#xD;
+      on quantitative coronary analysis of ICA. However, disagreement between ICA-FFR and QFR has&#xD;
+      been identified in up to 20% of all measurements. QFR will be validated compared to PET and&#xD;
+      ICA-FFR.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 5, 2021</start_date>
+  <completion_date type="Anticipated">January 5, 2023</completion_date>
+  <primary_completion_date type="Anticipated">July 5, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Diagnostic accuracy of Rb PET and 15-O PET</measure>
+    <time_frame>ICA: 4 weeks after inclusion</time_frame>
+    <description>Head-to-head comparison using ICA-FFR as reference standard stratified for CFR</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic accuracy of QFR vs. ICA-FFR</measure>
+    <time_frame>ICA: 4 weeks after inclusion</time_frame>
+    <description>Head-to-head comparison using ICA-FFR as reference standard</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pre-test probability model of CAD</measure>
+    <time_frame>ICA: 4 weeks after inclusion</time_frame>
+    <description>Advanced pre-test probability model of CAD included clinical information, genetic and circulating biomarkers</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic accuracy of QFR</measure>
+    <time_frame>ICA: 4 weeks after inclusion</time_frame>
+    <description>Head-to-head comparison using ICA-FFR as reference standard</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Diagnostic accuracy of CT-FFR</measure>
+    <time_frame>ICA: 4 weeks after inclusion</time_frame>
+    <description>Head-to-head comparison with PET using ICA-FFR as reference standard</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Effect of reduced myocardial perfusion defect on symptoms of angina pectoris</measure>
+    <time_frame>Re-PET: 12 months after inclusion</time_frame>
+    <description>12 months re-PET investigation will by used for estimation of reduction of myocardial perfusion defect size which will be correlated with symptoms of angina pectoris 3 and 12 mdr. after ICA</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Prognostic value of clinical, biomarker, genetic information</measure>
+    <time_frame>Follow-up: Myocardial infarction and mortality rates after 3+5+10 years</time_frame>
+    <description>Prognotic models will be developed based on machine learning algorithms</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Prognostic value of clinical markers, CCTA, Rb PET, 15O-water PET, CT-FFR and QFR</measure>
+    <time_frame>Follow-up: Myocardial infarction and mortality rates after 3+5+10 years</time_frame>
+    <description>Prognotic models will be developed based on machine learning algorithms</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Predictive models of obstructive CAD</measure>
+    <time_frame>ICA: 4 weeks after inclusion</time_frame>
+    <description>Development of pre-test probability models of obstructive CAD at ICA</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Angina Pectoris</condition>
+  <condition>Atherosclerosis</condition>
+  <condition>Coronary Artery Disease</condition>
+  <condition>Myocardial Ischemia</condition>
+  <arm_group>
+    <arm_group_label>Cohort</arm_group_label>
+    <description>Participants consenting to the study will undergo:&#xD;
+a1) An interview a2) Blood samples withdrawals a3) ECG a4) Non-enhanced CT a5) CCTA a6) Follow-up for &gt; 10 years&#xD;
+Patients with suspicion of coronary stenosis detected by CCTA will after undergo:&#xD;
+b1) Rb PET b2) 15O-water PET b3) Invasive coronary angiography with 3 vessel measurement of fractional flow reserve (FFR), coronary flow reserve (CFR) and index of microvascular resistance (IMR)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Head to head comparison: Rubidium vs 15O-water PET</intervention_name>
+    <description>Head to head comparison with invasive FFR as reference. Adjustment for abnormal microcirculation</description>
+    <arm_group_label>Cohort</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      From all participants consenting to the study, blood samples are drawn prior to CCTA contrast&#xD;
+      administration. Samples are centrifuged and processed into etylen-diamin-tetra-eddikesyre&#xD;
+      (EDTA) and heparin treated plasma, and serum, which are aliquoted into individual matrix&#xD;
+      tubes and placed at -20°C. In addition, one blood samples are placed directly in the freezer&#xD;
+      for later extraction of genomic DNA.&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients with an indication for CCTA.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        - Inclusion Criteria:&#xD;
+&#xD;
+        Patients with an indication for CCTA. Qualified patients who have signed a written informed&#xD;
+        consent form.&#xD;
+&#xD;
+        - Exclusion Criteria:&#xD;
+&#xD;
+        Demography and co-existing cardiac morbidity specific: Age below 30 years, patients having&#xD;
+        a donor heart, a mechanic heart, or mechanical heart pump, suspicion acute coronary&#xD;
+        syndrome or previous revascularization.&#xD;
+&#xD;
+        CCTA: Pregnant women, including women who are potentially pregnant or lactating, reduced&#xD;
+        kidney function, with an estimated glomerular filtration rate (eGFR) &lt; 40 mL/min or allergy&#xD;
+        to X-ray contrast medium.&#xD;
+&#xD;
+        PET: contra-indication for adenosine (severe asthma, advanced atrioventricular block, or&#xD;
+        critical aorta stenosis).&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>30 Years</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Simon Winther, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Hospital Unit West, Herning, Denmark</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Simon Winther, MD, PhD</last_name>
+    <phone>78430000</phone>
+    <email>simwin@rm.dk</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Gødstrup Hospital</name>
+      <address>
+        <city>Herning</city>
+        <zip>7400</zip>
+        <country>Denmark</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Simon Winther, MD, PhD</last_name>
+      <email>simwin@rm.dk</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Denmark</country>
+  </location_countries>
+  <reference>
+    <citation>Nissen L, Winther S, Isaksen C, Ejlersen JA, Brix L, Urbonaviciene G, Frost L, Madsen LH, Knudsen LL, Schmidt SE, Holm NR, Maeng M, Nyegaard M, Bøtker HE, Bøttcher M. Danish study of Non-Invasive testing in Coronary Artery Disease (Dan-NICAD): study protocol for a randomised controlled trial. Trials. 2016 May 26;17(1):262. doi: 10.1186/s13063-016-1388-z.</citation>
+    <PMID>27225018</PMID>
+  </reference>
+  <reference>
+    <citation>Rasmussen LD, Winther S, Westra J, Isaksen C, Ejlersen JA, Brix L, Kirk J, Urbonaviciene G, Søndergaard HM, Hammid O, Schmidt SE, Knudsen LL, Madsen LH, Frost L, Petersen SE, Gormsen LC, Christiansen EH, Eftekhari A, Holm NR, Nyegaard M, Chiribiri A, Bøtker HE, Böttcher M. Danish study of Non-Invasive testing in Coronary Artery Disease 2 (Dan-NICAD 2): Study design for a controlled study of diagnostic accuracy. Am Heart J. 2019 Sep;215:114-128. doi: 10.1016/j.ahj.2019.03.016. Epub 2019 May 1.</citation>
+    <PMID>31323454</PMID>
+  </reference>
+  <verification_date>January 2021</verification_date>
+  <study_first_submitted>January 11, 2021</study_first_submitted>
+  <study_first_submitted_qc>January 11, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 13, 2021</study_first_posted>
+  <last_update_submitted>January 26, 2021</last_update_submitted>
+  <last_update_submitted_qc>January 26, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 29, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Positron Emission Tomography</keyword>
+  <keyword>Coronary Computed Tomography Angiography</keyword>
+  <keyword>Rubidium</keyword>
+  <keyword>15O water</keyword>
+  <keyword>Fractional flow reserve</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Myocardial Ischemia</mesh_term>
+    <mesh_term>Coronary Disease</mesh_term>
+    <mesh_term>Atherosclerosis</mesh_term>
+    <mesh_term>Angina Pectoris</mesh_term>
+    <mesh_term>Ischemia</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

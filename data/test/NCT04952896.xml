@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="139">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04952896</url>
+  </required_header>
+  <id_info>
+    <org_study_id>LM2019168</org_study_id>
+    <nct_id>NCT04952896</nct_id>
+  </id_info>
+  <brief_title>Clinical Study of Functional Magnetic Resonance Imaging and Radiomics of Joint Synovial Disease</brief_title>
+  <official_title>Using Functional Magnetic Resonance Imaging and Radiomics Methods to Explore the Auxiliary Diagnosis, Analysis and Clinical Prognosis of Joint Synovial Tissue Lesions.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Peking University Third Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Peking University Third Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Through the high-throughput feature extraction of magnetic resonance images, the radiomics&#xD;
+      prediction model of joint synovial lesions is constructed to explore whether functional&#xD;
+      magnetic resonance and radiomics can be used for the diagnosis, differential diagnosis and&#xD;
+      curative effect monitoring of joint synovial lesions.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The study applies functional magnetic resonance and radiomics to the diagnosis of joint&#xD;
+      synovial lesions, including diffusion weighted imaging (DWI), Intro-Voxel Incoherent Movement&#xD;
+      (IVIM) and dynamic contrast enhancement Magnetic resonance imaging (DCE-MRI), from the&#xD;
+      existing conventional magnetic resonance evaluation to multimodal magnetic resonance&#xD;
+      evaluation, aims to have a more comprehensive understanding of the pathophysiology of the&#xD;
+      occurrence and development of joint synovial lesions. As a non-invasive imaging method to&#xD;
+      assess the condition of the disease, radiomics excavates the deep features contained in the&#xD;
+      image, quantifies the joint synovial lesions, and then gives more information to the&#xD;
+      clinician in the diagnosis and differential diagnosis of the joint synovial lesions, provide&#xD;
+      important information for the planning of individualized treatment plans for patients with&#xD;
+      joint synovial diseases.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 1, 2019</start_date>
+  <completion_date type="Anticipated">December 31, 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Patient quality of life</measure>
+    <time_frame>2019-2023</time_frame>
+    <description>Patient quality of life</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Synovial Diseases</condition>
+  <condition>Pigmented Villonodular Synovitis</condition>
+  <arm_group>
+    <arm_group_label>Group of patients with good prognosis</arm_group_label>
+    <description>Western Ontario and McMaster University Osteoarthritis Index (WOMAC) self-assessment questionnaire scale assesses the frequency of osteoarthritis pain, the severity of pain, body stiffness, and physical dysfunction. The visual analog scale (VAS) is used to evaluate the pain The degree is represented by a total of 11 numbers from 0 to 10 (0 means no pain, 10 means the most painful), and patients are scored according to their own pain levels.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Group of patients with poor prognosis</arm_group_label>
+    <description>Western Ontario and McMaster University Osteoarthritis Index (WOMAC) self-assessment questionnaire scale assesses the frequency of osteoarthritis pain, the severity of pain, body stiffness, and physical dysfunction. The visual analog scale (VAS) is used to evaluate the pain The degree is represented by a total of 11 numbers from 0 to 10 (0 means no pain, 10 means the most painful), and patients are scored according to their own pain levels.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Patient Comprehensive Rating Scale</intervention_name>
+    <description>Patient subjective rating scale</description>
+    <arm_group_label>Group of patients with good prognosis</arm_group_label>
+    <arm_group_label>Group of patients with poor prognosis</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients diagnosed with joint synovial disease through radiological examination,&#xD;
+        arthroscopy or pathological biopsy of the joint, or whose clinical manifestations meet the&#xD;
+        diagnostic criteria of the American College of Rheumatology (ACR) for joint synovial&#xD;
+        disease.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Inclusion criteria: Patients diagnosed with joint synovial disease through&#xD;
+             radiological examination, arthroscopy or pathological biopsy of the joint, or whose&#xD;
+             clinical manifestations meet the diagnostic criteria of the American College of&#xD;
+             Rheumatology (ACR) for joint synovial disease. The patient agreed to receive&#xD;
+             pre-treatment DCE-MRI, DWI and IVIM scans and imaging omics analysis, had performed or&#xD;
+             planned to undergo synovial pathological examination (including needle biopsy and&#xD;
+             postoperative specimen biopsy), agreed to follow-up after treatment, and was able to&#xD;
+             understand and Complete the postoperative test and sign the informed consent form.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Exclusion criteria: those who cannot cooperate or refuse to undergo preoperative&#xD;
+             multimodal magnetic resonance examination; those who have contraindications to MRI&#xD;
+             scan; those who do not show synovial enhancement changes on MRI scan; the lesion is&#xD;
+             too small to delineate the area of interest; the pathological diagnosis result is not&#xD;
+             It belongs to joint synovial disease; patients who have received surgery, medication&#xD;
+             or other systemic treatment before standardized MRI scan; suffer from kidney disease&#xD;
+             that requires hemodialysis or peritoneal dialysis; serum creatinine and glomerular&#xD;
+             filtration rate indicate renal function Insufficiency; a history of tumors in other&#xD;
+             parts of the joint except for the examination; life-threatening diseases; a history of&#xD;
+             surgery on the damaged joints in the past 6 months; a history of intramedical&#xD;
+             injection of hyaluronic acid or steroids in the damaged joints 3 months before the&#xD;
+             examination, Those who cannot understand and complete the postoperative test&#xD;
+             correctly.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Ning t Lang</last_name>
+    <phone>+861082265571</phone>
+    <email>langning800129@126.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Peking University third hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Please Select An Option Below</state>
+        <zip>100089</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ning t Lang</last_name>
+      <phone>+861082265571</phone>
+      <email>langning800129@126.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 29, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 29, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 7, 2021</study_first_posted>
+  <last_update_submitted>June 29, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 29, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 7, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>pigmented villonodular synovitis</keyword>
+  <keyword>radiomics</keyword>
+  <keyword>functional MRI</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Synovitis, Pigmented Villonodular</mesh_term>
+    <mesh_term>Synovitis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

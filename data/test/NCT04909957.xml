@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="207">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04909957</url>
+  </required_header>
+  <id_info>
+    <org_study_id>29BRC20.0290</org_study_id>
+    <nct_id>NCT04909957</nct_id>
+  </id_info>
+  <brief_title>Prediction of Lymph Node Invasion for Prostate Adenocarcinoma</brief_title>
+  <acronym>PRED-NCHIR</acronym>
+  <official_title>Prediction of Lymph Node Invasion in Patients Operated on for Prostate Adenocarcinoma</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Brest</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Hospital, Brest</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Despite lymph node involvement (LNI) being one of the main prognostic factors in patients&#xD;
+      with prostate cancer (PCa), pelvic lymph node irradiation remains debated, possibly due to an&#xD;
+      insufficient selection of patients. Significant advances in LNI risk modelling have been&#xD;
+      achieved with the addition of visual interpretation of magnetic resonance imaging (MRI) data,&#xD;
+      but it is likely that quantitative analysis could further improve prediction models. In this&#xD;
+      study, the investigators aimed to develop and internally validate a novel LNI risk prediction&#xD;
+      model based on radiomic features extracted from pre-operative multimodal MRI.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 1, 2021</start_date>
+  <completion_date type="Anticipated">November 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">November 30, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Predicted risk of lymph-node involvement vs Briganti 2017</measure>
+    <time_frame>immediately after the intervention/procedure/surgery</time_frame>
+    <description>Comparison between the predicted risk of lymph node involvement based on the new algorithm and the predicted risk with the Briganti 2017</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Predicted risk of lymph-node involvement vs Briganti 2012, Briganti 2018, Briganti 2019 and MSKCC</measure>
+    <time_frame>immediately after the intervention/procedure/surgery</time_frame>
+    <description>Comparison between the predicted risk of lymph node involvement based on the new algorithm and the predicted risk with the Briganti 2012, Briganti 2018, Briganti 2019 and MSKCC</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Biochemical recurrence free survival</measure>
+    <time_frame>immediately after the intervention/procedure/surgery</time_frame>
+    <description>Prediction of Biochemical recurrence free survival</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Extra-prostatic disease</measure>
+    <time_frame>immediately after the intervention/procedure/surgery</time_frame>
+    <description>Prediction of Extra-prostatic disease</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Seminal vesicle invasion</measure>
+    <time_frame>immediately after the intervention/procedure/surgery</time_frame>
+    <description>Prediction of Seminal vesicle invasion</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Automatic segmentation of the index lesion</measure>
+    <time_frame>immediately after the intervention/procedure/surgery</time_frame>
+    <description>Comparison between a manual segmentation of the index lesion and an automatic segmentation</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">400</enrollment>
+  <condition>Adenocarcinoma of the Prostate</condition>
+  <arm_group>
+    <arm_group_label>Absence of invaded lymph node after extensive lymph node dissection</arm_group_label>
+    <description>Absence of invaded lymph node after extensive lymph node dissection</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Presence of invaded lymph node after extensive lymph node dissection</arm_group_label>
+    <description>Presence of invaded lymph node after extensive lymph node dissection</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The population consists of patients operated on for an adenocarcinoma of the prostate by&#xD;
+        radical prostatectomy with extensive lymph node dissection and for whom pre-operative MRI&#xD;
+        is available and analyzable.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Histologically proven adenocarcinoma of the prostate treated by prostatectomy with&#xD;
+             extensive lymph node dissection&#xD;
+&#xD;
+          -  Available pre-operative +/- PET choline&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Unanalyzable pre-operative MRI&#xD;
+      </textblock>
+    </criteria>
+    <gender>Male</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Ulrike Ulrike Schick</last_name>
+    <phone>+33298223398</phone>
+    <email>ulrike.schick@chu-brest.fr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>CHRU Brest</name>
+      <address>
+        <city>Brest</city>
+        <zip>29200</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ulrike Schick, MD, PhD</last_name>
+      <phone>+33298223398</phone>
+      <email>ulrike.schick@chu-brest.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>January 2022</verification_date>
+  <study_first_submitted>January 26, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 1, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 2, 2021</study_first_posted>
+  <last_update_submitted>January 17, 2022</last_update_submitted>
+  <last_update_submitted_qc>January 17, 2022</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 19, 2022</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>MRI</keyword>
+  <keyword>Lymph node</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Adenocarcinoma</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Yes</sharing_ipd>
+    <ipd_description>All collected data that underlie results in a publication</ipd_description>
+    <ipd_info_type>Study Protocol</ipd_info_type>
+    <ipd_time_frame>Data will be available beginning three month and ending five years following the publication</ipd_time_frame>
+    <ipd_access_criteria>Data access requests will be reviewed by the internal committee of Brest UH. Requestors will be required to sign and complete a data access agreement.</ipd_access_criteria>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

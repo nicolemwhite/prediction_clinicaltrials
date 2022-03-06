@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="97">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04952233</url>
+  </required_header>
+  <id_info>
+    <org_study_id>M2020499</org_study_id>
+    <nct_id>NCT04952233</nct_id>
+  </id_info>
+  <brief_title>Application Value of Deep Learning in Diagnosis of Cervical Spondylosis</brief_title>
+  <official_title>Application Value of Deep Learning in Diagnosis of Cervical Spondylosis</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Peking University Third Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Peking University Third Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Compared with the personal experience judgment of physicians, deep learning can identify&#xD;
+      something more quickly, efficiently, and accurately The identification and diagnosis of&#xD;
+      diseases save the energy of clinical and imaging doctors and achieve an individualized&#xD;
+      diagnosis of patients Diagnosis and evaluation are beneficial to the formulation of clinical&#xD;
+      surgical methods and the improvement of patients' prognoses.&#xD;
+&#xD;
+      This study uses deep learning technology, through the big data of cervical spondylosis cases&#xD;
+      learn, to explore the use of deep learning The feasibility of identifying and analyzing the&#xD;
+      characteristic imaging findings of cervical CT images that may be suggestive of a diagnosis&#xD;
+      It is attempted to reach the level of artificial intelligence-assisted diagnosis of cervical&#xD;
+      spondylosis.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Cervical spondylosis is due to cervical discs and intervertebral joints and their secondary&#xD;
+      changes to the adjacent spinal cord, nerve roots, and vertebrae Artery and other tissue&#xD;
+      structure, causing the corresponding clinical symptoms. Cervical spondylosis is a common and&#xD;
+      frequent disease among middle-aged and elderly people. The incidence of cervical spondylosis&#xD;
+      is 10 percent in people over 30 years of age and is higher among those who work at a desk.&#xD;
+&#xD;
+      Two kinds of cervical spondylosis are common: cervical spondylotic radiculopathy and cervical&#xD;
+      spondylotic myelopathy. The principles of treatment differ greatly, and the prognosis after&#xD;
+      treatment is also different. Precise preoperative imaging and clinical diagnosis are helpful&#xD;
+      to accurately estimate the effect of surgery and the prognosis of patients.&#xD;
+&#xD;
+      Therefore, to achieve early accurate diagnosis is to improve the cervical spine Key to the&#xD;
+      curative effect of the disease. Generally referred to as deep learning is a kind of pattern&#xD;
+      analysis method, through the combination of simple and nonlinear module for multi-level&#xD;
+      &quot;character learning&quot; or &quot;said learning&quot; model of each module to each layer (original input)&#xD;
+      data into a higher dimension, more abstract representation, when there are enough of these&#xD;
+      transformations, The initial &quot;low level&quot; feature representation can be transformed into &quot;high&#xD;
+      level&quot; feature representation, and complex learning tasks such as classification can be&#xD;
+      completed.&#xD;
+&#xD;
+      For the classification task, the features that are important to the classification are&#xD;
+      amplified by increasing the number of layers, and the irrelevant features are ignored.&#xD;
+&#xD;
+      At present, the main research methods include Convolutional Neural Networks (CNN),&#xD;
+      self-coding Neural Networks based on multi-layer neurons, and deep confidence Networks. At&#xD;
+      present, CNN is mainly used in the field of medical image recognition.&#xD;
+&#xD;
+      Such as AlexNet, Densenet, VGG16, Googlenet and so on. The motivation for deep learning is to&#xD;
+      build neural networks that mimic the human brain for analytical learning. It imitates the&#xD;
+      mechanisms of the human brain to interpret data, such as images, sounds, and text and has&#xD;
+      made significant progress in solving many problems that are difficult for traditional machine&#xD;
+      learning to solve.&#xD;
+&#xD;
+      Deep learning methods have proven to be very good at discovering complex structures in&#xD;
+      high-dimensional data.&#xD;
+&#xD;
+      In the field of medical and health care, artificial intelligence technology has gradually&#xD;
+      solved the problem of data interpretation of various medical images, discovered more&#xD;
+      information &quot;hidden&quot; behind the images, such as X-ray, CT, MRI, etc., and will gradually&#xD;
+      realize the recognition, screening, and diagnosis of a specific case, reaching the expert&#xD;
+      level of diagnosis.&#xD;
+&#xD;
+      At the same time, the application of artificial intelligence technology can reduce the load&#xD;
+      of doctors, reduce medical misdiagnosis, and improve the efficiency of diagnosis and&#xD;
+      treatment.&#xD;
+&#xD;
+      At present, deep learning has been widely used in the diagnosis and prediction of various&#xD;
+      diseases in various systems of the body.&#xD;
+&#xD;
+      Hemke et al. conducted machine learning research after manual segmentation of pelvic CT&#xD;
+      images and found that the deep learning model can be used to automatically recognize and&#xD;
+      segment a variety of different types of tissues in the pelvic cavity, including muscle, bone,&#xD;
+      fat, subcutaneous adipose tissue, etc.&#xD;
+&#xD;
+      Koichiro Yasaka et al. [8] conducted a deep learning study on the lumbar spine and found that&#xD;
+      deep learning can be used to predict the bone density of the lumbar spine and further&#xD;
+      evaluate the severity of osteoporosis.&#xD;
+&#xD;
+      Spampinato et al. conducted a deep learning study on hand X-rays to predict bone age.&#xD;
+&#xD;
+      Therefore, it is of great significance to apply deep learning, an emerging analytical&#xD;
+      technique, to the recognition of imaging features of cervical CT images. The research&#xD;
+      significance is as follows:&#xD;
+&#xD;
+      Accurate and efficient preoperative diagnosis of cervical spondylosis can be realized to&#xD;
+      avoid excessive medical treatment or disease delay caused by missed diagnosis and&#xD;
+      misdiagnosis. Individualized diagnosis and evaluation can be achieved for patients, which&#xD;
+      helps clinically to reasonably specify treatment strategies, and is conducive to the&#xD;
+      formulation of clinical surgical methods and the improvement of patient prognosis.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 30, 2021</start_date>
+  <completion_date type="Anticipated">July 30, 2021</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Compare the consistency between AI and clinicians in identifying cervical CT features (cervical curvature, alignment, intervertebral space, disc herniation, ossification of the posterior longitudinal ligament, spinal stenosis)</measure>
+    <time_frame>2019-2021</time_frame>
+    <description>Compare the consistency between AI and clinicians in identifying cervical CT features (cervical curvature, alignment, intervertebral space, disc herniation, ossification of the posterior longitudinal ligament, spinal stenosis)</description>
+  </primary_outcome>
+  <enrollment type="Anticipated">2000</enrollment>
+  <condition>Artificial Intelligence</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Age 18 to 80 years old, no surgical treatment before imaging scan; Patients with cervical&#xD;
+        spondylosis confirmed by imaging report and clinical diagnosis and patients with cervical&#xD;
+        vertebra imaging CT without any obvious abnormality.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. No surgical treatment was performed before the imaging scan. Imaging report and&#xD;
+             clinical diagnosis of cervical spondylosis with or without ossification of the&#xD;
+             posterior longitudinal ligament.&#xD;
+&#xD;
+          2. Patients who visited the orthopedics department and emergency department of our&#xD;
+             hospital without any surgical treatment before image scan and no obvious abnormalities&#xD;
+             were found in cervical imaging CT.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Surgery before image data acquisition;&#xD;
+&#xD;
+          2. Cervical cancer, tuberculosis, and fracture;&#xD;
+&#xD;
+          3. The lack of image data, the image is not clear.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>huishu yuan</last_name>
+    <role>Study Chair</role>
+    <affiliation>Peking University Third Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>huishu yuan</last_name>
+    <phone>13521627288</phone>
+    <email>chunjiewang17@126.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>chunjie wang</last_name>
+    <phone>13521627288</phone>
+    <email>chunjiewang17@126.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Peking University Third Hospital</name>
+      <address>
+        <city>Beijing</city>
+        <state>Beijing</state>
+        <zip>010</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Huishu Yuan, Dr</last_name>
+      <phone>13521627288</phone>
+      <email>huishuy@bjmu.edu.cn</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 28, 2021</study_first_submitted>
+  <study_first_submitted_qc>July 4, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 7, 2021</study_first_posted>
+  <last_update_submitted>July 4, 2021</last_update_submitted>
+  <last_update_submitted_qc>July 4, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 7, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Spondylosis</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

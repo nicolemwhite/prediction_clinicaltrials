@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="283">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04955080</url>
+  </required_header>
+  <id_info>
+    <org_study_id>Grant Agreement No 965315</org_study_id>
+    <nct_id>NCT04955080</nct_id>
+  </id_info>
+  <brief_title>REal-time Data Monitoring for Shared Adaptive, Multi-domain and Personalised Prediction and Decision Making for Long-term Pulmonary Care Ecosystems (RE-SAMPLE)</brief_title>
+  <acronym>RE-SAMPLE</acronym>
+  <official_title>REal-time Data Monitoring for Shared Adaptive, Multi-domain and Personalised Prediction and Decision Making for Long-term Pulmonary Care Ecosystems (RE-SAMPLE)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Medisch Spectrum Twente</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of Twente, the Netherlands</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Piraeus research center, Greece</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Sihtasutus Tartu Ulikooli Kliinikum, Estonia</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Fondazione Policlinico Universitario Agostino Gemelli - IRCCS, Italy</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Federation Europeenne des Hopitaux et des Soinds de Sante, Belgium</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Deutsches Forschungszentrum fur Kunstliche Intelligenz GMBH, Germany</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Atos IT Solutions and Services Iberia, Spain</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Roessingh Research and Development BV, Netherlands</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Innovation Sprint, Belgium</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Medisch Spectrum Twente</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The main objective of this RE-SAMPLE cohort study is to identify from a real-world data (RWD)&#xD;
+      set that will be collected, a subset of data that can be potentially used as important&#xD;
+      predictors and parameters for disease progression of COPD and complex chronic conditions, and&#xD;
+      multi-morbid exacerbations. The secondary objective is to evaluate the feasibility of RWD&#xD;
+      collection from a patient's perspective.&#xD;
+&#xD;
+      Study design: This is a prospective observational cohort study to collect RWD in patients&#xD;
+      with COPD and complex chronic conditions, with a maximum of 38 months of follow-up.&#xD;
+      Measurements are performed and RWD are collected by using the Healthentia mobile phone&#xD;
+      application at baseline (e.g. patient characteristics), daily (e.g. symptom diary), during&#xD;
+      follow-up visits and at deterioration, and from hospital data (e.g. healthcare visits). The&#xD;
+      choice of parameters and measurement tools that will be collected during the cohort will be&#xD;
+      updated every three months during the first year of the cohort (via protocol amendments).&#xD;
+      These updates are based on citizen-design sessions and on new literature insights. Prognostic&#xD;
+      models will be developed including predictors derived from the RWD collection.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">September 2021</start_date>
+  <completion_date type="Anticipated">September 2024</completion_date>
+  <primary_completion_date type="Anticipated">September 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Predictors for exacerbations of COPD and comorbidities</measure>
+    <time_frame>Through study completion, an average of 2.5 years.</time_frame>
+    <description>Prognostic performance of the validated predictive model for COPD and comorbid exacerbations and disease progression from RWD. The measures for progression will be survival, based on all-cause mortality, as well as morbidity. Morbidity is defined as time until first hospitalisation for an acute exacerbation of COPD and CCC, time until first moderate COPD exacerbation, time until first pneumonia, and total number of COPD and CCC exacerbations (extracted from daily symptom diaries) and pneumonia.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Feasibility of the RWD collection.</measure>
+    <time_frame>Through study completion, an average of 1 year.</time_frame>
+    <description>This relates to the usability of the application for data collection. The system usability scale will be used as a benchmarking tool that measures the level of usability.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Feasibility of the RWD collection.</measure>
+    <time_frame>Through study completion, an average of 1 year</time_frame>
+    <description>Assessment of the user experience associated with the data collection. The User Experience Questionnaire will be used to assess the user experience and as a benchmark. Furthermore, patients will be given the opportunity to articulate also in their own words how they experience the RWD collection.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">710</enrollment>
+  <condition>Pulmonary Disease, Chronic Obstructive</condition>
+  <condition>Exacerbation Copd</condition>
+  <condition>Comorbidities and Coexisting Conditions</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        We aim to enroll 710 patients with both COPD and complex chronic conditions over 28 months&#xD;
+        (July 2021 until October 2023). Patients will be followed-up for a 38-month period (July&#xD;
+        2021 until August 2024). These patients will be recruited from one of the three pilot sites&#xD;
+        (n=263 from Medisch Spectrum Twente, Netherlands); n=263 from Policlinico Universitario&#xD;
+        Fondazione Agostino Gemelli, Italy; n=184 from Tartu Ülikooli Kliinikum, Estonia.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Clinical diagnosis of COPD according to the GOLD criteria [5] (FEV1 &lt; 80% of the&#xD;
+             predicted value and FEV1/FVC &lt; 0.70);&#xD;
+&#xD;
+          -  Patients can be included both at stable state and during exacerbation/hospitalization;&#xD;
+&#xD;
+          -  At least one comorbidity:&#xD;
+&#xD;
+        diabetes mellitus (glucocorticoid-induced, or stable type 1 or 2), chronic heart failure&#xD;
+        (clinical diagnosis according to the ESC guidelines), ischaemic heart disease (history of&#xD;
+        myocardial infarction, angina pectoris), active symptoms of anxiety and/or depression (≥11&#xD;
+        Hospital Anxiety and Depression Scale , and/or anxiety or depression symptoms being treated&#xD;
+        at the time of inclusion);&#xD;
+&#xD;
+          -  Under treatment at one of the pilot sites (MST, TUK, GEM);&#xD;
+&#xD;
+          -  &gt;40 years of age;&#xD;
+&#xD;
+          -  Smoker or ex-smoker;&#xD;
+&#xD;
+          -  Able to understand, read and write the language spoken in the country of the pilot&#xD;
+             site.&#xD;
+&#xD;
+          -  Accessibility to internet;&#xD;
+&#xD;
+          -  Written informed consent from the subject prior to participation.&#xD;
+&#xD;
+        Furthermore, 25% of the patients should also have ≥ 2 exacerbations, defined as respiratory&#xD;
+        problems that required a course of oral corticosteroids / antibiotics in the two years&#xD;
+        preceding study entry; and/or ≥ 1 hospitalisation for respiratory problems in the two years&#xD;
+        preceding study entry; and/or modified MRC (mMRC) score of 3 or 4 (COPD patients with these&#xD;
+        scores have a higher chance of exacerbating).&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Serious other diseases with a low survival rate;&#xD;
+&#xD;
+          -  Presence of any other active lung disease (e.g., sarcoidosis);&#xD;
+&#xD;
+          -  Severe psychiatric illness, diagnosed by anamnesis;&#xD;
+&#xD;
+          -  Maintenance therapy with antibiotics&#xD;
+&#xD;
+          -  Patients with cognitive impairment (Mini Mental State Examination (MMSE) &lt; 24)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>40 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>Medisch Spectrum Twente</name>
+      <address>
+        <city>Enschede</city>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Job van der Palen, Prof</last_name>
+      <email>j.vanderpalen@mst.nl</email>
+    </contact>
+    <investigator>
+      <last_name>Anke Lenferink, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Marjolein Brusse-Keizer, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>June 17, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 28, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 8, 2021</study_first_posted>
+  <last_update_submitted>September 6, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 6, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 8, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Medisch Spectrum Twente</investigator_affiliation>
+    <investigator_full_name>Anke Lenferink</investigator_full_name>
+    <investigator_title>PhD</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pulmonary Disease, Chronic Obstructive</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

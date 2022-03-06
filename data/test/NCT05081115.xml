@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="359">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05081115</url>
+  </required_header>
+  <id_info>
+    <org_study_id>FatebenefratelliH</org_study_id>
+    <nct_id>NCT05081115</nct_id>
+  </id_info>
+  <brief_title>Stress Echo 2030: the Novel ABCDE-(FGLPR) Protocol to Define the Future of Imaging</brief_title>
+  <acronym>SE2030</acronym>
+  <official_title>The International Stress Echo Study to to Define the Future of Imaging</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Fatebenefratelli Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>National Research Council, Institute of Clinical Physiology, Italy</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Mayo Clinic</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Hospital Sao Vicente de Paulo e Hospital de Cidade, Passo Fundo, Brasil</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Cardarelli Hospital, Naples, Italy</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Ospedale per gli Infermi, Faenza, Ravenna, Italy</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Institute of Family Medicine, University of Szeged, Hungary</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Montepulciano Hospital, Siena</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Pisa</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Hospital, Pleven, Bulgaria</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Tomsk National Research Medical Centre of the Russian</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Hospital, Szeged, Hungary</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Elisabeth Hospital, Hódmezővásárhely, Hungary</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>DASA, San Paolo, Brasil</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Banja Luka University Clinical Centre of the Republic of Srpska</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of A Coruna, La Coruna, Spain</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Antwerp University Hospital, Edegem, Belgium</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Università Luigi Vanvitelli della Campania</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Dolo Hospital, Venice, Italy</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Institute for Cardiovascular Diseases Dedinje, School of Medicine, Belgrade, Serbia</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Investigaciones Medicas</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Bieganski Hospital, Medical University, Lodz, Poland</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Medical University of Silesia, Katowice, Poland</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Federal University of Paranà, Curitiba, Brasil</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Siriraj Hospital, Mahidol University, Bangkok, Thailand.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Careggi Hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Instituto Nacional de Cardiologia Ignacio Chavez, Mexico City, Mexico</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Saint Petersburg State University Hospital, Russian Federation</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Clinical Hospital Zvezdara, Medical School, University of Belgrade, Serbia</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Center Serbia, Medical School, University of Belgrade, Serbia</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Hospital, Padua, Italy</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Sant'Anna School of Advanced Study, Pisa</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Hospital, Siena, Italy</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Vilnius University, Lithuania</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Parma</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Universita di Verona</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Malpighi Hospital, Bologna, Italy</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Modena and Reggio Emilia</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Presidio Ospedale San Paolo. Milano</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>IRCCS reggio emilia</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Association for Public Health &quot;Salute Pubblica&quot;, Brindisi, Italy</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University Hospital, Catania</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Ospedale San Camillo, Rome, Italy</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Salerno</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Algarve, Portugal.</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Heart Center, Hospital da Cruz Vermelha, Lisbon</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>University of Bari</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Hospital Motta di Livenza, Treviso</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Centro Cardiologico Monzino</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Italian Society of Echocardiography and Cardiovascular Imaging</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>San Luca Hospital, Lucca</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Hospital Sao José, Criciuma, Brasil</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Fatebenefratelli Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      With stress echo (SE) 2020 study, a new standard of practice in stress imaging was developed&#xD;
+      and disseminated: the ABCDE protocol for functional testing within and beyond CAD. ABCDE&#xD;
+      protocol was the fruit of SE 2020, and is the seed of SE 2030, which is articulated in 12&#xD;
+      projects: 1-SE in coronary artery disease (SECAD); 2- SE in diastolic heart failure (SEDIA);&#xD;
+      3-SE in hypertrophic cardiomyopathy (SEHCA); 4- SE post-chest radiotherapy and chemotherapy&#xD;
+      (SERA); 5- Artificial intelligence SE evaluation (AI-SEE); 6- Environmental stress&#xD;
+      echocardiography and air pollution (ESTER); 7- SE in repaired Tetralogy of Fallot (SETOF) ;&#xD;
+      8- SE in post-COVID-19 (SECOV); 9: Recovery by stress echo of conventionally unfit donor good&#xD;
+      hearts (RESURGE); 10- SE for mitral ischemic regurgitation (SEMIR); 11- SE in valvular heart&#xD;
+      disease (SEVA); 12- SE for coronary vasospasm (SESPASM). The study aims to recruit in the&#xD;
+      next 5 years (2021-2025) ≥10 000 patients followed for ≥5 years (up to 2030) from ≥20&#xD;
+      quality-controlled laboratories from ≥10 countries. In this COVID-19 era of sustainable&#xD;
+      health care delivery, SE2030 will provide the evidence to finally recommend SE as the optimal&#xD;
+      and versatile imaging modality for functional testing anywhere, any time and in any patient.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Stress echo (SE) 2020 is an international, multicenter, prospective, effectiveness study&#xD;
+      started in 2016 that conceptualized, disseminated and validated a new approach for functional&#xD;
+      testing within and beyond coronary artery disease (CAD). As originally planned, the study&#xD;
+      created the cultural, informatic and scientific infrastructure connecting high-volume,&#xD;
+      accredited SE labs, sharing common criteria of indication, execution, reporting and archiving&#xD;
+      SE. This approach allowed acquisition of original safety, feasibility, and outcome data in&#xD;
+      evidence-poor diagnostic fields, beyond the established core application of SE in CAD based&#xD;
+      on regional wall motion abnormality (RWMA) assessment. SE2020 standardized procedures,&#xD;
+      validated emerging signs, and integrated new information with established knowledge, helping&#xD;
+      to build a next-generation SE lab adopting the ABCDE protocol. Each and every step of&#xD;
+      ABCDE-SE provides independent and incremental prognostic information building on the prior&#xD;
+      steps and identifies distinct patient phenotypes and vulnerabilities possibly outlining&#xD;
+      different therapeutic targets: myocardial ischemia in step A, pulmonary congestion with&#xD;
+      B-lines in step B, preload reserve and left ventricular contractile reserve (LVCR) in step C,&#xD;
+      coronary microcirculation with coronary flow velocity reserve (CFVR) or real-time myocardial&#xD;
+      contrast echocardiography in step D, and cardiac autonomic balance with heart rate reserve&#xD;
+      (HRR) in step E. This shared practice can now be used as a new standard of care and a&#xD;
+      suitable platform for the next wave of studies converging towards SE 2030 and sharing with&#xD;
+      the older SE2020 study some distinct features: effectiveness study, performed in the real&#xD;
+      world with real doctors facing real clinical problems in real consecutive patients; upstream&#xD;
+      quality control of reading and direct entering of data from peripheral centers in the data&#xD;
+      bank so that evidence is obtained inside and outside highly specialized academic centers;&#xD;
+      identification of simple yet innovative objectives relevant to change the clinical practice.&#xD;
+      These features are completely different from efficacy studies, as when highly specialized&#xD;
+      centers recruit highly selected patients, the resulting data may be difficult to translate in&#xD;
+      clinical practice. For these reasons, the American Society of Echocardiography has identified&#xD;
+      already in 2013 as a top research need &quot;the development of a registry of echocardiographic&#xD;
+      information (and eventually images) that can serve as a platform for quality improvement and&#xD;
+      clinical research. Such registry data would be accessible to the research community&#xD;
+      facilitating a broad range of clinical research on the effectiveness of echocardiography for&#xD;
+      the improvement of patient management and outcome&quot;.&#xD;
+&#xD;
+      SE2030 will establish the platform of evidence to build the perfect SE test, suitable for all&#xD;
+      patients, anywhere, anytime, also quantitative and operator independent. The need for such an&#xD;
+      ideal test is especially vital in our times, when the economic crisis, the increased&#xD;
+      awareness of cancer and non-cancer radiation damage, the pressing need for climate-neutral&#xD;
+      choices in health care, and the unavoidable trend to externalize health care are potent&#xD;
+      propelling forces, boosted by COVID pandemics, for the diffusion of a low cost,&#xD;
+      radiation-free, climate-friendly, and portable technique such as cardiovascular ultrasound.&#xD;
+&#xD;
+      Methodology. Five important aspects will be shared by SE2030 in full continuity with SE2020,&#xD;
+      with minor adaptations and implementations.&#xD;
+&#xD;
+      Upstream quality control. The study is a prospective registry but it is necessary to have an&#xD;
+      upstream quality control with a certified reader from each center. A mandatory quality&#xD;
+      control is necessary for conventional and innovative parameters, since the volume of activity&#xD;
+      is necessary but not sufficient to ensure the quality of reading.&#xD;
+&#xD;
+      Peripheral reading and inclusivity. Once the reader has been certified, the peripheral&#xD;
+      reading will be directly entered in the data bank via the Redcap program property of the&#xD;
+      Italian Society of Echocardiography and Cardiovascular Imaging. This will allow a more&#xD;
+      flexible and rapid platform, less error in data inputting and better compliance with new&#xD;
+      regulations strictly protecting privacy in clinical studies. Another feature of SE2030 is&#xD;
+      inclusivity, so that any center meeting the selection criteria can be enrolled, allowing&#xD;
+      centers traditionally outside the editorial stage but producing high quality clinical&#xD;
+      activity to contribute to generate data relevant for the scientific community.&#xD;
+&#xD;
+      Uniform methodology. Each laboratory will adopt the preferred choice of stress among&#xD;
+      physical, pharmacologic or pacing stress according to standardized protocol in line with&#xD;
+      guidelines recommendations. Physical exercise includes semi-supine or upright bicycle&#xD;
+      exercise, and peak or post-treadmill exercise. Pharmacologic testing will be with dobutamine&#xD;
+      or vasodilators (dipyridamole, adenosine or regadenoson) according to physician preferences,&#xD;
+      patients' contraindications, local availability and cost. Pacing stress can be performed with&#xD;
+      transesophageal atrial pacing or with external programming of a permanent pacemaker.&#xD;
+      Independent of the chosen form of stress, execution, performance, archiving and&#xD;
+      interpretation of testing will follow a standardized format with the ABCDE protocol. From the&#xD;
+      technical viewpoint of success rate, a limiting step is step D. Step D is easy and feasible&#xD;
+      with vasodilator, less easy but still highly feasible with dobutamine, not easy and less&#xD;
+      feasible with semi-supine exercise, and virtually impossible with (peak or post) treadmill&#xD;
+      exercise. Therefore, our recommendation is to use semi-supine exercise, capturing coronary&#xD;
+      flow signal in early or intermediate stages of exercise when most flow increase occurs and&#xD;
+      feasibility is still high, before it drops at higher levels of exercise. When treadmill is&#xD;
+      used, step D is skipped; if information is deemed important, a vasodilator test can be&#xD;
+      performed at 30' after the end of exercise focused on CFVR and heart rate response.&#xD;
+&#xD;
+      All laboratories will be granted with free artificial intelligence (AI) software and&#xD;
+      encouraged to use ultrasound enhancing agents when needed to help leading edge technology&#xD;
+      upgrade and uniformity of methods across all study laboratories .&#xD;
+&#xD;
+      The full spectrum of enrolled patients evaluated for clinically relevant endpoints. The&#xD;
+      various projects will include patients with known or suspected CAD (project 1), known or&#xD;
+      suspected heart failure with preserved ejection fraction (project 2), hypertrophic&#xD;
+      cardiomyopathy (HCM, project 3), status post-chest radiotherapy and chemotherapy (project 4),&#xD;
+      repaired Tetralogy of Fallot (project 7), cardio-pulmonary involvement post-COVID 19 (project&#xD;
+      8), post-ischemic (project 10) and primary valvular heart disease (project 11) and suspected&#xD;
+      coronary vasospasm, a diagnosis frequently missed but important to recognize as a possible&#xD;
+      cause of life-threatening disease, which is easy to treat when promptly identified (project&#xD;
+      12). The 12 protocols running on the SE-ABCDE platform are spread all over the spectrum of&#xD;
+      cardiovascular disease, from severe valvular heart disease to suspected CAD in patients with&#xD;
+      normal LV function. Potential heart donors with brain death will be evaluated to assess the&#xD;
+      suitability for donation of hearts currently dismissed on the basis of clinical history&#xD;
+      criteria but in the absence of a cardiac functional evaluation (project 9). The study will&#xD;
+      exploit and possibly contribute to upgrade the leading edge quantitative and&#xD;
+      operator-independent technology of AI-SE and cardiac strain (project 5) for image&#xD;
+      interpretation and data analysis and will also evaluate the results of SE parameters in the&#xD;
+      context of powerful environmental modulators of stress results and/or long-term outcome such&#xD;
+      as air pollutants and medical radiation exposure analyzed through big data mining with AI&#xD;
+      (project 6). The overarching aim of the study is to make SE practice more uniform, versatile,&#xD;
+      standardized, quantitative and evidence-rich, producing data potentially relevant to change&#xD;
+      clinical practice.&#xD;
+&#xD;
+      Sponsored by a professional scientific society. The study is investigator-driven and not&#xD;
+      industry-driven. It is endorsed by an independent-not for profit professional society&#xD;
+      (Italian Society of Echocardiography and Cardiovascular Imaging) and not sponsored by&#xD;
+      industry, although some materials useful for project completion such as AI-software will be&#xD;
+      donated by industrial partners for recruiting centers.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 1, 2021</start_date>
+  <completion_date type="Anticipated">December 31, 2030</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2022</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>5 Years</target_duration>
+  <primary_outcome>
+    <measure>All cause death</measure>
+    <time_frame>5 years</time_frame>
+    <description>Death from any cause occurring between 5 years after the time of SE enrollment</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Cardiac death</measure>
+    <time_frame>5 years</time_frame>
+    <description>Death from cardiac cause occurring between 5 years after the time of SE enrollment</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Diagnosis of Cancer</measure>
+    <time_frame>5 years</time_frame>
+    <description>Diagnosis of cancer of any type occurring between 5 years after the time of SE enrollment</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Diagnosis of Acute Myocardial Infarction</measure>
+    <time_frame>5 years</time_frame>
+    <description>Diagnosi of hospitalization for acute Myocardial infarction occurring between 5 years after the time of SE enrollment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Implantable Cardioverter defibrillator implantation</measure>
+    <time_frame>5 years</time_frame>
+    <description>Implantable Cardioverter defibrillator implantation date occurring between 5 years after the time of SE enrollment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Coronary percutaneous revascolarization</measure>
+    <time_frame>5 years</time_frame>
+    <description>Coronary percutaneous revascolarization date occurring between 5 years after the time of SE enrollment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>CABG surgery</measure>
+    <time_frame>5 years</time_frame>
+    <description>CABG surgery date occurring between 5 years after the time of SE enrollment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Miectomy procedure</measure>
+    <time_frame>5 years</time_frame>
+    <description>Miectomy procedure date occurring between 5 years after the time of SE enrollment</description>
+  </secondary_outcome>
+  <number_of_groups>12</number_of_groups>
+  <enrollment type="Anticipated">10000</enrollment>
+  <condition>Coronary Artery Disease</condition>
+  <condition>Heart Failure</condition>
+  <condition>Hypertrophic Cardiomyopathy</condition>
+  <condition>Congenital Heart Disease</condition>
+  <condition>Valvular Heart Disease</condition>
+  <condition>Post-chest Radio/Chemiotherapy</condition>
+  <condition>Heart Transplantation</condition>
+  <arm_group>
+    <arm_group_label>ABCDE-Stress Echo in Coronary Artery Disease (SECAD project)</arm_group_label>
+    <description>All patients with known or suspected CAD will be evaluated with ABCDE-SE. Patients will be referred according to existing 2020 guidelines indication; status post heart transplant; pediatric patients and congenital heart disease ; peri-partum cardiomyopathy. Information on demographics, lifestyle and other risk factors and ongoing therapy will be collected. Data related to carotid disease and cardiac calcification will be collected. All patients will enter a regular clinical follow-up program with annotation of cardiovascular and non-cardiovascular endpoints, such as cancer or neurodegenerative disease, characterized by endothelial dysfunction (step D positivity) and autonomic dysfunction (step E positivity). A sample size of about 2 430 patients with a 5-year follow-up is required to provide 90% power with an alpha error of 5% to detect a difference for the primary endpoint of all-cause mortality among those with positive versus negative SE also considering a 20% drop-out.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>ABCDE-Stress Echo in Diastolic Heart failure (SEDIA project)</arm_group_label>
+    <description>Patients with dyspnea and known or suspected heart failure with preserved ejection fraction by 2019 European Society of Cardiology criteria will be enrolled and studied with cycle-ergometer in semi-supine SE (or treadmill). A score of at least 1 according to the criteria proposed by Pieske et al. is required for inclusion. In patients unable to exercise or did not allow sampling of CFVR, pharmacological test (vasodilator or dobutamine) is recommended. Assuming that the hypothesis of proportionality of hazard holds, as required for Cox proportional hazards regression, with a power of 90%, an attrition rate of 10% and a 5-year follow-up period of a sample size of 181 patients is required.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>ABCDE-Stress Echo in Hypertrophic Cardiomyopathy (SEHCA project)</arm_group_label>
+    <description>The primary aim is to evaluate the feasibility of comprehensive ABCDEFG-SE in the evaluation of HCM. The secondary aim is to assess the value of each of obtaained parameters in predicting response to specific therapy and other interventions. The tertiary aim is to assess the prognostic value of SE indices for prognostic stratification in the medium-long-term. HCM diagnosis will be based on existing guidelines. All patients will be followed-up. In patients and first-degree relatives with genetic characterization different phenotypes will be correlated with specific genotypes. Non-imaging or routine imaging non-ultrasound exams will be collected and analyzed with neural network analysis developed in project 5. We assume that a sample size of 338 patients is required.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>ABCDE-Stress Echo post-Radiotherapy (SERA project)</arm_group_label>
+    <description>Radiation-induced heart disease is associated with a significantly higher morbidity and mortality in cancer patients. The most frequent forms treated with chest radiation therapy are breast, lung, and esophageal cancers or lymphoma. The chances of developing radiation-induced heart disease increase with higher cumulative doses (&gt;30 Gray) in anterior or left sided irradiation, concomitant chemotherapy, presence of cardiovascular risk factors, and increased distance from time of irradiation. The estimated incidence of major cardiac events related to ischemic heart disease is 30% at 10 years post-treatment in female patients with radiotherapy post-breast cancer. The resulting epicardial artery stenosis, low grade inflammation , myocardial fibrosis, microvascular injury , alterations in autonomic balance, valve leaflets, and accelerated calcification can lead to significant alteration of all SE steps. A sample size of 507 patients is required and will be enrolled.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>ABCDE- Artificial Intelligence Stress echo (AI-SEE)</arm_group_label>
+    <description>The project have 2 separate aims: AI-SEE images: To make SE reading operator-independent for each of the essential reading steps (from A to E). AI-SEE data: To identify the links between clinical imaging and stress variables and develop a tailored personalized model for risk prediction. For each parameter assessment (positivity versus negativity), the area under the receiver-operating characteristic curve produced by the deep learning algorithm will be compared to that produced by the experienced cardiologist (cross-sectional analysis). AI-SEE images: a set of images from 1 250 patients from at least 10 laboratories will be sufficient to develop the algorithm (modeling set) subsequently prospectively tested on a different set of 1250 patients (validation set). AI-SEE data: a set of data from 2 500 patients from at least 10 laboratories will be sufficient to develop the algorithm (modeling set) subsequently tested on a different set of 2 500 patients (validation set).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>ABCDE- Environmental Stress Echocardiography, air pollution and medical radiation (ESTER project)</arm_group_label>
+    <description>The primary aim is to assess the inter-patient correlation between SE results and outdoor air pollution levels in patients matched for clinical, coronary anatomy (if available) and resting functional features. Secondary aim is to assess the effects of air quality and cumulative medical radiation exposure in prognostic modeling using traditional risk factors and SE results. All patients enrolled in projects 1 to 4 have information on house residency and work place in the data bank. The air epidemiology unit will obtain same day local air quality data from publicly available data sets from regional authority of environmental protection. For each patient and each test of the same patient, the values of 2 particulate and 4 gaseous pollutants will be collected when available. Data on medical radiation exposure will also be systematically collected. Of the 2 430 tests recruited in protocol 1, at least 600 will have access to geo-referenced air quality data.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SETOF Stress Echo in operated Tetralogy of Fallot.</arm_group_label>
+    <description>The primary aim is to evaluate the feasibility of right ventricular SE in patients with repaired Tetralogy of Fallot. The secondary aim is to assess the presence and amount of right ventricular contractile reserve and its correlation with indices of functional severity (NYHA class, cardiac natriuretic peptides, peak VO2, 6-min walking test, etc.). The tertiary aim is to assess the prognostic value of SE indices for prognostic stratification in the medium and long-term. Patients with repaired Tetralogy of Fallot or Fallot-like pathology evaluated at least 1 year after the last surgical or percutaneous procedure, will be recruited by regional reference centers for congenital heart disease. Additional inclusion criteria are age&gt;10 years, height&gt;140 cm, NYHA class I or II. Data on medical radiation exposure will also be systematically collected. A sample size of about 250 patients is required to detect a significant stress-induced increase in tricuspid annular plane systolic excursion.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Stress Echo for surveillance post-COVID-19 (SECOV).</arm_group_label>
+    <description>Cardiovascular abnormalities are observed in half of all COVID-19 patients and may range from RWMA to interstitial lung disease with alveolar capillary distress, global contractile dysfunction, coronary microvascular abnormalities and cardiac autonomic dysfunction. In addition, pulmonary hypertension and valves abnormalities are a possible consequence. The primary aim is to assess the feasibility of an integrated ABCDEFG approach in post-COVID 19 patients. Secondary aim is to prevalence of abnormalities of different SE parameters in populations stratified according to severity of COVID-19. Tertiary aim is to assess the prognostic value of individually considered or combined SE indices in prognostic modeling using traditional risk factors and COVID-19 variables. The relevant parameters related to COVID-19 infection will be collected .SE will be performed from 3 months to 3 years after infection. A sample size of 406 patients is required.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>RESURGE: Recovery by stress echo of conventionally unfit donor good hearts.</arm_group_label>
+    <description>The primary aim is to recruit hearts from donation which are currently excluded by conventional criteria as aged hearts in patients &gt; 55 years and ≤ 55 years with multiple risk factors. Secondary aim is to assess outcome in SE-driven transplantation compared to hearts transplanted in the same cardiac surgery centers on the basis of conventional criteria. Tertiary aim is to assess the additional prognostic value of other signs not used for decision-making. These aspects may include diastolic function, preload reserve, coronary microvascular function, and residual innervation of the intrinsic cardiac autonomic system through assessment of HRR in donor heart. In case of donor with age &gt;55 years o ≤ 55 years but with concomitant ≥ 3 risk factors (diabetes, hypertension, smoking, obesity, hypercholesterolemia) or history of cardiac arrest, the protocol will be applied.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SEMIR- Stress echo in ischemic mitral regurgitation</arm_group_label>
+    <description>The value of SE testing as an indicator of outcome will be assessed in patients with resting moderate mitral regurgitation (effective regurgitant orifice 0.2-0.39 cm2, and regurgitant volume 30-59 ml) of ischemic origin and angiographically documented CAD, and will enter a regular clinical follow-up program with annotation of cardiovascular and non-cardiovascular endpoints. Patients undergoing CABG with or without mitral repair or PCI with or without mitral valve intervention will be separately analyzed. A sample size of 173 patients per arm (CABG or PCI) is required. The primary hypothesis is that patients with moderate mitral regurgitation worsening of ≥ 1 grade during exercise have worse outcome on medical therapy and greater benefit from valve correction. The secondary hypothesis is that patients with worse SE pre-surgery parameters will have worse prognosis independent of regurgitation severity and treatment (medical therapy or valve repair).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SEVA: Stress Echocardiography in Valvular Heart Disease</arm_group_label>
+    <description>SE is recommended in valvular heart disease in patients characterized by a mismatch between resting transthoracic echocardiography findings and symptoms during exercise or activities of daily living: 1. Severe valve disease without symptoms; 2. Non-severe single- or multi-valve disease with symptoms; and 3. Symptomatic valve disease of indeterminate severity in context of low flow. The primary aim is to evaluate the feasibility of ABCDEFG-SE plus L (left atrium), P (pulmonary vascular reserve) and R (right ventricular function) in these patients. The secondary aim is to assess the correlation of each SE parameter with indices of functional severity (NYHA, cardiac natriuretic peptides, peak oxygen consumption, etc.). The tertiary aim is to assess the prognostic value of SE for prognostic stratification in the long-term. A sample size of about 217 patients per sub-group is required to evaluate the tertiary endpoint with 90% power and an alpha error of 5% .</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>SESPASM - SE for coronary vasospasm</arm_group_label>
+    <description>The primary aim is to evaluate the feasibility and safety of hyperventilation and exercise ABCDE-SE in patients with angiographically normal coronary arteries and an intermediate-to-high pre-test probability of coronary vasospasm of epicardial arteries or microvasculature. The secondary aim is to assess the positivity rate of A and D criteria in these patients, compared to standard ECG criteria. The tertiary aim is to assess the prognostic value of the different responses of SE leading to SE-driven therapies. Only patients with strong (Class 1) indication to vasospasm testing according to the recent guidelines will be initially considered. Patients prepared for exercise testing will undergo vasospasm testing in the morning with hyperventilation. If negative or equivocal at 5 minutes after the end of hyperventilation, the patient will start exercise with the usual protocol. A sample size of 513 patients is required with a 5-year follow-up for the composite endpoint.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>ABCDE-Stress Echo</intervention_name>
+    <description>Each laboratory will adopt the preferred Echo stress among physical pharmacologic or pacing stress according to guidelines recommendations. Pharmacologic testing will be with dobutamine or vasodilators (dipyridamole, adenosine or regadenoson) according to physician preferences, patients' contraindications, local availability and cost. Pacing stress can be performed with transesophageal or with external permanent pacemaker. A standardized format with the ABCDE protocol will be followedl. Step D is easy with vasodilator, less easy with dobutamine, not easy and less feasible - impossible with (peak or post) treadmill exercise. Our recommendation is to use semi-supine exercise, capturing coronary flow signal in early or intermediate stages when most flow increases and feasibility is still high. When treadmill is used, step D is skipped; if information is deemed important, a vasodilator test can be performed at 30' after the end of exercise focused on CFVR and heart rate response.</description>
+    <arm_group_label>ABCDE- Artificial Intelligence Stress echo (AI-SEE)</arm_group_label>
+    <arm_group_label>ABCDE- Environmental Stress Echocardiography, air pollution and medical radiation (ESTER project)</arm_group_label>
+    <arm_group_label>ABCDE-Stress Echo in Coronary Artery Disease (SECAD project)</arm_group_label>
+    <arm_group_label>ABCDE-Stress Echo in Diastolic Heart failure (SEDIA project)</arm_group_label>
+    <arm_group_label>ABCDE-Stress Echo in Hypertrophic Cardiomyopathy (SEHCA project)</arm_group_label>
+    <arm_group_label>ABCDE-Stress Echo post-Radiotherapy (SERA project)</arm_group_label>
+    <arm_group_label>RESURGE: Recovery by stress echo of conventionally unfit donor good hearts.</arm_group_label>
+    <arm_group_label>SEMIR- Stress echo in ischemic mitral regurgitation</arm_group_label>
+    <arm_group_label>SESPASM - SE for coronary vasospasm</arm_group_label>
+    <arm_group_label>SETOF Stress Echo in operated Tetralogy of Fallot.</arm_group_label>
+    <arm_group_label>SEVA: Stress Echocardiography in Valvular Heart Disease</arm_group_label>
+    <arm_group_label>Stress Echo for surveillance post-COVID-19 (SECOV).</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>SE diastolic assessment</intervention_name>
+    <description>The diastolic assessment should be included into all exercise SE tests by measuring standard Doppler-derived mitral inflow velocity, pulsed Tissue Doppler of mitral annulus, and retrograde tricuspid gradient of tricuspid regurgitation, at intermediate load of exercise and/or 1- 2 min after the end of the exercise. We will also assess, at baseline, intermediate load (50 watts) and peak-post stress: end-diastolic left ventricular volume index; end-systolic left ventricular volume index; ejection fraction and both stroke volume and cardiac output (to assess conventional contractile reserve); mitral regurgitation and left ventricular outflow tract obstruction; pulmonary artery systolic pressure; B-lines; right ventricular free wall strain to assess the presence of right ventricular dysfunction; left atrial volume index; peak atrial longitudinal strain; and mitral inflow E velocity and mitral annulus e' tissue Doppler velocity; global longitudinal strain (GLS).</description>
+    <arm_group_label>ABCDE- Artificial Intelligence Stress echo (AI-SEE)</arm_group_label>
+    <arm_group_label>ABCDE- Environmental Stress Echocardiography, air pollution and medical radiation (ESTER project)</arm_group_label>
+    <arm_group_label>ABCDE-Stress Echo in Diastolic Heart failure (SEDIA project)</arm_group_label>
+    <arm_group_label>ABCDE-Stress Echo in Hypertrophic Cardiomyopathy (SEHCA project)</arm_group_label>
+    <arm_group_label>ABCDE-Stress Echo post-Radiotherapy (SERA project)</arm_group_label>
+    <arm_group_label>SEMIR- Stress echo in ischemic mitral regurgitation</arm_group_label>
+    <arm_group_label>SESPASM - SE for coronary vasospasm</arm_group_label>
+    <arm_group_label>SETOF Stress Echo in operated Tetralogy of Fallot.</arm_group_label>
+    <arm_group_label>SEVA: Stress Echocardiography in Valvular Heart Disease</arm_group_label>
+    <arm_group_label>Stress Echo for surveillance post-COVID-19 (SECOV).</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>SE Right ventricular function assessment</intervention_name>
+    <description>Right ventricular function will be assessed at baseline and peak stress with variations of tricuspid annular plane systolic excursion, an index of right ventricular longitudinal function, and right ventricular fractional area change (a load-dependent index of right ventricular inlet function). To distinguish between genuine right ventricular dysfunction and/or pathological increases in pulmonary vascular load, we will combine systolic pulmonary artery pressure and right ventricular end-systolic area to calculate right ventricular end-systolic pressure-area relation. Peak systolic tricuspid annulus velocity and conventional indices of left ventricular systolic and diastolic function will also be measured at baseline and peak stress according to the standard ABCDE-FGLPR protocol. Right ventricular free wall strain combined with interventricular septum strain will be assessed. Left ventricular function, wall motion score index and E/e' at baseline and peak stress.</description>
+    <arm_group_label>ABCDE- Artificial Intelligence Stress echo (AI-SEE)</arm_group_label>
+    <arm_group_label>ABCDE- Environmental Stress Echocardiography, air pollution and medical radiation (ESTER project)</arm_group_label>
+    <arm_group_label>SEMIR- Stress echo in ischemic mitral regurgitation</arm_group_label>
+    <arm_group_label>SETOF Stress Echo in operated Tetralogy of Fallot.</arm_group_label>
+    <arm_group_label>SEVA: Stress Echocardiography in Valvular Heart Disease</arm_group_label>
+    <arm_group_label>Stress Echo for surveillance post-COVID-19 (SECOV).</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>SE in heart donors</intervention_name>
+    <description>The examination of the heart starts with a resting transthoracic echocardiography. Exclusion criteria are: resting wall motion score index&gt;1.0; ejection fraction &lt;45%; diastolic dysfunction of grade 2 or more; hemodynamically significant (moderate or higher) valve regurgitation or stenosis; severe left ventricular hypertrophy (left ventricular mass index &gt;175 g/m2). A pharmacological SE with dipyridamole (0.84 mg/kg over 6 minutes) is recommended. The diagnostic end-points are stress-induced RWMA and abnormalities in global LVCR. All images will be analyzed as per guidelines similarly to the other projects, with emphasis on wall motion score index and LVCR based on ejection fraction and force. The hearts excluded from donation for RWMA or abnormal LVCR could however be collected for heart valve preparation and evaluated by coronary angiography and by pathological examination according to local facilities.</description>
+    <arm_group_label>RESURGE: Recovery by stress echo of conventionally unfit donor good hearts.</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The various projects will include patients with known or suspected CAD (project 1), known&#xD;
+        or suspected heart failure with preserved ejection fraction (project 2), hypertrophic&#xD;
+        cardiomyopathy (HCM, project 3), status post-chest radiotherapy and chemotherapy (project&#xD;
+        4), repaired Tetralogy of Fallot (project 7), cardio-pulmonary involvement post-COVID 19&#xD;
+        (project 8), post-ischemic (project 10) and primary valvular heart disease (project 11) and&#xD;
+        suspected coronary vasospasm, a diagnosis frequently missed but important to recognize as a&#xD;
+        possible cause of life-threatening disease, which is easy to treat when promptly identified&#xD;
+        (project 12).&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        Known or suspected coronary artery disease Hypertrofic cardiomiopathy Repaired Tetralogy of&#xD;
+        Fallot Primary valvular disease&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+        -&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>75 Years</maximum_age>
+  </eligibility>
+  <overall_contact>
+    <last_name>Quirino Ciampi, MD</last_name>
+    <phone>+393389166076</phone>
+    <email>qciampi@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Fatebenefratelli Hospital</name>
+      <address>
+        <city>Benevento</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Quirino Ciampi, MD</last_name>
+      <phone>+393389166076</phone>
+    </contact>
+    <contact_backup>
+      <last_name>Quirino Ciampi, MD</last_name>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <reference>
+    <citation>Picano E, Ciampi Q, Citro R, D'Andrea A, Scali MC, Cortigiani L, Olivotto I, Mori F, Galderisi M, Costantino MF, Pratali L, Di Salvo G, Bossone E, Ferrara F, Gargani L, Rigo F, Gaibazzi N, Limongelli G, Pacileo G, Andreassi MG, Pinamonti B, Massa L, Torres MA, Miglioranza MH, Daros CB, de Castro E Silva Pretto JL, Beleslin B, Djordjevic-Dikic A, Varga A, Palinkas A, Agoston G, Gregori D, Trambaiolo P, Severino S, Arystan A, Paterni M, Carpeggiani C, Colonna P. Stress echo 2020: the international stress echo study in ischemic and non-ischemic heart disease. Cardiovasc Ultrasound. 2017 Jan 18;15(1):3. doi: 10.1186/s12947-016-0092-1.</citation>
+    <PMID>28100277</PMID>
+  </reference>
+  <reference>
+    <citation>Picano E, Ciampi Q, Wierzbowska-Drabik K, Urluescu ML, Morrone D, Carpeggiani C. The new clinical standard of integrated quadruple stress echocardiography with ABCD protocol. Cardiovasc Ultrasound. 2018 Oct 2;16(1):22. doi: 10.1186/s12947-018-0141-z. Review.</citation>
+    <PMID>30285774</PMID>
+  </reference>
+  <reference>
+    <citation>Zagatina A, Zhuravskaya N, Shmatov D, Ciampi Q, Carpeggiani C, Picano E; Stress Echo 2020 study group of the Italian Society of Echocardiography, Cardiovascular Imaging. Exercise stress echocardiography with ABCDE protocol in unexplained dyspnoea. Int J Cardiovasc Imaging. 2020 May;36(5):823-831. doi: 10.1007/s10554-020-01789-6. Epub 2020 Feb 8.</citation>
+    <PMID>32036487</PMID>
+  </reference>
+  <reference>
+    <citation>Pellikka PA, Douglas PS, Miller JG, Abraham TP, Baumann R, Buxton DB, Byrd BF 3rd, Chen P, Cook NL, Gardin JM, Hansen G, Houle HC, Husson S, Kaul S, Klein AL, Lang RM, Leong-Poi H, Lopez H, Mahmoud TM, Maslak S, McCulloch ML, Metz S, Nagueh SF, Pearlman AS, Pibarot P, Picard MH, Porter TR, Prater D, Rodriguez R, Sarano ME, Scherrer-Crosbie M, Shirali GS, Sinusas A, Slosky JJ, Sugeng L, Tatpati A, Villanueva FS, von Ramm OT, Weissman NJ, Zamani S. American Society of Echocardiography Cardiovascular Technology and Research Summit: a roadmap for 2020. J Am Soc Echocardiogr. 2013 Apr;26(4):325-38. doi: 10.1016/j.echo.2013.02.003.</citation>
+    <PMID>23537771</PMID>
+  </reference>
+  <reference>
+    <citation>Zoghbi WA, DiCarli MF, Blankstein R, Choi AD, Dilsizian V, Flachskampf FA, Geske JB, Grayburn PA, Jaffer FA, Kwong RY, Leipsic JA, Marwick TH, Nagel E, Nieman K, Raman SV, Salerno M, Sengupta PP, Shaw LJ, Chandrashekhar YS; ACC Imaging Council. Multimodality Cardiovascular Imaging in the Midst of the COVID-19 Pandemic: Ramping Up Safely to a New Normal. JACC Cardiovasc Imaging. 2020 Jul;13(7):1615-1626. doi: 10.1016/j.jcmg.2020.06.001. Epub 2020 Jun 12. Review.</citation>
+    <PMID>32646721</PMID>
+  </reference>
+  <reference>
+    <citation>Ciampi Q, Picano E, Paterni M, Daros CB, Simova I, de Castro E Silva Pretto JL, Scali MC, Gaibazzi N, Severino S, Djordjevic-Dikic A, Kasprzak JD, Zagatina A, Varga A, Lowenstein J, Merlo PM, Amor M, Celutkiene J, Perez JE, Di Salvo G, Galderisi M, Mori F, Costantino MF, Massa L, Dekleva M, Chaves DQ, Trambaiolo P, Citro R, Colonna P, Rigo F, Torres MAR, Monte I, Stankovic I, Neskovic A, Cortigiani L, Re F, Dodi C, D'Andrea A, Villari B, Arystan A, De Nes M, Carpeggiani C; Stress Echo 2020 study group of the Italian Society of Cardiovascular Echography. Quality control of regional wall motion analysis in stress Echo 2020. Int J Cardiol. 2017 Dec 15;249:479-485. doi: 10.1016/j.ijcard.2017.09.172. Epub 2017 Oct 1.</citation>
+    <PMID>28986062</PMID>
+  </reference>
+  <reference>
+    <citation>Sicari R, Nihoyannopoulos P, Evangelista A, Kasprzak J, Lancellotti P, Poldermans D, Voigt JU, Zamorano JL; European Association of Echocardiography. Stress Echocardiography Expert Consensus Statement--Executive Summary: European Association of Echocardiography (EAE) (a registered branch of the ESC). Eur Heart J. 2009 Feb;30(3):278-89. doi: 10.1093/eurheartj/ehn492. Epub 2008 Nov 11. Review.</citation>
+    <PMID>19001473</PMID>
+  </reference>
+  <reference>
+    <citation>Pieske B, Tschöpe C, de Boer RA, Fraser AG, Anker SD, Donal E, Edelmann F, Fu M, Guazzi M, Lam CSP, Lancellotti P, Melenovsky V, Morris DA, Nagel E, Pieske-Kraigher E, Ponikowski P, Solomon SD, Vasan RS, Rutten FH, Voors AA, Ruschitzka F, Paulus WJ, Seferovic P, Filippatos G. How to diagnose heart failure with preserved ejection fraction: the HFA-PEFF diagnostic algorithm: a consensus recommendation from the Heart Failure Association (HFA) of the European Society of Cardiology (ESC). Eur J Heart Fail. 2020 Mar;22(3):391-412. doi: 10.1002/ejhf.1741. Epub 2020 Mar 5.</citation>
+    <PMID>32133741</PMID>
+  </reference>
+  <reference>
+    <citation>Peteiro J, Bouzas-Mosquera A, Fernandez X, Monserrat L, Pazos P, Estevez-Loureiro R, Castro-Beiras A. Prognostic value of exercise echocardiography in patients with hypertrophic cardiomyopathy. J Am Soc Echocardiogr. 2012 Feb;25(2):182-9. doi: 10.1016/j.echo.2011.11.005. Epub 2011 Dec 3.</citation>
+    <PMID>22137254</PMID>
+  </reference>
+  <reference>
+    <citation>Cortigiani L, Rigo F, Gherardi S, Galderisi M, Sicari R, Picano E. Prognostic implications of coronary flow reserve on left anterior descending coronary artery in hypertrophic cardiomyopathy. Am J Cardiol. 2008 Dec 15;102(12):1718-23. doi: 10.1016/j.amjcard.2008.08.023. Epub 2008 Oct 9.</citation>
+    <PMID>19064030</PMID>
+  </reference>
+  <reference>
+    <citation>Magri D, Agostoni P, Sinagra G, Re F, Correale M, Limongelli G, Zachara E, Mastromarino V, Santolamazza C, Casenghi M, Pacileo G, Valente F, Morosin M, Musumeci B, Pagannone E, Maruotti A, Uguccioni M, Volpe M, Autore C. Clinical and prognostic impact of chronotropic incompetence in patients with hypertrophic cardiomyopathy. Int J Cardiol. 2018 Nov 15;271:125-131. doi: 10.1016/j.ijcard.2018.04.019. Epub 2018 Aug 4.</citation>
+    <PMID>30087038</PMID>
+  </reference>
+  <reference>
+    <citation>Ciampi Q, Olivotto I, Gardini C, Mori F, Peteiro J, Monserrat L, Fernandez X, Cortigiani L, Rigo F, Lopes LR, Cruz I, Cotrim C, Losi M, Betocchi S, Beleslin B, Tesic M, Dikic AD, Lazzeroni E, Lazzeroni D, Sicari R, Picano E. Prognostic role of stress echocardiography in hypertrophic cardiomyopathy: The International Stress Echo Registry. Int J Cardiol. 2016 Sep 15;219:331-8. doi: 10.1016/j.ijcard.2016.06.044. Epub 2016 Jun 15.</citation>
+    <PMID>27348413</PMID>
+  </reference>
+  <reference>
+    <citation>Authors/Task Force members, Elliott PM, Anastasakis A, Borger MA, Borggrefe M, Cecchi F, Charron P, Hagege AA, Lafont A, Limongelli G, Mahrholdt H, McKenna WJ, Mogensen J, Nihoyannopoulos P, Nistri S, Pieper PG, Pieske B, Rapezzi C, Rutten FH, Tillmanns C, Watkins H. 2014 ESC Guidelines on diagnosis and management of hypertrophic cardiomyopathy: the Task Force for the Diagnosis and Management of Hypertrophic Cardiomyopathy of the European Society of Cardiology (ESC). Eur Heart J. 2014 Oct 14;35(39):2733-79. doi: 10.1093/eurheartj/ehu284. Epub 2014 Aug 29.</citation>
+    <PMID>25173338</PMID>
+  </reference>
+  <reference>
+    <citation>Lancellotti P, Nkomo VT, Badano LP, Bergler-Klein J, Bogaert J, Davin L, Cosyns B, Coucke P, Dulgheru R, Edvardsen T, Gaemperli O, Galderisi M, Griffin B, Heidenreich PA, Nieman K, Plana JC, Port SC, Scherrer-Crosbie M, Schwartz RG, Sebag IA, Voigt JU, Wann S, Yang PC; European Society of Cardiology Working Groups on Nuclear Cardiology and Cardiac Computed Tomography and Cardiovascular Magnetic Resonance; American Society of Nuclear Cardiology; Society for Cardiovascular Magnetic Resonance; Society of Cardiovascular Computed Tomography. Expert consensus for multi-modality imaging evaluation of cardiovascular complications of radiotherapy in adults: a report from the European Association of Cardiovascular Imaging and the American Society of Echocardiography. Eur Heart J Cardiovasc Imaging. 2013 Aug;14(8):721-40. doi: 10.1093/ehjci/jet123. Erratum in: Eur Heart J Cardiovasc Imaging. 2013 Dec;14(12):1217.</citation>
+    <PMID>23847385</PMID>
+  </reference>
+  <reference>
+    <citation>Darby SC, Ewertz M, McGale P, Bennet AM, Blom-Goldman U, Brønnum D, Correa C, Cutter D, Gagliardi G, Gigante B, Jensen MB, Nisbet A, Peto R, Rahimi K, Taylor C, Hall P. Risk of ischemic heart disease in women after radiotherapy for breast cancer. N Engl J Med. 2013 Mar 14;368(11):987-98. doi: 10.1056/NEJMoa1209825.</citation>
+    <PMID>23484825</PMID>
+  </reference>
+  <reference>
+    <citation>Cui Y, Wilder J, Rietz C, Gigliotti A, Tang X, Shi Y, Guilmette R, Wang H, George G, Nilo de Magaldi E, Chu SG, Doyle-Eisele M, McDonald JD, Rosas IO, El-Chemaly S. Radiation-induced impairment in lung lymphatic vasculature. Lymphat Res Biol. 2014 Dec;12(4):238-50. doi: 10.1089/lrb.2014.0012.</citation>
+    <PMID>25412238</PMID>
+  </reference>
+  <reference>
+    <citation>Coumbe BGT, Groarke JD. Cardiovascular Autonomic Dysfunction in Patients with Cancer. Curr Cardiol Rep. 2018 Jul 3;20(8):69. doi: 10.1007/s11886-018-1010-y. Review.</citation>
+    <PMID>29971575</PMID>
+  </reference>
+  <reference>
+    <citation>Desai MY, Windecker S, Lancellotti P, Bax JJ, Griffin BP, Cahlon O, Johnston DR. Prevention, Diagnosis, and Management of Radiation-Associated Cardiac Disease: JACC Scientific Expert Panel. J Am Coll Cardiol. 2019 Aug 20;74(7):905-927. doi: 10.1016/j.jacc.2019.07.006.</citation>
+    <PMID>31416535</PMID>
+  </reference>
+  <reference>
+    <citation>Tadic M, Cuspidi C, Hering D, Venneri L, Grozdic-Milojevic I. Radiotherapy-induced right ventricular remodelling: The missing piece of the puzzle. Arch Cardiovasc Dis. 2017 Feb;110(2):116-123. doi: 10.1016/j.acvd.2016.10.003. Epub 2017 Jan 20. Review.</citation>
+    <PMID>28117246</PMID>
+  </reference>
+  <reference>
+    <citation>Lyon AR, Dent S, Stanway S, Earl H, Brezden-Masley C, Cohen-Solal A, Tocchetti CG, Moslehi JJ, Groarke JD, Bergler-Klein J, Khoo V, Tan LL, Anker MS, von Haehling S, Maack C, Pudil R, Barac A, Thavendiranathan P, Ky B, Neilan TG, Belenkov Y, Rosen SD, Iakobishvili Z, Sverdlov AL, Hajjar LA, Macedo AVS, Manisty C, Ciardiello F, Farmakis D, de Boer RA, Skouri H, Suter TM, Cardinale D, Witteles RM, Fradley MG, Herrmann J, Cornell RF, Wechelaker A, Mauro MJ, Milojkovic D, de Lavallade H, Ruschitzka F, Coats AJS, Seferovic PM, Chioncel O, Thum T, Bauersachs J, Andres MS, Wright DJ, López-Fernández T, Plummer C, Lenihan D. Baseline cardiovascular risk assessment in cancer patients scheduled to receive cardiotoxic cancer therapies: a position statement and new risk assessment tools from the Cardio-Oncology Study Group of the Heart Failure Association of the European Society of Cardiology in collaboration with the International Cardio-Oncology Society. Eur J Heart Fail. 2020 Nov;22(11):1945-1960. doi: 10.1002/ejhf.1920. Epub 2020 Aug 6.</citation>
+    <PMID>32463967</PMID>
+  </reference>
+  <reference>
+    <citation>Pellikka PA, Arruda-Olson A, Chaudhry FA, Chen MH, Marshall JE, Porter TR, Sawada SG. Guidelines for Performance, Interpretation, and Application of Stress Echocardiography in Ischemic Heart Disease: From the American Society of Echocardiography. J Am Soc Echocardiogr. 2020 Jan;33(1):1-41.e8. doi: 10.1016/j.echo.2019.07.001. Epub 2019 Nov 15.</citation>
+    <PMID>31740370</PMID>
+  </reference>
+  <reference>
+    <citation>Scali MC, Zagatina A, Ciampi Q, Cortigiani L, D'Andrea A, Daros CB, Zhuravskaya N, Kasprzak JD, Wierzbowska-Drabik K, Luis de Castro E Silva Pretto J, Djordjevic-Dikic A, Beleslin B, Petrovic M, Boskovic N, Tesic M, Monte I, Simova I, Vladova M, Boshchenko A, Vrublevsky A, Citro R, Amor M, Vargas Mieles PE, Arbucci R, Merlo PM, Lowenstein Haber DM, Dodi C, Rigo F, Gligorova S, Dekleva M, Severino S, Lattanzi F, Morrone D, Galderisi M, Torres MAR, Salustri A, Rodrìguez-Zanella H, Costantino FM, Varga A, Agoston G, Bossone E, Ferrara F, Gaibazzi N, Celutkiene J, Haberka M, Mori F, D'Alfonso MG, Reisenhofer B, Camarozano AC, Miglioranza MH, Szymczyk E, Wejner-Mik P, Wdowiak-Okrojek K, Preradovic-Kovacevic T, Bombardini T, Ostojic M, Nikolic A, Re F, Barbieri A, Di Salvo G, Merli E, Colonna P, Lorenzoni V, De Nes M, Paterni M, Carpeggiani C, Lowenstein J, Picano E; Stress Echo 2020 Study Group of the Italian Society of Echocardiography and Cardiovascular Imaging. Lung Ultrasound and Pulmonary Congestion During Stress Echocardiography. JACC Cardiovasc Imaging. 2020 Oct;13(10):2085-2095. doi: 10.1016/j.jcmg.2020.04.020. Epub 2020 Jul 15.</citation>
+    <PMID>32682714</PMID>
+  </reference>
+  <reference>
+    <citation>Bombardini T, Zagatina A, Ciampi Q, Cortigiani L, D'andrea A, Borguezan Daros C, Zhuravskaya N, Kasprzak JD, Wierzbowska-Drabik K, De Castro E Silva Pretto JL, Djordjevic-Dikic A, Beleslin B, Petrovic M, Boskovic N, Tesic M, Monte IP, Simova I, Vladova M, Boshchenko A, Ryabova T, Citro R, Amor M, Vargas Mieles PE, Arbucci R, Dodi C, Rigo F, Gligorova S, Dekleva M, Severino S, Torres MA, Salustri A, Rodrìguez-Zanella H, Costantino FM, Varga A, Agoston G, Bossone E, Ferrara F, Gaibazzi N, Rabia G, Celutkiene J, Haberka M, Mori F, D'alfonso MG, Reisenhofer B, Camarozano AC, Salamé M, Szymczyk E, Wejner-Mik P, Wdowiak-Okrojek K, Kovacevic Preradovic T, Lattanzi F, Morrone D, Scali MC, Ostojic M, Nikolic A, Re F, Barbieri A, Di Salvo G, Colonna P, De Nes M, Paterni M, Merlo PM, Lowenstein J, Carpeggiani C, Gregori D, Picano E; Stress Echo 2020 study group of the Italian Society of Echocardiography and Cardiovascular Imaging. Feasibility and value of two-dimensional volumetric stress echocardiography. Minerva Cardioangiol. 2020 Jul 10. doi: 10.23736/S0026-4725.20.05304-9. [Epub ahead of print]</citation>
+    <PMID>32657562</PMID>
+  </reference>
+  <reference>
+    <citation>Ciampi Q, Zagatina A, Cortigiani L, Gaibazzi N, Borguezan Daros C, Zhuravskaya N, Wierzbowska-Drabik K, Kasprzak JD, de Castro E Silva Pretto JL, D'Andrea A, Djordjevic-Dikic A, Monte I, Simova I, Boshchenko A, Citro R, Amor M, Merlo PM, Dodi C, Rigo F, Gligorova S, Dekleva M, Severino S, Lattanzi F, Scali MC, Vrublevsky A, Torres MAR, Salustri A, Rodrìguez-Zanella H, Costantino FM, Varga A, Bossone E, Colonna P, De Nes M, Paterni M, Carpeggiani C, Lowenstein J, Gregori D, Picano E; Stress Echo 2020 Study Group of the Italian Society of Echocardiography and Cardiovascular Imaging. Functional, Anatomical, and Prognostic Correlates of Coronary Flow Velocity Reserve During Stress Echocardiography. J Am Coll Cardiol. 2019 Nov 5;74(18):2278-2291. doi: 10.1016/j.jacc.2019.08.1046.</citation>
+    <PMID>31672185</PMID>
+  </reference>
+  <reference>
+    <citation>Cortigiani L, Carpeggiani C, Landi P, Raciti M, Bovenzi F, Picano E. Usefulness of Blunted Heart Rate Reserve as an Imaging-Independent Prognostic Predictor During Dipyridamole Stress Echocardiography. Am J Cardiol. 2019 Sep 15;124(6):972-977. doi: 10.1016/j.amjcard.2019.06.017. Epub 2019 Jun 26.</citation>
+    <PMID>31324358</PMID>
+  </reference>
+  <reference>
+    <citation>Dorent R, Gandjbakhch E, Goéminne C, Ivanes F, Sebbag L, Bauer F, Epailly E, Boissonnat P, Nubret K, Amour J, Vermes E, Ou P, Guendouz S, Chevalier P, Lebreton G, Flecher E, Obadia JF, Logeart D, de Groote P. Assessment of potential heart donors: A statement from the French heart transplant community. Arch Cardiovasc Dis. 2018 Feb;111(2):126-139. doi: 10.1016/j.acvd.2017.12.001. Epub 2017 Dec 23. Review.</citation>
+    <PMID>29277435</PMID>
+  </reference>
+  <reference>
+    <citation>Bombardini T, Pacini D, Potena L, Maccherini M, Kovacevic-Preradovic T, Picano E. Heart rate reserve during dipyridamole stress test applied to potential heart donors in brain death. Minerva Cardioangiol. 2020 Jun;68(3):249-257. doi: 10.23736/S0026-4725.20.05093-8. Epub 2020 Feb 25.</citation>
+    <PMID>32100982</PMID>
+  </reference>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>October 4, 2021</study_first_submitted>
+  <study_first_submitted_qc>October 4, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 18, 2021</study_first_posted>
+  <last_update_submitted>October 18, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 18, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 26, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>effectiveness</keyword>
+  <keyword>registry</keyword>
+  <keyword>stress echo</keyword>
+  <keyword>sustainability</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Coronary Artery Disease</mesh_term>
+    <mesh_term>Heart Diseases</mesh_term>
+    <mesh_term>Cardiomyopathies</mesh_term>
+    <mesh_term>Heart Defects, Congenital</mesh_term>
+    <mesh_term>Cardiomyopathy, Hypertrophic</mesh_term>
+    <mesh_term>Heart Valve Diseases</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

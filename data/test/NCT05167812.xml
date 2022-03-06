@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="262">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05167812</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P_2022</org_study_id>
+    <nct_id>NCT05167812</nct_id>
+  </id_info>
+  <brief_title>On Pregnancy After Losses - OPAL Study</brief_title>
+  <acronym>OPAL</acronym>
+  <official_title>On Pregnancy After Losses; Predicting Pregnancy Success in Couples With Recurrent Pregnancy Loss</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Leiden University Medical Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Leiden University Medical Center</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Rationale:&#xD;
+&#xD;
+      Recurrent pregnancy loss (RPL) is defined as the loss of two or more conceptions before the&#xD;
+      fetus reaches viability. It affects 1-3% of all fertile couples and despite extensive&#xD;
+      diagnostic work-up, in only around 30% an underlying cause is identified. Several factors may&#xD;
+      increase the risk for miscarriage, but the chance of a normal, successful pregnancy is still&#xD;
+      high. So, in supporting couples with RPL, an important part of the clinical management of&#xD;
+      these couples is to provide couples with accurate prognoses for their next pregnancy. The&#xD;
+      main limitation in current prediction models is the lack of a sufficiently large cohort,&#xD;
+      adjustment for relevant risk factors such that prognoses are individualized, and separating&#xD;
+      between the cumulative live birth rate and the chance that the next conception will lead to a&#xD;
+      live birth. In this project therefore we aim to make an individualized prognosis regarding&#xD;
+      the future chance of live birth and the chance of a healthy child. This could then lead to&#xD;
+      improved wellbeing and the ability of making future reproductive choices.&#xD;
+&#xD;
+      Objectives:&#xD;
+&#xD;
+      Primary objective: to predict the chance of a live birth within three years after intake in&#xD;
+      couples with unexplained RPL&#xD;
+&#xD;
+      Secondary objectives:&#xD;
+&#xD;
+        -  to predict the chance of an ongoing pregnancy (&gt;12 weeks) in the next pregnancy in&#xD;
+           couples with unexplained RPL.&#xD;
+&#xD;
+        -  to predict the chance of a complicated pregnancy in couples with unexplained RPL&#xD;
+&#xD;
+        -  to predict the chance dynamically of a live birth given the outcome of a pregnancy after&#xD;
+           intake&#xD;
+&#xD;
+        -  to predict the chance of above outcomes in couples with a known cause for RPL&#xD;
+&#xD;
+      Study design: A multicenter retrospective and prospective cohort study.&#xD;
+&#xD;
+      Study population:&#xD;
+&#xD;
+      Couples with females aged ≤42 years in both prospective and retrospective inclusion.&#xD;
+&#xD;
+      Retrospective inclusion: Couples with RPL who visited the RPL outpatient clinic in&#xD;
+      participating centers from 2006 until the start of this study.&#xD;
+&#xD;
+      Prospective inclusion: new couples with RPL who will visit the clinic from 2021 onwards.&#xD;
+&#xD;
+      Main study parameters/endpoints:&#xD;
+&#xD;
+        -  Pregnancy outcomes since intake&#xD;
+&#xD;
+        -  Time to pregnancy since intake&#xD;
+&#xD;
+        -  Time between pregnancies since intake&#xD;
+&#xD;
+        -  Pregnancy complications since intake&#xD;
+&#xD;
+        -  All outcomes will be obtained up to a maximum of five years after intake&#xD;
+&#xD;
+        -  Patient characteristics: cause for RPL, female age, male age, previous live birth,&#xD;
+           duration of RPL (since diagnosis)&#xD;
+&#xD;
+      Nature and extent of the burden and risks associated with participation, benefit and group&#xD;
+      relatedness:&#xD;
+&#xD;
+      Participating in this study does not yield any risks. There could be a burden in case of&#xD;
+      retrospectively collecting data. Participating does not yield direct benefits for the&#xD;
+      subjects, however it may lead to future improvements of care for couples with RPL.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">February 1, 2022</start_date>
+  <completion_date type="Anticipated">February 1, 2028</completion_date>
+  <primary_completion_date type="Anticipated">February 1, 2026</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>3 Years</target_duration>
+  <primary_outcome>
+    <measure>Live birth of RPL couples within three years assessed by ultrasound or hCG after intake at the RPL clinic</measure>
+    <time_frame>3 - 5 years</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Pregnancy outcomes since intake (miscarriage, ongoing pregnancy, live birth) assessed by ultrasound, hCG, or &quot;take home baby&quot;</measure>
+    <time_frame>3 - 5 years</time_frame>
+    <description>miscarriages are assessed via ultrasound or pregnancy tests (positive test later followed by negative test). Ongoing pregnancy when ultrasound assessment is known but further follow up is missing, and live birth when pregnancy ends with the live birth of a child.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time to pregnancy since intake measured in days</measure>
+    <time_frame>3 - 5 years</time_frame>
+    <description>Time that has passed since couple had an intake at the RPL clinic until first pregnancy, measured in days until the first day of the last menstruation of the first pregnancy after intake</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Time between pregnancies since intake measured in days</measure>
+    <time_frame>3 - 5 years</time_frame>
+    <description>Time that has passed between each pregnancy a couple had since intake at the RPL clinic, measured in days between the end of the last pregnancy and until the first day of the last menstruation of the new pregnancy</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Pregnancy complications since intake as registered by gynecologist or midwife</measure>
+    <time_frame>3 - 5 years</time_frame>
+    <description>All complications during pregnancy and during labor registered by caregiver (gynecologist or midwife) in all pregnancies after intake at the RPL clinic</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">1931</enrollment>
+  <condition>Recurrent Pregnancy Loss</condition>
+  <arm_group>
+    <arm_group_label>Prospective cohort of couples with RPL</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Retrospective cohort op couples with RPL</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Observation of pregnancies after intake</intervention_name>
+    <description>Monitoring pregnancies after intake at a dedicated recurrent pregnancy loss clinic to predict pregnancy success chances in couples with recurrent pregnancy loss</description>
+    <arm_group_label>Prospective cohort of couples with RPL</arm_group_label>
+    <arm_group_label>Retrospective cohort op couples with RPL</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Couples with RPL who have visited or will visit an &quot;early pregnancy unit&quot; or &quot;RPL&#xD;
+        outpatient clinic&quot; of the Leiden University Medical Centre (LUMC), Erasmus Medical Centre&#xD;
+        (EMC) or Amsterdam University Medical Centre (Amsterdam UMC) from 2006 onwards.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        Couples that fulfill the following criteria are included (according to the ESHRE Recurrent&#xD;
+        Pregnancy Loss Guideline 2017):&#xD;
+&#xD;
+          -  RPL in the current relationship: defined as the loss of ≥ 2 preceding pregnancies.&#xD;
+             These pregnancy losses include:&#xD;
+&#xD;
+               -  all pregnancy losses before the 24th week of gestation verified by&#xD;
+                  ultrasonography or uterine curettage and histology&#xD;
+&#xD;
+               -  non-visualized pregnancies (including biochemical pregnancy losses and/or&#xD;
+                  resolved and treated pregnancies of unknown location), verified by positive urine&#xD;
+                  or serum hCG&#xD;
+&#xD;
+               -  both consecutive and non-consecutive pregnancy losses&#xD;
+&#xD;
+          -  Dutch or English speaking couple&#xD;
+&#xD;
+          -  Couples with females aged ≤42 years at intake&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Mental or legal incapability of either the male or female of the couple&#xD;
+&#xD;
+          -  Loss of &lt; 2 pregnancies in current relationship&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>42 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Angelos Youssef, MD</last_name>
+    <phone>+31715262896</phone>
+    <email>a.youssef@lumc.nl</email>
+  </overall_contact>
+  <verification_date>December 2021</verification_date>
+  <study_first_submitted>December 7, 2021</study_first_submitted>
+  <study_first_submitted_qc>December 21, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 22, 2021</study_first_posted>
+  <last_update_submitted>December 21, 2021</last_update_submitted>
+  <last_update_submitted_qc>December 21, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 22, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Leiden University Medical Center</investigator_affiliation>
+    <investigator_full_name>ayoussef</investigator_full_name>
+    <investigator_title>Drs. A. Youssef, Medical Doctor, Principal Investigator,</investigator_title>
+  </responsible_party>
+  <keyword>Prediction</keyword>
+  <keyword>Prognosis</keyword>
+  <keyword>Live birth</keyword>
+  <keyword>Pregnancy success chance</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Abortion, Habitual</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

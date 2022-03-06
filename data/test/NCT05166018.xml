@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="343">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05166018</url>
+  </required_header>
+  <id_info>
+    <org_study_id>DeepSurgeryMH_01</org_study_id>
+    <nct_id>NCT05166018</nct_id>
+  </id_info>
+  <brief_title>Optimization of a Tool for Predicting Postoperative Clinical Evolution After Lumbar Surgery</brief_title>
+  <acronym>DeepSurgery</acronym>
+  <official_title>Optimization of a Tool for Predicting Postoperative Clinical Evolution After Lumbar Surgery Multicenter Longitudinal Prospective Study on a National Cohort Clinical Evolution After Lumbar Surgery</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Cortexx Medical Intelligence</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Ramsay Générale de Santé</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Elsan</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>Malakoff-Humanis</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Cortexx Medical Intelligence</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The objective of the study is the establishment, optimization and prospective evaluation of a&#xD;
+      digital predictive platform capable of providing for each lumbar spine operated patient a&#xD;
+      clinical predictive status: Patient green (success) orange (treatment failure ), red patient&#xD;
+      (complication) in order to optimize his medical care up to 6 months.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 15, 2021</start_date>
+  <completion_date type="Anticipated">May 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 30, 2021</primary_completion_date>
+  <phase>Phase 2/Phase 3</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>N/A</allocation>
+    <intervention_model>Single Group Assignment</intervention_model>
+    <intervention_model_description>The patient will be required to complete a guided digital questionnaire at each follow-up assessment.&#xD;
+This questionnaire will be completed online by the patient in the Surgery Medical Outcomes (SuMO system) system developped by the Society Cortexx Medical Intelligence. The system access procedures and connection codes will be known to the patient by the investigating physician. Patients will, throughout the study, be automatically informed via the SUMO system of the availability of data to be completed. The security of patient data is guaranteed by encrypted and separate storage of medical data, in order to comply with applicable regulatory requirements.</intervention_model_description>
+    <primary_purpose>Diagnostic</primary_purpose>
+    <masking>None (Open Label)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Optimization of a tool for predicting the postoperative clinical course after lumbar surgery</measure>
+    <time_frame>14 months</time_frame>
+    <description>Establishment and prospective evaluation of a predictive tool with the area under the receiver operating characteristic (AUROC) metric &gt;= 80% Sensitivity &gt;= 90% Specificity &gt;= 60% in the capacity of providing for each back operated patient a clinical predictive status: green patient (success) orange (treatment failure), red patient (complication).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Collection of optimized data in the patient operative long terms care</measure>
+    <time_frame>14 months</time_frame>
+    <description>Implementation, optimization and evaluation of a digital tool for collecting patient data on the episode of care&#xD;
+Outcome (unit) - Result expected assessment time connection means preoperatively (second/connection) - 300s time 'use and navigation (second) - 1800s number of connections made by the patient preoperatively (number) - 5 number of connections / day before operation (number) - 1 number of use (number) - 15 number of drops / connection (Ratio%) - &lt;20% number of lost view (no connection&gt; 20 days) (Ratio%) - &lt;10% evaluation of average using time post-operative (second/connections) - 300 Time of use and navigation (second) - 1800 number of connections made by the patient in post -operative (number) - 5 number of connections / day after operation (number)- 1 number of uses (number) - 15 number of withdrawals (Ratio%) - &lt;20% number of lost to follow-up (no connection&gt; 20 days) (Ratio%) - &lt;10% number of documents analyzed / patient (number) - 10</description>
+  </secondary_outcome>
+  <number_of_arms>1</number_of_arms>
+  <enrollment type="Anticipated">220</enrollment>
+  <condition>Spine Disease</condition>
+  <condition>Spinal Fusion</condition>
+  <condition>Surgery</condition>
+  <condition>Spine Degeneration</condition>
+  <arm_group>
+    <arm_group_label>SuMO Patient</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>92 data will be collected during the patient care episode. Among the 92 criteria, 63 are pre-operative, 29 are post-operative in order to provide an evolutionary prediction during the management of the patient.&#xD;
+Post-operative follow-up criteria making it possible to establish the scalability or non-scalability of the quality of life after the surgical procedure.&#xD;
+The results will be compared to the prediction proposed by the machine learning algorithm.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>SuMO Patient</intervention_name>
+    <description>The current study is interventional insofar as the patient is collecting all of his socio-medical information. The analysis of the data provided by the patient makes it possible to establish a long-term prognosis for the patient but does not in itself constitute a parallel medical approach.&#xD;
+SUMO allows the surgeon to transmit post-operative advice developed by the surgeons themselves.</description>
+    <arm_group_label>SuMO Patient</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Major patient&#xD;
+&#xD;
+          -  Eligible for lumbar decompression surgery, instrumented or not&#xD;
+&#xD;
+          -  Social insured&#xD;
+&#xD;
+          -  Having given consent&#xD;
+&#xD;
+          -  Eligible for the acts described in Protocole&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Minor&#xD;
+&#xD;
+          -  Pregnant or breastfeeding woman&#xD;
+&#xD;
+          -  Safeguard measure or guardianship&#xD;
+&#xD;
+          -  Arthrodesis on more than 2 levels&#xD;
+&#xD;
+          -  Interventions linked to a traumatic or infectious context are excluded&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Arthur André, MD</last_name>
+    <phone>+33 6 25 40 60 69</phone>
+    <email>arthur.andre@cortexxmi.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Jean-Jacques Vignaux</last_name>
+    <phone>0676706706</phone>
+    <email>contact@cortexxmi.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Polyclinique Jean Villar</name>
+      <address>
+        <city>Bruges</city>
+        <state>Nouvelle Aquitaine</state>
+        <zip>33520</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ibrahim Obeid, MD</last_name>
+      <phone>+33 6 99 73 91 57</phone>
+      <email>ibrahim.obeid@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Ibrahim Obeid, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Clinique Geoffroy Saint-Hilaire</name>
+      <address>
+        <city>Paris</city>
+        <zip>75005</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Arthur André, MD</last_name>
+      <phone>0625406069</phone>
+      <email>arthur.andre@cortexxmi.com</email>
+    </contact>
+    <investigator>
+      <last_name>Arthur André, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <link>
+    <url>https://play.google.com/store/apps/details?id=com.sumoapp&amp;hl=fr</url>
+    <description>Mobile application for collecting patient's data</description>
+  </link>
+  <results_reference>
+    <citation>André A, Peyrou B, Carpentier A, Vignaux JJ. Feasibility and Assessment of a Machine Learning-Based Predictive Model of Outcome After Lumbar Decompression Surgery. Global Spine J. 2020 Nov 19:2192568220969373. doi: 10.1177/2192568220969373. [Epub ahead of print]</citation>
+    <PMID>33207969</PMID>
+  </results_reference>
+  <verification_date>December 2021</verification_date>
+  <study_first_submitted>November 16, 2021</study_first_submitted>
+  <study_first_submitted_qc>December 8, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 21, 2021</study_first_posted>
+  <last_update_submitted>December 8, 2021</last_update_submitted>
+  <last_update_submitted_qc>December 8, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 21, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Spinal Diseases</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <study_docs>
+    <study_doc>
+      <doc_id>SUMO</doc_id>
+      <doc_type>Individual Participant Data Set</doc_type>
+      <doc_url>https://sumo.doc.cortexxmi.com/</doc_url>
+    </study_doc>
+  </study_docs>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

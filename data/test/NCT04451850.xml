@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="411">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04451850</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2019-1371</org_study_id>
+    <nct_id>NCT04451850</nct_id>
+  </id_info>
+  <brief_title>HRV as a Marker of Treatment Response in PAH Arterial Hypertension</brief_title>
+  <official_title>Heart Rate Variability (HRV) as a Marker of Treatment Response in Pulmonary Arterial Hypertension (PAH)</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of Cincinnati</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of Cincinnati</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a prospective longitudinal cohort study to determine the value of HRV obtained using&#xD;
+      noninvasive actigraphy to quantify the response to pulmonary vasodilator therapy in newly&#xD;
+      diagnosed PAH patients&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This single center prospective longitudinal cohort study will take place at the University of&#xD;
+      Cincinnati (UC). We will screen adult patients newly diagnosed with PAH and placed on&#xD;
+      targeted pulmonary vasodilator therapy by their treating physician for enrollment.&#xD;
+&#xD;
+      We will enroll 35 eligible participants over a two-year period. HRV will be measured using&#xD;
+      the Polar™ H10 wearable chest actigraphy device in conjunction with analytic software to&#xD;
+      capture HRV data.&#xD;
+&#xD;
+      After enrollment and completion of the baseline visit, study participants will receive chest&#xD;
+      actigraphy device to measure their heart rate for a two hour period twice a week during study&#xD;
+      participation. Follow up research visits will be conducted at one-month, 3-months, and&#xD;
+      6-months to sync the actigraphy device and assess any AE's.&#xD;
+&#xD;
+      In-between these visits, study staff will communicate with participants at two weeks, two&#xD;
+      months, 4 months, and 5 months, to identify and address any issues with study actigraphic&#xD;
+      device, assess any adverse events and maintain regular contact with study participants.&#xD;
+&#xD;
+      Throughout study participation, subjects will continue routine clinical care at the direction&#xD;
+      of their treating physician as needed.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">June 1, 2021</start_date>
+  <completion_date type="Anticipated">June 30, 2023</completion_date>
+  <primary_completion_date type="Anticipated">June 30, 2023</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Change from baseline in HRV via RMSSD</measure>
+    <time_frame>6 months</time_frame>
+    <description>Change from baseline in Root Mean Squared Successive Differences (RMSSD) measure of Heart Rate variability in patients on targeted therapy</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Change from baseline in HRV via SDNN</measure>
+    <time_frame>6 months</time_frame>
+    <description>Change from baseline in Standard Deviation of N-to-N (SDNN) measure of Heart Rate Variability in patients on targeted therapy</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation with Cardiac Magnetic Resonance Imaging Variables</measure>
+    <time_frame>6 months</time_frame>
+    <description>Correlation between RMSSD and SDNN with key cardiac Magnetic Resonance Imaging Variables of PAH disease, the Right Ventricular Stroke Volume</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation with NTproBNP</measure>
+    <time_frame>6 months</time_frame>
+    <description>Correlation between RMSSD and SDNN with N-terminal Pro-B-Type Natriuretic Peptide (NTproBNP), a marker of PAH disease severity and treatment response</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation with REVEAL 2.0 Risk Score</measure>
+    <time_frame>6 months</time_frame>
+    <description>Correlation between RMSSD and SDNN with the REVEAL 2.0 Risk score, a measure of PAH prognosis</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Correlation with CAMPHOR Quality of Life Score</measure>
+    <time_frame>6 months</time_frame>
+    <description>Correlation between RMSSD and SDNN with the Cambridge Pulmonary Hypertension Outcome Review (CAMPHOR) score, a 3-domain quality of life assessment tool specific to PAH patients</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">35</enrollment>
+  <condition>Pulmonary Arterial Hypertension</condition>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Noninvasive actigraphy monitor</intervention_name>
+    <description>Noninvasive chest-mounted actigraphic device to be worn for 2 hour intervals two times per week during the six month study participation.</description>
+    <other_name>Polar H10 Heart Rate Monitor</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients seen at the University of Cincinnati PAH Clinic in Cincinnati, Ohio&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  All adult patients (ages 18-70) of any functional class with a new diagnosis of PAH&#xD;
+             (World health Organization Group 1) placed on targeted therapy&#xD;
+&#xD;
+          -  Eligible PAH etiologies include idiopathic PAH, associated with connective tissue&#xD;
+             disease, human immunodeficiency virus, hereditary, or portopulmonary hypertension&#xD;
+&#xD;
+          -  Right heart catheterization (RHC) hemodynamics with a mean pulmonary arterial pressure&#xD;
+             &gt;=20 millimetres of mercury at rest, a pulmonary capillary wedge pressure &lt;= 15&#xD;
+             millimetres of mercury, and a pulmonary vascular resistance &gt;= 3 woods units&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Inability to undergo (non-contrast) Magnetic Resonance Imaging (MRI) testing&#xD;
+&#xD;
+          -  On chronotropic agents (Beta-Blockers, anti-arrhythmic medications, etc.) that could&#xD;
+             affect the calculation and interpretation of HRV measures&#xD;
+&#xD;
+          -  Conditions that could affect the accuracy of MRI imaging, including a history&#xD;
+             previously repaired or unrepaired congenital heart defects, ventricular or atrial&#xD;
+             septal defects, or other anatomic cardiac abnormalities)&#xD;
+&#xD;
+          -  Inability to complete a six-minute walk test&#xD;
+&#xD;
+          -  Currently being on targeted PAH therapy at the time of consent and enrollment&#xD;
+&#xD;
+          -  Thyroid disease, known arrhythmias in the past six months, uncontrolled anemia with a&#xD;
+             hemoglobin less than 7 grams per deciliter, untreated coronary artery disease or a&#xD;
+             diagnosis of myocardial infarction in the past 6 months, the presence of a cardiac&#xD;
+             pacemaker&#xD;
+&#xD;
+          -  Clinically significant lung disease (including pulmonary function testing forced vital&#xD;
+             capacity &lt; 60%), a positive ventilation/perfusion scan, uncontrolled sleep apnea not&#xD;
+             adherent with noninvasive positive pressure ventilation&#xD;
+&#xD;
+          -  Unable to consent, pregnant women, and prisoners.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>70 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Arun Jose, MD, MS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of Cincinnati</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Susan McMahan, BSN, RN, CCRP</last_name>
+    <phone>513-558-4376</phone>
+    <email>susan.mcmahan@uc.edu</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>University of Cincinnati</name>
+      <address>
+        <city>Cincinnati</city>
+        <state>Ohio</state>
+        <zip>45267</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Arun Jose, MD, MS</last_name>
+      <phone>513-558-7451</phone>
+      <email>josean@ucmail.uc.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Susan Sellers, BSN, CCRP</last_name>
+      <phone>513-558-4376</phone>
+      <email>susan.mcmahan@uc.edu</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Heresi GA, Dweik RA. Strengths and limitations of the six-minute-walk test: a model biomarker study in idiopathic pulmonary fibrosis. Am J Respir Crit Care Med. 2011 May 1;183(9):1122-4. doi: 10.1164/rccm.201012-2079ED.</citation>
+    <PMID>21531951</PMID>
+  </reference>
+  <reference>
+    <citation>Ulrich S, Fischler M, Speich R, Bloch KE. Wrist actigraphy predicts outcome in patients with pulmonary hypertension. Respiration. 2013;86(1):45-51. doi: 10.1159/000342351. Epub 2012 Dec 11.</citation>
+    <PMID>23234873</PMID>
+  </reference>
+  <reference>
+    <citation>Pugh ME, Buchowski MS, Robbins IM, Newman JH, Hemnes AR. Physical activity limitation as measured by accelerometry in pulmonary arterial hypertension. Chest. 2012 Dec;142(6):1391-1398. doi: 10.1378/chest.12-0150.</citation>
+    <PMID>22576635</PMID>
+  </reference>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>June 25, 2020</study_first_submitted>
+  <study_first_submitted_qc>June 25, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 30, 2020</study_first_posted>
+  <last_update_submitted>June 30, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 30, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 1, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University of Cincinnati</investigator_affiliation>
+    <investigator_full_name>Arun Jose</investigator_full_name>
+    <investigator_title>Assistant Professor of Medicine</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Pulmonary Arterial Hypertension</mesh_term>
+    <mesh_term>Familial Primary Pulmonary Hypertension</mesh_term>
+    <mesh_term>Hypertension</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

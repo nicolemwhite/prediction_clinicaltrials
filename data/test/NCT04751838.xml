@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="315">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04751838</url>
+  </required_header>
+  <id_info>
+    <org_study_id>KYLL-202011-114</org_study_id>
+    <nct_id>NCT04751838</nct_id>
+  </id_info>
+  <brief_title>Development and Validation of a Simple-to-use Nomogram for Predicting In-hospital Mortality in Acute Heart Failure Patients Undergoing Continuous Renal Replacement Therapy</brief_title>
+  <official_title>Development and Validation of a Simple-to-use Nomogram for Predicting In-hospital Mortality in Acute Heart Failure Patients Undergoing Continuous Renal Replacement Therapy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Qilu Hospital of Shandong University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Qilu Hospital of Shandong University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Acute heart failure (AHF) is one of the most common causes of hospitalization and&#xD;
+      life-threatening medical condition around worldwide. The AHF patients admitted to the&#xD;
+      intensive care unit (ICU) usually be critically ill with multiorgan failure, in which the&#xD;
+      kidneys are most frequently involved. The goals of treatment of AHF in ICU were to improve&#xD;
+      hemodynamic stability and organ perfusion, alleviate symptoms, and limit cardiac and renal&#xD;
+      damage, which can be achieved by continuous renal replacement therapy (CRRT), a continuous&#xD;
+      extracorporeal blood purification. CRRT can mimic urine output to slowly and continuously&#xD;
+      remove patient's plasma water, providing accurate volume control and hemodynamic stability.&#xD;
+&#xD;
+      Acute Heart Failure Global Survey of Standard Treatment (ALARM-HF) study showed that hospital&#xD;
+      mortality of AHF patients was about 17.8% in the intensive care unit (ICU). But the patients&#xD;
+      undergoing CRRT, the mortality up to 45%-62.1%. For this reason, an early model or score to a&#xD;
+      screening of AHF patients undergoing CRRT who at high mortality risk is crucial, which can&#xD;
+      help clinicians to rapidly intervene and ameliorate disease outcomes. The most popular tools,&#xD;
+      especially that can predict mortality for critically ill patients, are the Acute Physiology&#xD;
+      Assessment and Chronic Health Evaluation II (APACHE II) scoring systems, and Simplified Acute&#xD;
+      Physiologic Score II (SAPS II). But variables in these scoring systems are complex, which was&#xD;
+      not convenient to assess at any time. Modified Early Warning Score (MEWS) , much more concise&#xD;
+      than APACHE II and SAPS II, not only can be used for early warning of the onset of AHF in&#xD;
+      patients with the risk of heart failure but also has a positive correlation with mortality in&#xD;
+      these patients. However, up to our knowledge, there was no scores or model to predict the&#xD;
+      in-hospital mortality of AHF patient undergoing CRRT.&#xD;
+&#xD;
+      Based on the acute heart failure unit (AHFU) of Qilu Hospital and the medical information&#xD;
+      mart for intensive care III (MIMIC III) database, the investigators collected the data of AHF&#xD;
+      adults undergoing CRRT. The present study aimed to develop and validate a simple-to-use&#xD;
+      nomogram model comprised of independent prognostic variables for predicting in-hospital&#xD;
+      mortality in AHF adults undergoing CRRT by using multivariate logistic regression analysis.&#xD;
+      With this model, the investigators can guide the early screening of high-risk patients in&#xD;
+      in-hospital mortality.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The eligible patients randomly into training cohort and validation cohort. The univariate&#xD;
+      logistics regression analyses were performed to determine the independent risk&#xD;
+      characteristics in the training cohort of the presence of in-hospital all-cause death. Odds&#xD;
+      Ratios (ORs) and 95% confidence intervals (CIs) of these variables were estimated to quantify&#xD;
+      the strength of these associations. All variables that showed a univariate relationship with&#xD;
+      in-hospital mortality or that were considered clinically relevant were candidates for&#xD;
+      stepwise multivariate analysis in the training cohort. A nomogram model, producing by using&#xD;
+      the rms package, was formulated based on the results of independent risk factors in&#xD;
+      multivariate logistic regression. Based on the nomogram model, the total scores and&#xD;
+      prediction of in-hospital mortality risk of each patient were added by each eligible variable&#xD;
+      and then were converted to predicted probabilities both in the training cohort and validation&#xD;
+      cohort.&#xD;
+&#xD;
+      To evaluated the model for the prediction value of in-hospital mortality, firstly, the&#xD;
+      investigators calculated the calibration of the model was measured by calibration with 1000&#xD;
+      bootstrap samples to decrease the overfit bias. Model fitting was assessed using the&#xD;
+      Hosmer-Lemeshow test to evaluate the goodness of fit. Secondly, the Harrell concordance index&#xD;
+      (C index) and receiver operating characteristic curve (ROC curve) to evaluate the predictive&#xD;
+      performance and discrimination of the nomogram. The ROC curve analysis was used to calculate&#xD;
+      the optimal cutoff values that were determined by maximizing the Youden index. Third, the&#xD;
+      clinical effectiveness of the resulting model was evaluated by decision curve analysis (DCA),&#xD;
+      which was a method for evaluating alternative diagnostic or prognostic tools that had&#xD;
+      advantages over others[16]. The increase in the discriminative value of MEWS and the&#xD;
+      resulting model for mortality was assessed by the net reclassification index (NRI).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 30, 2020</start_date>
+  <completion_date type="Anticipated">March 30, 2021</completion_date>
+  <primary_completion_date type="Anticipated">February 28, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>in-hospital mortality</measure>
+    <time_frame>During hospitalization, an average of 20 days</time_frame>
+    <description>according to the state of departure from the hospital, if the patient died, named in-hospital mortality</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">226</enrollment>
+  <condition>Heart Failure Acute</condition>
+  <arm_group>
+    <arm_group_label>Survivor cohort; Non-survivor Cohort</arm_group_label>
+    <description>All patients were categorized according to the state of departure from the hospital, named survivor or non-survivor.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Training Cohort, Validation Cohort</arm_group_label>
+    <description>the eligible patients randomly (7:3) into training cohort and validation cohort. The training cohort were used to build nomogram model, while the validation cohort validated the model.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>no intervention</intervention_name>
+    <description>no intervention</description>
+    <arm_group_label>Survivor cohort; Non-survivor Cohort</arm_group_label>
+    <arm_group_label>Training Cohort, Validation Cohort</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All data of patients were derived from two databases. One was CRRT databases collected the&#xD;
+        data of patients between November 9, 2011, to August 1, 2020, in AHFU of Qilu Hospital.&#xD;
+        Another was the MIMIC III database (version 1.4), a single-center, free, large online&#xD;
+        international database.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Clinical diagnosis of acute heart failure&#xD;
+&#xD;
+          -  undergoing CRRT&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  died before CRRT&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>15 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Luyao Gao</last_name>
+    <phone>15165110975</phone>
+    <email>15165110975@163.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Qilu Hospital of Shandong University</name>
+      <address>
+        <city>Jinan</city>
+        <state>Shandong</state>
+        <zip>250012</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Luyao Gao</last_name>
+      <phone>86-15165110975</phone>
+      <email>15165110975@163.com</email>
+    </contact>
+    <investigator>
+      <last_name>Luyao Gao</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Ponikowski P, Voors AA, Anker SD, Bueno H, Cleland JGF, Coats AJS, Falk V, González-Juanatey JR, Harjola VP, Jankowska EA, Jessup M, Linde C, Nihoyannopoulos P, Parissis JT, Pieske B, Riley JP, Rosano GMC, Ruilope LM, Ruschitzka F, Rutten FH, van der Meer P; ESC Scientific Document Group. 2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure: The Task Force for the diagnosis and treatment of acute and chronic heart failure of the European Society of Cardiology (ESC)Developed with the special contribution of the Heart Failure Association (HFA) of the ESC. Eur Heart J. 2016 Jul 14;37(27):2129-2200. doi: 10.1093/eurheartj/ehw128. Epub 2016 May 20. Erratum in: Eur Heart J. 2016 Dec 30;:.</citation>
+    <PMID>27206819</PMID>
+  </reference>
+  <reference>
+    <citation>Schaubroeck HA, Gevaert S, Bagshaw SM, Kellum JA, Hoste EA. Acute cardiorenal syndrome in acute heart failure: focus on renal replacement therapy. Eur Heart J Acute Cardiovasc Care. 2020 Oct;9(7):802-811. doi: 10.1177/2048872620936371. Epub 2020 Jun 29. Review.</citation>
+    <PMID>32597679</PMID>
+  </reference>
+  <reference>
+    <citation>Macedo E, Mehta RL. Continuous Dialysis Therapies: Core Curriculum 2016. Am J Kidney Dis. 2016 Oct;68(4):645-657. doi: 10.1053/j.ajkd.2016.03.427. Epub 2016 May 28.</citation>
+    <PMID>27241853</PMID>
+  </reference>
+  <reference>
+    <citation>Ronco C, Ricci Z. Renal replacement therapies: physiological review. Intensive Care Med. 2008 Dec;34(12):2139-46. doi: 10.1007/s00134-008-1258-6. Epub 2008 Sep 13. Review.</citation>
+    <PMID>18791697</PMID>
+  </reference>
+  <reference>
+    <citation>Karkar A, Ronco C. Prescription of CRRT: a pathway to optimize therapy. Ann Intensive Care. 2020 Mar 6;10(1):32. doi: 10.1186/s13613-020-0648-y. Review.</citation>
+    <PMID>32144519</PMID>
+  </reference>
+  <verification_date>February 2021</verification_date>
+  <study_first_submitted>February 3, 2021</study_first_submitted>
+  <study_first_submitted_qc>February 9, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 12, 2021</study_first_posted>
+  <last_update_submitted>February 9, 2021</last_update_submitted>
+  <last_update_submitted_qc>February 9, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 12, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

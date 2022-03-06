@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="161">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05104619</url>
+  </required_header>
+  <id_info>
+    <org_study_id>s PI2020_843_0156</org_study_id>
+    <nct_id>NCT05104619</nct_id>
+  </id_info>
+  <brief_title>Spectroscopic Analysis of Tongue Tumor Samples.</brief_title>
+  <acronym>SpecTum</acronym>
+  <official_title>Prospective Analysis of Tumor Tissues From the Oral Cavity by SpiderMassTM Spectroscopy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Centre Hospitalier Universitaire, Amiens</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Université de Lille</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Centre Hospitalier Universitaire, Amiens</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      In squamous cell carcinoma of the tongue, complete surgical resection of the tumor generally&#xD;
+      represents the primary treatment strategy. Among factors determining the disease prognostic,&#xD;
+      the surgical margins status is essential for the continued management of the patient, with or&#xD;
+      without complementary therapies. Generally, surgical margins are defined using visual and&#xD;
+      tactile elements. Unfortunately, in 15 to 30 percent of cases, they are defined as positive&#xD;
+      after histopathological examination, on average 5 to 7 days post-surgery.&#xD;
+&#xD;
+      Techniques have recently been developed to analyze the cancerous and non-cancerous nature of&#xD;
+      tissues, using the spectral properties of tumor cells. SpiderMass™ is an instrument equipped&#xD;
+      with a probe for tissue micro-sampling and real-time molecular profile analysis. It is thus&#xD;
+      ultimately a tool for anatomopathological decision support, for diagnosis and prognosis of&#xD;
+      the disease. Used in the operating room, SpiderMass™ could also become an innovative surgical&#xD;
+      tool to precisely define cancerous areas in situ and the margins status in intraoperative&#xD;
+      conditions.&#xD;
+&#xD;
+      Based on the principle of artificial intelligence, the SpiderMass™ machine must initially&#xD;
+      learn to recognize pathological tissues versus healthy. This project aims to accomplish this&#xD;
+      first phase of machine learning for squamous cell carcinoma of the tongue.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 1, 2021</start_date>
+  <completion_date type="Anticipated">October 2022</completion_date>
+  <primary_completion_date type="Anticipated">October 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Tumor cells detection in tongue tumor with SpiderMass technique</measure>
+    <time_frame>1 year</time_frame>
+    <description>Tumor cells detection in tongue tumor with SpiderMass technique</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">14</enrollment>
+  <condition>Mass Spectroscopy</condition>
+  <condition>Molecular Profile</condition>
+  <condition>Surgical Margins</condition>
+  <condition>Squamous Cell Carcinoma</condition>
+  <condition>Oral Cavity</condition>
+  <condition>Tongue</condition>
+  <arm_group>
+    <arm_group_label>tumor samples</arm_group_label>
+    <description>(SCC of the tongue)</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>healthy tissues</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>tongue surgery</intervention_name>
+    <description>In squamous cell carcinoma of the tongue, complete surgical resection of the tumor</description>
+    <arm_group_label>healthy tissues</arm_group_label>
+    <arm_group_label>tumor samples</arm_group_label>
+  </intervention>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Tissue samples will be taken from the tumor and the non-tumor areas. Surgical specimens will&#xD;
+      be taken in a fresh state immediately after surgery, by an anatomopathologist and a&#xD;
+      pathological anatomy technician. The sample will be analyzed under standard conditions. Two&#xD;
+      sites will be selected macroscopically (including a tumor area, a dysplasia area, and a&#xD;
+      non-tumor area).&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients treated in the Maxillofacial Surgery Department of the CHU Amiens-Picardie for a&#xD;
+        squamous cell carcinoma of the tongue and for whom the first-line treatment is surgical&#xD;
+        resection&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  age : 18 years and older&#xD;
+&#xD;
+          -  squamous cell carcinoma of the tongue&#xD;
+&#xD;
+          -  surgical resection as first-line treatment&#xD;
+&#xD;
+          -  tumor classification T1 to T4.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  metastatic disease&#xD;
+&#xD;
+          -  neoadjuvant therapies&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Christophe ATTENCOURT, MD</last_name>
+    <phone>03 22 66 87 66</phone>
+    <email>attencourt.christophe@chu-amiens.fr</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Centre Hospitalier Universitaire d'Amiens</name>
+      <address>
+        <city>Amiens</city>
+        <state>Picardie</state>
+        <zip>80000</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Christophe ATTENCOURT, MD</last_name>
+      <phone>03 22 66 87 66</phone>
+      <email>attencourt.christophe@chu-amiens.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>October 12, 2021</study_first_submitted>
+  <study_first_submitted_qc>November 2, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 3, 2021</study_first_posted>
+  <last_update_submitted>November 2, 2021</last_update_submitted>
+  <last_update_submitted_qc>November 2, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 3, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>mass spectroscopy</keyword>
+  <keyword>molecular profile</keyword>
+  <keyword>surgical margins</keyword>
+  <keyword>squamous cell carcinoma</keyword>
+  <keyword>oral cavity</keyword>
+  <keyword>tongue</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma, Squamous Cell</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

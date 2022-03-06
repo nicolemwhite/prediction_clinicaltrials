@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="32">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04533152</url>
+  </required_header>
+  <id_info>
+    <org_study_id>CHUBX 2019/70</org_study_id>
+    <nct_id>NCT04533152</nct_id>
+  </id_info>
+  <brief_title>Prognostic Determinants in Patients With Diabetic Foot Ulcer.</brief_title>
+  <acronym>PDF</acronym>
+  <official_title>Prognostic Determinants in Patients With Diabetic Foot Ulcer (PDF Cohort) - A French Prospective Multicentre Cohort.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Hospital, Bordeaux</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Fondation Francophone pour la Recherche sur le Diabete</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>University Hospital, Bordeaux</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The worse prognosis observed in patients with Diabetic Foot Ulcer (DFU) has not been fully&#xD;
+      understood. Poor prognosis may be related to other conditions (inflammation, infectious&#xD;
+      disease, cancers) further to cardiovascular disease.&#xD;
+&#xD;
+      The aim of the study is to conduct the first prospective, observational and multi-centre&#xD;
+      cohort of patients with DFU in France, in order to evaluate the 5-years mortality rate, its&#xD;
+      causes and relevant prognostic determinants.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Diabetic foot ulcer (DFU) is one of the major complications frequently observed in patients&#xD;
+      with diabetes. DFU is the leading cause of non-traumatic lower-limb amputation (LLA), and it&#xD;
+      is associated with cognitive decline, worsening quality of life and substantial economic&#xD;
+      impact on French healthcare system. DFU is also associated with excess risk of premature&#xD;
+      death with significant decrease in life expectancy despite major improvement in medical care&#xD;
+      during last decades. The hypothesis of the study is that this worse prognosis seen in DFU&#xD;
+      patients may not be fully explained by a high cardiovascular risk, but mainly linked to&#xD;
+      different causes, including inflammatory, infectious and malignant conditions.&#xD;
+&#xD;
+      In addition, to conduct the first prospective, observational and multi-centre cohort of&#xD;
+      patients with DFU in France to evaluate the 5-years mortality rate, its causes and relevant&#xD;
+      prognostic determinants, the investigators will also assess all changes in health-related&#xD;
+      quality of life (HRQoL), and the economic impact related to DFU (cost of illness study) for&#xD;
+      the French healthcare system, using SNDS claims databases. A 3-year inclusion period will&#xD;
+      start during 2020, and each participant will be followed for 5 years or until death.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">July 2021</start_date>
+  <completion_date type="Anticipated">July 2029</completion_date>
+  <primary_completion_date type="Anticipated">July 2029</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>DFU risk score</measure>
+    <time_frame>5 years after inclusion</time_frame>
+    <description>Construct a DFU risk score equation of all-death will be computed to determine individuals with the higher risk of worse outcomes.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Survival without active index DFU</measure>
+    <time_frame>At 3 and 12 months after inclusion day</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Survival without recurrent index DFU</measure>
+    <time_frame>At 12, 24, 36, 48, 60 months after inclusion day</time_frame>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Survival without major adverse limb events (MALE)</measure>
+    <time_frame>5 years after inclusion</time_frame>
+    <description>MALE is a composite of foot infection, non-traumatic lower-limb amputation (LLA), requirement of revascularization, whichever comes first. These components will be also considered individually.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Survival without major macrovascular events (MACE)</measure>
+    <time_frame>5 years after inclusion</time_frame>
+    <description>MACE is a composite of non-fatal myocardial infarction, non-fatal stroke, hospitalization for heart failure, or cardiovascular death, whichever comes first.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Survival without major microvascular events (MICE)</measure>
+    <time_frame>5 years after inclusion</time_frame>
+    <description>MICE is a composite of new-onset persistent macroalbuminuria, sustained 40% declined eGFR from baseline, ESRD, severe diabetic retinopathy or macular oedema requiring laser photocoagulation or intravitreal therapies, or diabetes-related blindness in either eye, whichever comes first.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">1000</enrollment>
+  <condition>Diabetic Foot Ulcer</condition>
+  <biospec_retention>Samples With DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      1 PAXgene blood DNA tube (2.5 mL)&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        PDF study is designed to be the first French multicentre, observational and prospective&#xD;
+        cohort of patients with DFU referred from the community into secondary and tertiary care&#xD;
+        foot clinics.&#xD;
+&#xD;
+        Twenty-three French centres agreed to participate in this study. Each centre will recruit&#xD;
+        during the 3-year inclusion period.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        Adults with diabetes and DFU, defined as a foot skin ulceration or open LLA wound,&#xD;
+        measuring at least 5 mm of diameter, located below the malleolus, and induced by diabetic&#xD;
+        complications.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Acute or chronic lower-limb ischemia without open skin wound,&#xD;
+&#xD;
+          -  Foot infection without open skin wound,&#xD;
+&#xD;
+          -  Intercurrent disease prohibiting participation in an observational study,&#xD;
+&#xD;
+          -  Pregnancy or breastfeeding&#xD;
+&#xD;
+          -  Curatorship or guardianship&#xD;
+&#xD;
+          -  Prisoners&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Nathalie PREAUBERT-HAYES</last_name>
+    <role>Study Chair</role>
+    <affiliation>University Hospital, Bordeaux</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Kamel MOHAMMEDI, Pr</last_name>
+    <phone>5 57 65 60 78</phone>
+    <phone_ext>+33</phone_ext>
+    <email>kamel.mohammedi@chu-bordeaux.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Vincent RIGALLEAU, Pr</last_name>
+    <phone_ext>+33</phone_ext>
+    <email>vincent.rigalleau@chu-bordeaux.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>CHU Côte de Nacre</name>
+      <address>
+        <city>Caen</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Yves REZNIK, Pr</last_name>
+      <email>reznik-y@chu-caen.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de Bocage Sud</name>
+      <address>
+        <city>Dijon</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Benjamin BOUILLET, Dr</last_name>
+      <email>benjamin.bouillet@chu-dijon.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Groupe Hospitalier de La Rochelle Ré Aunis</name>
+      <address>
+        <city>La Rochelle</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Didier GOUET, Dr</last_name>
+      <email>gouet@me.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de La Réunion - Site Sud</name>
+      <address>
+        <city>La Réunion</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Estelle NOBECOURT, Dr</last_name>
+      <email>estelle.nobecourt@chu-reunion.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hôtel Dieu</name>
+      <address>
+        <city>Le Creusot</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Sylvaine CLAVEL, Dr</last_name>
+      <email>clavel.sylvaine@wanadoo.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>CHRU de Lille - Hôpital Claude Huriez</name>
+      <address>
+        <city>Lille</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Florence BAUDOUX, Dr</last_name>
+      <email>florence.baudoux@chru-lille.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>AP - HM - Hôpital de la Conception</name>
+      <address>
+        <city>Marseille</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>René VALERO, Pr</last_name>
+      <email>Rene.VALERO@ap-hm.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de Montpellier - Hôpital Lapeyronie</name>
+      <address>
+        <city>Montpellier</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Ariane SULTAN, Pr</last_name>
+      <email>a-sultan@chu-montpellier.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de Nantes Hôpital Nord Laennec</name>
+      <address>
+        <city>Nantes</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Samy HADJADJ, Pr</last_name>
+      <email>samy.hadjadj@univ-nantes.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>CH Pierre Bérégovoy</name>
+      <address>
+        <city>Nevers</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Ardina DESPLAN, Dr</last_name>
+      <email>ardina.desplan@ch-nevers.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de Nice - Hôpital l'Archet 2</name>
+      <address>
+        <city>Nice</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Nicolas CHEVALIER, Dr</last_name>
+      <email>chevalier.n@chu-nice.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>CHU Nîmes - Hôpital universitaire Carémeau</name>
+      <address>
+        <city>Nîmes</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Sophie SCHULDINER, Dr</last_name>
+      <email>sophie.schuldiner@chu-nimes.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>AP-HP - Hôpital Bichat</name>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Ronan ROUSSEL, Pr</last_name>
+      <email>ronan.roussel@aphp.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>AP-HP - Hôpital Lariboisière</name>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Jean-François GAUTIER, Pr</last_name>
+      <email>jean-francois.gautier@aphp.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>AP-HP - Hôpital Pitié-Salpétrière</name>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Agnès HARTEMANN, Pr</last_name>
+      <email>agnes.hartemann@aphp.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hôpital Paris Saint Joseph</name>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Olivier DUPUY, Dr</last_name>
+      <email>odupuy@hpsj.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>HCL - Hôpital Lyon sud</name>
+      <address>
+        <city>Pierre-Bénite</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Julien VOUILLARMET, Dr</last_name>
+      <email>julien.vouillarmet@chu-lyon.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de Rouen</name>
+      <address>
+        <city>Rouen</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Gaëtan PREVOST, Pr</last_name>
+      <email>Gaetan.Prevost@chu-rouen.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hôpital d'Instruction des Armées Bégin</name>
+      <address>
+        <city>Saint-Mandé</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Lyse BORDIER, Pr</last_name>
+      <email>lbordier@club-internet.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Maison de Santé Protestante Bagatelle - Hôpital Bagatelle</name>
+      <address>
+        <city>Talence</city>
+        <zip>33404</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Pascal TOUSSAINT, Dr</last_name>
+      <email>p.toussaint@mspb.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de Toulouse - Hôpital Rangueil</name>
+      <address>
+        <city>Toulouse</city>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Pierre GOURDY, Pr</last_name>
+      <email>gourdy.p@chu-toulouse.fr</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>CHU de la Martinique</name>
+      <address>
+        <city>Fort de France</city>
+        <country>Martinique</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Miguel BOURGADE, Dr</last_name>
+      <email>miguel.bourgade@chu-martinique.fr</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+    <country>Martinique</country>
+  </location_countries>
+  <verification_date>June 2021</verification_date>
+  <study_first_submitted>August 27, 2020</study_first_submitted>
+  <study_first_submitted_qc>August 27, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 31, 2020</study_first_posted>
+  <last_update_submitted>June 4, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 4, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">June 7, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Diabetes mellitus</keyword>
+  <keyword>Lower-limb amputation</keyword>
+  <keyword>Wound</keyword>
+  <keyword>Health-related quality of life</keyword>
+  <keyword>Cost-of-illness</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Diabetic Foot</mesh_term>
+    <mesh_term>Foot Ulcer</mesh_term>
+    <mesh_term>Ulcer</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

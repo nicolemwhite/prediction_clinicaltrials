@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="182">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT02737956</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20160317-03</org_study_id>
+    <nct_id>NCT02737956</nct_id>
+  </id_info>
+  <brief_title>The Prognosis of Acute Myocardial Infarction in Xinjiang</brief_title>
+  <official_title>The Characteristics and Clinical Outcomes of Acute Myocardial Infarction: A Prospective Cohort Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Xinjiang Medical University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Xinjiang Medical University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study is to build a Xinjiang people registry and surveillance system for acute&#xD;
+      myocardial infarction(AMI) information about patient's basic information, patient&#xD;
+      characteristics, diagnostic test mode, the program of treatment and hospitalization outcomes&#xD;
+      including mortality, treatment complications, the cost of hospitalization and follow-up&#xD;
+      events (death, major adverse cardiac events, stroke, heart failure) of AMI patients; And to&#xD;
+      propose scientific precaution strategies aimed to prevent effectively from the incidence of&#xD;
+      AMI; And to optimize the management and outcomes of AMI patients through implementation of&#xD;
+      guideline recommendations in clinical practice, and to perform analyses and development of&#xD;
+      effective treatment strategies and predictive models of clinical ourtcomes.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The aim of the study is to establish the platform for surveillance, clinical research and&#xD;
+      translational medicine in Xinjiang , designed to provide a foundation for future quality&#xD;
+      improvement and research as well as facilitate efforts to improve the quality of AMI patient&#xD;
+      care , translate research into improved care for patients and thus decrease morbidity and&#xD;
+      mortality associated with AMI.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">June 1, 2016</start_date>
+  <completion_date type="Actual">December 10, 2021</completion_date>
+  <primary_completion_date type="Actual">June 30, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Death</measure>
+    <time_frame>At least 6 months, Up to 5 years</time_frame>
+    <description>All-cause mortality, Cardiac mortality</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Major adverse cardiovascular events (MACE)</measure>
+    <time_frame>At least 6 months, Up to 5 years</time_frame>
+    <description>Recurrent myocardial infarction，ST，Revascularization，Angina, Stroke</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>bleeding events</measure>
+    <time_frame>At least 6 months, Up to 5 years</time_frame>
+    <description>bleeding &gt;_ grade 2 according to BARC criteria</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Re-MI</measure>
+    <time_frame>At least 6 months, Up to 5 years</time_frame>
+    <description>MI was defined in accordance with the universal definition proposed in 2007</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Stent thrombosis</measure>
+    <time_frame>At least 6 months, Up to 5 years</time_frame>
+    <description>according to the Academic Research Consortium criteria</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Stroke</measure>
+    <time_frame>At least 6 months, Up to 5 years</time_frame>
+    <description>Stroke was defined as focal loss of neurological function caused by an ischaemic or haemorrhagic event, with residual symptoms lasting at least 24 hours or leading to death</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Urgent revascularization</measure>
+    <time_frame>At least 6 months, Up to 5 years</time_frame>
+    <description>revascularization with or without changes in the ST segment or T wave or elevated biomarker levels</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cardiac death</measure>
+    <time_frame>At least 6 months, Up to 5 years</time_frame>
+    <description>Deaths were considered cardiac unless an unequivocal, noncardiac cause was established</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">5000</enrollment>
+  <condition>Acute Myocardial Infarction</condition>
+  <arm_group>
+    <arm_group_label>AMI patients with treatment of PCI</arm_group_label>
+    <description>All the patiets treat with PCI were enrolled and recorded the clinical characteristic and outcomes during the follow-up period.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Medication</arm_group_label>
+    <description>All the patiets treat with medication (standard secondary prevention) without PCI were enrolled and recorded the clinical characteristic and outcomes during the follow-up period.</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Acute myocardial infarction patients in hospitalized of The First Affiliated Hospital of&#xD;
+        Xinjiang Medical (include diagnosed acute ST-elevation or non ST-elevation myocardial&#xD;
+        infarction)&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        Acute myocardial infarction patients in hospitalized of The First Affiliated Hospital of&#xD;
+        Xinjiang Medical (include diagnosed acute ST-elevation or non ST-elevation myocardial&#xD;
+        infarction).Diagnosis criteria must meet Universal Definition for AMI (2012).&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Combined with severe valvular heart disease;&#xD;
+&#xD;
+          2. Combined with severe congenital heart disease;&#xD;
+&#xD;
+          3. Combined hyperthyroidism, anemia and other high-powered heart disease;&#xD;
+&#xD;
+          4. With pulmonary heart disease;&#xD;
+&#xD;
+          5. With hypertrophic obstructive cardiomyopathy;&#xD;
+&#xD;
+          6. Severe hypotension (SBP &lt;90mmHg or DBP &lt;60mmHg at enrollment);&#xD;
+&#xD;
+          7. Uncontrolled hypertension (SBP&gt; 160 mmHg before PCI, and / or DBP&gt; 100 mmHg);&#xD;
+&#xD;
+          8. Liver dysfunction (defined as ALT or total bilirubin is greater than the normal upper&#xD;
+             limit of 3 times);&#xD;
+&#xD;
+          9. Renal insufficiency (defined as serum creatinine greater than 1.5 times the normal&#xD;
+             upper limit);&#xD;
+&#xD;
+         10. High-risk bleeding patients, such as thrombocytopenia, blood diseases and other&#xD;
+             diseases;&#xD;
+&#xD;
+         11. active peptic ulcer and skin ulcers;&#xD;
+&#xD;
+         12. A patient who is allergic to clopidogrel, tegrellol, or aspirin;&#xD;
+&#xD;
+         13. Patients with a history of cardiogenic shock within two weeks;&#xD;
+&#xD;
+         14. pregnant and lactating women, during treatment can not be strict contraception of&#xD;
+             women of childbearing age;&#xD;
+&#xD;
+         15. In the past 3 months participated in other clinical researchers;&#xD;
+&#xD;
+         16. Persons who do not have legal or legal competence;&#xD;
+&#xD;
+         17. Any condition that the investigator considers unsuitable for participation in the&#xD;
+             clinical study.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Xiang Xie, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Xinjiang Medical University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>First Affilliatted Hospital of Xinjiang Medical University</name>
+      <address>
+        <city>Ürümqi</city>
+        <state>Xinjiang</state>
+        <zip>830011</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>December 2021</verification_date>
+  <study_first_submitted>April 5, 2016</study_first_submitted>
+  <study_first_submitted_qc>April 10, 2016</study_first_submitted_qc>
+  <study_first_posted type="Estimate">April 14, 2016</study_first_posted>
+  <last_update_submitted>December 15, 2021</last_update_submitted>
+  <last_update_submitted_qc>December 15, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 6, 2022</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Xinjiang Medical University</investigator_affiliation>
+    <investigator_full_name>Xiang Xie</investigator_full_name>
+    <investigator_title>Xiangxie, MD,Professor, The First Affiliated Hospital Of XinJiang Medicial University</investigator_title>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Myocardial Infarction</mesh_term>
+    <mesh_term>Infarction</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="232">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04527341</url>
+  </required_header>
+  <id_info>
+    <org_study_id>SKQN2020</org_study_id>
+    <nct_id>NCT04527341</nct_id>
+  </id_info>
+  <brief_title>Postoperative Delirium in Cardiac Surgery ICU</brief_title>
+  <official_title>Study on Visual Assessment System and Stratified Management Program for Postoperative Delirium After Cardiac Surgery</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shanghai Zhongshan Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Shanghai Zhongshan Hospital</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Postoperative Delirium (POD) is a common complication in patients after cardiac surgery,&#xD;
+      which is associated with short-term prognosis and long-term quality of life. Due to the lack&#xD;
+      of specific treatment, prevention is the most effective strategy to reduce delirium. Risk&#xD;
+      assessment greatly contributes to guide prevention by stratifying the risk of the POD.&#xD;
+      However, the high-quality risk assessment tools are still sparse, and the combination of risk&#xD;
+      assessment and stratified prevention has not been applied to the management of delirium after&#xD;
+      cardiac surgery. In the previous work, we found the predictive value of preoperative cardiac&#xD;
+      function on POD, and found a critical value. On the basis of previous research, this project&#xD;
+      will learn from previous studies on risk factors of POD, and deeply explore potential&#xD;
+      predictors. Furthermore, we will develop and validate POD risk prediction model, and then&#xD;
+      develop it into a visual evaluation system. In addition, based on the theory of risk&#xD;
+      management and risk assessment tools, using the concepts and methods of evidence-based&#xD;
+      medicine, the risk assessment system and stratified management program of POD will be formed&#xD;
+      and evaluated by expert discussion meetings. It is expected that the risk assessment system&#xD;
+      and stratified management program constructed by this project could simply and quickly screen&#xD;
+      high-risk patients and carry out timely intervention, so as to reduce the incidence of POD,&#xD;
+      improve patients' prognosis and the quality of life after cardiac surgery.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">January 1, 2021</start_date>
+  <completion_date type="Anticipated">September 30, 2022</completion_date>
+  <primary_completion_date type="Anticipated">March 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Incidence of postoperative delirium</measure>
+    <time_frame>up to 5 days postoperatively</time_frame>
+    <description>Investigators defined patients have delirium if they had at least one positive screening during ICU stay.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Severity of postoperative delirium</measure>
+    <time_frame>up to 5 days postoperatively</time_frame>
+    <description>Assess by CAM-ICU-7 if CAM-ICU is positive. Categorized as no delirium: 0-2, mild to moderate delirium: 3-5, and severe delirium: 6-7</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>duration of postoperative delirium</measure>
+    <time_frame>up to 5 days postoperatively</time_frame>
+    <description>Defined as time (in days) from the first positive CAM-ICU until the beginning of two consecutive days of negative CAM-ICU.</description>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Delirium</condition>
+  <arm_group>
+    <arm_group_label>cardiac surgery patients in ICU</arm_group_label>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients aged above 18 who are admitted to surgical ICUs after cardiac surgery will be&#xD;
+        screened for eligibility.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Aged above 18&#xD;
+&#xD;
+          -  Patients after cardiac surgery&#xD;
+&#xD;
+          -  Admitted to ICU after surgery&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Preoperative delirium or dementia patients&#xD;
+&#xD;
+          -  Unable to fully participate in delirium testing, including blind, deaf, illiterate or&#xD;
+             inability to understand Chinese&#xD;
+&#xD;
+          -  Undergoing surgery procedures do not require admission to SICU&#xD;
+&#xD;
+          -  Transfer to ICU from wards after surgery&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <verification_date>August 2020</verification_date>
+  <study_first_submitted>August 23, 2020</study_first_submitted>
+  <study_first_submitted_qc>August 23, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 26, 2020</study_first_posted>
+  <last_update_submitted>August 23, 2020</last_update_submitted>
+  <last_update_submitted_qc>August 23, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 26, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>postoperative delirium</keyword>
+  <keyword>cardiac surgery</keyword>
+  <keyword>Intensive care unit</keyword>
+  <keyword>risk assessment</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Delirium</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

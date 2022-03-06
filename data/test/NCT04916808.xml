@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="403">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04916808</url>
+  </required_header>
+  <id_info>
+    <org_study_id>P2101</org_study_id>
+    <secondary_id>U1111-1266-0439</secondary_id>
+    <nct_id>NCT04916808</nct_id>
+  </id_info>
+  <brief_title>The AUS-PREDICT Registry for DCIS Patients With DCISionRT Testing</brief_title>
+  <acronym>AUS-PREDICT</acronym>
+  <official_title>A Prospective Registry Studyto Evaluate the Effect of the DCISionRT Test on Treatment Decisions in Patients With DCIS Following Breast Conserving Therapy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>PreludeDx</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>PreludeDx</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a prospective cohort study for patients diagnosed with ductal carcinoma in situ&#xD;
+      (DCIS) of the breast. The primary objective of the study is to create a de-identified&#xD;
+      database of patients, test results, treatment decisions and outcomes that can be queried to&#xD;
+      determine the utility of the DCISionRT™ test in the diagnosis and treatment of ductal&#xD;
+      carcinoma in situ of the breast.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a prospective cohort study conducted within the medical network of the participating&#xD;
+      investigators and institutions. Patients meeting the eligibility criteria outlined above will&#xD;
+      be eligible for participation and the investigators will obtain written informed consent. A&#xD;
+      central Institutional Review Board (IRB) will approve the protocol and each participating&#xD;
+      institution.&#xD;
+&#xD;
+      After diagnosis of DCIS, the most representative tissue block (or 10 sections mounted on&#xD;
+      charged slides cut at 3 microns) will be sent to PreludeDx for DCISionRT. The most&#xD;
+      representative specimen should be selected from tissue collected via direct tumor biopsy&#xD;
+      (either FNA, core needle or excisional biopsy) as part of routine patient care. Patients must&#xD;
+      be enrolled in the study and the enrollment and pre-testing data forms must be completed and&#xD;
+      submitted before the DCISionRT results are reported. Then, after review of the DCISionRT&#xD;
+      results, the investigators complete and submit the post-testing data form. The patient may&#xD;
+      then be followed for up to 10 years (or until death).&#xD;
+&#xD;
+      All study data will be stored in an encrypted, HIPAA-compliant database maintained by the&#xD;
+      sponsor. Each consented patient will be assigned a unique Study ID number. Study personnel at&#xD;
+      each institution will maintain a key to link the Study IDs of its own patients to the&#xD;
+      patients' local medical record number. All personal health information (PHI) will remain at&#xD;
+      the local institution and only de-identified data will be uploaded to the national registry.&#xD;
+      No genetic test results that may be used to identify the patient will be included in the&#xD;
+      database.&#xD;
+&#xD;
+      This study anticipates the participation of up to 150 sites within Australia with each site&#xD;
+      enrolling between 10 and 100 patients. The study is designed to collect information for up to&#xD;
+      1,500 patients.&#xD;
+&#xD;
+      The purpose of this study is to create a de-identified database of patients, test results,&#xD;
+      treatment decisions and outcomes that can be queried to determine the clinical utility of the&#xD;
+      DCISionRT™ Test in the management of DCIS, as it is broadly incorporated into clinical&#xD;
+      practice. The primary objective is to identify a statistically significant difference in&#xD;
+      physician treatment recommendations for patients diagnosed with DCIS and treated with breast&#xD;
+      conserving surgery based on availability of the DCISionRT test results. The primary endpoints&#xD;
+      are treatment recommendations according to standard procedure at each clinical site both pre-&#xD;
+      and post-DCISionRT results.&#xD;
+&#xD;
+      Secondary endpoints include the percent of patients for which the recommended treatment&#xD;
+      before DCISionRT results and after DCISionRT results differ as a function of clinical&#xD;
+      factors, such as age groups (&lt;40, 40-50 and &gt;50), grade (I, II, III), and tumor size (&gt;1cm,&#xD;
+      &gt;2.5cm, &gt;4cm). Other analyses involve the identification of key driver(s) of treatment&#xD;
+      recommendation, such as age, ethnicity, race, family history, presentation&#xD;
+      (screening/clinical), grade, architecture, necrosis, tumor size, palpability, number of&#xD;
+      excisions, surgical margin, hormone receptor status, HER2 status; distribution of DCISionRT&#xD;
+      scores across the cohort; and identification of key driver(s) of treatment recommendation&#xD;
+      based on geographic region of the investigator.&#xD;
+&#xD;
+      The study population will be selected from the clinical practices of the participating&#xD;
+      investigators and institutions. Patients who have been recently diagnosed with DCIS and are&#xD;
+      being evaluated for the need for further therapy will be screened for eligibility per the&#xD;
+      following eligibility criteria.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">July 2, 2021</start_date>
+  <completion_date type="Anticipated">May 2034</completion_date>
+  <primary_completion_date type="Anticipated">May 2024</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>10 Years</target_duration>
+  <primary_outcome>
+    <measure>Percent of Cases with Changes in Treatment Recommendation</measure>
+    <time_frame>5 years</time_frame>
+    <description>The study will collect details on physician treatment recommendations before and after availability of the genomic test (DCISionRT) results. The data elements include type of surgery (lumpectomy, therapeutic mastectomy, contralateral prophylactic mastectomy), type of radiation therapy (none, IORT, APBI, whole breast RT) and endocrine therapy (yes, no). The main measure will be percent of cases in which treatment recommendations are changed after the test results become available.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Function of Demographic Factors</measure>
+    <time_frame>5 years</time_frame>
+    <description>Percent of patients for which the recommended treatments change after DCISionRT results are known as a function of demographic factors (age groups &lt;40, 40-50 and &gt;50; ethnicity; family history)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Function of Tumor Factors</measure>
+    <time_frame>5 years</time_frame>
+    <description>Percent of patients for which the recommended treatments change after DCISionRT results are known as a function of tumor factors (tumor size, grade, architecture, necrosis, palpability, surgical margins, hormone receptor status).</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Distribution of DCISionRT scores across the cohort</measure>
+    <time_frame>5 years</time_frame>
+    <description>Each patient will receive the following results from the DCISionRT test: Risk Score (0 - 10.0), Risk Category Low (&lt;=3.0) or Elevated (&gt;3.0), Risk Prognosis with Breast Conserving Therapy Alone (0 - 40%) and Risk Prognosis with Breast Conserving Therapy and Radiation (0 - 40%).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Function of Geographic Region</measure>
+    <time_frame>5 years</time_frame>
+    <description>Percent of patients for which the recommended treatments change after DCISionRT results are known as a function of the geographic region of the investigator.</description>
+  </other_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">1500</enrollment>
+  <condition>DCIS</condition>
+  <arm_group>
+    <arm_group_label>Ductal Carcinoma In Situ (DCIS)</arm_group_label>
+    <description>Patients must have histologically confirmed ductal carcinoma in situ (DCIS) in a single breast without evidence of invasive cancer (presence of lobular carcinoma in situ (LCIS) or other benign breast disease in addition to DCIS is acceptable).</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>DCISionRT Test</intervention_name>
+    <description>The Prelude DCISionRT Test was developed by Prelude Corporation and is performed at its CLIA laboratory facility. The biomarkers used to evaluate the biologic signature of DCIS tissue are based on over a decade of research including the University of California, San Francisco, Yale University as well as Prelude Corporation. The test is prognostic for 10-year recurrence risk and predicts RT treatment benefit for invasive breast cancer. The laboratory is regulated under the Clinical Laboratory Improvement Amendments of 1988 (CLIA) as qualified to perform high-complexity clinical testing and is accredited by the College of American Pathologists (CAP).</description>
+    <arm_group_label>Ductal Carcinoma In Situ (DCIS)</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population will be selected from the clinical practices of the participating&#xD;
+        investigators and institutions. Patients who have been recently diagnosed with DCIS and are&#xD;
+        being evaluated for the need for further therapy will be screened for eligibility per the&#xD;
+        following eligibility criteria.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. A clinical decision has been made to order the DCISionRT™ Test as part of routine&#xD;
+             patient care&#xD;
+&#xD;
+          2. Patient must have histologically confirmed ductal carcinoma in situ (DCIS) in a single&#xD;
+             breast (presence of lobular carcinoma in situ (LCIS) or other benign breast disease in&#xD;
+             addition to DCIS is acceptable)&#xD;
+&#xD;
+          3. Patient must be consented within 120 days after surgery&#xD;
+&#xD;
+          4. Patient must be eligible for, or have already received breast conserving surgery&#xD;
+&#xD;
+          5. Patient must be eligible to receive radiation and/or systemic treatment&#xD;
+&#xD;
+          6. Patient must be female and greater than 25 years old&#xD;
+&#xD;
+          7. Patient must be able to provide informed consent&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Patient tissue is insufficient to generate DCISionRT test results or required&#xD;
+             DCISionRT inputs (age, tumor size, margin status, palpability) are missing&#xD;
+&#xD;
+          2. Patient has invasive breast cancer or evidence in the ipsilateral or contralateral&#xD;
+             breast of invasive breast cancer, including microinvasion, lymph node involvement, or&#xD;
+             Paget's disease of the nipple&#xD;
+&#xD;
+          3. Patient has already been surgically treated with a mastectomy for primary DCIS&#xD;
+&#xD;
+          4. Patient has prior in situ or invasive breast cancer&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>26 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Troy Bremer</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Prelude Corp</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Tracy Pearce</last_name>
+    <phone>+61 3 94276500</phone>
+    <email>Tracy.Pearce@genesiscare.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Michael Plit</last_name>
+    <phone>+61 2 8236 3300</phone>
+    <email>michael.plit@genesiscare.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>GenesisCare</name>
+      <address>
+        <city>Alexandria</city>
+        <state>New South Wales</state>
+        <zip>2015</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Tracy Pearce</last_name>
+      <phone>+61 3 94276500</phone>
+      <email>Tracy.Pearce@genesiscare.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Michael Plit</last_name>
+      <phone>+61 2 8236 3300</phone>
+    </contact_backup>
+    <investigator>
+      <last_name>Yvonne Zissiadis</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Royal Melbourne Hospital</name>
+      <address>
+        <city>Parkville</city>
+        <state>Victoria</state>
+        <zip>3050</zip>
+        <country>Australia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <phone>+61 3 9342 7000</phone>
+      <email>bruce.mann@mh.org.au</email>
+    </contact>
+    <investigator>
+      <last_name>Bruce Mann</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Australia</country>
+  </location_countries>
+  <reference>
+    <citation>Bremer et al. Cancer Research. Feb 2017. Vol 77 Issue 4 Supp. SABCS16-S5-0.1</citation>
+  </reference>
+  <verification_date>September 2021</verification_date>
+  <study_first_submitted>June 1, 2021</study_first_submitted>
+  <study_first_submitted_qc>June 1, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">June 8, 2021</study_first_posted>
+  <last_update_submitted>September 20, 2021</last_update_submitted>
+  <last_update_submitted_qc>September 20, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 21, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+    <ipd_description>There is no current plan to govern sharing of IPD. Interested researchers should contact Principal Investigators.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

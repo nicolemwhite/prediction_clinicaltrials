@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="156">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04520399</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20200498</org_study_id>
+    <nct_id>NCT04520399</nct_id>
+  </id_info>
+  <brief_title>Prediction of Violent Behavior in Patients With Schizophrenia by Multimodal Machine Learning</brief_title>
+  <official_title>Prediction of Violent Behavior in Patients With Schizophrenia by Multimodal Machine Learning</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Shanghai Mental Health Center</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Shanghai Mental Health Center</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Patients with schizophrenia have a higher risk of committing violent crimes than the general&#xD;
+      population, and the relative risk of violence against others is four times higher than the&#xD;
+      general population. Violence is a major public health problem because it often leads to poor&#xD;
+      prognosis, readmission and stigma in patients with schizophrenia.&#xD;
+&#xD;
+      MRI studies on violent behavior in schizophrenia are relatively few. These studies have found&#xD;
+      that violence is primarily associated with dysfunction in the ventral prefrontal and temporal&#xD;
+      limbic systems. Structural MRI found that violent behavior in schizophrenia was associated&#xD;
+      with increased volume of white matter in caudate nucleus, left orbitofrontal gyrus and right&#xD;
+      orbitofrontal gyrus. However, the current research results in this field are uneven, the&#xD;
+      methods are not consistent, and there is a lack of breakthrough progress, which needs to be&#xD;
+      integrated and deepened urgently.&#xD;
+&#xD;
+      If the violent behavior of the patients with schizophrenia could be predicted by magnetic&#xD;
+      resonance imaging, it would be a revolutionary try. By doing so, the investigators can&#xD;
+      strengthen the treatment of these patients and reduce the occurrence of violence. Based on&#xD;
+      previous studies, the investigators believe that violent schizophrenics exhibit recognizable&#xD;
+      imaging characteristics under structural phase, resting state, negative emotional images and&#xD;
+      natural stimuli models. Anomalies in a particular mode may be subtle and difficult to&#xD;
+      identify, but when multiple different modes are integrated, a significant and characteristic&#xD;
+      set of imaging markers will be present. This study will use the multivariate model of machine&#xD;
+      learning method, detection brain activation patterns under different situations among&#xD;
+      patients with violence. The investigators are going to study imaging biomarkers, and try to&#xD;
+      predict the possibility of onset of violence among schizophrenia patients, thus reduce the&#xD;
+      risks of violence.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">October 2020</start_date>
+  <completion_date type="Anticipated">September 2022</completion_date>
+  <primary_completion_date type="Anticipated">September 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>MRI testing results</measure>
+    <time_frame>Sep.2022</time_frame>
+    <description>structural MRI data</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>resting state MRI data</measure>
+    <time_frame>Sep.2020</time_frame>
+    <description>functional connections between brain regions</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>functional MRI data</measure>
+    <time_frame>Sep.2020</time_frame>
+    <description>brain stimulation models while in a natural stimulus or watching affective pictures</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Integrated data</measure>
+    <time_frame>Sep.2020</time_frame>
+    <description>integrated MRI data from machine learning method</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">200</enrollment>
+  <condition>Schizophrenia</condition>
+  <condition>Violence</condition>
+  <arm_group>
+    <arm_group_label>violence</arm_group_label>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>non-violence</arm_group_label>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>none intervention</intervention_name>
+    <description>there is no intervention in this study</description>
+    <arm_group_label>non-violence</arm_group_label>
+    <arm_group_label>violence</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        A total of 200 schizophrenic patients were collected in Shanghai Mental Health Center.&#xD;
+        Through the assessment of violent behavior (MOAS scale + self-report), schizophrenic&#xD;
+        patients were divided into violent group and non-violent group.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        for violent group&#xD;
+&#xD;
+          1. Inpatient or out-patient treatment;&#xD;
+&#xD;
+          2. Junior high school education or above, eliminate mental retardation;&#xD;
+&#xD;
+          3. 18-60 years old;&#xD;
+&#xD;
+          4. Han, right-handed;&#xD;
+&#xD;
+          5. Meet the diagnostic criteria of ICD-10 schizophrenia;&#xD;
+&#xD;
+          6. Self-report and confirmed by family members that violence occurred at least 2 times in&#xD;
+             the recent six months;&#xD;
+&#xD;
+          7. In the recent half year, the revised Version of the weighted total score of The&#xD;
+             Explicit Attack Scale (MOAS) ≥4;&#xD;
+&#xD;
+          8. Exclude severe heart, liver, kidney, blood, digestive and nervous system diseases;&#xD;
+&#xD;
+          9. Willing to participate in this study and sign the informed consent. Inclusion criteria&#xD;
+             for non-violent patients&#xD;
+&#xD;
+        1) Schizophrenic patients treated in hospital or outpatient; 2) Junior high school&#xD;
+        education or above, eliminate mental retardation; 3) 18-60 years old; 4) Han, right-handed;&#xD;
+        5) Meet the diagnostic criteria of ICD-10 schizophrenia; 6) Self-reported and confirmed by&#xD;
+        family members that no violence has occurred in the past six months; 7) within the past&#xD;
+        revisions explicit scale (MOAS) weighted total score ˂ 4 points; 8) Exclude severe heart,&#xD;
+        liver, kidney, blood, digestive and nervous system diseases; 9) Willing to participate in&#xD;
+        this study and sign the informed consent.&#xD;
+&#xD;
+        -&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>60 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Yi Qiao</last_name>
+    <phone>13817615936</phone>
+    <phone_ext>13817615936</phone_ext>
+    <email>qiaoyi2004@msn.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Shanghai Mental Health Center</name>
+      <address>
+        <city>Shanghai</city>
+        <state>Shanghai</state>
+        <zip>200030</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>August 2020</verification_date>
+  <study_first_submitted>August 13, 2020</study_first_submitted>
+  <study_first_submitted_qc>August 18, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">August 20, 2020</study_first_posted>
+  <last_update_submitted>August 18, 2020</last_update_submitted>
+  <last_update_submitted_qc>August 18, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 20, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Schizophrenia</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

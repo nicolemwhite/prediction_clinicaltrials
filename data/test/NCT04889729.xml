@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="18">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04889729</url>
+  </required_header>
+  <id_info>
+    <org_study_id>GENOMED4ALL: MDS</org_study_id>
+    <nct_id>NCT04889729</nct_id>
+  </id_info>
+  <brief_title>GENOMED4ALL: Improving MDS Classification and Prognosis by AI</brief_title>
+  <official_title>Genomic and Personalized Medicine for All (GENOMED4ALL): Application of Artificial Intelligence to Improve Disease Classification and Prognosis in Myelodysplastic Syndrome.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Istituto Clinico Humanitas</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Istituto Clinico Humanitas</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Myelodysplastic syndromes (MDS) typically occur in elderly people. Current disese&#xD;
+      classifcation system and prognostic scores (International Prognostic Scoring System, IPSS)&#xD;
+      present limitations and in most cases fail to capture reliable prognostic information at&#xD;
+      individual level. Study of MDS has been rapidly transformed by genome characterization and&#xD;
+      there is increasing evidence that mutation screening may add significant information to&#xD;
+      currently available prognostic scores. The project will aim to develop artificial&#xD;
+      intelligence (AI)-based solutions to improve MDS classification and prognostication, through&#xD;
+      the implementation of a personalized medicine approach. In close collaboration with the&#xD;
+      European Reference Network on Rare Hematological Diseases (ERN-EuroBloodNet, FPA 739541),&#xD;
+      GENOMED4ALL involves multiple clinical partners from the network, while leveraging on&#xD;
+      healthcare information and repositories that will be gathered incorporating interoperability&#xD;
+      standards as promoted by ERN-EuroBloodNet central registry, the European Rare Blood Disorders&#xD;
+      Platform (ENROL, GA 947670).&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Myelodysplastic syndromes (MDS) typically occur in elderly people. Patients present&#xD;
+      peripheral blood cytopenia, and with time a portion of these subjects evolve into acute&#xD;
+      myeloid leukaemia (AML). The natural history of MDS is heterogeneous ranging from conditions&#xD;
+      with a near-normal life expectancy to forms close to AML, and therefore a risk-adapted&#xD;
+      treatment strategy is mandatory. Current prognostic scores (Revised International Prognostic&#xD;
+      Scoring System, IPSS-R) present limitations, and in most cases fail to capture reliable&#xD;
+      prognostic information at individual level.&#xD;
+&#xD;
+      Study of MDS has been rapidly transformed by genome characterization. Somatic mutations occur&#xD;
+      in the genomes of hematopoietic stem cells at a low, but detectable frequency during normal&#xD;
+      DNA replication. Any genetic alteration that causes a selective advantage relative to other&#xD;
+      self-renewing cells will lead to clonal dominance (clonal haematopoiesis, CH). The&#xD;
+      consequence of CH is genomic instability leading to increased risk of acquiring additional&#xD;
+      mutations and to develop MDS, solid cancer and other illnesses. The time and place of&#xD;
+      individual mutations and their clonal emergence during the course of the disease are central&#xD;
+      issues for a better comprehension of MDS pathogenesis and phenotype and for the development&#xD;
+      of cancer preventive strategies.&#xD;
+&#xD;
+      Important steps forward have been made in defining the molecular architecture of MDS. The MDS&#xD;
+      associated with 5q deletion derives from the haploinsufficiency of RPS14 gene. Genes encoding&#xD;
+      for spliceosome components were identified in a high proportion of subjects with MDS. There&#xD;
+      is a close relationship between ring sideroblasts and SF3B1 mutations, which is consistent&#xD;
+      with a causal relationship. In addition, an increasing number of genes have been found to&#xD;
+      carry recurrent mutations in MDS, involved in DNA methylation (DNMT3A, TET2, IDH1/2),&#xD;
+      chromatin modification (EZH2, ASXL1), transcriptional regulation (RUNX1), signal transduction&#xD;
+      (KRAS, CBL).&#xD;
+&#xD;
+      Gene mutations have been reported to influence survival and risk of disease progression in&#xD;
+      MDS, and the evaluation of the mutation status may add significant information to currently&#xD;
+      used prognostic scores. For instance, we found that SF3B1 mutations were independent&#xD;
+      predictors of favorable prognosis, while driver mutations of ASXL1, SRSF2, RUNX1, TP53 and&#xD;
+      EZH2 genes were associated with a reduced probability of survival. MDS with ring sideroblasts&#xD;
+      provide the best evidence that the identification of the mutant gene responsible for the&#xD;
+      initial clone is relevant to clinical outcome. In fact, ring sideroblasts may be found not&#xD;
+      only in patients with a founding mutation in SF3B1, but also in those with an initiating&#xD;
+      oncogenic lesion in SRSF2. However, the median leukemia-free survival is &gt;10 years in the&#xD;
+      former vs &lt;2 years in the latter.&#xD;
+&#xD;
+      Moreover, mutation screening may affect clinical decision making : a) in MDS with 5q-,&#xD;
+      subjects carrying TP53 mutations have a higher risk of leukemic progression and a lower&#xD;
+      probability of response to lenalidomide; b) in patients receiving HSCT, TP53 mutations&#xD;
+      predict high probability of relapse; c) SF3B1 mutations are associated with increased&#xD;
+      probability of erythroid response to TGFb inhibitors (luspatercept), and d) TET2 mutations&#xD;
+      might be associated with response to HMA.&#xD;
+&#xD;
+      Despite these findings, caution is needed against immediately adopting such mutational&#xD;
+      testing in clinical practice. First, the presence of mutations in a given individual has only&#xD;
+      limited predictive power, as conversion to MDS is rare regardless of mutation status. In&#xD;
+      addition, in patients with overt MDS, genetic abnormalities explain only a proportion of the&#xD;
+      total hazard for survival associated with specific treatments, meaning that a large&#xD;
+      percentage is still associated with clinical and non-mutational factors. Comprehensive&#xD;
+      analyses of large patient population and new methods to study gene-gene interactions and&#xD;
+      genoptype-phenotype correlations are warranted to correctly estimate the independent effect&#xD;
+      of each genomic abnormality on clinical outcome and response to treatment.&#xD;
+&#xD;
+      By combining an already available, large amount of sequenced genomic data and clinical&#xD;
+      information, the authors hypothesize that AI will allow to understand better MDS biology and&#xD;
+      classification, enhance prognostic/predictive capacity of currently available tools and apply&#xD;
+      treatments in a more targeted way, thus facilitating the implementation of personalized&#xD;
+      medicine program across EU.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">March 15, 2021</start_date>
+  <completion_date type="Anticipated">December 31, 2024</completion_date>
+  <primary_completion_date type="Anticipated">March 15, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Improving MDS classification</measure>
+    <time_frame>through study completion, an average of 2 years</time_frame>
+    <description>To improve classification of MDS by integrating clinical and hematological information with genomic features. To address this issue, different methods of statistical learning (Dirichlet processes (DP), Bayesian networks (BN)) and machine learning (deep learning physics informed neural network, constrained regression and deep models) will be compared in order to define specific genotype-phenotype correlations and to develop a new disease classification.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Prediction of probability of overall survival (months between diagnosis and death or end of follow up) for patients with MDS</measure>
+    <time_frame>through study completion, an average of 2 years</time_frame>
+    <description>Overall survival (OS) will be defined as the time (expressed in months) between diagnosis and death (as a result of all causes) or end of follow-up (censored observations).&#xD;
+New prognostic scores will be defined including the following features: age expressed in years; sex (male or female); neutrophils count (number of neutrophils*10^6/L), platelets count (number of plateles 10^6/L), hemoglobin concentration (g/dl), cytogenetics (stratified according to IPPS-R criteria, Blood 2012 120: 2454-2465), percentage of bone marrrow blasts and presence of gene mutations (presence versus absence).&#xD;
+Different statistical methods will be used to measure prediction accuracy (measured by concordance index, C-index): Cox proporsional-hazard methods, random survival forests, neural networks, continous individualized risk index (CIRI), times series analysis and Markov modeling for stochastic trajectories prediction</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Prediction of probability of leukemia free surivival (months from diagnosis to progression to acute leukemia or end of follow up) for patients with MDS</measure>
+    <time_frame>through study completion, an average of 2 years</time_frame>
+    <description>Leukemia will be defined as the time (expressed in months) between diagnosis and progression to acute leukemia or end of follow-up.&#xD;
+New prognostic scores will be defined including the following features: age expressed in years; sex (male or female); neutrophils count (number of neutrophils*10^6/L), platelets count (number of plateles 10^6/L), hemoglobin concentration (g/dl), cytogenetics (stratified according to IPPS-R criteria, Blood 2012 120: 2454-2465), percentage of bone marrrow blasts and presence of gene mutations (presence versus absence).&#xD;
+Different statistical methods will be used to measure prediction accuracy (measured by concordance index, C-index): Cox proporsional-hazard methods, random survival forests, neural networks, continous individualized risk index (CIRI), times series analysis and Markov modeling for stochastic trajectories prediction</description>
+  </primary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">8200</enrollment>
+  <condition>Myelodysplastic Syndromes</condition>
+  <arm_group>
+    <arm_group_label>GENOMED4ALL - MDS patients</arm_group_label>
+    <description>Information on targeted mutation screening (NGS including 60 genes related to MDS) from 8200 MDS patients</description>
+  </arm_group>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients affected by MDS. 8200 patients with clinical and genomic information availability&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients affected by MDS according WHO criteria &gt; 18 years old&#xD;
+&#xD;
+          -  Avaliability of clinical and hematological information&#xD;
+&#xD;
+          -  Availability of information on targeted mutation screening&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  none of the above&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Federico Alvarez</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>UNIVERSIDAD POLITECNICA DE MADRID SPAIN</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Lucia Comnes</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>DATAWIZARD SRL ITALY</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Mar Manu Pereira</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>FUNDACIO HOSPITAL UNIVERSITARI VALL D'HEBRON - INSTITUT DE RECERCA SPAIN</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Pierre Fenaux</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>ASSISTANCE PUBLIQUE HOPITAUX DE PARIS FRANCE</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Torsten Haferlach</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>MLL MUNCHNER LEUKAMIELABOR GMBH GERMANY</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Maria Diez Campelo</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Instituto de investigacion biomedica de Salamanca, IBSAL SPAIN</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Uwe Platzbecker</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>UNIVERSITAET LEIPZIG GERMANY</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Gastone Castellani</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>ALMA MATER STUDIORUM - UNIVERSITA DI BOLOGNA ITALY</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Andres Krogh</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>KOBENHAVNS UNIVERSITET DENMARK</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Babita Singh</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>FUNDACIO CENTRE DE REGULACIO GENOMICA SPAIN</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Piero Fariselli</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>UNIVERSITA DEGLI STUDI DI TORINO ITALY</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Kostantinos Marias</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>IDRYMA TECHNOLOGIAS KAI EREVNAS GREECE</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Mar Mañu Pereira</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>European Reference Network on Rare Hematological Diseases (ERN-EuroBloodNet)</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Istituto Clinico Humanitas</name>
+      <address>
+        <city>Milano</city>
+        <country>Italy</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Italy</country>
+  </location_countries>
+  <reference>
+    <citation>Bersanelli M, Travaglino E, Meggendorfer M, Matteuzzi T, Sala C, Mosca E, Chiereghin C, Di Nanni N, Gnocchi M, Zampini M, Rossi M, Maggioni G, Termanini A, Angelucci E, Bernardi M, Borin L, Bruno B, Bonifazi F, Santini V, Bacigalupo A, Voso MT, Oliva E, Riva M, Ubezio M, Morabito L, Campagna A, Saitta C, Savevski V, Giampieri E, Remondini D, Passamonti F, Ciceri F, Bolli N, Rambaldi A, Kern W, Kordasti S, Sole F, Palomo L, Sanz G, Santoro A, Platzbecker U, Fenaux P, Milanesi L, Haferlach T, Castellani G, Della Porta MG. Classification and Personalized Prognostic Assessment on the Basis of Clinical and Genomic Features in Myelodysplastic Syndromes. J Clin Oncol. 2021 Apr 10;39(11):1223-1233. doi: 10.1200/JCO.20.01659. Epub 2021 Feb 4.</citation>
+    <PMID>33539200</PMID>
+  </reference>
+  <reference>
+    <citation>Adès L, Itzykson R, Fenaux P. Myelodysplastic syndromes. Lancet. 2014 Jun 28;383(9936):2239-52. doi: 10.1016/S0140-6736(13)61901-7. Epub 2014 Mar 21. Review.</citation>
+    <PMID>24656536</PMID>
+  </reference>
+  <reference>
+    <citation>Arber DA, Orazi A, Hasserjian R, Thiele J, Borowitz MJ, Le Beau MM, Bloomfield CD, Cazzola M, Vardiman JW. The 2016 revision to the World Health Organization classification of myeloid neoplasms and acute leukemia. Blood. 2016 May 19;127(20):2391-405. doi: 10.1182/blood-2016-03-643544. Epub 2016 Apr 11. Review.</citation>
+    <PMID>27069254</PMID>
+  </reference>
+  <reference>
+    <citation>Della Porta MG, Travaglino E, Boveri E, Ponzoni M, Malcovati L, Papaemmanuil E, Rigolin GM, Pascutto C, Croci G, Gianelli U, Milani R, Ambaglio I, Elena C, Ubezio M, Da Via' MC, Bono E, Pietra D, Quaglia F, Bastia R, Ferretti V, Cuneo A, Morra E, Campbell PJ, Orazi A, Invernizzi R, Cazzola M; Rete Ematologica Lombarda (REL) Clinical Network. Minimal morphological criteria for defining bone marrow dysplasia: a basis for clinical implementation of WHO classification of myelodysplastic syndromes. Leukemia. 2015 Jan;29(1):66-75. doi: 10.1038/leu.2014.161. Epub 2014 May 20.</citation>
+    <PMID>24935723</PMID>
+  </reference>
+  <reference>
+    <citation>Senent L, Arenillas L, Luño E, Ruiz JC, Sanz G, Florensa L. Reproducibility of the World Health Organization 2008 criteria for myelodysplastic syndromes. Haematologica. 2013 Apr;98(4):568-75. doi: 10.3324/haematol.2012.071449. Epub 2012 Oct 12.</citation>
+    <PMID>23065505</PMID>
+  </reference>
+  <reference>
+    <citation>Malcovati L, Porta MG, Pascutto C, Invernizzi R, Boni M, Travaglino E, Passamonti F, Arcaini L, Maffioli M, Bernasconi P, Lazzarino M, Cazzola M. Prognostic factors and life expectancy in myelodysplastic syndromes classified according to WHO criteria: a basis for clinical decision making. J Clin Oncol. 2005 Oct 20;23(30):7594-603. Epub 2005 Sep 26.</citation>
+    <PMID>16186598</PMID>
+  </reference>
+  <reference>
+    <citation>Malcovati L, Hellström-Lindberg E, Bowen D, Adès L, Cermak J, Del Cañizo C, Della Porta MG, Fenaux P, Gattermann N, Germing U, Jansen JH, Mittelman M, Mufti G, Platzbecker U, Sanz GF, Selleslag D, Skov-Holm M, Stauder R, Symeonidis A, van de Loosdrecht AA, de Witte T, Cazzola M; European Leukemia Net. Diagnosis and treatment of primary myelodysplastic syndromes in adults: recommendations from the European LeukemiaNet. Blood. 2013 Oct 24;122(17):2943-64. doi: 10.1182/blood-2013-03-492884. Epub 2013 Aug 26.</citation>
+    <PMID>23980065</PMID>
+  </reference>
+  <reference>
+    <citation>Greenberg PL, Tuechler H, Schanz J, Sanz G, Garcia-Manero G, Solé F, Bennett JM, Bowen D, Fenaux P, Dreyfus F, Kantarjian H, Kuendgen A, Levis A, Malcovati L, Cazzola M, Cermak J, Fonatsch C, Le Beau MM, Slovak ML, Krieger O, Luebbert M, Maciejewski J, Magalhaes SM, Miyazaki Y, Pfeilstöcker M, Sekeres M, Sperr WR, Stauder R, Tauro S, Valent P, Vallespi T, van de Loosdrecht AA, Germing U, Haase D. Revised international prognostic scoring system for myelodysplastic syndromes. Blood. 2012 Sep 20;120(12):2454-65. Epub 2012 Jun 27.</citation>
+    <PMID>22740453</PMID>
+  </reference>
+  <reference>
+    <citation>Della Porta MG, Tuechler H, Malcovati L, Schanz J, Sanz G, Garcia-Manero G, Solé F, Bennett JM, Bowen D, Fenaux P, Dreyfus F, Kantarjian H, Kuendgen A, Levis A, Cermak J, Fonatsch C, Le Beau MM, Slovak ML, Krieger O, Luebbert M, Maciejewski J, Magalhaes SM, Miyazaki Y, Pfeilstöcker M, Sekeres MA, Sperr WR, Stauder R, Tauro S, Valent P, Vallespi T, van de Loosdrecht AA, Germing U, Haase D, Greenberg PL, Cazzola M. Validation of WHO classification-based Prognostic Scoring System (WPSS) for myelodysplastic syndromes and comparison with the revised International Prognostic Scoring System (IPSS-R). A study of the International Working Group for Prognosis in Myelodysplasia (IWG-PM). Leukemia. 2015 Jul;29(7):1502-13. doi: 10.1038/leu.2015.55. Epub 2015 Feb 27.</citation>
+    <PMID>25721895</PMID>
+  </reference>
+  <reference>
+    <citation>Cazzola M, Della Porta MG, Malcovati L. The genetic basis of myelodysplasia and its clinical relevance. Blood. 2013 Dec 12;122(25):4021-34. doi: 10.1182/blood-2013-09-381665. Epub 2013 Oct 17. Review.</citation>
+    <PMID>24136165</PMID>
+  </reference>
+  <reference>
+    <citation>Papaemmanuil E, Cazzola M, Boultwood J, Malcovati L, Vyas P, Bowen D, Pellagatti A, Wainscoat JS, Hellstrom-Lindberg E, Gambacorti-Passerini C, Godfrey AL, Rapado I, Cvejic A, Rance R, McGee C, Ellis P, Mudie LJ, Stephens PJ, McLaren S, Massie CE, Tarpey PS, Varela I, Nik-Zainal S, Davies HR, Shlien A, Jones D, Raine K, Hinton J, Butler AP, Teague JW, Baxter EJ, Score J, Galli A, Della Porta MG, Travaglino E, Groves M, Tauro S, Munshi NC, Anderson KC, El-Naggar A, Fischer A, Mustonen V, Warren AJ, Cross NC, Green AR, Futreal PA, Stratton MR, Campbell PJ; Chronic Myeloid Disorders Working Group of the International Cancer Genome Consortium. Somatic SF3B1 mutation in myelodysplasia with ring sideroblasts. N Engl J Med. 2011 Oct 13;365(15):1384-95. doi: 10.1056/NEJMoa1103283. Epub 2011 Sep 26.</citation>
+    <PMID>21995386</PMID>
+  </reference>
+  <reference>
+    <citation>Yoshida K, Sanada M, Shiraishi Y, Nowak D, Nagata Y, Yamamoto R, Sato Y, Sato-Otsubo A, Kon A, Nagasaki M, Chalkidis G, Suzuki Y, Shiosaka M, Kawahata R, Yamaguchi T, Otsu M, Obara N, Sakata-Yanagimoto M, Ishiyama K, Mori H, Nolte F, Hofmann WK, Miyawaki S, Sugano S, Haferlach C, Koeffler HP, Shih LY, Haferlach T, Chiba S, Nakauchi H, Miyano S, Ogawa S. Frequent pathway mutations of splicing machinery in myelodysplasia. Nature. 2011 Sep 11;478(7367):64-9. doi: 10.1038/nature10496.</citation>
+    <PMID>21909114</PMID>
+  </reference>
+  <reference>
+    <citation>Papaemmanuil E, Gerstung M, Malcovati L, Tauro S, Gundem G, Van Loo P, Yoon CJ, Ellis P, Wedge DC, Pellagatti A, Shlien A, Groves MJ, Forbes SA, Raine K, Hinton J, Mudie LJ, McLaren S, Hardy C, Latimer C, Della Porta MG, O'Meara S, Ambaglio I, Galli A, Butler AP, Walldin G, Teague JW, Quek L, Sternberg A, Gambacorti-Passerini C, Cross NC, Green AR, Boultwood J, Vyas P, Hellstrom-Lindberg E, Bowen D, Cazzola M, Stratton MR, Campbell PJ; Chronic Myeloid Disorders Working Group of the International Cancer Genome Consortium. Clinical and biological implications of driver mutations in myelodysplastic syndromes. Blood. 2013 Nov 21;122(22):3616-27; quiz 3699. doi: 10.1182/blood-2013-08-518886. Epub 2013 Sep 12.</citation>
+    <PMID>24030381</PMID>
+  </reference>
+  <reference>
+    <citation>Schanz J, Tüchler H, Solé F, Mallo M, Luño E, Cervera J, Granada I, Hildebrandt B, Slovak ML, Ohyashiki K, Steidl C, Fonatsch C, Pfeilstöcker M, Nösslinger T, Valent P, Giagounidis A, Aul C, Lübbert M, Stauder R, Krieger O, Garcia-Manero G, Faderl S, Pierce S, Le Beau MM, Bennett JM, Greenberg P, Germing U, Haase D. New comprehensive cytogenetic scoring system for primary myelodysplastic syndromes (MDS) and oligoblastic acute myeloid leukemia after MDS derived from an international database merge. J Clin Oncol. 2012 Mar 10;30(8):820-9. doi: 10.1200/JCO.2011.35.6394. Epub 2012 Feb 13.</citation>
+    <PMID>22331955</PMID>
+  </reference>
+  <reference>
+    <citation>Papaemmanuil E, Gerstung M, Bullinger L, Gaidzik VI, Paschka P, Roberts ND, Potter NE, Heuser M, Thol F, Bolli N, Gundem G, Van Loo P, Martincorena I, Ganly P, Mudie L, McLaren S, O'Meara S, Raine K, Jones DR, Teague JW, Butler AP, Greaves MF, Ganser A, Döhner K, Schlenk RF, Döhner H, Campbell PJ. Genomic Classification and Prognosis in Acute Myeloid Leukemia. N Engl J Med. 2016 Jun 9;374(23):2209-2221. doi: 10.1056/NEJMoa1516192.</citation>
+    <PMID>27276561</PMID>
+  </reference>
+  <reference>
+    <citation>Gerstung M, Papaemmanuil E, Martincorena I, Bullinger L, Gaidzik VI, Paschka P, Heuser M, Thol F, Bolli N, Ganly P, Ganser A, McDermott U, Döhner K, Schlenk RF, Döhner H, Campbell PJ. Precision oncology for acute myeloid leukemia using a knowledge bank approach. Nat Genet. 2017 Mar;49(3):332-340. doi: 10.1038/ng.3756. Epub 2017 Jan 16.</citation>
+    <PMID>28092685</PMID>
+  </reference>
+  <reference>
+    <citation>Grinfeld J, Nangalia J, Baxter EJ, Wedge DC, Angelopoulos N, Cantrill R, Godfrey AL, Papaemmanuil E, Gundem G, MacLean C, Cook J, O'Neil L, O'Meara S, Teague JW, Butler AP, Massie CE, Williams N, Nice FL, Andersen CL, Hasselbalch HC, Guglielmelli P, McMullin MF, Vannucchi AM, Harrison CN, Gerstung M, Green AR, Campbell PJ. Classification and Personalized Prognosis in Myeloproliferative Neoplasms. N Engl J Med. 2018 Oct 11;379(15):1416-1430. doi: 10.1056/NEJMoa1716614.</citation>
+    <PMID>30304655</PMID>
+  </reference>
+  <reference>
+    <citation>Harrell FE Jr, Lee KL, Mark DB. Multivariable prognostic models: issues in developing models, evaluating assumptions and adequacy, and measuring and reducing errors. Stat Med. 1996 Feb 28;15(4):361-87. Review.</citation>
+    <PMID>8668867</PMID>
+  </reference>
+  <reference>
+    <citation>Perperoglou A. Cox models with dynamic ridge penalties on time-varying effects of the covariates. Stat Med. 2014 Jan 15;33(1):170-80. doi: 10.1002/sim.5921. Epub 2013 Aug 2.</citation>
+    <PMID>23913655</PMID>
+  </reference>
+  <reference>
+    <citation>Pellagatti A, Armstrong RN, Steeples V, Sharma E, Repapi E, Singh S, Sanchi A, Radujkovic A, Horn P, Dolatshad H, Roy S, Broxholme J, Lockstone H, Taylor S, Giagounidis A, Vyas P, Schuh A, Hamblin A, Papaemmanuil E, Killick S, Malcovati L, Hennrich ML, Gavin AC, Ho AD, Luft T, Hellström-Lindberg E, Cazzola M, Smith CWJ, Smith S, Boultwood J. Impact of spliceosome mutations on RNA splicing in myelodysplasia: dysregulated genes/pathways and clinical associations. Blood. 2018 Sep 20;132(12):1225-1240. doi: 10.1182/blood-2018-04-843771. Epub 2018 Jun 21.</citation>
+    <PMID>29930011</PMID>
+  </reference>
+  <reference>
+    <citation>Malcovati L, Papaemmanuil E, Bowen DT, Boultwood J, Della Porta MG, Pascutto C, Travaglino E, Groves MJ, Godfrey AL, Ambaglio I, Gallì A, Da Vià MC, Conte S, Tauro S, Keenan N, Hyslop A, Hinton J, Mudie LJ, Wainscoat JS, Futreal PA, Stratton MR, Campbell PJ, Hellström-Lindberg E, Cazzola M; Chronic Myeloid Disorders Working Group of the International Cancer Genome Consortium and of the Associazione Italiana per la Ricerca sul Cancro Gruppo Italiano Malattie Mieloproliferative. Clinical significance of SF3B1 mutations in myelodysplastic syndromes and myelodysplastic/myeloproliferative neoplasms. Blood. 2011 Dec 8;118(24):6239-46. doi: 10.1182/blood-2011-09-377275. Epub 2011 Oct 12.</citation>
+    <PMID>21998214</PMID>
+  </reference>
+  <reference>
+    <citation>Klampfl T, Gisslinger H, Harutyunyan AS, Nivarthi H, Rumi E, Milosevic JD, Them NC, Berg T, Gisslinger B, Pietra D, Chen D, Vladimer GI, Bagienski K, Milanesi C, Casetti IC, Sant'Antonio E, Ferretti V, Elena C, Schischlik F, Cleary C, Six M, Schalling M, Schönegger A, Bock C, Malcovati L, Pascutto C, Superti-Furga G, Cazzola M, Kralovics R. Somatic mutations of calreticulin in myeloproliferative neoplasms. N Engl J Med. 2013 Dec 19;369(25):2379-90. doi: 10.1056/NEJMoa1311347. Epub 2013 Dec 10.</citation>
+    <PMID>24325356</PMID>
+  </reference>
+  <reference>
+    <citation>Reilly B, Tanaka TN, Diep D, Yeerna H, Tamayo P, Zhang K, Bejar R. DNA methylation identifies genetically and prognostically distinct subtypes of myelodysplastic syndromes. Blood Adv. 2019 Oct 8;3(19):2845-2858. doi: 10.1182/bloodadvances.2019000192.</citation>
+    <PMID>31582393</PMID>
+  </reference>
+  <reference>
+    <citation>Masaki S, Ikeda S, Hata A, Shiozawa Y, Kon A, Ogawa S, Suzuki K, Hakuno F, Takahashi SI, Kataoka N. Myelodysplastic Syndrome-Associated SRSF2 Mutations Cause Splicing Changes by Altering Binding Motif Sequences. Front Genet. 2019 Apr 16;10:338. doi: 10.3389/fgene.2019.00338. eCollection 2019.</citation>
+    <PMID>31040863</PMID>
+  </reference>
+  <reference>
+    <citation>Liang Y, Tebaldi T, Rejeski K, Joshi P, Stefani G, Taylor A, Song Y, Vasic R, Maziarz J, Balasubramanian K, Ardasheva A, Ding A, Quattrone A, Halene S. SRSF2 mutations drive oncogenesis by activating a global program of aberrant alternative splicing in hematopoietic cells. Leukemia. 2018 Dec;32(12):2659-2671. doi: 10.1038/s41375-018-0152-7. Epub 2018 Jun 1.</citation>
+    <PMID>29858584</PMID>
+  </reference>
+  <reference>
+    <citation>Haferlach T, Nagata Y, Grossmann V, Okuno Y, Bacher U, Nagae G, Schnittger S, Sanada M, Kon A, Alpermann T, Yoshida K, Roller A, Nadarajah N, Shiraishi Y, Shiozawa Y, Chiba K, Tanaka H, Koeffler HP, Klein HU, Dugas M, Aburatani H, Kohlmann A, Miyano S, Haferlach C, Kern W, Ogawa S. Landscape of genetic lesions in 944 patients with myelodysplastic syndromes. Leukemia. 2014 Feb;28(2):241-7. doi: 10.1038/leu.2013.336. Epub 2013 Nov 13.</citation>
+    <PMID>24220272</PMID>
+  </reference>
+  <reference>
+    <citation>Bacher U, Haferlach T, Schnittger S, Zenger M, Meggendorfer M, Jeromin S, Roller A, Grossmann V, Krauth MT, Alpermann T, Kern W, Haferlach C. Investigation of 305 patients with myelodysplastic syndromes and 20q deletion for associated cytogenetic and molecular genetic lesions and their prognostic impact. Br J Haematol. 2014 Mar;164(6):822-33. doi: 10.1111/bjh.12710. Epub 2013 Dec 26.</citation>
+    <PMID>24372512</PMID>
+  </reference>
+  <reference>
+    <citation>Haase D, Stevenson KE, Neuberg D, Maciejewski JP, Nazha A, Sekeres MA, Ebert BL, Garcia-Manero G, Haferlach C, Haferlach T, Kern W, Ogawa S, Nagata Y, Yoshida K, Graubert TA, Walter MJ, List AF, Komrokji RS, Padron E, Sallman D, Papaemmanuil E, Campbell PJ, Savona MR, Seegmiller A, Adès L, Fenaux P, Shih LY, Bowen D, Groves MJ, Tauro S, Fontenay M, Kosmider O, Bar-Natan M, Steensma D, Stone R, Heuser M, Thol F, Cazzola M, Malcovati L, Karsan A, Ganster C, Hellström-Lindberg E, Boultwood J, Pellagatti A, Santini V, Quek L, Vyas P, Tüchler H, Greenberg PL, Bejar R; International Working Group for MDS Molecular Prognostic Committee. TP53 mutation status divides myelodysplastic syndromes with complex karyotypes into distinct prognostic subgroups. Leukemia. 2019 Jul;33(7):1747-1758. doi: 10.1038/s41375-018-0351-2. Epub 2019 Jan 11.</citation>
+    <PMID>30635634</PMID>
+  </reference>
+  <reference>
+    <citation>Kulasekararaj AG, Jiang J, Smith AE, Mohamedali AM, Mian S, Gandhi S, Gaken J, Czepulkowski B, Marsh JC, Mufti GJ. Somatic mutations identify a subgroup of aplastic anemia patients who progress to myelodysplastic syndrome. Blood. 2014 Oct 23;124(17):2698-704. doi: 10.1182/blood-2014-05-574889. Epub 2014 Aug 18.</citation>
+    <PMID>25139356</PMID>
+  </reference>
+  <reference>
+    <citation>Della Porta MG, Gallì A, Bacigalupo A, Zibellini S, Bernardi M, Rizzo E, Allione B, van Lint MT, Pioltelli P, Marenco P, Bosi A, Voso MT, Sica S, Cuzzola M, Angelucci E, Rossi M, Ubezio M, Malovini A, Limongelli I, Ferretti VV, Spinelli O, Tresoldi C, Pozzi S, Luchetti S, Pezzetti L, Catricalà S, Milanesi C, Riva A, Bruno B, Ciceri F, Bonifazi F, Bellazzi R, Papaemmanuil E, Santoro A, Alessandrino EP, Rambaldi A, Cazzola M. Clinical Effects of Driver Somatic Mutations on the Outcomes of Patients With Myelodysplastic Syndromes Treated With Allogeneic Hematopoietic Stem-Cell Transplantation. J Clin Oncol. 2016 Oct 20;34(30):3627-3637. doi: 10.1200/JCO.2016.67.3616.</citation>
+    <PMID>27601546</PMID>
+  </reference>
+  <reference>
+    <citation>Lindsley RC, Saber W, Mar BG, Redd R, Wang T, Haagenson MD, Grauman PV, Hu ZH, Spellman SR, Lee SJ, Verneris MR, Hsu K, Fleischhauer K, Cutler C, Antin JH, Neuberg D, Ebert BL. Prognostic Mutations in Myelodysplastic Syndrome after Stem-Cell Transplantation. N Engl J Med. 2017 Feb 9;376(6):536-547. doi: 10.1056/NEJMoa1611604.</citation>
+    <PMID>28177873</PMID>
+  </reference>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>May 5, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 12, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 17, 2021</study_first_posted>
+  <last_update_submitted>June 28, 2021</last_update_submitted>
+  <last_update_submitted_qc>June 28, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">July 1, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>ARTIFICIAL INTELLIGENCE</keyword>
+  <keyword>HEMATOLOGICAL DISEASE</keyword>
+  <keyword>GENOMICS</keyword>
+  <keyword>PROGNOSIS</keyword>
+  <keyword>DISEASE CLASSIFICATION</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Preleukemia</mesh_term>
+    <mesh_term>Myelodysplastic Syndromes</mesh_term>
+    <mesh_term>Syndrome</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

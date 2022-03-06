@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="194">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04675424</url>
+  </required_header>
+  <id_info>
+    <org_study_id>NMRPG3K6131</org_study_id>
+    <nct_id>NCT04675424</nct_id>
+  </id_info>
+  <brief_title>Using Artificial Intelligence (AI)-Assisted Pulse Diagnosis Analysis on Precision Critical Medicine.</brief_title>
+  <official_title>Using Artificial Intelligence (AI)-Assisted Pulse Diagnosis Analysis on Precision Critical Medicine.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Chang Gung Memorial Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Chang Gung Memorial Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Precision/personalized medicine becomes an important part of modern medical system in the&#xD;
+      recent years. In the past, the treatments for patients have been decided by doctors according&#xD;
+      patients' symptoms and/or regular biochemical profiles. However, it is not uncommon that&#xD;
+      patients' condition varies tremendously even they have same diagnosis, and under such&#xD;
+      condition, treatment efficacy may be limited due to the heterogeneity among patients.&#xD;
+      Therefore, lack of therapeutic efficacy may be not really ineffective, and the main reason&#xD;
+      may be inadequate patient classification. For this reason, the &quot;omics&quot;-based&#xD;
+      personal/precision medicine emerges recently and becomes more and more important. However, in&#xD;
+      contrast to feasible and common &quot;personalized&quot; medicine, the approach of precision medicine&#xD;
+      to the molecular medicine level is still difficult, especially among patients in intensive&#xD;
+      critical units (ICUs). In contrast to cancer, which has remarkable advances in the past&#xD;
+      decades, the precision/personal medicine is more difficult in critical and emergent medicine.&#xD;
+      One reason is the amount of omics data is quite huge and thus dealing with omics data is time&#xD;
+      consuming. Therefore, it is not effective in daily clinical practice in ICUs care. For this&#xD;
+      condition, the investigators propose that the combination of clinical data, including pulse&#xD;
+      diagnosis by traditional Chinese medicine (TCM) doctor or ANSwatch wrist sphygmomanometer,&#xD;
+      fluid responsiveness by &quot;Masimo&quot; Radical-7 Pulse CO-Oximeter, and the specific database from&#xD;
+      monitors in ICUs may be a feasible way to predict outcome among ICU patients. There are two&#xD;
+      main goals for this study: (1) After establishing clinical traditional Chinese medicine (TCM)&#xD;
+      pulse diagnosis and ICU clinical parameters databases, acquiring and features of pulse&#xD;
+      diagnosis by applying AI and (2) analyzing the correlations between the features of pulse&#xD;
+      diagnosis and important clinical parameters.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">November 15, 2020</start_date>
+  <completion_date type="Anticipated">August 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">July 31, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Only</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>28-days mortality</measure>
+    <time_frame>28 days</time_frame>
+    <description>The investigators track the enrolled ICU patients for 28 days and record the date and cause of participants' death.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Pulse diagnosis</measure>
+    <time_frame>Day1, Day4, Day8, Day11, Day15, Day18, Day22, Day25</time_frame>
+    <description>Pulse diagnosis in radial artery is recorded by traditional Chinese medicine physician and ANSwatch wrist sphygmomanometer at the same time. With the help of artificial intelligence, the investigators will find the correlation/comparison of pulse diagnosis by physician or machine and hope to define which pulse waveform characteristics could predict the prognosis/outcome in ICU patients.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Hemodynamic status</measure>
+    <time_frame>Day1, Day4, Day8, Day11, Day15, Day18, Day22, Day25</time_frame>
+    <description>Pulse-induced contour cardiac output (PiCCO) is a cardiac output monitor that combines pulse contour analysis and trans-pulmonary thermos-dilution technique. PiCCO enables assessment of the patient's hemodynamic status to guide fluid or vasoactive drug therapy, especially if complex mixed forms of shock (e.g. septic and cardio-genic). Relatively invasive PiCCO measurement requires the insertion of a central venous pressure (CVP) catheter and a thermo-dilution arterial line. The non-invasive pulse waveform from radial artery in ANSwatch could be one kind of hemodynamic monitor for peripheral circulation. By artificial intelligence, the investigators could define some correlation or comparison in the pulse waveform between PiCCO and ANSwatch.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Fluid-responsiveness</measure>
+    <time_frame>Day1, Day4, Day8, Day11, Day15, Day18, Day22, Day25</time_frame>
+    <description>Respiratory variations in the pulse oximeter plethysmographic waveform amplitude have been shown to be able predict fluid responsiveness in mechanically ventilated patients. The investigators use a device [ Masimo corp., Irvine, California, USA] which could automatically and continuously monitor the respiratory variations in the pulse oximeter waveform amplitude (Pleth Variability Index, PVI, unit in %) to predict fluid responsiveness in ICU patients under mechanical ventilation. This time, the investigators want to find the correlation in the pulse waveform from PVI, PiCCO, or ANSwatch by artificial intelligence analysis.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Heart rate variability</measure>
+    <time_frame>Day1, Day4, Day8, Day11, Day15, Day18, Day22, Day25,</time_frame>
+    <description>Heart Rate Variability (unit in microseconds) represents significant information on autonomic nervous system (ANS)'s regulating function and balance status. The change (variation) of heart rate during short term (5 minutes) is analyzed with the method of time domain and frequency domain to provide the degree of balance and activity of autonomic nervous system. Low Frequency (unit in %) is a band of power spectrum range between 0.04 and 0.15 Hz. Generally, it is a strong indicator of sympathetic activity. High Frequency (unit in %) is a band of power spectrum range between 0.15 and 0.4 Hz and it reflects parasympathetic (vagal) activity. LF/HF Ratio indicates overall balance between sympathetic and parasympathetic systems. There could be some relationship between these parameters and ICU patients' outcome.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">150</enrollment>
+  <condition>ICU Patients</condition>
+  <condition>Shock</condition>
+  <intervention>
+    <intervention_type>Device</intervention_type>
+    <intervention_name>ANSwatch</intervention_name>
+    <description>ANSwatch wrist sphygmomanometer and the specific database from monitors in ICUs may be a feasible way to predict outcome among ICU patients. Two measurements will be obtained:&#xD;
+Pulse diagnosis: Pulse diagnosis done on radial artery is recorded by traditional Chinese medicine physician and ANSwatch wrist sphygmomanometer at the same time.&#xD;
+Heart rate variability: Heart Rate Variability represents significant information on autonomic nervous system (ANS)'s regulating function and balance status.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The ICU patient under acute circulatory failure&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  1.The patient in ICU is willing to participate in the research project or patient's&#xD;
+             family member is willing patient to participate in the research project.&#xD;
+&#xD;
+          -  2.Acute circulatory failure&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  1. The patient do not want to participate in the research project or patient's family&#xD;
+             member do not want the patient to participate in the research project.&#xD;
+&#xD;
+          -  2. Pregnant woman.&#xD;
+&#xD;
+          -  3. Goals of treatment is palliative care.&#xD;
+&#xD;
+          -  4. Patient is heritable immunodeficiency or acquired immunodeficiency.&#xD;
+&#xD;
+          -  5. Known existing cardiac arrhythmia, valvular heart disease, right ventricular&#xD;
+             dysfunction, intra-cardiac shunt, air leaking from chest drains, abdominal compartment&#xD;
+             syndrome.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>20 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_contact>
+    <last_name>Ching Wei Yang</last_name>
+    <phone>+88633196200</phone>
+    <phone_ext>2611</phone_ext>
+    <email>ycw0426@gmail.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Chang Gung Memorial Hospital, Linkou branch</name>
+      <address>
+        <city>Taoyuan</city>
+        <zip>33378</zip>
+        <country>Taiwan</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Ching-Wei Yang</last_name>
+      <phone>0975362755</phone>
+      <email>ycw0426@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Ching-Wei Yang, M.D.</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Hsing-Yu Chen, M.D.</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Taiwan</country>
+  </location_countries>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>November 1, 2020</study_first_submitted>
+  <study_first_submitted_qc>December 14, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 19, 2020</study_first_posted>
+  <last_update_submitted>December 14, 2020</last_update_submitted>
+  <last_update_submitted_qc>December 14, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 19, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>traditional Chinese medicine</keyword>
+  <keyword>pulse diagnosis</keyword>
+  <keyword>artificial intelligence</keyword>
+  <keyword>precision critical medicine</keyword>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

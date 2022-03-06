@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="318">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05195853</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ADRTP</org_study_id>
+    <nct_id>NCT05195853</nct_id>
+  </id_info>
+  <brief_title>Optimization of Donor-Recipient Matching in Lung Transplantation</brief_title>
+  <acronym>ADRTP</acronym>
+  <official_title>Optimization of Donor-Recipient Matching in Lung Transplantation</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Groupe Hospitalier Paris Saint Joseph</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Groupe Hospitalier Paris Saint Joseph</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Lung transplantation is the curative treatment for end-stage respiratory failure involving&#xD;
+      highly selected patients. In 2018, the International Transplant Registry counts 69200 lung&#xD;
+      transplants among 260 transplant centers. Between 2010 and June 2017, the 3-month survival&#xD;
+      rate of patients after lung transplantation is 90%. The causes of early death are primary&#xD;
+      graft failure, renal failure, infections, acute rejection (cellular or humoral), surgical&#xD;
+      complications. The median survival is 6.7 years and the median conditioned survival at 1 year&#xD;
+      is 8.9 years. Bronchiolitis obliterans is the leading cause of death after 1 year; it affects&#xD;
+      10% more patients each year and peaks at 5 years at more than 50% of transplanted patients.&#xD;
+      These results encourage transplant professionals to continue their efforts to improve the&#xD;
+      prognosis of transplantation. Among these, the optimization of graft matching, taking into&#xD;
+      account the characteristics of the donor and the recipient, constitute a relevant avenue of&#xD;
+      study. Several donor characteristics seem to play a role in the prognosis of the transplant.&#xD;
+      Survival at 12 months is significantly worse when the donor's age is greater than 50 years.&#xD;
+      There does not appear to be a significant difference in donor cause of death. Recipients of a&#xD;
+      graft exposed to smoking ≥ 20 pack-years have a 3% and 1.5% decreased survival at 1 and 5&#xD;
+      years postoperatively.&#xD;
+&#xD;
+      Similarly, the 5-year survival of patients with conditional 1-year survival is poorer in case&#xD;
+      of other toxic exposures such as alcohol, cocaine, crack or marijuana. Analysis of&#xD;
+      international registry data also suggests a negative association between post-transplant&#xD;
+      survival and donor hypertension and diabetes. However, the biological mechanisms by which&#xD;
+      these factors affect survival remain unknown. Graft ischemia time is significantly associated&#xD;
+      with survival with a 5-year survival of 70% and 65% for grafts exposed to ischemia ≥ 4 hours&#xD;
+      or less. The cumulative effect of donor hypertension and ischemia time are appreciated by the&#xD;
+      fact that the best postoperative survival is observed in donors without hypertension and&#xD;
+      graft ischemia time ≥ 4 hours. Graft size is also associated with post-transplant prognosis,&#xD;
+      in front of a significant decrease in survival for patients with emphysema, chronic&#xD;
+      obstructive pulmonary disease, alpha-1 antitrypsin deficiency, transplanted with a smaller&#xD;
+      graft size.&#xD;
+&#xD;
+      This result is not found in patients transplanted for pulmonary fibrosis. One study has also&#xD;
+      suggested the negative role of a gender mismatch between donor and recipient on&#xD;
+      post-transplant survival, but there is currently no clear explanation for this result. The&#xD;
+      presence of antibodies to the recipient's HLA system [DSA (donor-specific antibodies)] in&#xD;
+      pre-transplant is a risk factor for hyperacute rejection and chronic graft dysfunction. Thus,&#xD;
+      the choice of matching between the donor and the recipient appears complex in view of the&#xD;
+      number of criteria to be taken into account which impact the duration of post-transplant&#xD;
+      survival in the short and medium term. The objective of the project is to develop a decision&#xD;
+      support tool, using artificial intelligence algorithms, to assist the thoracic surgeon in&#xD;
+      identifying the patient, among those registered on the team's waiting list, who could benefit&#xD;
+      most from a bi-pulmonary graft offered by the Biomedicine Agency.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">January 15, 2022</start_date>
+  <completion_date type="Anticipated">December 31, 2023</completion_date>
+  <primary_completion_date type="Anticipated">February 15, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Construction of a tool to predict 90-day survival of patients managed for bi-pulmonary transplantation</measure>
+    <time_frame>Day 90</time_frame>
+    <description>This outcome corresponds to the number of all-cause deaths within 90 days of transplantation. Deaths occurring during hospitalization or at home are taken into account</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Prediction of the risk of a complication during the transplant hospital stay</measure>
+    <time_frame>Day 90</time_frame>
+    <description>This outcome corresponds to the occurrence of complications during the transplantation hospital stay leading to an increase in the length of hospitalization.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of hospitalization at Year 1</measure>
+    <time_frame>Year 1</time_frame>
+    <description>This outcome corresponds to the number of hospitalization during the first year.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Number of rejection of the transplant at Year 1</measure>
+    <time_frame>Year 1</time_frame>
+    <description>This outcome corresponds to the rejection of the transplant during the first year.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Respiratory functional benefit in the year following transplantation</measure>
+    <time_frame>Year 1</time_frame>
+    <description>This outcome corresponds to the functional benefit in terms of respiratory function. This criterion will be assessed on the basis of the results of the EFR performed during the first year post-transplant. The criterion will be the difference between the first post-transplant FEV1 and the best FEV1 obtained during the year under consideration.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">500</enrollment>
+  <condition>Lung Transplant</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        These patients were admitted for a bi-lung transplant performed by the Marie Lannelongue&#xD;
+        lung transplant team between January 1, 2007 and April 30, 2021.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients who have received a bi-lung transplant performed by the Marie Lannelongue&#xD;
+             lung transplant team between January 1, 2007 and April 30, 2021 All indications for&#xD;
+             transplantation will be considered, including retransplantation.&#xD;
+&#xD;
+          -  French-speaking patient&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patient is a minor (&lt;18 years old) at the time of transplantation&#xD;
+&#xD;
+          -  Patient's refusal to participate in the study&#xD;
+&#xD;
+          -  Patient under guardianship or curatorship&#xD;
+&#xD;
+          -  Patient deprived of liberty&#xD;
+&#xD;
+          -  Patient under court protection&#xD;
+&#xD;
+          -  Patient objecting to the use of his/her data for this research&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Anne Buronfosse, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Groupe Hospitalier Paris Saint Joseph</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Anne Buronfosse, MD</last_name>
+    <phone>144123873</phone>
+    <phone_ext>+33</phone_ext>
+    <email>aburonfosse@ghpsj.fr</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Helene BEAUSSIER, PharmD, PhD</last_name>
+    <phone>0144127883</phone>
+    <phone_ext>+33</phone_ext>
+    <email>crc@ghpsj.fr</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Groupe Hospitalier Paris Saint-Joseph</name>
+      <address>
+        <city>Paris</city>
+        <zip>75014</zip>
+        <country>France</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Anne Buronfosse, MD</last_name>
+    </contact>
+  </location>
+  <location_countries>
+    <country>France</country>
+  </location_countries>
+  <reference>
+    <citation>Leard LE, Holm AM, Valapour M, Glanville AR, Attawar S, Aversa M, Campos SV, Christon LM, Cypel M, Dellgren G, Hartwig MG, Kapnadak SG, Kolaitis NA, Kotloff RM, Patterson CM, Shlobin OA, Smith PJ, Solé A, Solomon M, Weill D, Wijsenbeek MS, Willemse BWM, Arcasoy SM, Ramos KJ. Consensus document for the selection of lung transplant candidates: An update from the International Society for Heart and Lung Transplantation. J Heart Lung Transplant. 2021 Nov;40(11):1349-1379. doi: 10.1016/j.healun.2021.07.005. Epub 2021 Jul 24.</citation>
+    <PMID>34419372</PMID>
+  </reference>
+  <reference>
+    <citation>Chambers DC, Cherikh WS, Harhay MO, Hayes D Jr, Hsich E, Khush KK, Meiser B, Potena L, Rossano JW, Toll AE, Singh TP, Sadavarte A, Zuckermann A, Stehlik J; International Society for Heart and Lung Transplantation. The International Thoracic Organ Transplant Registry of the International Society for Heart and Lung Transplantation: Thirty-sixth adult lung and heart-lung transplantation Report-2019; Focus theme: Donor and recipient size match. J Heart Lung Transplant. 2019 Oct;38(10):1042-1055. doi: 10.1016/j.healun.2019.08.001. Epub 2019 Aug 8.</citation>
+    <PMID>31548030</PMID>
+  </reference>
+  <reference>
+    <citation>Chambers DC, Zuckermann A, Cherikh WS, Harhay MO, Hayes D Jr, Hsich E, Khush KK, Potena L, Sadavarte A, Singh TP, Stehlik J; International Society for Heart and Lung Transplantation. The International Thoracic Organ Transplant Registry of the International Society for Heart and Lung Transplantation: 37th adult lung transplantation report - 2020; focus on deceased donor characteristics. J Heart Lung Transplant. 2020 Oct;39(10):1016-1027. doi: 10.1016/j.healun.2020.07.009. Epub 2020 Jul 30. Review.</citation>
+    <PMID>32782073</PMID>
+  </reference>
+  <reference>
+    <citation>Demir A, Coosemans W, Decaluwé H, De Leyn P, Nafteux P, Van Veer H, Verleden GM, Van Raemdonck D. Donor-recipient matching in lung transplantation: which variables are important?†. Eur J Cardiothorac Surg. 2015 Jun;47(6):974-83. doi: 10.1093/ejcts/ezu340. Epub 2014 Sep 3.</citation>
+    <PMID>25187532</PMID>
+  </reference>
+  <reference>
+    <citation>Frost AE, Jammal CT, Cagle PT. Hyperacute rejection following lung transplantation. Chest. 1996 Aug;110(2):559-62.</citation>
+    <PMID>8697867</PMID>
+  </reference>
+  <reference>
+    <citation>Brugière O, Suberbielle C, Thabut G, Lhuillier E, Dauriat G, Metivier AC, Gautreau C, Charron D, Mal H, Parquin F, Stern M. Lung transplantation in patients with pretransplantation donor-specific antibodies detected by Luminex assay. Transplantation. 2013 Mar 15;95(5):761-5. doi: 10.1097/TP.0b013e31827afb0f.</citation>
+    <PMID>23296148</PMID>
+  </reference>
+  <reference>
+    <citation>Snell GI, Yusen RD, Weill D, Strueber M, Garrity E, Reed A, Pelaez A, Whelan TP, Perch M, Bag R, Budev M, Corris PA, Crespo MM, Witt C, Cantu E, Christie JD. Report of the ISHLT Working Group on Primary Lung Graft Dysfunction, part I: Definition and grading-A 2016 Consensus Group statement of the International Society for Heart and Lung Transplantation. J Heart Lung Transplant. 2017 Oct;36(10):1097-1103. doi: 10.1016/j.healun.2017.07.021. Epub 2017 Jul 26. Review.</citation>
+    <PMID>28942784</PMID>
+  </reference>
+  <reference>
+    <citation>Seely AJ, Ivanovic J, Threader J, Al-Hussaini A, Al-Shehab D, Ramsay T, Gilbert S, Maziak DE, Shamji FM, Sundaresan RS. Systematic classification of morbidity and mortality after thoracic surgery. Ann Thorac Surg. 2010 Sep;90(3):936-42; discussion 942. doi: 10.1016/j.athoracsur.2010.05.014.</citation>
+    <PMID>20732521</PMID>
+  </reference>
+  <verification_date>December 2021</verification_date>
+  <study_first_submitted>December 31, 2021</study_first_submitted>
+  <study_first_submitted_qc>January 18, 2022</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 19, 2022</study_first_posted>
+  <last_update_submitted>January 18, 2022</last_update_submitted>
+  <last_update_submitted_qc>January 18, 2022</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 19, 2022</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

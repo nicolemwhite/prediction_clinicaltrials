@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="40">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04009798</url>
+  </required_header>
+  <id_info>
+    <org_study_id>17-6063</org_study_id>
+    <nct_id>NCT04009798</nct_id>
+  </id_info>
+  <brief_title>Predicted Prognosis in Heart Failure</brief_title>
+  <acronym>Intuition</acronym>
+  <official_title>Physician Intuition Versus Model Predicted Prognosis in Heart Failure</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Health Network, Toronto</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Health Network, Toronto</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of the project is to conduct a physician-initiated Canadian multicentre&#xD;
+      observational research study that compares physician judgement and model prediction to&#xD;
+      estimate one-year survival in ambulatory heart failure (HF) patients and evaluate the use of&#xD;
+      resources according to physician intuitive risk. This study will evaluate the accuracy and&#xD;
+      impact of physician intuition and predictive models in the assessment of prognosis in&#xD;
+      ambulatory HF patients by: comparing 1-year physician predicted survival and 1-year observed&#xD;
+      survival to 1-year model predicted survival; evaluating whether model performance could be&#xD;
+      enhanced by incorporating physician intuition; evaluating the accuracy of physician intuition&#xD;
+      according to level of confidence in physician intuition (very low, low, moderate, high or&#xD;
+      very high); evaluating whether physician expertise impacts accuracy of physician intuition;&#xD;
+      and evaluating patient management and use of resources according to physician estimated&#xD;
+      survival.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Heart failure (HF) is a large and growing medical and economic problem, with over 26 million&#xD;
+      people suffering worldwide. The prognosis associated with HF is poor. Optimal management of&#xD;
+      patients with HF, crucial to improve outcomes and minimize costs, depends on adequate&#xD;
+      assessment of prognosis to decide on appropriate testing and intervention.&#xD;
+&#xD;
+      There are predictive models, with satisfactory discrimination and calibration, that can&#xD;
+      accurately estimate mortality in HF patients. Despite their availability, physicians seldom&#xD;
+      use these models, instead relying on their informed intuition, which has proven to be&#xD;
+      limited. No studies have compared physician intuition (standard practice) and model predicted&#xD;
+      survival in patients with HF. The investigators therefore propose a Canadian multicentre&#xD;
+      study comparing physician intuition and model prediction to estimate one-year survival in&#xD;
+      ambulatory HF patients and secondly to assess the possible impact of intuition versus model&#xD;
+      prediction on the use of resources. Evaluating whether predictive models are more accurate&#xD;
+      than physician intuition will inform the best strategy to assess patient prognosis in HF.&#xD;
+      More accurate prognostic estimates will facilitate patient management by matching the need&#xD;
+      for further therapy or testing to patient risk thus offering greater clinical benefit and&#xD;
+      improving utilization of resources.&#xD;
+&#xD;
+      This study will evaluate the accuracy and impact of physician intuition and predictive models&#xD;
+      in the assessment of prognosis in ambulatory HF patients by: i. comparing the accuracy of&#xD;
+      1-year physician predicted survival and 1-year model predicted survival to the true&#xD;
+      (observed) 1-year survival; ii. evaluating the accuracy of physician intuition according to&#xD;
+      physician's level of confidence in their intuition (very low, low, moderate, high or very&#xD;
+      high); iii. evaluating whether physician expertise impacts accuracy of physician intuition;&#xD;
+      iv. evaluating whether physician gender, patient gender and physician-patient gender&#xD;
+      concordance impact accuracy of physician intuition; and v. studying the association between&#xD;
+      physician estimated survival and resource use and related cost.&#xD;
+&#xD;
+      The investigators hypothesize that predictive models will more accurately predict mortality&#xD;
+      than physicians, with more marked differences in less experienced physicians or when&#xD;
+      physician confidence in estimate is low. Physicians will use more resources when they&#xD;
+      consider patients to be high risk. If these hypotheses prove correct, incorporation of&#xD;
+      user-friendly systems to estimate prognosis into clinical practice can offer clinical&#xD;
+      benefit, facilitate patient management and improve utilization of resources.&#xD;
+&#xD;
+      This is a Canadian multicentre prospective cohort study of consecutive consenting ambulatory&#xD;
+      adult heart failure (HF) patients followed in a HF clinic. Participating centers include&#xD;
+      tertiary care hospitals with dedicated HF clinics in British Columbia (St. Paul's Hospital,&#xD;
+      Providence Health Care Centre); Manitoba (St. Boniface General Hospital); Ontario (Toronto&#xD;
+      General Hospital, St. Michael's Hospital, Ottawa Heart Institute, Sunnybrook Hospital, Mount&#xD;
+      Sinai Hospital, Hamilton Health Science, Southlake Regional Health Centre); Quebec (McGill&#xD;
+      University Health Centre); and Nova Scotia (Nova Scotia Health Authority). These clinics&#xD;
+      attend to different HF populations permitting a wide representation of patient profiles.&#xD;
+&#xD;
+      After obtaining written informed consent, research assistants will collect clinical and&#xD;
+      laboratory data from electronic records and paper charts necessary to describe the patient&#xD;
+      population and to calculate predictive model survival. These constitute part of the routine&#xD;
+      clinical assessment and will include demographic characteristics (age, sex, race),&#xD;
+      co-morbidities (diabetes, hypertension, smoking, peripheral vascular disease, chronic lung&#xD;
+      disease), HF characteristics and history (underlying cause, LVEF by echocardiogram, last HF&#xD;
+      hospital admission, medications and use of ICD and/or cardiac resynchronization therapy) and&#xD;
+      physical examination (body mass index (BMI), current NYHA class, heart rate, and blood&#xD;
+      pressure at rest). Laboratory values will include hemoglobin, leucocytes, lymphocytes,&#xD;
+      electrolytes, BUN (blood urea nitrogen), serum creatinine, total cholesterol and uric acid.&#xD;
+      Brain natriuretic peptide (BNP) or N-terminal pro-BNP and peak oxygen consumption (peak VO2)&#xD;
+      will be collected when available. Cardiac rhythm and QRS duration will be collected by&#xD;
+      electrocardiography and peak oxygen consumption by cardiopulmonary exercise study.&#xD;
+&#xD;
+      This study will include physicians with different level of expertise in HF (HF cardiologists&#xD;
+      and Family Physicians). Physicians will be asked to provide their intuitive estimates of the&#xD;
+      likelihood of survival at one year following the patient baseline clinic visit. Physicians&#xD;
+      will be blinded to the predicted model survival. In the survey, the physician will: (1)&#xD;
+      estimate patient 1-year survival in absolute terms (from 0% to 100%); (2) rate the confidence&#xD;
+      in their prediction (from 1 - no confident at all to 5- very confident); (3) collect their&#xD;
+      impression about the possibility of initiating assessment to evaluate candidacy for advanced&#xD;
+      heart failure therapies including heart transplant or mechanical circulatory support in the&#xD;
+      next year (1- not a candidate, 2- patient is already listed, 3- too early, and 4-patient is a&#xD;
+      candidate); and (4) record status of optimization of medical management (1- beginning&#xD;
+      optimization, 2- early in the process, 3- late in the process, and 4- completed). Patient&#xD;
+      candidacy to advanced HF therapies and status of optimization can influence the use of&#xD;
+      resources. If a patient is not a candidate for advanced HF therapies or is already under&#xD;
+      optimal medical therapy, the use of resources will be lower compared to candidate patients or&#xD;
+      patients under medical therapy optimization. This will be considered in the analysis of the&#xD;
+      impact of physician intuitive risk on resource utilization.&#xD;
+&#xD;
+      There are many predictive models in HF. Of these, the investigators have chosen three models&#xD;
+      based on comparably acceptable performance: the Seattle Heart Failure Model (SHFM), the HF&#xD;
+      Meta-Score and the Meta-Analysis Global Group in Chronic Heart Failure (MAGGIC) score. These&#xD;
+      models include a set of different variables, they have been validated in contemporary cohorts&#xD;
+      of HF patients and have demonstrated excellent calibration and discrimination with a&#xD;
+      c-statistic &gt;0.70.&#xD;
+&#xD;
+      Patients will be followed until the last recruited patient is followed for a minimum of&#xD;
+      1-year and the following outcomes will be collected: i. Death, urgent VAD implant and urgent&#xD;
+      heart transplant. Urgent VAD implant or heart transplant will be defined by the use of&#xD;
+      intravenous inotropic support at the time of the surgery. The investigators will collect this&#xD;
+      information from electronic records and by linking with the administrative databases housed&#xD;
+      at the Canadian Institute for Health Information (CIHI) via OHIP number or name and date of&#xD;
+      birth (retrieved from the patients' medical records) using deterministic/probabilistic&#xD;
+      linkage. CIHI is an independent, not-for-profit organization that provides essential&#xD;
+      information on Canada's health systems. This entity houses 28 pan-Canadian databases across&#xD;
+      various health sectors. CIHI holds ISO/IEC 27001:2005 certification for information security&#xD;
+      management. ii. Utilization of health resources and related costs will be collected by&#xD;
+      linking the project database to the administrative databases, administered by the CIHI&#xD;
+      Discharge Abstract Database (CIHI DAD) and CIHI National Ambulatory Case Reporting System&#xD;
+      (CIHI NACRS). Cost information will be obtained and estimated from the HF clinic at Toronto&#xD;
+      General Hospital, which is representative of other HF clinics. The cost associated to&#xD;
+      resources in other provinces will be adjusted by a calculated coefficient using publicly&#xD;
+      provincial health cost information. The investigators will collect inpatient and outpatient&#xD;
+      costs and resources from clinic visits, imaging and laboratory tests, cardiac rehabilitation,&#xD;
+      hospitalization and visits to an emergency department.&#xD;
+&#xD;
+      Continuous variables will be expressed as a mean and standard deviation (SD) or median and&#xD;
+      interquartile ranges for variables with non-Gaussian distributions. All discrete variables&#xD;
+      will be expressed as counts (n) and percentages (%) of the study population. The statistical&#xD;
+      analysis will be performed using SAS 9.4 (North Carolina, USA).&#xD;
+&#xD;
+      The investigators will assess physician intuition in comparison to the performance of&#xD;
+      predictive models by comparing their discrimination, calibration and risk reclassification.&#xD;
+      Physician intuition and model prediction accuracy will be evaluated separately by physician&#xD;
+      expertise: HF cardiologists and family physicians. Kaplan-Meier analysis and Cox proportional&#xD;
+      hazards model will be used to predict 1-year event-free survival with the score from each&#xD;
+      model and physician intuition to assess calibration and discrimination, respectively. HF&#xD;
+      clinics may see a set of different HF patients and HF cardiologists practicing in the same HF&#xD;
+      clinic will potentially have similar practice and intuition. In order to consider this&#xD;
+      potential confounding effect, the analysis will be adjusted for HF clinic region (Greater&#xD;
+      Toronto Area, Ontario, Quebec, Manitoba, Nova Scotia and British Columbia). Follow up will be&#xD;
+      censored as alive at the time of non-urgent VAD or heart transplant or last clinic visit&#xD;
+      after a year follow up. Observed versus predicted survival will be used to assess calibration&#xD;
+      illustrating the relationship in a scatter plot and will assess and compare intuition and&#xD;
+      predictive models' discrimination using Harrell's c-statistic.&#xD;
+&#xD;
+      The investigators will then use risk reclassification analysis (reclassification tables and&#xD;
+      reclassification calibration test) and absolute net reclassification improvement (NRI) to&#xD;
+      assess global model performance of physician intuition in comparison to the predictive&#xD;
+      models. Risk reclassification analysis will be used to show how patients classified by&#xD;
+      physician intuition are reclassified by the predictive models and will compare the observed&#xD;
+      and predicted survival in each cross-classified category. The absolute NRI represents the net&#xD;
+      proportion of patients correctly or incorrectly classified assessing if patients were&#xD;
+      reclassified in the correct direction, i.e. if survivors are reclassified as having better&#xD;
+      survival and deceased patients are reclassified as having lower survival. For this analysis,&#xD;
+      patients will be classified based on deciles of 1-year predicted survival (100-90%, 90-80%,&#xD;
+      80-70% and &lt;70%).&#xD;
+&#xD;
+      The association between physician intuition and utilization of health resources will be&#xD;
+      evaluated by categorizing patients in the pre-defined risk categories (low, medium, high or&#xD;
+      very high risk). Multivariate logistic regression will be used to evaluate the association&#xD;
+      between physician intuition and resources measured as binary variables (i.e. referral to&#xD;
+      specialists or palliative care) and multivariable Poisson regression to evaluate the&#xD;
+      association between physician intuition and resources measured as count variables (i.e.&#xD;
+      clinic visits) adjusted for region. Cost analysis will be used to evaluate the association&#xD;
+      between total annual cost and physician intuition. Cost will be described using median and&#xD;
+      interquartile range due to expected positively skewed distribution and evaluate its&#xD;
+      association with physician intuition using generalized linear models with a gamma&#xD;
+      distribution adding region as a fixed effect. The investigators will evaluate the impact of&#xD;
+      model predictive survival using the results from the risk reclassification analysis (e.g. if&#xD;
+      the predictive model better reclassified 10% of high-risk patients, 10% of the increased cost&#xD;
+      of treating high-risk patients may be saved by using the model).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">May 18, 2018</start_date>
+  <completion_date type="Anticipated">December 31, 2021</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Mortality</measure>
+    <time_frame>1-year</time_frame>
+    <description>All-cause mortality</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Heart Transplant</measure>
+    <time_frame>1-year</time_frame>
+    <description>Heart transplant within 1 year of study enrolment</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Left Ventricular Assist Device</measure>
+    <time_frame>1-year</time_frame>
+    <description>Left ventricular assist device implant within 1 year of study enrolment</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Heart Failure Hospitalization</measure>
+    <time_frame>1-year</time_frame>
+    <description>Heart failure related hospitalizations within 1 year of study enrolment</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Utilization of health resources and related costs</measure>
+    <time_frame>1-year</time_frame>
+    <description>Use and cost associated with health resource use within 1 year of study enrolment</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">1400</enrollment>
+  <condition>Heart Failure</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Consecutive ambulatory adult heart failure patients with a reduced ejection fraction ≤40%.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Ambulatory HF patients followed in a HF clinic&#xD;
+&#xD;
+          -  Adults (&gt;18 years)&#xD;
+&#xD;
+          -  Have a left ventricular ejection fraction (LVEF) ≤40% by echocardiogram&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  HF patients with preserved LVEF (&gt;40%)&#xD;
+&#xD;
+          -  HF patients already on ventricular assist device support&#xD;
+&#xD;
+          -  Patients with acutely decompensated HF at the time of the clinic visit requiring&#xD;
+             admission or with a HF admission in the previous month to the index clinic visit.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Ana C Alba, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University Health Network, Toronto</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>University Health Network</name>
+      <address>
+        <city>Toronto</city>
+        <state>Ontario</state>
+        <zip>M5G 2N2</zip>
+        <country>Canada</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Canada</country>
+  </location_countries>
+  <verification_date>November 2020</verification_date>
+  <study_first_submitted>July 3, 2019</study_first_submitted>
+  <study_first_submitted_qc>July 3, 2019</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 5, 2019</study_first_posted>
+  <last_update_submitted>April 29, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 29, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 30, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>heart failure</keyword>
+  <keyword>risk prediction</keyword>
+  <keyword>prognosis</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Heart Failure</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

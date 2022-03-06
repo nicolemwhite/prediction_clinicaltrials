@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="48">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05172479</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ACH-2</org_study_id>
+    <nct_id>NCT05172479</nct_id>
+  </id_info>
+  <brief_title>Prognostic Accuracy of qSOFA, SIRS, and EWS for In-hospital Mortality in Emergency Department</brief_title>
+  <acronym>PASSEM</acronym>
+  <official_title>Prognostic Accuracy of qSOFA Score, SIRS Criteria, and EWS for In-hospital Mortality Among Adult Patients Presenting With Suspected Infection to the Emergency Department (PASSEM): a Multicentre Prospective Cohort Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Aseer Central Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Armed Force Hospital Southern Region-Khamis Mushayt (AFHSR-KM)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+    <collaborator>
+      <agency>King Khalid University (KKU)</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Aseer Central Hospital</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Early identification of a patient with infection who may develop sepsis is of utmost&#xD;
+      importance. Unfortunately, this remains elusive because no single clinical measure or test&#xD;
+      can reflect complex pathophysiological changes in patients with sepsis. However, multiple&#xD;
+      clinical and laboratory parameters indicate impending sepsis and organ dysfunction. Screening&#xD;
+      tools using these parameters can help identify the condition, such as SIRS, quick SOFA&#xD;
+      (qSOFA), National Early Warning Score (NEWS), or Modified Early Warning Score (MEWS). The&#xD;
+      2016 SCCM/ESICM task force recommended using qSOFA, while the 2021 Surviving Sepsis Campaign&#xD;
+      strongly recommended against its use compared with SIRS, NEWS, or MEWS as a single screening&#xD;
+      tool for sepsis or septic shock. We hypothesised that qSOFA has greater prognostic accuracy&#xD;
+      than SIRS and EWS (NEWS/NEWS2/MEWS).&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Over the past decade, medical advances in sepsis continued to focus on sepsis as a prevalent&#xD;
+      condition that accounts for 10% of admissions to intensive care units (ICUs) and is&#xD;
+      associated with a 10-20% in-hospital mortality rate. Standardised protocols and physician&#xD;
+      awareness have significantly improved survival, but mortality rates remain between 20% and&#xD;
+      36%, with ~270,000 deaths annually in the United States. However, of patients with sepsis,&#xD;
+      80% are treated in an emergency department (ED), and the remainder develops sepsis during&#xD;
+      hospitalisation with other conditions. In 2016, the Society of Critical Care&#xD;
+      Medicine/European Society of Intensive Care Medicine (SCCM/ESICM) task force redefined sepsis&#xD;
+      based on organ dysfunction and mortality prediction. Sepsis now is defined as&#xD;
+      life-threatening organ dysfunction caused by dysregulated host response to infection. This&#xD;
+      definition emphasises the complexity of the disease that cannot be explained by infection or&#xD;
+      body response to it. Acute change in Sequential Organ Failure Assessment (SOFA) score ≥2&#xD;
+      indicates sepsis-related organ dysfunction, a predictor of excess in-hospital mortality.&#xD;
+      Systemic Inflammatory Response Syndrome (SIRS) and &quot;severe sepsis&quot; terms were omitted from&#xD;
+      the most recent definition. SIRS has been criticised for its poor specificity, while &quot;severe&#xD;
+      sepsis&quot; may underestimate sepsis's seriousness. A subset of patients may develop septic shock&#xD;
+      with underlying profound organ dysfunction and excess mortality. Clinically, septic shock is&#xD;
+      defined as persistent hypotension requiring vasopressors to maintain mean arterial pressure&#xD;
+      (MAP) ≥ 65 mm Hg and serum lactate level ≥ 2 mmol/L (18 mg/dL) despite adequate volume&#xD;
+      resuscitation. Early identification of a patient with infection who may develop sepsis is of&#xD;
+      utmost importance. Unfortunately, this remains elusive because no single clinical measure or&#xD;
+      test can reflect complex pathophysiological changes in patients with sepsis. However,&#xD;
+      multiple clinical and laboratory parameters indicate impending sepsis and organ dysfunction.&#xD;
+      Screening tools using these parameters can help identify the condition, such as SIRS, quick&#xD;
+      SOFA (qSOFA), National Early Warning Score (NEWS), or Modified Early Warning Score (MEWS).&#xD;
+      The 2016 SCCM/ESICM task force recommended using qSOFA, while the 2021 Surviving Sepsis&#xD;
+      Campaign strongly recommended against its use compared with SIRS, NEWS, or MEWS as a single&#xD;
+      screening tool for sepsis or septic shock. We hypothesised that qSOFA has greater prognostic&#xD;
+      accuracy than SIRS and EWS (NEWS/NEWS2/MEWS).&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">December 12, 2021</start_date>
+  <completion_date type="Anticipated">December 12, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 12, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>In-hospital mortality</measure>
+    <time_frame>30 days</time_frame>
+    <description>Mortality rate during hospitalization of patient</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Intensive care unit admission</measure>
+    <time_frame>30 days</time_frame>
+    <description>Admission to an intensive care unit</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Length of stay in intensive care unit</measure>
+    <time_frame>30 days</time_frame>
+    <description>Stay in intensive care unit &gt;72 hours</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>All-cause mortality</measure>
+    <time_frame>30 days</time_frame>
+    <description>Mortality rate due to any cause (in- and out-hospital)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>All-cause mortality</measure>
+    <time_frame>90 days</time_frame>
+    <description>Mortality rate due to any cause (in- and out-hospital)</description>
+  </secondary_outcome>
+  <number_of_groups>10</number_of_groups>
+  <enrollment type="Anticipated">2851</enrollment>
+  <condition>Sepsis</condition>
+  <condition>Septic Shock</condition>
+  <arm_group>
+    <arm_group_label>Positive qSOFA</arm_group_label>
+    <description>Adult patients with a qSOFA score ≥ 2 at the triage in the emergency department who are planned for hospitalization will be followed in- and out-hospital</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Negative qSOFA</arm_group_label>
+    <description>Adult patients with a qSOFA score &lt; 2 at the triage in the emergency department who are planned for hospitalization will be followed in- and out-hospital</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Positive SIRS</arm_group_label>
+    <description>Adult patients with a SIRS criteria ≥ 2 at the triage in the emergency department who are planned for hospitalization will be followed in- and out-hospital</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Negative SIRS</arm_group_label>
+    <description>Adult patients with a SIRS criteria &lt; 2 at the triage in the emergency department who are planned for hospitalization will be followed in- and out-hospital</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Positive NEWS</arm_group_label>
+    <description>Adult patients with a NEWS ≥ 5 at the triage in the emergency department who are planned for hospitalization will be followed in- and out-hospital</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Negative NEWS</arm_group_label>
+    <description>Adult patients with a NEWS &lt; 5 at the triage in the emergency department who are planned for hospitalization will be followed in- and out-hospital</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Positive NEWS2</arm_group_label>
+    <description>Adult patients with a NEWS2 ≥ 5 at the triage in the emergency department who are planned for hospitalization will be followed in- and out-hospital</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Negative NEWS2</arm_group_label>
+    <description>Adult patients with a NEWS2 &lt; 5 at the triage in the emergency department who are planned for hospitalization will be followed in- and out-hospital</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Positive MEWS</arm_group_label>
+    <description>Adult patients with a MEWS ≥ 5 at the triage in the emergency department who are planned for hospitalization will be followed in- and out-hospital</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Negative MEWS</arm_group_label>
+    <description>Adult patients with a MEWS &lt; 5 at the triage in the emergency department who are planned for hospitalization will be followed in- and out-hospital</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Measurement of qSOFA score</intervention_name>
+    <description>At the patient's arrival to the ED triage, the nurse will enter the patient's vital signs data into electronic data capture (EDC) system that will calculate the patient's qSOFA score. PASSEM study does not require specific actions based on the qSOFA's result due to its observational nature.</description>
+    <arm_group_label>Negative qSOFA</arm_group_label>
+    <arm_group_label>Positive qSOFA</arm_group_label>
+    <other_name>quick Sequential Organ Failure Assessment (qSOFA)</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Measurement of SIRS criteria</intervention_name>
+    <description>At the patient's arrival to the ED triage, the nurse will enter the patient's vital signs (and initial WBC count) data into electronic data capture (EDC) system that will calculate the patient's SIRS criteria. PASSEM study does not require specific actions based on the SIRS's result due to its observational nature.</description>
+    <arm_group_label>Negative SIRS</arm_group_label>
+    <arm_group_label>Positive SIRS</arm_group_label>
+    <other_name>Systemic inflammatory response syndrome (SIRS)</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Measurement of NEWS</intervention_name>
+    <description>At the patient's arrival to the ED triage, the nurse will enter the patient's vital signs data into electronic data capture (EDC) system that will calculate the patient's NEWS. PASSEM study does not require specific actions based on the NEWS's result due to its observational nature.</description>
+    <arm_group_label>Negative NEWS</arm_group_label>
+    <arm_group_label>Positive NEWS</arm_group_label>
+    <other_name>National Early Warning Score (NEWS)</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Measurement of NEWS2</intervention_name>
+    <description>At the patient's arrival to the ED triage, the nurse will enter the patient's vital signs data into electronic data capture (EDC) system that will calculate the patient's NEWS2. PASSEM study does not require specific actions based on the NEWS2's result due to its observational nature.</description>
+    <arm_group_label>Negative NEWS2</arm_group_label>
+    <arm_group_label>Positive NEWS2</arm_group_label>
+    <other_name>National Early Warning Score 2 (NEWS2)</other_name>
+  </intervention>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Measurement of MEWS</intervention_name>
+    <description>At the patient's arrival to the ED triage, the nurse will enter the patient's vital signs data into electronic data capture (EDC) system that will calculate the patient's MEWS. PASSEM study does not require specific actions based on the MEWS's result due to its observational nature.</description>
+    <arm_group_label>Negative MEWS</arm_group_label>
+    <arm_group_label>Positive MEWS</arm_group_label>
+    <other_name>Modified Early Warning Score (MEWS)</other_name>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All consecutive adult patients (age ≥18 years) presenting to the ED with suspected&#xD;
+        infection who planned to be hospitalized and willing to give informed consent are eligible.&#xD;
+        A presumptive diagnosis of infection will be judged based on the opinion of the emergency&#xD;
+        physician upon the patient initial presentation to the ED. We will exclude patients with&#xD;
+        evidence of other causes of presentation to the ED other than infection (e.g., autoimmune&#xD;
+        diseases, myocardial infarction, trauma, …etc.), pregnant ladies, those who transferred&#xD;
+        from other hospitals, or those not planned for hospitalization. We will also exclude&#xD;
+        patients whose initial diagnosis of infection in the ED was not confirmed after the&#xD;
+        recruitment and follow-up.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Adult patients (age ≥18 years),&#xD;
+&#xD;
+          2. Suspected infection (based on the opinion of the emergency physician),&#xD;
+&#xD;
+          3. Planned for hospitalization,&#xD;
+&#xD;
+          4. Willing to give oral informed consent (if required by recruiting center's IRB).&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Presentation to ED is not due to infection (e.g., autoimmune diseases, myocardial&#xD;
+             infarction, stroke, venous thromboembolism, trauma, intoxication … etc.),&#xD;
+&#xD;
+          2. Pregnancy,&#xD;
+&#xD;
+          3. Transferred from another hospitals,&#xD;
+&#xD;
+          4. Code status is &quot;Do-Not-Resuscitate&quot; (DNR)&#xD;
+&#xD;
+          5. Initial diagnosis of infection in the ED was not confirmed after finishing of the&#xD;
+             recruitment and follow-up phase.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Abdullah M Algarni, MBBS</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Aseer Central Hospital (ACH)</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Abdullah M Algarni, MBBS</last_name>
+    <phone>+966569967682</phone>
+    <email>abaid1406@gmail.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Ali A Al Bshabshe, MBBS</last_name>
+    <phone>+966504740409</phone>
+    <email>albshabshe@yahoo.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Bahrain Defence Force Hospital</name>
+      <address>
+        <city>Ar Rifā'</city>
+        <state>Southern Governorate</state>
+        <zip>947</zip>
+        <country>Bahrain</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Salah A Alghanem, MD</last_name>
+      <phone>+97338811131</phone>
+      <email>salah.alghanem@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Salah A Alghanem, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Aseer Central Hospital (ACH)</name>
+      <address>
+        <city>Abha</city>
+        <state>Aseer Province</state>
+        <zip>62523</zip>
+        <country>Saudi Arabia</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Othman M Omair, MBBS</last_name>
+      <phone>+966583355455</phone>
+      <email>othman-omair@hotmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Othman M Omair, MBBS</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Armed Force Hospital Southern Region-Khamis Mushayt (AFHSR-KM)</name>
+      <address>
+        <city>Khamis Mushait</city>
+        <state>Aseer Province</state>
+        <zip>62413</zip>
+        <country>Saudi Arabia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Hadi E Alali, MBBS</last_name>
+      <phone>+966500390466</phone>
+      <email>hadieissa@yahoo.com</email>
+    </contact>
+    <investigator>
+      <last_name>Hadi E Alali, MBBS</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Khamis Mushayt General Hospital (KMGH)</name>
+      <address>
+        <city>Khamis Mushait</city>
+        <state>Aseer Province</state>
+        <zip>62433</zip>
+        <country>Saudi Arabia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Naif H Alshahrani, MBBS</last_name>
+      <phone>+966599967888</phone>
+    </contact>
+    <investigator>
+      <last_name>Naif H Alshahrani, MBBS</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>King Abdullah bin Abdulaziz University Hospital (KAAUH)</name>
+      <address>
+        <city>Riyadh</city>
+        <state>Riyadh Province</state>
+        <zip>11564</zip>
+        <country>Saudi Arabia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Abdullah H Alotaibi, MBBS</last_name>
+      <phone>+966555088053</phone>
+      <email>d2004a@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Abdullah H Alotaibi, MBBS</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>King Fahad Medical City (KFMC)</name>
+      <address>
+        <city>Riyadh</city>
+        <state>Riyadh Province</state>
+        <zip>12231</zip>
+        <country>Saudi Arabia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Abdullah A Almarshed, MD</last_name>
+      <phone>+966505210445</phone>
+      <email>marsheda@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Abdullah A Almarshed, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>King Saud Medical City (KSMC)</name>
+      <address>
+        <city>Riyadh</city>
+        <state>Riyadh Province</state>
+        <zip>12746</zip>
+        <country>Saudi Arabia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Faisal Y Almazroua, MBBS</last_name>
+      <phone>+966114356666</phone>
+    </contact>
+    <investigator>
+      <last_name>Faisal Y Almazroua, MBBS</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Prince Mohammed Bin Abdulaziz Hospital (PMAH)</name>
+      <address>
+        <city>Riyadh</city>
+        <state>Riyadh Province</state>
+        <zip>14214</zip>
+        <country>Saudi Arabia</country>
+      </address>
+    </facility>
+    <status>Not yet recruiting</status>
+    <contact>
+      <last_name>Abdussalam A Alshehri, MBBS</last_name>
+      <phone>+966504283064</phone>
+      <email>alshehriab7@gmail.com</email>
+    </contact>
+    <investigator>
+      <last_name>Abdussalam A Alshehri, MBBS</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>Bahrain</country>
+    <country>Saudi Arabia</country>
+  </location_countries>
+  <verification_date>December 2021</verification_date>
+  <study_first_submitted>December 3, 2021</study_first_submitted>
+  <study_first_submitted_qc>December 11, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 29, 2021</study_first_posted>
+  <last_update_submitted>December 11, 2021</last_update_submitted>
+  <last_update_submitted_qc>December 11, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">December 29, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Aseer Central Hospital</investigator_affiliation>
+    <investigator_full_name>Abdullah M. Algarni</investigator_full_name>
+    <investigator_title>Family medicine consultant</investigator_title>
+  </responsible_party>
+  <keyword>Sepsis</keyword>
+  <keyword>Septic shock</keyword>
+  <keyword>qSOFA</keyword>
+  <keyword>SIRS</keyword>
+  <keyword>EWS</keyword>
+  <keyword>NEWS</keyword>
+  <keyword>NEWS2</keyword>
+  <keyword>MEWS</keyword>
+  <keyword>Emergency department</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Shock, Septic</mesh_term>
+    <mesh_term>Emergencies</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

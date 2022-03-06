@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="155">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04793672</url>
+  </required_header>
+  <id_info>
+    <org_study_id>IRB-2019-56</org_study_id>
+    <nct_id>NCT04793672</nct_id>
+  </id_info>
+  <brief_title>Establishment of Tongue Image Database and Machine Learning Model for Malignant Tumors Diagnosis</brief_title>
+  <official_title>A Multi-center Observational Clinical Study Observing the Differences of Tongue Images Between Patients With Malignant Tumors and Healthy People</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Zhejiang Cancer Hospital</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Zhejiang Cancer Hospital</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The tongue images of malignant tumors and corresponding healthy people will be collected to&#xD;
+      establish the tongue image database. Deep learning will be carried out by computer and&#xD;
+      artificial intelligence to construct the early screening, diagnosis, prognosis and prognosis&#xD;
+      model of various malignant tumors based on tongue image for the diagnosis and treatment of&#xD;
+      malignant tumors.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">April 6, 2021</start_date>
+  <completion_date type="Anticipated">February 2, 2023</completion_date>
+  <primary_completion_date type="Anticipated">February 1, 2022</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>3 Years</target_duration>
+  <primary_outcome>
+    <measure>The differences of tongue images between patients with malignant tumors and healthy people.</measure>
+    <time_frame>1 year</time_frame>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Overall Survival (OS)</measure>
+    <time_frame>3 years</time_frame>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Disease free survival（DFS）</measure>
+    <time_frame>1 year</time_frame>
+  </secondary_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">10000</enrollment>
+  <condition>Malignant Tumor</condition>
+  <arm_group>
+    <arm_group_label>Patients with malignant tumors and healthy people</arm_group_label>
+    <description>Tongue images, coating on the tongue and clinical data of patients with malignant tumors and healthy people will be collected.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Tongue images, coating on the tongue and clinical data of patients with malignant tumors and healthy people will be collected.</intervention_name>
+    <description>Tongue images, coating on the tongue and clinical data of patients with malignant tumors and healthy people will be collected.</description>
+    <arm_group_label>Patients with malignant tumors and healthy people</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Histologically or cytologically confirmed malignant tumor，and no prior chemotherapy,&#xD;
+        radiotherapy, biotherapy, immunotherapy or other anti-tumor treatment for malignant tumor.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  18≤age≤80&#xD;
+&#xD;
+          -  Histologically or cytologically confirmed malignant tumor&#xD;
+&#xD;
+          -  No prior chemotherapy, radiotherapy, biotherapy, immunotherapy or other anti-tumor&#xD;
+             treatment for malignant tumor&#xD;
+&#xD;
+          -  Subject volunteers to join the study, Signs informed consent, has good compliance and&#xD;
+             can cooperate with follow-up&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Two or more kinds of malignant tumors at the same time&#xD;
+&#xD;
+          -  Malignant tumor that has been treated by chemotherapy, radiotherapy, biotherapy,&#xD;
+             immunotherapy or other anti-tumor therapy&#xD;
+&#xD;
+          -  Subjects who had other factors that might force them to terminate the research ahead&#xD;
+             of time, such as the development of other severe disease (including mental disease)&#xD;
+             that required combined treatment, seriously abnormal laboratory examination value, and&#xD;
+             family or social factors that might affect the subject safety or experimental data&#xD;
+             collection, as judged by the researchers&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>80 Years</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Xiangdong Cheng, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Zhejiang Cancer Hospital</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Xiangdong Cheng, MD</last_name>
+    <phone>0086-571-88128041</phone>
+    <email>Chengxd516@126.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Zhiyuan Xu, MD</last_name>
+    <phone>0086-571-88128041</phone>
+    <email>getfar@foxmai.com</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Cancer Hospital of the University of Chinese Academy of Sciences (Zhejiang Cancer Hospital)</name>
+      <address>
+        <city>Hangzhou</city>
+        <state>Zhejiang</state>
+        <zip>310022</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Xiangdong Cheng, MD</last_name>
+      <phone>+0086-0571-88128041</phone>
+      <email>Chengxd516@126.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Zhejiang Cancer Hospital</name>
+      <address>
+        <city>Hangzhou</city>
+        <state>Zhejiang</state>
+        <zip>310022</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Cheng Xiangdong, MD</last_name>
+      <phone>+0086-571-88128041</phone>
+      <email>Chengxd516@126.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>March 5, 2021</study_first_submitted>
+  <study_first_submitted_qc>March 9, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">March 11, 2021</study_first_posted>
+  <last_update_submitted>April 23, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 23, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 26, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Zhejiang Cancer Hospital</investigator_affiliation>
+    <investigator_full_name>Xiangdong Cheng</investigator_full_name>
+    <investigator_title>Professor; Chief physician</investigator_title>
+  </responsible_party>
+  <keyword>Malignant tumor</keyword>
+  <keyword>Tongue Image</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

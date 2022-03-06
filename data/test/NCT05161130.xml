@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="123">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05161130</url>
+  </required_header>
+  <id_info>
+    <org_study_id>FUSE-ML</org_study_id>
+    <nct_id>NCT05161130</nct_id>
+  </id_info>
+  <brief_title>Predicting Outcomes After Lumbar Fusion for Degenerative Disease</brief_title>
+  <acronym>FUSE-ML</acronym>
+  <official_title>Development and External Validation of an International, Multicenter Machine Learning Algorithm for Prediction of Outcome After Lumbar Spinal Fusion for Degenerative Disease: The FUSE-ML Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Bergman Clinics</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>MICN Lab, University Hospital Zurich</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Bergman Clinics</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The aim of the FUSE-ML study is to develop and externally validate a robust ML-based&#xD;
+      prediction tool based on multicenter data from a range of international centers that will&#xD;
+      provide individualized risk-benefit profiles tailored to each patient undergoing lumbar&#xD;
+      spinal fusion for degenerative disease. Data will be collected by a range of international&#xD;
+      centers.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Introduction Low back pain is one of the top-three causes of disability in Western societies&#xD;
+      and imposes significant direct and indirect socio-economic costs. The etiology of low back&#xD;
+      pain with or without radiating leg pain is multifactorial, but it is often related to&#xD;
+      degenerative disc disease (DDD) or to spondylolisthesis. The standard treatment for&#xD;
+      symptomatic spondylolisthesis or progressive DDD in patients who are unresponsive to&#xD;
+      long-term conservative treatment is interbody fusion, but this is controversial. With some&#xD;
+      reports showing no benefit compared to conservative treatment, patient selection is vitally&#xD;
+      important. Various prognostic tests attempt to identify subsets of patients that might&#xD;
+      benefit most from surgery, but the validity of these tests is unclear. Ultimately, success in&#xD;
+      this category of patients should be defined by improved physical symptoms (patient-reported&#xD;
+      outcome measures [PROMs]) rather than technical success of the procedure. A relevant&#xD;
+      proportion of patients with intractable, conservative therapy-resistant lumbar degenerative&#xD;
+      disease do finally profit from lumbar fusion surgery - the difficult question is how to&#xD;
+      identify them securely and avoid unnecessary, unsuccessful surgery.&#xD;
+&#xD;
+      In the literature, several subsets of patients with lumbar degenerative disease who may&#xD;
+      profit more than others from lumbar spinal fusion have been identified. Accurate preoperative&#xD;
+      identification of patients at high risk for unsatisfactory outcome and vice-versa would be&#xD;
+      clinically advantageous, as it would allow enhanced resource preparation, better surgical&#xD;
+      decision-making, enhanced patient education and informed consent, and potentially even&#xD;
+      modification of certain risk factors for unsatisfactory outcome. However, it is often&#xD;
+      impossible for clinicians to balance the many described single risk factors for each adverse&#xD;
+      event to arrive at a personalized risk-benefit profile in individual patients.&#xD;
+&#xD;
+      Machine learning (ML) methods have been extraordinarily effective at integrating many&#xD;
+      clinical patient variables into one holistic risk prediction tailored to each patient. One&#xD;
+      multicenter model based on classic statistics has already been described by Khor et al. -&#xD;
+      However, upon external validation, it proved to be unreliable and rather poorly calibrated.&#xD;
+      Also, this model was based on a relatively small number of patients for ML. The aim of the&#xD;
+      FUSE-ML study is to develop and externally validate a robust ML-based prediction tool based&#xD;
+      on multicenter data from a range of international centers that will provide individualized&#xD;
+      risk-benefit profiles tailored to each patient undergoing lumbar spinal fusion for&#xD;
+      degenerative disease.&#xD;
+&#xD;
+      Methods Overview Data will be collected by a range of international centers. Overall, the&#xD;
+      models will be built and publication will be compiled according to the transparent reporting&#xD;
+      of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD)&#xD;
+      guidelines. One model will be created for each of the relevant outcomes detailed below.&#xD;
+&#xD;
+      University of Zurich (V.E. Staartjes, C. Serra) is the sponsor of this study.&#xD;
+&#xD;
+      Ethical Considerations Each center will be responsible for their own ethics board /&#xD;
+      institutional review board (IRB) approval and for establishing a data transfer agreement&#xD;
+      (DTA). The sponsor (University of Zurich) will present a standard DTA upon request. They must&#xD;
+      gain approval for retrospective or prospective data collection and sharing of the completely&#xD;
+      deidentified data with the sponsor. The sponsor can aid by providing this detailed study&#xD;
+      protocol. All study procedures will be carried out according to the Declaration of Helsinki&#xD;
+      and its amendments.&#xD;
+&#xD;
+      Inclusion and Exclusion Criteria Patients with the following indications for thoracolumbar&#xD;
+      pedicle screw placement are considered for inclusion: Degenerative pathologies (one or&#xD;
+      multiple of the following: spinal stenosis, spondylolisthesis, degenerative disc disease,&#xD;
+      recurrent disc herniation, failed back surgery syndrome (FBSS), radiculopathy,&#xD;
+      pseudarthrosis). Patients undergoing surgery for - as the primary indication - infections,&#xD;
+      vertebral tumors, as well as traumatic and osteoporotic fractures or deformity surgery for&#xD;
+      scoliosis or kyphosis are not eligible. Patients with moderate or severe scoliosis (Coronal&#xD;
+      Cobb's &gt;30 degrees / Schwab classification sagittal modifier + or ++) are not eligible.&#xD;
+      Patients undergoing surgery at more than 6 vertebral levels are also not eligible. Patients&#xD;
+      with missing endpoint data at 12 months will be excluded. Patients are required to give&#xD;
+      informed consent. Only patients aged 18 or older are considered for inclusion.&#xD;
+&#xD;
+      Data Collection Each center will collect their data either retrospectively, from a&#xD;
+      prospective registry, or from a prospective registry supplemented by retrospectively&#xD;
+      collected variables. Each center has to contribute a minimum of 100 patients with complete&#xD;
+      12-month follow-up data to be included in the study. A standardized Excel database will be&#xD;
+      provided by the sponsor for anonymous data entry. The data will be entered in standardized&#xD;
+      and deidentified form. This Excel database will only contain a study-specific patient number.&#xD;
+      Each center will keep an internal spreadsheet in which the study-specific patient numbers can&#xD;
+      be traced back to center-specific patient-numbers, should this be necessary. The deadline for&#xD;
+      submission of the complete data to the sponsor institution is 13th of August 2021.&#xD;
+&#xD;
+      Authorship Centers will have to contribute at least 100 cases with complete outcome data in&#xD;
+      total to be included in the study. Each participating center will be able to designate a&#xD;
+      maximum of four authors to be included in the author list. Any other center-specific&#xD;
+      contributors will be listed as full members of the FUSE-ML study group and will be granted&#xD;
+      full PubMed / Medline contributor status. The sponsor institution will have six primary&#xD;
+      author positions available.&#xD;
+&#xD;
+      Primary Endpoint Definitions&#xD;
+&#xD;
+      Several endpoints will be assessed:&#xD;
+&#xD;
+        -  1. Oswestry Disability Index (ODI) at 12 months.&#xD;
+&#xD;
+        -  2. Visual Analogue Scale (VAS-BP, 0 to 100) for back pain at 12 months. This can also be&#xD;
+           a converted numeric rating scale (NRS) from 0-10, or a VAS from 0 to 10 converted to 0&#xD;
+           to 100.&#xD;
+&#xD;
+        -  3. Visual Analogue Scale (VAS-LP, 0 to 100) for leg pain at 12 months. This can also be&#xD;
+           a converted numeric rating scale (NRS) from 0-10, or a VAS from 0 to 10 converted to 0&#xD;
+           to 100.&#xD;
+&#xD;
+      These outcomes will be dichotomized using the minimum clinically important difference (MCID)&#xD;
+      according to Ostelo et al. Thus, a 30% or greater improvement in a specific score compared to&#xD;
+      baseline will be considered as achievement of MCID (clinical success) in that specific score.&#xD;
+      If patients presented with zero symptoms initially (in either ODI, NRS-BP or NRS-LP), and&#xD;
+      remained at zero for that score, this will also be defined as MCID for that score.&#xD;
+&#xD;
+      Features and Their Definitions&#xD;
+&#xD;
+      All features are measured or estimated preoperatively. In addition to the endpoints, the&#xD;
+      following input features will be collected:&#xD;
+&#xD;
+        -  Age (years)&#xD;
+&#xD;
+        -  Gender (m/f)&#xD;
+&#xD;
+        -  Presence of the following indications for surgery (choose all that apply):&#xD;
+&#xD;
+             -  Spondylolisthesis&#xD;
+&#xD;
+             -  (Recurrent) disc herniation&#xD;
+&#xD;
+             -  Radiculopathy&#xD;
+&#xD;
+             -  Chronic low back pain (CLBP) / Degenerative disc disease (DDD)&#xD;
+&#xD;
+             -  Failed back surgery syndrome (FBSS)&#xD;
+&#xD;
+             -  Lumbar spinal stenosis&#xD;
+&#xD;
+             -  Pseudarthrosis&#xD;
+&#xD;
+        -  Index Level(s) (choose all that apply, T12 - S1)&#xD;
+&#xD;
+        -  Height (cm)&#xD;
+&#xD;
+        -  Weight (kg)&#xD;
+&#xD;
+        -  BMI (kg/m2)&#xD;
+&#xD;
+        -  Smoking status (active / ceased / never)&#xD;
+&#xD;
+        -  Preoperative (baseline) ODI&#xD;
+&#xD;
+        -  Preoperative (baseline) VAS-BP&#xD;
+&#xD;
+        -  Preoperative (baseline) VAS-LP&#xD;
+&#xD;
+        -  American Society of Anesthesiologists (ASA) Score (1-2 / 3 or higher)&#xD;
+&#xD;
+        -  Preoperative use of opioid pain medication (yes / no)&#xD;
+&#xD;
+        -  Asthma pulmonale as a comorbidity (yes / no)&#xD;
+&#xD;
+        -  Prior thoracolumbar spine surgery (yes / no)&#xD;
+&#xD;
+        -  Race/Ethnicity (Caucasian / Black / Asian / Other)&#xD;
+&#xD;
+        -  Surgical approach (choose all that apply: TLIF / PLIF / ALIF / Lateral)&#xD;
+&#xD;
+        -  Pedicle screw insertion (yes / no)&#xD;
+&#xD;
+        -  Minimally invasive technique (yes / no)&#xD;
+&#xD;
+      Sample Size While even the largest cohort with millions of patients is not guaranteed to&#xD;
+      result in a robust clinical prediction model if no relevant input variables are included&#xD;
+      (&quot;garbage in, garbage out&quot; - do not expect to predict the future from age, gender, and body&#xD;
+      mass index), the relationship among predictive performance and sample size is certainly&#xD;
+      directly proportional, especially for some data-hungry ML algorithms. To ensure&#xD;
+      generalizability of the clinical prediction model, the sample size should be both&#xD;
+      representative enough of the patient population, and should take the complexity of the&#xD;
+      algorithm into account. For instance, a deep neural network - as an example of a highly&#xD;
+      complex model - will often require thousands of patients to converge, while a logistic&#xD;
+      regression model may achieve stable results with only a few hundreds of patients. In&#xD;
+      addition, the number of input variables plays a role. Roughly, it can be said that a bare&#xD;
+      minimum of 10 positive cases are required per included input variable to model the&#xD;
+      relationships. Often, erratic behavior of the models and high variance in performance among&#xD;
+      splits is observed when sample sizes are smaller than calculated with this rule of thumb. Of&#xD;
+      central importance is also the proportion of patients who experience the outcome. For very&#xD;
+      rare events, a much larger total sample size is consequentially needed. For instance, a&#xD;
+      prediction based on 10 input features for an outcome occurring in only 10% of cases would&#xD;
+      require at least 1000 patients including at least 100 who experienced the outcome, according&#xD;
+      to the above rule of thumb. In general and from personal experience, the authors do not&#xD;
+      recommend developing ML models on cohorts with less than 100 positive cases and reasonably&#xD;
+      more cases in total, regardless of the rarity of the outcome. Also, one might consider the&#xD;
+      available literature on risk factors for the outcome of interest: If epidemiological studies&#xD;
+      find only weak associations with the outcome, it is likely that one will require more&#xD;
+      patients to arrive at a model with good predictive performance, as opposed to an outcome&#xD;
+      which has several highly associated risk factors, which may be easier to predict. Larger&#xD;
+      sample sizes also allow for more generous evaluation through a larger amount of patient data&#xD;
+      dedicated to training or validation, and usually results in better calibration measures.&#xD;
+&#xD;
+      Between 20% and 40% of patients report no clinically relevant improvement after spinal fusion&#xD;
+      (minority class). For sample size calculation, the authors take 20% for a conservative&#xD;
+      estimate. Consequently, for this study, based on the authors' expertise and on the rules of&#xD;
+      thumb mentioned above, the authors estimate that a minimum of 200 patients with a negative&#xD;
+      outcome (minority class) are required to extract generalizable feature relationships. With an&#xD;
+      estimated incidence of approximately 20% as explained above, that means that a minimum of&#xD;
+      around 1000 patients are required for training. For adequate evaluation of calibration at&#xD;
+      external validation, the authors estimate that another 300 patients will be required (thus,&#xD;
+      approximately 60 patients with a positive outcome). Thus, in total, the authors estimate that&#xD;
+      a minimum of 1300 patients are necessary to arrive at a robust model. More data will likely&#xD;
+      lead to greater performance and better calibration.&#xD;
+&#xD;
+      Predictive Modeling A KNN imputer will be co-trained to impute any missing data that may&#xD;
+      occur in future application of the model. If there is missing data in the training set, it&#xD;
+      will be imputed using said KNN imputer. Features or patients with a missingness greater than&#xD;
+      25% will be excluded. Data will be standardized and one-hot-encoded. In case of major class&#xD;
+      imbalance - which is expected for the abovementioned endpoint - random upsampling or&#xD;
+      synthetic minority oversampling (SMOTE) will be applied to the training set. All features&#xD;
+      will initially be provided to the model for training. If necessary, the authors will apply&#xD;
+      recursive feature elimination (RFE) to select input features on the training data.&#xD;
+&#xD;
+      The authors will trial the following algorithms for binary classification: Generalized linear&#xD;
+      model (GLM), generalized additive model (GAM), stochastic gradient boosting machine (GBM),&#xD;
+      naïve Bayes classifier, simple artificial neural network, support vector machine (SVM), and&#xD;
+      random forest. Each model will be fully trained and hyperparameter tuned where applicable.&#xD;
+      The final model will be selected based upon AUC, sensitivity, and specificity, as well as&#xD;
+      calibration metrics on the resampled training performance. Training will occur in repeated&#xD;
+      5-fold cross-validation with 10 repeats.&#xD;
+&#xD;
+      The one final model will then be assessed on the external validation data only once. 95%&#xD;
+      confidence intervals for external validation metrics will be derived using the bootstrap.&#xD;
+&#xD;
+      The threshold for binary classification will either be identified on the training data alone&#xD;
+      using the AUC-based &quot;closest-to-(0,1)-criterion&quot; or Youden's index to optimize both&#xD;
+      sensitivity and specificity, or will be optimized on the training set based on clinical&#xD;
+      significance (rule-out model). All analyses will be carried out in R Version 4.0.2 or more&#xD;
+      recent.&#xD;
+&#xD;
+      Evaluation The performance of classification models can roughly be judged along two&#xD;
+      dimensions: Model discrimination and calibration. The term discrimination denotes the ability&#xD;
+      of a prediction model to correctly classify whether a certain patient is going to or is not&#xD;
+      going to experience a certain outcome. Thus, discrimination described the accuracy of a&#xD;
+      binary prediction - yes or no. Calibration, however, describes the degree to which a model's&#xD;
+      predicted probabilities (ranging from 0% to 100%) correspond to the actually observed&#xD;
+      incidence of the binary endpoint (true posterior). Many publications do not report&#xD;
+      calibration metrics, although these are of central importance, as a well-calibrated predicted&#xD;
+      probability (e.g. your predicted probability of experiencing a complication is 18%) is often&#xD;
+      much more valuable to clinicians - and patients! - than a binary prediction (e.g. you are&#xD;
+      likely not going to experience a complication).&#xD;
+&#xD;
+      Resampled training performance as well as performance on the external validation set will be&#xD;
+      assessed for discrimination and calibration. In terms of discrimination, the authors will&#xD;
+      evaluate AUC, accuracy, sensitivity, specificity, positive predictive value (PPV), negative&#xD;
+      predictive value (NPV), and F1 Score. In terms of calibration, the authors will assess the&#xD;
+      Brier score, expected-observed (E/O)-ratio, calibration slope and intercept, the&#xD;
+      Hosmer-Lemeshow goodness-of-fit test, as well as visual inspection of calibration plots for&#xD;
+      both datasets, which will also be included in the publication.&#xD;
+&#xD;
+      Interpretability The degree and choice of methods for interpretability will depend on the&#xD;
+      finally chosen algorithm. Some algorithms can natively provide explanations as to which&#xD;
+      factors influence the outcome in what way. Thus, in case e.g. a GLM, GAM, or naïve Bayes&#xD;
+      classifier is chosen, the parameters / partial dependence values will be provided. For simple&#xD;
+      decision trees, diagrams of the decision-making process can be provided. Other models with&#xD;
+      higher degrees of complexity, such as neural networks or stochastic gradient boosting&#xD;
+      machines cannot natively provide such explanations. In that case, the authors will provide&#xD;
+      both AUC-based variable importance as well as model-agnostic local interpretations of&#xD;
+      variable importance using the LIME principle.&#xD;
+&#xD;
+      Expected Results The authors expect to arrive at a generalizable model based on multicenter&#xD;
+      international data that is likely to predict consistently with an AUC of at least 0.70 and&#xD;
+      that is well-calibrated. A web-based prediction tool will also be created for each of the two&#xD;
+      models using the shiny environment, much akin to e.g.&#xD;
+      https://neurosurgery.shinyapps.io/impairment (Also see for example: Staartjes et al., Journal&#xD;
+      of Neurosurgery, 2020). This web-based app will be available for free on any internet-capable&#xD;
+      device (mobile or desktop), and should be stable on most devices due to the server-based&#xD;
+      computing. The costs for maintaining the server will be carried by the sponsor. The collected&#xD;
+      data will be stored by the sponsor for 10 years. The large dataset will be open to further&#xD;
+      analysis and will be provided to any of the contributing centers at reasonable request and&#xD;
+      after approval by all other centers. The goal is to enable other analyses using the collected&#xD;
+      dataset. If any additional analyses lead to publication, all contributors will be included as&#xD;
+      co-authors and all co-authors will have the opportunity to review said manuscript beforehand.&#xD;
+      Any contributing study center has the right to veto publication of any subsequent analyses&#xD;
+      containing their own data.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 1, 2021</start_date>
+  <completion_date type="Actual">November 1, 2021</completion_date>
+  <primary_completion_date type="Actual">November 1, 2021</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Visual Analogue Scale for Back Pain</measure>
+    <time_frame>12 months after surgery</time_frame>
+    <description>Visual Analogue Scale (VAS) for Back Pain Severity from 0 to 100, with higher scores indicating more pain.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Visual Analogue Scale for Leg Pain</measure>
+    <time_frame>12 months after surgery</time_frame>
+    <description>Visual Analogue Scale (VAS) for Leg Pain Severity from 0 to 100, with higher scores indicating more pain.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Oswestry Disability Index</measure>
+    <time_frame>12 months after surgery</time_frame>
+    <description>Oswestry Disability Index (ODI) for Subjective Functional Impairment (0 to 100, with higher values indicating higher levels of functional impairment)</description>
+  </primary_outcome>
+  <enrollment type="Actual">1115</enrollment>
+  <condition>Low Back Pain</condition>
+  <condition>Disk Herniated Lumbar</condition>
+  <condition>Spinal Stenosis Lumbar</condition>
+  <intervention>
+    <intervention_type>Procedure</intervention_type>
+    <intervention_name>Lumbar Spinal Fusion</intervention_name>
+    <description>Lumbar Spinal Fusion with or without posterior stabilization</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients who underwent lumbar spinal fusion for degenerative disease&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        -  Inclusion Criteria:&#xD;
+&#xD;
+          -  Degenerative pathologies (one or multiple of the following: spinal stenosis,&#xD;
+             spondylolisthesis, degenerative disc disease, recurrent disc herniation, failed back&#xD;
+             surgery syndrome (FBSS), radiculopathy, pseudarthrosis).&#xD;
+&#xD;
+          -  Patients are required to give informed consent.&#xD;
+&#xD;
+          -  Only patients aged 18 or older are considered for inclusion.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients undergoing surgery for - as the primary indication - infections, vertebral&#xD;
+             tumors, as well as traumatic and osteoporotic fractures or deformity surgery for&#xD;
+             scoliosis or kyphosis are not eligible. Patients with moderate or severe scoliosis&#xD;
+             (Coronal Cobb's &gt;30 degrees / Schwab classification sagittal modifier + or ++) are not&#xD;
+             eligible.&#xD;
+&#xD;
+          -  Patients undergoing surgery at more than 6 vertebral levels are also not eligible.&#xD;
+&#xD;
+          -  Patients with missing endpoint data at 12 months will be excluded.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Marc L Schröder, MD PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Bergman Clinics</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>Medical University of Innsbruck</name>
+      <address>
+        <city>Innsbruck</city>
+        <country>Austria</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>La Pitié Salpetrière Hospital</name>
+      <address>
+        <city>Paris</city>
+        <country>France</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Department of Neurosurgery, Bergman Clinics</name>
+      <address>
+        <city>Naarden</city>
+        <zip>1411 GE</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Bergman Clinics</name>
+      <address>
+        <city>Naarden</city>
+        <zip>GE</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Austria</country>
+    <country>France</country>
+    <country>Netherlands</country>
+  </location_countries>
+  <verification_date>December 2021</verification_date>
+  <study_first_submitted>December 2, 2021</study_first_submitted>
+  <study_first_submitted_qc>December 15, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">December 16, 2021</study_first_posted>
+  <last_update_submitted>December 17, 2021</last_update_submitted>
+  <last_update_submitted_qc>December 17, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 10, 2022</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Bergman Clinics</investigator_affiliation>
+    <investigator_full_name>Marc Schröder</investigator_full_name>
+    <investigator_title>Study Director, Senior Neurosurgeon, Department of Neurosurgery</investigator_title>
+  </responsible_party>
+  <keyword>machine learning</keyword>
+  <keyword>clinical prediction modeling</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Spinal Stenosis</mesh_term>
+    <mesh_term>Low Back Pain</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Statistical Analysis Plan</document_type>
+      <document_has_protocol>No</document_has_protocol>
+      <document_has_icf>No</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>July 5, 2021</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/30/NCT05161130/SAP_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="34">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05215457</url>
+  </required_header>
+  <id_info>
+    <org_study_id>FirstNanjingMU2021ER</org_study_id>
+    <nct_id>NCT05215457</nct_id>
+  </id_info>
+  <brief_title>Severity Index of Diquat Poisoning in Evaluating the Prognosis of Acute Diquat Poisoning</brief_title>
+  <acronym>SIDP</acronym>
+  <official_title>Development and Validation of Outcome Prediction Models for Acute Diquat Poisoning : a Cohort Study</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The First Affiliated Hospital with Nanjing Medical University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>The First Affiliated Hospital with Nanjing Medical University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Diquat (DQ) is a non-selective quick-acting bactericidal herbicide, which is the same&#xD;
+      bipyridine compound as paraquat (PQ).The number of patients with acute diquat poisoning is&#xD;
+      gradually increasing worldwide, and the mortality rate is not lower than that of paraquat&#xD;
+      (citing), but there is currently a lack of objective indicators to assess the severity or&#xD;
+      prognosis of diquat poisoning.By referring to SIPP ideas, the research team intends to&#xD;
+      establish a model that meets the clinical characteristics of diquat poisoning and effectively&#xD;
+      predicts the prognosis of patients, namely SIDP. In order to obtain an objective, accurate&#xD;
+      and relatively convenient method to judge the condition and prognosis of patients with acute&#xD;
+      diquat poisoning.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Objective - To develop and validate a set of practical prediction tools that reliably&#xD;
+      estimate the outcome of acute diquat poisoning（ADP）.&#xD;
+&#xD;
+      Design - Cohort study with logistic regression analysis to combine predictors and treatment&#xD;
+      modality.&#xD;
+&#xD;
+      Main outcome measure - The primary study outcome was death from any cause within 90 days&#xD;
+      after diquat ingestion.&#xD;
+&#xD;
+      Goals- To develop a prediction models that reliably estimates the outcome of patients who&#xD;
+      were managed in various settings for acute diquat poisoning.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 7, 2017</start_date>
+  <completion_date type="Anticipated">June 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">March 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>The primary study outcome was death from any cause within 90 days after diquat ingestion.</measure>
+    <time_frame>90 days</time_frame>
+    <description>Through relevant clinical data, find the predictors of death group and survival group</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">100</enrollment>
+  <condition>Poisoning</condition>
+  <arm_group>
+    <arm_group_label>development set</arm_group_label>
+    <description>50 cases are the development set, which is used to develop the prediction model of diquat acute poisoning. These patients are all from the First Affiliated Hospital of Nanjing Medical University.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>validation set</arm_group_label>
+    <description>50 patients are the validation set, from more than ten tertiary a-level hospitals in the surrounding area, to verify the prediction model.</description>
+  </arm_group>
+  <biospec_retention>Samples Without DNA</biospec_retention>
+  <biospec_descr>
+    <textblock>
+      Serum, Plasma, Urine&#xD;
+    </textblock>
+  </biospec_descr>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        history of diquat exposure&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. all have a clear history of exposure to oral diquat solution;&#xD;
+&#xD;
+          2. complete the toxicant test immediately after admission, and have certain initial blood&#xD;
+             drug concentration data;&#xD;
+&#xD;
+          3. the clinical data is true and complete;&#xD;
+&#xD;
+          4. the patients or family members are aware of and agree to the treatment plan.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. ingested two or more toxicants;&#xD;
+&#xD;
+          2. diquat was not detected in the blood or urine and the patient has no relevant clinical&#xD;
+             symptoms;&#xD;
+&#xD;
+          3. suffer from primary disease relative to heart, lung, liver, kidney and brain .&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>14 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Jingsong Zhang, professor</last_name>
+    <role>Study Chair</role>
+    <affiliation>The First Affiliated Hospital with Nanjing Medical University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Hao Sun, professor</last_name>
+    <phone>13584017821</phone>
+    <phone_ext>86</phone_ext>
+    <email>haosun@njmu.edu.cn</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>The First Affiliated Hospital with Nanjing Medical University</name>
+      <address>
+        <city>Nanjing</city>
+        <state>Jiangsu</state>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jinghai Tang, professor</last_name>
+      <phone>025-83284725</phone>
+      <email>Jhtang305@126.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Cao ZX, Zhao Y, Gao J, Feng SY, Wu CP, Zhai YZ, Zhang M, Nie S, Li Y. Comparison of severity index and plasma paraquat concentration for predicting survival after paraquat poisoning: A meta-analysis. Medicine (Baltimore). 2020 Feb;99(6):e19063. doi: 10.1097/MD.0000000000019063.</citation>
+    <PMID>32028427</PMID>
+  </reference>
+  <reference>
+    <citation>Kim DS, Kang C, Kim DH, Kim SC, Lee SH, Jeong JH, Kang TS, Jung SM, Lee SB, Lee KW, Kim RB. External validation of the prognostic index in acute paraquat poisoning. Hum Exp Toxicol. 2016 Apr;35(4):366-70. doi: 10.1177/0960327115586821. Epub 2015 May 13.</citation>
+    <PMID>25977258</PMID>
+  </reference>
+  <reference>
+    <citation>Chen CK, Chen YC, Mégarbane B, Yeh YT, Chaou CH, Chang CH, Lin CC. The acute paraquat poisoning mortality (APPM) score to predict the risk of death in paraquat-poisoned patients. Clin Toxicol (Phila). 2021 Sep 20:1-5. doi: 10.1080/15563650.2021.1979234. [Epub ahead of print]</citation>
+    <PMID>34543159</PMID>
+  </reference>
+  <reference>
+    <citation>Xu S, Hu H, Jiang Z, Tang S, Zhou Y, Sheng J, Chen J, Cao Y. APACHE score, Severity Index of Paraquat Poisoning, and serum lactic acid concentration in the prognosis of paraquat poisoning of Chinese Patients. Pediatr Emerg Care. 2015 Feb;31(2):117-21. doi: 10.1097/PEC.0000000000000351.</citation>
+    <PMID>25654678</PMID>
+  </reference>
+  <reference>
+    <citation>Du Y, Mou Y. [Predictive value of 3 methods in severity evaluation and prognosis of acute paraquat poisoning]. Zhong Nan Da Xue Xue Bao Yi Xue Ban. 2013 Jul;38(7):737-42. doi: 10.3969/j.issn.1672-7347.2013.07.014. Chinese.</citation>
+    <PMID>23908083</PMID>
+  </reference>
+  <reference>
+    <citation>Xing J, Chu Z, Han D, Jiang X, Zang X, Liu Y, Gao S, Sun L. Lethal diquat poisoning manifesting as central pontine myelinolysis and acute kidney injury: A case report and literature review. J Int Med Res. 2020 Jul;48(7):300060520943824. doi: 10.1177/0300060520943824. Review.</citation>
+    <PMID>32734801</PMID>
+  </reference>
+  <reference>
+    <citation>Magalhães N, Carvalho F, Dinis-Oliveira RJ. Human and experimental toxicology of diquat poisoning: Toxicokinetics, mechanisms of toxicity, clinical features, and treatment. Hum Exp Toxicol. 2018 Nov;37(11):1131-1160. doi: 10.1177/0960327118765330. Epub 2018 Mar 23. Review.</citation>
+    <PMID>29569487</PMID>
+  </reference>
+  <reference>
+    <citation>Oreopoulos DG, McEvoy J. Diquat poisoning. Postgrad Med J. 1969 Sep;45(527):635-7.</citation>
+    <PMID>5809561</PMID>
+  </reference>
+  <reference>
+    <citation>Cai XL, Teng F, Yu X, Liu LL, Li GQ. [Four cases of acute diquat poisoning with prominent epileptoid seizure and literature review]. Zhonghua Lao Dong Wei Sheng Zhi Ye Bing Za Zhi. 2021 May 20;39(5):359-362. doi: 10.3760/cma.j.cn121094-20200224-00078. Review. Chinese.</citation>
+    <PMID>34074081</PMID>
+  </reference>
+  <reference>
+    <citation>Yuan G, Li R, Zhao Q, Kong X, Wang Y, Wang X, Guo R. Simultaneous determination of paraquat and diquat in human plasma by HPLC-DAD: Its application in acute poisoning patients induced by these two herbicides. J Clin Lab Anal. 2021 Mar;35(3):e23669. doi: 10.1002/jcla.23669. Epub 2020 Dec 9.</citation>
+    <PMID>33296104</PMID>
+  </reference>
+  <reference>
+    <citation>Jones GM, Vale JA. Mechanisms of toxicity, clinical features, and management of diquat poisoning: a review. J Toxicol Clin Toxicol. 2000;38(2):123-8. Review.</citation>
+    <PMID>10778908</PMID>
+  </reference>
+  <reference>
+    <citation>Saeed SA, Wilks MF, Coupe M. Acute diquat poisoning with intracerebral bleeding. Postgrad Med J. 2001 May;77(907):329-32. Review.</citation>
+    <PMID>11320278</PMID>
+  </reference>
+  <reference>
+    <citation>Huang Y, Zhang R, Meng M, Chen D, Deng Y. High-dose diquat poisoning: a case report. J Int Med Res. 2021 Jun;49(6):3000605211026117. doi: 10.1177/03000605211026117.</citation>
+    <PMID>34182818</PMID>
+  </reference>
+  <verification_date>January 2022</verification_date>
+  <study_first_submitted>January 1, 2022</study_first_submitted>
+  <study_first_submitted_qc>January 28, 2022</study_first_submitted_qc>
+  <study_first_posted type="Actual">January 31, 2022</study_first_posted>
+  <last_update_submitted>January 28, 2022</last_update_submitted>
+  <last_update_submitted_qc>January 28, 2022</last_update_submitted_qc>
+  <last_update_posted type="Actual">January 31, 2022</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>The First Affiliated Hospital with Nanjing Medical University</investigator_affiliation>
+    <investigator_full_name>Hao Sun</investigator_full_name>
+    <investigator_title>Deputy Director, Institute of Poisoning, Nanjing Medical University</investigator_title>
+  </responsible_party>
+  <keyword>acute diquat poisoning</keyword>
+  <keyword>predication model</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Poisoning</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

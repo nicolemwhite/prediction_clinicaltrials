@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="211">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05225961</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ATILA-ictus-2021</org_study_id>
+    <nct_id>NCT05225961</nct_id>
+  </id_info>
+  <brief_title>ATILA Project: Aspirin Versus Tirofiban in Endovascular Treatment for Patients With Acute Ischemic Stroke Due to Tandem Lesion</brief_title>
+  <acronym>ATILA</acronym>
+  <official_title>Randomized Multi-center Clinical Trial to Assess Effectiveness and Safety of Tirofiban Versus Intravenous Aspirin in Patients With Acute Ischemic Stroke Secondary to Tandem Injury, Subject to Recanalization Therapy Through Endovascular Treatment</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Fundación Pública Andaluza para la gestión de la Investigación en Sevilla</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Fundación Pública Andaluza para la gestión de la Investigación en Sevilla</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Patients with tandem lesions (TL) are defined as patients with an acute ischemic stroke (AIS)&#xD;
+      with occlusion of an intracranial vessel of the anterior circulation and an occlusion or&#xD;
+      severe stenosis (70-99%) of the origin of the ipsilateral internal carotid artery (ICA). The&#xD;
+      greatest current limitation in the management of this type of lesion is the use of&#xD;
+      antithrombotic medication (double antiaggregation) in the acute phase that is required in&#xD;
+      case of placing extracranial stent to stabilize the atheroma plaque. In relation to this&#xD;
+      antiplatelet regimen, the latest clinical practice guidelines warn about the risk of&#xD;
+      combining intravenous fibrinolysis with antiplatelet medication in the acute phase, since it&#xD;
+      seems to increase the risk of symptomatic intracranial hemorrhage (sICH). However, the&#xD;
+      non-stabilization of the carotid atheroma plaque is associated with higher rates of cervical&#xD;
+      reocclusion, poorer functional prognosis, and higher mortality.&#xD;
+&#xD;
+      Therefore, the use of a single antiplatelet agent could be a reasonable alternative. To&#xD;
+      establish the best protocol for mono-antiaggregant therapy in the acute phase of TL, the&#xD;
+      investigators propose to carry out a prospective multicenter randomized clinical trial.&#xD;
+&#xD;
+        1. All patients with ischemic stroke secondary to TL in the anterior circulation candidates&#xD;
+           for mechanical thrombectomy in whom cervical endoprosthesis will be placed in the acute&#xD;
+           phase, will be included, randomized to two groups: 500 mg of intravenous (iv) Aspirin vs&#xD;
+           Low dose regimen of Tirofiban iv.&#xD;
+&#xD;
+        2. Carotid reocclusion rates and sICH rates will be evaluated within the first 24 hours&#xD;
+           after mechanical thrombectomy . As a secondary objective, the functional prognosis at 3&#xD;
+           months in both groups will be analyzed, as well as a panel of biomarkers predictors of&#xD;
+           reocclusion in both groups. Establishing an antiplatelet management protocol in the&#xD;
+           acute phase in these patients would be an innovative strategy not developed by any other&#xD;
+           group worldwide, and would place us at the forefront of research in the field. Likewise,&#xD;
+           developing a clinical-biological predictive model of carotid reocclusion will allow us&#xD;
+           to establish risk patients in which to plan alternative treatments. Reference hospitals&#xD;
+           in the treatment of ischemic stroke at the national level with sufficient experience in&#xD;
+           the management of this pathology will participate in the project.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 2022</start_date>
+  <completion_date type="Anticipated">May 2025</completion_date>
+  <primary_completion_date type="Anticipated">May 2024</primary_completion_date>
+  <phase>Phase 4</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Treatment</primary_purpose>
+    <masking>Single (Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Carotid Reocclusion</measure>
+    <time_frame>Annually (single evaluation): within the first 24 hours (+/- 12hours)</time_frame>
+    <description>Outcome measure assessment will be performed using ultrasound doppler, in which carotid reocclusion is define by:&#xD;
+the presence at the level of the occlusion point, by a characteristic biphasic, brief and low speed pattern both in the Doppler spectrum and in color mode (color image with both orthodromic and antidromic flow, red-blue just proximal to the occlusion.&#xD;
+An anechoic appearance with a false appearance of permeable light, detecting the absence of flow in color and Doppler modes.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Platelet aggregation phenomena</measure>
+    <time_frame>Annually (single evaluation): within the first 24 hours (+/- 12hours)</time_frame>
+    <description>Outcome measure assessment will be performed using ultrasound doppler, in which carotid reocclusion is define by:&#xD;
+the presence at the level of the occlusion point, by a characteristic biphasic, brief and low speed pattern both in the Doppler spectrum and in color mode (color image with both orthodromic and antidromic flow, red-blue just proximal to the occlusion.&#xD;
+An anechoic appearance with a false appearance of permeable light, detecting the absence of flow in color and Doppler modes</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Symptomatic intracranial hemorrhage (sICH)</measure>
+    <time_frame>Within first 24 hours after inclusion</time_frame>
+    <description>The sICH is defined as a new intracranial hemorrhage in brain computerized tomography within hospitalization related to an National institute of Health Stroke Scale score increase &gt;4 points compared with stroke admission.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Good functional prognosis</measure>
+    <time_frame>At 90 days (+/- 7 days) after inclusion</time_frame>
+    <description>Defined as a score on the modified rankin scale (mRS) between 0-2 at 90 days.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">240</enrollment>
+  <condition>Acute Ischemic Stroke</condition>
+  <arm_group>
+    <arm_group_label>Tirofiban</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>An intravenous bolus of 500 micrograms of Tirofiban will be intravenously administered in five minutes with an infusion pump (infusion rate: 120 milliliters / hour), which is equivalent to 10 ml (500 micrograms) of Tirofiban. After five minutes, a dose reduction will be programmed to 200 micrograms / hour (infusion rate: 4 milliliters / hour for 24 hours (maximum total infused dose of 96 milliliters).</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Acetylsalicylic acid</arm_group_label>
+    <arm_group_type>Active Comparator</arm_group_type>
+    <description>A single dose 500 milligrams of Acetylsalicylic acid (ASPIRINA®, 500 mg) will be intravenously administered. One vial of ASPIRINA ® in not more than 250 ml in 0.9% sodium chloride solution, 5% and 10% glucose solution, Ringer's solution or lactated Ringer's. The solution for injection should be prepared on the spot and used immediately after preparation. It is highly recommended to administer as soon as possible after femoral puncture and always before stent placement, allowing a 10-minute delay after placement of the cervical endoprosthesis. In case of exceeding this time, the patient will be withdrawn from the trial.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Tirofiban</intervention_name>
+    <description>An intravenous bolus of 500 micrograms of Tirofiban will be intravenously administered in five minutes with an infusion pump (infusion rate: 120 milliliters / hour), which is equivalent to 500 micrograms of Tirofiban. After five minutes, a dose reduction will be programmed to 200 micrograms / hour (infusion rate: 4 milliliters / hour for 24 hours (maximum total infused dose of 96 milliliters). Tirofiban infusion started in the neuroradiology room should be maintained until a control brain computerized tomography (CT) scan is performed at 20 hours (+/-2 hours). Once the absence of parenchymal hematoma is demonstrated in control CT, loading doses of acetylsalicylic acid and clopidogrel will be intravenously administered in the Tirofiban group, and the perfusion must be maintained simultaneously of Tirofiban and oral double antiplatelet therapy for four hours, after which the administration of the experimental drug should be discontinued.</description>
+    <arm_group_label>Tirofiban</arm_group_label>
+  </intervention>
+  <intervention>
+    <intervention_type>Drug</intervention_type>
+    <intervention_name>Acetylsalicylic acid</intervention_name>
+    <description>A single dose 500 milligrams of Acetylsalicylic acid (ASPIRINA®, 500 mg) will be intravenously administered. The solution for injection should be prepared on the spot and used immediately after preparation. It is highly recommended to administer as soon as possible after femoral puncture and always before stent placement, allowing a 10-minute delay after placement of the cervical endoprosthesis. In case of exceeding this time, the patient will be withdrawn from the trial. It will not be necessary to maintain aspirin infusion. In the Acetylsalicylic acid group, a head computerized tomography scan will also be performed at 20 (+/- 2 hours) after the endovascular procedure. Once the absence of parenchymal hematoma is demonstrated, a load of clopidogrel and 100 mg of Acetylsalicylic acid will be administered. Oral antiplatelet medication can be administered orally if the patient has a good level of consciousness and is not associated with dysphagia; or by placing a nasogastric tube.</description>
+    <arm_group_label>Acetylsalicylic acid</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients with acute ischemic stroke of the anterior territory secondary to a tandem&#xD;
+             lesion, with an indication for thrombectomy treatment according to the current&#xD;
+             recommendations of the Clinical Practice Guidelines, and the need for cervical stent&#xD;
+             placement.&#xD;
+&#xD;
+          -  The intracranial occlusion locations that may be included are: carotid &quot;T&quot;, M1 and M2&#xD;
+             segments of the middle cerebral artery, segment A1 of the anterior cerebral artery;&#xD;
+             and in the case that the posterior cerebral artery has fetal origin and is the site of&#xD;
+             intracranial occlusion.&#xD;
+&#xD;
+          -  ASPECTS (Alberta Stroke Program Early computerized Tomography Score) ≥6.&#xD;
+&#xD;
+          -  Greater than or equal to 18 years of age.&#xD;
+&#xD;
+          -  Signed informed consent.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Patients under 18 years of age.&#xD;
+&#xD;
+          -  Patients with ASPECTS &lt;6.&#xD;
+&#xD;
+          -  Bilateral strokes or those produced by simultaneous occlusion of an artery in the&#xD;
+             anterior and posterior territory.&#xD;
+&#xD;
+          -  Patients whose carotid stenosis is due to a re-stenosis or reocclusion of a&#xD;
+             pre-existing cervical stent.&#xD;
+&#xD;
+          -  Candidate patients for carotid puncture.&#xD;
+&#xD;
+          -  Previous treatment with double antiplatelet therapy for another cause prior to&#xD;
+             inclusion.&#xD;
+&#xD;
+          -  Severe comorbidity and / or reduced life expectancy.&#xD;
+&#xD;
+          -  Modified Rankin scale (mRS)&gt; 2.&#xD;
+&#xD;
+          -  Severe allergy to contrast medium.&#xD;
+&#xD;
+          -  Pregnant.&#xD;
+&#xD;
+          -  Patients with intracranial occlusive arteriosclerotic disease or extra or intracranial&#xD;
+             dissection.&#xD;
+&#xD;
+          -  Documented allergy to acetylsalicylic acid or Tirofiban.&#xD;
+&#xD;
+          -  Personal history of platelet penia (Platelets &lt;100,000)&#xD;
+&#xD;
+          -  Concomitant anticoagulant treatment with presence of International Normalized Ratio&#xD;
+             (INR) &gt; 1.7 in case of anti-vitamin K treatment or taking direct oral anticoagulant&#xD;
+             &lt;48 hours ago)&#xD;
+&#xD;
+          -  Medical history of the patient that carries a high risk of bleeding according to the&#xD;
+             investigator's criteria.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>100 Years</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Elena Zapata-Arrizada, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Virgen del Rocío Hospital, Seville, Spain</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Clara M Rosso-Fernández, PhD</last_name>
+    <phone>0034 955012144</phone>
+    <email>claram.rosso.sspa@juntadeandalucia.es</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Complexo Hospitalario Universitario A Coruña</name>
+      <address>
+        <city>A Coruña</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Sonia Mosteiro</last_name>
+      <email>soniamost@gmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Complejo Hospitalario Torrecárdenas</name>
+      <address>
+        <city>Almería</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Laura Amaya-Pascasio</last_name>
+      <email>laura.amaya.pascasio@gmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Complejo Hospital Universitario de Badajoz</name>
+      <address>
+        <city>Badajoz</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>José M Ramírez-Moreno</last_name>
+      <email>j.ramrez@gmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario de Cruces</name>
+      <address>
+        <city>Bilbao</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>María M Freijó</last_name>
+      <email>MARIADELMAR.FREIJOGUERRERO@osakidetza.eus</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Reina Sofía Hospital</name>
+      <address>
+        <city>Córdoba</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Fernando Delgado-Acosta</last_name>
+      <email>fdelgado.neuro@gmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Juan Ramón Jiménez Hospital</name>
+      <address>
+        <city>Huelva</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Gema Sanz</last_name>
+      <email>gemasanzfdez@yahoo.es</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Clínico Universitario Virgen de la Arrixaca, Murcia</name>
+      <address>
+        <city>Murcia</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>José Díaz-Pérez</last_name>
+      <email>jose.diaz.perez88@gmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Virgen del Rocío Hospital</name>
+      <address>
+        <city>Seville</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Elena Zapata-Arriaza, PhD</last_name>
+      <email>elena.zpt@gmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Virgen Macarena Hospital</name>
+      <address>
+        <city>Seville</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Miguel A Gamero</last_name>
+      <email>gamero.ma@gmail.com</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Hospital Universitario y Politécnico de La Fe</name>
+      <address>
+        <city>Valencia</city>
+        <country>Spain</country>
+      </address>
+    </facility>
+    <contact>
+      <last_name>Irene Escudero-Martínez</last_name>
+      <email>imesmar@gmail.com</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>Spain</country>
+  </location_countries>
+  <verification_date>January 2022</verification_date>
+  <study_first_submitted>November 29, 2021</study_first_submitted>
+  <study_first_submitted_qc>January 25, 2022</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 7, 2022</study_first_posted>
+  <last_update_submitted>January 25, 2022</last_update_submitted>
+  <last_update_submitted_qc>January 25, 2022</last_update_submitted_qc>
+  <last_update_posted type="Actual">February 7, 2022</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Ischemic Stroke</keyword>
+  <keyword>Tandem Lesion</keyword>
+  <keyword>Tirofiban</keyword>
+  <keyword>Stent</keyword>
+  <keyword>Mechanical thrombectomy</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Stroke</mesh_term>
+    <mesh_term>Ischemic Stroke</mesh_term>
+    <mesh_term>Cerebral Infarction</mesh_term>
+    <mesh_term>Ischemia</mesh_term>
+  </condition_browse>
+  <intervention_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Aspirin</mesh_term>
+    <mesh_term>Tirofiban</mesh_term>
+  </intervention_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

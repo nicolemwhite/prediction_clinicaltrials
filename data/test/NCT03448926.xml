@@ -1,0 +1,3080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="404">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03448926</url>
+  </required_header>
+  <id_info>
+    <org_study_id>20172841</org_study_id>
+    <nct_id>NCT03448926</nct_id>
+  </id_info>
+  <brief_title>The PREDICT Registry for DCIS Patients With DCISionRT Testing</brief_title>
+  <acronym>PREDICT</acronym>
+  <official_title>A Prospective Registry Study to Evaluate the Effect of the DCISionRT Test on Treatment Decisions in Patients With DCIS Following Breast Conserving Therapy</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>PreludeDx</agency>
+      <agency_class>Industry</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>University of South Florida</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>PreludeDx</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>Yes</is_fda_regulated_device>
+    <is_us_export>No</is_us_export>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This is a prospective cohort study for patients diagnosed with ductal carcinoma in situ&#xD;
+      (DCIS) of the breast. The primary objective of the study is to create a de-identified&#xD;
+      database of patients, test results, treatment decisions and outcomes that can be queried to&#xD;
+      determine the utility of the DCISionRT™ test in the diagnosis and treatment of ductal&#xD;
+      carcinoma in situ of the breast.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      This is a prospective cohort study conducted within the medical network of the participating&#xD;
+      investigators and institutions. Patients meeting the eligibility criteria outlined above will&#xD;
+      be eligible for participation and the investigators will obtain written informed consent. A&#xD;
+      central Institutional Review Board (IRB) will approve the protocol and each participating&#xD;
+      institution.&#xD;
+&#xD;
+      After diagnosis of DCIS, the most representative tissue block (or 10 sections mounted on&#xD;
+      charged slides cut at 3 microns) will be sent to PreludeDx for DCISionRT. The most&#xD;
+      representative specimen should be selected from tissue collected via direct tumor biopsy&#xD;
+      (either FNA, core needle or excisional biopsy) as part of routine patient care. Patients must&#xD;
+      be enrolled in the study and the enrollment and pre-testing data forms must be completed and&#xD;
+      submitted before the DCISionRT results are reported. Then, after review of the DCISionRT&#xD;
+      results, the investigators complete and submit the post-testing data form. The patient may&#xD;
+      then be followed for up to 10 years (or until death) with completion of a yearly follow-up&#xD;
+      form.&#xD;
+&#xD;
+      All study data will be stored in an encrypted, HIPAA-compliant database maintained by the&#xD;
+      coordinating center. Each consented patient will be assigned a unique Study ID number. Study&#xD;
+      personnel at each institution will maintain an electronic key to link the Study IDs of its&#xD;
+      own patients to the patients' local medical record number. All personal health information&#xD;
+      (PHI) will remain at the local institution and only de-identified data will be uploaded to&#xD;
+      the national registry. No genetic test results that may be used to identify the patient will&#xD;
+      be included in the database.&#xD;
+&#xD;
+      This study anticipates the participation of 25 to 100 sites within the United States with&#xD;
+      each site enrolling between 10 and 100 patients. The study is designed to collect information&#xD;
+      for up to 2,500 patients.&#xD;
+&#xD;
+      The purpose of this study is to create a de-identified database of patients, test results,&#xD;
+      treatment decisions and outcomes that can be queried to determine the clinical utility of the&#xD;
+      DCISionRT™ Test in the management of DCIS, as it is broadly incorporated into clinical&#xD;
+      practice. The primary objective is to identify a statistically significant difference in&#xD;
+      physician treatment recommendations for patients diagnosed with DCIS and treated with breast&#xD;
+      conserving surgery based on availability of the DCISionRT test results. The primary endpoints&#xD;
+      are treatment recommendations according to standard procedure at each clinical site both pre-&#xD;
+      and post-DCISionRT results.&#xD;
+&#xD;
+      Secondary endpoints include the percent of patients for which the recommended treatment&#xD;
+      before DCISionRT results and after DCISionRT results differ as a function of clinical&#xD;
+      factors, such as age groups (&lt;40, 40-50 and &gt;50), grade (I, II, III), and tumor size (&gt;1cm,&#xD;
+      &gt;2.5cm, &gt;4cm). Other analyses involve the identification of key driver(s) of treatment&#xD;
+      recommendation, such as age, ethnicity, race, family history, presentation&#xD;
+      (screening/clinical), grade, architecture, necrosis, tumor size, palpability, number of&#xD;
+      excisions, surgical margin, hormone receptor status, HER2 status; distribution of DCISionRT&#xD;
+      scores across the cohort; and identification of key driver(s) of treatment recommendation&#xD;
+      based on geographic region of the investigator.&#xD;
+&#xD;
+      The study population will be selected from the clinical practices of the participating&#xD;
+      investigators and institutions. Patients who have been recently diagnosed with DCIS and are&#xD;
+      being evaluated for the need for further therapy will be screened for eligibility per the&#xD;
+      following eligibility criteria.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">February 27, 2018</start_date>
+  <completion_date type="Anticipated">February 2033</completion_date>
+  <primary_completion_date type="Anticipated">February 2023</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>10 Years</target_duration>
+  <primary_outcome>
+    <measure>Percent of Cases with Changes in Treatment Recommendation</measure>
+    <time_frame>5 years</time_frame>
+    <description>The study will collect details on physician treatment recommendations before and after availability of the genomic test (DCISionRT) results. The data elements include type of surgery (lumpectomy, therapeutic mastectomy, contralateral prophylactic mastectomy), type of radiation therapy (none, IORT, APBI, whole breast RT) and endocrine therapy (yes, no). The main measure will be percent of cases in which treatment recommendations are changed after the test results become available.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Function of Demographic Factors</measure>
+    <time_frame>5 years</time_frame>
+    <description>Percent of patients for which the recommended treatments change after DCISionRT results are known as a function of demographic factors (age groups &lt;40, 40-50 and &gt;50; ethnicity; family history)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Function of Tumor Factors</measure>
+    <time_frame>5 years</time_frame>
+    <description>Percent of patients for which the recommended treatments change after DCISionRT results are known as a function of tumor factors (tumor size, grade, architecture, necrosis, palpability, surgical margins, hormone receptor status).</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>Distribution of DCISionRT scores across the cohort</measure>
+    <time_frame>5 years</time_frame>
+    <description>Each patient will receive the following results from the DCISionRT test: Risk Score (0 - 10.0), Risk Category Low (&lt;=3.0) or Elevated (&gt;3.0), Risk Prognosis with Breast Conserving Therapy Alone (0 - 40%) and Risk Prognosis with Breast Conserving Therapy and Radiation (0 - 40%).</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>Function of Geographic Region</measure>
+    <time_frame>5 years</time_frame>
+    <description>Percent of patients for which the recommended treatments change after DCISionRT results are known as a function of the geographic region of the investigator.</description>
+  </other_outcome>
+  <number_of_groups>1</number_of_groups>
+  <enrollment type="Anticipated">2500</enrollment>
+  <condition>DCIS</condition>
+  <arm_group>
+    <arm_group_label>DCIS</arm_group_label>
+    <description>Patients must have histologically confirmed ductal carcinoma in situ (DCIS) in a single breast without evidence of invasive cancer (presence of lobular carcinoma in situ (LCIS) or other benign breast disease in addition to DCIS is acceptable)</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>DCISionRT Test</intervention_name>
+    <description>The Prelude DCISionRT Test was developed by Prelude Corporation and is performed at its CLIA laboratory facility. The biomarkers used to evaluate the biologic signature of DCIS tissue are based on over a decade of research including the University of California, San Francisco, Yale University as well as Prelude Corporation. The test is prognostic for 10-year recurrence risk and predicts RT treatment benefit for invasive breast cancer. The laboratory is regulated under the Clinical Laboratory Improvement Amendments of 1988 (CLIA) as qualified to perform high-complexity clinical testing and is accredited by the College of American Pathologists (CAP).</description>
+    <arm_group_label>DCIS</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population will be selected from the clinical practices of the participating&#xD;
+        investigators and institutions. Patients who have been recently diagnosed with DCIS and are&#xD;
+        being evaluated for the need for further therapy will be screened for eligibility per the&#xD;
+        following eligibility criteria.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion criteria&#xD;
+&#xD;
+          -  Patient must have histologically confirmed ductal carcinoma in situ (DCIS) in a single&#xD;
+             breast (presence of lobular carcinoma in situ (LCIS) or other benign breast disease in&#xD;
+             addition to DCIS is acceptable)&#xD;
+&#xD;
+          -  Patient must have the DCISionRT™ Test ordered during routine patient care&#xD;
+&#xD;
+          -  Patient must be planning to undergo breast conserving surgery&#xD;
+&#xD;
+          -  Patient must be eligible to receive radiation and/or systemic treatment&#xD;
+&#xD;
+          -  Patient must be greater than 25 years old&#xD;
+&#xD;
+          -  Patient must have been diagnosed with DCIS within 120 days of consent&#xD;
+&#xD;
+          -  Patient must be able to provide informed consent&#xD;
+&#xD;
+        Exclusion criteria&#xD;
+&#xD;
+          -  Patient tissue is insufficient to generate DCISionRT test results or required&#xD;
+             DCISionRT inputs (age, tumor size, margin status, palpability) are missing&#xD;
+&#xD;
+          -  Patient has evidence of invasive breast cancer, including microinvasion, lymph node&#xD;
+             involvement, or Paget's disease of the nipple or suspicious mammogram findings in the&#xD;
+             lymph nodes or contralateral breast&#xD;
+&#xD;
+          -  Patient has been surgically treated with a mastectomy for primary DCIS&#xD;
+&#xD;
+          -  Patient has prior in situ or invasive breast cancer&#xD;
+&#xD;
+          -  Patient is pregnant&#xD;
+&#xD;
+          -  Patient was previously enrolled onto this registry&#xD;
+      </textblock>
+    </criteria>
+    <gender>Female</gender>
+    <minimum_age>25 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Charles E Cox, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>University of South Florida</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Rakesh R Patel, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Good Samaritan Hospital</affiliation>
+  </overall_official>
+  <overall_official>
+    <last_name>Pat Whitworth, MD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Nashville Breast Center</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Steven C Shivers, PhD</last_name>
+    <phone>813-215-1749</phone>
+    <email>sshivers@preludedx.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Mary Kay Hardwick</last_name>
+    <phone>510-682-6256</phone>
+    <email>mkhardwick@comcast.net</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>Arizona Center for Cancer Care</name>
+      <address>
+        <city>Phoenix</city>
+        <state>Arizona</state>
+        <zip>85027</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Penny Labriola</last_name>
+      <phone>480-270-5311</phone>
+      <email>penny.labriola@arizonaccc.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Shakila Rajack, MBBS</last_name>
+      <phone>480-278-8300</phone>
+      <email>shakila.rajack@arizonaccc.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Daniel Reed, DO</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Christopher Biggs, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Marianne Mildenberger, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Terry Lee, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jason Samuelian, DO</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Coral Quiet, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Scott Tannehill, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Gregory Maggass, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Luci Chen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Robert Kuske, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Anushka Patel, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Steven Sckolnik, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Farley Yang, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sommer Guina, DO</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Linda Liu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>S. Brenda Moorthy, DO</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kimberli Cox, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Lise Walker, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Janice Angeles, DO</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Selyne Samuel, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Noemi Sigalove, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Samuel Day, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Justin Famoso, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ashley Albert, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Samuel E Day, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Ironwood Cancer and Research Centers</name>
+      <address>
+        <city>Scottsdale</city>
+        <state>Arizona</state>
+        <zip>85260</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Erin Gillam</last_name>
+      <phone>480-314-6685</phone>
+      <email>erin.gillam@ironwoodcrc.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Kevin Sherbeck, RN</last_name>
+      <phone>480-314-6695</phone>
+      <email>kevin.sherbeck@ironwoodcrc.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Aaron Ambrad, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Patricia Clark, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Michael Garcia, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Patrick Miller, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>S. Eric Olyejar, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Mark K Ono, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Davis A Romney, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Charles Woo, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Eric Gross, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Fresno Cancer Center</name>
+      <address>
+        <city>Fresno</city>
+        <state>California</state>
+        <zip>93720</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jennie Corkery, RN</last_name>
+      <phone>559-437-1000</phone>
+      <email>jcorkery@uscmc.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Penny Samson, MA</last_name>
+      <phone>559-437-1000</phone>
+      <email>psamson@uscmc.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Tran Ho, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Li Liu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Good Samaritan Hospital</name>
+      <address>
+        <city>Los Gatos</city>
+        <state>California</state>
+        <zip>95032</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Rakesh Patel, MD</last_name>
+      <phone>408-358-8400</phone>
+      <email>patel@pcsmedgroup.com</email>
+    </contact>
+    <investigator>
+      <last_name>Rakesh Patel, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Valerie Traina, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Memorial Medical Center Sutter Health</name>
+      <address>
+        <city>Modesto</city>
+        <state>California</state>
+        <zip>95355</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Delia Massone</last_name>
+      <phone>209-569-7720</phone>
+      <email>massond@sutterhealth.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Adrienne Palos</last_name>
+      <phone>209-572-7116</phone>
+      <email>palosa@sutterhealth.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Lauren Strickland, DO</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>J Alex Garcia-Young, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Chris Neville, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kathleen Eve, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Hoag Memorial Hospital Presbyterian</name>
+      <address>
+        <city>Newport Beach</city>
+        <state>California</state>
+        <zip>92663</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alicia Bogardus</last_name>
+      <phone>949-764-5543</phone>
+      <email>alicia.bogardus@hoag.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Alda Inveiss</last_name>
+      <phone>949-764-5543</phone>
+      <email>alda.inveiss@hoag.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Sadia Khan, DO</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Melvin Silverstein, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Heather MacDonald, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Sutter Institute for Medical Research</name>
+      <address>
+        <city>Sacramento</city>
+        <state>California</state>
+        <zip>95816</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Stephanie Brown, RN</last_name>
+      <phone>916-717-5074</phone>
+      <email>brownsa2@sutterhealth.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Michele Guillen</last_name>
+      <phone>916-887-4656</phone>
+      <email>guillem1@sutterhealth.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Lauren Strickland, DO</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>John S Lee, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Lisa Guirguis, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Janice Ryu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Carlin Hauck, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Anthony Pu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Harvey Wolkov, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Nitin Rohatgi, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Melissa Williams, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Mills-Peninsula Medical Center</name>
+      <address>
+        <city>San Mateo</city>
+        <state>California</state>
+        <zip>94019</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Stephanie Casal</last_name>
+      <phone>650-696-4814</phone>
+      <email>casalsl@sutterhealth.org</email>
+    </contact>
+    <investigator>
+      <last_name>Al Taira, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Amanda Wheeler, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Andrea Metkus, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Dhara Macdermed, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>John Wayne Cancer Institute</name>
+      <address>
+        <city>Santa Monica</city>
+        <state>California</state>
+        <zip>90404</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michelle Phillips</last_name>
+      <phone>310-582-7486</phone>
+      <email>michelle.phillips@providence.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Javier Orozco</last_name>
+      <phone>310-449-5270</phone>
+      <email>javier.orozco@providence.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Janie Grumley, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Robert Wollman, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University of Colorado Denver</name>
+      <address>
+        <city>Aurora</city>
+        <state>Colorado</state>
+        <zip>80045</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Chelsea Schaefer</last_name>
+      <phone>720-848-0608</phone>
+      <email>chelsea.schaefer@cuanschutz.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Robin Swing</last_name>
+      <phone>720-848-0607</phone>
+      <email>robin.swing@cuanschutz.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Rachel Rabinovitch, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Christine Fisher, MD, MPH</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sameer Nath, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Adam Mueller, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>David Binder, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Narine Wandrey-Bhardwaj, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sara Zakem, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Doug Holt, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Marina Moskalenko, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jay Shiao, MD, MPH, MSc</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kareem Fakhoury, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>UC Health - Memorial Hospital, Colorado Springs</name>
+      <address>
+        <city>Colorado Springs</city>
+        <state>Colorado</state>
+        <zip>80909</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Lisa Deschaine</last_name>
+      <email>alicia.deschaine@uchealth.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Caralyn Henderson</last_name>
+      <email>caralyn.henderson@uchealth.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Jane Ridings, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jeffrey Olsen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kaleigh Doke, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Rhonda Hoppes, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Shaw Cancer Center</name>
+      <address>
+        <city>Edwards</city>
+        <state>Colorado</state>
+        <zip>81632</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Carrie McGarraugh, PharmD</last_name>
+      <phone>760-793-1533</phone>
+      <email>mcgarraugh@vailhealth.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Paige Bordelon</last_name>
+      <phone>970-569-7608</phone>
+      <email>paige.bordelon@vailhealth.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Patricia Hardenbergh, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>AdventHealth Hematology &amp; Oncology</name>
+      <address>
+        <city>Altamonte Springs</city>
+        <state>Florida</state>
+        <zip>32701</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Melanie Percy</last_name>
+      <phone>407-303-2097</phone>
+      <email>melanie.percy@adventhealth.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Sara Guyler</last_name>
+      <phone>407-303-0409</phone>
+      <email>sara.guyler@adventhealth.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Catherine Hwang, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Afshin Forouzannia, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Amber Orman, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Bronwyn Stall, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Regional Breast Care</name>
+      <address>
+        <city>Fort Myers</city>
+        <state>Florida</state>
+        <zip>33905</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>David T Rock, MD</last_name>
+      <phone>239-770-3562</phone>
+      <email>david.rock@21co.com</email>
+    </contact>
+    <investigator>
+      <last_name>David T Rock, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Baptist MD Anderson Cancer Center</name>
+      <address>
+        <city>Jacksonville</city>
+        <state>Florida</state>
+        <zip>32207</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Colleen Rosentraub</last_name>
+      <phone>904-202-7085</phone>
+      <email>colleen.rosentraub@bmcjax.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Jessica Baker</last_name>
+      <phone>904-202-6950</phone>
+      <email>jessica.baker@bmcjax.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Beth-Ann Lesnikoski, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Christopher Pezzi, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Laila Samiian, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Cynthia Anderson, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Julie Greenwalt, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jennifer Crozier, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Zheng Topp, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sridhar Srinivasan, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University of Miami Sylvester Cancer Center</name>
+      <address>
+        <city>Miami</city>
+        <state>Florida</state>
+        <zip>33136</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Stuart Samuels, MD, PhD</last_name>
+      <phone>305-243-5470</phone>
+      <email>ssamuels@med.miami.edu</email>
+    </contact>
+    <investigator>
+      <last_name>Stuart Samuels, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Christiane Takita, MD, MBA</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Laura Freedman, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Lora Wang, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Susan Kesmodel, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Neha Goel, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Eli Avisar, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Dido Franceschi, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Southwest Florida Breast Surgery</name>
+      <address>
+        <city>Naples</city>
+        <state>Florida</state>
+        <zip>34102</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Amy Vanosdale, PAC</last_name>
+      <phone>239-430-3260</phone>
+      <email>amy.vanosdale@usa.genesiscare.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Suzanne Walker, LPN</last_name>
+      <phone>239-430-3260</phone>
+      <email>suzanne.walker@usa.genesiscare.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>David Rock, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Elizabeth Arguelles, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Naples Community Hospital Center for Breast Health</name>
+      <address>
+        <city>Naples</city>
+        <state>Florida</state>
+        <zip>34110</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Stephanie Lara, LPN</last_name>
+      <phone>239-624-8120</phone>
+      <email>Stephanie.Lara@nchmd.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Shauna Smith, APRN</last_name>
+      <phone>239-624-8120</phone>
+      <email>shauna.smith@nchmd.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Tran Ho, DO</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sharla Gayle Patterson, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>USF Breast Health Program</name>
+      <address>
+        <city>Tampa</city>
+        <state>Florida</state>
+        <zip>33612</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Al'Lima Trotman</last_name>
+      <phone>813-660-6158</phone>
+      <email>atrotman1@usf.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Than Tran</last_name>
+      <phone>813-844-8544</phone>
+      <email>tqtran@usf.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Charles E Cox, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Meira Pernicone, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Harvey Greenberg, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Abby Beard, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jason Hechtman, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>St. Joseph's Hospital Tampa</name>
+      <address>
+        <city>Tampa</city>
+        <state>Florida</state>
+        <zip>33614</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Kate Colgain, RN</last_name>
+      <phone>813-356-7168</phone>
+      <email>katelynn.colgain@baycare.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Sarah Moore, RN</last_name>
+      <phone>813-707-2155</phone>
+      <email>sarah.moore@baycare.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Robert Gabordi, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>21st Century Oncology</name>
+      <address>
+        <city>Wellington</city>
+        <state>Florida</state>
+        <zip>33449</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Rachel Novella</last_name>
+      <phone>239-938-9315</phone>
+      <email>rachel.novella@21co.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Sheryl Passino</last_name>
+      <phone>561-795-9845</phone>
+      <email>sheryl.passino@21co.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Kishore Dass, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Thomas Klein, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Constantine Mantz, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Keith Miller, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kristina Mirabeau-Beale, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Christopher Chen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Eduardo Fernandez, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>WellStar Health System</name>
+      <address>
+        <city>Marietta</city>
+        <state>Georgia</state>
+        <zip>30060</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Anne Albanus, RN</last_name>
+      <phone>770-793-7500</phone>
+      <email>anne.albanus@wellstar.org</email>
+    </contact>
+    <investigator>
+      <last_name>Sheree Brown, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>William Thoms, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Christine Min, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Memorial Health University Medical Center</name>
+      <address>
+        <city>Savannah</city>
+        <state>Georgia</state>
+        <zip>31404</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Karen Sather, BHS</last_name>
+      <phone>912-350-5664</phone>
+      <email>karen.sather@hcahealthcare.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Lisa Morgan</last_name>
+      <phone>912-350-7878</phone>
+      <email>lisa.morgan@hcahealthcare.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>William Burak, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Elena Rehl, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Aaron Pederson, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Michael Hasselle, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Matthew Bertke, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Anne Saladyga, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Northwestern University</name>
+      <address>
+        <city>Chicago</city>
+        <state>Illinois</state>
+        <zip>60611</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Bazil LaBomascus</last_name>
+      <phone>312-695-1410</phone>
+      <email>bazil.labomascus@northwestern.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Nina Garcia</last_name>
+      <phone>312-695-1356</phone>
+      <email>nina.garcia1@northwestern.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Swati Kulkarni, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Seema Khan, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kevin Bethke, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Nora Hansen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Eric Donnelly, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jonathan Strauss, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Alexian Brothers Medical Center (AMITA Health)</name>
+      <address>
+        <city>Elk Grove Village</city>
+        <state>Illinois</state>
+        <zip>60007</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Lauren Niklinski, CCRP</last_name>
+      <phone>224-273-8971</phone>
+      <email>lauren.niklinski@amitahealth.org</email>
+    </contact>
+    <investigator>
+      <last_name>Robert Maganini, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Anjali Thawani, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Martin Boyer, DO</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ramji Radendran, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Rajiv Patel, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Barry Rosen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Advocate Health Care</name>
+      <address>
+        <city>Park Ridge</city>
+        <state>Illinois</state>
+        <zip>60714</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Geraldine Asis, BSN, CCRC</last_name>
+      <phone>847-723-8239</phone>
+      <email>geraldine.asis@advocatehealth.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Yelizaveta Yanovskaya, CRCC</last_name>
+      <phone>847-723-8927</phone>
+      <email>yelizaveta.yanovskaya@advocatehealth.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Arica Hirsch, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Majid Mohiuddin, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Dean J Conterato, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>James Ruffer, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Catherine Park Leonard, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Andrew Y Lee, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Anna Beth Katz, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Heidi C Memmel Mitidiero, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Barry S Rosen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Northwestern Medicine Central DuPage Hospital</name>
+      <address>
+        <city>Winfield</city>
+        <state>Illinois</state>
+        <zip>60190</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Kimberlee Bingham</last_name>
+      <phone>630-938-2085</phone>
+      <email>kimberlee.bingham2@nm.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Jessica Rusch, MS, RD, LDN</last_name>
+      <phone>630-938-6889</phone>
+      <email>jessica.rusch@nm.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Christy Kesserling, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Batul Al-Zubeidy, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sara Fredrickson, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Mary Ahn, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Stephen Mihalcik, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Preeti Parhar, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>John Ayers, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Avanthi Ragam, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Michael Stutz, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Dragana Tomic, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Perry Menini, DO</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Amit Bhate, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Arpi Thukral, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>UnityPoint Health</name>
+      <address>
+        <city>Cedar Rapids</city>
+        <state>Iowa</state>
+        <zip>52401</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Rasa Buntinas, MD</last_name>
+      <phone>319-297-2900</phone>
+      <email>rbuntinas@pcofiowa.com</email>
+    </contact>
+    <investigator>
+      <last_name>Rasa Buntinas, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Oncology Associates at Mercy Medical Center</name>
+      <address>
+        <city>Cedar Rapids</city>
+        <state>Iowa</state>
+        <zip>52403</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jeanne Noble, RN, OCN</last_name>
+      <phone>319-363-2690</phone>
+      <phone_ext>#3</phone_ext>
+      <email>jnoble@mercycare.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Laurie Burke</last_name>
+      <phone>319-363-2690</phone>
+      <phone_ext>#2</phone_ext>
+      <email>lburke@mercycare.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Deborah Wilbur, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Vincent Reid, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Janet Merfeld, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Michael Marquardt, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Wook Lee, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ann Stroh, DO</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Leila Kutteh, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jasmine Nabi, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Mercy Medical Center</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21202</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Andrea Gerbasio-Stephenson</last_name>
+      <phone>410-951-7908</phone>
+      <email>agerbasi@mdmercy.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Lisa McConnell, RN</last_name>
+      <phone>410-332-1200</phone>
+      <email>lmcconnell@mdmercy.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Neil Friedman, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Gauri Bedi, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jennifer Joh, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>MedStar Health Research Institute</name>
+      <address>
+        <city>Baltimore</city>
+        <state>Maryland</state>
+        <zip>21237</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Barb Rector, RN</last_name>
+      <phone>443-444-4303</phone>
+      <email>barbara.rector@medstar.net</email>
+    </contact>
+    <contact_backup>
+      <last_name>Jean Flack, RN</last_name>
+      <phone>443-777-7364</phone>
+      <email>jean.flack@medstar.net</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Maen Farha, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Paul Fowler, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kristen Fernandez, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Atsuko Okabe, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kelly Orwat, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kamilia Nowak Choi, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Adventist Healthcare</name>
+      <address>
+        <city>Rockville</city>
+        <state>Maryland</state>
+        <zip>20850</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Karen Schulz</last_name>
+      <phone>410-964-2212</phone>
+      <phone_ext>1137</phone_ext>
+      <email>karen.schulz@usoncology.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Maggie Johannesen</last_name>
+      <phone>240-826-2115</phone>
+      <email>margaret.johannesen@usoncology.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Marie Gurka, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Holy Cross Hospital</name>
+      <address>
+        <city>Silver Spring</city>
+        <state>Maryland</state>
+        <zip>20910</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Melin Vranesic</last_name>
+      <phone>301-754-7757</phone>
+      <email>melin.vranesic@holycrosshealth.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Lyudmila Kalnitskaya</last_name>
+      <phone>301-754-7552</phone>
+      <email>kalnitsl@holycrosshealth.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Sheela Modin, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Rajal Patel, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Dana-Farber Cancer Institute</name>
+      <address>
+        <city>Boston</city>
+        <state>Massachusetts</state>
+        <zip>02115</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Caroline Frommson, CRCII</last_name>
+      <phone>617-525-6529</phone>
+      <email>caroline_fromson@dfci.harvard.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Dan Desantis</last_name>
+      <phone>617-632-5597</phone>
+      <email>stephen_desantis@dfci.harvard.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Tari King, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Elizabeth Mittendorf, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Thanh Barbie, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Laura Dominici, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Margaret Duggan, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jennifer Bellon, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Katie McLean, PA</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jean Landry, NP</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jenna Macone, PA</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Lara Novak, PA</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Olivia Donnelly, NP</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Faina Nakhlis, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Anna Weiss, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Mehra Golshan, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Esther Rhei, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Julia Wong, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Rinaa Punglia, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Laura Warren, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Katie Anderson, PA</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Katherina Zabicki Calvillo, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Suniti Nimbkar, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Alison Laws, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Olga Kantor, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Christina Minami, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Bryan Danilchuk, PA</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Camile Borland, PA</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Dana-Farber/Brigham and Women's Cancer Center at South Shore</name>
+      <address>
+        <city>South Weymouth</city>
+        <state>Massachusetts</state>
+        <zip>02190</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Caroline Fromson</last_name>
+      <phone>617-632-6821</phone>
+      <email>caroline_fromson@dfci.harvard.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Nicole Hixon, RN</last_name>
+      <phone>781-624-4795</phone>
+      <email>Nicole_Hixon@DFCI.HARVARD.EDU</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Suniti Nimbkar, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Katherina Zabicki Calvillo, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Anna Weiss, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Beaumont Health Royal Oak</name>
+      <address>
+        <city>Royal Oak</city>
+        <state>Michigan</state>
+        <zip>48073</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Blerina Pople, BS, CCRP</last_name>
+      <phone>248-551-3533</phone>
+      <email>blerina.pople@beaumont.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Pamela Sloan, RN BSN</last_name>
+      <phone>248-551-6059</phone>
+      <email>pamela.sloan@beaumont.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Nayana Dekhne, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Shannon Bongers, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sayee Kiran, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Amita Desai, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Peter Chen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Joshua Dilworth, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Deborah Ruark, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Corinne Costellic, DO</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Pam Benitez MD</name>
+      <address>
+        <city>Royal Oak</city>
+        <state>Michigan</state>
+        <zip>48073</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Pam Benitez, MD</last_name>
+      <phone>248-551-8890</phone>
+      <email>pbeni5067@comcast.net</email>
+    </contact>
+    <investigator>
+      <last_name>Pam Benitez, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Comprehensive Breast Care</name>
+      <address>
+        <city>Troy</city>
+        <state>Michigan</state>
+        <zip>48098</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Michelle Khan</last_name>
+      <phone>248-243-3696</phone>
+      <email>mkhan@compbreastcare.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Devine Numan</last_name>
+      <phone>248-602-4387</phone>
+      <email>dnuman@compbreastcare.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Linsey Gold, DO</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Pamela Johnson, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Pamela Benitez, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Eric Brown, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ashley Richardson, DO</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>MD Anderson Cancer Center at Cooper</name>
+      <address>
+        <city>Camden</city>
+        <state>New Jersey</state>
+        <zip>08103</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Lisa Abate</last_name>
+      <phone>856-325-6719</phone>
+      <email>abate-lisa@cooperhealth.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Mary Schafer</last_name>
+      <phone>856-735-6232</phone>
+      <email>schafer-mary1@cooperhealth.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Anthony Dragun, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Stuti Ahlawat, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ashish Patel, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Atlantic Health Care Morristown Medical Center</name>
+      <address>
+        <city>Morristown</city>
+        <state>New Jersey</state>
+        <zip>07962</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Jennifer Howgate-Klingaman, RN</last_name>
+      <phone>908-598-6561</phone>
+      <email>jennifer.howgate-klingaman@atlantichealth.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Christopher Buck, RN</last_name>
+      <phone>908-522-2043</phone>
+      <email>christopher.buck@atlantichealth.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Rebecca Yang, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Margaret Mary Sacco, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Marc Mandel, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Dana Holwitt, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Joana Emmolo, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Yana Goldberg, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Mona Karim, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Joanne Zhung, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Leah Gendler, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Faith Goldman, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Maimonides Cancer Center</name>
+      <address>
+        <city>Brooklyn</city>
+        <state>New York</state>
+        <zip>11220</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Carin Zelkowitz</last_name>
+      <phone>718-765-2579</phone>
+      <email>CZelkowitz@maimonidesmed.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Bina Valenzano</last_name>
+      <phone>718-765-2693</phone>
+      <email>bvalenzano@maimonidesmed.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Fleure Gallant, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Donna M Manasseh, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Charusheela Andaz, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Patrick Borgen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>David Berlach, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Northwell Health</name>
+      <address>
+        <city>Lake Success</city>
+        <state>New York</state>
+        <zip>11042</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Fawzia Mohamedali</last_name>
+      <phone>516-321-3164</phone>
+      <email>fmohamedali@northwell.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Jessica Charlton, RN</last_name>
+      <phone>516-321-3035</phone>
+      <email>Jcharlton@northwell.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Lucille Lee, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Dominic Filardi, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Karen Kostroff, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Beatrice Bloom, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Chika Madu, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>John Ames, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>William Chen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Heather Zinkin, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Alice Police, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Janna Andrews, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ashwatha Narayana, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Cleveland Clinic Akron General</name>
+      <address>
+        <city>Akron</city>
+        <state>Ohio</state>
+        <zip>44302</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Joelle Sigmond, BSN, RN</last_name>
+      <phone>330-344-6348</phone>
+      <email>sigmonj@ccf.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Wendy Catchpole</last_name>
+      <phone>330-344-6348</phone>
+      <email>catchpw@ccf.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Camille Berriochoa, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Andrew Fenton, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Amanda Mendiola, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Mary Murray, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Mitchel Fromm, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Susan Hong, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ashok Ramaligam, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Summa Health</name>
+      <address>
+        <city>Akron</city>
+        <state>Ohio</state>
+        <zip>44304</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Heather Groves-Paul</last_name>
+      <phone>330-375-3767</phone>
+      <email>paulh@summahealth.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Sarah Stanaszek</last_name>
+      <phone>330-375-6390</phone>
+      <email>stanaszeks@summahealth.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Desiree Doncals, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Anand Desai, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Oscar Streeter, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Gil Padula, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>University of Cincinnati</name>
+      <address>
+        <city>Cincinnati</city>
+        <state>Ohio</state>
+        <zip>45267</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Brittany Hughes</last_name>
+      <phone>513-584-1239</phone>
+      <email>hughesbu@ucmail.uc.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Julia Brown</last_name>
+      <phone>513-584-0618</phone>
+      <email>brown5j7@ucmail.uc.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Teresa Meier, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sara Medek, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Emily Daugherty, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Elizabeth Shaughnessy, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Chantal Reyna, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jaime Lewis, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Cleveland Clinic Foundation Taussig Cancer Institute</name>
+      <address>
+        <city>Cleveland</city>
+        <state>Ohio</state>
+        <zip>44195</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Julie Benchea</last_name>
+      <phone>216-445-9925</phone>
+      <email>benchej2@ccf.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Robin Davis</last_name>
+      <phone>216 444-5573</phone>
+      <email>davisr16@ccf.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Chirag Shah, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Rahul Tendulkar, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sheen Cherian, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>The Ohio State University</name>
+      <address>
+        <city>Columbus</city>
+        <state>Ohio</state>
+        <zip>43212</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sohyun McElroy</last_name>
+      <phone>614-685-7050</phone>
+      <email>Sohyun.McElroy@osumc.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Jean Koutou</last_name>
+      <phone>614-293-5637</phone>
+      <email>JeanMartial.KoutouEssan@osumc.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Saechan Jhawar, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Julia White, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jose Bazan, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sasha Beyer, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Erin Healy, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>St Luke's University Health Network Bethlehem</name>
+      <address>
+        <city>Bethlehem</city>
+        <state>Pennsylvania</state>
+        <zip>18015</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Lauren Downing</last_name>
+      <phone>484-526-7936</phone>
+      <email>lauren.downing@sluhn.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Kayla Vides</last_name>
+      <phone>484-526-1060</phone>
+      <email>kayla.vides@sluhn.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Lee Riley, MD, PhD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Tricia Kelly, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Darius Desai, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Roderick Quiros, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>UPMC Hillman Cancer Center Magee Womens Hospital</name>
+      <address>
+        <city>Pittsburgh</city>
+        <state>Pennsylvania</state>
+        <zip>15213</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Karen Hovela</last_name>
+      <phone>412-623-1275</phone>
+      <email>holevakd@upmc.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Karlotta Ashby</last_name>
+      <phone>412-623-0002</phone>
+      <email>ashbykr@upmc.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Sushil Beriwal, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>John A Vargo, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Parul Barry, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Michael Dougherty, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Felicia Snead, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jordon Torok, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ramanamoorthy Chitti, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Carol Scicutella, DO</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Marsha Haley, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Gerald Medwick, DO</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Kiran Mehta, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Alex Chen, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ziad Fawaz, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sanjeev Bahri, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Rahul Kumar, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Igor Poltinnikov, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sri Kottapally, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Subarna Eisaman, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Maury Rosenstein, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ryan Smith, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Gillianne DeFoe, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Steven Gregoritch, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Uzoma Iheagwara, MD, PhD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>David A Clump, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ravi Patel, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Grand View Health</name>
+      <address>
+        <city>Sellersville</city>
+        <state>Pennsylvania</state>
+        <zip>18960</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Sue Rush, RN</last_name>
+      <phone>215-453-3223</phone>
+      <email>surush@gvh.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Pat Parsons</last_name>
+      <phone>215-453-3354</phone>
+      <email>pparsons@gvh.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Monique Gary, DO</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Bon Secours St Francis Cancer Center</name>
+      <address>
+        <city>Greenville</city>
+        <state>South Carolina</state>
+        <zip>29607</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Tammy Fraga</last_name>
+      <phone>864-603-6234</phone>
+      <email>tammy_fraga@bshsi.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Gina Smith, RN</last_name>
+      <phone>864-603-6220</phone>
+      <email>gina_smith@bshsi.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Joanna Grabska, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jeremy Kilburn, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Daniel Fried, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Robert Siegel, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Xuezhong Yang, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Stephen Dyar, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Howland Crosswell, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Sharif Khan, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Fahd Quddus, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Albert Attia, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Erlanger Radiation Oncology - Baroness Campus</name>
+      <address>
+        <city>Chattanooga</city>
+        <state>Tennessee</state>
+        <zip>37403</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Justine Burdette, CRCIII</last_name>
+      <phone>423-778-3900</phone>
+      <email>justine.burdette@erlanger.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Michael Semore, RN CRC</last_name>
+      <phone>423-778-3900</phone>
+      <email>michael.semore@erlanger.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Laura Witherspoon, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>John Huggins, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>William T Cockerham, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Stephen Greer, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ryan Cleary, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Patrick Williams, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Nitesha Rana, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Frank Kimsey, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Phillip Burns, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Alvaro Valle, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>The West Clinic</name>
+      <address>
+        <city>Germantown</city>
+        <state>Tennessee</state>
+        <zip>38138</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Catherine Morningstar, BS</last_name>
+      <phone>901-683-0055</phone>
+      <email>cmorningstar@westclinic.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Megan Peterson</last_name>
+      <phone>901-683-0055</phone>
+      <email>mpeterson@westclinic.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Richard Fine, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Michael Berry, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Knoxville Comprehensive Breast Center</name>
+      <address>
+        <city>Knoxville</city>
+        <state>Tennessee</state>
+        <zip>37909</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Mindy Schultz-Fee</last_name>
+      <phone>865-583-2924</phone>
+      <email>MSchultz-Fee@kcbc-center.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Maddie Lee</last_name>
+      <phone>865-584-0291</phone>
+      <phone_ext>2929</phone_ext>
+      <email>mlee@kcbc-center.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Kamilia Kozlowski, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>George Webber, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Danielle Duchini, DO</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Joseph Meyer, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Grant Clark, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Alan Meek, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Ben Wilkinson, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Nashville Breast Center</name>
+      <address>
+        <city>Nashville</city>
+        <state>Tennessee</state>
+        <zip>37203</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Kristie Appleton</last_name>
+      <phone>615-620-5535</phone>
+      <phone_ext>4310</phone_ext>
+      <email>kristie@nashvillebreastcenter.com</email>
+    </contact>
+    <investigator>
+      <last_name>Pat Whitworth, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Julian Heitz, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Dallas Surgical Group</name>
+      <address>
+        <city>Dallas</city>
+        <state>Texas</state>
+        <zip>75231</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Alejandra Casas</last_name>
+      <phone>214-350-6672</phone>
+      <email>acasas@dallassurgical.com</email>
+    </contact>
+    <investigator>
+      <last_name>Peter D Beitsch, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Elizabeth Bonefas, MD</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77004</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Pamela Cortez</last_name>
+      <phone>713-756-8555</phone>
+      <email>pcortez@breasthealthhouston.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Frances Schock</last_name>
+      <phone>713-756-8555</phone>
+      <email>fschock@bonefasmd.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Elizabeth Bonefas, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Baylor College of Medicine</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Brian Menegaz</last_name>
+      <phone>713-798-2317</phone>
+      <email>menegaz@bcm.edu</email>
+    </contact>
+    <contact_backup>
+      <last_name>Huma Javaid</last_name>
+      <phone>713-798-8058</phone>
+      <email>hjavaid@bcm.edu</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Elizabeth Bonefas, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Alastair Thompson, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Stacey Carter, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Houston Methodist Hospital</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77030</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Syed M Saad</last_name>
+      <phone>281-276-5263</phone>
+      <email>ssaad@houstonmethodist.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Erick Villarreal-Williams</last_name>
+      <phone>346-238-5594</phone>
+      <email>evillarreal-williams@houstonmethodist.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Sandra Templeton, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Candy Arentz, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Esther Dubrovsky, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Liza Thalheimer, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Mary Goswitz, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Twisha Verma, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Waqar Haque, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Peter Morgan, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Cesar De Las Casas, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Monica Desai, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Jitesh Joshi, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Anna Belcheva, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Fadi Abu-Shahin, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Priya Ramshesh, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Southwest Surgical Associates</name>
+      <address>
+        <city>Houston</city>
+        <state>Texas</state>
+        <zip>77074</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Arlene Ricardo, MD</last_name>
+      <phone>713-772-1200</phone>
+      <email>drricardo@drricardo.net</email>
+    </contact>
+    <investigator>
+      <last_name>Arlene Ricardo, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Inova Schar Cancer Institute</name>
+      <address>
+        <city>Fairfax</city>
+        <state>Virginia</state>
+        <zip>22031</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Hunfa Asghar</last_name>
+      <phone>571-472-0626</phone>
+      <email>Hunfa.Asghar@inova.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Kenyatta Scott</last_name>
+      <phone>571-472-0630</phone>
+      <email>Kenyatta.Scott@inova.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Lonika Majithia, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Bon Secours Virginia Breast Center</name>
+      <address>
+        <city>Midlothian</city>
+        <state>Virginia</state>
+        <zip>23114</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Kathy Childers, RN</last_name>
+      <phone>804-594-3130</phone>
+      <email>kathryn_childers@bshsi.org</email>
+    </contact>
+    <investigator>
+      <last_name>James Pellicane, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Misti Wilson, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Polly Stephens, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Summit Cancer Centers</name>
+      <address>
+        <city>Spokane Valley</city>
+        <state>Washington</state>
+        <zip>99216</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Mary Hander, RN</last_name>
+      <phone>208-618-5220</phone>
+      <email>mhander@summitcancercenters.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Jenny Ross</last_name>
+      <phone>509-321-4980</phone>
+      <email>jross@spokanecyberknife.com</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Karie-Lynn Kelly, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Anne Kieryn, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Linda Grossheim, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location>
+    <facility>
+      <name>Aspirus Regional Cancer Center</name>
+      <address>
+        <city>Wausau</city>
+        <state>Wisconsin</state>
+        <zip>54401</zip>
+        <country>United States</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Beth Knetter, BSN, RN, OCN</last_name>
+      <phone>715-847-2353</phone>
+      <email>Beth.Knetter@aspirus.org</email>
+    </contact>
+    <contact_backup>
+      <last_name>Sara Paap, BSN, RN, OCN</last_name>
+      <phone>715-847-2463</phone>
+      <email>Sara.Paap@aspirus.org</email>
+    </contact_backup>
+    <investigator>
+      <last_name>Christopher Platta, MD</last_name>
+      <role>Principal Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Cecilia Stroede, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Harish Ahuja, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Christopher Peterson, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Niaz Haque, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Hamied Rezazadeh, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+    <investigator>
+      <last_name>Andrew Huang, MD</last_name>
+      <role>Sub-Investigator</role>
+    </investigator>
+  </location>
+  <location_countries>
+    <country>United States</country>
+  </location_countries>
+  <reference>
+    <citation>Bremer et al. Cancer Research. Feb 2017. Vol 77 Issue 4 Supp. SABCS16-S5-0.1</citation>
+  </reference>
+  <verification_date>April 2021</verification_date>
+  <study_first_submitted>February 16, 2018</study_first_submitted>
+  <study_first_submitted_qc>February 27, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">February 28, 2018</study_first_posted>
+  <last_update_submitted>April 1, 2021</last_update_submitted>
+  <last_update_submitted_qc>April 1, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">April 6, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>DCIS</keyword>
+  <keyword>molecular testing</keyword>
+  <keyword>risk of recurrence</keyword>
+  <patient_data>
+    <sharing_ipd>Undecided</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

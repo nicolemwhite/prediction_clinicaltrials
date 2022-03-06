@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="42">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05096533</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2021-SR-409</org_study_id>
+    <nct_id>NCT05096533</nct_id>
+  </id_info>
+  <brief_title>The Application Value of Artificial Intelligence in MRI Precision Diagnosis and Treatment of Bladder Cancer</brief_title>
+  <official_title>Prospective Multi-center Clinical Study on the Application Value of Artificial Intelligence in MRI Precision Diagnosis and Treatment of Bladder Cancer</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>The First Affiliated Hospital with Nanjing Medical University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Nanjing University of Aeronautics and Astronautics</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>The First Affiliated Hospital with Nanjing Medical University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      This study was a prospective, multicenter observational clinical study, A total of 150&#xD;
+      patients with bladder malignant tumor who was admitted to the urology department of each&#xD;
+      center for treatment and underwent electric resection or radical cystectomy were planned to&#xD;
+      be enrolled. In order to analyze the sensitivity、specificity and accuracy of artificial&#xD;
+      intelligence in predicting postoperative pathological staging, Patients who entered the group&#xD;
+      were followed up for 3 years, then, we analyzed the correlation between artificial&#xD;
+      intelligence prediction results and patient OS PFS RFS. It was preliminarily verified that&#xD;
+      the results of the artificial intelligence model have the potential to predict the prognosis&#xD;
+      of patients with bladder cancer.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Preliminary research: This research is multi-disciplinary joint research by combining&#xD;
+      artificial intelligence with magnetic resonance, it can make the preoperative determination&#xD;
+      of bladder cancer stage more accurate and guides the clinician worker's treatment plan. At&#xD;
+      present, It has been constructed that an artificial intelligence model based on preoperative&#xD;
+      magnetic resonance images to predict staging and patient prognosis. We built a staging&#xD;
+      prediction model through deep learning artificial intelligence network, and collected&#xD;
+      magnetic resonance image data and related postoperative pathological data of patients,&#xD;
+      afterwards, We followed 576 patients on the basis of staging model construction. By obtaining&#xD;
+      OS, PFS, and RFS of patients, a part was randomly selected as a training set for training the&#xD;
+      deep learning network model. The other part is used as a test set to verify its accuracy.&#xD;
+      This study was a prospective, multicenter observational clinical study, A total of 150&#xD;
+      patients with bladder malignant tumor who was admitted to the urology department of each&#xD;
+      center for treatment and underwent electric resection or radical cystectomy were planned to&#xD;
+      be enrolled. In order to analyze the sensitivity、specificity and accuracy of artificial&#xD;
+      intelligence in predicting postoperative pathological staging, Patients who entered the group&#xD;
+      were followed up for 3 years, then, we analyzed the correlation between artificial&#xD;
+      intelligence prediction results and patient OS PFS RFS. It was preliminarily verified that&#xD;
+      the results of the artificial intelligence model have the potential to predict the prognosis&#xD;
+      of patients with bladder cancer.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">January 1, 2021</start_date>
+  <completion_date type="Anticipated">January 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">May 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>To explore the application value of artificial intelligence in the precise diagnosis and treatment of bladder tumor, and to improve the accuracy of MRI diagnosis of bladder cancer stage and grade through artificial intelligence.</measure>
+    <time_frame>1 year</time_frame>
+    <description>2、Through Concordance analysis of artificial intelligence diagnosis assay results with gold standard results of surgery, the sensitivity, specificity, positive predictive value (PPV), negative predictive value (NPV) of artificial intelligence diagnosis before the operation.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Overall survival</measure>
+    <time_frame>3 years after surgery</time_frame>
+    <description>The correlation between artificial intelligence model and OS in bladder cancer patients was analyzed to preliminarily verify the potential ability of artificial intelligence model results in predicting the prognosis of bladder cancer patients.</description>
+  </secondary_outcome>
+  <other_outcome>
+    <measure>recurrence-free survival</measure>
+    <time_frame>3 years after surgery</time_frame>
+    <description>The correlation between artificial intelligence model and RFS in bladder cancer patients was analyzed to preliminarily verify the potential ability of artificial intelligence model results in predicting the prognosis of bladder cancer patients.</description>
+  </other_outcome>
+  <other_outcome>
+    <measure>progression-free survival</measure>
+    <time_frame>3 years after surgery</time_frame>
+    <description>The correlation between artificial intelligence model and PFS in bladder cancer patients was analyzed to preliminarily verify the potential ability of artificial intelligence model results in predicting the prognosis of bladder cancer patients.</description>
+  </other_outcome>
+  <enrollment type="Anticipated">150</enrollment>
+  <condition>Bladder Cancer</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Patients receive MRI at each study center and undergo the operation.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. Preoperative examination prompts the patient to be bladder cancer;&#xD;
+&#xD;
+          2. There is no limit on the gender;&#xD;
+&#xD;
+          3. The age of 18 years old or more;&#xD;
+&#xD;
+          4. Can provide preoperative MRI images;&#xD;
+&#xD;
+          5. Agree to provide personal basic clinical information and pathological and imaging data&#xD;
+             for scientific research, and sign informed consent;&#xD;
+&#xD;
+          6. Agree to provide monitoring results during follow-up monitoring for recurrence.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. Patient was unable to provide preoperative MRI images, including MRI images after&#xD;
+             neoadjuvant therapy and before surgery；&#xD;
+&#xD;
+          2. Patients with incomplete pathological information of samples were unable to provide&#xD;
+             accurate staging and grading information；&#xD;
+&#xD;
+          3. Patients cannot be operated on due to their own reasons: severe heart failure, acute&#xD;
+             myocardial infarction, severe heart and lung diseases, etc., they cannot tolerate&#xD;
+             normal surgical treatment;&#xD;
+&#xD;
+          4. Patients who had recently undergone surgery (e.g., TURBT) prior to MRI examination；&#xD;
+&#xD;
+          5. The researcher thinks there are any conditions that may impair the subject or cause&#xD;
+             the subject to fail to meet or perform study requirements;&#xD;
+&#xD;
+          6. Patients unable to provide written informed consent.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Qiang Lv, MD，PHD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>The First Affiliated Hospital with Nanjing Medical University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Lingkai Cai</last_name>
+    <phone>+86 15206213500</phone>
+    <email>lingkaicai1996@163.com</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Qiang Lv, MD，PHD</last_name>
+    <phone>+86 13505196501</phone>
+    <email>doctorlvqiang@njmu.edu.cn</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>The first affiliated hospital of Nanjing Medical University</name>
+      <address>
+        <city>Nanjing</city>
+        <state>Jiangsu</state>
+        <zip>210000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Qiang Lu</last_name>
+      <phone>13505196501</phone>
+      <email>dxhlvqiang@163.com</email>
+    </contact>
+    <contact_backup>
+      <last_name>Xiao Yang</last_name>
+      <phone>13951813528</phone>
+      <email>yangxiao2915@163.com</email>
+    </contact_backup>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <reference>
+    <citation>Panebianco V, Narumi Y, Altun E, Bochner BH, Efstathiou JA, Hafeez S, Huddart R, Kennish S, Lerner S, Montironi R, Muglia VF, Salomon G, Thomas S, Vargas HA, Witjes JA, Takeuchi M, Barentsz J, Catto JWF. Multiparametric Magnetic Resonance Imaging for Bladder Cancer: Development of VI-RADS (Vesical Imaging-Reporting And Data System). Eur Urol. 2018 Sep;74(3):294-306. doi: 10.1016/j.eururo.2018.04.029. Epub 2018 May 10. Review.</citation>
+    <PMID>29755006</PMID>
+  </reference>
+  <reference>
+    <citation>Wang H, Luo C, Zhang F, Guan J, Li S, Yao H, Chen J, Luo J, Chen L, Guo Y. Multiparametric MRI for Bladder Cancer: Validation of VI-RADS for the Detection of Detrusor Muscle Invasion. Radiology. 2019 Jun;291(3):668-674. doi: 10.1148/radiol.2019182506. Epub 2019 Apr 23.</citation>
+    <PMID>31012814</PMID>
+  </reference>
+  <reference>
+    <citation>Suarez-Ibarrola R, Hein S, Reis G, Gratzke C, Miernik A. Current and future applications of machine and deep learning in urology: a review of the literature on urolithiasis, renal cell carcinoma, and bladder and prostate cancer. World J Urol. 2020 Oct;38(10):2329-2347. doi: 10.1007/s00345-019-03000-5. Epub 2019 Nov 5. Review.</citation>
+    <PMID>31691082</PMID>
+  </reference>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>October 7, 2021</study_first_submitted>
+  <study_first_submitted_qc>October 19, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">October 27, 2021</study_first_posted>
+  <last_update_submitted>October 19, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 19, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">October 27, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <keyword>Bladder Cancer</keyword>
+  <keyword>MRI</keyword>
+  <keyword>Artificial intelligence</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Urinary Bladder Neoplasms</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="163">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04892329</url>
+  </required_header>
+  <id_info>
+    <org_study_id>EA-19-003-09</org_study_id>
+    <nct_id>NCT04892329</nct_id>
+  </id_info>
+  <brief_title>A Single-center Study on the Efficacy and Safety of AI-assisted Navigation System for Pancreatic EUS</brief_title>
+  <official_title>A Single-center Study on the Efficacy and Safety of Artificial Intelligence-assisted Navigation System for Pancreatic Endoscopic Ultrasonography</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Renmin Hospital of Wuhan University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Renmin Hospital of Wuhan University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Pancreatic cancer is one of the most lethal cancers. Survival rates vary largely depending on&#xD;
+      the stage at which it is diagnosed. EUS is considered one of the most sensitive modalities&#xD;
+      for pancreatic cancer detection. To avoid a missed diagnosis of the pancreatic cancer, the&#xD;
+      continuity and integrity of EUS needs to be ensured as much as possible. The station approach&#xD;
+      in pancreatic EUS has been established as the standard scanning procedure. Complete&#xD;
+      anatomical scanning is helpful for the identification of standard stations, and its imaging&#xD;
+      findings can assist in the diagnosis of pancreatic lesions and guide patient treatment and&#xD;
+      prognosis. But EUS is highly operator-dependent and the learning curve is steep. In this&#xD;
+      study, we constructed a deep learning-based pancreatic scanning navigation system in EUS,&#xD;
+      which can assist in identifying important anatomical structures adjacent to the pancreas in&#xD;
+      real time. In order to improve the quality of EUS and reduce the missed diagnosis of&#xD;
+      pancreatic lesions.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Pancreatic cancer is a malignant tumor of the digestive system with insidious onset, rapid&#xD;
+      progression and very poor prognosis. According to the latest cancer data in China in 2020&#xD;
+      released by the International Agency for Research on Cancer (IARC) of the World Health&#xD;
+      Organization, there are about 120,000 new cases of pancreatic cancer in China, with a&#xD;
+      mortality rate close to 100%, which seriously endangers the national health. Early diagnosis&#xD;
+      of pancreatic cancer can be achieved by surgical resection with a 5-year survival rate of&#xD;
+      58%, Once advanced pancreatic cancer develops, patient survival is 7.2%. As a rapidly&#xD;
+      developing deadly cancer, missed diagnosis of pancreatic cancer may have extremely serious&#xD;
+      consequences for patients.How to improve the diagnostic rate of early pancreatic cancer is an&#xD;
+      urgent problem to be solved.&#xD;
+&#xD;
+      EUS(endoscopic ultrasonography) is considered one of the most sensitive modalities for&#xD;
+      pancreatic cancer detection. It has a much higher diagnostic accuracy than MRI and CT for the&#xD;
+      diagnosis of pancreatic cancer, especially early pancreatic cancer &lt; 1 cm in diameter&#xD;
+      (EUS-FNA 95.6% vs CT 77.4%, MRI 76.2%). EUS is the modality of choice for the early diagnosis&#xD;
+      of pancreatic tumors. To avoid a missed diagnosis of the pancreatic cancer, the continuity&#xD;
+      and integrity of EUS needs to be ensured as much as possible. But EUS is highly&#xD;
+      operator-dependent and the learning curve is steep, and the quality of the examination is&#xD;
+      highly dependent on the operator's technique. Therefore, it is necessary to develop a system&#xD;
+      that can effectively assist the full scanning of EUS.&#xD;
+&#xD;
+      The station approach in pancreatic EUS has been established as the standard scanning&#xD;
+      procedure. The principle of completing the station approach is to find the anatomical&#xD;
+      landmarks of this station, Such as organs (kidney, spleen), blood vessels (such as splenic&#xD;
+      artery, splenic vein, portal vein), ducts (pancreatic duct, bile duct), etc.The scanning of&#xD;
+      these anatomical landmarks is the basis for an accurate assessment of the entire pancreas。 At&#xD;
+      the same time, the type of pancreatic lesions and the development of the course have abnormal&#xD;
+      imaging findings of different anatomical structure. For example, ultrasound images of&#xD;
+      pancreatic cancer will show vascular invasion, deformation of the biliopancreatic duct, and&#xD;
+      metastasis of adjacent organs. The guidelines clearly require that the choice of surgical&#xD;
+      approach for pancreatic cancer needs to be based on the degree of invasion of the cancer to&#xD;
+      adjacent important anatomical structures, to maximize the volume sparing of functional&#xD;
+      pancreatic parenchyma. Complete anatomical scanning can assist in the diagnosis of pancreatic&#xD;
+      lesions and guide patient treatment and prognosis.&#xD;
+&#xD;
+      In recent years, artificial intelligence (AI) has been successfully applied in multiple&#xD;
+      medical fields. At present, there have been studies of AI-based endoscopic ultrasonography&#xD;
+      for the identification of pancreatic lesions, However, there are no studies of AI-based&#xD;
+      navigation system for pancreatic endoscopic ultrasonography. Previously, we have successfully&#xD;
+      developed a standard station scanning navigation system for the pancreas and bile ducts. This&#xD;
+      system can improve the recognition accuracy of endoscopists for standard stations and enhance&#xD;
+      the cognitive ability of endoscopic ultrasonography images.&#xD;
+&#xD;
+      Based on the previous, we constructed a deep learning-based pancreatic scanning navigation&#xD;
+      system in EUS, which can assist in identifying important anatomical structures adjacent to&#xD;
+      the pancreas in real time. and verify its auxiliary performance for endoscopists in clinical&#xD;
+      practice. In order to improve the quality of EUS and reduce the missed diagnosis of&#xD;
+      pancreatic lesions.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Not yet recruiting</overall_status>
+  <start_date type="Anticipated">May 12, 2021</start_date>
+  <completion_date type="Anticipated">January 31, 2022</completion_date>
+  <primary_completion_date type="Anticipated">December 31, 2021</primary_completion_date>
+  <phase>N/A</phase>
+  <study_type>Interventional</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <allocation>Randomized</allocation>
+    <intervention_model>Parallel Assignment</intervention_model>
+    <primary_purpose>Screening</primary_purpose>
+    <masking>Double (Participant, Outcomes Assessor)</masking>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Missed scanning rate of adjacent important anatomical structures in pancreatic endoscopic ultrasonography</measure>
+    <time_frame>Six month</time_frame>
+    <description>It was calculated by dividing the number of important anatomy that is not scanned in the actual EUS pancreas by the number of EUS.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Pancreatic lesions detection rate</measure>
+    <time_frame>Six month</time_frame>
+    <description>It was calculated by dividing the total number of patients being detected pancreatic lesions by the number of EUS</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Cholangiopancreatic duct lesions detection rate</measure>
+    <time_frame>Six month</time_frame>
+    <description>It was calculated by dividing the total number of patients being detected cholangiopancreatic duct lesions by the number of EUS.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>The average number of scanning in the pancreatic standard station of endoscopic ultrasonography</measure>
+    <time_frame>Six month</time_frame>
+    <description>It was calculated by dividing the total number of scanning in the pancreatic standard station by the number of EUS.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Detection rate of lesions in different pancreatic standard stations of endoscopic ultrasonography</measure>
+    <time_frame>Six month</time_frame>
+    <description>It was calculated by dividing the number of patients with pancreatic lesions and Cholangiopancreatic duct lesions in the different standard stations by the number of EUS.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Missed scanning rate of adjacent vital anatomical structures in different pancreatic standard stations of endoscopic ultrasonography</measure>
+    <time_frame>Six month</time_frame>
+    <description>It was calculated by dividing the number of important anatomy that is not scanned in the different standard stations by the number of EUS.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Mean scanning time in different pancreatic standard stations of endoscopic ultrasonography</measure>
+    <time_frame>Six month</time_frame>
+    <description>It was calculated by dividing the total scanning time by the number of EUS.</description>
+  </secondary_outcome>
+  <number_of_arms>2</number_of_arms>
+  <enrollment type="Anticipated">285</enrollment>
+  <condition>Pancreatic Cancer</condition>
+  <arm_group>
+    <arm_group_label>EUS AI navigation system augmentation</arm_group_label>
+    <arm_group_type>Experimental</arm_group_type>
+    <description>The endoscopists in the experimental group will be assisted by EndoAngel, which can assist in identifying important anatomical structures adjacent to the pancreas in real time. The system is an non-invasive AI system .</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>without EUS AI navigation system augmentation</arm_group_label>
+    <arm_group_type>No Intervention</arm_group_type>
+    <description>The endoscopists in the contrpl group performs the examination routinely without special prompts.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Artificial intelligence assistant system</intervention_name>
+    <description>The endoscopists in the experimental group will be assisted by EndoAngel, which can assist in identifying important anatomical structures adjacent to the pancreas in real time. The system is an non-invasive AI system .</description>
+    <arm_group_label>EUS AI navigation system augmentation</arm_group_label>
+  </intervention>
+  <eligibility>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  All patients meeting the following criteria will be considered for participation in&#xD;
+             the study:&#xD;
+&#xD;
+               1. Male or female aged 18 or above;&#xD;
+&#xD;
+               2. EUS is needed to further clarify the characteristics of digestive tract diseases;&#xD;
+&#xD;
+               3. Patients able to give informed consent were eligible to participate.&#xD;
+&#xD;
+               4. Able and willing to comply with all study process.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  All patients meeting the following criteria will not be considered for participation&#xD;
+             in the study:&#xD;
+&#xD;
+               1. Has participated in other clinical trials, signed informed consent and was in the&#xD;
+                  follow-up period of other clinical trials.&#xD;
+&#xD;
+               2. Has participated in clinical trials of the drug and is in the elution period of&#xD;
+                  the experimental drug or control drug.&#xD;
+&#xD;
+               3. Drug or alcohol abuse or psychological disorder in the last 5 years.&#xD;
+&#xD;
+               4. Patients in pregnancy or lactation.&#xD;
+&#xD;
+               5. A history of Upper Gastrointestinal surgery.&#xD;
+&#xD;
+               6. Patients with anatomical abnormalities of the upper gastrointestinal tract due to&#xD;
+                  advanced neoplasia&#xD;
+&#xD;
+               7. Patients in whom the presence of clearly defined vital anatomical structures&#xD;
+                  cannot be observed Researchers believe that the patient is not suitable to&#xD;
+                  participate in the trial.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>Accepts Healthy Volunteers</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Honggang W Yu, Doctor</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Renmin Hospital of Wuhan University</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Honggang W Yu, Doctor</last_name>
+    <phone>+862788041911</phone>
+    <email>whdxrmyy@126.com</email>
+  </overall_contact>
+  <location>
+    <facility>
+      <name>Renmin Hospital of Wuhan University</name>
+      <address>
+        <city>Wuhan</city>
+        <zip>430060</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>May 2021</verification_date>
+  <study_first_submitted>May 10, 2021</study_first_submitted>
+  <study_first_submitted_qc>May 13, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">May 19, 2021</study_first_posted>
+  <last_update_submitted>May 13, 2021</last_update_submitted>
+  <last_update_submitted_qc>May 13, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">May 19, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <provided_document_section>
+    <provided_document>
+      <document_type>Study Protocol, Statistical Analysis Plan, and Informed Consent Form</document_type>
+      <document_has_protocol>Yes</document_has_protocol>
+      <document_has_icf>Yes</document_has_icf>
+      <document_has_sap>Yes</document_has_sap>
+      <document_date>December 12, 2019</document_date>
+      <document_url>https://ClinicalTrials.gov/ProvidedDocs/29/NCT04892329/Prot_SAP_ICF_000.pdf</document_url>
+    </provided_document>
+  </provided_document_section>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

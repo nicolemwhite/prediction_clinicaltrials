@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="146">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04561895</url>
+  </required_header>
+  <id_info>
+    <org_study_id>LC ElSahel</org_study_id>
+    <nct_id>NCT04561895</nct_id>
+  </id_info>
+  <brief_title>Adipokine Genetic Variations in predictingNAFLD Progression to NASH in Egyptian Patients</brief_title>
+  <official_title>Genetic Variations in Adipokine to Improve Risk Prediction for NAFLD and Its Progression to NASH in Egyptian Patients</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Cairo University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+    <collaborator>
+      <agency>Elsahel teaching hospital</agency>
+      <agency_class>Other</agency_class>
+    </collaborator>
+  </sponsors>
+  <source>Cairo University</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Due to the limited data concerning Egyptian population. authors aimed to investigate the&#xD;
+      differentadipokine gene polymorphism related to non alcoholic fatty liver disease incidence,&#xD;
+      prognosis and progression to steotosis and also to find different related factors including&#xD;
+      obesitu, diabetes and liver enzymes level&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">January 1, 2020</start_date>
+  <completion_date type="Actual">September 16, 2020</completion_date>
+  <primary_completion_date type="Actual">September 15, 2020</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Cross-Sectional</time_perspective>
+  </study_design_info>
+  <target_duration>4 Weeks</target_duration>
+  <primary_outcome>
+    <measure>investigate adipokine dna polymorphism</measure>
+    <time_frame>1 months</time_frame>
+    <description>to investigate adipokine gene polymorphism associated with prognosis of NAFLD patients</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>correlations</measure>
+    <time_frame>1 month</time_frame>
+    <description>to correlate between gene polymorphism and glycated hemoglobin, liver enzyme and obesity</description>
+  </primary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Actual">224</enrollment>
+  <condition>NAFLD</condition>
+  <condition>NASH - Nonalcoholic Steatohepatitis</condition>
+  <arm_group>
+    <arm_group_label>control group</arm_group_label>
+    <description>healthy volunteers with absence of NAFLD</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>test group</arm_group_label>
+    <description>patients with confirmed NAFLD diagnosis</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Genetic</intervention_type>
+    <intervention_name>DNA extraction</intervention_name>
+    <description>investigation of DNA polymorphism in patients suffering from NAFLD</description>
+    <arm_group_label>control group</arm_group_label>
+    <arm_group_label>test group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        Egyptian diabetic patients diagnosed with NAFLD&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+        Egyptian patients confirmed NAFLD diagnosis diabetic&#xD;
+&#xD;
+        -&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Pregnancy and lactation, history of alcohol abuse (as defined by an average daily&#xD;
+             consumption of alcohol &gt; 30 g/day in men and &gt; 20 g/day women), cirrhosis, autoimmune&#xD;
+             hepatitis and other causes of liver disease (viral hepatitis, hemochromatosis,&#xD;
+             Wilson's disease), drug induced hepatitis, chronic enteropathies, Chronic kidney&#xD;
+             disease&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>60 Years</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Amal Ahmed, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>professor</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>El Sahel teaching hospital</name>
+      <address>
+        <city>Cairo</city>
+        <state>Shobra</state>
+        <zip>11311</zip>
+        <country>Egypt</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Egypt</country>
+  </location_countries>
+  <verification_date>September 2020</verification_date>
+  <study_first_submitted>September 18, 2020</study_first_submitted>
+  <study_first_submitted_qc>September 18, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">September 24, 2020</study_first_posted>
+  <last_update_submitted>September 18, 2020</last_update_submitted>
+  <last_update_submitted_qc>September 18, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">September 24, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Cairo University</investigator_affiliation>
+    <investigator_full_name>Dalia K. Zaafar</investigator_full_name>
+    <investigator_title>lecturer of pharmacology</investigator_title>
+  </responsible_party>
+  <keyword>Egyptian population</keyword>
+  <keyword>NAFLD</keyword>
+  <keyword>NASH</keyword>
+  <keyword>DNA extraction</keyword>
+  <keyword>liver enzymes</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Fatty Liver</mesh_term>
+    <mesh_term>Non-alcoholic Fatty Liver Disease</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="71">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05109260</url>
+  </required_header>
+  <id_info>
+    <org_study_id>285916</org_study_id>
+    <nct_id>NCT05109260</nct_id>
+  </id_info>
+  <brief_title>Destiny: D-dimer. Investigating D-dimer Levels Using Point-of-Care (POC) Testing at Primary Care.</brief_title>
+  <acronym>Destiny</acronym>
+  <official_title>A Feasibility Study Evaluating the Prognostic and Logistic Value of Measuring D-dimer Levels in Primary Care Using (POC) Tests.</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University of South Wales</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University of South Wales</source>
+  <oversight_info>
+    <has_dmc>No</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      DESTINY D-Dimer is an observational feasibility study, and a collaboration between the&#xD;
+      University of South Wales and Cwm Taf Morgannwg University Health Board (CTMUHB). The study&#xD;
+      is based at St. John's Medical Practice in Aberdare, where participant recruitment will take&#xD;
+      place. Blood D-dimer data will be collected from CTMUHB Pathology Laboratory services, at&#xD;
+      Prince Charles Hospital. Study blood samples will be obtained by the research student, LAH,&#xD;
+      under the direction of Dr Owen Thomas at St John's Medical Centre. The participant data will&#xD;
+      be collected by the research student who will conduct a Wells' Risk Score and perform D-dimer&#xD;
+      POC tests to generate quantitative data. Data will later be compared by the research student&#xD;
+      with the diagnoses obtained from Secondary Care at Prince Charles Hospital via analysis of&#xD;
+      medical records to include a laboratory generated D-Dimer results and additional diagnostics&#xD;
+      (eg. Doppler).&#xD;
+&#xD;
+      A laboratory based analytical verification of D-dimer POC tests will be undertaken to compare&#xD;
+      with the current laboratory method. The study will compare the data from the D-dimer POC&#xD;
+      tests and those gained using laboratory methods at Prince Charles Hospital.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      The diagnosis of conditions that cause hypercoagulability result in economic burden for the&#xD;
+      healthcare industry. The non-specific symptoms incur clinical problems for diagnosing&#xD;
+      conditions such as Deep Vein Thrombosis (DVT). DVT is a common condition in the UK, with more&#xD;
+      than 140,000 patients presenting to primary care with suggestive symptoms each year&#xD;
+      (Thrombosis UK, 2020). The reduction of blood flow caused by a blood clot in a deep set vein&#xD;
+      can lead to a pulmonary embolism and infarcts throughout the circulation, which is&#xD;
+      potentially fatal if not treated quickly.&#xD;
+&#xD;
+      The purpose of this study would therefore be to safely exclude DVT in a primary care setting&#xD;
+      using Point of Care (POC) testing as a means of reducing the number of referrals to secondary&#xD;
+      and tertiary care. The use of a small protein fragment as a biomarker utilising POC testing&#xD;
+      will be investigated to determine the clinical effectiveness and accuracy of ruling out DVT&#xD;
+      in primary care. The current practise however relies on referral from a primary care setting&#xD;
+      of all patients with symptoms of hyper coagulation, for diagnostic testing with&#xD;
+      ultrasonography and laboratory generated D-Dimer analysis at secondary care. Although&#xD;
+      ultrasonography is safe and easily available, it requires an additional patient visit and&#xD;
+      increases the need for clinical and diagnostic resources. The use of a D-dimer POC test could&#xD;
+      therefore be used to exclude a DVT at the initial presentation in the primary setting and&#xD;
+      reduce the economic burden on the NHS and be more convenient for the patient.&#xD;
+&#xD;
+      Venous Thromboembolism (VTE) encompasses the conditions deep vein thrombosis (DVT) and&#xD;
+      pulmonary embolism (PE). VTE is the third most frequent cardiovascular disease globally and&#xD;
+      can be lethal in the acute phase and potentially lead to a chronic disease and disability.&#xD;
+      The potential to prevent a chronic disease from developing however is highly possible with&#xD;
+      the use of a rapid and reliable diagnosis. Only around 15% of patients with suspected DVT&#xD;
+      will have a confirmed ultrasonography scan, with an annual incidence of 1 per 1000 (Wells,&#xD;
+      Anderson and Rodger, 2004). Using ultrasonography to diagnose DVT is reliable, although&#xD;
+      currently the only recognised method post initial assessment. A more precise diagnosis at&#xD;
+      primary care can reduce a large percentage of ultrasound referrals to secondary care with an&#xD;
+      advantage to both patients, clinical staff and efficiencies within the health care service,&#xD;
+      keeping patients and their care in the primary care setting.&#xD;
+&#xD;
+      D-dimer is a small protein fragment that is the result of endogenous fibrinolysis and can be&#xD;
+      found in healthy individuals in negligible amounts of around 100-200ng/ml (Lippi, Bonfanti,&#xD;
+      Saccenti and Cervellin, 2014). D -dimer can be detected using monoclonal antibody immunoassay&#xD;
+      based lab methods as the current method in practice. Current problems faced using D-dimer as&#xD;
+      a diagnostic biomarker are that it is highly non-specific. D-dimer levels may rise in&#xD;
+      conjunction with many other conditions such as cellulitis, inflammation, liver conditions and&#xD;
+      in pregnancy (Wells, Anderson and Rodger, 2004). D-dimer therefore cannot solely be used to&#xD;
+      diagnose a venous thromboembolism (VTE), further imaging testing (ultrasonography) would&#xD;
+      likely be needed to confirm or exclude. However, a negative test is useful as it is allows&#xD;
+      clinicians to reliably exclude VTE on the basis that clinical probability is low (Lippi,&#xD;
+      Bonfanti, Saccenti and Cervellin, 2014). Clinical probability has been generated for DVT&#xD;
+      using a points scoring 'decision rule' to categorise risk variables in order to reduce&#xD;
+      referrals to secondary care for a D-dimer laboratory test.&#xD;
+&#xD;
+      The two main points scoring rule systems currently in place are the Wells Rule and Primary&#xD;
+      Care Rule. The Wells Rule combines patient history and a physical examination which is&#xD;
+      followed by a D-dimer assay to determine patients for ultrasonography. Clinicians are able to&#xD;
+      risk stratify patients of a low risk score (Wells Score &lt;2) and a negative D-dimer to be&#xD;
+      excluded from ultrasonography (van der Velde et al., 2011). A 2006 study concluded that&#xD;
+      patients with a low clinical probability have prevalence of DVT &gt;5%, suggesting the Wells&#xD;
+      Rule is capable of categorising patients with low, moderate and high probability (Plüddemann&#xD;
+      et al., 2012). However, the Wells Rule has been criticised for its inaccuracies with&#xD;
+      prevalence of thrombosis in as many as 2.9% of patients in primary care and with a normal&#xD;
+      D-dimer (Antovic et al., 2012).&#xD;
+&#xD;
+      Uncertainties surrounding the Wells Score Rule led to the development of the Primary Care&#xD;
+      Rule. The only difference from the Wells Scoring Rule, being that it does not include the&#xD;
+      estimated probability of an alternative diagnosis. Analysis of data from a study of 1086&#xD;
+      patients using both scorings systems in conjunction with a D-dimer POC test revealed that a&#xD;
+      thromboembolic event occurred in follow up of a negative D-dimer and low risk score in both&#xD;
+      Wells Rule (1.6%) and Primary Care Rule (1.4%) (Plüddemann et al., 2012). The results of this&#xD;
+      study suggests a thromboembolic event cold be ruled out safely with either decision rule in&#xD;
+      combination with D-dimer POC test at rates comparable to ultrasonography. The Primary Care&#xD;
+      Rule has also been praised as a robust rule as adding external variables or adjusting scoring&#xD;
+      does not improve the efficiency or safety of the rule (van der Velde et al., 2011). Using&#xD;
+      decision rules in combination with D-dimer POC testing allows a reduction of referrals by&#xD;
+      approximately 50%, significantly reducing the cost of further appointments (Plüddemann et&#xD;
+      al., 2012).&#xD;
+&#xD;
+      Age, among other factors has a significant effect on the safety and efficiency of diagnosis.&#xD;
+      The incidence of a Venous Thromboembolism (VTE) increases with age, with 450-900 cases per&#xD;
+      100,000 people in ages over 80 in comparison to less than 5 amongst children (Schouten et&#xD;
+      al., 2012). The use of age dependant cut-off values for a D-dimer test can improve the&#xD;
+      efficiency of excluding a venous thromboembolism. Using higher cut-off values for those in&#xD;
+      different age groups respectively, clinicians are able to accurately refer less patients to&#xD;
+      secondary care. However, by increasing the cut-off value for elderly patients develops a risk&#xD;
+      of a higher percentage of false negatives. A study conducted using age dependant cut off&#xD;
+      values reported an increase of 15.3% of patients in the age bracket of 70-80 that were&#xD;
+      excluded from referral, with no increase in false positives (Schouten et al., 2012). The&#xD;
+      reliability of such finding should be scrutinised as the accuracy of the diagnosis directly&#xD;
+      correlates with the accuracy of the reader.&#xD;
+&#xD;
+      The use of the Roche Cobas H 232 POC D-dimer test has been supported by a significant amount&#xD;
+      of clinical data in the evaluation of D-dimer whole blood levels. The Cobas H 232 test makes&#xD;
+      use of a venous blood sample to provide a quantitative test result in 12 minutes or less&#xD;
+      (Dempfle et al., 2006). The Cobas H 232 test uses a handheld device, which provides&#xD;
+      clinicians with immediate results and quick patient throughput. A comparative study concluded&#xD;
+      that using the Cobas H 232 test reduced the use of ultrasonography by up to 29% (Schutgens et&#xD;
+      al., 2003). Statistically the Cobas H 232 test is comparable to the laboratory immunoassay&#xD;
+      D-dimer test. The POC D-dimer assay displayed a high sensitivity of 96.9% for the diagnosis&#xD;
+      of DVT and specificity of 60.8% at a pre-specified cut-off of 500ng/ml. In comparison, the&#xD;
+      laboratory D-dimer is slightly lower, with a sensitivity of 94.9% and specificity of 64.8%&#xD;
+      (Dempfle et al., 2006).While using a handheld POC test prevents the transport of blood&#xD;
+      specimens to secondary care, a venous blood sample still needs to be obtained. This may be&#xD;
+      inconvenient for the patient and may incur unnecessary time commitments of both the patient&#xD;
+      and clinicians.&#xD;
+&#xD;
+      The Lumira Dx D-dimer test is a new POC test that introduces the opportunity to measure&#xD;
+      D-dimer levels in capillary blood, providing quantitative results. The lumira Dx kit boast&#xD;
+      the capability of producing a quantitative results in under 10 minutes (Gray, 2020). A&#xD;
+      fingerpick sample would reduce the time taken for a venous blood sample be more convenient&#xD;
+      for patients and clinicians. A statistical evaluation of both POC tests will be made in this&#xD;
+      study and will also investigate the clinical significance of capillary versus venous blood&#xD;
+      samples.&#xD;
+&#xD;
+      The emergence of the recent COVID -19 pandemic has led clinicians to investigate D-dimer as a&#xD;
+      biomarker of the disease. Initial data from Wuhan suggests that higher mortality can be&#xD;
+      associated with a high D-dimer test result (Reyes Gil, 2020). Association of high D-dimer and&#xD;
+      COVID-19 may however be non-specific. Reliability of the relationship is highly scrutinised&#xD;
+      due to the low specificity of D-dimer as a biomarker and relationship with other diseases.&#xD;
+      Confounding laboratory issues may also cause elevated results, such as hemolysis and lipid&#xD;
+      content which would present analytical interference. However, recent studies have suggested&#xD;
+      that biomarkers such as low lymphocyte count and high levels of CRP, LDH, and D-Dimer are&#xD;
+      associated with the more severe COVID-19 cases (Ali et al., 2020). Further clinical&#xD;
+      evaluation of the relationship between elevated D-dimer levels and COVID-19 is required to&#xD;
+      confidently make a diagnosis of COVID-19, although biomarkers such as D-dimer could currently&#xD;
+      be used as a subsidiary to COVID-19 diagnosis. The research does however highlight the&#xD;
+      importance of scrutinising the specificity of D-dimer as a biomarker and signifies the&#xD;
+      importance of developing clinically relevant cut off values as a result.&#xD;
+&#xD;
+      The non-specific nature of D-dimer level elevation highlights the need for thorough clinical&#xD;
+      examinations when investigating DVT's. D-dimer levels may rise in conjunction with other&#xD;
+      conditions that a patient may present upon initial assessment at a GP Practice. An&#xD;
+      inflammatory response is triggered in a range of diseases such as the digestive condition IBS&#xD;
+      or infections such as tuberculosis. In a recent study of 205 patients utilising D-dimer&#xD;
+      testing, 9 patients were diagnosed with pancreatitis and 14 patients with cirrhosis. The&#xD;
+      study concludes that D-dimer levels directly correlate with CRP levels, WBC count and C&#xD;
+      reactive protein levels, and are inversely proportional to lymphocyte count (Bao et al.,&#xD;
+      2017). Retrospective studies such as this highlight the need for full clinical examination&#xD;
+      for patients suspected of DVT. It is therefore important that the precision of the DVT&#xD;
+      pathway ensures no false positive or negatives and that ultrasonography is used to confirm&#xD;
+      DVT in cases of elevated D-dimer.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Recruiting</overall_status>
+  <start_date type="Actual">October 26, 2021</start_date>
+  <completion_date type="Anticipated">March 1, 2023</completion_date>
+  <primary_completion_date type="Anticipated">September 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Other</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>D-dimer levels</measure>
+    <time_frame>10 months</time_frame>
+    <description>D-dimer levels in blood will be compared across devices and to standalone testing currently in practice at Secondary Care facilities.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Well's Risk Score</measure>
+    <time_frame>10 months</time_frame>
+    <description>A well's risk score of each participant will be capture to risk stratify patients to determine if a risk scoring system would be beneficial in Primary Care.</description>
+  </secondary_outcome>
+  <enrollment type="Anticipated">244</enrollment>
+  <condition>Deep Vein Thrombosis</condition>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Point-of-Care Immunoassay device</intervention_name>
+    <description>2 POC Immunoassay devices will be used. One will measure D-dimer levels in capillary blood, the other will measure venous.</description>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        The study population will be recruited from patients attending t St. Johns Medical Centre&#xD;
+        and Ysbyty Cwm Rhondda that are suspected of having a thrombosis upon assessment. There is&#xD;
+        scope to widen recruitment from neighbouring cluster practices. The study aims to collect a&#xD;
+        minimum of 244 patients for the study to achieve 80% power.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Subject &gt;18 years of age.&#xD;
+&#xD;
+          -  Initial assessment of thrombosis.&#xD;
+&#xD;
+          -  Consent provided.&#xD;
+&#xD;
+          -  Patient declared healthy and suitable for participation by PI.&#xD;
+&#xD;
+          -  Suitable venous access.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Unable to provide informed consent.&#xD;
+&#xD;
+          -  Pregnancy.&#xD;
+&#xD;
+          -  Undergoing end of life care.&#xD;
+&#xD;
+          -  The subject is currently receiving or has received within the past thirty days of the&#xD;
+             study visit an experimental biologic or drug including either treatment or therapy&#xD;
+&#xD;
+          -  Haemodynamically unstable.&#xD;
+&#xD;
+          -  Current anticoagulation therapy.&#xD;
+&#xD;
+          -  Flu symptoms acknowledged by the PI.&#xD;
+&#xD;
+          -  Positive Covid-19 test result.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+  </eligibility>
+  <overall_official>
+    <last_name>Mark Williams, BSc, PhD</last_name>
+    <role>Study Director</role>
+    <affiliation>Director of Studies and Chief investigator</affiliation>
+  </overall_official>
+  <overall_contact>
+    <last_name>Leon Arrowsmith-Hill, BSc</last_name>
+    <phone>07568086924</phone>
+    <email>leon.arrowsmith-hill@southwales.ac.uk</email>
+  </overall_contact>
+  <overall_contact_backup>
+    <last_name>Mark Williams, BSc, PhD</last_name>
+    <phone>02920498700</phone>
+    <email>Mark.williams@southwales.ac.uk</email>
+  </overall_contact_backup>
+  <location>
+    <facility>
+      <name>St John's Medical Centre</name>
+      <address>
+        <city>Aberdare</city>
+        <state>Rhondda Cynon Taff</state>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Owen Thomas, MBBS</last_name>
+      <phone>01685 874614</phone>
+      <email>Owen.Thomas@wales.nhs.uk</email>
+    </contact>
+  </location>
+  <location>
+    <facility>
+      <name>Ysbyty Cwm Rhondda Urgent Care Centre</name>
+      <address>
+        <city>Llwynypia</city>
+        <state>Rhondda Cynon Taff</state>
+        <country>United Kingdom</country>
+      </address>
+    </facility>
+    <status>Recruiting</status>
+    <contact>
+      <last_name>Aled Davies, MBBS</last_name>
+      <phone>01443 430022</phone>
+      <email>Aled.Davies@wales.nhs.uk</email>
+    </contact>
+  </location>
+  <location_countries>
+    <country>United Kingdom</country>
+  </location_countries>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>October 26, 2021</study_first_submitted>
+  <study_first_submitted_qc>October 26, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 5, 2021</study_first_posted>
+  <last_update_submitted>October 26, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 26, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 5, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Thrombosis</mesh_term>
+    <mesh_term>Venous Thrombosis</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+    <ipd_description>Identifiable personal data will be recorded as a PIN number across confidential documents.&#xD;
+Data will be reported in the form of a PhD thesis.</ipd_description>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

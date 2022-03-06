@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="5">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT05112510</url>
+  </required_header>
+  <id_info>
+    <org_study_id>ZDWY.HYXK.003</org_study_id>
+    <nct_id>NCT05112510</nct_id>
+  </id_info>
+  <brief_title>Prognostic Prediction of NPC Based on MR Diffusion-weighted Imaging</brief_title>
+  <official_title>Prognostic Prediction of Nasopharyngeal Carcinoma Based on Radiomics Features of MR Diffusion-weighted Imaging</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Fifth Affiliated Hospital, Sun Yat-Sen University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Fifth Affiliated Hospital, Sun Yat-Sen University</source>
+  <oversight_info>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      The purpose of this study is to explore whether the imaging model based on RESOLVE-DWI&#xD;
+      sequence can exploiting the heterogeneity of nasopharyngeal carcinoma and indicate the&#xD;
+      prognosis, so as to provide intervention information for clinical decision-making. All&#xD;
+      patients were randomly divided into the training group and the validation group. Radiomics&#xD;
+      features extracted from T2-weighted, DWI, apparent diffusion coefficient (ADC), and contrast-&#xD;
+      enhanced T1-weighted were used to build a radiomics model. Patients'clinical variables were&#xD;
+      also obtained to build a clinical model. Model of training cohort was established using&#xD;
+      cross-validation for nasopharyngeal carcinoma prognosis by machine learning, including&#xD;
+      Logistics Regression, SVM, KNN, Decision Tree, Random Forest, XGBoost, and then, the model&#xD;
+      will be verified in the validation cohort. Area under the curve (AUC) of the Machine learning&#xD;
+      model was used as the main evaluation metric.&#xD;
+    </textblock>
+  </brief_summary>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">June 1, 2021</start_date>
+  <completion_date type="Anticipated">June 1, 2022</completion_date>
+  <primary_completion_date type="Anticipated">March 1, 2022</primary_completion_date>
+  <study_type>Observational</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Case-Control</observational_model>
+    <time_perspective>Retrospective</time_perspective>
+  </study_design_info>
+  <primary_outcome>
+    <measure>Calculating AUC of machine learning model based on MR diffusion-weighted imaging to evaluate efficacy for prognosis</measure>
+    <time_frame>Before January 2022</time_frame>
+    <description>After building machine learning model based on the features extracted by MR diffusion-weighted imaging of patients with nasopharyngeal carcinoma. Some measurements will be output from machine learning model such as AUC、F1、Accuracy and so on. Area under the curve (AUC) of the Machine learning model will be used as the main evaluation metric to evaluate the efficacy of a machine learning model which is used to predict the prognosis of patients with nasopharyngeal carcinoma (NPC).</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Comparing AUC of machine learning model based on MR diffusion-weighted imaging and conventional MR sequences for prognosis</measure>
+    <time_frame>Before January 2022</time_frame>
+    <description>After separately building machine learning model based on the highly correlated features extracted by MR diffusion-weighted imaging and conventional MR sequences of patients with nasopharyngeal carcinoma. Some measurements will be output from the machine learning models such as AUC、F1、Accuracy and so on. Area under the curve (AUC) of the Machine learning model will be used as the main evaluation metric to study if the prediction efficiency of the machine learning model based on the highly correlated features extracted by MR diffusion weighted imaging imaging is better than that of conventional MR sequences.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Calculating AUC of machine learning model based on MR diffusion-weighted imaging combinated with conventional MR sequence to evaluate efficacy for prognosis</measure>
+    <time_frame>Before January 2022</time_frame>
+    <description>Fianlly, we build a machine learning model based on MR diffusion-weighted imaging combinated with conventional MR sequences from patients with nasopharyngeal carcinoma. Some measurements will be output from the machine learning models such as AUC、F1、Accuracy and so on. Area under the curve (AUC) of the Machine learning model will be used as the main evaluation metric to explore whether the machine learning model established by imaging features of MR diffusion-weighted imaging and conventional MR sequence has best prediction efficiency comparing with the models mentioned above.</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">125</enrollment>
+  <condition>Patients With Nasopharyngeal Carcinoma</condition>
+  <arm_group>
+    <arm_group_label>event group</arm_group_label>
+    <description>The patients with nasopharyngeal carcinoma developed distant metastasis or recurrence after standard treatment.</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>non-event group</arm_group_label>
+    <description>The patients with nasopharyngeal carcinoma did not develop distant metastasis or recurrence after standard treatment.</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Other</intervention_type>
+    <intervention_name>Observing whether developing distant metastasis or recurrence</intervention_name>
+    <description>The study is a observational study and has no intervention.</description>
+    <arm_group_label>event group</arm_group_label>
+    <arm_group_label>non-event group</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        patient with nasopharyngeal carcinoma&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          1. patients with nasopharyngeal carcinoma diagnosed by pathology;&#xD;
+&#xD;
+          2. complete clinical data and MR imaging data;&#xD;
+&#xD;
+          3. without radiotherapy, chemotherapy or operation before MR examination.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          1. incomplete follow-up data;&#xD;
+&#xD;
+          2. poor image quality and can not be used for analysis;&#xD;
+&#xD;
+          3. patients with other tumors in the past or at the same time.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>The Fifth Affiliated Hospital of Sun Yat-sen University</name>
+      <address>
+        <city>Zhuhai</city>
+        <state>Guangdong</state>
+        <zip>519000</zip>
+        <country>China</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>China</country>
+  </location_countries>
+  <verification_date>October 2021</verification_date>
+  <study_first_submitted>October 17, 2021</study_first_submitted>
+  <study_first_submitted_qc>October 27, 2021</study_first_submitted_qc>
+  <study_first_posted type="Actual">November 9, 2021</study_first_posted>
+  <last_update_submitted>October 27, 2021</last_update_submitted>
+  <last_update_submitted_qc>October 27, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">November 9, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Sponsor</responsible_party_type>
+  </responsible_party>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Carcinoma</mesh_term>
+    <mesh_term>Nasopharyngeal Carcinoma</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="190">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT03577405</url>
+  </required_header>
+  <id_info>
+    <org_study_id>201800246</org_study_id>
+    <nct_id>NCT03577405</nct_id>
+  </id_info>
+  <brief_title>Simple Intensive Care Studies II</brief_title>
+  <acronym>SICS-II</acronym>
+  <official_title>Simple Intensive Care Studies II</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>University Medical Center Groningen</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>University Medical Center Groningen</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Critically ill patients admitted to the intensive care unit (ICU) frequently suffer from&#xD;
+      circulatory shock or respiratory distress, with high morbidity and mortality up to 40%. After&#xD;
+      initial fluid resuscitation other complications associated with either treatment or disease&#xD;
+      may arise. A consequence of treatment might be fluid overload or overfilling. Multiple&#xD;
+      studies have shown the possible negative effects of - too much - fluid administration, such&#xD;
+      as venous congestion. Venous congestion entails venous fluid overload, manifested by for&#xD;
+      example an increased central venous pressure (CVP) or peripheral oedema. This venous&#xD;
+      congestion may contribute to the occurrence of short-term organ failure by causing a high&#xD;
+      ''afterload'' in the venous tracts of organs.&#xD;
+&#xD;
+      There is no consensus on how to measure venous congestion. It is important to identify&#xD;
+      variables that reflect the development of venous congestion in order to investigate whether&#xD;
+      venous congestion is associated with short-term organ failure. Variables that indicate venous&#xD;
+      congestion may be obtained with clinical examination and biochemical analyses, supplemented&#xD;
+      by hemodynamic variables derived from critical care ultrasonography (CCUS) with information&#xD;
+      about organ perfusion, and both arterial and venous function.&#xD;
+&#xD;
+      The development of short-term organ failure can be assessed by collecting clinical,&#xD;
+      biochemical and hemodynamic variables at multiple moments. Using repeated measurements is&#xD;
+      likely to add dynamic information about the diagnostic and prognostic value of these&#xD;
+      variables. The dynamics of variables, in any direction, over time might improve the&#xD;
+      diagnostic accuracy and prognostic value of clinical, biochemical and hemodynamic variables&#xD;
+      that can be collected at the beside of the critically ill patient.&#xD;
+&#xD;
+      Aim and hypotheses This study aims to investigate the association between dynamic variables&#xD;
+      that reflect venous congestion and the development of short-term organ failure and mortality&#xD;
+      in the critically ill.&#xD;
+&#xD;
+      The primary objective of this study is to identify the combination of variables at different&#xD;
+      time points that indicate venous congestion and predict patient outcome. Secondary objectives&#xD;
+      are to identify a combination of CCUS variables that precede serum creatine rises in patients&#xD;
+      who develop acute kidney injury (AKI) after an acute ICU admission {diagnostic}; to identify&#xD;
+      a combination of variables per organ system or subset of populations to predict short-term&#xD;
+      organ deterioration and 7-day mortality {prognostic}; to identify a combination of variables&#xD;
+      over 48 hours of ICU admission that predict long-term (90 day) morbidity and mortality&#xD;
+      {prognostic} and; to validate multiple prognostic risk scores developed for critically ill&#xD;
+      ICU patients.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Registry procedures:&#xD;
+&#xD;
+      This study is the follow-up study of the Simple Intensive Care Studies I (SICS-I,&#xD;
+      NCT02912624). All eligible patients will first be included in the Simple Observational&#xD;
+      Critical Care Studies (SOCCS, NCT03553069) within 3 hours after ICU admission. The SOCCS&#xD;
+      includes all acutely admitted ICU patients by means of a standardized onetime physical&#xD;
+      examination and registration of observational standard care data to predict patient outcome.&#xD;
+      The SICS-II will screen these included patients within 24 hours of ICU admission and exclude&#xD;
+      patients with a non-traumatic neurological reason for admission. All eligible patients will&#xD;
+      undergo clinical examination and critical care ultrasonography on day one, three and five.&#xD;
+&#xD;
+      Monitoring:&#xD;
+&#xD;
+      Monitoring will be performed by independent researchers of the University Medical Center&#xD;
+      Groningen (UMCG). Audits are planned to take place once a year. The first audit is planned in&#xD;
+      August 2018.&#xD;
+&#xD;
+      Recruitment:&#xD;
+&#xD;
+      Inclusion of patients and measurements of variables will be performed by the study&#xD;
+      coordinator or a co-researcher under supervision and responsibility of the principle&#xD;
+      investigator. Due to its observational nature, informed consent is not deemed necessary for&#xD;
+      this study. However, we will obtain informed consent to also cover possible advances within&#xD;
+      this study.&#xD;
+&#xD;
+      Source data verification At inclusion all conventional hemodynamic variables are derived by&#xD;
+      physical examination and recording data from the basic hemodynamic monitoring (Philips&#xD;
+      ImageVue monitor with tracing of heart rate, electrocardiogram (ECG), arterial oxygen&#xD;
+      saturation (SpO2), arterial pressure from arterial line pressure measurement and/or from&#xD;
+      non-invasively blood pressure monitoring. CCUS will be used to envision cardiac function,&#xD;
+      pulmonary edema, venal cave overload and renal perfusion. All variables are predefined (see&#xD;
+      data dictionary) to standardize all measurements conducted by the student researchers. A CCUS&#xD;
+      protocol was written before start of the study to train researchers in CCUS during a pilot&#xD;
+      phase. Researchers were trained by an expert cardiologist-intensivist. Measurements will&#xD;
+      later be validated by independent specialists blinded for all other measurements. General&#xD;
+      patient characteristics and laboratory measurements were recorded from patient's electronic&#xD;
+      charts and the Acute Physiology and Chronic Health Evaluation (APACHE) II and IV score,&#xD;
+      Simplified Acute Physiology Score II (SAPS) scores are extracted from our local National&#xD;
+      Intensive Care Evaluation database. Follow-up of all-cause mortality will be acquired using&#xD;
+      the municipal personal records database.&#xD;
+&#xD;
+      Data collection:&#xD;
+&#xD;
+      Data are collected on different moments as follows:&#xD;
+&#xD;
+      T=0, patient admission, extracted from electronic patient file Date and time of admission and&#xD;
+      patient history are recorded. T=1, within 3 hours of inclusion, variables obtained through&#xD;
+      physical examination (SOCCS) Heart rate (HR): will be recorded from the bedside&#xD;
+      electrocardiographic monitor. In case of an irregular rhythm (i.e. atrial fibrillation) the&#xD;
+      investigators will use the mean heart rate over a minute. Presence of atrial fibrillation&#xD;
+      will be recorded.&#xD;
+&#xD;
+      Systolic blood pressure (SBP), diastolic blood pressure (DBP) and mean arterial pressure&#xD;
+      (MAP): will be recorded from the bedside electrocardiographic monitor, measured using an&#xD;
+      arterial line Central venous pressure (CVP): will be recorded if a central venous line is&#xD;
+      situated in the internal jugular or subclavian vene.&#xD;
+&#xD;
+      Respiratory rate: will be recorded from the bedside electrocardiographic monitor. If a&#xD;
+      patient is on mechanical ventilation, see below.&#xD;
+&#xD;
+      Capillary refill time (CRT): will be measured after exerting firm pressure for 10 seconds,&#xD;
+      preferably on the sternum and on the central part of the knee. The original upper limit of a&#xD;
+      normal CRT was considered to be 2 seconds by Champions' Trauma score (Champion HR, Sacco WJ,&#xD;
+      Hannan DS, et al. Assessment of injury severity: the triage index. Crit Care Med 1980). CRT&#xD;
+      in a healthy population is age and temperature dependent with an upper limit for healthy&#xD;
+      older adults of 4.5 seconds (Schriger DL, Baraff L. Defining normal capillary refill:&#xD;
+      variation with age, sex, and temperature. Ann Emerg Med 1988). In 2011 Ait-Oufella et al&#xD;
+      found that an index CRT upper limit of 2.4 seconds is predictive of 14-day mortality in&#xD;
+      septic shock patients (Ait-Oufella et al. Capillary refill time exploration during septic&#xD;
+      shock. Intensive Care Med 2014). The investigators will therefore both use a cut-off value of&#xD;
+      2.5, 4.5 seconds and a continuous measure of CRT.&#xD;
+&#xD;
+      Central temperature (Tcentral): will be measured using the already available temperature&#xD;
+      sensor which is attached through the bladder catheter. If this is not available, rectal or&#xD;
+      aural temperature will be recorded if available.&#xD;
+&#xD;
+      Skin temperature (Tskin): will be measured subjectively and objectively. The subjective&#xD;
+      measure will be conducted by palpating the patient's extremities. A distinction between&#xD;
+      either 'warm' or 'cold' will be made using the dorsal surface of the hands of the examiner.&#xD;
+      Patients will be considered to have 'cold' skin extremities if all examined extremities are&#xD;
+      considered cool, or if only the lower extremities are cool despite warm upper extremities.&#xD;
+      The objective measurements will be performed with a skin probe, placed on the dorsum of the&#xD;
+      foot.&#xD;
+&#xD;
+      Mottling score: this score was described by Ait-Oufella et al in 2011 (Ait-Oufella et al.&#xD;
+      Mottling score predicts survival in septic shock. Intensive Care Med 2011). The score ranges&#xD;
+      from 0 -5, depending on the extensiveness of the mottled area. A score of 0-1 is regarded&#xD;
+      mild, 2-3 moderate and 4-5 severe.&#xD;
+&#xD;
+      Peripheral edema: Pit depth was estimated visually and according to Brodovicz et al: 0=no&#xD;
+      clinical edema, 1=slight pitting (2 mm depth) with no visible distortion, 2=somewhat deeper&#xD;
+      pit (4 mm) with no readily detectable distortion, 3=noticeably deep pit (6 mm) with the&#xD;
+      dependent extremity full and swollen, and 4=very deep pit (8 mm) with the dependent extremity&#xD;
+      grossly distorted. (Brodovicz KG, McNaughton K, Uemura N, Meininger G, Girman CJ, Yale SH.&#xD;
+      Reliability and feasibility of methods to quantitatively assess peripheral edema. Clin Med&#xD;
+      Res. 2009;7(1-2):21-31. doi:10.3121/cmr.2009.819).&#xD;
+&#xD;
+      Urine output (ml/kg/h): measured as part of regular care. The investigators will use both the&#xD;
+      urine output over the hour before examination and the mean urine output per hour, calculated&#xD;
+      using the six hours prior to the physical examination. If these data are unavailable, the&#xD;
+      mean urine output of the previous hour(s) will be calculated depending on the available data.&#xD;
+      In patients with pre-existing renal failure, urine output will be recorded but not used for&#xD;
+      primary analysis of kidney function.&#xD;
+&#xD;
+      Other variables:&#xD;
+&#xD;
+      EMV score: this can be used to obtain a quick impression of a patient's state of&#xD;
+      consciousness. EMV score will be corrected in case of sedated patients.&#xD;
+&#xD;
+      Serum lactate, creatinine and hemoglobin: are determined as part of regular care. For study&#xD;
+      purposes the investigators will use the value closest to our examination. Other biochemical&#xD;
+      values will also be recorded.&#xD;
+&#xD;
+      Mechanical ventilation: data on the presence and type of mechanical ventilation will be&#xD;
+      collected, as well as basic information on respiratory conditions (i.e. PEEP and respiratory&#xD;
+      rate). Note: in case of mechanical ventilation the value 'respiratory rate' will be filled in&#xD;
+      twice in the CRF. If both values are the same, it will be assumed that the patient breathes&#xD;
+      at a machine-set respiratory rate. If they differ, spontaneous breathing will be assumed.&#xD;
+&#xD;
+      Non-invasive ventilation: data on the type of ventilation (e.g. Ventimask, nasal cannula)&#xD;
+      will be gathered, as well as FiO2 and SpO2.&#xD;
+&#xD;
+      Inotrope-, vasopressor and sedative use: any inotrope or vasopressin requirement, type, dose&#xD;
+      and speed will be recorded.&#xD;
+&#xD;
+      Estimations of pump function and patient outcome: an estimation will be made, either by a&#xD;
+      member of the treating team, or by the researcher.&#xD;
+&#xD;
+      T=2, within 24 hours of admission, physical examination, CCUS and biochemical variables All&#xD;
+      variables mentioned in T=1 will be collected again. Furthermore, a CCUS will be performed.&#xD;
+      Using CCUS, the following variables will be obtained by trained researchers. Exact methods&#xD;
+      are described in the CCUS SICS-II protocol.&#xD;
+&#xD;
+      Cardiac output: will be measured by transthoracic echocardiography. Both cardiac output and&#xD;
+      cardiac index (i.e. cardiac output corrected for body surface area) will be calculated.&#xD;
+&#xD;
+      Tricuspid Annular Plane Systolic Excursion (TAPSE): will be measured in the apical 4 chamber&#xD;
+      view using M-Mode, as a variable that reflects right ventricular function.&#xD;
+&#xD;
+      Mitral Annular Plane Systolic Excursion (MAPSE): will be measured in the apical 4 chamber&#xD;
+      view using M-Mode, as a variable that reflects left ventricular function.&#xD;
+&#xD;
+      Right Ventricular Systolic Excursion (RV S'): will be measured in the apical 4 chamber view,&#xD;
+      using Tissue Velocity Imaging, as a variable that reflects right ventricular function.&#xD;
+&#xD;
+      Strain: Color Tissue Dopper Imaging is performed on the RV free wall, septum and LV free wall&#xD;
+      to study regional and global systolic function by means of strain.&#xD;
+&#xD;
+      Kerly B-Lines: B-lines will be investigated using pulmonary ultrasound following the BLUE&#xD;
+      protocol (Lichtenstein D.A. BLUE-protocol and FALLS-protocol: two applications of lung&#xD;
+      ultrasound in the critically ill. Chest 2015). More than 3 B-lines per view point will be&#xD;
+      considered abnormal and as a possible sign of pulmonary edema.&#xD;
+&#xD;
+      Inferior vena cava: the investigators will measure both diameter, obtained using CCUS just&#xD;
+      below the xiphoid process, and the Inferior Vena Cava Collapsibility Index (IVCCI), allowing&#xD;
+      analysis of fluid status.&#xD;
+&#xD;
+      Renal ultrasound: the kidney will be envisioned using the 4C abdominal probe. The kidney size&#xD;
+      will be measured in centimeters. Doppler will be used to analyze the renal resistive index&#xD;
+      (RI), venous impedance index (VII) and the intrarenal venous flow pattern (IRVF).&#xD;
+&#xD;
+      T=3 and T=4, respectively on day 3 and day 5 after admission, include the same variables from&#xD;
+      T=2&#xD;
+&#xD;
+      Data management:&#xD;
+&#xD;
+      Data will be recorded using OpenClinica and transferred for analysis. After export from&#xD;
+      OpenClinica, all data will be managed with Stata version 15 (StataCorp, College Station, TX)&#xD;
+      All study subjects will receive a study subject ID in line with the SOCCS. This study subject&#xD;
+      ID will be used in both OpenClinica and Stata. Only a researcher with 'study director'&#xD;
+      account properties in OpenClinica will be able to link study subject ID to patient number.&#xD;
+      Images will be saved anonymously and will be coded in a systematic fashion, using the study&#xD;
+      subject ID, session number, and image contents.&#xD;
+&#xD;
+      Sample size assessment:&#xD;
+&#xD;
+      As this is an observational and explorative study evaluating unknown associations, no exact&#xD;
+      sample size could be calculated. It is however estimated that around 900 subjects will be&#xD;
+      included based on admittance numbers and previous experience with SICS-I. Roughly 3000&#xD;
+      patients are admitted to the ICU in the UMCG each year, of which 50% (1500) is acutely&#xD;
+      admitted. It is expected that 70% (1050) of these unplanned admissions will fulfill the&#xD;
+      inclusion criteria. However, it will probably not be possible to include all eligible&#xD;
+      patients due to logistic and practical reasons. Therefore, the aim is to include at least 300&#xD;
+      patients each year, in total an estimated 900 patients during the entire study period. We&#xD;
+      have described overal statistical plan in the statistical analysis plan (SAP) of SICS-I.&#xD;
+&#xD;
+      Plan for missing data:&#xD;
+&#xD;
+      We will follow the steps proposed by Jakobsen et al and will first identify the mechanisms&#xD;
+      causing missing data: missing completely at random (MCAR), missing at random (MAR), and&#xD;
+      missing not at random (MNAR) [Jakobsen JC, Gluud C, Wetterslev J, Winkel P. When and how&#xD;
+      should multiple imputation be used for handling missing data in randomised clinical trials -&#xD;
+      a practical guide with flowcharts. BMC Med Res Methodol, 2017]. Missing values are MCAR when&#xD;
+      there is no correlation between the missing values and other observed data: a statistically&#xD;
+      insignificant Little's test (P&gt;0.05) confirms that the missing values are MCAR, and a&#xD;
+      significant test confirms a MAR or MNAR pattern in our missing values.&#xD;
+&#xD;
+      From our experiences with the SICS-I, we expect the data to be MAR. Therefore, we will&#xD;
+      conduct our primary analyses with imputation for missing data using multiple imputations&#xD;
+      (MI). A threshold of up to 50% missing data will be considered acceptable for use of MI.&#xD;
+      Robustness of conclusions will be checked by secondary sensitivity analyses including&#xD;
+      available data and imputation of worst-best and best-worst case scenarios covering also&#xD;
+      missing not at random (MNAR) scenarios. If our missing values are MCAR or missingness is only&#xD;
+      confined to the outcome variable, we will use complete case analysis for our primary&#xD;
+      analyses.&#xD;
+&#xD;
+      Statistical analysis plan:&#xD;
+&#xD;
+      The investigators will use the general characteristics to create a baseline table.&#xD;
+      Statistical analyses will be performed using the Stata 15 (StataCorp, College Station, TX).&#xD;
+      Data will be presented as means with standard deviation if normally distributed or as medians&#xD;
+      with ranges in case of skewed data. Categorical or dichotomous data will be presented as&#xD;
+      proportions with confidence intervals.&#xD;
+&#xD;
+      Univariate analyses will be conducted and all variables with p&lt;0.25 will be included in the&#xD;
+      multivariate models. Multivariate analyses will be conducted using forward stepwise&#xD;
+      regression by adding blocks of variables. All analyses will be adjusted for age and gender;&#xD;
+      other general characteristics will not be added to the model standardly. All analyses will be&#xD;
+      tested two-sided and p-values of less than 0.05 will be considered as statistical&#xD;
+      significant. Multiplicity issues will be addressed in our detailed SAP. Furthermore, we will&#xD;
+      assess the possibilities of Machine Learning.&#xD;
+&#xD;
+      Machine Learning (ML) is a branch of Artificial Intelligence which allows data scientists to&#xD;
+      design supervised or unsupervised algorithms to &quot;learn&quot; from generally large data samples by&#xD;
+      means of inference. ML was mostly used as method in gene analysis but since then&#xD;
+      possibilities have increased. It has been proven that ML may boost clinically-oriented&#xD;
+      research and the analysis of big data. Furthermore, the use of ML-based frameworks in&#xD;
+      critical care has been reported in several studies, using different types of data. This data&#xD;
+      can be obtained in different ways, with the most common being through bedside measurements,&#xD;
+      which is how most data within this research will be gathered.&#xD;
+&#xD;
+      The primary outcome of this study is mainly explorative because there is currently no&#xD;
+      consensus about which (combination of) variables to use to diagnose venous congestion. The&#xD;
+      aim is to define venous congestion after analysis of normal values and patterns within&#xD;
+      patients of the variables that reflect venous congestion. It is expected that then an&#xD;
+      algorithm can be generated to establish a cut-off for venous congestion. Longitudinal data&#xD;
+      analyses will be used to assess the differences in variables between different moments.&#xD;
+      Mortality will be modelled using multivariable logistic regression and survival analyses. A&#xD;
+      statistician will be consulted to further review the statistical analysis plan.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Completed</overall_status>
+  <start_date type="Actual">May 14, 2018</start_date>
+  <completion_date type="Actual">December 10, 2019</completion_date>
+  <primary_completion_date type="Actual">July 10, 2019</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>3 Months</target_duration>
+  <primary_outcome>
+    <measure>The combination of variables at different time points that indicate venous congestion and predict patient outcome in the critically ill.</measure>
+    <time_frame>7 days</time_frame>
+    <description>Venous congestion is not yet well defined. We measure multiple variables which, if combined, may indicate venous congestion. These variables will be analysed and used to compute a cut-offs for venous congestion. The primary outcome is the incidence of venous congestion, the course/trajectory of these variables throughout multiple measurements and its association with patient outcome. The variables that will be measured are obtained using critical care ultrasonography and include amongst others inferior caval vein collapsibility, kerly B-lines as sign of pulmonary edema and right ventricular function. All other variables are listed in the protocol and detailed description.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Short term organ failure</measure>
+    <time_frame>7 days</time_frame>
+    <description>All short term organ failure within the first seven days such as Acute Kidney Injury (defined by the KDIGO criteria) will be recorded.</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Short-term mortality</measure>
+    <time_frame>7 days</time_frame>
+    <description>Short term mortality and in hospital mortality will be recorded, including mortality reason, extracted from the electronic patient file</description>
+  </primary_outcome>
+  <primary_outcome>
+    <measure>Long term mortality</measure>
+    <time_frame>90 days</time_frame>
+    <description>Long term mortality will be acquired using the municipal personal records database 90 days after inclusion.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Ultrasonography variables that predict AKI</measure>
+    <time_frame>7 days</time_frame>
+    <description>To identify a combination of CCUS variables that precede serum creatine rises in patients who develop AKI after acute ICU admission {diagnostic}.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Predictors for short term organ failure</measure>
+    <time_frame>7 days</time_frame>
+    <description>To identify a combination of variables per organ system or subset of populations to predict short-term organ deterioration and mortality</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Predictors for long term mortality</measure>
+    <time_frame>90 days</time_frame>
+    <description>To identify a combination of variables over 48 hours of ICU admission that predict long-term outcome {prognostic}.</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Risk scores</measure>
+    <time_frame>90 days</time_frame>
+    <description>To validate multiple prognostic risk scores developed for critically ill ICU patients within our cohort. The risk scores that will be validated for our cohort include for example the SAPS, SOFA and APACHE scores.</description>
+  </secondary_outcome>
+  <enrollment type="Actual">1010</enrollment>
+  <condition>Critical Illness</condition>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        All acutely admitted critically ill patients that are eligible following our predefined in-&#xD;
+        and exclusion criteria.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Non-Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Emergency admission&#xD;
+&#xD;
+          -  Expected stay &gt; 24 hours&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  Age &lt; 18 years&#xD;
+&#xD;
+          -  Planned admission either after surgery or for other reasons&#xD;
+&#xD;
+          -  Unable to obtain informed consent, e.g. refusal, suicide attempts due to acute&#xD;
+             psychiatric 'derailment', mental retardation or a language barrier&#xD;
+&#xD;
+          -  Strict isolation due to contagious disease&#xD;
+&#xD;
+          -  Non-traumatic neurological reason for admission (i.e. after thrombolysis or&#xD;
+             spontaneous subarachnoid haemorrhage)&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>18 Years</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <location>
+    <facility>
+      <name>University Medical Center Groningen</name>
+      <address>
+        <city>Groningen</city>
+        <zip>9713GZ</zip>
+        <country>Netherlands</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Netherlands</country>
+  </location_countries>
+  <link>
+    <url>https://thesics.com/</url>
+    <description>Our research line website.</description>
+  </link>
+  <reference>
+    <citation>Hiemstra B, Koster G, Wiersema R, Hummel YM, van der Harst P, Snieder H, Eck RJ, Kaufmann T, Scheeren TWL, Perner A, Wetterslev J, de Smet AMGA, Keus F, van der Horst ICC; SICS Study Group. The diagnostic accuracy of clinical examination for estimating cardiac index in critically ill patients: the Simple Intensive Care Studies-I. Intensive Care Med. 2019 Feb;45(2):190-200. doi: 10.1007/s00134-019-05527-y. Epub 2019 Jan 31.</citation>
+    <PMID>30706120</PMID>
+  </reference>
+  <reference>
+    <citation>Wiersema R, Castela Forte JN, Kaufmann T, de Haas RJ, Koster G, Hummel YM, Koeze J, Franssen CFM, Vos ME, Hiemstra B, Keus F, van der Horst ICC. Observational Study Protocol for Repeated Clinical Examination and Critical Care Ultrasonography Within the Simple Intensive Care Studies. J Vis Exp. 2019 Jan 16;(143). doi: 10.3791/58802.</citation>
+    <PMID>30735183</PMID>
+  </reference>
+  <reference>
+    <citation>Hiemstra B, Eck RJ, Koster G, Wetterslev J, Perner A, Pettilä V, Snieder H, Hummel YM, Wiersema R, de Smet AMGA, Keus F, van der Horst ICC; SICS Study Group. Clinical examination, critical care ultrasonography and outcomes in the critically ill: cohort profile of the Simple Intensive Care Studies-I. BMJ Open. 2017 Sep 27;7(9):e017170. doi: 10.1136/bmjopen-2017-017170.</citation>
+    <PMID>28963297</PMID>
+  </reference>
+  <reference>
+    <citation>Wiersema R, Kaufmann T, van der Veen HN, de Haas RJ, Franssen CFM, Koeze J, van der Horst ICC, Keus F; SICS Study Group. Diagnostic accuracy of arterial and venous renal Doppler assessment for acute kidney injury in critically ill patients: A prospective study. J Crit Care. 2020 Oct;59:57-62. doi: 10.1016/j.jcrc.2020.05.012. Epub 2020 May 27.</citation>
+    <PMID>32526633</PMID>
+  </reference>
+  <reference>
+    <citation>Wiersema R, Jukarainen S, Eck RJ, Kaufmann T, Koeze J, Keus F, Pettilä V, van der Horst ICC, Vaara ST. Different applications of the KDIGO criteria for AKI lead to different incidences in critically ill patients: a post hoc analysis from the prospective observational SICS-II study. Crit Care. 2020 Apr 21;24(1):164. doi: 10.1186/s13054-020-02886-7.</citation>
+    <PMID>32316994</PMID>
+  </reference>
+  <verification_date>August 2020</verification_date>
+  <study_first_submitted>June 23, 2018</study_first_submitted>
+  <study_first_submitted_qc>June 23, 2018</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 5, 2018</study_first_posted>
+  <last_update_submitted>August 25, 2020</last_update_submitted>
+  <last_update_submitted_qc>August 25, 2020</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 27, 2020</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>University Medical Center Groningen</investigator_affiliation>
+    <investigator_full_name>Frederik Keus</investigator_full_name>
+    <investigator_title>Frederik Keus</investigator_title>
+  </responsible_party>
+  <keyword>Critical Illness</keyword>
+  <keyword>Acute Disease</keyword>
+  <keyword>Shock</keyword>
+  <keyword>Acute Kidney Injury</keyword>
+  <keyword>Ultrasonography</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Critical Illness</mesh_term>
+  </condition_browse>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+

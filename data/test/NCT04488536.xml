@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clinical_study rank="336">
+  <!-- This xml conforms to an XML Schema at:
+    https://clinicaltrials.gov/ct2/html/images/info/public.xsd -->
+  <required_header>
+    <download_date>ClinicalTrials.gov processed this data on March 04, 2022</download_date>
+    <link_text>Link to the current ClinicalTrials.gov record.</link_text>
+    <url>https://clinicaltrials.gov/show/NCT04488536</url>
+  </required_header>
+  <id_info>
+    <org_study_id>2020-01708</org_study_id>
+    <nct_id>NCT04488536</nct_id>
+  </id_info>
+  <brief_title>Management and Outcomes of Patients Admitted to Coronary Care Units, Depending on Degree of Frailty and Comorbidities</brief_title>
+  <official_title>Management and Outcomes of Patients Admitted to Coronary Care Units, Depending on Degree of Frailty and Comorbidities</official_title>
+  <sponsors>
+    <lead_sponsor>
+      <agency>Linkoeping University</agency>
+      <agency_class>Other</agency_class>
+    </lead_sponsor>
+  </sponsors>
+  <source>Linkoeping University</source>
+  <oversight_info>
+    <has_dmc>Yes</has_dmc>
+    <is_fda_regulated_drug>No</is_fda_regulated_drug>
+    <is_fda_regulated_device>No</is_fda_regulated_device>
+  </oversight_info>
+  <brief_summary>
+    <textblock>
+      Background Patients less than 80 years of age, who suffer a myocardial infarction (MI) are&#xD;
+      usually (&gt;90%) offered an early invasive strategy including coronary angiography possibly&#xD;
+      followed by intervention, preferably percutaneous coronary intervention (PCI). Among non&#xD;
+      ST-elevation myocardial infarction (NSTEMI) patients, 80 years of age or over, only&#xD;
+      approximately 40% receive an invasive approach in Sweden, since the majority are handled in a&#xD;
+      conservative way, i.e. with medical treatment only. Furthermore, as with pharmacological&#xD;
+      treatment, there is a large variation between Swedish counties regarding the choice of&#xD;
+      strategy for the treatment of elderly (80+) patients with NSTEMI with an even larger&#xD;
+      variation between acute hospitals ranging from 20% to 90 %.&#xD;
+&#xD;
+      The Swedish national guidelines for heart disease have emphasized that the patient's&#xD;
+      biological age, i.e. the patient's biological status and expected length of life, is crucial&#xD;
+      for decision-making. The Clinical Frailty Scale (CFS) is a global clinical measure of&#xD;
+      biological age, mixing co-morbidity, disability and cognitive impairment. The investigators&#xD;
+      have previously reported the potential importance of frailty for short-term (1 month) and&#xD;
+      medium-term outcome (1 year) in a NSTEMI population. However, published data on the role of&#xD;
+      frailty´s prognostic value, its capacity to predict adverse effects including complications,&#xD;
+      and the potential to guide clinical decision-making for elderly patients with myocardial&#xD;
+      infarction are scarce. Similarly, there is a lack of knowledge of how different patterns of&#xD;
+      comorbidity burden might influence rational decision-making.&#xD;
+&#xD;
+      Aims To explore the association between frailty and treatment patterns in cardiac care To&#xD;
+      study the association between outcomes and degree of frailty, with and without comprehensive&#xD;
+      adjustment for differences in baseline characteristics.&#xD;
+&#xD;
+      To study how treatment benefits for patients admitted to coronary care units differ in&#xD;
+      patients depending on comorbidities and frailty.&#xD;
+&#xD;
+      Hypothesis The investigators hypothesize that frailty is independently associated with worse&#xD;
+      outcomes, including mortality, readmissions and complications.&#xD;
+&#xD;
+      Methods and material An observational, register based, multicentre study. Inclusion criteria:&#xD;
+      Patients consecutively included in the Swedish Web-System for Enhancement and Development of&#xD;
+      Evidence-Based Care in Heart Disease Evaluated According to Recommended Therapies&#xD;
+      (SWEDEHEART) registry. Exclusion criteria: None.&#xD;
+&#xD;
+      SWEDEHEART is a national quality registry collecting information on all patients hospitalized&#xD;
+      with MI or suspected MI. All 72 Swedish hospitals with acute coronary care contribute with&#xD;
+      data. Briefly, information is collected prospectively about individual patients' medical&#xD;
+      history, treatment before admission, management during hospital stay, treatment at discharge,&#xD;
+      and diagnoses. Approximately 20.000 patients diagnosed with MI are included in this register&#xD;
+      per year. From January 1st 2020 frailty (CFS) is a mandatory variable in the registry.&#xD;
+      However, as a pilot project to ensure feasibility, five hospitals began to register frailty&#xD;
+      November 1st, 2017. For the investigators initial analyses data will be used from the pilot&#xD;
+      study to assess the association between CFS level and outcomes. The data extraction will be&#xD;
+      done by one of the monitors of the SWEDEHEART registry. After about two years the&#xD;
+      investigators will extract data prospectively entered into the registry.&#xD;
+&#xD;
+      The frailty instrument The crucial study instrument CFS is a 9-point scale. It has good&#xD;
+      predictive validity and prognostic power, is relying on clinical judgment, and is relatively&#xD;
+      easily used in clinical practice. Since the scale includes several degrees it can be&#xD;
+      considered to be particularly appropriate for risk stratification, and accordingly it has&#xD;
+      been used for this purpose. The investigators have got the instrument owner´s permission to&#xD;
+      use this scale.&#xD;
+&#xD;
+      The case record form (CRF) focus on demographic and clinical patient characteristics&#xD;
+      registered in the SWEDEHEART, particularly those which are supposed to be potential&#xD;
+      confounders when testing the hypothesis: chronological age, gender, cardiovascular risk,&#xD;
+      diabetes, heart failure, renal insufficiency, other co-morbidities, including the Charlson&#xD;
+      Comorbidity Index (CCI), previous MI, medications, ejection fraction, and the classification&#xD;
+      of MI. Cardiovascular risk will be assessed according to the Global Registry of Acute&#xD;
+      Coronary Events (GRACE) risk score (GRS). Results from echocardiography, ECGs, laboratory&#xD;
+      testing and registration of anthropometric data will be included according to routine&#xD;
+      practice within the frame of SWEDEHEART.&#xD;
+&#xD;
+      Follow-up of cohorts of invasively or conservatively treated patients with different stages&#xD;
+      of frailty will be done one, three, six, 12, 24 and 36 months after the inclusion point&#xD;
+      respectively.&#xD;
+    </textblock>
+  </brief_summary>
+  <detailed_description>
+    <textblock>
+      Background In Western countries the numbers of elderly patients are increasing. Although many&#xD;
+      elderly individuals are healthy, the number of individuals with complex needs for health care&#xD;
+      is large and growing. Patients less than 80 years of age, who suffer a myocardial infarction&#xD;
+      are usually offered an early invasive strategy including coronary angiography possibly&#xD;
+      followed by intervention, preferably percutaneous coronary intervention (PCI). Among non&#xD;
+      ST-elevation myocardial infarction (NSTEMI) patients, 80 years of age or over, only&#xD;
+      approximately 40% receive an invasive approach in Sweden, since the majority are handled in a&#xD;
+      conservative way, i.e. with medical treatment only. Furthermore, as with pharmacological&#xD;
+      treatment, there is a large variation between Swedish counties regarding the choice of&#xD;
+      strategy for the treatment of elderly (80+) patients with NSTEMI with an even larger&#xD;
+      variation between acute hospitals ranging from 20% to 90 %.&#xD;
+&#xD;
+      The Swedish national guidelines for heart disease have emphasized that the patient's&#xD;
+      biological age, i.e. the patient's biological status and expected length of life, is crucial&#xD;
+      for decision-making, though there is limited guidance regarding how the biological age should&#xD;
+      be estimated.The term frailty denotes a multi-dimensional syndrome characterized by increased&#xD;
+      vulnerability and decreased physiologic reserves, which can be seen as a marker of biological&#xD;
+      age.&#xD;
+&#xD;
+      The Canadian Study of Health and Ageing (CSHA) Clinical Frailty Scale (CFS) is a global&#xD;
+      clinical measure of biological age, mixing co-morbidity, disability and cognitive impairment.&#xD;
+      The CFS might be the most commonly used frailty instrument in an acute care context. The&#xD;
+      investigators have previously reported the potential importance of frailty for short-term (1&#xD;
+      month) and medium-term outcome (1 year) in a NSTEMI population. However, published data on&#xD;
+      the role of frailty´s prognostic value, its capacity to predict adverse effects including&#xD;
+      complications, and the potential to guide clinical decision-making for elderly patients with&#xD;
+      myocardial infarction are scarce, particularly regarding longer-term outcomes.Similarly,&#xD;
+      there is a lack of knowledge of how different patterns of comorbidity burden, e.g. measured&#xD;
+      by a well-established index like the Charlson Comorbidity Index (CCI) might influence&#xD;
+      rational decision-making. Particularly this might be true regarding the combination of&#xD;
+      frailty and comorbidity.&#xD;
+&#xD;
+      The large variation in the management of these patients shows that there is need for further&#xD;
+      studies within this area in order to determine which treatment one should chose, whether it&#xD;
+      be invasive or conservative, in different groups.&#xD;
+&#xD;
+      Aims To explore the association between frailty and treatment patterns in cardiac care To&#xD;
+      study the association between outcomes and degree of frailty, with and without comprehensive&#xD;
+      adjustment for differences in baseline characteristics.&#xD;
+&#xD;
+      To study how treatment benefits for patients admitted to coronary care units differ in&#xD;
+      patients depending on comorbidities and frailty.&#xD;
+&#xD;
+      Hypothesis The investigators hypothesize that frailty is independently associated with worse&#xD;
+      outcomes, including mortality, readmissions and complications.&#xD;
+&#xD;
+      The investigators also hypothesize that frailty influences the benefit-risk ratio for&#xD;
+      pharmacological therapies and invasive treatments.&#xD;
+&#xD;
+      Methods and material An observational, register based, multicentre study. Inclusion criteria:&#xD;
+      Patients consecutively included in the SWEDEHEART registry. Exclusion criteria: None.&#xD;
+&#xD;
+      SWEDEHEART is a national quality registry collecting information on all patients hospitalized&#xD;
+      with MI or suspected MI. All 72 Swedish hospitals with acute coronary care contribute with&#xD;
+      data. Briefly, information is collected prospectively about individual patients' medical&#xD;
+      history, treatment before admission, management during hospital stay, treatment at discharge,&#xD;
+      and diagnoses. Approximately 20.000 patients diagnosed with MI are included in this register&#xD;
+      per year. From January 1st 2020 frailty (CFS) is a mandatory variable in the registry.&#xD;
+      However, as a pilot project to ensure feasibility, five hospitals began to register frailty&#xD;
+      November 1st, 2017. These include three university hospitals: the Huddinge-Karolinska&#xD;
+      Hospital, the Linköping University Hospital and the Sahlgrenska Hospital, and two large&#xD;
+      county hospitals: The NAL-Uddevalla (NU) Hospital and Gavle Hospital. For the investigators&#xD;
+      initial analyses data will be used from the pilot study to assess the association between CFS&#xD;
+      level and outcomes. The data extraction will be done by one of the monitors of the SWEDEHEART&#xD;
+      registry. After about two years the investigators will extract data prospectively entered&#xD;
+      into the registry. By use of the Swedish unique personal identification numbers (PIN) data&#xD;
+      from the SWEDEHAERT will be merged with data from the National cause of death registry in&#xD;
+      order to obtain information on mortality and cause of death, with the National patient&#xD;
+      registry, a comprehensive national register of the consumption of inpatient hospital care&#xD;
+      maintained by the Swedish National Board of Health and Welfare, to obtain information on&#xD;
+      comorbidity and outcomes, with the Swedish prescribed drugs registry to obtain information on&#xD;
+      collected drugs and from Statistics Sweden information on socio-economic factors and country&#xD;
+      of birth. After data extraction, merging PINs will be removed and all statistical analyses&#xD;
+      will be performed on de-identified data.&#xD;
+&#xD;
+      The frailty instrument The crucial study instrument CFS is a 9-point scale, derived from the&#xD;
+      deficit of accumulation model of frailty, and it has been validated against the Frailty&#xD;
+      Index. It has good predictive validity and prognostic power, is relying on clinical judgment,&#xD;
+      and is relatively easily used in clinical practice, see the attached document Clinical&#xD;
+      Frailty Scale. Since the scale includes several degrees it can be considered to be&#xD;
+      particularly appropriate for risk stratification, and accordingly it has been used for this&#xD;
+      purpose. The investigators have got the instrument owner´s permission to use this scale.&#xD;
+&#xD;
+      The evaluation of the patient's degree of frailty will be based on bedside judgment&#xD;
+      undertaken preferably by registered nurses regarding frailty and other clinical information&#xD;
+      including the records in the patient file. The inter-rater reliability among a sample of&#xD;
+      frailty-assessing nurses will be pragmatically assessed before the study start, see&#xD;
+      Statistics. During the study there will be several support functions in order to enhance the&#xD;
+      validity and reliability of the judgments: a manual and an instruction film on the frailty&#xD;
+      assessment via CFS has been developed by a focus group including cardiological and geriatric&#xD;
+      expertise; there will be instructions on how to assess frailty on the homepage of SWEDEHEART;&#xD;
+      and five trained SWEDEHEART nurses will function as monitors and support for the local&#xD;
+      assessing nurses, as will the mentioned expert group.&#xD;
+&#xD;
+      The CRF focus on demographic and clinical patient characteristics registered in the&#xD;
+      SWEDEHEART, particularly those which are supposed to be potential confounders when testing&#xD;
+      the hypothesis: chronological age, gender, cardiovascular risk, diabetes, heart failure,&#xD;
+      renal insufficiency, other co-morbidities, including the Charlson Comorbidity Index (CCI),&#xD;
+      previous MI, medications, ejection fraction, and the classification of MI. Cardiovascular&#xD;
+      risk will be assessed according to the Global Registry of Acute Coronary Events (GRACE) risk&#xD;
+      score (GRS).&#xD;
+&#xD;
+      Results from echocardiography, ECGs, laboratory testing and registration of anthropometric&#xD;
+      data will be included according to routine practice within the frame of SWEDEHEART.&#xD;
+&#xD;
+      Follow-up of cohorts of invasively or conservatively treated patients with different stages&#xD;
+      of frailty will be done one, three, six, 12, 24 and 36 months after the inclusion point&#xD;
+      respectively.&#xD;
+    </textblock>
+  </detailed_description>
+  <overall_status>Active, not recruiting</overall_status>
+  <start_date type="Actual">July 29, 2020</start_date>
+  <completion_date type="Anticipated">December 2023</completion_date>
+  <primary_completion_date type="Anticipated">December 2021</primary_completion_date>
+  <study_type>Observational [Patient Registry]</study_type>
+  <has_expanded_access>No</has_expanded_access>
+  <study_design_info>
+    <observational_model>Cohort</observational_model>
+    <time_perspective>Prospective</time_perspective>
+  </study_design_info>
+  <target_duration>3 Years</target_duration>
+  <primary_outcome>
+    <measure>Mortality rate by 6 months after inclusion.</measure>
+    <time_frame>6 months after inclusion</time_frame>
+    <description>Mortality rate (death from any cause) by 6 months after inclusion.</description>
+  </primary_outcome>
+  <secondary_outcome>
+    <measure>Mortality rates up to 36 months after inclusion.</measure>
+    <time_frame>3-36 months after inclusion</time_frame>
+    <description>Mortality rates (death from any cause) up to 36 months after inclusion (measured at 3, 12, 24, 36 months)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Rates of readmissions and complications up to 36 months after inclusion.</measure>
+    <time_frame>3-36 months after inclusion</time_frame>
+    <description>Rates of readmissions, re-infarctions, major bleedings and other complications up to 36 months after inclusion (measured at 3, 12, 24, 36 months)</description>
+  </secondary_outcome>
+  <secondary_outcome>
+    <measure>Description of treatment patterns including medications and invasive strategies from admission to hospital (inclusion) to discharge from hospital (index care hospital episode)</measure>
+    <time_frame>From admission to hospital (inclusion) up to 36 months after inclusion</time_frame>
+    <description>Percentage (%) of patients receiving evidence based medications during the index care hospital episode Percentage (%) of patients receiving evidence based interventions during the index care hospital episode</description>
+  </secondary_outcome>
+  <number_of_groups>2</number_of_groups>
+  <enrollment type="Anticipated">10000</enrollment>
+  <condition>Myocardial Infarction</condition>
+  <condition>Frailty</condition>
+  <arm_group>
+    <arm_group_label>Frail patients</arm_group_label>
+    <description>Clinical Frailty Scale level 5-9</description>
+  </arm_group>
+  <arm_group>
+    <arm_group_label>Nonfrail patients</arm_group_label>
+    <description>Clinical Frailty Scale level 1-4</description>
+  </arm_group>
+  <intervention>
+    <intervention_type>Diagnostic Test</intervention_type>
+    <intervention_name>Clinical Frailty Scale</intervention_name>
+    <description>Frailty assessment</description>
+    <arm_group_label>Frail patients</arm_group_label>
+    <arm_group_label>Nonfrail patients</arm_group_label>
+  </intervention>
+  <eligibility>
+    <study_pop>
+      <textblock>
+        SWEDEHEART is a national quality registry, which collects information on all patients&#xD;
+        hospitalized with MI or suspected MI. All 72 Swedish hospitals with acute coronary care&#xD;
+        contribute with data. From January 1st 2020 Clinical Frailty Scale, the 9-degree-version&#xD;
+        (CFS-9) is a mandatory variable in the registry. However, as a pilot project to ensure&#xD;
+        feasibility, five hospitals began to register frailty November 1st, 2017. Inclusion&#xD;
+        criteria: patients consecutively included in the SWEDEHEART registry from November 1, 2017.&#xD;
+        Exklusion criteria: none.&#xD;
+      </textblock>
+    </study_pop>
+    <sampling_method>Probability Sample</sampling_method>
+    <criteria>
+      <textblock>
+        Inclusion Criteria:&#xD;
+&#xD;
+          -  Patients consecutively included in the SWEDEHEART registry from November 1, 2017.&#xD;
+&#xD;
+        Exclusion Criteria:&#xD;
+&#xD;
+          -  None.&#xD;
+      </textblock>
+    </criteria>
+    <gender>All</gender>
+    <minimum_age>N/A</minimum_age>
+    <maximum_age>N/A</maximum_age>
+    <healthy_volunteers>No</healthy_volunteers>
+  </eligibility>
+  <overall_official>
+    <last_name>Niklas Ekerstad, MD, PhD</last_name>
+    <role>Principal Investigator</role>
+    <affiliation>Linkoeping University</affiliation>
+  </overall_official>
+  <location>
+    <facility>
+      <name>The Center for Medical Technology Assessment/IMH, Linkoeping University</name>
+      <address>
+        <city>Linköping</city>
+        <state>Oestergoetland</state>
+        <zip>58183</zip>
+        <country>Sweden</country>
+      </address>
+    </facility>
+  </location>
+  <location>
+    <facility>
+      <name>Linkoeping University Hospital</name>
+      <address>
+        <city>Linköping</city>
+        <state>Ostergoetland</state>
+        <country>Sweden</country>
+      </address>
+    </facility>
+  </location>
+  <location_countries>
+    <country>Sweden</country>
+  </location_countries>
+  <verification_date>August 2021</verification_date>
+  <study_first_submitted>July 16, 2020</study_first_submitted>
+  <study_first_submitted_qc>July 25, 2020</study_first_submitted_qc>
+  <study_first_posted type="Actual">July 28, 2020</study_first_posted>
+  <last_update_submitted>August 30, 2021</last_update_submitted>
+  <last_update_submitted_qc>August 30, 2021</last_update_submitted_qc>
+  <last_update_posted type="Actual">August 31, 2021</last_update_posted>
+  <responsible_party>
+    <responsible_party_type>Principal Investigator</responsible_party_type>
+    <investigator_affiliation>Linkoeping University</investigator_affiliation>
+    <investigator_full_name>Niklas Ekerstad</investigator_full_name>
+    <investigator_title>Associate professor</investigator_title>
+  </responsible_party>
+  <keyword>Myocardial infarction</keyword>
+  <keyword>Frailty assessment</keyword>
+  <keyword>Clinical Frailty Scale</keyword>
+  <keyword>Predictive power</keyword>
+  <keyword>Mortality</keyword>
+  <condition_browse>
+    <!-- CAUTION:  The following MeSH terms are assigned with an imperfect algorithm            -->
+    <mesh_term>Myocardial Infarction</mesh_term>
+    <mesh_term>Infarction</mesh_term>
+    <mesh_term>Frailty</mesh_term>
+  </condition_browse>
+  <patient_data>
+    <sharing_ipd>No</sharing_ipd>
+  </patient_data>
+  <!-- Results have not yet been posted for this study                                          -->
+</clinical_study>
+
