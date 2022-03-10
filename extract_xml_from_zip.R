@@ -9,15 +9,21 @@ home = getwd()
 
 # review files in zipped folder
 all_results = unzip('Z:/clinicaltrials/AllPublicXML.zip',list=TRUE) %>% data.frame() %>%
-  filter(Name!='Contents.txt') %>% mutate(FileName = gsub(".*/","",Name))
+  filter(Name!='Contents.txt') %>% mutate(FileName = gsub(".*/","",Name),
+                                          FolderName = gsub("/.*","",Name))
 
-#take random sample to download (10% of all records)
-n = floor(0.1*nrow(all_results)) 
-sample_results = sample_n(all_results,n)
+#choose a folder at random
+sample_folder = distinct(all_results,FolderName) %>% sample_n(1) %>% pull()
+sample_files = filter(all_results,FolderName==sample_folder) %>% pull(Name)
+
+
+start_time = Sys.time()
+unzip('Z:/clinicaltrials/AllPublicXML.zip',files=sample_files,exdir = "Z:/clinicaltrials/data/")
+end_time = Sys.time()
 
 #extract relevant information to store in a combined data.frame
 studies = NULL
-for (k in 1:n){
+for (k in seq_along(sample_files)){
   cat('Processing record ID ', gsub('(.*)/','',sample_results[k,"Name"]), '\n',sep='') # progress
   
 result = getXMLrecord_zip(FilePath = sample_results[k,"Name"])

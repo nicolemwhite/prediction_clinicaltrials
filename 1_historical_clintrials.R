@@ -6,28 +6,28 @@ source('99_packages.R')
 source('99_functions.R')
 
 load('data/processed_studies_test.rda')
-# get the trials already done
-to_load = dir('data', pattern='history')
-all_data = NULL
-for (file in to_load){
-  load(paste('data/', file, sep='')) # from this program
-  all_data = bind_rows(all_data, data)
-}
-
-if(!is.null(all_data)){
-  already_done = select(all_data, id) %>%
-    unique() %>%
-    pull(id)
-  
-  studies = filter(studies, !id %in% already_done)
-}
+# # get the trials already done
+# to_load = dir('data', pattern='history')
+# all_data = NULL
+# for (file in to_load){
+#   load(paste('xml_folder', file, sep='/')) 
+#   all_data = bind_rows(all_data, data)
+# }
+# 
+# if(!is.null(all_data)){
+#   already_done = select(all_data, id) %>%
+#     unique() %>%
+#     pull(id)
+#   
+#   studies = filter(studies, !id %in% already_done)
+# }
 
 
 data = NULL
 start = 1
 stop = min(nrow(studies),1000)
 
-for (k in start:stop){
+for (k in 101:stop){
   # get the web page of the study's history
   url_start = 'https://clinicaltrials.gov/ct2/history/'
   url = paste(url_start, studies$id[k], sep='')

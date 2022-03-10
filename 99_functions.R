@@ -335,7 +335,7 @@ site_search <- function(url, destfile) {
 #new files to extract from mega zipped file of all records
 getXMLrecord_zip <- function(FilePath){
    study_record <- unz('Z:/clinicaltrials/AllPublicXML.zip', FilePath)
-   go <- readLines(study_record)
+   go <- read_xml(study_record)
    on.exit(close(study_record))
    data <- xmlParse(go)
    xml_data <- xmlToList(data) 

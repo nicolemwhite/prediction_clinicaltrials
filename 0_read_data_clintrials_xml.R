@@ -100,7 +100,7 @@ for (f in 1:N){ # should be 1:N
 
 # save 
 setwd(home)
-save(studies, xml_folder, date_run,file='processed_studies_test.rda')
+save(studies, xml_folder, date_run,file='data/processed_studies_test.rda')
 # 
 # #Not run:
 # #create additional columns to identify which search terms were found in each record
