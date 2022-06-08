@@ -1,0 +1,74 @@
+---
+title: "search-strategy"
+author: "Rex Parsons"
+date: "`r Sys.Date()`"
+output: rmarkdown::github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(naniar)
+```
+
+
+```{r}
+load(file='data/all_studies.rda')
+```
+
+### list() in `primary_outcome_description` and `secondary_outcome_description` represent missing fields. 
+They are the content below the outcome measures in the registration. Here, I clean up the character cols and remove these "list()" before assessing missingness. Then, since these descriptions appear to only be more verbose versions of the `[primary/secondary]_outcome_measures`, I concatenate them together and drop the old column.
+
+```{r}
+head(dat, 20) %>% 
+  select(primary_outcome_measures, primary_outcome_description, 
+         secondary_outcome_measures, secondary_outcome_description) %>%
+  knitr::kable()
+
+dat_cleaned <- dat %>%
+  mutate(
+    across( # remove all the 'list()'s from outcome descriptions
+      c("secondary_outcome_description", "primary_outcome_description"),
+      function(x) str_remove_all(x, "list\\(\\)")
+    ),
+    across(where(is.character), str_trim), # remove white space
+    across(where(is.character), function(x) ifelse(nchar(x) == 0, NA, x) ) # replace empty character fields with NA
+  )
+
+head(dat_cleaned, 20) %>% 
+  select(primary_outcome_measures, primary_outcome_description, 
+         secondary_outcome_measures, secondary_outcome_description) %>%
+  knitr::kable()
+```
+
+# visualise the missingness
+
+```{r}
+n_sample <- 10000
+df_sample <- dat_cleaned[sample(1:nrow(dat_cleaned), size=n_sample, replace=FALSE), ]
+```
+
+Lots of missingness in `last_known_status`. This variable is only ever complete when `overall_status == "Unknown status"`
+
+```{r}
+vis_miss(df_sample)
+gg_miss_fct(x = select(df_sample, overall_status, last_known_status), fct = overall_status)
+```
+
+Other vars with relatively high amounts of missingness (ignoring `[primary/secondary]_outcome_description`) include:
+
+* keywords
+* detailed_summary
+* study_design_purpose
+* study_design_allocation
+
+```{r}
+df_sample2 <- select(df_sample, -last_known_status)
+gg_miss_upset(df_sample2, nsets=10)
+gg_miss_var(df_sample2, show_pct = TRUE)
+```
+
+
