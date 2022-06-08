@@ -71,4 +71,99 @@ gg_miss_upset(df_sample2, nsets=10)
 gg_miss_var(df_sample2, show_pct = TRUE)
 ```
 
+# Experiment with some search-strategies
+
+Concatenate outcome descriptions to measures, and drop the descriptions cols
+```{r}
+n_sample <- 1000
+dat_search <- dat_cleaned[sample(1:nrow(dat_cleaned), size=n_sample, replace=FALSE), ] 
+# dat_search <- dat_cleaned # don't use sample sample later
+
+
+dat_search2 <- dat_search %>%
+  # concatenate primary and secondary outcome measures and descriptions
+  mutate(
+    across(
+      c("primary_outcome_measures", "primary_outcome_description",
+        "secondary_outcome_measures", "secondary_outcome_description"),
+      ~replace_na(., "")
+    ),
+    primary_outcome = str_c(primary_outcome_measures, '; ', primary_outcome_description),
+    secondary_outcome = str_c(secondary_outcome_measures, '; ', secondary_outcome_description)
+  ) %>%
+  select(
+    -c("primary_outcome_measures", "primary_outcome_description",
+       "secondary_outcome_measures", "secondary_outcome_description")
+  ) %>%
+  # concatenate official_title with brief_title, and brief_summary with detailed_summary
+  mutate(
+    across(
+      c("official_title", "brief_title",
+        "brief_summary", "detailed_summary"),
+      ~replace_na(., "")
+    ),
+    title=str_c(official_title, '; ', brief_title),
+    summary=str_c(brief_summary, '; ', detailed_summary)
+  ) %>%
+  select(
+    -c("official_title", "brief_title",
+       "brief_summary", "detailed_summary")
+  )
+
+```
+
+# functions to apply search strategies
+```{r}
+to_lower_all <- function(data, apply=TRUE) {
+  if(apply) {
+    data %>% 
+      mutate(across(everything(), tolower))
+  } else {
+    data
+  }
+}
+
+fx_check_regex <- function(data, cols, pattern, indicator_colname, apply_to_lower=TRUE) {
+  match_vec <- data %>%
+    select(all_of(cols)) %>%
+    to_lower_all(., apply=apply_to_lower) %>%
+    mutate(across(
+      cols, 
+      function(x) str_detect(x, pattern=pattern)
+      )) %>%
+    rowSums > 0
+  
+  if(indicator_colname %in% names(data)) {
+    data[[indicator_colname]] <- (data[[indicator_colname]] + match_vec) > 0
+  } else {
+    data[[indicator_colname]] <- match_vec > 0
+  }
+  data
+}
+
+# test example to show that piping and updating existing 'indicator_column' works
+example_df <- data.frame(
+  abstract = c("chest pain", "Chest pain", "angina", "prediction model"),
+  title = c("test1", "test2", "chest pain in ...", "angina")
+)
+
+example_df %>%
+  fx_check_regex(cols="abstract", pattern="chest pain", apply_to_lower = FALSE, indicator_colname = "heart_disease")
+
+example_df %>%
+  fx_check_regex(cols="abstract", pattern="chest pain", indicator_colname = "heart_disease")
+
+example_df %>%
+  fx_check_regex(cols=c("abstract", "title"), pattern="chest pain", indicator_colname = "heart_disease")
+
+example_df %>%
+  fx_check_regex(cols=c("abstract", "title"), pattern="angina", indicator_colname = "heart_disease")
+
+example_df %>%
+  fx_check_regex(cols=c("abstract", "title"), pattern="angina", indicator_colname = "heart_disease") %>%
+  fx_check_regex(cols=c("abstract", "title"), pattern="chest pain", indicator_colname = "heart_disease") %>%
+  fx_check_regex(cols=c("abstract", "title"), pattern="prediction model", indicator_colname = "clinical_prediction_model") %>%
+  mutate(include=heart_disease & clinical_prediction_model)
+
+```
 
