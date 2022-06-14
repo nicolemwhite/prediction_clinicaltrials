@@ -216,6 +216,7 @@ dat_categories %>%
   filter(value) %>%
   group_by(id) %>%
   summarize(type=paste0(name, collapse="; ")) %>%
+  left_join(select(dat_categories, id), .) %>%
   plyr::count("type")
 
 ```

@@ -323,11 +323,15 @@ dat_categories %>%
   filter(value) %>%
   group_by(id) %>%
   summarize(type=paste0(name, collapse="; ")) %>%
+  left_join(select(dat_categories, id), .) %>%
   plyr::count("type")
 ```
+
+    ## Joining, by = "id"
 
     ##                      type freq
     ## 1             development 1050
     ## 2     development; impact    1
     ## 3 development; validation   45
     ## 4              validation   11
+    ## 5                    <NA>  941
