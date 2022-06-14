@@ -75,9 +75,9 @@ gg_miss_var(df_sample2, show_pct = TRUE)
 
 Concatenate outcome descriptions to measures, and drop the descriptions cols
 ```{r}
-n_sample <- 1000
-dat_search <- dat_cleaned[sample(1:nrow(dat_cleaned), size=n_sample, replace=FALSE), ] 
-# dat_search <- dat_cleaned # don't use sample sample later
+# n_sample <- 1000
+# dat_search <- dat_cleaned[sample(1:nrow(dat_cleaned), size=n_sample, replace=FALSE), ] 
+dat_search <- dat_cleaned # don't use sample sample later
 
 
 dat_search2 <- dat_search %>%
@@ -147,17 +147,17 @@ example_df <- data.frame(
   title = c("test1", "test2", "chest pain in ...", "angina")
 )
 
-example_df %>%
-  fx_check_regex(cols="abstract", pattern="chest pain", apply_to_lower = FALSE, indicator_colname = "heart_disease")
-
-example_df %>%
-  fx_check_regex(cols="abstract", pattern="chest pain", indicator_colname = "heart_disease")
-
-example_df %>%
-  fx_check_regex(cols=c("abstract", "title"), pattern="chest pain", indicator_colname = "heart_disease")
-
-example_df %>%
-  fx_check_regex(cols=c("abstract", "title"), pattern="angina", indicator_colname = "heart_disease")
+# example_df %>%
+#   fx_check_regex(cols="abstract", pattern="chest pain", apply_to_lower = FALSE, indicator_colname = "heart_disease")
+# 
+# example_df %>%
+#   fx_check_regex(cols="abstract", pattern="chest pain", indicator_colname = "heart_disease")
+# 
+# example_df %>%
+#   fx_check_regex(cols=c("abstract", "title"), pattern="chest pain", indicator_colname = "heart_disease")
+# 
+# example_df %>%
+#   fx_check_regex(cols=c("abstract", "title"), pattern="angina", indicator_colname = "heart_disease")
 
 example_df %>%
   fx_check_regex(cols=c("abstract", "title"), pattern="angina", indicator_colname = "heart_disease") %>%
@@ -167,3 +167,55 @@ example_df %>%
 
 ```
 
+search cols:
+
+* summary
+* title
+* primary_outcome
+* secondary_outcome
+
+target approx n=1000 included studies = 0.25%
+
+```{r}
+# n_sample <- 100000
+# dat_search3 <- dat_search2[sample(1:nrow(dat_search2), size=n_sample, replace=F),]
+dat_search3 <- dat_search2
+# head(dat_search3)
+
+all_cols <- c("summary", "title", "primary_outcome", "secondary_outcome")
+
+dat_search_results <- 
+  dat_search3 %>% 
+  fx_check_regex(cols=all_cols, pattern="prediction model", indicator_colname = "cpm") %>% 
+  fx_check_regex(cols=all_cols, pattern="risk score", indicator_colname = "cpm") %>% 
+  fx_check_regex(cols=all_cols, pattern="prognostic model", indicator_colname = "cpm") %>%
+  fx_check_regex(cols=all_cols, pattern="diagnostic model", indicator_colname = "cpm") %>%
+  mutate(include=cpm) %>%
+  filter(include==TRUE) 
+
+dat_search_results %>%
+  summarize(
+    included_n = sum(include==TRUE),
+    included_perc = scales::percent(included_n/nrow(dat_search3), accuracy=0.01)
+  )
+
+write.csv(dat_search_results, "data/included_studies.csv", row.names=FALSE)
+```
+
+### Check the proportion that mention "development" vs "external validation" vs "impact study"
+```{r}
+dat_categories <- 
+  dat_search_results %>%
+  fx_check_regex(cols=all_cols, pattern="develo[a-z]*", indicator_colname = "development") %>% 
+  fx_check_regex(cols=all_cols, pattern="externa[a-z]* validat[a-z]*", indicator_colname = "validation") %>% 
+  fx_check_regex(cols=all_cols, pattern="impact study", indicator_colname = "impact") 
+
+dat_categories %>%
+  select(id, development:impact) %>%
+  pivot_longer(!id) %>%
+  filter(value) %>%
+  group_by(id) %>%
+  summarize(type=paste0(name, collapse="; ")) %>%
+  plyr::count("type")
+
+```
