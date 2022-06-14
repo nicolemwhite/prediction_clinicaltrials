@@ -202,6 +202,74 @@ dat_search_results %>%
 write.csv(dat_search_results, "data/included_studies.csv", row.names=FALSE)
 ```
 
+Try search strings from Nicole
+```{r}
+
+prediction_model_terms <- c(
+  "machine learning","artificial intelligence","deep learning",
+  "prediction model","predictive model","prediction score","predictive score",
+  "warning score","risk score","risk prediction",
+  "prognostic model","diagnostic model"
+) %>% 
+  str_c(collapse='|')
+
+diagnostic_terms <- c("diagnose","diagnosis","diagnostic") %>% 
+  str_c(collapse='|')
+
+prognostic_terms <- c("prognosis","prognostic") %>% 
+  str_c(collapse='|')
+
+df_matches <- 
+  dat_search3 %>% 
+  fx_check_regex(cols=all_cols, pattern=prediction_model_terms, indicator_colname="cpm") %>%
+  fx_check_regex(cols=all_cols, pattern=diagnostic_terms, indicator_colname="cpm_type_diagnostic") %>%
+  fx_check_regex(cols=all_cols, pattern=prognostic_terms, indicator_colname="cpm_type_prognostic") %>%
+  fx_check_regex(cols=all_cols, pattern="develo[a-z]*", indicator_colname="study_type_development") %>%
+  fx_check_regex(cols=all_cols, pattern="externa[a-z]* validat[a-z]*", indicator_colname="study_type_validation") %>%
+  fx_check_regex(cols=all_cols, pattern="impact study", indicator_colname="study_type_impact")
+
+
+df_matches2 <- 
+  df_matches %>%
+  select(id, starts_with("cpm_type")) %>%
+  pivot_longer(starts_with("cpm_type"), names_transform = function(x) str_remove(x, "cpm_type_")) %>%
+  filter(value) %>%
+  group_by(id) %>%
+  summarize(cpm_model_type = paste0(name, collapse="; ")) %>%
+  left_join(select(df_matches, id, cpm), .)
+
+
+df_matches3 <- 
+  df_matches %>%
+  select(id, starts_with("study_type_")) %>%
+  pivot_longer(starts_with("study_type_"), names_transform = function(x) str_remove(x, "study_type_")) %>%
+  filter(value) %>%
+  group_by(id) %>%
+  summarize(cpm_study_type = paste0(name, collapse="; ")) %>%
+  left_join(select(df_matches2, id, cpm, cpm_model_type), .) 
+
+write.csv(df_matches3, "data/study_groupings.csv", row.names=F)
+```
+## Sankey plot
+note: might swap to geom_flow() if we think percentages would be useful 
+https://stackoverflow.com/questions/64146971/sankey-alluvial-diagram-with-percentage-and-partial-fill-in-r
+```{r}
+library(ggsankey)
+df_matches3 %>%
+  filter(cpm) %>%
+  mutate(across(everything(), function(x) ifelse(is.na(x), "UNKNOWN", x) )) %>%
+  make_long(cpm_model_type,cpm_study_type) %>%
+  ggplot(aes(
+    x=x, next_x=next_x, node=node, next_node=next_node, 
+    fill=factor(node),label = node
+  )) +
+  geom_sankey(flow.alpha = 0.6) +
+  geom_sankey_label() +
+  theme_sankey(base_size = 16) +
+  theme(legend.position = "none") +
+  labs(x="")
+```
+
 ### Check the proportion that mention "development" vs "external validation" vs "impact study"
 ```{r}
 dat_categories <- 
