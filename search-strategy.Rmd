@@ -11,6 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 library(tidyverse)
+library(lubridate)
 library(naniar)
 ```
 
@@ -35,7 +36,8 @@ dat_cleaned <- dat %>%
       function(x) str_remove_all(x, "list\\(\\)")
     ),
     across(where(is.character), str_trim), # remove white space
-    across(where(is.character), function(x) ifelse(nchar(x) == 0, NA, x) ) # replace empty character fields with NA
+    across(where(is.character), function(x) ifelse(nchar(x) == 0, NA, x) ), # replace empty character fields with NA,
+    across(submitted:updated, function(x) as.Date.character(x, format="%B %d, %Y"))
   )
 
 head(dat_cleaned, 20) %>% 
@@ -199,7 +201,7 @@ dat_search_results %>%
     included_perc = scales::percent(included_n/nrow(dat_search3), accuracy=0.01)
   )
 
-write.csv(dat_search_results, "data/included_studies.csv", row.names=FALSE)
+# write.csv(dat_search_results, "data/included_studies.csv", row.names=FALSE)
 ```
 
 Try search strings from Nicole
@@ -249,6 +251,37 @@ df_matches3 <-
   left_join(select(df_matches2, id, cpm, cpm_model_type), .) 
 
 write.csv(df_matches3, "data/study_groupings.csv", row.names=F)
+
+```
+
+
+### Write data out in a way that can be imported to rayyan
+```{r}
+filter(df_matches3, cpm) %>%
+  left_join(., dat_search3) %>% 
+  # head(100) %>% 
+  mutate(summary = paste(
+    sep="<br><br>", 
+    paste0("PRIMARY OUTCOME:", primary_outcome),
+    paste0("SECONDARY OUTCOME:", secondary_outcome), 
+    paste0("SUMMARY:", summary)
+  ),
+  summary=str_replace_all(summary, '([[:upper:]]+?\\s?+[[:upper:]]+:)', '<br><br>\\1'),
+  summary=str_replace_all(summary, '<br><br><br><br>', '<br><br>'),
+  authors="", journal="clintrials") %>%
+  mutate(issn="1234", volume="1234", issue="1234", pages="1234", day="1", month="2", year="2000", publisher="blah", pmc_id="1234", pubmed_id="1234", url="1234") %>%
+  mutate(day=day(posted), month=month(posted), year=year(posted)) %>%
+  select(key=id, title=title, authors, journal, abstract=summary, everything()) %>%
+  mutate(across(where(is.character), function(x) str_replace_all(x, ",", ";"))) %>%
+  write.csv(., "data/included_studies.csv", row.names=F) 
+
+# have to find-and-remove "'s in the csv file before uploading to Rayyan for it to work. Tried quote=F in write.csv() but that didn't work.
+
+df_matches3 %>%
+  filter(cpm) %>%
+  group_by(cpm_model_type) %>%
+  summarize(n=n())
+
 ```
 ## Sankey plot
 note: might swap to geom_flow() if we think percentages would be useful 
