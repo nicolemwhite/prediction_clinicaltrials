@@ -257,9 +257,10 @@ write.csv(df_matches3, "data/study_groupings.csv", row.names=F)
 
 ### Write data out in a way that can be imported to rayyan
 ```{r}
-filter(df_matches3, cpm) %>%
+
+all_included_studies <- 
+  filter(df_matches3, cpm) %>%
   left_join(., dat_search3) %>% 
-  # head(100) %>% 
   mutate(summary = paste(
     sep="<br><br>", 
     paste0("PRIMARY OUTCOME:", primary_outcome),
@@ -272,8 +273,21 @@ filter(df_matches3, cpm) %>%
   mutate(issn="1234", volume="1234", issue="1234", pages="1234", day="1", month="2", year="2000", publisher="blah", pmc_id="1234", pubmed_id="1234", url="1234") %>%
   mutate(day=day(posted), month=month(posted), year=year(posted)) %>%
   select(key=id, title=title, authors, journal, abstract=summary, everything()) %>%
-  mutate(across(where(is.character), function(x) str_replace_all(x, ",", ";"))) %>%
-  write.csv(., "data/included_studies.csv", row.names=F) 
+  mutate(across(where(is.character), function(x) str_replace_all(x, ",", ";"))) 
+
+write.csv(all_included_studies, "data/included_studies.csv", row.names=F) 
+
+df_matches3 %>%
+  filter(cpm_model_type == "diagnostic") %>%
+  select(id) %>%
+  inner_join(., all_included_studies, by=c("id" = "key")) %>%
+  write.csv("data/included_diagnostic_studies.csv", row.names=F) 
+
+df_matches3 %>%
+  filter(cpm_model_type == "prognostic") %>%
+  select(id) %>%
+  inner_join(., all_included_studies, by=c("id" = "key")) %>%
+  write.csv("data/included_prognostic_studies.csv", row.names=F) 
 
 # have to find-and-remove "'s in the csv file before uploading to Rayyan for it to work. Tried quote=F in write.csv() but that didn't work.
 
