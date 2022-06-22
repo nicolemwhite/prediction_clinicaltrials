@@ -275,7 +275,105 @@ all_included_studies <-
   select(key=id, title=title, authors, journal, abstract=summary, everything()) %>%
   mutate(across(where(is.character), function(x) str_replace_all(x, ",", ";"))) 
 
+# write.csv(all_included_studies, "data/included_studies.csv", row.names=F) 
+```
+
+# test space for conditional text formatting
+```{r}
+
+included_studies_highlight <- c(
+  "machine learning","artificial intelligence","deep learning",
+  "prediction model","predictive model","prediction score","predictive score",
+  "warning score","risk score","risk prediction"
+) %>% 
+  str_c(collapse='|')
+
+exclude_highlight <- c("robot[a-z]*", "biomarker[a-z]*")%>% 
+  str_c(collapse='|')
+
+diagnostic_highlight <- "diagnos[a-z]*"
+
+prognostic_highlight <- "prognos[a-z]*"
+
+include_term_style <- "background-color: #90EE90; color: black; font-weight:bold;"
+diagnostic_term_style <- "background-color: yellow; color: black; font-weight:bold;"
+prognostic_term_style <- "background-color: #E0B0FF; color: black; font-weight:bold;"
+exclude_term_style <- "background-color: 	red; color: white; font-weight:bold;"
+
+
+preview_html <- function(code){
+  tempDir <- tempfile()
+  dir.create(tempDir)
+  htmlFile <- file.path(tempDir, "index.html")
+  writeLines(paste0('<html><body>',
+                    code,
+                    '</body></html>'), htmlFile)
+  viewer <- getOption("viewer")
+  viewer(htmlFile)
+}
+
+all_included_studies %>% 
+  slice(1:30) %>% 
+  mutate(
+    abstract=str_replace_all(
+      abstract, 
+      glue::glue('({included_studies_highlight})'), 
+      glue::glue('<span style="{include_term_style}">\\1</span>')
+    ),
+    abstract=str_replace_all(
+      abstract,
+      glue::glue('({diagnostic_highlight})'),
+      glue::glue('<span style="{diagnostic_term_style}">\\1</span>')
+    ),
+    abstract=str_replace_all(
+      abstract,
+      glue::glue('({prognostic_highlight})'),
+      glue::glue('<span style="{prognostic_term_style}">\\1</span>')
+    ),
+    abstract=str_replace_all(
+      abstract,
+      glue::glue('({exclude_highlight})'),
+      glue::glue('<span style="{exclude_term_style}">\\1</span>')
+    )
+  ) %>%
+  pull(abstract) %>% 
+  preview_html()
+
+
+```
+
+
+```{r}
+all_included_studies <- 
+  all_included_studies %>% 
+  mutate(
+    abstract=str_replace_all(
+      abstract, 
+      glue::glue('({included_studies_highlight})'), 
+      glue::glue("<span style='{include_term_style}'>\\1</span>")
+    ),
+    abstract=str_replace_all(
+      abstract,
+      glue::glue('({diagnostic_highlight})'),
+      glue::glue("<span style='{diagnostic_term_style}'>\\1</span>")
+    ),
+    abstract=str_replace_all(
+      abstract,
+      glue::glue('({prognostic_highlight})'),
+      glue::glue("<span style='{prognostic_term_style}'>\\1</span>")
+    ),
+    abstract=str_replace_all(
+      abstract,
+      glue::glue('({exclude_highlight})'),
+      glue::glue("<span style='{exclude_term_style}'>\\1</span>")
+    )
+  )
+
 write.csv(all_included_studies, "data/included_studies.csv", row.names=F) 
+```
+
+```{r}
+
 
 df_matches3 %>%
   filter(cpm_model_type == "diagnostic") %>%
