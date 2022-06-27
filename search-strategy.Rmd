@@ -215,11 +215,36 @@ prediction_model_terms <- c(
 ) %>% 
   str_c(collapse='|')
 
-diagnostic_terms <- c("diagnose","diagnosis","diagnostic") %>% 
-  str_c(collapse='|')
+# diagnostic_terms <- c("diagnose","diagnosis","diagnostic") %>%
+#   str_c(collapse='|')
+# prognostic_terms <- c("prognosis","prognostic") %>%
+#   str_c(collapse='|')
 
-prognostic_terms <- c("prognosis","prognostic") %>% 
-  str_c(collapse='|')
+prognostic_terms <- "prognos*"
+diagnostic_terms <- "diagnos*"
+
+df_matches <- 
+  dat_search3 %>% 
+  fx_check_regex(cols=all_cols, pattern=prediction_model_terms, indicator_colname="cpm") %>%
+  fx_check_regex(cols=all_cols, pattern=diagnostic_terms, indicator_colname="cpm_type_diagnostic") %>%
+  fx_check_regex(cols=all_cols, pattern=prognostic_terms, indicator_colname="cpm_type_prognostic")
+
+df_matches %>%
+  filter(
+    cpm,
+    (study_type == "Observational" | study_type == "Observational [Patient Registry]"),
+    (cpm_type_diagnostic | cpm_type_prognostic)
+  ) %>% nrow()
+
+```
+
+
+
+```{r}
+
+df_matches %>%   filter(cpm & (cpm_type_diagnostic | cpm_type_prognostic)) %>% View() 
+
+
 
 df_matches <- 
   dat_search3 %>% 
