@@ -204,7 +204,20 @@ dat_search_results %>%
 # write.csv(dat_search_results, "data/included_studies.csv", row.names=FALSE)
 ```
 
-Try search strings from Nicole
+```{r}
+preview_html <- function(code){
+  tempDir <- tempfile()
+  dir.create(tempDir)
+  htmlFile <- file.path(tempDir, "index.html")
+  writeLines(paste0('<html><body>',
+                    code,
+                    '</body></html>'), htmlFile)
+  viewer <- getOption("viewer")
+  viewer(htmlFile)
+}
+```
+
+Search strings
 ```{r}
 
 prediction_model_terms <- c(
@@ -215,11 +228,6 @@ prediction_model_terms <- c(
 ) %>% 
   str_c(collapse='|')
 
-# diagnostic_terms <- c("diagnose","diagnosis","diagnostic") %>%
-#   str_c(collapse='|')
-# prognostic_terms <- c("prognosis","prognostic") %>%
-#   str_c(collapse='|')
-
 prognostic_terms <- "prognos*"
 diagnostic_terms <- "diagnos*"
 
@@ -229,22 +237,75 @@ df_matches <-
   fx_check_regex(cols=all_cols, pattern=diagnostic_terms, indicator_colname="cpm_type_diagnostic") %>%
   fx_check_regex(cols=all_cols, pattern=prognostic_terms, indicator_colname="cpm_type_prognostic")
 
+
 df_matches %>%
   filter(
     cpm,
-    (study_type == "Observational" | study_type == "Observational [Patient Registry]"),
+    !(study_type == "Observational" | study_type == "Observational [Patient Registry]"),
     (cpm_type_diagnostic | cpm_type_prognostic)
   ) %>% nrow()
 
+df_interventional_matches <-
+  df_matches %>%
+  filter(
+    cpm,
+    !(study_type == "Observational" | study_type == "Observational [Patient Registry]"),
+    (cpm_type_diagnostic | cpm_type_prognostic)
+  ) %>% 
+  mutate(summary = paste(
+    sep="<br><br>", 
+    paste0("PRIMARY OUTCOME:", primary_outcome),
+    paste0("SECONDARY OUTCOME:", secondary_outcome), 
+    paste0("SUMMARY:", summary)
+  ),
+  summary=str_replace_all(summary, '([[:upper:]]+?\\s?+[[:upper:]]+:)', '<br><br>\\1'),
+  summary=str_replace_all(summary, '<br><br><br><br>', '<br><br>'),
+  authors="", journal="clintrials") %>%
+  mutate(issn="1234", volume="1234", issue="1234", pages="1234", day="1", month="2", year="2000", publisher="blah", pmc_id="1234", pubmed_id="1234", url="1234") %>%
+  mutate(day=day(posted), month=month(posted), year=year(posted)) %>%
+  select(key=id, title=title, authors, journal, abstract=summary, everything()) %>%
+  mutate(across(where(is.character), function(x) str_replace_all(x, ",", ";"))) 
+
+
+maybe_include <- c(3, 4, 5, 6, 7, 10)
+df_interventional_matches %>% 
+  slice(maybe_include) %>% 
+  mutate(
+    abstract=str_replace_all(
+      abstract, 
+      glue::glue('({included_studies_highlight})'), 
+      glue::glue('<span style="{include_term_style}">\\1</span>')
+    ),
+    abstract=str_replace_all(
+      abstract,
+      glue::glue('({diagnostic_highlight})'),
+      glue::glue('<span style="{diagnostic_term_style}">\\1</span>')
+    ),
+    abstract=str_replace_all(
+      abstract,
+      glue::glue('({prognostic_highlight})'),
+      glue::glue('<span style="{prognostic_term_style}">\\1</span>')
+    ),
+    abstract=str_replace_all(
+      abstract,
+      glue::glue('({exclude_highlight})'),
+      glue::glue('<span style="{exclude_term_style}">\\1</span>')
+    )
+  ) %>%
+  pull(abstract) %>% 
+  paste0(collapse = "<br><br><br><br>####################<br><br><br><br>") %>%
+  preview_html()
+
 ```
+
+
+
 
 
 
 ```{r}
 
 df_matches %>%   filter(cpm & (cpm_type_diagnostic | cpm_type_prognostic)) %>% View() 
-
-
 
 df_matches <- 
   dat_search3 %>% 
@@ -326,16 +387,7 @@ prognostic_term_style <- "background-color: #E0B0FF; color: black; font-weight:b
 exclude_term_style <- "background-color: 	red; color: white; font-weight:bold;"
 
 
-preview_html <- function(code){
-  tempDir <- tempfile()
-  dir.create(tempDir)
-  htmlFile <- file.path(tempDir, "index.html")
-  writeLines(paste0('<html><body>',
-                    code,
-                    '</body></html>'), htmlFile)
-  viewer <- getOption("viewer")
-  viewer(htmlFile)
-}
+
 
 all_included_studies %>% 
   slice(1:30) %>% 
