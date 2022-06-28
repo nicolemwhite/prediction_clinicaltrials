@@ -241,7 +241,7 @@ df_matches <-
 df_matches %>%
   filter(
     cpm,
-    !(study_type == "Observational" | study_type == "Observational [Patient Registry]"),
+    (study_type == "Observational" | study_type == "Observational [Patient Registry]"),
     (cpm_type_diagnostic | cpm_type_prognostic)
   ) %>% nrow()
 
@@ -345,8 +345,12 @@ write.csv(df_matches3, "data/study_groupings.csv", row.names=F)
 ```{r}
 
 all_included_studies <- 
-  filter(df_matches3, cpm) %>%
-  left_join(., dat_search3) %>% 
+  df_matches %>%
+  filter(
+    cpm,
+    (study_type == "Observational" | study_type == "Observational [Patient Registry]"),
+    (cpm_type_diagnostic | cpm_type_prognostic)
+  ) %>% 
   mutate(summary = paste(
     sep="<br><br>", 
     paste0("PRIMARY OUTCOME:", primary_outcome),
@@ -421,7 +425,7 @@ all_included_studies %>%
 
 
 ```{r}
-all_included_studies <- 
+all_included_studies_out <- 
   all_included_studies %>% 
   mutate(
     abstract=str_replace_all(
@@ -446,23 +450,23 @@ all_included_studies <-
     )
   )
 
-write.csv(all_included_studies, "data/included_studies.csv", row.names=F) 
+write.csv(all_included_studies_out, "data/included_studies.csv", row.names=F) 
 ```
 
 ```{r}
 
 
-df_matches3 %>%
-  filter(cpm_model_type == "diagnostic") %>%
-  select(id) %>%
-  inner_join(., all_included_studies, by=c("id" = "key")) %>%
-  write.csv("data/included_diagnostic_studies.csv", row.names=F) 
+# df_matches3 %>%
+#   filter(cpm_model_type == "diagnostic") %>%
+#   select(id) %>%
+#   inner_join(., all_included_studies, by=c("id" = "key")) %>%
+#   write.csv("data/included_diagnostic_studies.csv", row.names=F) 
 
-df_matches3 %>%
-  filter(cpm_model_type == "prognostic") %>%
-  select(id) %>%
-  inner_join(., all_included_studies, by=c("id" = "key")) %>%
-  write.csv("data/included_prognostic_studies.csv", row.names=F) 
+# df_matches3 %>%
+#   filter(cpm_model_type == "prognostic") %>%
+#   select(id) %>%
+#   inner_join(., all_included_studies, by=c("id" = "key")) %>%
+#   write.csv("data/included_prognostic_studies.csv", row.names=F) 
 
 # have to find-and-remove "'s in the csv file before uploading to Rayyan for it to work. Tried quote=F in write.csv() but that didn't work.
 
