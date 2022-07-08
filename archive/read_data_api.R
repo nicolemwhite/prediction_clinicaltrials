@@ -27,8 +27,6 @@ query_url <- "http://clinicaltrials.gov/ct2/results?"
 n_titles<-clinicaltrials_count(search_query)
 
  
-search_results <- clinicaltrials_download(query=c(search_query),count=10)
-
 # 
 # #review titles
 # search_results$study_info %>% nrow()

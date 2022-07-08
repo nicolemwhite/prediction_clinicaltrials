@@ -1,0 +1,30 @@
+---
+title: "manuscript_v1"
+author: "Nicole White, Rex Parson, David Borg, Adrian Barnett"
+date: "08/07/2022"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+* Systematic review of published clinical prediction models have consistently highlighted poor quality, limited applicability in practice. Examples in COVID-19 (BMJ review), oncology (Dhiman 2022), others
+
+* It is likely that many clinical prediction models are planned but never published. Source of research waste.
+
+* One way to assess research waste from non-publication is to follow-up registered studies aiming to develop and/or validate new or already published prediction model (latter is slightly different point - flesh out later)
+
+
+* Other refs
+- Evaluating the impact of prediction models: lessons learned, challenges, and recommendations
+
+# Methods
+
+## Data
+
+
+## Record screening
+

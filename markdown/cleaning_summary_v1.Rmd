@@ -67,3 +67,78 @@ dat %>% select(id:year_posted) %>% gather(variable,value,-c(FolderName,id,year_p
   scale_colour_manual(values=cbPalette)
 
 ```
+
+
+## Targeted search terms
+
+
+```{r}
+scan_fields = c("official_title","brief_title","brief_summary","detailed_summary","keywords","mesh_terms",
+                "primary_outcome_measures","primary_outcome_description","secondary_outcome_measures","secondary_outcome_description")
+
+search_string_c = list()
+search_string_c[[1]] <- c("machine learning","artificial intelligence","deep learning",
+                          "prediction model","predictive model","prediction score","predictive score",
+                          "warning score","risk score","risk prediction","risk model","scoring model") %>% str_c(collapse='|')
+search_string_c[[2]] <- c("prognosis","prognostic","diagnose","diagnosis","diagnostic") %>% str_c(collapse='|')
+
+##this is really slow but extract hits in one step. Run outside of markdown.
+matches_model = select(dat,all_of(c("id",scan_fields))) %>% 
+  rowwise() %>%
+  mutate_at(vars(all_of(scan_fields)), ~c(str_extract_all(tolower(.x),search_string_c[[1]],simplify=T)) %>% subset(!is.na(.)) %>% unique(.) %>% str_c(collapse=';'))
+
+matches_outcome = select(dat,all_of(c("id",scan_fields))) %>% 
+  rowwise() %>%
+  mutate_at(vars(all_of(scan_fields)), ~c(str_extract_all(tolower(.x),search_string_c[[2]],simplify=T)) %>% subset(!is.na(.)) %>% unique(.) %>% str_c(collapse=';'))
+
+matches_c = select(dat,all_of(c("id",scan_fields))) %>% 
+  rowwise() %>%
+  mutate_at(vars(all_of(scan_fields)), ~c(str_extract_all(tolower(.x),str_c(search_string_c,collapse='|'),simplify=T)) %>% subset(!is.na(.)) %>% unique(.) %>% str_c(collapse=';'))
+
+
+
+```
+
+
+I used the following set of search terms to identify relevant studies on prediction modelling:
+
+* (`r (search_string_c[[1]])`) AND (`r (search_string_c[[2]])`)
+
+Overall, `r filter(matches_c,match_found==1) %>% nrow()` matching records were found. A visual summary of matches is given below. Most matches were found in study summaries.
+
+```{r,fig.cap="Matching study records",fig.height=8,fig.width=10,warning=FALSE}
+
+
+filter(matches_c,match_found==1) %>% gather(variable,match,-c(id,match_found)) %>% 
+  mutate_at(c("match"),~factor(.x,levels=0:1,labels=c("No","Yes"))) %>%
+  ggplot(aes(x=variable,y=id,fill=match)) + geom_tile() +g.theme+
+  theme(axis.text.x = element_text(angle=40,hjust=1),axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank())+scale_fill_manual(values=cbPalette)+
+  scale_x_discrete('Field')
+
+
+
+```
+
+
+```{r,fig.cap='Summary of matches by study field',fig.height=8,fig.width=10}
+check_studies = filter(matches_c,match_found==1) %>% gather(variable,value,-c(id,match_found)) %>%
+  mutate(group = case_when(
+    grepl('_title',variable) ~ 'title',
+    grepl('_summary',variable) ~ 'summary',
+    variable %in% c('keywords','mesh_terms') ~ 'keywords_mesh_terms',
+    grepl('_outcome_',variable) ~ 'outcomes'))
+
+to_plot = check_studies %>% group_by(id,group) %>% summarise(value_c = pmin(1,sum(value)),.groups='drop') %>% spread(group,value_c) %>% count(keywords_mesh_terms,outcomes,summary,title,name='freq') %>% mutate_at(c('keywords_mesh_terms','outcomes','summary','title'),~factor(.x,levels=0:1,labels = c('No','Yes')))
+  
+  
+ggplot(to_plot,
+       aes(y = freq, axis1 = title,axis2 = summary, axis3 = outcomes, axis4 = keywords_mesh_terms)) +
+  geom_alluvium(aes(fill = summary), width = 1/12) +
+  geom_stratum(width = 1/12) +
+  geom_label(stat = "stratum", aes(label = after_stat(stratum))) +
+  scale_x_discrete(limits = c("Title","Summary", "Outcomes","Keywords/MESH"), expand = c(.05, .05)) +
+  scale_fill_brewer(type = "qual", palette = "Set1") 
+
+```
