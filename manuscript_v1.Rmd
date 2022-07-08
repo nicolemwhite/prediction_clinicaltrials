@@ -2,7 +2,9 @@
 title: "manuscript_v1"
 author: "Nicole White, Rex Parson, David Borg, Adrian Barnett"
 date: "08/07/2022"
-output: word_document
+output:
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
@@ -18,13 +20,23 @@ knitr::opts_chunk$set(echo = TRUE)
 * One way to assess research waste from non-publication is to follow-up registered studies aiming to develop and/or validate new or already published prediction model (latter is slightly different point - flesh out later)
 
 
-* Other refs
-- Evaluating the impact of prediction models: lessons learned, challenges, and recommendations
+* Other refs: Evaluating the impact of prediction models: lessons learned, challenges, and recommendations
 
 # Methods
 
-## Data
+clinicaltrials.gov is a publicly accessible repository from the NIH National Library of Medicine. The database was launched on February 29, 2000.
+
+All study records posted to clinicaltrials.gov until 3 March 2022 were downloaded for analysis (n ). Records were downloaded in XML.
+
 
 
 ## Record screening
+
+All records classified as observational study designs were included. All other study types were excluded [need to provided rationale here for excluding RCTS]
+
+Search terms were:"machine learning","artificial intelligence","deep learning",
+  "prediction model","predictive model","prediction score","predictive score",
+  "warning score","risk score","risk prediction",
+  "prognostic model","diagnostic model"
+
 
