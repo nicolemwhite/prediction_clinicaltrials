@@ -26,17 +26,21 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Methods
 
-Clinicaltrials.gov is one of the largest online databases for the registration and reporting of clinical studies. The repository was launched in 2000 by the National Institute of Health’s National Library of Medicine, in response to legislation passed by the United States government requiring mandatory registration of funded clinical trials (@mccray2000). Since then, over 420,000 unique records have been posted on clinicaltrials.gov, comprising interventional and observational studies that have commenced, are ongoing or have been completed in 221 countries (https://www.clinicaltrials.gov/; last accessed: 8 July 2022).
+## Dataset
+
+Clinicaltrials.gov is an online database designed to improve access to information about planned, ongoing and completed clinical studies. The database was launched in 2000 by the National Institute of Health’s National Library of Medicine, following United States legislation mandating registration of funded clinical trials. Since then, over 420,000 studies have been registered, comprising both interventional and observational studies from 221 countries (https://www.clinicaltrials.gov/; last accessed: 8 July 2022). 
+
+Studies are registered on clinicaltrials.gov by a lead study investigator using a standardised template. Compulsory fields cover the proposed study type, the disease or condition of interest, planned commencement and end dates, and study design details including interventions (if any), outcomes measures and planned sample size. Additional information on participant recruitment, funding and regulatory oversight is also required. A formal statistical analysis plan is not required at the time of registration, but be included as part of an optional detailed summary. Study records can be updated at any time up until project completion, including providing details of resulting publications.
+
+* Availability of study records in XML has led to meta-research projects on different aspects of the `research enterprise'.
+* Outside of funded clinical trials, researchers may register their study for different reasons (e.g., reporting incentives). So whilst registered studies may not represent an unbiased sample of research being conduction, they can offer a snapshot of reserach being conducted (@tse2018). 
+* In the study, we aimed to identify studies that aimed to develop and/or validate a clinical prediction model, for predicting the diagnosis or prognosis of any human disease. Diagnosis was defined as the risk of having a defined disease or related health condition [ref from PROBAST: @wolff2019]. Prognosis was defined in line with the Prognosis research stratety (PROGRESS), as the risk of any health outcome in the future among people with an already diagnosed disease or health condition (@hemingway2013). 
 
 
-Study registrations follows a standardised template, submitted by a lead study investigator. Mandatory fields at registration cover core study identifiers (title, study type, key dates), a protocol summary covering aspects of study design, the disease or condition of interest, intervention if applicable and outcome mesures, and additional information about participant recruitment, funding and any regulatory oversight. Details of planned statistical analyses are not required as part of study registration, but may be communicated as part of the study summary.
 
+Study records are availble in XML, which we used for 
 
 * All study records posted to clinicaltrials.gov until 3 March 2022 were downloaded for analysis (n ). Records were downloaded in XML.
-
-* Studies registered on clinicaltrials.gov are not a respresentative sample (@tse2018) however, can provide a snapshot of studies that aim to develop or validation a clinical prediction models for any disease or condition.
-
-* Pronostic or diagnostic only: add definitions for both.
 
 * All studies eligible for inclusion were screened using the web application rayyan. All studies were independently reviewed by 2 authors with conflicts resolved by all authors.
 
@@ -50,3 +54,4 @@ Search terms were:"machine learning","artificial intelligence","deep learning",
   "prognostic model","diagnostic model"
 
 
+# References

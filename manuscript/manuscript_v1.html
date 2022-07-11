@@ -1700,25 +1700,38 @@ summary {
 </div>
 <div id="methods" class="section level1">
 <h1>Methods</h1>
-<p>Clinicaltrials.gov is one of the largest online databases for the registration and reporting of clinical studies. The repository was launched in 2000 by the National Institute of Health’s National Library of Medicine, in response to legislation passed by the United States government requiring mandatory registration of funded clinical trials (<span class="citation">McCray and Ide (2000)</span>). Since then, over 420,000 unique records have been posted on clinicaltrials.gov, comprising interventional and observational studies that have commenced, are ongoing or have been completed in 221 countries (<a href="https://www.clinicaltrials.gov/" class="uri">https://www.clinicaltrials.gov/</a>; last accessed: 8 July 2022).</p>
-<p>Study registrations follows a standardised template, submitted by a lead study investigator. Mandatory fields at registration cover core study identifiers (title, study type, key dates), a protocol summary covering aspects of study design, the disease or condition of interest, intervention if applicable and outcome mesures, and additional information about participant recruitment, funding and any regulatory oversight. Details of planned statistical analyses are not required as part of study registration, but may be communicated as part of the study summary.</p>
+<div id="dataset" class="section level2">
+<h2>Dataset</h2>
+<p>Clinicaltrials.gov is an online database designed to improve access to information about planned, ongoing and completed clinical studies. The database was launched in 2000 by the National Institute of Health’s National Library of Medicine, following United States legislation mandating registration of funded clinical trials. Since then, over 420,000 studies have been registered, comprising both interventional and observational studies from 221 countries (<a href="https://www.clinicaltrials.gov/" class="uri">https://www.clinicaltrials.gov/</a>; last accessed: 8 July 2022).</p>
+<p>Studies are registered on clinicaltrials.gov by a lead study investigator using a standardised template. Compulsory fields cover the proposed study type, the disease or condition of interest, planned commencement and end dates, and study design details including interventions (if any), outcomes measures and planned sample size. Additional information on participant recruitment, funding and regulatory oversight is also required. A formal statistical analysis plan is not required at the time of registration, but be included as part of an optional detailed summary. Study records can be updated at any time up until project completion, including providing details of resulting publications.</p>
+<ul>
+<li>Availability of study records in XML has led to meta-research projects on different aspects of the `research enterprise’.</li>
+<li>Outside of funded clinical trials, researchers may register their study for different reasons (e.g., reporting incentives). So whilst registered studies may not represent an unbiased sample of research being conduction, they can offer a snapshot of reserach being conducted (<span class="citation">Tse, Fain, and Zarin (2018)</span>).</li>
+<li>In the study, we aimed to identify studies that aimed to develop and/or validate a clinical prediction model, for predicting the diagnosis or prognosis of any human disease. Diagnosis was defined as the risk of having a defined disease or related health condition <span class="citation">(ref from PROBAST: Wolff et al. 2019)</span>. Prognosis was defined in line with the Prognosis research stratety (PROGRESS), as the risk of any health outcome in the future among people with an already diagnosed disease or health condition (<span class="citation">Hemingway et al. (2013)</span>).</li>
+</ul>
+<p>Study records are availble in XML, which we used for</p>
 <ul>
 <li><p>All study records posted to clinicaltrials.gov until 3 March 2022 were downloaded for analysis (n ). Records were downloaded in XML.</p></li>
-<li><p>Studies registered on clinicaltrials.gov are not a respresentative sample (<span class="citation">Tse, Fain, and Zarin (2018)</span>) however, can provide a snapshot of studies that aim to develop or validation a clinical prediction models for any disease or condition.</p></li>
-<li><p>Pronostic or diagnostic only: add definitions for both.</p></li>
 <li><p>All studies eligible for inclusion were screened using the web application rayyan. All studies were independently reviewed by 2 authors with conflicts resolved by all authors.</p></li>
 </ul>
+</div>
 <div id="record-screening" class="section level2">
 <h2>Record screening</h2>
 <p>All records classified as observational study designs were included. All other study types were excluded [need to provided rationale here for excluding RCTS]</p>
 <p>Search terms were:“machine learning”,“artificial intelligence”,“deep learning”, “prediction model”,“predictive model”,“prediction score”,“predictive score”, “warning score”,“risk score”,“risk prediction”, “prognostic model”,“diagnostic model”</p>
+</div>
+</div>
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
 <div id="refs" class="references">
-<div id="ref-mccray2000">
-<p>McCray, Alexa T, and Nicholas C Ide. 2000. “Design and Implementation of a National Clinical Trials Registry.” <em>Journal of the American Medical Informatics Association</em> 7 (3): 313–23.</p>
+<div id="ref-hemingway2013">
+<p>Hemingway, Harry, Peter Croft, Pablo Perel, Jill A Hayden, Keith Abrams, Adam Timmis, Andrew Briggs, et al. 2013. “Prognosis Research Strategy (Progress) 1: A Framework for Researching Clinical Outcomes.” <em>Bmj</em> 346.</p>
 </div>
 <div id="ref-tse2018">
 <p>Tse, Tony, Kevin M Fain, and Deborah A Zarin. 2018. “How to Avoid Common Problems When Using Clinicaltrials. Gov in Research: 10 Issues to Consider.” <em>Bmj</em> 361.</p>
 </div>
+<div id="ref-wolff2019">
+<p>Wolff, Robert F, Karel GM Moons, Richard D Riley, Penny F Whiting, Marie Westwood, Gary S Collins, Johannes B Reitsma, Jos Kleijnen, Sue Mallett, and PROBAST Group†. 2019. “PROBAST: A Tool to Assess the Risk of Bias and Applicability of Prediction Model Studies.” <em>Annals of Internal Medicine</em> 170 (1): 51–58.</p>
 </div>
 </div>
 </div>
