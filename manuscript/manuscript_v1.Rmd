@@ -5,6 +5,8 @@ date: "08/07/2022"
 output:
   html_document:
     df_print: paged
+
+bibliography: clintrialsref.bib 
 ---
 
 ```{r setup, include=FALSE}
@@ -24,11 +26,19 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Methods
 
-clinicaltrials.gov is a publicly accessible repository from the NIH National Library of Medicine. The database was launched on February 29, 2000.
-
-All study records posted to clinicaltrials.gov until 3 March 2022 were downloaded for analysis (n ). Records were downloaded in XML.
+Clinicaltrials.gov is one of the largest online databases for the registration and reporting of clinical studies. The repository was launched in 2000 by the National Institute of Health’s National Library of Medicine, in response to legislation passed by the United States government requiring mandatory registration of funded clinical trials (@mccray2000). Since then, over 420,000 unique records have been posted on clinicaltrials.gov, comprising interventional and observational studies that have commenced, are ongoing or have been completed in 221 countries (https://www.clinicaltrials.gov/; last accessed: 8 July 2022).
 
 
+Study registrations follows a standardised template, submitted by a lead study investigator. Mandatory fields at registration cover core study identifiers (title, study type, key dates), a protocol summary covering aspects of study design, the disease or condition of interest, intervention if applicable and outcome mesures, and additional information about participant recruitment, funding and any regulatory oversight. Details of planned statistical analyses are not required as part of study registration, but may be communicated as part of the study summary.
+
+
+* All study records posted to clinicaltrials.gov until 3 March 2022 were downloaded for analysis (n ). Records were downloaded in XML.
+
+* Studies registered on clinicaltrials.gov are not a respresentative sample (@tse2018) however, can provide a snapshot of studies that aim to develop or validation a clinical prediction models for any disease or condition.
+
+* Pronostic or diagnostic only: add definitions for both.
+
+* All studies eligible for inclusion were screened using the web application rayyan. All studies were independently reviewed by 2 authors with conflicts resolved by all authors.
 
 ## Record screening
 
