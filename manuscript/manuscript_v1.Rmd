@@ -3,9 +3,9 @@ title: "manuscript_v1"
 author: "Nicole White, Rex Parsons, David Borg, Adrian Barnett"
 date: "08/07/2022"
 output:
+  word_document: default
   html_document:
     df_print: paged
-  word_document: default
 bibliography: clintrialsref.bib
 ---
 
@@ -14,6 +14,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 # Introduction
+
+
+Clinical prediction models represent a growing source of research waste, with poorly conducted studies posing risks to the safety and quality of patient care.
+
 
 * Systematic review of published clinical prediction models have consistently highlighted poor quality, limited applicability in practice. Examples in COVID-19 (BMJ review), oncology (Dhiman 2022), others
 
