@@ -1,6 +1,6 @@
 ---
 title: "manuscript_v1"
-author: "Nicole White, Rex Parson, David Borg, Adrian Barnett"
+author: "Nicole White, Rex Parsons, David Borg, Adrian Barnett"
 date: "08/07/2022"
 output:
   html_document:
@@ -32,9 +32,9 @@ Study registration is completed by a nominated study investigator using a standa
 
 For this analysis, we identified and analysed outcomes of registered studies that planned to develop or validate a clinical prediction model (data downloaded on 3 March 2022). A clinical prediction model was defined as any multivariable model designed to estimate the individual-level risk of being diagnosed with a single disease or health condition (diagnostic model) or experiencing a future health-related outcome following diagnosis (prognostic model) (@hemingway2013). Future outcomes considered by prognostic models included both pre-defined clinical endpoints, such as treatment response and mortality, and measures of an individual’s health state following diagnosis, such as health-related quality of life. 
 
-All records classified as observational study designs were included. All other study types were excluded [need to provide rationale here for excluding RCTS]. Dependent variables could be defined as a binary, continuous or time-to-event outcome. No restrictions were placed on model data sources or choice of independent variables, provided variables were collected at the individual level and two or more variables were included in the proposed prediction model. 
+All records classified as observational study designs were included. All other study types were excluded [need to provide rationale here for excluding RCTS]. Dependent variables could be defined as a binary, continuous or time-to-event outcome. No restrictions were placed on model data sources or choice of independent variables, provided variables were defined at the individual level and at least two variables were planned for inclusion in the proposed model. This meant that independent variables could take the form of patient-level characteristics (e.g., demographics, clinical parameters) or processed features (e.g, extracted from images).
 
-Eligible studies proposed a clinical prediction model as the primary study objectives, or as an objective within a multi-part study. Studies that planned to identify or validate independent risk factors associated with outcomes without mention of developing a subsequent prediction model were excluded. 
+Eligible studies proposed a clinical prediction model as the primary study objective, or as an objective within a larger study. Studies that planned to identify or validate independent risk factors associated with outcomes without mention of developing a subsequent prediction model were excluded. 
 
 All study records posted on clinicaltrials.gov until 3 March 2022 were downloaded in XML for analysis (n = xxx). Relevant studies were identified over two stages. In the first stage, we scanned study record fields for keywords reflecting approaches to clinical prediction modelling and their application to diagnosis and prognosis (Table here - search terms + fields searched). Matching studies were then manually screened for eligibility using the web application rayyan. All studies were independently reviewed by at least two study authors.
 
@@ -45,7 +45,7 @@ All study records posted on clinicaltrials.gov until 3 March 2022 were downloade
   "warning score","risk score","risk prediction",
   "prognostic model","diagnostic model"
 
-![Flowchart  note pretend numbers!](figures/flowchart.jpeg)
+![Flowchart  note pretend numbers and fix typos!](figures/flowchart.jpeg)
 
 ![Records screened. add included studies as a different colour](figures/screened_records.png)
 
