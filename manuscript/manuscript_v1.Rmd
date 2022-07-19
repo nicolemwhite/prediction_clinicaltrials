@@ -5,8 +5,8 @@ date: "08/07/2022"
 output:
   html_document:
     df_print: paged
-
-bibliography: clintrialsref.bib 
+  word_document: default
+bibliography: clintrialsref.bib
 ---
 
 ```{r setup, include=FALSE}
@@ -17,41 +17,43 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * Systematic review of published clinical prediction models have consistently highlighted poor quality, limited applicability in practice. Examples in COVID-19 (BMJ review), oncology (Dhiman 2022), others
 
+
 * It is likely that many clinical prediction models are planned but never published. Source of research waste.
 
 * One way to assess research waste from non-publication is to follow-up registered studies aiming to develop and/or validate new or already published prediction model (latter is slightly different point - flesh out later)
 
-
 * Other refs: Evaluating the impact of prediction models: lessons learned, challenges, and recommendations
 
-# Methods
+# Data and Methods
 
-## Dataset
+Clinicaltrials.gov is an online database designed to improve access to information about planned, ongoing and completed clinical studies. The database was launched in 2000 by the National Institute of Health’s National Library of Medicine, in response to United States legislation mandating the registration of funded clinical trials. Since then, over 420,000 studies have been registered, comprising both interventional and observational studies from 221 countries (https://www.clinicaltrials.gov/; last viewed: 8 July 2022). 
 
-Clinicaltrials.gov is an online database designed to improve access to information about planned, ongoing and completed clinical studies. The database was launched in 2000 by the National Institute of Health’s National Library of Medicine, following United States legislation mandating registration of funded clinical trials. Since then, over 420,000 studies have been registered, comprising both interventional and observational studies from 221 countries (https://www.clinicaltrials.gov/; last accessed: 8 July 2022). 
+Study registration is completed by a nominated study investigator using a standardised template. Compulsory fields cover the disease or condition of interest, planned commencement and end dates, study type and study design details including interventions (if any), outcomes measures and planned sample size. Additional information on participant recruitment, funding and regulatory oversight is also required. A statistical analysis plan is not required at the time of registration, but can be included as part of an optional detailed summary. Study records can be updated at any time up until project completion, including providing details of resulting publications.
 
-Studies are registered on clinicaltrials.gov by a lead study investigator using a standardised template. Compulsory fields cover the proposed study type, the disease or condition of interest, planned commencement and end dates, and study design details including interventions (if any), outcomes measures and planned sample size. Additional information on participant recruitment, funding and regulatory oversight is also required. A formal statistical analysis plan is not required at the time of registration, but be included as part of an optional detailed summary. Study records can be updated at any time up until project completion, including providing details of resulting publications.
+For this analysis, we identified and analysed outcomes of registered studies that planned to develop or validate a clinical prediction model (data downloaded on 3 March 2022). A clinical prediction model was defined as any multivariable model designed to estimate the individual-level risk of being diagnosed with a single disease or health condition (diagnostic model) or experiencing a future health-related outcome following diagnosis (prognostic model) (@hemingway2013). Future outcomes considered by prognostic models included both pre-defined clinical endpoints, such as treatment response and mortality, and measures of an individual’s health state following diagnosis, such as health-related quality of life. 
 
-* Availability of study records in XML has led to meta-research projects on different aspects of the `research enterprise'.
-* Outside of funded clinical trials, researchers may register their study for different reasons (e.g., reporting incentives). So whilst registered studies may not represent an unbiased sample of research being conduction, they can offer a snapshot of reserach being conducted (@tse2018). 
-* In the study, we aimed to identify studies that aimed to develop and/or validate a clinical prediction model, for predicting the diagnosis or prognosis of any human disease. Diagnosis was defined as the risk of having a defined disease or related health condition [ref from PROBAST: @wolff2019]. Prognosis was defined in line with the Prognosis research stratety (PROGRESS), as the risk of any health outcome in the future among people with an already diagnosed disease or health condition (@hemingway2013). 
+All records classified as observational study designs were included. All other study types were excluded [need to provide rationale here for excluding RCTS]. Dependent variables could be defined as a binary, continuous or time-to-event outcome. No restrictions were placed on model data sources or choice of independent variables, provided variables were collected at the individual level and two or more variables were included in the proposed prediction model. 
 
+Eligible studies proposed a clinical prediction model as the primary study objectives, or as an objective within a multi-part study. Studies that planned to identify or validate independent risk factors associated with outcomes without mention of developing a subsequent prediction model were excluded. 
 
+All study records posted on clinicaltrials.gov until 3 March 2022 were downloaded in XML for analysis (n = xxx). Relevant studies were identified over two stages. In the first stage, we scanned study record fields for keywords reflecting approaches to clinical prediction modelling and their application to diagnosis and prognosis (Table here - search terms + fields searched). Matching studies were then manually screened for eligibility using the web application rayyan. All studies were independently reviewed by at least two study authors.
 
-Study records are availble in XML, which we used for 
+ 
 
-* All study records posted to clinicaltrials.gov until 3 March 2022 were downloaded for analysis (n ). Records were downloaded in XML.
-
-* All studies eligible for inclusion were screened using the web application rayyan. All studies were independently reviewed by 2 authors with conflicts resolved by all authors.
-
-## Record screening
-
-All records classified as observational study designs were included. All other study types were excluded [need to provided rationale here for excluding RCTS]
-
-Search terms were:"machine learning","artificial intelligence","deep learning",
+* As table: Search terms were:"machine learning","artificial intelligence","deep learning",
   "prediction model","predictive model","prediction score","predictive score",
   "warning score","risk score","risk prediction",
   "prognostic model","diagnostic model"
 
+![Flowchart  note pretend numbers!](figures/flowchart.jpeg)
+
+![Records screened. add included studies as a different colour](figures/screened_records.png)
+
+## Analysis
+
+* Study status; all identified studies, possibly compared with random sample of observational studies that don't return match to search terms?
+* Sample size history for final sample
+* Frequency of targeted keywords (e.g, (.*)validation, TRIPOD)
+* Links to publications using python tool (Rex to lead)
 
 # References

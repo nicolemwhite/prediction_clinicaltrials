@@ -7,7 +7,7 @@ search_terms <- c("machine learning","artificial intelligence","deep learning","
 
 
 #load full dataset from local machine - too large for github
-load(file='Z;/clinicaltrials/data/analysis_ready/all_studies.rda')
+load(file='Z:/clinicaltrials/data/analysis_ready/all_studies.rda')
 
 
 
@@ -53,7 +53,7 @@ grViz(diagram = "digraph flowchart {
   
   [1]: paste0(format(n_start,big.mark=','),' observational study records downloaded: 1 January 2000 to 3 March 2022')
   [2]: paste0(format(n_screened,big.mark=','),' records matched to 1 or more search terms')    
-  [3]: paste0(format(n_included,big.mark=','),' records included\\nDiagnostic models = yyy\\nPrognosit models = yyy\\nDevelopment only = yyy\\nValidation only = yyy\\n Development and Validation = yyy')
+  [3]: paste0(format(n_included,big.mark=','),' records included\\nDiagnostic models = yyy\\nPrognostic models = yyy\\nDevelopment only = yyy\\nValidation only = yyy\\n Development and Validation = yyy')
   [4]: paste0(format(n_start-n_screened,big.mark=','),' records excluded')    
   [5]: paste0(format(n_screened - n_included,big.mark=','),' excluded after screening')
 
