@@ -16,6 +16,7 @@ Analysis of clinical prediction models registered with clinicaltrials.gov
 
 
 ### Targeted keywords for search included studies
+
 COVID-19/SARS-CoV-2
 Ischemic stroke
 Sepsis
