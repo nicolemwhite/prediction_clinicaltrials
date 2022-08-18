@@ -34,4 +34,6 @@ decided = dat %>% filter(grepl('DECISION:',decision)|final_decision %in% c('Incl
 remaining = anti_join(dat,decided) %>% mutate_at('final_decision',~replace_na(.,'Second screen needed')) %>% select(-decision,-to_screen)
 
 
-write.csv(remaining,file='data/rayyan/outstanding_records.csv')
+openxlsx::write.xlsx(list('all outstanding'=remaining,
+                          'conflicts' = remaining %>% filter(final_decision=='Conflict')),
+                          file='data/rayyan/outstanding_records.xlsx')
