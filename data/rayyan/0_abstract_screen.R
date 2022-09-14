@@ -24,7 +24,8 @@ dat = dat %>% mutate(n_decisions = n_include+n_exclude,to_screen = ifelse(n_deci
 dat = dat %>% mutate(final_decision = case_when(
   n_include>=2 ~ 'Include',
   n_exclude>=2 ~ 'Exclude',
-  n_include==1 & n_exclude==1 ~ 'Conflict' #hard coded
+  n_include==1 & n_exclude==1 ~ 'Conflict', #hard coded
+  n_include>=1 & n_exclude==0 & n_maybe>=1 ~ 'Include' # include studies where one reviewer has included and the other is unsure
 )) #else NA
 
 
@@ -33,6 +34,7 @@ decided = dat %>% filter(grepl('DECISION:',decision)|final_decision %in% c('Incl
 
 remaining = anti_join(dat,decided) %>% mutate_at('final_decision',~replace_na(.,'Second screen needed')) %>% select(-decision,-to_screen)
 
+# remaining %>% plyr::count("final_decision")
 
 openxlsx::write.xlsx(list('all outstanding'=remaining,
                           'conflicts' = remaining %>% filter(final_decision=='Conflict')),
