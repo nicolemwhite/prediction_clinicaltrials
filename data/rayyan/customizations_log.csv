@@ -8803,3 +8803,231 @@ created_at,user_id,user_email,article_id,key,value
 2022-08-18T06:54:00.942Z,87685,rex.parsons@hdr.qut.edu.au,325727968,note-2070796,1
 2022-08-18T06:56:44.891Z,87685,rex.parsons@hdr.qut.edu.au,325727972,note-2070803,1
 2022-08-18T06:57:57.021Z,87685,rex.parsons@hdr.qut.edu.au,325727973,note-2070807,1
+2022-08-19T06:20:35.506Z,74825,nm.white@qut.edu.au,325727839,note-2075494,1
+2022-08-19T06:48:34.826Z,74825,nm.white@qut.edu.au,325727958,note-2075543,1
+2022-08-19T06:51:21.369Z,74825,nm.white@qut.edu.au,325727975,note-2075548,1
+2022-08-19T06:55:00.088Z,74825,nm.white@qut.edu.au,325727979,note-2075556,1
+2022-09-12T10:42:54.145Z,228818,dn.borg@qut.edu.au,325728952,"""Diagnostic""",1
+2022-09-12T10:42:58.114Z,228818,dn.borg@qut.edu.au,325728952,"""Development""",1
+2022-09-12T10:43:01.099Z,228818,dn.borg@qut.edu.au,325728952,included,1
+2022-09-12T10:43:19.006Z,228818,dn.borg@qut.edu.au,325728953,"""__EXR__wrong study design""",1
+2022-09-12T10:43:19.084Z,228818,dn.borg@qut.edu.au,325728953,included,-1
+2022-09-12T10:43:58.478Z,228818,dn.borg@qut.edu.au,325728954,"""__EXR__wrong study design""",1
+2022-09-12T10:43:58.524Z,228818,dn.borg@qut.edu.au,325728954,included,-1
+2022-09-12T10:44:19.870Z,228818,dn.borg@qut.edu.au,325728955,"""Validation""",1
+2022-09-12T10:44:22.979Z,228818,dn.borg@qut.edu.au,325728955,"""Diagnostic""",1
+2022-09-12T10:44:23.995Z,228818,dn.borg@qut.edu.au,325728955,included,0
+2022-09-12T10:44:30.824Z,228818,dn.borg@qut.edu.au,325728956,"""Development""",1
+2022-09-12T10:44:31.745Z,228818,dn.borg@qut.edu.au,325728956,"""Diagnostic""",1
+2022-09-12T10:44:33.261Z,228818,dn.borg@qut.edu.au,325728956,included,1
+2022-09-12T10:44:41.277Z,228818,dn.borg@qut.edu.au,325728957,"""__EXR__wrong study design""",1
+2022-09-12T10:44:41.356Z,228818,dn.borg@qut.edu.au,325728957,included,-1
+2022-09-12T10:44:47.887Z,228818,dn.borg@qut.edu.au,325728958,"""Diagnostic""",1
+2022-09-12T10:44:50.419Z,228818,dn.borg@qut.edu.au,325728958,"""Validation""",1
+2022-09-12T10:44:51.356Z,228818,dn.borg@qut.edu.au,325728958,included,1
+2022-09-12T10:46:11.768Z,228818,dn.borg@qut.edu.au,325728974,"""Prognosis""",1
+2022-09-12T10:46:27.550Z,228818,dn.borg@qut.edu.au,325728974,"""Prognosis""",deleted
+2022-09-12T10:46:29.972Z,228818,dn.borg@qut.edu.au,325728974,"""__EXR__wrong study design""",1
+2022-09-12T10:46:30.051Z,228818,dn.borg@qut.edu.au,325728974,included,-1
+2022-09-12T10:46:36.754Z,228818,dn.borg@qut.edu.au,325728959,"""Validation""",1
+2022-09-12T10:46:38.739Z,228818,dn.borg@qut.edu.au,325728959,"""diagnostic""",1
+2022-09-12T10:46:40.176Z,228818,dn.borg@qut.edu.au,325728959,included,1
+2022-09-12T10:46:52.912Z,228818,dn.borg@qut.edu.au,325728960,"""Diagnostic""",1
+2022-09-12T10:46:59.256Z,228818,dn.borg@qut.edu.au,325728960,"""Development""",1
+2022-09-12T10:47:00.428Z,228818,dn.borg@qut.edu.au,325728960,included,1
+2022-09-12T10:47:05.897Z,228818,dn.borg@qut.edu.au,325728961,"""__EXR__wrong study design""",1
+2022-09-12T10:47:05.975Z,228818,dn.borg@qut.edu.au,325728961,included,-1
+2022-09-12T10:47:22.836Z,228818,dn.borg@qut.edu.au,325728962,included,-1
+2022-09-12T10:47:33.289Z,228818,dn.borg@qut.edu.au,325728962,note-2170978,1
+2022-09-12T10:47:51.494Z,228818,dn.borg@qut.edu.au,325728962,"""Diagnostic""",1
+2022-09-12T10:47:52.916Z,228818,dn.borg@qut.edu.au,325728962,included,0
+2022-09-12T10:48:15.480Z,228818,dn.borg@qut.edu.au,325728962,"""Development""",1
+2022-09-12T10:48:19.277Z,228818,dn.borg@qut.edu.au,325728963,"""Diagnostic""",1
+2022-09-12T10:48:21.637Z,228818,dn.borg@qut.edu.au,325728963,"""Development""",1
+2022-09-12T10:48:53.186Z,228818,dn.borg@qut.edu.au,325728964,"""Development""",1
+2022-09-12T10:48:55.092Z,228818,dn.borg@qut.edu.au,325728964,"""Diagnostic""",1
+2022-09-12T10:49:10.609Z,228818,dn.borg@qut.edu.au,325728964,note-2170981,1
+2022-09-12T10:49:12.515Z,228818,dn.borg@qut.edu.au,325728964,included,1
+2022-09-12T10:49:31.376Z,228818,dn.borg@qut.edu.au,325728965,"""Development""",1
+2022-09-12T10:49:35.642Z,228818,dn.borg@qut.edu.au,325728965,"""Diagnostic""",1
+2022-09-12T10:49:45.596Z,228818,dn.borg@qut.edu.au,325728965,"""Validation""",1
+2022-09-12T10:49:48.049Z,228818,dn.borg@qut.edu.au,325728965,"""Development""",deleted
+2022-09-12T10:49:52.987Z,228818,dn.borg@qut.edu.au,325728966,included,0
+2022-09-12T10:50:00.972Z,228818,dn.borg@qut.edu.au,325728966,note-2170984,1
+2022-09-12T10:50:05.597Z,228818,dn.borg@qut.edu.au,325728967,"""Development""",1
+2022-09-12T10:50:07.035Z,228818,dn.borg@qut.edu.au,325728967,"""Diagnostic""",1
+2022-09-12T10:50:08.394Z,228818,dn.borg@qut.edu.au,325728967,"""Prognosis""",1
+2022-09-12T10:50:17.082Z,228818,dn.borg@qut.edu.au,325728968,"""Development""",1
+2022-09-12T10:50:25.708Z,228818,dn.borg@qut.edu.au,325728969,included,1
+2022-09-12T10:50:32.115Z,228818,dn.borg@qut.edu.au,325728969,"""Development""",1
+2022-09-12T10:50:33.318Z,228818,dn.borg@qut.edu.au,325728969,"""Prognosis""",1
+2022-09-12T10:50:38.412Z,228818,dn.borg@qut.edu.au,325728970,"""Diagnostic""",1
+2022-09-12T10:50:39.521Z,228818,dn.borg@qut.edu.au,325728970,"""Development""",1
+2022-09-12T10:50:44.662Z,228818,dn.borg@qut.edu.au,325728970,included,1
+2022-09-12T10:50:50.397Z,228818,dn.borg@qut.edu.au,325728967,included,1
+2022-09-12T10:50:51.569Z,228818,dn.borg@qut.edu.au,325728968,included,1
+2022-09-12T10:51:01.242Z,228818,dn.borg@qut.edu.au,325728971,"""Development""",1
+2022-09-12T10:51:04.289Z,228818,dn.borg@qut.edu.au,325728971,"""Diagnostic""",1
+2022-09-12T10:51:05.367Z,228818,dn.borg@qut.edu.au,325728971,included,1
+2022-09-12T10:51:12.414Z,228818,dn.borg@qut.edu.au,325728972,"""Development""",1
+2022-09-12T10:51:26.931Z,228818,dn.borg@qut.edu.au,325728972,included,1
+2022-09-12T10:51:36.885Z,228818,dn.borg@qut.edu.au,325729088,"""Validation""",1
+2022-09-12T10:51:41.948Z,228818,dn.borg@qut.edu.au,325729088,included,1
+2022-09-12T10:51:45.979Z,228818,dn.borg@qut.edu.au,325729089,included,1
+2022-09-12T10:51:47.948Z,228818,dn.borg@qut.edu.au,325729089,"""Development""",1
+2022-09-12T10:52:03.856Z,228818,dn.borg@qut.edu.au,325729090,included,1
+2022-09-12T10:52:09.856Z,228818,dn.borg@qut.edu.au,325729091,"""Development""",1
+2022-09-12T10:52:16.731Z,228818,dn.borg@qut.edu.au,325729091,"""Diagnostic""",1
+2022-09-12T10:52:24.482Z,228818,dn.borg@qut.edu.au,325729091,"""Diagnostic""",deleted
+2022-09-12T10:52:26.435Z,228818,dn.borg@qut.edu.au,325729091,included,1
+2022-09-12T10:52:28.138Z,228818,dn.borg@qut.edu.au,325729092,included,1
+2022-09-12T10:52:29.889Z,228818,dn.borg@qut.edu.au,325729093,included,1
+2022-09-12T10:52:31.701Z,228818,dn.borg@qut.edu.au,325729094,included,1
+2022-09-12T10:52:33.358Z,228818,dn.borg@qut.edu.au,325729095,included,1
+2022-09-12T10:52:34.701Z,228818,dn.borg@qut.edu.au,325729096,included,1
+2022-09-12T10:52:43.827Z,228818,dn.borg@qut.edu.au,325729098,included,1
+2022-09-12T10:52:46.468Z,228818,dn.borg@qut.edu.au,325729100,included,1
+2022-09-12T10:52:48.046Z,228818,dn.borg@qut.edu.au,325729101,included,1
+2022-09-12T10:52:52.078Z,228818,dn.borg@qut.edu.au,325729102,included,1
+2022-09-12T10:52:54.234Z,228818,dn.borg@qut.edu.au,325729103,included,1
+2022-09-12T10:52:56.015Z,228818,dn.borg@qut.edu.au,325729104,included,1
+2022-09-12T10:53:11.470Z,228818,dn.borg@qut.edu.au,325729105,"""__EXR__wrong study design""",1
+2022-09-12T10:53:11.516Z,228818,dn.borg@qut.edu.au,325729105,included,-1
+2022-09-12T10:53:19.658Z,228818,dn.borg@qut.edu.au,325729106,"""Validation""",1
+2022-09-12T10:53:21.017Z,228818,dn.borg@qut.edu.au,325729106,"""Diagnostic""",1
+2022-09-12T10:53:24.752Z,228818,dn.borg@qut.edu.au,325729106,included,1
+2022-09-12T10:53:41.644Z,228818,dn.borg@qut.edu.au,325729107,"""__EXR__wrong study design""",1
+2022-09-12T10:53:41.675Z,228818,dn.borg@qut.edu.au,325729107,included,-1
+2022-09-12T10:53:47.331Z,228818,dn.borg@qut.edu.au,325729107,note-2170995,1
+2022-09-12T10:53:52.910Z,228818,dn.borg@qut.edu.au,325729108,included,1
+2022-09-12T10:53:54.504Z,228818,dn.borg@qut.edu.au,325729110,included,1
+2022-09-12T10:53:56.301Z,228818,dn.borg@qut.edu.au,325729111,included,1
+2022-09-12T10:53:58.082Z,228818,dn.borg@qut.edu.au,325729112,included,1
+2022-09-12T10:53:59.535Z,228818,dn.borg@qut.edu.au,325729113,included,1
+2022-09-12T10:54:07.661Z,228818,dn.borg@qut.edu.au,325729117,included,1
+2022-09-12T10:54:09.474Z,228818,dn.borg@qut.edu.au,325729121,included,1
+2022-09-12T10:54:11.364Z,228818,dn.borg@qut.edu.au,325729121,included,1
+2022-09-12T10:54:13.427Z,228818,dn.borg@qut.edu.au,325729122,included,1
+2022-09-12T10:54:27.834Z,228818,dn.borg@qut.edu.au,325729123,"""__EXR__wrong study design""",1
+2022-09-12T10:54:27.897Z,228818,dn.borg@qut.edu.au,325729123,included,-1
+2022-09-12T10:54:35.366Z,228818,dn.borg@qut.edu.au,325729165,included,1
+2022-09-12T10:54:36.819Z,228818,dn.borg@qut.edu.au,325729166,included,1
+2022-09-12T10:54:38.460Z,228818,dn.borg@qut.edu.au,325729168,included,1
+2022-09-12T10:54:39.929Z,228818,dn.borg@qut.edu.au,325729169,included,1
+2022-09-12T10:54:44.007Z,228818,dn.borg@qut.edu.au,325729170,"""__EXR__wrong study design""",1
+2022-09-12T10:54:44.070Z,228818,dn.borg@qut.edu.au,325729170,included,-1
+2022-09-12T10:54:47.148Z,228818,dn.borg@qut.edu.au,325729171,included,1
+2022-09-12T10:54:49.195Z,228818,dn.borg@qut.edu.au,325729173,included,1
+2022-09-12T10:54:51.320Z,228818,dn.borg@qut.edu.au,325729175,included,1
+2022-09-12T10:54:52.852Z,228818,dn.borg@qut.edu.au,325729176,included,1
+2022-09-12T10:54:54.477Z,228818,dn.borg@qut.edu.au,325729177,included,1
+2022-09-12T10:54:56.680Z,228818,dn.borg@qut.edu.au,325729178,included,1
+2022-09-12T10:54:58.165Z,228818,dn.borg@qut.edu.au,325729179,included,1
+2022-09-12T10:54:59.415Z,228818,dn.borg@qut.edu.au,325729181,included,1
+2022-09-12T10:55:01.915Z,228818,dn.borg@qut.edu.au,325729182,included,1
+2022-09-12T10:55:05.571Z,228818,dn.borg@qut.edu.au,325729183,"""__EXR__wrong study design""",1
+2022-09-12T10:55:05.634Z,228818,dn.borg@qut.edu.au,325729183,included,-1
+2022-09-12T10:57:07.971Z,228818,dn.borg@qut.edu.au,325729006,included,1
+2022-09-12T10:57:09.736Z,228818,dn.borg@qut.edu.au,325729007,included,1
+2022-09-12T10:57:12.330Z,228818,dn.borg@qut.edu.au,325729008,included,1
+2022-09-12T10:57:18.674Z,228818,dn.borg@qut.edu.au,325729020,"""__EXR__wrong study design""",1
+2022-09-12T10:57:18.753Z,228818,dn.borg@qut.edu.au,325729020,included,-1
+2022-09-12T10:57:21.378Z,228818,dn.borg@qut.edu.au,325729028,"""__EXR__wrong study design""",1
+2022-09-12T10:57:21.425Z,228818,dn.borg@qut.edu.au,325729028,included,-1
+2022-09-12T10:57:24.081Z,228818,dn.borg@qut.edu.au,325729029,"""__EXR__wrong study design""",1
+2022-09-12T10:57:24.175Z,228818,dn.borg@qut.edu.au,325729029,included,-1
+2022-09-12T10:57:29.488Z,228818,dn.borg@qut.edu.au,325729005,"""__EXR__wrong study design""",1
+2022-09-12T10:57:29.535Z,228818,dn.borg@qut.edu.au,325729005,included,-1
+2022-09-12T10:57:34.176Z,228818,dn.borg@qut.edu.au,325729030,included,1
+2022-09-12T10:57:37.613Z,228818,dn.borg@qut.edu.au,325729044,"""__EXR__wrong study design""",1
+2022-09-12T10:57:37.660Z,228818,dn.borg@qut.edu.au,325729044,included,-1
+2022-09-12T10:57:40.926Z,228818,dn.borg@qut.edu.au,325729045,included,1
+2022-09-12T10:57:42.536Z,228818,dn.borg@qut.edu.au,325729046,included,1
+2022-09-12T10:57:44.020Z,228818,dn.borg@qut.edu.au,325729047,included,1
+2022-09-12T10:57:45.786Z,228818,dn.borg@qut.edu.au,325729048,included,1
+2022-09-12T10:57:49.380Z,228818,dn.borg@qut.edu.au,325729053,included,1
+2022-09-12T10:57:52.599Z,228818,dn.borg@qut.edu.au,325729054,"""__EXR__wrong study design""",1
+2022-09-12T10:57:52.661Z,228818,dn.borg@qut.edu.au,325729054,included,-1
+2022-09-12T10:57:56.662Z,228818,dn.borg@qut.edu.au,325729055,included,1
+2022-09-12T10:57:58.443Z,228818,dn.borg@qut.edu.au,325729056,included,1
+2022-09-12T10:58:00.037Z,228818,dn.borg@qut.edu.au,325729057,included,1
+2022-09-12T10:58:01.677Z,228818,dn.borg@qut.edu.au,325729058,included,1
+2022-09-12T10:58:03.053Z,228818,dn.borg@qut.edu.au,325729059,included,1
+2022-09-12T10:58:04.350Z,228818,dn.borg@qut.edu.au,325729061,included,1
+2022-09-12T10:58:07.209Z,228818,dn.borg@qut.edu.au,325729062,included,1
+2022-09-12T10:58:08.803Z,228818,dn.borg@qut.edu.au,325729063,included,1
+2022-09-12T10:58:10.428Z,228818,dn.borg@qut.edu.au,325729064,included,1
+2022-09-12T10:58:13.116Z,228818,dn.borg@qut.edu.au,325729066,"""__EXR__wrong study design""",1
+2022-09-12T10:58:13.163Z,228818,dn.borg@qut.edu.au,325729066,included,-1
+2022-09-12T10:58:17.491Z,228818,dn.borg@qut.edu.au,325729067,included,1
+2022-09-12T10:58:21.554Z,228818,dn.borg@qut.edu.au,325729067,included,1
+2022-09-12T10:58:24.460Z,228818,dn.borg@qut.edu.au,325729133,included,1
+2022-09-12T10:58:26.898Z,228818,dn.borg@qut.edu.au,325729132,"""__EXR__wrong study design""",1
+2022-09-12T10:58:26.945Z,228818,dn.borg@qut.edu.au,325729132,included,-1
+2022-09-12T10:58:29.476Z,228818,dn.borg@qut.edu.au,325729134,"""__EXR__wrong study design""",1
+2022-09-12T10:58:29.539Z,228818,dn.borg@qut.edu.au,325729134,included,-1
+2022-09-12T10:58:35.320Z,228818,dn.borg@qut.edu.au,325729147,included,1
+2022-09-12T10:58:38.977Z,228818,dn.borg@qut.edu.au,325729148,included,1
+2022-09-12T10:58:39.711Z,228818,dn.borg@qut.edu.au,325729149,included,1
+2022-09-12T10:58:40.321Z,228818,dn.borg@qut.edu.au,325729150,included,1
+2022-09-12T10:58:40.837Z,228818,dn.borg@qut.edu.au,325729151,included,1
+2022-09-12T10:58:41.571Z,228818,dn.borg@qut.edu.au,325729153,included,1
+2022-09-12T10:58:43.352Z,228818,dn.borg@qut.edu.au,325729154,"""__EXR__wrong study design""",1
+2022-09-12T10:58:43.415Z,228818,dn.borg@qut.edu.au,325729154,included,-1
+2022-09-12T10:58:46.056Z,228818,dn.borg@qut.edu.au,325729155,included,1
+2022-09-12T10:58:49.525Z,228818,dn.borg@qut.edu.au,325729156,included,1
+2022-09-12T10:58:50.290Z,228818,dn.borg@qut.edu.au,325729157,included,1
+2022-09-12T10:58:51.306Z,228818,dn.borg@qut.edu.au,325729159,included,1
+2022-09-12T10:58:53.181Z,228818,dn.borg@qut.edu.au,325729160,included,1
+2022-09-12T10:58:55.525Z,228818,dn.borg@qut.edu.au,325729158,included,1
+2022-09-12T10:58:58.775Z,228818,dn.borg@qut.edu.au,325729161,"""__EXR__wrong study design""",1
+2022-09-12T10:58:58.822Z,228818,dn.borg@qut.edu.au,325729161,included,-1
+2022-09-12T10:59:09.807Z,228818,dn.borg@qut.edu.au,325729161,note-2171008,1
+2022-09-12T10:59:17.964Z,228818,dn.borg@qut.edu.au,325729172,included,1
+2022-09-12T10:59:18.620Z,228818,dn.borg@qut.edu.au,325729186,included,1
+2022-09-12T10:59:19.136Z,228818,dn.borg@qut.edu.au,325729187,included,1
+2022-09-12T10:59:19.745Z,228818,dn.borg@qut.edu.au,325729192,included,1
+2022-09-12T10:59:20.199Z,228818,dn.borg@qut.edu.au,325729193,included,1
+2022-09-12T11:01:47.600Z,228818,dn.borg@qut.edu.au,325729033,included,1
+2022-09-12T11:01:48.225Z,228818,dn.borg@qut.edu.au,325729038,included,1
+2022-09-12T11:02:07.617Z,228818,dn.borg@qut.edu.au,325729042,included,1
+2022-09-12T11:02:14.930Z,228818,dn.borg@qut.edu.au,325729042,note-2171019,1
+2022-09-12T11:02:17.289Z,228818,dn.borg@qut.edu.au,325729043,included,1
+2022-09-12T11:02:19.117Z,228818,dn.borg@qut.edu.au,325729071,included,1
+2022-09-12T11:02:22.102Z,228818,dn.borg@qut.edu.au,325729072,included,1
+2022-09-12T11:02:26.227Z,228818,dn.borg@qut.edu.au,325729074,"""__EXR__wrong study design""",1
+2022-09-12T11:02:26.274Z,228818,dn.borg@qut.edu.au,325729074,included,-1
+2022-09-12T11:02:28.712Z,228818,dn.borg@qut.edu.au,325729075,"""__EXR__wrong study design""",1
+2022-09-12T11:02:28.743Z,228818,dn.borg@qut.edu.au,325729075,included,-1
+2022-09-12T11:02:37.072Z,228818,dn.borg@qut.edu.au,325729075,note-2171023,1
+2022-09-12T11:02:40.072Z,228818,dn.borg@qut.edu.au,325729076,included,1
+2022-09-12T11:02:40.791Z,228818,dn.borg@qut.edu.au,325729077,included,1
+2022-09-12T11:02:41.900Z,228818,dn.borg@qut.edu.au,325729081,included,1
+2022-09-12T11:02:42.978Z,228818,dn.borg@qut.edu.au,325729083,included,1
+2022-09-12T11:02:47.135Z,228818,dn.borg@qut.edu.au,325729084,included,1
+2022-09-12T11:02:49.323Z,228818,dn.borg@qut.edu.au,325729086,"""__EXR__wrong study design""",1
+2022-09-12T11:02:49.354Z,228818,dn.borg@qut.edu.au,325729086,included,-1
+2022-09-12T11:02:54.042Z,228818,dn.borg@qut.edu.au,325729144,included,1
+2022-09-12T11:02:54.604Z,228818,dn.borg@qut.edu.au,325729145,included,1
+2022-09-12T11:02:55.245Z,228818,dn.borg@qut.edu.au,325729146,included,1
+2022-09-12T11:02:58.495Z,228818,dn.borg@qut.edu.au,325729162,"""__EXR__wrong study design""",1
+2022-09-12T11:02:58.511Z,228818,dn.borg@qut.edu.au,325729162,included,-1
+2022-09-12T11:03:01.730Z,228818,dn.borg@qut.edu.au,325729163,included,1
+2022-09-12T11:03:09.996Z,228818,dn.borg@qut.edu.au,325729130,included,1
+2022-09-12T11:03:10.465Z,228818,dn.borg@qut.edu.au,325729138,included,1
+2022-09-12T11:03:20.137Z,228818,dn.borg@qut.edu.au,325729041,"""__EXR__wrong study design""",1
+2022-09-12T11:03:20.215Z,228818,dn.borg@qut.edu.au,325729041,included,-1
+2022-09-12T11:03:24.872Z,228818,dn.borg@qut.edu.au,325729041,note-2171026,1
+2022-09-12T11:03:31.498Z,228818,dn.borg@qut.edu.au,325729031,"""__EXR__wrong study design""",1
+2022-09-12T11:03:31.513Z,228818,dn.borg@qut.edu.au,325729031,included,-1
+2022-09-12T11:03:34.170Z,228818,dn.borg@qut.edu.au,325729032,"""__EXR__wrong study design""",1
+2022-09-12T11:03:34.248Z,228818,dn.borg@qut.edu.au,325729032,included,-1
+2022-09-12T11:03:37.826Z,228818,dn.borg@qut.edu.au,325728980,"""__EXR__wrong study design""",1
+2022-09-12T11:03:37.951Z,228818,dn.borg@qut.edu.au,325728980,included,-1
+2022-09-12T11:03:41.811Z,228818,dn.borg@qut.edu.au,325728973,included,1
+2022-09-12T11:03:42.530Z,228818,dn.borg@qut.edu.au,325728975,included,1
+2022-09-12T11:03:43.092Z,228818,dn.borg@qut.edu.au,325728976,included,1
+2022-09-12T11:03:43.639Z,228818,dn.borg@qut.edu.au,325728977,included,1
+2022-09-12T11:03:44.295Z,228818,dn.borg@qut.edu.au,325728978,included,1
+2022-09-12T11:03:49.452Z,228818,dn.borg@qut.edu.au,325728963,included,1
+2022-09-12T11:03:49.889Z,228818,dn.borg@qut.edu.au,325728965,included,1
