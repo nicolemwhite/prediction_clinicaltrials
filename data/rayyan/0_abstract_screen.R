@@ -32,10 +32,24 @@ dat = dat %>% mutate(final_decision = case_when(
 #before saving conflicts, remove definite includes, excludes, conflicts already discussed
 decided = dat %>% filter(grepl('DECISION:',decision)|final_decision %in% c('Include','Exclude')) 
 
+#extract final decision from the notes
+decided = decided %>% mutate(final_decision_conflict = gsub('^.*DECISION:','',notes)) %>% 
+  mutate_at('final_decision_conflict',~case_when(grepl('include',.,ignore.case = T)~'Include',grepl('exclude',.,ignore.case = T) ~ 'Exclude'))
+
+#coalesce decision fields
+decided = decided %>% mutate_at('final_decision',~coalesce(final_decision_conflict,.))
+
+filter(decided ,grepl('DECISION:',decision)) %>% select(notes) %>% head()
+
+openxlsx::write.xlsx(list('final decisions'=decided),
+                     file='data/rayyan/final_screening_decisions.xlsx')
+
+
 remaining = anti_join(dat,decided) %>% mutate_at('final_decision',~replace_na(.,'Second screen needed')) %>% select(-decision,-to_screen)
 
 # remaining %>% plyr::count("final_decision")
 
 openxlsx::write.xlsx(list('all outstanding'=remaining,
                           'conflicts' = remaining %>% filter(final_decision=='Conflict')),
-                          file='data/rayyan/outstanding_records.xlsx')
+                     file='data/rayyan/outstanding_records.xlsx')
+
