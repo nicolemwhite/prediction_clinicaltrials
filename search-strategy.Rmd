@@ -267,6 +267,29 @@ df_interventional_matches <-
   mutate(across(where(is.character), function(x) str_replace_all(x, ",", ";"))) 
 
 
+
+# formatting for rayyan
+included_studies_highlight <- c(
+  "machine learning","artificial intelligence","deep learning",
+  "prediction model","predictive model","prediction score","predictive score",
+  "warning score","risk score","risk prediction"
+) %>% 
+  str_c(collapse='|')
+
+exclude_highlight <- c("robot[a-z]*", "biomarker[a-z]*")%>% 
+  str_c(collapse='|')
+
+diagnostic_highlight <- "diagnos[a-z]*"
+
+prognostic_highlight <- "prognos[a-z]*"
+
+include_term_style <- "background-color: #90EE90; color: black; font-weight:bold;"
+diagnostic_term_style <- "background-color: yellow; color: black; font-weight:bold;"
+prognostic_term_style <- "background-color: #E0B0FF; color: black; font-weight:bold;"
+exclude_term_style <- "background-color: 	red; color: white; font-weight:bold;"
+
+
+
 maybe_include <- c(3, 4, 5, 6, 7, 10)
 df_interventional_matches %>% 
   slice(maybe_include) %>% 
@@ -300,12 +323,9 @@ df_interventional_matches %>%
 
 
 
-
-
-
 ```{r}
 
-df_matches %>%   filter(cpm & (cpm_type_diagnostic | cpm_type_prognostic)) %>% View() 
+# df_matches %>% filter(cpm & (cpm_type_diagnostic | cpm_type_prognostic)) %>% View() 
 
 df_matches <- 
   dat_search3 %>% 
@@ -336,7 +356,7 @@ df_matches3 <-
   summarize(cpm_study_type = paste0(name, collapse="; ")) %>%
   left_join(select(df_matches2, id, cpm, cpm_model_type), .) 
 
-write.csv(df_matches3, "data/study_groupings.csv", row.names=F)
+# write.csv(df_matches3, "data/study_groupings.csv", row.names=F)
 
 ```
 
@@ -371,30 +391,10 @@ all_included_studies <-
 # test space for conditional text formatting
 ```{r}
 
-included_studies_highlight <- c(
-  "machine learning","artificial intelligence","deep learning",
-  "prediction model","predictive model","prediction score","predictive score",
-  "warning score","risk score","risk prediction"
-) %>% 
-  str_c(collapse='|')
-
-exclude_highlight <- c("robot[a-z]*", "biomarker[a-z]*")%>% 
-  str_c(collapse='|')
-
-diagnostic_highlight <- "diagnos[a-z]*"
-
-prognostic_highlight <- "prognos[a-z]*"
-
-include_term_style <- "background-color: #90EE90; color: black; font-weight:bold;"
-diagnostic_term_style <- "background-color: yellow; color: black; font-weight:bold;"
-prognostic_term_style <- "background-color: #E0B0FF; color: black; font-weight:bold;"
-exclude_term_style <- "background-color: 	red; color: white; font-weight:bold;"
-
-
 
 
 all_included_studies %>% 
-  slice(1:30) %>% 
+  slice(1:2) %>% 
   mutate(
     abstract=str_replace_all(
       abstract, 
@@ -450,8 +450,9 @@ all_included_studies_out <-
     )
   )
 
-write.csv(all_included_studies_out, "data/included_studies.csv", row.names=F) 
+# write.csv(all_included_studies_out, "data/included_studies.csv", row.names=F) 
 ```
+
 
 ```{r}
 
