@@ -453,6 +453,32 @@ all_included_studies_out <-
 # write.csv(all_included_studies_out, "data/included_studies.csv", row.names=F) 
 ```
 
+# link NCT to final decisions
+```{r}
+
+final_decisions <- readxl::read_xlsx("data/rayyan/final_screening_decisions.xlsx")
+cbind(final_decisions[1:5,2])
+final_decisions %>% head() %>% select(title)
+all_included_studies_out %>% head() %>% select(title) %>% remove_rownames()
+
+cbind(
+  select(final_decisions, title_final=title, final_decision), 
+  select(all_included_studies, title_included=title, key)
+) %>%
+  filter(title_final != title_included)
+
+# order is maintained from output from rayyan so can simply rbind the NCT to the rayyan output:
+
+final_decisions_with_NCT <- cbind(select(all_included_studies, key, title_old=title), final_decisions)
+final_decisions_with_NCT %>% 
+  select(title_old, title) %>%
+  rbind(head(.), tail(.)) %>% 
+  remove_rownames()
+
+write.csv(final_decisions_with_NCT, file="data/rayyan/final_decisions_with_NCT.csv", row.names = FALSE)
+```
+
+
 
 ```{r}
 
