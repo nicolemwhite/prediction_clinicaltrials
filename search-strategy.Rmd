@@ -469,13 +469,14 @@ cbind(
 
 # order is maintained from output from rayyan so can simply rbind the NCT to the rayyan output:
 
-final_decisions_with_NCT <- cbind(select(all_included_studies, key, title_old=title), final_decisions)
+final_decisions_with_NCT <- cbind(select(all_included_studies, NCT=key, title_old=title), final_decisions)
 final_decisions_with_NCT %>% 
   select(title_old, title) %>%
   rbind(head(.), tail(.)) %>% 
   remove_rownames()
 
 write.csv(final_decisions_with_NCT, file="data/rayyan/final_decisions_with_NCT.csv", row.names = FALSE)
+write.csv(filter(final_decisions_with_NCT, final_decision=="Include"), file="data/rayyan/final_included_with_NCT.csv", row.names = FALSE)
 ```
 
 
