@@ -385,14 +385,12 @@ all_included_studies <-
   select(key=id, title=title, authors, journal, abstract=summary, everything()) %>%
   mutate(across(where(is.character), function(x) str_replace_all(x, ",", ";"))) 
 
+# all_included_studies <- read.csv("data/rayyan/not used/included_studies.csv")
 # write.csv(all_included_studies, "data/included_studies.csv", row.names=F) 
 ```
 
 # test space for conditional text formatting
 ```{r}
-
-
-
 all_included_studies %>% 
   slice(1:2) %>% 
   mutate(
@@ -477,6 +475,14 @@ final_decisions_with_NCT %>%
 
 write.csv(final_decisions_with_NCT, file="data/rayyan/final_decisions_with_NCT.csv", row.names = FALSE)
 write.csv(filter(final_decisions_with_NCT, final_decision=="Include"), file="data/rayyan/final_included_with_NCT.csv", row.names = FALSE)
+
+final_decisions_with_NCT_only <-
+  final_decisions_with_NCT %>%
+  filter(final_decision=="Include") %>%
+  select(NCT, final_decision)
+  
+  
+write.csv(final_decisions_with_NCT_only, file="data/rayyan/final_included_NCT_only.csv", row.names = FALSE)
 ```
 
 
