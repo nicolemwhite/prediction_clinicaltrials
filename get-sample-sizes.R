@@ -4,8 +4,6 @@
 # March 2021
 source('99_packages.R')
 source('99_functions.R')
-library(xml2)
-library(progress)
 
 studies <- readRDS("data/scoredTrials.rds")
 studies <- studies %>% rename(id=NCT_num) %>%
