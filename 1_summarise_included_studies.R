@@ -25,7 +25,7 @@ screening_results = screening_results %>%
 included_studies = filter(screening_results,final_decision=='Include') %>% select(NCT,Prognostic:Validation) %>%
   gather(Keyword,present,-NCT) %>%
   filter(present==TRUE) %>%
-  group_by(NCT) %>% mutate_at('Keyword',~list(.)) %>% ungroup() %>% select(NCT,Keyword)
+  group_by(NCT) %>% mutate_at('Keyword',~list(.)) %>% ungroup() %>% select(NCT,Keyword) %>% distinct()
 
 
 excluded_studies = filter(screening_results,final_decision=='Exclude') %>% select(NCT,Prognostic:Validation) %>%
@@ -40,7 +40,7 @@ invisible(dev.off())
 
 #add additional fields from xml files (entire sample)
 load('Z:/clinicaltrials/data/analysis_ready/all_studies.rda')
-nct_included = included_studies %>% pull(NCT)
+nct_included = included_studies %>% pull(NCT) 
 dat_included = filter(dat, id %in% nct_included) %>% inner_join(included_studies,by=c('id'='NCT'))
 
 save(dat_included,included_studies,excluded_studies,file='data/final_studies.rda')
@@ -50,11 +50,38 @@ rm(dat);gc() #free up some memory - dat no longer needed
 
 #plot screening record decisions over time. need to join with study year
 dat_included = dat_included %>% mutate(year_posted = as.numeric(gsub(".*, ","",posted)))
-
-to_plot = dat_included %>% select(id,year_posted) %>% distinct()
-
-ggplot(to_plot,aes(year_posted))+geom_histogram(aes(y=cumsum(..count..)),binwidth=1,fill='darkgrey',colour='black')+
-  scale_x_continuous('Year first posted',breaks=seq(2000,2022))+
-  scale_y_continuous('Cumulative number of eligible records',breaks=seq(0,1600,100))+
+png('manuscript/figures/incuded_records.png',width=1000,height=600)
+ggplot(dat_included,aes(year_posted))+geom_histogram(aes(y=cumsum(..count..)),binwidth=1,fill='darkgrey',colour='black')+
+  scale_x_continuous('Year first posted',breaks=seq(2000,2022,2))+
+  scale_y_continuous('Cumulative number of included records',breaks=seq(0,1000,100))+
   theme_minimal()+theme(panel.grid.minor = element_blank(),axis.text = element_text(size=12),text=element_text(size=12))
+invisible(dev.off())
 
+
+#split into prognostic vs diagnostic
+dat_prognostic = filter(screening_results,final_decision=='Include',Prognostic==TRUE) %>% mutate(grp = case_when(
+  (Development==TRUE & Validation==FALSE) ~ 'Development',
+  (Development==FALSE & Validation==TRUE) ~ 'Validation',
+  (Development==TRUE & Validation==TRUE) ~ 'Development + Validation')) %>% mutate_at('grp',~replace_na(.,'Missing')) %>% left_join(select(dat_included,id,year_posted),by=c('NCT'='id'))
+
+dat_diagnostic = filter(screening_results,final_decision=='Include',Diagnostic==TRUE) %>% mutate(grp = case_when(
+  (Development==TRUE & Validation==FALSE) ~ 'Development',
+  (Development==FALSE & Validation==TRUE) ~ 'Validation',
+  (Development==TRUE & Validation==TRUE) ~ 'Development + Validation')) %>% mutate_at('grp',~replace_na(.,'Missing')) %>% left_join(select(dat_included,id,year_posted),by=c('NCT'='id'))
+
+
+ftab_outcome = bind_rows(list('Prognostic'=dat_prognostic,'Diagnostic'=dat_diagnostic),.id='Outcome') %>% 
+  mutate_at('grp',~factor(.,levels=c('Development','Validation','Development + Validation','Missing'))) %>%
+  count(Outcome,year_posted,grp)
+
+ftab_outcome %>% ggplot(aes(x=year_posted,y=n,group=grp,colour=grp))+geom_point()+geom_line()+facet_grid(Outcome~.)+
+  scale_x_continuous('Year first posted',breaks=seq(2000,2022,2))+scale_y_continuous('Number of included records',breaks=seq(0,80,10))+
+  theme_bw()+theme(strip.background = element_rect(fill='white'),
+                   strip.text = element_text(size=12),axis.text.x = element_text(size=12),axis.text.y = element_text(size=12),
+                   axis.text = element_text(size=12),legend.position = 'top',legend.direction = 'horizontal',legend.title = element_blank(),legend.text = element_text(size=11))
+
+#missing tags
+missing_p = filter(dat_prognostic,grp=='Missing') %>% pull(NCT)
+missing_d = filter(dat_diagnostic,grp=='Missing') %>% pull(NCT)
+missing_other = filter(screening_results,final_decision=='Include',Diagnostic==FALSE,Prognostic==FALSE) %>% pull(NCT)
+missing_tags = c(missing_p,missing_d,missing_other) %>% unique()
