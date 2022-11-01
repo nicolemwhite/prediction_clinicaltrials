@@ -26,3 +26,23 @@ cancer
 pregnancy or neonatal
 computer aided diagnosis or CAD
 fMRI
+
+Registry, surveillance, platform, biobank, database
+Features
+Pathways
+Biomarkers
+Imaging (include as well “imging”)
+Correlation, association
+Clinical score
+PROGRESS (theme I)
+AGO-OVAR
+Framingham risk score
+Software – SPSS, SSPS, R, Stata, SAS, Graphpad prism
+Genetic risk score; polygeneic
+Assay
+
+
+### Sensitivity analysis
+We could check the results with a minimum word cut off
+Maybe on subset of studies with both tags
+Run analysis on definite includes and conflicts to assess bias

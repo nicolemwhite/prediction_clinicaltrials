@@ -39,7 +39,6 @@ decided = decided %>% mutate(final_decision_conflict = gsub('^.*DECISION:','',no
 #coalesce decision fields
 decided = decided %>% mutate_at('final_decision',~coalesce(final_decision_conflict,.))
 
-filter(decided ,grepl('DECISION:',decision)) %>% select(notes) %>% head()
 
 openxlsx::write.xlsx(list('final decisions'=decided),
                      file='data/rayyan/final_screening_decisions.xlsx')
