@@ -9368,3 +9368,12 @@ created_at,user_id,user_email,article_id,key,value
 2022-10-05T04:39:43.415Z,74825,nm.white@qut.edu.au,325729200,note-2257628,1
 2022-10-05T04:55:17.403Z,74825,nm.white@qut.edu.au,325728982,note-2257642,1
 2022-10-05T05:11:53.301Z,74825,nm.white@qut.edu.au,325728280,note-2257659,1
+2022-11-01T23:39:30.312Z,87685,rex.parsons@hdr.qut.edu.au,325727995,"""validation""",1
+2022-11-01T23:40:31.500Z,87685,rex.parsons@hdr.qut.edu.au,325728292,"""Development""",1
+2022-11-01T23:42:04.595Z,87685,rex.parsons@hdr.qut.edu.au,325727769,"""Prognosis""",1
+2022-11-01T23:42:38.501Z,87685,rex.parsons@hdr.qut.edu.au,325727773,"""Prognosis""",1
+2022-11-01T23:43:40.377Z,87685,rex.parsons@hdr.qut.edu.au,325727845,"""Prognosis""",1
+2022-11-01T23:44:03.221Z,87685,rex.parsons@hdr.qut.edu.au,325727903,"""Diagnostic""",1
+2022-11-01T23:44:40.893Z,87685,rex.parsons@hdr.qut.edu.au,325728118,"""Diagnostic""",1
+2022-11-01T23:44:45.003Z,87685,rex.parsons@hdr.qut.edu.au,325728118,"""Diagnostic""",deleted
+2022-11-01T23:44:46.799Z,87685,rex.parsons@hdr.qut.edu.au,325728118,"""Prognosis""",1
