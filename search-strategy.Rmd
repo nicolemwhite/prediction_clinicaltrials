@@ -448,7 +448,7 @@ all_included_studies_out <-
     )
   )
 
-# write.csv(all_included_studies_out, "data/included_studies.csv", row.names=F) 
+# write.csv(all_included_studies_out, "data/included_studies.csv", row.names=F)
 ```
 
 # link NCT to final decisions
