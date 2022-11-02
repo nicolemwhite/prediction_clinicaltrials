@@ -43,7 +43,7 @@ load('Z:/clinicaltrials/data/analysis_ready/all_studies.rda')
 nct_included = included_studies %>% pull(NCT) 
 dat_included = filter(dat, id %in% nct_included) %>% inner_join(included_studies,by=c('id'='NCT'))
 
-save(dat_included,included_studies,excluded_studies,file='data/final_studies.rda')
+save(dat_included,included_studies,excluded_studies,screening_results,file='data/final_studies.rda')
 
 rm(dat);gc() #free up some memory - dat no longer needed
 
@@ -74,6 +74,15 @@ ftab_outcome = bind_rows(list('Prognostic'=dat_prognostic,'Diagnostic'=dat_diagn
   mutate_at('grp',~factor(.,levels=c('Development','Validation','Development + Validation','Missing'))) %>%
   count(Outcome,year_posted,grp)
 
+#keyword search by clinical problem - examples
+
+dat_included %>% filter(grepl('COVID(.*)19|SARS(.*)CoV(.*)2',official_title,ignore.case = T)|grepl('COVID(.*)19|SARS(.*)CoV(.*)2',detailed_summary,ignore.case = T)) %>% nrow()
+dat_included %>% filter(grepl('sepsis',official_title,ignore.case = T)) %>% nrow()
+dat_included %>% filter(grepl('stroke',official_title,ignore.case = T)|grepl('stroke',official_title,ignore.case = T)) %>% nrow()
+dat_included %>% filter(grepl('atrial fibrillation',official_title,ignore.case = T)|grepl('atrial fibrillation',detailed_summary,ignore.case = T)) %>% nrow()
+
+
+
 ftab_outcome %>% ggplot(aes(x=year_posted,y=n,group=grp,colour=grp))+geom_point()+geom_line()+facet_grid(Outcome~.)+
   scale_x_continuous('Year first posted',breaks=seq(2000,2022,2))+scale_y_continuous('Number of included records',breaks=seq(0,80,10))+
   theme_bw()+theme(strip.background = element_rect(fill='white'),
@@ -85,3 +94,6 @@ missing_p = filter(dat_prognostic,grp=='Missing') %>% pull(NCT)
 missing_d = filter(dat_diagnostic,grp=='Missing') %>% pull(NCT)
 missing_other = filter(screening_results,final_decision=='Include',Diagnostic==FALSE,Prognostic==FALSE) %>% pull(NCT)
 missing_tags = c(missing_p,missing_d,missing_other) %>% unique()
+
+
+dat_included = dat_included %>% mutate_at('mesh_terms',~list(str_split(.,pattern='\\|')))
