@@ -6,7 +6,6 @@ sample_sizes %>%
   group_by(id) %>%
   summarize(n=n())
 
-
 sample_sizes2 <- 
   sample_sizes %>%
   mutate(
@@ -99,5 +98,28 @@ sample_sizes5 %>%
         axis.text.x=element_blank(),
         axis.ticks.x=element_blank())
 
-ggsave("output/figures/sample-size_actual-over-anticipated.png")
+ggsave("output/figures/sample-size_actual-over-anticipated1.png", height=7, width=5.1)
 
+
+sample_sizes5 %>%
+  ggplot(aes(x=Anticipated, y=actual_over_anticipated, col=Actual < Anticipated)) +
+  geom_point(alpha=0.6) +
+  scale_y_continuous(labels = scales::percent, trans="log10") +
+  scale_x_continuous(limits=c(0,10000)) +
+  labs(
+    title = "Actual sample size as a percentage of anticipated",
+    y = expression(paste(frac("Actual", "Anticipated"), "  (%)")),
+    x = "Anticipated (n)"
+  ) +
+  theme_bw()
+
+ggsave("output/figures/sample-size_actual-over-anticipated2.png", height=5, width=7)
+
+# find fraction of studies which include "Actual" sample size on study completion
+
+sample_sizes2 %>% 
+  filter(status == "Completed") %>%
+  group_by(id) %>%
+  arrange(desc(date)) %>%
+  slice(1) %>%
+  ungroup() 
