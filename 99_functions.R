@@ -1,6 +1,7 @@
 # 99_functions.R
 # functions for reading data
 # March 2021
+cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
 
 # function to extract sample size from historical clintrials data
 sample_historical = function(intable, id, index){
@@ -341,3 +342,14 @@ getXMLrecord_zip <- function(FilePath){
    xml_data <- xmlToList(data) 
    return(list(xml=xml_data,data=data))
 }
+
+
+xmlGetNodeValue <- function(n, xp, default=NA) {
+  ns<-getNodeSet(n, xp)
+  if(length(ns)<1) {
+    return(default)
+  } else {
+    sapply(ns, xmlValue)
+  }
+}
+
