@@ -1,0 +1,627 @@
+"","mesh_terms","n"
+"1","",79
+"2","COVID-19",46
+"3","Coronary Artery Disease",32
+"4","Breast Neoplasms",30
+"5","Wounds and Injuries",28
+"6","Heart Failure",24
+"7","Myocardial Ischemia",24
+"8","Stroke",24
+"9","Atrial Fibrillation",23
+"10","Emergencies",23
+"11","Coronary Disease",20
+"12","Syndrome",20
+"13","Heart Diseases",19
+"14","Lung Neoplasms",19
+"15","Hemorrhage",18
+"16","Carcinoma",16
+"17","Colorectal Neoplasms",16
+"18","Cardiovascular Diseases",15
+"19","Polyps",15
+"20","Sepsis",15
+"21","Adenoma",14
+"22","Diabetes Mellitus",14
+"23","Retinal Diseases",14
+"24","Acute Kidney Injury",13
+"25","Acute Coronary Syndrome",12
+"26","Atherosclerosis",12
+"27","Chest Pain",12
+"28","Infections",12
+"29","Ischemia",12
+"30","Liver Diseases",12
+"31","Neoplasm Metastasis",12
+"32","Alzheimer Disease",11
+"33","Critical Illness",11
+"34","Disease",11
+"35","Infarction",11
+"36","Liver Cirrhosis",11
+"37","Myocardial Infarction",11
+"38","Toxemia",11
+"39","Brain Injuries",10
+"40","Diabetic Retinopathy",10
+"41","Fibrosis",10
+"42","Ischemic Stroke",10
+"43","Stomach Neoplasms",10
+"44","Carcinoma, Hepatocellular",9
+"45","Neoplasms",9
+"46","Parkinson Disease",9
+"47","Prostatic Neoplasms",9
+"48","Adenocarcinoma",8
+"49","Cognitive Dysfunction",8
+"50","Esophageal Neoplasms",8
+"51","Kidney Diseases",8
+"52","Pneumonia",8
+"53","Pulmonary Disease, Chronic Obstructive",8
+"54","Sleep Apnea Syndromes",8
+"55","Apnea",7
+"56","Cardiomyopathies",7
+"57","Chronic Pain",7
+"58","Colonic Polyps",7
+"59","Communicable Diseases",7
+"60","Congenital Abnormalities",7
+"61","Crohn Disease",7
+"62","Dementia",7
+"63","Depression",7
+"64","Depressive Disorder",7
+"65","Head and Neck Neoplasms",7
+"66","Heart Arrest",7
+"67","Multiple Pulmonary Nodules",7
+"68","Ovarian Neoplasms",7
+"69","Recurrence",7
+"70","Sleep Apnea, Obstructive",7
+"71","Urinary Bladder Neoplasms",7
+"72","Brain Injuries, Traumatic",6
+"73","Carcinoma, Non-Small-Cell Lung",6
+"74","Constriction, Pathologic",6
+"75","Coronavirus Infections",6
+"76","Delirium",6
+"77","Glaucoma",6
+"78","Hepatitis B",6
+"79","Liver Failure",6
+"80","Nasopharyngeal Carcinoma",6
+"81","Neoplastic Cells, Circulating",6
+"82","Postoperative Complications",6
+"83","Shock",6
+"84","Shock, Septic",6
+"85","Thromboembolism",6
+"86","Uterine Cervical Neoplasms",6
+"87","Venous Thromboembolism",6
+"88","Asthma",5
+"89","Cerebral Hemorrhage",5
+"90","Dyspnea",5
+"91","Embolism",5
+"92","Endometrial Neoplasms",5
+"93","Fatty Liver",5
+"94","Glioma",5
+"95","Heart Defects, Congenital",5
+"96","Heart Valve Diseases",5
+"97","Inflammatory Bowel Diseases",5
+"98","Leukemia",5
+"99","Lung Diseases",5
+"100","Lung Diseases, Obstructive",5
+"101","Lymphoma",5
+"102","Melanoma",5
+"103","Non-alcoholic Fatty Liver Disease",5
+"104","Pre-Eclampsia",5
+"105","Premature Birth",5
+"106","Rectal Neoplasms",5
+"107","Renal Insufficiency, Chronic",5
+"108","Respiratory Distress Syndrome",5
+"109","Respiratory Insufficiency",5
+"110","Spinal Cord Injuries",5
+"111","Tachycardia",5
+"112","Tuberculosis",5
+"113","Adenocarcinoma of Lung",4
+"114","Arthritis",4
+"115","Bipolar Disorder",4
+"116","Carcinoma, Ovarian Epithelial",4
+"117","Carotid Artery Diseases",4
+"118","Digestive System Diseases",4
+"119","Frailty",4
+"120","Gastrointestinal Diseases",4
+"121","Hepatic Insufficiency",4
+"122","Hepatitis",4
+"123","Hepatitis B, Chronic",4
+"124","Hyperplasia",4
+"125","Hypersensitivity",4
+"126","Hypertension",4
+"127","Lymphatic Metastasis",4
+"128","Myelodysplastic Syndromes",4
+"129","Pancreatic Neoplasms",4
+"130","Parkinsonian Disorders",4
+"131","Pregnancy Complications",4
+"132","Pulmonary Embolism",4
+"133","Respiratory Distress Syndrome, Newborn",4
+"134","Schizophrenia",4
+"135","Solitary Pulmonary Nodule",4
+"136","Abortion, Habitual",3
+"137","Acute-On-Chronic Liver Failure",3
+"138","Acute Disease",3
+"139","Acute Lung Injury",3
+"140","Aneurysm",3
+"141","Aneurysm, Dissecting",3
+"142","Angina, Unstable",3
+"143","Autism Spectrum Disorder",3
+"144","Autistic Disorder",3
+"145","Back Pain",3
+"146","Bacteremia",3
+"147","Bone Diseases",3
+"148","Bone Marrow Diseases",3
+"149","Bone Neoplasms",3
+"150","Brain Neoplasms",3
+"151","Bronchopulmonary Dysplasia",3
+"152","Carcinoma, Renal Cell",3
+"153","Carcinoma, Squamous Cell",3
+"154","Cardiomyopathy, Hypertrophic",3
+"155","Cerebral Infarction",3
+"156","Cerebral Palsy",3
+"157","Cognition Disorders",3
+"158","Consciousness Disorders",3
+"159","Death",3
+"160","Death, Sudden, Cardiac",3
+"161","Dementia, Vascular",3
+"162","Depressive Disorder, Major",3
+"163","Diabetes Mellitus, Type 1",3
+"164","Diabetes Mellitus, Type 2",3
+"165","Diabetes, Gestational",3
+"166","Disease Susceptibility",3
+"167","End Stage Liver Disease",3
+"168","Eye Diseases",3
+"169","Gastrointestinal Hemorrhage",3
+"170","Genetic Predisposition to Disease",3
+"171","Glioblastoma",3
+"172","Hepatitis A",3
+"173","Hypertension, Pulmonary",3
+"174","Low Back Pain",3
+"175","Multiple Organ Failure",3
+"176","Multiple Sclerosis",3
+"177","Musculoskeletal Pain",3
+"178","Osteosarcoma",3
+"179","Pancreatitis",3
+"180","Preleukemia",3
+"181","Psychotic Disorders",3
+"182","Sclerosis",3
+"183","Skin Neoplasms",3
+"184","Spinal Stenosis",3
+"185","ST Elevation Myocardial Infarction",3
+"186","Stomach Diseases",3
+"187","Systemic Inflammatory Response Syndrome",3
+"188","Tachycardia, Ventricular",3
+"189","Thrombosis",3
+"190","Abortion, Spontaneous",2
+"191","Adenomatous Polyps",2
+"192","Anastomotic Leak",2
+"193","Angina Pectoris",2
+"194","Angina, Stable",2
+"195","Aortic Valve Stenosis",2
+"196","Appendicitis",2
+"197","Arrhythmias, Cardiac",2
+"198","Arthritis, Psoriatic",2
+"199","Ataxia",2
+"200","Atrial Premature Complexes",2
+"201","Behavior, Addictive",2
+"202","Biliary Atresia",2
+"203","Bradycardia",2
+"204","Burns",2
+"205","Carcinoma in Situ",2
+"206","Carcinoma, Basal Cell",2
+"207","Cerebellar Ataxia",2
+"208","Cerebrovascular Disorders",2
+"209","Cervical Intraepithelial Neoplasia",2
+"210","Cholangitis",2
+"211","Cholangitis, Sclerosing",2
+"212","Chromosome Aberrations",2
+"213","Chromosome Disorders",2
+"214","Chronic Kidney Disease-Mineral and Bone Disorder",2
+"215","Colitis",2
+"216","Colonic Neoplasms",2
+"217","Coronary Stenosis",2
+"218","Cysts",2
+"219","Deafness",2
+"220","Disease Progression",2
+"221","Down Syndrome",2
+"222","Dysplastic Nevus Syndrome",2
+"223","Endometrial Hyperplasia",2
+"224","Endometriosis",2
+"225","Esophageal and Gastric Varices",2
+"226","Esophageal Squamous Cell Carcinoma",2
+"227","Essential Tremor",2
+"228","Fetal Growth Retardation",2
+"229","Fibromyalgia",2
+"230","Gastrointestinal Neoplasms",2
+"231","Glaucoma, Angle-Closure",2
+"232","Hearing Loss",2
+"233","Hearing Loss, Sensorineural",2
+"234","Heart Failure, Diastolic",2
+"235","Heart Murmurs",2
+"236","Hepatitis C",2
+"237","Hepatitis, Autoimmune",2
+"238","Hypercholesterolemia",2
+"239","Hyperlipoproteinemia Type II",2
+"240","Hypertrophy",2
+"241","Hypoxia",2
+"242","Immune Checkpoint Inhibitors",2
+"243","Inflammation",2
+"244","Intestinal Diseases",2
+"245","Ischemic Attack, Transient",2
+"246","Leukemia, Lymphoid",2
+"247","Leukemia, Myeloid",2
+"248","Lewy Body Disease",2
+"249","Liver Failure, Acute",2
+"250","Liver Neoplasms",2
+"251","Lymphoma, B-Cell",2
+"252","Macular Degeneration",2
+"253","Macular Edema",2
+"254","Mental Disorders",2
+"255","Metabolic Syndrome",2
+"256","Migraine Disorders",2
+"257","Mitral Valve Insufficiency",2
+"258","Multiple System Atrophy",2
+"259","Mycoses",2
+"260","Mydriatics",2
+"261","Myofascial Pain Syndromes",2
+"262","Neoplasm, Residual",2
+"263","Neoplasms, Second Primary",2
+"264","Nervous System Diseases",2
+"265","Neuroendocrine Tumors",2
+"266","Osteoarthritis, Knee",2
+"267","Out-of-Hospital Cardiac Arrest",2
+"268","Pancreatitis, Chronic",2
+"269","Perinatal Death",2
+"270","Persistent Vegetative State",2
+"271","Plaque, Atherosclerotic",2
+"272","Pleural Effusion",2
+"273","Pneumoconiosis",2
+"274","Pneumonia, Viral",2
+"275","Pneumothorax",2
+"276","Polycystic Ovary Syndrome",2
+"277","Prediabetic State",2
+"278","Respiration Disorders",2
+"279","Respiratory Tract Infections",2
+"280","Rupture",2
+"281","Sarcoma",2
+"282","Scoliosis",2
+"283","Shy-Drager Syndrome",2
+"284","Somatoform Disorders",2
+"285","Spinal Cord Diseases",2
+"286","Squamous Cell Carcinoma of Head and Neck",2
+"287","Subarachnoid Hemorrhage",2
+"288","Supranuclear Palsy, Progressive",2
+"289","Teratoma",2
+"290","Thrombocytopenia",2
+"291","Thyroid Diseases",2
+"292","Ulcer",2
+"293","Venous Thrombosis",2
+"294","Ventricular Dysfunction, Left",2
+"295","Ventricular Premature Complexes",2
+"296","Virus Diseases",2
+"297","Voice Disorders",2
+"298","Abatacept",1
+"299","Abdominal Pain",1
+"300","ACTH-Secreting Pituitary Adenoma",1
+"301","Adalimumab",1
+"302","Adenocarcinoma in Situ",1
+"303","Adenocarcinoma, Sebaceous",1
+"304","Adenomyosis",1
+"305","Adenosine",1
+"306","Amyloidosis",1
+"307","Anaphylaxis",1
+"308","Anti-Bacterial Agents",1
+"309","Antipsychotic Agents",1
+"310","Antirheumatic Agents",1
+"311","Antiviral Agents",1
+"312","Anus Neoplasms",1
+"313","Anxiety Disorders",1
+"314","Aortic Aneurysm",1
+"315","Aortic Aneurysm, Abdominal",1
+"316","Aortic Diseases",1
+"317","Aortic Valve Insufficiency",1
+"318","Aphasia, Primary Progressive",1
+"319","Arteriosclerosis",1
+"320","Arthralgia",1
+"321","Arthritis, Infectious",1
+"322","Arthritis, Rheumatoid",1
+"323","Aspirin",1
+"324","Astrocytoma",1
+"325","Asymptomatic Diseases",1
+"326","Athletic Injuries",1
+"327","Atrial Flutter",1
+"328","Attention Deficit Disorder with Hyperactivity",1
+"329","Autoimmune Diseases",1
+"330","Azithromycin",1
+"331","Barrett Esophagus",1
+"332","Bile Duct Diseases",1
+"333","Bile Duct Neoplasms",1
+"334","Binge-Eating Disorder",1
+"335","Blood Coagulation Disorders",1
+"336","Brain Death",1
+"337","Brain Diseases",1
+"338","Breast Cancer Lymphedema",1
+"339","Breast Diseases",1
+"340","Bulimia",1
+"341","Bulimia Nervosa",1
+"342","Bundle-Branch Block",1
+"343","Bupropion",1
+"344","Calculi",1
+"345","Candidiasis",1
+"346","Candidiasis, Vulvovaginal",1
+"347","Cardio-Renal Syndrome",1
+"348","Cardiomyopathy, Hypertrophic, Familial",1
+"349","Carotid Body Tumor",1
+"350","Carotid Stenosis",1
+"351","Cataract",1
+"352","Cellulitis",1
+"353","Cerebral Small Vessel Diseases",1
+"354","Chagas Cardiomyopathy",1
+"355","Chagas Disease",1
+"356","Chemical and Drug Induced Liver Injury",1
+"357","Child Development Disorders, Pervasive",1
+"358","Choledochal Cyst",1
+"359","Choledocholithiasis",1
+"360","Cholestasis",1
+"361","Citalopram",1
+"362","Clinical Deterioration",1
+"363","Clopidogrel",1
+"364","Cluster Headache",1
+"365","Colitis, Ulcerative",1
+"366","Collagen Diseases",1
+"367","Colonic Diseases",1
+"368","Coma",1
+"369","Common Bile Duct Neoplasms",1
+"370","Contusions",1
+"371","Cough",1
+"372","Cross Infection",1
+"373","Cystadenocarcinoma, Serous",1
+"374","Death, Sudden",1
+"375","Deglutition Disorders",1
+"376","Dengue",1
+"377","Dentofacial Deformities",1
+"378","Dexmedetomidine",1
+"379","Diabetes Insipidus",1
+"380","Diabetic Foot",1
+"381","Digestive System Neoplasms",1
+"382","Diverticular Diseases",1
+"383","Diverticulitis",1
+"384","Diverticulum",1
+"385","Drug Hypersensitivity",1
+"386","Dry Eye Syndromes",1
+"387","Duloxetine Hydrochloride",1
+"388","Duodenal Ulcer",1
+"389","Dysphonia",1
+"390","Eclampsia",1
+"391","Embolic Stroke",1
+"392","Endocrine System Diseases",1
+"393","Enterocolitis",1
+"394","Enterocolitis, Necrotizing",1
+"395","Eosinophilic Esophagitis",1
+"396","Ependymoma",1
+"397","Epidermal Cyst",1
+"398","Epilepsy",1
+"399","Epilepsy, Temporal Lobe",1
+"400","Epiretinal Membrane",1
+"401","Erectile Dysfunction",1
+"402","Esophagitis",1
+"403","Etanercept",1
+"404","Eye Neoplasms",1
+"405","Facies",1
+"406","Febrile Neutropenia",1
+"407","Feeding and Eating Disorders",1
+"408","Fetal Membranes, Premature Rupture",1
+"409","Fever",1
+"410","Fistula",1
+"411","Fluorodeoxyglucose F18",1
+"412","Food Addiction",1
+"413","Fractures, Bone",1
+"414","Frontotemporal Dementia",1
+"415","Gallstones",1
+"416","Gastroenteritis",1
+"417","Gastroesophageal Reflux",1
+"418","Giant Cell Tumors",1
+"419","Glaucoma, Open-Angle",1
+"420","Golimumab",1
+"421","Graft vs Host Disease",1
+"422","Guillain-Barre Syndrome",1
+"423","Headache",1
+"424","Headache Disorders",1
+"425","Headache Disorders, Secondary",1
+"426","Heart Block",1
+"427","Heart Failure, Systolic",1
+"428","Hemangioendothelioma",1
+"429","Hemangioma",1
+"430","Hemangioma, Capillary",1
+"431","Hematologic Neoplasms",1
+"432","Hematuria",1
+"433","Hemolysis",1
+"434","Hemorrhagic Fevers, Viral",1
+"435","Hemostatic Disorders",1
+"436","Hepatic Encephalopathy",1
+"437","Hepatitis, Chronic",1
+"438","Hepatoblastoma",1
+"439","Hernia",1
+"440","Hernia, Diaphragmatic",1
+"441","Hernias, Diaphragmatic, Congenital",1
+"442","Hodgkin Disease",1
+"443","Huntington Disease",1
+"444","Hydrarthrosis",1
+"445","Hydrocephalus",1
+"446","Hyperandrogenism",1
+"447","Hyperkinesis",1
+"448","Hypertension, Portal",1
+"449","Hyperthermia",1
+"450","Idiopathic Pulmonary Fibrosis",1
+"451","Immune System Diseases",1
+"452","Immunologic Deficiency Syndromes",1
+"453","Infertility",1
+"454","Infertility, Female",1
+"455","Infliximab",1
+"456","Intestinal Obstruction",1
+"457","Intestinal Perforation",1
+"458","Intraabdominal Infections",1
+"459","Intracranial Aneurysm",1
+"460","Joint Instability",1
+"461","Keratoconjunctivitis Sicca",1
+"462","Kidney Diseases, Cystic",1
+"463","Kidney Failure, Chronic",1
+"464","Kidney Neoplasms",1
+"465","Knee Injuries",1
+"466","Late Onset Disorders",1
+"467","Leiomyoma",1
+"468","Leukemia, Lymphocytic, Chronic, B-Cell",1
+"469","Leukemia, Myelogenous, Chronic, BCR-ABL Positive",1
+"470","Leukemia, Myeloid, Acute",1
+"471","Liver Cirrhosis, Biliary",1
+"472","Lower Urinary Tract Symptoms",1
+"473","Lung Diseases, Interstitial",1
+"474","Lupus Erythematosus, Systemic",1
+"475","Lymphadenopathy",1
+"476","Lymphedema",1
+"477","Lymphoma, Extranodal NK-T-Cell",1
+"478","Lymphoma, Large B-Cell, Diffuse",1
+"479","Lymphoma, Mantle-Cell",1
+"480","Lymphoma, Non-Hodgkin",1
+"481","Lymphoma, T-Cell",1
+"482","Lymphoproliferative Disorders",1
+"483","Mastodynia",1
+"484","Memory Disorders",1
+"485","Meningitis",1
+"486","Mesenteric Ischemia",1
+"487","Metaplasia",1
+"488","Metformin",1
+"489","Microcephaly",1
+"490","Microvascular Angina",1
+"491","Migraine without Aura",1
+"492","Miller Fisher Syndrome",1
+"493","Mitral Valve Stenosis",1
+"494","Movement Disorders",1
+"495","Muscle Spasticity",1
+"496","Muscle Weakness",1
+"497","Myasthenia Gravis",1
+"498","Mycobacterium Infections",1
+"499","Mycoplasma Infections",1
+"500","Myofibroma",1
+"501","Myopia",1
+"502","Nasopharyngeal Neoplasms",1
+"503","Natriuretic Peptide, Brain",1
+"504","Neonatal Sepsis",1
+"505","Neoplasms, Germ Cell and Embryonal",1
+"506","Neoplasms, Squamous Cell",1
+"507","Neuralgia",1
+"508","Neuroblastoma",1
+"509","Neurocognitive Disorders",1
+"510","Neutropenia",1
+"511","Obesity",1
+"512","Ocular Hypertension",1
+"513","Oligohydramnios",1
+"514","omega-N-Methylarginine",1
+"515","Orbital Diseases",1
+"516","Osteoarthritis",1
+"517","Osteonecrosis",1
+"518","Osteoporosis",1
+"519","Otitis",1
+"520","Otitis Media",1
+"521","Otorhinolaryngologic Diseases",1
+"522","Ovarian Cysts",1
+"523","Oxaliplatin",1
+"524","Pain, Postoperative",1
+"525","Pancreatic Cyst",1
+"526","Papillomavirus Infections",1
+"527","Paraganglioma",1
+"528","Parasomnias",1
+"529","Parathyroid Diseases",1
+"530","Paresis",1
+"531","Parkinson Disease, Secondary",1
+"532","Pelvic Neoplasms",1
+"533","Pelvic Pain",1
+"534","Peripheral Arterial Disease",1
+"535","Peripheral Nervous System Diseases",1
+"536","Phantom Limb",1
+"537","Pheochromocytoma",1
+"538","Pick Disease of the Brain",1
+"539","Pigmentation Disorders",1
+"540","Pituitary ACTH Hypersecretion",1
+"541","Pituitary Diseases",1
+"542","Pituitary Neoplasms",1
+"543","Pleuropneumonia",1
+"544","Pneumonia, Aspiration",1
+"545","Poisoning",1
+"546","Polyhydramnios",1
+"547","Port-Wine Stain",1
+"548","Postoperative Cognitive Complications",1
+"549","Precursor Cell Lymphoblastic Leukemia-Lymphoma",1
+"550","Pregnancy in Diabetics",1
+"551","Primary Immunodeficiency Diseases",1
+"552","Problem Behavior",1
+"553","Proctitis",1
+"554","Prosthesis Failure",1
+"555","Pulmonary Fibrosis",1
+"556","Pulmonary Heart Disease",1
+"557","Pulmonary Valve Insufficiency",1
+"558","Purpura, Thrombocytopenic, Idiopathic",1
+"559","Rare Diseases",1
+"560","Rectal Fistula",1
+"561","Renal Insufficiency",1
+"562","Reperfusion Injury",1
+"563","Respiratory Aspiration",1
+"564","Respiratory Tract Diseases",1
+"565","Restless Legs Syndrome",1
+"566","Retinopathy of Prematurity",1
+"567","Rheumatic Diseases",1
+"568","Rotator Cuff Injuries",1
+"569","Sarcoidosis",1
+"570","Sarcopenia",1
+"571","Schizophrenia Spectrum and Other Psychotic Disorders",1
+"572","Seizures",1
+"573","Severe Acute Respiratory Syndrome",1
+"574","Severe Dengue",1
+"575","Sex Chromosome Aberrations",1
+"576","Sexually Transmitted Diseases",1
+"577","Shock, Hemorrhagic",1
+"578","Shoulder Injuries",1
+"579","Sleep Arousal Disorders",1
+"580","Sleep Initiation and Maintenance Disorders",1
+"581","Sleep Wake Disorders",1
+"582","Spinal Cord Neoplasms",1
+"583","Spinal Neoplasms",1
+"584","Spondylarthritis",1
+"585","Spondylolisthesis",1
+"586","Spondylosis",1
+"587","Sprains and Strains",1
+"588","Strabismus",1
+"589","Suicide",1
+"590","Syncope",1
+"591","Synovitis",1
+"592","Synovitis, Pigmented Villonodular",1
+"593","Temozolomide",1
+"594","Tension-Type Headache",1
+"595","Thoracic Injuries",1
+"596","Thrombocytopenia, Neonatal Alloimmune",1
+"597","Thrombophilia",1
+"598","Thyroglossal Cyst",1
+"599","Thyroid Neoplasms",1
+"600","Thyroid Nodule",1
+"601","Tissue Adhesions",1
+"602","Transfusion Reaction",1
+"603","Tremor",1
+"604","Tricuspid Valve Insufficiency",1
+"605","Trisomy",1
+"606","Trisomy 13 Syndrome",1
+"607","Trisomy 18 Syndrome",1
+"608","Tropicamide",1
+"609","Tuberculosis, Multidrug-Resistant",1
+"610","Tuberculosis, Pulmonary",1
+"611","Urinary Tract Infections",1
+"612","Ustekinumab",1
+"613","Uterine Cervical Dysplasia",1
+"614","Uveitis",1
+"615","Vaginosis, Bacterial",1
+"616","Varicose Veins",1
+"617","Vascular Diseases",1
+"618","Vasculitis",1
+"619","Venlafaxine Hydrochloride",1
+"620","Ventricular Dysfunction",1
+"621","Ventricular Fibrillation",1
+"622","Vision Disorders",1
+"623","Vision, Low",1
+"624","Vitamin D Deficiency",1
+"625","Wilms Tumor",1
+"626","Wolfram Syndrome",1
