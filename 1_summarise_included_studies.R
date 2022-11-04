@@ -1,52 +1,15 @@
 #1_summarise_included_studies.R
 source('99_packages.R')
 source('99_functions.R')
+load('data/final_studies.rda')
+load('data/mesh/mesh_term_info.rda')
 
-#use final decision
-screening_results = read.csv('data/rayyan/final_decisions_with_NCT.csv') %>% select(NCT,final_decision,notes)
-
-#extract rayyan tags
-#extract all text between RAYYAN-LABELS: and '|'
-screening_results = screening_results %>% mutate(tags = gsub('.*RAYYAN-LABELS:([^.\\|])','\\1',notes)) 
-
-all_between = c('RAYYAN-LABELS: ([^ ]+)')
-screening_results = screening_results %>% 
-  mutate(labels = str_extract(notes, pattern = all_between),
-         labels = str_remove(labels, pattern = 'RAYYAN-LABELS: '),
-         labels = tolower(labels),
-         "Prognostic" = str_detect(labels, 'prognos'),
-         "Diagnostic" = str_detect(labels,'diagnos'),
-         #"Multiple designs" = str_detect(labels, 'multiple'), #remove; internal label - quote in text
-         #"Clinical score" = str_detect(labels, 'clinical'), #removel internal label - quote in text
-         "Development"  = str_detect(labels, 'development'),
-         "Validation" = str_detect(labels,'validation'))
-
-included_studies = filter(screening_results,final_decision=='Include') %>% select(NCT,Prognostic:Validation) %>%
-  gather(Keyword,present,-NCT) %>%
-  filter(present==TRUE) %>%
-  group_by(NCT) %>% mutate_at('Keyword',~list(.)) %>% ungroup() %>% select(NCT,Keyword) %>% distinct()
-
-excluded_studies = filter(screening_results,final_decision=='Exclude') %>% select(NCT,Prognostic:Validation) %>%
-  gather(Keyword,present,-NCT) %>%
-  filter(present==TRUE) %>%
-  group_by(NCT) %>% mutate_at('Keyword',~list(.)) %>% ungroup() %>% select(NCT,Keyword)
-
-g1 = included_studies %>% distinct(NCT,.keep_all = T) %>% ggplot(aes(x=Keyword)) + geom_bar() + scale_x_upset() + scale_y_continuous('Number of included records\nfrom clinicaltrials.gov',breaks=seq(0,250,by=25)) + theme(panel.grid.minor = element_blank())
+g1 = included_studies %>% distinct(NCT,.keep_all = T) %>% ggplot(aes(x=Keyword)) + geom_bar(fill='darkgrey',colour='black') + scale_x_upset() + 
+  theme_minimal()+scale_y_continuous('Number of included records',breaks=seq(0,250,by=25)) + theme(panel.grid.minor = element_blank())
 
 png('manuscript/figures/included_records_tags.png',width=8,height=6,units='in',res=300)
 g1
 invisible(dev.off())
-
-
-#add additional fields from xml files (entire sample)
-load('Z:/clinicaltrials/data/analysis_ready/all_studies.rda')
-nct_included = included_studies %>% pull(NCT) 
-dat_included = filter(dat, id %in% nct_included) %>% inner_join(included_studies,by=c('id'='NCT'))
-dat_included = dat_included %>% mutate(year_posted = as.numeric(gsub(".*, ","",posted)))
-
-save(dat_included,included_studies,excluded_studies,screening_results,file='data/final_studies.rda')
-
-rm(dat);gc() #free up some memory - dat no longer needed
 
 
 #plot screening record decisions over time. need to join with study year
@@ -88,19 +51,57 @@ png('manuscript/figures/included_records_outcome_studytype.png',width=8,height=6
 g3
 invisible(dev.off())
 
+#summarise by major mesh categories
+mesh_descriptor_tree = mesh_descriptor_tree %>% mutate(tree_parent = gsub('\\..*$','',tree_number)) 
+dat_mesh = dat_included %>% select(id,year_posted,mesh_terms) %>% rename('mesh_term'=mesh_terms) %>% 
+  mutate_at('mesh_term',~(str_split(.,pattern='\\|'))) %>% unnest(cols='mesh_term') %>%
+  left_join(select(mesh_descriptor_tree,descriptor_name,tree_parent,tree_number),by=c('mesh_term'='descriptor_name')) %>%
+  mutate_at('mesh_term',~ifelse(.=="",'Missing',.)) %>% mutate_at(c('tree_parent','tree_number'),~replace_na(.,'Missing'))
+
+#ad classifications
+ad = dat_classification %>% select(NCT,grp,Outcome)
+dat_mesh = dat_mesh %>% left_join(ad,by=c('id'='NCT'))
+
+#by parent - number and year first appeared
+
+to_plot = filter(dat_mesh,tree_parent!='Missing') %>% distinct(id,grp,tree_parent) %>% count(grp,tree_parent,sort = T)  #%>% slice(1:10)
+top10_parent = to_plot %>% group_by(tree_parent) %>% summarise(n=sum(n),.groups='drop') %>% arrange(-n) %>% slice(1:10) %>% pull(tree_parent)
+
+to_plot = filter(to_plot,tree_parent %in% top10_parent)
+
+to_plot = to_plot %>% mutate_at('tree_parent',~factor(.,levels=top10_parent))
+#add label for tree parent
+to_plot = to_plot %>% left_join(select(dat_mesh,tree_number,mesh_term) %>% distinct(),by=c('tree_parent'='tree_number'))
+#fix c23, c12
+to_plot = to_plot %>% mutate_at('mesh_term',~case_when(tree_parent=='C23'~'Pathological Conditions, Signs and Symptoms',
+                                             tree_parent=='C12'~'Urogenital Diseases',
+                                             !is.na(.)~.)) %>%
+  mutate(label = paste0(mesh_term,' (',tree_parent,')') %>% str_wrap(.,20)) %>%
+  mutate_at('label',~factor(.,levels=rev(unique(.))))
+
+g4 = ggplot(to_plot,aes(label,n,fill=grp)) + geom_col()+scale_x_discrete('')+scale_y_continuous('Total times indexed',breaks=seq(0,350,50))+coord_flip()+
+  scale_fill_manual(values=cbPalette)+
+  theme_minimal()+theme(strip.background = element_rect(fill='white'),
+                        strip.text = element_text(size=12),axis.text.x = element_text(size=12),axis.text.y = element_text(size=10),
+                        axis.text = element_text(size=12),legend.position = c(0.75,0.2),legend.title = element_blank(),legend.text = element_text(size=11))
+
 
 #combined fig
 png('manuscript/figures/Figure2.png',width=15,height=10,units='in',res=300)
-ggarrange(g2,g3,g1,nrow=2,ncol=2,labels=LETTERS[1:3])
+ggarrange(g2,g1,g3,g4,nrow=2,ncol=2,labels=LETTERS[1:4])
 invisible(dev.off())
 
+#now by mesh_term
+to_plot = filter(dat_mesh,mesh_term!='Missing') %>% distinct(id,mesh_term) %>% count(mesh_term,sort = T) %>% slice(1:50)
+lab_order = to_plot %>% pull(mesh_term)
+to_plot = to_plot %>% mutate_at('mesh_term',~factor(.,levels=rev(lab_order)))
 
-#keyword search by clinical problem - examples
-dat_included %>% filter(grepl('COVID(.*)19|SARS(.*)CoV(.*)2',official_title,ignore.case = T)|grepl('COVID(.*)19|SARS(.*)CoV(.*)2',detailed_summary,ignore.case = T)) %>% nrow()
-dat_included %>% filter(grepl('sepsis',official_title,ignore.case = T)) %>% nrow()
-dat_included %>% filter(grepl('stroke',official_title,ignore.case = T)|grepl('stroke',official_title,ignore.case = T)) %>% nrow()
-dat_included %>% filter(grepl('atrial fibrillation',official_title,ignore.case = T)|grepl('atrial fibrillation',detailed_summary,ignore.case = T)) %>% nrow()
-dat_included = dat_included %>% mutate_at('mesh_terms',~str_split(.,pattern='\\|'))
+g5 = ggplot(to_plot,aes(mesh_term,n)) + geom_col(fill='darkgrey',colour='black')+scale_x_discrete('')+scale_y_continuous('Number of included records',breaks=seq(0,50,5))+coord_flip()+
+  theme_minimal()+theme(strip.background = element_rect(fill='white'),
+                        strip.text = element_text(size=12),axis.text.x = element_text(size=12),axis.text.y = element_text(size=12),
+                        axis.text = element_text(size=12))
 
-mesh_terms = dat_included %>% select(id,mesh_terms) %>% unnest(cols='mesh_terms')
 
+png('manuscript/figures/Figure3.png',height=10,width=10,units='in',res=300)
+g5
+invisible(dev.off())
