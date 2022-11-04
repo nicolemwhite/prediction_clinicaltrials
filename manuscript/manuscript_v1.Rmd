@@ -49,9 +49,13 @@ All study records posted on clinicaltrials.gov until 3 March 2022 were downloade
   "warning score","risk score","risk prediction",
   "prognostic model","diagnostic model"
 
-![Flowchart  note pretend numbers and fix typos!](figures/flowchart.jpeg)
+![Flowchart  note pretend numbers and fix typos!](figures/Figure1.png)
 
-![Records screened. add included studies as a different colour](figures/screened_records.png)
+![Included study summary](figures/Figure2.png)
+summary here
+
+![Top 50 MeSH terms](figures/Figure3.png)
+
 
 ## Analysis
 
