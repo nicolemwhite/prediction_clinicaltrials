@@ -132,11 +132,28 @@ sample_sizes5 %>%
 
 ggsave("output/figures/sample-size_actual-over-anticipated2.png", height = 5, width = 7)
 
-# find fraction of studies which include "Actual" sample size on study completion
-
-sample_sizes2 %>%
-  filter(status == "Completed") %>%
+# Investigate anticipated sample size by whether the study was completed or not
+sample_size_by_completed <-
+  sample_sizes2 %>%
   group_by(id) %>%
-  arrange(desc(date)) %>%
+  mutate(completed = as.factor(max(status == "Completed"))) %>%
+  ungroup() %>%
+  group_by(id) %>%
+  filter(sample_size_type == "Anticipated") %>%
+  arrange(date) %>%
   slice(1) %>%
-  ungroup()
+  ungroup() 
+  
+sample_size_by_completed %>%
+  ggplot(aes(x = sample_size, group = completed, col = completed)) +
+  geom_density() +
+  scale_x_continuous(limits = c(0, 10000)) +
+  theme_bw()
+
+sample_size_by_completed %>%
+  group_by(completed) %>%
+  summarize(
+    n = n(),
+    median = round(median(sample_size)),
+    IQR = paste0(round(quantile(sample_size, probs = c(0.25, 0.75))), collapse = "-")
+  )
