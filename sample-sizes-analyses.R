@@ -4,9 +4,9 @@ sample_sizes <- readRDS("data/clintrials_sample_sizes.rds")
 
 sample_sizes %>%
   group_by(id) %>%
-  summarize(n=n())
+  summarize(n = n())
 
-sample_sizes2 <- 
+sample_sizes2 <-
   sample_sizes %>%
   mutate(
     sample_size_type = ifelse(!nzchar(sample_size_type) & status != "Completed", "Anticipated", sample_size_type),
@@ -33,37 +33,37 @@ sample_sizes3 <- rbind(
 fx_keep_only_one_actual <- function(.data) {
   # keep only one row for the actual sample size
   # if there are two *DIFFERENT* sample sizes marked as "actual", then remove that ID altogether
-  
+
   dat <- .data
   dat$row_num <- 1:nrow(dat)
-  
-  dat <- 
+
+  dat <-
     dat %>%
     filter(sample_size_type == "Actual") %>%
     group_by(id) %>%
     mutate(n = n()) %>%
     ungroup() %>%
     arrange(id)
-  
+
   keep_row_nums <-
     # keep the row if there's only one entry with type = "Actual"
     dat %>%
-    filter(n==1) %>%
+    filter(n == 1) %>%
     pull(row_num)
-  
+
   more_rows <-
     # also keep the row if there's more than 1 row but they all have the same sample_size
     dat %>%
-    filter(n>1) %>%
+    filter(n > 1) %>%
     distinct(id, sample_size, .keep_all = T) %>%
     group_by(id) %>%
-    mutate(n=n()) %>%
-    filter(n==1) %>%
+    mutate(n = n()) %>%
+    filter(n == 1) %>%
     pull(row_num)
-  
+
   keep_row_nums <- c(keep_row_nums, more_rows)
-  
-  .data[keep_row_nums, ] 
+
+  .data[keep_row_nums, ]
 }
 
 
@@ -77,49 +77,83 @@ sample_sizes4 <-
 sample_sizes5 <-
   sample_sizes4 %>%
   group_by(id) %>%
-  mutate(n=n()) %>%
-  filter(n==2) %>%
+  mutate(n = n()) %>%
+  filter(n == 2) %>%
   select(id, sample_size_type, sample_size) %>%
-  pivot_wider(names_from=sample_size_type, values_from=sample_size) %>%
-  mutate(anticipated_minus_actual = Anticipated - Actual,
-         actual_over_anticipated = Actual/Anticipated)
+  pivot_wider(names_from = sample_size_type, values_from = sample_size) %>%
+  mutate(
+    anticipated_minus_actual = Anticipated - Actual,
+    actual_over_anticipated = Actual / Anticipated
+  )
 
 sample_sizes5 %>%
-  ggplot(aes(x=1,actual_over_anticipated)) +
-  geom_boxplot(outlier.alpha=0) +
-  ggbeeswarm::geom_beeswarm(alpha=0.4) +
-  scale_y_continuous(limits=c(0, 3), labels = scales::percent) +
+  ggplot(aes(x = 1, actual_over_anticipated)) +
+  geom_boxplot(outlier.alpha = 0) +
+  ggbeeswarm::geom_beeswarm(alpha = 0.4) +
+  scale_y_continuous(limits = c(0, 3), labels = scales::percent) +
   theme_bw() +
   labs(
     title = "Actual sample size as a percentage of anticipated",
     y = expression(paste(frac("Actual", "Anticipated"), "  (%)"))
-    ) +
-  theme(axis.title.x=element_blank(),
-        axis.text.x=element_blank(),
-        axis.ticks.x=element_blank())
+  ) +
+  theme(
+    axis.title.x = element_blank(),
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank()
+  )
 
-ggsave("output/figures/sample-size_actual-over-anticipated1.png", height=7, width=5.1)
+ggsave("output/figures/sample-size_actual-over-anticipated1.png", height = 7, width = 5.1)
 
 
 sample_sizes5 %>%
-  ggplot(aes(x=Anticipated, y=actual_over_anticipated, col=Actual < Anticipated)) +
-  geom_point(alpha=0.6) +
-  scale_y_continuous(labels = scales::percent, trans="log10") +
-  scale_x_continuous(limits=c(0,10000)) +
+  mutate(
+    legend = case_when(
+      Actual < Anticipated ~ "Actual < Anticipated",
+      Actual == Anticipated ~ "Actual = Anticipated",
+      Actual > Anticipated ~ "Actual > Anticipated"
+    ),
+    legend = factor(
+      legend,
+      levels = c("Actual < Anticipated", "Actual = Anticipated", "Actual > Anticipated")
+    )
+  ) %>%
+  ggplot(aes(x = Anticipated, y = actual_over_anticipated, col = legend)) +
+  geom_point(alpha = 0.7) +
+  scale_y_continuous(labels = scales::percent, trans = "log10") +
+  scale_x_continuous(limits = c(0, 10000)) +
   labs(
     title = "Actual sample size as a percentage of anticipated",
     y = expression(paste(frac("Actual", "Anticipated"), "  (%)")),
-    x = "Anticipated (n)"
+    x = "Anticipated (n)",
+    col = "Sample size"
   ) +
-  theme_bw()
+  theme_bw() +
+  scale_color_manual(values = c("firebrick", "gray20", "palegreen3"))
 
-ggsave("output/figures/sample-size_actual-over-anticipated2.png", height=5, width=7)
+ggsave("output/figures/sample-size_actual-over-anticipated2.png", height = 5, width = 7)
 
-# find fraction of studies which include "Actual" sample size on study completion
-
-sample_sizes2 %>% 
-  filter(status == "Completed") %>%
+# Investigate anticipated sample size by whether the study was completed or not
+sample_size_by_completed <-
+  sample_sizes2 %>%
   group_by(id) %>%
-  arrange(desc(date)) %>%
+  mutate(completed = as.factor(max(status == "Completed"))) %>%
+  ungroup() %>%
+  group_by(id) %>%
+  filter(sample_size_type == "Anticipated") %>%
+  arrange(date) %>%
   slice(1) %>%
   ungroup() 
+  
+sample_size_by_completed %>%
+  ggplot(aes(x = sample_size, group = completed, col = completed)) +
+  geom_density() +
+  scale_x_continuous(limits = c(0, 10000)) +
+  theme_bw()
+
+sample_size_by_completed %>%
+  group_by(completed) %>%
+  summarize(
+    n = n(),
+    median = round(median(sample_size)),
+    IQR = paste0(round(quantile(sample_size, probs = c(0.25, 0.75))), collapse = "-")
+  )
