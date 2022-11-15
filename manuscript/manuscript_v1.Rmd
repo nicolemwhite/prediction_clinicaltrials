@@ -16,7 +16,10 @@ knitr::opts_chunk$set(echo = TRUE)
 # Introduction
 
 
-Clinical prediction models represent a growing source of research waste, with poorly conducted studies posing risks to the safety and quality of patient care.
+
+
+Despite their potential to support decision making, clinical prediction models are a growing source of research waste. Systematic reviews of diagnostic and prognostic models across several health conditions have consistently found that while new models continue to be published, most are poorly reported and unsuitable for decision-making. Initiatives such as the TRIPOD statement provide recommendations on how to report model development and validation studies, to help other researchers assess model quality. Related tools for assessing model quality have also been developed [refs]. Whilst the TRIPOD statement has been associated with modest improvements in conduct and reporting [refs], the quality of published models remains disturbingly poor. For example, a living systematic review first published in April 2020 identified 20 diagnostic and 10 prognostic models for predicting COVID-19 outcomes [refs]. All models were judged as being at high risk of bias due to issues including low sample sizes, inappropriate choice of predictors, and inadequate model assessment. By July 2022, the number of published prognostic models had increased to 606, comprising 381 newly developed models and 225 validation studies on existing models. Updated results revealed that 90% of models remained unsuitable for clinical use. These findings suggest that best practices for clinical prediction modelling are largely ignored, and decisions made during the study planning stage are major contributors to ongoing waste.
+
 
 
 * Systematic review of published clinical prediction models have consistently highlighted poor quality, limited applicability in practice. Examples in COVID-19 (BMJ review), oncology (Dhiman 2022), others
@@ -63,5 +66,11 @@ summary here
 * Sample size history for final sample
 * Frequency of targeted keywords (e.g, (.*)validation, TRIPOD)
 * Links to publications using python tool (Rex to lead)
+
+
+# Discussion
+
+- need to scope existing published models for a given outcome before developing another one! [refs - riley]
+- Before embarking on a prediction modelling study, its important to ensure a sufficient sample size is available and that proposed predictors/outcome data collection is of sufficient quality. Just as per any planned statistical analysis. Poor choice will likley lead to poor performance down this line (garbage in = garbage out). ref: https://www.bmj.com/content/338/bmj.b604 (royston2009)
 
 # References
