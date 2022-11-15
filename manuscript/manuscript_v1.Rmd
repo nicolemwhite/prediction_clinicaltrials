@@ -59,6 +59,7 @@ summary here
 
 ![Top 50 MeSH terms](figures/Figure3.png)
 
+![CIF: time to first publication (check caption)](figures/time-to-first-publication.png)
 
 ## Analysis
 
