@@ -120,3 +120,87 @@ survfit2(Surv(days, status) ~ 1, data = dat_included_with_pub2) %>%
   add_confidence_interval()
 
 ggsave("output/figures/time-to-first-publication.png", height = 5, width = 7)
+
+# add screening outcomes
+dat_included_with_pub3 <- 
+  screening_results %>%
+  select(id=NCT, labels, Prognostic, Diagnostic, Development, Validation) %>%
+  left_join(dat_included_with_pub2, ., by="id") %>%
+  mutate(
+    study_type = "",
+    study_type = ifelse(Prognostic, paste(study_type, "Prognostic"), study_type),
+    study_type = ifelse(Diagnostic, paste(study_type, "Diagnostic"), study_type),
+    study_type = ifelse(Development, paste(study_type, "Development"), study_type),
+    study_type = ifelse(Validation, paste(study_type, "Validation"), study_type),
+    study_type = str_remove(study_type, "^ "),
+    multiple_designs = str_detect(labels, "multiple"),
+    submit_days_since_min = as.numeric(submitted - min(.$submitted))
+  )
+
+
+m1 <- coxph(Surv(days, status) ~ study_type, data=dat_included_with_pub3)
+m2 <- coxph(Surv(days, status) ~ strata(study_type), data=dat_included_with_pub3)
+m3 <- coxph(Surv(days, status) ~ strata(study_type) + multiple_designs, data=dat_included_with_pub3)
+m4 <- coxph(Surv(days, status) ~ strata(study_type) + multiple_designs + submit_days_since_min, data=dat_included_with_pub3)
+m5 <- coxph(Surv(days, status) ~ strata(study_type) + multiple_designs + pspline(submit_days_since_min, df=2), data=dat_included_with_pub3)
+m6 <- coxph(Surv(days, status) ~ strata(study_type) + multiple_designs + pspline(submit_days_since_min, df=3), data=dat_included_with_pub3)
+m7 <- coxph(Surv(days, status) ~ strata(study_type) + multiple_designs + pspline(submit_days_since_min, df=4), data=dat_included_with_pub3)
+
+AIC(m1, m2, m3, m4, m5, m6, m7) # model 3 (excludes parameter for time) is best
+
+summary(m3)
+cox.zph(m3)
+
+
+library(ggfortify)
+
+autoplot(survfit(
+  ggsurvfit::Surv(days/365.25, status) ~ strata(study_type), 
+  # data=dat_included_with_pub3,
+  data=filter(dat_included_with_pub3, study_type %in% c(
+    "Prognostic Development",
+    "Diagnostic Development"#,
+    # "Prognostic Validation",
+    # "Diagnostic Validation"
+  ))
+), fun="event") +
+  theme_bw() +
+  labs(
+    x = "Years",
+    y = "Publication probability",
+    title = "Time to first publication from registration",
+    fill = "Study type",
+    col = "Study type"
+  ) +
+  coord_cartesian(xlim=c(0, 10)) # to focus on main area of data
+
+
+ggsave("output/figures/time-to-first-publication-by-study-type.png", height = 5, width = 7)
+
+m8 <- coxph(Surv(submit_days_since_min, days + submit_days_since_min, status) ~ strata(study_type) + multiple_designs, data=dat_included_with_pub3)
+
+AIC(m3, m8) # incorporating submit_days_since_min by using at as tstart is better than tstart = 0
+cox.zph(m8)
+summary(m8)
+
+autoplot(survfit(
+  ggsurvfit::Surv(submit_days_since_min, days + submit_days_since_min, status) ~ strata(study_type), 
+  data=dat_included_with_pub3,
+  # data=filter(dat_included_with_pub3, study_type %in% c(
+  #   "Prognostic Development",
+  #   "Diagnostic Development"#,
+  #   # "Prognostic Validation",
+  #   # "Diagnostic Validation"
+  # ))
+), fun="event") +
+  theme_bw() +
+  labs(
+    x = "Days",
+    y = "Publication probability",
+    title = "Time to first publication from registration",
+    fill="Study type",
+    col="Study type"
+  )
+
+
+
