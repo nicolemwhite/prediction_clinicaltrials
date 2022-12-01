@@ -157,3 +157,5 @@ sample_size_by_completed %>%
     median = round(median(sample_size)),
     IQR = paste0(round(quantile(sample_size, probs = c(0.25, 0.75))), collapse = "-")
   )
+
+saveRDS(sample_size_by_completed, "data/clintrials_sample_sizes.rds")
