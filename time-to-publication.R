@@ -133,10 +133,11 @@ dat_included_with_pub3 <-
     study_type = ifelse(Development, paste(study_type, "Development"), study_type),
     study_type = ifelse(Validation, paste(study_type, "Validation"), study_type),
     study_type = str_remove(study_type, "^ "),
-    multiple_designs = str_detect(labels, "multiple"),
+    multiple_designs = as.factor(str_detect(labels, "multiple")),
     submit_days_since_min = as.numeric(submitted - min(.$submitted))
   )
 
+min_date <- min(dat_included_with_pub3$submitted)
 
 m1 <- coxph(Surv(days, status) ~ study_type, data=dat_included_with_pub3)
 m2 <- coxph(Surv(days, status) ~ strata(study_type), data=dat_included_with_pub3)
@@ -172,12 +173,81 @@ autoplot(survfit(
     fill = "Study type",
     col = "Study type"
   ) +
-  coord_cartesian(xlim=c(0, 10)) # to focus on main area of data
+  scale_x_continuous(breaks = seq(0, 12.5, 2.5)) +
+  coord_cartesian(xlim = c(0, 12.5)) # to focus on main area of data
 
 
 ggsave("output/figures/time-to-first-publication-by-study-type.png", height = 5, width = 7)
 
+
+sample_size_by_completed <- readRDS("data/clintrials_sample_sizes.rds")
+
+left_join(
+  dat_included_with_pub3, 
+  select(sample_size_by_completed, id, sample_size), 
+  by="id"
+) %>%
+  filter(study_type %in% c("Prognostic Development","Diagnostic Development")) %>%
+  group_by(study_type) %>%
+  summarize(
+    min=min(sample_size, na.rm=TRUE),
+    max=max(sample_size, na.rm=TRUE),
+    iqr=paste0(quantile(sample_size, probs=c(0.25, 0.75), na.rm=TRUE), collapse="-"),
+    mean = mean(sample_size, na.rm=TRUE),
+    median = median(sample_size, na.rm=TRUE)
+  ) %>%
+  flextable()
+
+
+left_join(
+  dat_included_with_pub3, 
+  select(sample_size_by_completed, id, sample_size), 
+  by="id"
+) %>% 
+  filter(study_type %in% c("Prognostic Development","Diagnostic Development")) %>%
+  filter(sample_size < 5000) %>%
+  ggplot(aes(x=as.factor(study_type), y=sample_size)) +
+  geom_boxplot(outlier.alpha = 0) +
+  ggbeeswarm::geom_beeswarm(alpha = 0.4)+
+  coord_cartesian(ylim=c(0, 5000)) +
+  theme_bw() +
+  labs(x="Study type",
+       y="Sample size (n)")
+
+ggsave("output/figures/sample-sizes-by-study-type.png", height = 5, width = 7)
+
 m8 <- coxph(Surv(submit_days_since_min, days + submit_days_since_min, status) ~ strata(study_type) + multiple_designs, data=dat_included_with_pub3)
+
+test_df <- dat_included_with_pub3 %>%
+  select(submit_days_since_min, days, status, study_type, multiple_designs) %>%
+  na.omit()
+
+m_new <- coxph(
+  Surv(submit_days_since_min, days + submit_days_since_min, status) ~ 
+    study_type + multiple_designs, 
+  data=test_df)
+
+ggeffects::ggpredict(m_new, c("study_type"), type="survival") %>% 
+  filter(group %in% c("Prognostic Development","Diagnostic Development")) %>%
+  mutate(x = min_date + x) %>%
+  ggplot(aes(
+    x = x, 
+    y = 1-predicted, 
+    ymin = 1-conf.low, 
+    ymax = 1-conf.high, 
+    col = group, 
+    fill = group)) + 
+  geom_line() +
+  geom_ribbon(alpha = 0.2) +
+  labs(
+    x = "Years",
+    y = "1 - survival",
+    fill = "Study type",
+    col = "Study type"
+  ) +
+  theme_bw()
+
+ggsave("output/figures/time-to-first-publication-by-study-type-coxph.png", height = 5, width = 7)
 
 AIC(m3, m8) # incorporating submit_days_since_min by using at as tstart is better than tstart = 0
 cox.zph(m8)
