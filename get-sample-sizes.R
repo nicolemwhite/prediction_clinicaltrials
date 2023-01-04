@@ -69,7 +69,8 @@ for (k in start:stop){
     previous = sample_historical(id = studies[k], intable = table, index=nrow(table)-1) %>% rename(field_value_prev = field_value)
     data[[k]] = full_join(data[[k]],previous,by='field_label')
     }
-  
+ 
+  # 
   
   #if (!is.na(early$sample_size_type) & !is.na(early$sample_size)){
   #  data = bind_rows(data, early) #lets keep missing initial sample size
@@ -95,6 +96,7 @@ for (k in start:stop){
   
   pb$tick()
 } # end of loop
+
 names(data)<-studies[start:stop]
 data <- bind_rows(data,.id='id')
 data = distinct(data)
