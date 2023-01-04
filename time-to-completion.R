@@ -1,7 +1,12 @@
 # time to study completion (as reported on clin-trials)
+<<<<<<< HEAD
 source("99_packages.R") #moved library(survival) to 99_packages.R
 
 #load("data/all_studies.rda") #NW: should this be final_studies, not all_studies?
+=======
+source("99_packages.R")
+library(survival)
+>>>>>>> 7ce75e9f74bf7c665fa60239c224591ea5358f7c
 load("data/final_studies.rda")
 
 
@@ -38,7 +43,7 @@ survminer::ggcompetingrisks(mfit, conf.int = F)
 # same thing but using cumulative incidence curves
 dat_subset <- filter(dat, study_type %in% c("Prognostic;Development", "Diagnostic;Development"))
 # dat_subset <- dat
-cfit <- cuminc(ftime=(dat_subset$days)/365.25, fstatus=dat_subset$status, group=dat_subset$study_type)
+cfit <- cmprsk::cuminc(ftime=(dat_subset$days)/365.25, fstatus=dat_subset$status, group=dat_subset$study_type)
 survminer::ggcompetingrisks(
   cfit, 
   multiple_panels = F,
