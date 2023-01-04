@@ -91,17 +91,48 @@ png('manuscript/figures/Figure2.png',width=15,height=10,units='in',res=300)
 ggarrange(g2,g1,g3,g4,nrow=2,ncol=2,labels=LETTERS[1:4])
 invisible(dev.off())
 
+
 #now by mesh_term
-to_plot = filter(dat_mesh,mesh_term!='Missing') %>% distinct(id,mesh_term) %>% count(mesh_term,sort = T) %>% slice(1:50)
+to_plot = filter(dat_mesh,mesh_term!='Missing') %>% distinct(id,mesh_term) %>% count(mesh_term,sort = T)
 lab_order = to_plot %>% pull(mesh_term)
 to_plot = to_plot %>% mutate_at('mesh_term',~factor(.,levels=rev(lab_order)))
 
-g5 = ggplot(to_plot,aes(mesh_term,n)) + geom_col(fill='darkgrey',colour='black')+scale_x_discrete('')+scale_y_continuous('Number of included records',breaks=seq(0,50,5))+coord_flip()+
+g5 = ggplot(to_plot  %>% slice(1:50),aes(mesh_term,n)) + geom_col(fill='darkgrey',colour='black')+scale_x_discrete('')+scale_y_continuous('Number of included records',breaks=seq(0,50,5))+coord_flip()+
   theme_minimal()+theme(strip.background = element_rect(fill='white'),
                         strip.text = element_text(size=12),axis.text.x = element_text(size=12),axis.text.y = element_text(size=12),
                         axis.text = element_text(size=12))
 
 
-png('manuscript/figures/Figure3.png',height=10,width=10,units='in',res=300)
+png('manuscript/figures/Figure3_alt.png',height=10,width=10,units='in',res=300)
 g5
 invisible(dev.off())
+
+#as a word cloud
+to_plot = to_plot %>% mutate_at('mesh_term',~as.character(.))
+
+require(ggwordcloud)
+
+# ggplot(filter(to_plot,n>1), aes(label = mesh_term, size = n)) +
+#   geom_text_wordcloud(rm_outside = TRUE) +
+#   scale_radius(range = c(0, 5), limits = c(0, NA)) +
+#   theme_minimal()
+
+g6=ggplot(filter(to_plot,n>=5), aes(label = mesh_term, size = n)) +
+  geom_text_wordcloud_area(rm_outside = TRUE,eccentricity = 1) +
+  scale_size_area(max_size = 10) +
+  theme_minimal()
+
+png('manuscript/figures/Figure3.png',height=6,width=8,units='in',res=300)
+g6
+invisible(dev.off())
+
+png('manuscript/figures/Figure2_alt.png',width=15,height=10,units='in',res=300)
+ggarrange(g2,g3,g4,g6,nrow=2,ncol=2,labels=LETTERS[1:4])
+invisible(dev.off())
+# #pre-2020
+# covid_studies = filter(dat_mesh,year_posted<2019) %>% distinct(id) %>% pull(id)
+# to_plot = filter(dat_mesh,mesh_term!='Missing',!id %in% covid_studies) %>% distinct(id,mesh_term) %>% count(mesh_term,sort = T)
+# ggplot(filter(to_plot,n>=1), aes(label = mesh_term, size = n)) +
+#   geom_text_wordcloud_area(rm_outside = TRUE,eccentricity = 1) +
+#   scale_size_area(max_size = 10) +
+#   theme_minimal()

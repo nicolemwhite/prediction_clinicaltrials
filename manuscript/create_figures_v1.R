@@ -48,16 +48,8 @@ grViz(diagram = "digraph flowchart {
   
   [1]: paste0(format(n_start,big.mark=','),' observational study records downloaded: 1 January 2000 to 3 March 2022')
   [2]: paste0(format(n_screened,big.mark=','),' records matched to 1 or more search terms')    
-  [3]: paste0(format(n_included,big.mark=','),' records included\\nModel type:\\nDiagnostic = 436\\nPrognostic = 404\\nDiagnostic + Prognostic = 129\\nStudy type:\\nDevelopment only = 575\\nValidation only = 108\\n Development + Validation = 286')
+  [3]: paste0(format(n_included,big.mark=','),' records included\\nModel type:\\nDiagnostic = 436\\nPrognostic = 404\\nDiagnostic + Prognostic = 129\\n\\nStudy type:\\nDevelopment only = 575\\nValidation only = 108\\n Development + Validation = 286')
   [4]: paste0(format(n_start-n_screened,big.mark=','),' records excluded')    
   [5]: paste0(format(n_screened - n_included,big.mark=','),' excluded after screening')
 
 ")
-
-
-# #stacked probability plot for last_known_status; take all rayyan records as a first pass and updated once screening complete
-# 
-# 
-# to_plot = dat_rayyan %>% select(key,overall_status,posted,updated)
-# 
-# to_plot %>% count(overall_status)

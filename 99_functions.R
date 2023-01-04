@@ -11,38 +11,81 @@ sample_historical = function(intable, id, index){
    in_page <- read_html('web/page.html') 
    
    # extract the study status ...
-   study_status = as.character(in_page %>% html_nodes("#StudyStatus") %>% html_nodes("td"))
-   # ... then get the latest status
-   l_index = which(str_detect(string=study_status, pattern='Overall Status'))
-   status = str_trim(str_remove_all(study_status[l_index+1], pattern='\\n|^<td>|</td>$'))
-   
+   study_status = in_page %>% html_nodes("#StudyStatus")
+   #get field labels and corresponding values
+   l_labels = as.character(study_status %>% html_nodes("td:nth-child(1)") %>% html_text(trim=T)) %>% str_remove_all(":$")
+   #remove blank labels
+   l_labels = l_labels[l_labels!=""]
+   l_values = as.character(study_status %>% html_nodes("td:nth-child(2)") %>% html_text(trim=T))
+   # ... then get the latest status, study start and study completion
+   #l_index = which(str_detect(string=study_status, pattern='Record Verification|Overall Status|Study Start|Primary Completion|Study Completion|First Posted|Last Update'))
+   #l_labels = str_remove_all(study_status[l_index],pattern="^<td.*?>|:</td>$") %>% str_trim
+   #status = str_trim(str_remove_all(study_status[l_index+1], pattern='\\n|^<td>|</td>$'))
    # if missing status then exclude
-   if(length(status)==0){
-      f = data.frame(id = id, date = table$dates[index], status = 'Missing', sample_size_type = NA, sample_size = NA)
-      return(f)
-   }
-   # if withheld then no data
-   if(status=='Withheld'){
-      f = data.frame(id = id, date = table$dates[index], status = 'Withheld', sample_size_type = NA, sample_size = NA)
-      return(f)
-   }
+   # if(length(status)==0){
+   #   f = data.frame(id = id, date = table$dates[index], status = 'Missing', sample_size_type = NA, sample_size = NA)
+   #   return(f)
+   # }
+   # # if withheld then no data
+   # if(status=='Withheld'){
+   #   f = data.frame(id = id, date = table$dates[index], status = 'Withheld', sample_size_type = NA, sample_size = NA)
+   #   return(f)
+   # }
+   status = data.frame(field_label=l_labels,field_value=l_values)
+   
    
    # extract the study design ...
-   study_design = as.character(in_page %>% html_nodes("#StudyDesign") %>% html_nodes("td"))
-   # ... then get the sample size
-   e_index = which(str_detect(string=study_design, pattern='Enrollment'))
-   text = str_remove_all(study_design[e_index+1], pattern='\\n|^<td>|</td>$')
-   split = str_split(string=text, pattern=' ', n=2)
-   if(length(split) == 0){ # for occasional incomplete reports
-      sample_size = NA
-      sample_size_type = ''
-   }
-   if(length(split) > 0){ # for occasional incomplete reports
-      sample_size = as.numeric(split[[1]][1])
-      sample_size_type = str_remove_all(string=split[[1]][2], pattern='[^A-Z|a-z]')
-   }
-   f = data.frame(id = id, date = table$dates[index], status = status, sample_size_type = sample_size_type, sample_size = sample_size)
-   return(f)
+   study_design = in_page %>% html_nodes("#StudyDesign") 
+   #get field labels and corresponding values
+   l_labels = as.character(study_design %>% html_nodes("td:nth-child(1)") %>% html_text(trim=T)) %>% str_remove_all(":$") 
+   #remove blank labels
+   l_labels = l_labels[l_labels!=""]
+   l_values = as.character(study_design %>% html_nodes("td:nth-child(2)") %>% html_text(trim=T))
+   #filter to study type and enrollment
+   l_index = which(l_labels %in% c("Study Type","Enrollment"))
+   l_labels = l_labels[l_index]
+   l_values = l_values[l_index]
+                   
+   
+   #add to status
+   ad = data.frame(field_label=l_labels,field_value=l_values) 
+   status = bind_rows(status,ad)
+   
+   #data sharing
+   ipd_sharing = in_page %>% html_nodes(c("#IPDSharing")) %>% html_nodes("td") %>% html_text()
+   l_index = which(str_detect(ipd_sharing,pattern='Plan to Share IPD'))
+   l_label = str_remove_all(ipd_sharing[l_index],":.*$")
+   l_value = str_trim(ipd_sharing[l_index+1])
+   
+   #study location
+   study_location = in_page %>% html_nodes(c("#ContactsLocations")) %>% html_nodes("td") %>% html_text()
+   l_index = which(str_detect(study_location,pattern='Locations'))
+   l_label = str_remove_all(study_location[l_index],":.*$")
+   l_value = str_trim(study_location[l_index+1])
+
+   
+   ad = data.frame(field_label=l_label,field_value=l_value) 
+   status = bind_rows(status,ad)
+   
+   # if missing field value, set to NA
+   status = status %>% mutate_at('field_value',~ifelse(.=="",'Missing',.))
+   
+   
+   # # ... then get the sample size
+   # e_index = which(str_detect(string=study_design, pattern='Enrollment'))
+   # text = str_remove_all(study_design[e_index+1], pattern='\\n|^<td>|</td>$')
+   # split = str_split(string=text, pattern=' ', n=2)
+   # if(length(split) == 0){ # for occasional incomplete reports
+   #    sample_size = NA
+   #    sample_size_type = ''
+   # }
+   # if(length(split) > 0){ # for occasional incomplete reports
+   #    sample_size = as.numeric(split[[1]][1])
+   #    sample_size_type = str_remove_all(string=split[[1]][2], pattern='[^A-Z|a-z]')
+   # }
+   # f = data.frame(id = id, date = table$dates[index], status = status, sample_size_type = sample_size_type, sample_size = sample_size)
+   #return(f)
+   return(status)
 }
 
 # function to replace null with NA, used by clintrials reading

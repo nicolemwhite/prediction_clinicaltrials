@@ -1,8 +1,8 @@
 # time to study completion (as reported on clin-trials)
-source("99_packages.R")
-library(survival)
-load("data/all_studies.rda")
+source("99_packages.R") #moved library(survival) to 99_packages.R
 
+#load("data/all_studies.rda") #NW: should this be final_studies, not all_studies?
+load("data/final_studies.rda")
 
 
 dat <- dat_included %>%
