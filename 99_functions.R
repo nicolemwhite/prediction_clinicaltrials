@@ -69,6 +69,11 @@ sample_historical = function(intable, id, index){
    
    # if missing field value, set to NA
    status = status %>% mutate_at('field_value',~ifelse(.=="",'Missing',.))
+  
+   #add date from table as cross check
+   ad = tibble(field_label='Date Posted',field_value=as.character(intable$dates[index]))
+   
+   status = bind_rows(status,ad)
    
    
    # # ... then get the sample size

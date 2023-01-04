@@ -30,7 +30,7 @@ studies <- dat_included[['id']]
 
 data = NULL
 start = 1
-stop = min(nrow(studies),200) #set to 1000 for final run
+stop = min(length(studies),1000) #set to 1000 for final run
 pb <- progress_bar$new(total=stop)
 
 
@@ -100,6 +100,7 @@ for (k in start:stop){
 names(data)<-studies[start:stop]
 data <- bind_rows(data,.id='id')
 data = distinct(data)
+
 
 # save
 saveRDS(data, file="data/clintrials_sample_sizes_v2.rds")
