@@ -1,12 +1,8 @@
 # time to study completion (as reported on clin-trials)
-<<<<<<< HEAD
-source("99_packages.R") #moved library(survival) to 99_packages.R
-
 #load("data/all_studies.rda") #NW: should this be final_studies, not all_studies?
-=======
+
 source("99_packages.R")
 library(survival)
->>>>>>> 7ce75e9f74bf7c665fa60239c224591ea5358f7c
 load("data/final_studies.rda")
 
 
