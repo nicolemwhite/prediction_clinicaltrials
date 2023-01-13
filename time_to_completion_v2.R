@@ -158,8 +158,21 @@ study_dates = study_dates %>% mutate(include_exclude = case_when(
 
 save(study_dates,file='data/times_to_study_completion.rda')
 
-#Rex - add rayyan data here please :)
+# add screening decisions
+dat_decisions <- read.csv("data/rayyan/final_decisions_with_NCT.csv") %>%
+  select(NCT, screening_final_decision = final_decision)
+study_dates <- inner_join(study_dates, dat_decisions, by = c("id" = "NCT"))
 
+#add meta data and "multiple designs" label
+load("data/final_studies.rda")
+
+dat_mult_designs <- 
+  screening_results %>% 
+  filter(NCT %in% study_dates$id) %>%
+  mutate(multiple_designs = str_detect(labels, "multiple")) %>%
+  select(NCT, multiple_designs)
+
+study_dates <- inner_join(study_dates, dat_mult_designs, by = c("id" = "NCT"))
 
 #plot - time to completed
 censor_day <- 365.25*10
@@ -185,6 +198,3 @@ g$data %>% mutate('Last known status'=str_remove_all(name,'^[0-9] ') %>% str_tri
   theme_minimal()+theme(panel.grid.minor = element_blank(),axis.text = element_text(size=12),text=element_text(size=12),
                         legend.position = 'top',legend.direction='horizontal')
 invisible(dev.off())
-
-#add meta data
-load("data/final_studies.rda")
