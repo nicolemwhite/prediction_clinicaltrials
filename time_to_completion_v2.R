@@ -45,8 +45,10 @@ completed_dates = completed_dates %>% mutate(
 completed_dates = completed_dates %>% mutate(date_start = ifelse(str_detect(study_start,','),study_start,paste0(str_remove_all(study_start,'\\s{1}.*$'),' 1, ',str_remove_all(study_start,'^.*\\s{1}'))) %>% mdy) %>% 
   select(id,date_start,date_end,overall_status)
 
+save(completed_dates,completed_studies,file='data/completed_studies.rda')
 
-#end completed studies
+
+# #end completed studies
 
 #if overall_status is: Active, not recruiting/Enrolling by invitation/Not yet recruiting/Recruiting 
 ## take last update that met QC
@@ -59,60 +61,25 @@ recruit_dates = filter(dat,id %in% recruit_studies,
   rename('date_end'=last_update_submitted_that_met_qc_criteria) %>%
   mutate(date_start = ifelse(str_detect(study_start,','),study_start,paste0(str_remove_all(study_start,'\\s{1}.*$'),' 1, ',str_remove_all(study_start,'^.*\\s{1}'))) %>% mdy) %>%
   select(id,date_start,date_end,overall_status)
+save(recruit_dates,recruit_studies,file='data/active_studies.rda')
 
 
 #end active studies
 
-#already run
-# ##Suspended/Terminated/Withdrawn/Unknown - take retrospective history from last update to find date of status change
-# stopped_unknown_studies = filter(dat_status,field_value_last %in% c('Suspended','Terminated','Withdrawn','Unknown status')) %>% distinct(id) %>% pull
-# 
-# 
-# #get full history
-# history_stopped_unknown = NULL
-# start = 1
-# stop = length(stopped_unknown_studies)
-# pb <- progress_bar$new(total=stop)
-# 
-# 
-# for (k in start:stop){
-#   # get the web page of the study's history
-#   url_start = 'https://clinicaltrials.gov/ct2/history/'
-#   url = paste(url_start, stopped_unknown_studies[k], sep='')
-#   site_search(url=url, destfile='web/history.html') # search with pauses if the site is tired of me
-#   
-#   # read the html page of the study changes
-#   page <- read_html('web/history.html') 
-#   
-#   # extract full history of study changes
-#   table = tibble(
-#     # version = str_remove_all(page %>% html_nodes("td:nth-child(1)") %>% html_text(), pattern='\\r|\\n'),
-#     dates = str_remove_all(page %>% html_nodes("td:nth-child(4)") %>% html_text(), pattern='\\r|\\n'),
-#     links = page %>% html_nodes("td:nth-child(4)")  %>% html_nodes("a") %>% html_attr("href")) %>%
-#     mutate(dates = as.Date(dates, '%B %d, %Y')) %>% # convert date
-#     arrange(dates) # order by date, just in case
-#   
-#   
-#   #get first entry/earliest version on record
-#   record_history = lapply(1:nrow(table),function(x) sample_historical(id = stopped_unknown_studies[k], intable = table, index=x))
-#   history_stopped_unknown[[k]]<-bind_rows(record_history,.id='index')
-#   to_remove = dir('web', pattern='.html')
-#   file.remove(paste('web/', to_remove, sep=''))
-#   pb$tick()
-# }
-# 
-# names(history_stopped_unknown)<-stopped_unknown_studies[start:stop]
-# history_stopped_unknown <- bind_rows(history_stopped_unknown,.id='id')
-# history_stopped_unknown = distinct(history_stopped_unknown)
-# saveRDS(history_stopped_unknown, file="data/clintrials_history_stopped_unknown_studies.rds")
 
-history_stopped_unknown<-readRDS("data/clintrials_history_stopped_unknown_studies.rds")
 
 #history of study status - get the first index where status changed to suspended/terminated/withdrawn
 history_status = filter(history_stopped_unknown,field_label=='Overall Status') %>% select(id,index,field_value) %>% 
   mutate(overall_status = str_remove_all(field_value,'\\[.*$') %>% str_trim,reason=str_remove_all(field_value,'^.*\\[|\\]') ) 
 
-index_stopped = filter(history_status,overall_status %in% c('Suspended','Terminated','Withdrawn')) %>% group_by(id) %>% slice_min(index) %>% ungroup() %>% select(id,index)
+
+stopped_unknown_studies = filter(dat_status,field_value_last %in% c('Suspended','Terminated','Withdrawn','Unknown status')) %>% distinct(id) %>% pull
+save(stopped_unknown_studies,file='data/stopped_unknown_studies.rda')
+
+
+#index_stopped = filter(dat_status,id %in% stopped_unknown_studies,field_value_last %in% c('Suspended','Terminated','Withdrawn')) %>% group_by(id) %>% slice_min(index) %>% ungroup() %>% select(id,index)
+
+
 stopped_dates = left_join(index_stopped,history_stopped_unknown,by=c('id','index')) %>%  filter(field_label %in% c('Study Start','Last Update Submitted thatMet QC Criteria')) %>%
   select(id,field_label,field_value) %>% spread(field_label,field_value) %>% select(id,`Study Start`,`Last Update Submitted thatMet QC Criteria`) %>% janitor::clean_names() %>%
   mutate_at('last_update_submitted_that_met_qc_criteria',~mdy(.)) %>%
@@ -130,6 +97,10 @@ last_known_dates = left_join(index_unknown,history_stopped_unknown,by=c('id','in
   rename('date_end'=last_update_submitted_that_met_qc_criteria) %>%
   mutate(date_start = ifelse(str_detect(study_start,','),study_start,paste0(str_remove_all(study_start,'\\s{1}.*$'),' 1, ',str_remove_all(study_start,'^.*\\s{1}'))) %>% mdy) %>%
   select(id,date_start,date_end,overall_status) 
+
+
+save(completed_dates,completed_studies,file='data/completed_studies.rda')
+
 
 
 #combine studies into a single df
@@ -160,6 +131,7 @@ save(study_dates,file='data/times_to_study_completion.rda')
 
 #Rex - add rayyan data here please :)
 
+load('data/times_to_study_completion.rda')
 
 #plot - time to completed
 censor_day <- 365.25*10
