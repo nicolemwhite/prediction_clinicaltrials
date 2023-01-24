@@ -35,6 +35,6 @@ mesh_descriptor_tree = tibble(
     date_revised = sapply(mesh_tree_nodes,xpathSApply,"./DateRevised",function(x) unlist(lapply(xmlChildren(x),xmlValue)[c("Year","Month","Day")])) %>% sapply(function(x) str_c(x,collapse = '-')),
     tree_number = sapply(mesh_tree_nodes,xpathSApply,"./TreeNumberList/TreeNumber",xmlValue),
     previous_indexing = lapply(mesh_tree_nodes,xpathSApply,"./PreviousIndexingList",xmlValue),
-    related_descriptor_ui = sapply(mesh_tree_nodes,xpathSApply,".//SeeRelatedDescriptor/DescriptorReferredTo.DescriptorUI",xmlValue))
+    related_descriptor_ui = sapply(mesh_tree_nodes,xpathSApply,".//SeeRelatedDescriptor/DescriptorReferredTo/DescriptorUI",xmlValue))
 
 save(mesh_descriptor_tree,file='data/mesh/mesh_term_info_v2.rda')
