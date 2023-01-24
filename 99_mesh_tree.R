@@ -27,12 +27,14 @@ save(mesh_descriptor_tree,mesh_concept_tree,file='data/mesh/mesh_term_info.rda')
 mesh_tree_nodes = getNodeSet(mesh_tree,'//DescriptorRecord')
 
 mesh_descriptor_tree = tibble(
+    descriptor_class = sapply(mesh_tree_nodes,xpathSApply,".",xmlGetAttr,"DescriptorClass"),
     descriptor_ui = sapply(mesh_tree_nodes,xpathSApply,"./DescriptorUI",xmlValue),
     descriptor_name = sapply(mesh_tree_nodes,xpathSApply,"./DescriptorName",xmlValue),
     date_established = sapply(mesh_tree_nodes,xpathSApply,"./DateEstablished",function(x) unlist(lapply(xmlChildren(x),xmlValue)[c("Year","Month","Day")])) %>% apply(.,2,function(x) str_c(x,collapse='-')), 
     date_created = sapply(mesh_tree_nodes,xpathSApply,"./DateCreated",function(x) unlist(lapply(xmlChildren(x),xmlValue)[c("Year","Month","Day")])) %>% apply(.,2,function(x) str_c(x,collapse='-')),
     date_revised = sapply(mesh_tree_nodes,xpathSApply,"./DateRevised",function(x) unlist(lapply(xmlChildren(x),xmlValue)[c("Year","Month","Day")])) %>% sapply(function(x) str_c(x,collapse = '-')),
     tree_number = sapply(mesh_tree_nodes,xpathSApply,"./TreeNumberList/TreeNumber",xmlValue),
-    previous_indexing = lapply(mesh_tree_nodes,xpathSApply,"./PreviousIndexingList",xmlValue) %>% lapply(unlist))
+    previous_indexing = lapply(mesh_tree_nodes,xpathSApply,"./PreviousIndexingList",xmlValue),
+    related_descriptor_ui = sapply(mesh_tree_nodes,xpathSApply,".//SeeRelatedDescriptor/DescriptorReferredTo.DescriptorUI",xmlValue))
 
 save(mesh_descriptor_tree,file='data/mesh/mesh_term_info_v2.rda')
