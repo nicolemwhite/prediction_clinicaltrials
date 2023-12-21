@@ -1,9 +1,0 @@
-library(RCurl)
-library(XML)
-library(tidyverse)
-library(tidytext)
-library(textreadr)
-library(rvest)
-library(TeachingDemos)
-library(openxlsx)
- 
