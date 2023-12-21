@@ -254,17 +254,18 @@ ipd_record = ipd_record %>% left_join(dat_ipd,by=c('nct','index','first_report'=
 
 distinct(ipd_record) %>% count(last_response)
 
-web_history_ipd = readRDS("data/clintrials_history_ipd.rds")
-
-ipd_sharing_info = web_history_ipd %>% unnest(cols=c(field_label,field_value)) %>% filter(field_label %in% c('Plan to Share IPD','Supporting Information','URL')) %>% spread(field_label,field_value) %>% janitor::clean_names()
-
-ipd_sharing_info = left_join(ipd_record,ipd_sharing_info,by=c('nct','index')) %>% filter(last_response=='Yes') %>% mutate('ipd_sharing_details'=str_remove_all(plan_to_share_ipd,'^Yes\\.|^Yes')) %>% 
-  select(nct,last_report,last_response,ipd_sharing_details) %>% 
-  rename('plan_to_share_ipd'=last_response,'date_last_update'=last_report) %>%
-  mutate_at('ipd_sharing_details',~ifelse(.=="",'No details provided',.))
-
-openxlsx::write.xlsx(ipd_sharing_info,file='manuscript/supplement/SFile3.xlsx')
-
+#not run
+# web_history_ipd = readRDS("data/clintrials_history_ipd.rds")
+# 
+# ipd_sharing_info = web_history_ipd %>% unnest(cols=c(field_label,field_value)) %>% filter(field_label %in% c('Plan to Share IPD','Supporting Information','URL')) %>% spread(field_label,field_value) %>% janitor::clean_names()
+# 
+# ipd_sharing_info = left_join(ipd_record,ipd_sharing_info,by=c('nct','index')) %>% filter(last_response=='Yes') %>% mutate('ipd_sharing_details'=str_remove_all(plan_to_share_ipd,'^Yes\\.|^Yes')) %>% 
+#   select(nct,last_report,last_response,ipd_sharing_details) %>% 
+#   rename('plan_to_share_ipd'=last_response,'date_last_update'=last_report) %>%
+#   mutate_at('ipd_sharing_details',~ifelse(.=="",'No details provided',.))
+# 
+# openxlsx::write.xlsx(ipd_sharing_info,file='manuscript/supplement/SFile3.xlsx')
+# 
 
 
 
