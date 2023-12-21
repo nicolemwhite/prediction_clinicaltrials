@@ -56,6 +56,16 @@ sample_historical = function(intable, id, index){
    l_index = which(str_detect(ipd_sharing,pattern='Plan to Share IPD'))
    l_label = str_remove_all(ipd_sharing[l_index],":.*$")
    l_value = str_trim(ipd_sharing[l_index+1])
+   ad = data.frame(field_label=l_label,field_value=l_value) 
+   status = bind_rows(status,ad)
+
+   ipd_sharing = in_page %>% html_nodes(c("#IPDSharing")) %>% html_nodes("td") %>% html_text()
+   l_index = which(str_detect(ipd_sharing,pattern='Supporting Information|URL:'))
+   l_label = str_remove_all(ipd_sharing[l_index],":.*$")
+   l_value = str_trim(ipd_sharing[l_index+1])
+   ad = data.frame(field_label=l_label,field_value=l_value) 
+   status = bind_rows(status,ad)   
+   
    
    #study location
    study_location = in_page %>% html_nodes(c("#ContactsLocations")) %>% html_nodes("td") %>% html_text()
@@ -401,3 +411,26 @@ xmlGetNodeValue <- function(n, xp, default=NA) {
   }
 }
 
+#pmid publication functions
+
+f_extract_details_from_query <- function(l) {
+  data.frame(
+    pubdate = l$pubdate,
+    epubdate = l$epubdate,
+    title = l$title,
+    pubstatus = l$pubstatus
+  )
+}
+
+f_send_pmid_query <- function(pmids) {
+  pmid_details <- rentrez::entrez_summary(db = "pubmed", id = pmids)
+  lapply(pmid_details, f_extract_details_from_query) %>%
+    do.call("rbind", .) %>%
+    rownames_to_column("PMID") %>%
+    mutate(PMID = as.integer(PMID))
+}
+
+f_get_pmid_details <- function(pmids, chunk_size) {
+  chunks <- split(pmids, paste0("ch", ceiling(seq_along(pmids) / chunk_size)))
+  map_dfr(chunks, f_send_pmid_query)
+}

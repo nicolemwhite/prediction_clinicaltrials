@@ -38,3 +38,10 @@ dat_included = filter(dat, id %in% nct_included) %>% inner_join(included_studies
 dat_included = dat_included %>% mutate(year_posted = as.numeric(gsub(".*, ","",posted)))
 
 save(dat_included,included_studies,excluded_studies,screening_results,file='data/final_studies.rda')
+
+#write to excel file
+included_keywords = included_studies %>% unnest(Keyword) %>% add_column(value=TRUE) %>% spread(Keyword,value,fill=FALSE)
+excluded_keywords = excluded_studies %>% unnest(Keyword) %>% add_column(value=TRUE) %>% spread(Keyword,value,fill=FALSE)
+
+
+write.xlsx(list('Include'=included_keywords),file='data/final_studies_keywords.xlsx')

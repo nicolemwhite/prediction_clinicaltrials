@@ -12,7 +12,8 @@ search_terms_1 <- c("machine learning","artificial intelligence","deep learning"
 search_terms_2 <- c("prognosis","prognostic")
 
 home = getwd()
-xml_folder <- 'data/test'
+#xml_folder <- 'data/test'
+xml_folder<-'Z:/clinicaltrials/data/NCT0000xxxx'
 date_run = Sys.Date()
 # review files in zipped folder
 all_results = unzip('Z:/clinicaltrials/AllPublicXML.zip',list=TRUE) %>% data.frame() %>%
