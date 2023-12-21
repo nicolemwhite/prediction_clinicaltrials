@@ -1,0 +1,268 @@
+NCT,PMID,title,match,protocol,biomarker,mutivariable,other
+NCT04907266,34544675,External validation of Chronic Pancreatitis Prognosis Score (COPPS): A prospective cohort study.,1,,,,
+NCT04893200,35529792,Role of radiomics in predicting lung cancer spread through air spaces in a heterogeneous dataset.,1,,,,
+NCT04881383,35613775,Development and validation of a diabetes mellitus and prediabetes risk prediction function for case finding in primary care in Hong Kong: a cross-sectional study and a prospective study protocol paper.,0,1,,,
+NCT04780373,34637082,"PaO2/FiO2 ratio forecasts COVID-19 patients' outcome regardless of age: a cross-sectional, monocentric study.",0,,1,,
+NCT04756297,34237347,Lung Ultrasound for Prediction of Bronchopulmonary Dysplasia in Extreme Preterm Neonates: A Prospective Diagnostic Cohort Study.,1,,,,
+NCT04713852,34258059,Validation of the Acute Physiology and Chronic Health Evaluation (APACHE) II and IV Score in COVID-19 Patients.,1,,,,
+NCT04666662,34215317,The development and validation of a prognostic model to PREDICT Relapse of depression in adult patients in primary care: protocol for the PREDICTR study.,0,1,,,
+NCT04657900,34728455,Predicting patient-level new-onset atrial fibrillation from population-based nationwide electronic health records: protocol of FIND-AF for developing a precision medicine prediction model using artificial intelligence.,0,1,,,
+NCT04609163,34752491,A maChine and deep Learning Approach to predict pulmoNary hyperteNsIon in newbornS with congenital diaphragmatic Hernia (CLANNISH): Protocol for a retrospective study.,0,1,,,
+NCT04490005,33980528,"Outcome Prognostication of Acute Brain Injury using the Neurological Pupil Index (ORANGE) study: protocol for a prospective, observational, multicentre, international cohort study.",0,1,,,
+NCT04479150,33592888,Postoperative complications and mortality following emergency digestive surgery during the COVID-19 pandemic: A multicenter collaborative retrospective cohort study protocol (COVID-CIR).,0,1,,,
+NCT04479150,34535796,Analysis of outcomes of emergency general and gastrointestinal surgery during the COVID-19 pandemic.,0,,,1,
+NCT04463706,33400164,Predictors of mortality of COVID-19 in the general population and nursing homes.,1,,,,
+NCT04463706,35143022,Modelling the risk of hospital admission of lab confirmed SARS-CoV-2-infected patients in primary care: a population-based study.,1,,,,
+NCT04463706,35501359,Machine learning-based model for prediction of clinical deterioration in hospitalized patients by COVID 19.,1,,,,
+NCT04448340,33550890,A Novel Machine Learning Algorithm Predicts Dementia With Lewy Bodies Versus Parkinson's Disease Dementia Based on Clinical and Neuropsychological Scores.,1,,,,
+NCT04430400,31220387,Integrated Use of Conventional Chest Radiography Cannot Rule Out Acute Aortic Syndromes in Emergency Department Patients at Low Clinical Probability.,1,,,,
+NCT04430400,29030346,Diagnostic Accuracy of the Aortic Dissection Detection Risk Score Plus D-Dimer for Acute Aortic Syndromes: The ADvISED Prospective Multicenter Study.,0,,1,,
+NCT04357834,35613417,A Scalable Risk-Scoring System Based on Consumer-Grade Wearables for Inpatients With COVID-19: Statistical Analysis and Model Development.,1,,,,
+NCT04355507,34184935,Study of Thoracic CT in COVID-19: The STOIC Project.,1,,,,
+NCT04349787,33368056,Optical diagnosis of colorectal polyp images using a newly developed computer-aided diagnosis system (CADx) compared with intuitive optical diagnosis.,1,,,,
+NCT04344327,33388386,Association of diabetes and outcomes in patients with COVID-19: Propensity score-matched analyses from a French retrospective cohort.,0,,,1,
+NCT04321005,33888530,Swiss-wide multicentre evaluation and prediction of core outcomes in arthroscopic rotator cuff repair: protocol for the ARCR_Pred cohort study.,0,1,,,
+NCT04285021,33495264,Prediction of disease severity in young children presenting with acute febrile illness in resource-limited settings: a protocol for a prospective observational study.,0,1,,,
+NCT04261309,34535487,Characteristics of older adults with back pain associated with choice of first primary care provider: a cross-sectional analysis from the BACE-N cohort study.,0,,,,
+NCT04258891,34756569,"Dynamic prediction of renal survival among deeply phenotyped kidney transplant recipients using artificial intelligence: an observational, international, multicohort study.",1,,,,
+NCT04240652,33087340,"Artificial intelligence-enabled screening for diabetic retinopathy: a real-world, multicenter and prospective study.",1,,,,
+NCT04240353,34462271,Remote-Management of COPD: Evaluating the Implementation of Digital Innovation to Enable Routine Care (RECEIVER): the protocol for a feasibility and service adoption observational cohort study.,0,1,,,
+NCT04228614,34489309,Genomic temporal heterogeneity of circulating tumour DNA in unresectable metastatic colorectal cancer under first-line treatment.,0,,1,,
+NCT04219228,34740929,"Prevalence, incidence, and risk factors for myopia among urban and rural children in southern China: protocol for a school-based cohort study.",0,1,,,
+NCT04208971,34033803,Batch enrollment for an artificial intelligence-guided intervention to lower neurologic events in patients with undiagnosed atrial fibrillation: rationale and design of a digital clinical trial.,0,1,,,
+NCT04208789,33765092,Development and performance of CUHAS-ROBUST application for pulmonary rifampicin-resistance tuberculosis screening in Indonesia.,1,,,,
+NCT04196634,34061299,Comparison of self-reported and public registered absenteeism among people on long-term sick leave due to musculoskeletal disorders: criterion validity of the iMTA Productivity Cost Questionnaire.,0,,,,1
+NCT04196634,32450820,Risk assessment for prolonged sickness absence due to musculoskeletal disorders: protocol for a prospective cohort study.,0,1,,,
+NCT04169581,33420912,A deep learning framework for 18F-FDG PET imaging diagnosis in pediatric patients with temporal lobe epilepsy.,1,,,,
+NCT04162574,32546136,The Binge Eating Genetics Initiative (BEGIN): study protocol.,0,1,,,
+NCT04123509,33039403,Baveno VI criteria and spleen stiffness measurement rule out high-risk varices in virally suppressed HBV-related cirrhosis.,1,,,,
+NCT04123509,33353741,Prospective validation of Baveno VI criteria in virally supressed HBV cirrhosis - more evidence is needed.,0,,,,1
+NCT04108598,32988948,Prognostic factors for outcomes of idiopathic sudden sensorineural hearing loss: protocol for the SeaSHeL national prospective cohort study.,0,1,,,
+NCT04092543,32849196,Prediction of Functional Outcome After Acute Ischemic Stroke: Comparison of the CT-DRAGON Score and a Reduced Features Set.,1,,,,
+NCT04045639,33091585,Identification of undiagnosed atrial fibrillation patients using a machine learning risk prediction algorithm and diagnostic testing (PULsE-AI): Study protocol for a randomised controlled trial.,0,1,,,
+NCT04037163,34023270,High-Risk Morphological and Physiological Coronary Disease Attributes as Outcome Markers After Medical Treatment and Revascularization.,0,,,1,
+NCT04037163,33248965,CT Angiographic and Plaque Predictors of Functionally Significant Coronary Disease and Outcome Using Machine Learning.,1,,,,
+NCT04023188,32348254,Detection of Atrial Fibrillation Using a Ring-Type Wearable Device (CardioTracker) and Deep Learning Analysis of Photoplethysmography Signals: Prospective Observational Proof-of-Concept Study.,1,,,,
+NCT04012281,32703590,Role of Post-Stent Physiological Assessment in a Risk Prediction Model After Coronary Stent Implantation.,1,,,,
+NCT04012281,32895005,Prognostic Impact of Residual Anatomic Disease Burden After Functionally Complete Revascularization.,0,,,1,
+NCT04012281,34877828,Differential Prognostic Implications of Pre- and Post-Stent Fractional Flow Reserve in Patients Undergoing Percutaneous Coronary Intervention.,0,,,,1
+NCT04003558,34233259,"Magnetic resonance imaging radiomics predicts preoperative axillary lymph node metastasis to support surgical decisions and is associated with tumor microenvironment in invasive breast cancer: A machine learning, multicenter study.",1,,,,
+NCT03931083,33371015,Screening test accuracy to improve detection of precancerous lesions of the cervix in women living with HIV: a study protocol.,0,1,,,
+NCT03925506,32200083,Factors That Affect Adequacy of Colon Cleansing for Colonoscopy in Hospitalized Patients.,1,,,,
+NCT03905629,34185827,External validation of the Hospital Frailty Risk Score in France.,1,,,,
+NCT03892551,32336486,Validation of the Clinical Frailty Scale for Prediction of Thirty-Day Mortality in the Emergency Department.,0,,,,1
+NCT03883568,32723735,"Cohort profile: The Applied Public-Private Research enabling OsteoArthritis Clinical Headway (IMI-APPROACH) study: a 2-year, European, cohort study to describe, validate and predict phenotypes of osteoarthritis using clinical, imaging and biochemical markers.",0,1,,,
+NCT03883568,33971982,Making the patient voice heard in a research consortium: experiences from an EU project (IMI-APPROACH).,0,,,,1
+NCT03847285,31269923,Immune function as predictor of infectious complications and clinical outcome in patients undergoing solid organ transplantation (the ImmuneMo:SOT study): a prospective non-interventional observational trial.,0,1,,,
+NCT03826407,31320356,Development of a point of care system for automated coma prognosis: a prospective cohort study protocol.,0,1,,,
+NCT03805373,33521537,Relative validity and reliability of a diet risk score (DRS) for clinical practice.,1,,,,
+NCT03782389,32462372,The Value of Preseason Screening for Injury Prediction: The Development and Internal Validation of a Multivariable Prognostic Model to Predict Indirect Muscle Injury Risk in Elite Football (Soccer) Players.,1,,,,
+NCT03773939,33436012,"Incidence, prognostic factors, and outcomes of venous thromboembolism in critically ill patients: data from two prospective cohort studies.",0,,,1,
+NCT03723317,32892294,The role of the comprehensive complication index for the prediction of survival after liver transplantation.,0,,,,1
+NCT03694912,31963294,Gene Expression Analysis of Aggressive Clinical T1 Stage Clear Cell Renal Cell Carcinoma for Identifying Potential Diagnostic and Prognostic Biomarkers.,0,,1,,
+NCT03694912,33823929,Association between visceral adiposity and DDX11 as a predictor of aggressiveness of small clear-cell renal-cell carcinoma: a prospective clinical trial.,0,,,1,
+NCT03693378,34643612,"Abstracts of Papers Submitted to the 52nd Meeting of the American Pancreatic Association, November 3-6, 2021, Miami Beach, Florida.",1,,,,2
+NCT03641872,32109631,Prevalence and Clinical Significance of Portal Vein Thrombosis in Patients With Cirrhosis and Acute Decompensation.,0,,,,1
+NCT03641872,33419900,Cohort profile: a multicentre prospective validation cohort of the Chinese Acute-on-Chronic Liver Failure (CATCH-LIFE) study.,0,1,,,
+NCT03641872,34412498,Lower platelet counts were associated with 90-day adverse outcomes in acute-on-chronic liver disease patients.,0,,,1,
+NCT03641872,35037228,Prevalence and clinical significance of serum sodium variability in patients with acute-on-chronic liver diseases: a prospective multicenter study in China.,0,,1,,
+NCT03635710,30617104,"Prevalence of nocturnal cough in asthma and its potential as a marker for asthma control (MAC) in combination with sleep quality: protocol of a smartphone-based, multicentre, longitudinal observational study with two stages.",0,1,,,
+NCT03608709,34193084,Development of a multivariable prognostic PREdiction model for 1-year risk of FALLing in a cohort of community-dwelling older adults aged 75 years and above (PREFALL).,1,,,,
+NCT03577405,32526633,Diagnostic accuracy of arterial and venous renal Doppler assessment for acute kidney injury in critically ill patients: A prospective study.,2,,,,
+NCT03574025,32978195,NEUROlogical Prognosis After Cardiac Arrest in Kids (NEUROPACK) study: protocol for a prospective multicentre clinical prediction model derivation and validation study in children after cardiac arrest.,0,1,,,
+NCT03511430,32418720,"SVEAT Score, a Potential New and Improved Tool for Acute Chest Pain Risk Stratification.",1,,,,
+NCT03474341,30342494,Preoperative image-guided identification of response to neoadjuvant chemoradiotherapy in esophageal cancer (PRIDE): a multicenter observational study.,0,1,,,
+NCT03474003,34620664,Application of the iBox prognostication system as a surrogate endpoint in the TRANSFORM randomised controlled trial: proof-of-concept study.,1,,,,2
+NCT03474003,31530561,Prediction system for risk of allograft loss in patients receiving kidney transplants: international derivation and validation study.,1,,,,
+NCT03451734,33716817,Optimizing and Individualizing the Pharmacological Treatment of First-Episode Schizophrenic Patients: Study Protocol for a Multicenter Clinical Trial.,0,1,,,
+NCT03451734,32528286,Increased Appetite Plays a Key Role in Olanzapine-Induced Weight Gain in First-Episode Schizophrenia Patients.,0,,,,2
+NCT03451734,33692676,The Association Between Metabolic Disturbance and Cognitive Impairments in Early-Stage Schizophrenia.,0,,,,2
+NCT03451734,33716832,The Association Between Cognitive Deficits and Clinical Characteristic in First-Episode Drug Naïve Patients With Schizophrenia.,0,,,,2
+NCT03439449,31969363,A prospective cohort study of self-reported computerised medical history taking for acute chest pain: protocol of the CLEOS-Chest Pain Danderyd Study (CLEOS-CPDS).,0,1,,,
+NCT03439449,34570811,Computerized history-taking improves data quality for clinical decision-making-Comparison of EHR and computer-acquired history data in patients with chest pain.,0,,,,1
+NCT03439449,33904821,Use of Self-Reported Computerized Medical History Taking for Acute Chest Pain in the Emergency Department - the Clinical Expert Operating System Chest Pain Danderyd Study (CLEOS-CPDS): Prospective Cohort Study.,0,,,,1
+NCT03382223,32280086,A Prospective Longitudinal Study of Caregivers of Community Dwelling Persons with Severe Dementia (PISCES): Study Protocol.,0,1,,,
+NCT03362138,30674442,Dermoscopy diagnosis of cancerous lesions utilizing dual deep learning algorithms via visual and audio (sonification) outputs: Laboratory and prospective observational studies.,1,,,,
+NCT03362138,31101596,Skin cancer detection by deep learning and sound analysis algorithms: A prospective clinical study of an elementary dermoscope.,1,,,,
+NCT03352648,29550015,CarDiac MagnEtic Resonance for Primary Prevention Implantable CardioVerter DebrillAtor ThErapy international registry: Design and rationale of the DERIVATE study.,0,1,,,
+NCT03352648,33792661,CarDiac magnEtic Resonance for prophylactic Implantable-cardioVerter defibrillAtor ThErapy in Non-Ischaemic dilated CardioMyopathy: an international Registry.,1,,,,
+NCT03330769,29991631,Clinical and ultrasonographic predictors for achieving minimal disease activity in patients with psoriatic arthritis: the UPSTREAM (Ultrasound in PSoriatic arthritis TREAtMent) prospective observational study protocol.,0,1,,,
+NCT03299010,30327405,Ten-year risk prediction models of complications and mortality of Chinese patients with diabetes mellitus in primary care in Hong Kong: a study protocol.,0,1,,,
+NCT03299010,33879090,Generative adversarial networks for imputing missing data for big data clinical research.,0,,,,1
+NCT03253432,34617591,Strategies for screening for familial hypercholesterolaemia in primary care and other community settings.,0,,,,1
+NCT03248557,29885765,Early prognostic value of an Algorithm based on spectral Variables of Ventricular fibrillAtion from the EKG of patients with suddEn cardiac death: A multicentre observational study (AWAKE).,0,1,,,
+NCT03247049,31879838,Risk of Long-Term Mortality for Complex Chronic Patients with Intracerebral Hemorrhage: A Population-Based e-Cohort Observational Study.,1,,,,2
+NCT03247049,33546615,Complex chronic patients as an emergent group with high risk of intracerebral haemorrhage: an observational cohort study.,0,,,1,
+NCT03150680,34103005,The GEnetic Syntax Score: a genetic risk assessment implementation tool grading the complexity of coronary artery disease-rationale and design of the GESS study.,0,1,,,
+NCT03150680,35118145,A Risk-Stratification Machine Learning Framework for the Prediction of Coronary Artery Disease Severity: Insights From the GESS Trial.,1,,,,
+NCT03110887,30819913,Dynamic prediction of bleeding risk in thrombocytopenic preterm neonates.,1,,,,
+NCT03080623,33889025,Machine Learning Models to Improve the Differentiation Between Benign and Malignant Breast Lesions on Ultrasound: A Multicenter External Validation Study.,1,,,,
+NCT03054142,33407184,Is acute kidney injury age-dependent in older adults: an observational study in two centers from North China.,0,,,,1
+NCT02992587,32929483,One-year mortality increases four-fold in frail patients undergoing cardiac surgery.,1,,,,
+NCT02992587,33724366,Comprehensive assessment of frailty score supplements the existing cardiac surgical risk scores.,1,,,,
+NCT02992587,31304801,30-day mortality in frail patients undergoing cardiac surgery: the results of the frailty in cardiac surgery (FICS) copenhagen study.,1,,,,
+NCT02992067,31659631,A Prospective Validation Cohort Study of a Prediction Model on Non-sentinel Lymph Node Involvement in Early Breast Cancer.,1,,,,
+NCT02955485,30021553,A risk assessment model for chronic ankle instability: indications for early surgical treatment? An observational prospective cohort - study protocol.,0,1,,,
+NCT02912624,31912438,Feasibility of cardiac output measurements in critically ill patients by medical students.,0,,,,1
+NCT02912624,31011425,Disagreement in cardiac output measurements between fourth-generation FloTrac and critical care ultrasonography in patients with circulatory shock: a prospective observational study.,0,,,,1
+NCT02912624,31670697,A Bayesian Network Analysis of the Diagnostic Process and Its Accuracy to Determine How Clinicians Estimate Cardiac Function in Critically Ill Patients: Prospective Observational Cohort Study.,0,,,,1
+NCT02912624,28963297,"Clinical examination, critical care ultrasonography and outcomes in the critically ill: cohort profile of the Simple Intensive Care Studies-I.",0,1,,,
+NCT02912624,31931844,Should the ultrasound probe replace your stethoscope? A SICS-I sub-study comparing lung ultrasound and pulmonary auscultation in the critically ill.,0,,,,1
+NCT02904577,31292118,Early progression as a predictor of survival in marginal zone lymphomas: an analysis from the FIL-NF10 study.,0,,1,,
+NCT02898415,28989060,Metroticket 2.0 Model for Analysis of Competing Risks of Death After Liver Transplantation for Hepatocellular Carcinoma.,1,,,,
+NCT02863211,29101147,"Protocol for the HAPPY Hearts study: cardiovascular screening for the early detection of future adverse cardiovascular outcomes in middle-aged and older women: a prospective, observational cohort study.",0,1,,,2
+NCT02833259,33177142,Development of a risk prediction model of potentially avoidable readmission for patients hospitalised with community-acquired pneumonia: study protocol and population.,0,1,,,
+NCT02832102,34738049,Clinical Validity of a Prognostic Gene Expression Cluster-Based Model in Human Papillomavirus-Positive Oropharyngeal Carcinoma.,1,,,,
+NCT02805621,31422141,Influence of Coronary Calcium on Diagnostic Performance of Machine Learning CT-FFR: Results From MACHINE Registry.,1,,,,2
+NCT02803086,33639190,Acute patient-reported intestinal toxicity in whole pelvis IMRT for prostate cancer: Bowel dose-volume effect quantification in a multicentric cohort study.,1,,,,
+NCT02803086,34209562,Predictors of Patient-Reported Incontinence at Adjuvant/Salvage Radiotherapy after Prostatectomy: Impact of Time between Surgery and Radiotherapy.,1,,,1,
+NCT02646943,30383777,Beneficial effects of benznidazole in Chagas disease: NIH SaMi-Trop cohort study.,0,,,,1
+NCT02646943,32459812,Factors associated with quality of life in patients with Chagas disease: SaMi-Trop project.,0,,,,1
+NCT02646943,27147390,Longitudinal study of patients with chronic Chagas cardiomyopathy in Brazil (SaMi-Trop project): a cohort profile.,0,,,,1
+NCT02618538,29166878,The ANDROMEDA prospective cohort study: predictive value of combined criteria to tailor breast cancer screening and new opportunities from circulating markers: study protocol.,0,1,,,
+NCT02592135,31288565,TACIT (High Sensitivity Troponin T Rules Out Acute Cardiac Insufficiency Trial).,0,,1,,
+NCT02581540,32518208,Identification of high-risk non-ST elevation myocardial infarction at presentation to emergency department. A prospective observational cohort study in North West England.,0,,,1,
+NCT02573532,29203498,"Perioperative Myocardial Injury After Noncardiac Surgery: Incidence, Mortality, and Characterization.",0,,,,1
+NCT02573532,30541757,Daytime variation of perioperative myocardial injury in non-cardiac surgery and effect on outcome.,0,,,,1
+NCT02573532,33059838,Etiology of Peri-Operative Myocardial Infarction/Injury After Noncardiac Surgery and Associated Outcome.,0,,,,1
+NCT02573532,33081973,Association between self-reported functional capacity and major adverse cardiac events in patients at elevated risk undergoing noncardiac surgery: a prospective diagnostic cohort study.,2,,,,
+NCT02573532,33620378,Incidence of major adverse cardiac events following non-cardiac surgery.,0,,,,1
+NCT02573532,34330416,Adherence to the European Society of Cardiology/European Society of Anaesthesiology recommendations on preoperative cardiac testing and association with positive results and cardiac events: a cohort study.,2,,,,
+NCT02569268,31390128,Comparison of vascular-related diseases in their associations with carotid femoral pulse wave velocity: From the Beijing Vascular Disease Patients Evaluation Study (BEST Study).,0,,,1,
+NCT02569268,32738905,Association between multi-site atherosclerotic plaques and systemic arteriosclerosis: results from the BEST study (Beijing Vascular Disease Patients Evaluation Study).,0,,,1,
+NCT02569268,29553852,The effect of cardiovascular risk factors on the carotid intima-media thickness in an old-aged cohort with hypertension: a longitudinal evolution with 4-year follow-up of a random clinical trial.,0,,,1,
+NCT02569268,31341663,Gender Difference of the Relationship between Arterial Stiffness and Blood Pressure Variability in Participants in Prehypertension.,0,,,1,
+NCT02555137,34127618,Postpulmonary embolism syndrome.,0,,,,1
+NCT02488161,27391216,Colorectal cancer health services research study protocol: the CCR-CARESS observational prospective cohort project.,0,1,,,
+NCT02488161,29378647,Validity of the CR-POSSUM model in surgery for colorectal cancer in Spain (CCR-CARESS study) and comparison with other models to predict operative mortality.,1,,,,
+NCT02488161,29563837,Combining statistical techniques to predict postsurgical risk of 1-year mortality for patients with colon cancer.,1,,,,
+NCT02488161,29869084,Cost-effectiveness analysis of laparoscopic versus open surgery in colon cancer.,0,,,,1
+NCT02488161,29921557,Outcomes of open versus laparoscopic surgery in patients with colon cancer.,0,,,,1
+NCT02488161,30793242,Risk factors affecting hospital stay among patients undergoing colon cancer surgery: a prospective cohort study.,1,,,,
+NCT02488161,31140003,Stage- and age-adjusted cost-effectiveness analysis of laparoscopic surgery in rectal cancer.,0,,,,1
+NCT02488161,31485982,Predictors of readmission and reoperation in patients with colorectal cancer.,1,,,,
+NCT02488161,34446044,Risk scores to predict mortality 2 and 5 years after surgery for colorectal cancer in elderly patients.,1,,,,
+NCT02488161,34893952,Quality Indicators and Outcomes in a Prospective Cohort of Colorectal Cancer Patients.,0,,,,1
+NCT02466854,27738920,Optimal Medical Therapy in Patients with Malignancy Undergoing Percutaneous Coronary Intervention for Acute Coronary Syndrome: a BleeMACS Sub-Study.,0,,,1,
+NCT02466854,28593789,Prevalence and outcome of patients with cancer and acute coronary syndrome undergoing percutaneous coronary intervention: a BleeMACS substudy.,0,,,1,
+NCT02466854,29407077,Development and external validation of a post-discharge bleeding risk score in patients with acute coronary syndrome: The BleeMACS score.,1,,,,
+NCT02466854,34729148,Evaluation of optimal medical therapy in acute myocardial infarction patients with prior stroke.,0,,,,1
+NCT02443389,30546043,Late onset neonatal acute kidney injury: results from the AWAKEN Study.,0,,,1,
+NCT02439554,29310641,Health services research in patients with breast cancer (CAMISS-prospective): study protocol for an observational prospective study.,0,1,,,
+NCT02355457,28087181,Challenging the 99th percentile: A lower troponin cutoff leads to low mortality of chest pain patients.,0,,,,1
+NCT02355457,28333976,Early diagnosis of acute myocardial infarction using high-sensitivity troponin I.,2,,,,
+NCT02355457,29020401,Discrimination of patients with type 2 myocardial infarction.,1,,,,
+NCT02355457,29525782,Relations of Sex to Diagnosis and Outcomes in Acute Coronary Syndrome.,0,,,,1
+NCT02355457,30071991,Prospective Validation of the 0/1-h Algorithm for Early Diagnosis of Myocardial Infarction.,2,,,,
+NCT02355457,30127037,Clinical chemistry score versus high-sensitivity cardiac troponin I and T tests alone to identify patients at low or high risk for myocardial infarction or death at presentation to the emergency department.,1,,,,
+NCT02355457,30169752,Impact of age on the performance of the ESC 0/1h-algorithms for early diagnosis of myocardial infarction.,0,,,,1
+NCT02355457,30528623,Evaluation of a new ultra-sensitivity troponin I assay in patients with suspected myocardial infarction.,2,,,,
+NCT02355457,30989318,Predictive value of soluble urokinase-type plasminogen activator receptor for mortality in patients with suspected myocardial infarction.,1,,,,2
+NCT02355457,31242362,Application of High-Sensitivity Troponin in Suspected Myocardial Infarction.,2,,,,
+NCT02355457,31843947,Performance of the ESC 0/1-h and 0/3-h Algorithm for the Rapid Identification of Myocardial Infarction Without ST-Elevation in Patients With Diabetes.,2,,,,
+NCT02355457,32462911,"Application of a machine learning-driven, multibiomarker panel for prediction of incident cardiovascular events in patients with suspected myocardial infarction.",1,,,,
+NCT02355457,32700543,Differences in measurement of high-sensitivity troponin in an on-demand and batch-wise setting.,0,,,,1
+NCT02355457,33609133,Differences in measurement of high-sensitivity troponin in an on-demand and batch-wise setting.,0,,,,1
+NCT02355457,34254126,Diagnostic Validation of a High-Sensitivity Cardiac Troponin I Assay.,2,,,,
+NCT02355457,34350455,The association of anaemia and high-sensitivity cardiac troponin and its effect on diagnosing myocardial infarction.,0,,,1,
+NCT02355457,34412811,A Biomarker Model to Distinguish Types of Myocardial Infarction and Injury.,1,,,,
+NCT02341066,29483841,Prevalence and Determinants of Peripheral Microvascular Endothelial Dysfunction in Rheumatoid Arthritis Patients: A Multicenter Cross-Sectional Study.,0,,,1,
+NCT02341066,32622695,Comprehensive arginine metabolomics and peripheral vasodilatory capacity in rheumatoid arthritis: A monocentric cross-sectional study.,0,,,,2
+NCT02210221,25525693,Collaborative European NeuroTrauma Effectiveness Research in Traumatic Brain Injury (CENTER-TBI): a prospective longitudinal observational study.,0,1,,,
+NCT02210221,31526754,"Case-mix, care pathways, and outcomes in patients with traumatic brain injury in CENTER-TBI: a European prospective, multicentre, longitudinal, cohort study.",0,,,,1
+NCT02210221,31619435,Comparative effectiveness of surgery in traumatic acute subdural and intracerebral haematoma: study protocol for a prospective observational study within CENTER-TBI and Net-QuRe.,0,1,,,
+NCT02210221,32131882,Quality indicators for patients with traumatic brain injury in European intensive care units: a CENTER-TBI study.,0,,,,1
+NCT02210221,32201256,Machine learning algorithms performed no better than regression models for prognostication in traumatic brain injury.,1,,,,1
+NCT02210221,32456684,Low-resolution pressure reactivity index and its derived optimal cerebral perfusion pressure in adult traumatic brain injury: a CENTER-TBI study.,2,,1,,
+NCT02210221,32634435,"Incidence, Risk Factors, and Effects on Outcome of Ventilator-Associated Pneumonia in Patients With Traumatic Brain Injury: Analysis of a Large, Multicenter, Prospective, Observational Longitudinal Study.",0,,,,1
+NCT02210221,32702336,"Clinical characteristics and outcomes in patients with traumatic brain injury in China: a prospective, multicentre, longitudinal, observational study.",0,,,,1
+NCT02210221,32747075,Tracheal intubation in traumatic brain injury: a multicentre prospective observational study.,0,,,,1
+NCT02210221,33060506,Acute Kidney Injury in Traumatic Brain Injury Patients: Results From the Collaborative European NeuroTrauma Effectiveness Research in Traumatic Brain Injury Study.,0,,,1,
+NCT02210221,33246186,Care transitions in the first 6months following traumatic brain injury: Lessons from the CENTER-TBI study.,0,,,,1
+NCT02210221,33622371,Use and impact of high intensity treatments in patients with traumatic brain injury across Europe: a CENTER-TBI analysis.,0,,,,1
+NCT02210221,33854024,The authors reply.,0,,,,1
+NCT02210221,34302517,Management of arterial partial pressure of carbon dioxide in the first week after traumatic brain injury: results from the CENTER-TBI study.,0,,,,1
+NCT02086136,29030346,Diagnostic Accuracy of the Aortic Dissection Detection Risk Score Plus D-Dimer for Acute Aortic Syndromes: The ADvISED Prospective Multicenter Study.,1,,,,2
+NCT02086136,31220387,Integrated Use of Conventional Chest Radiography Cannot Rule Out Acute Aortic Syndromes in Emergency Department Patients at Low Clinical Probability.,1,,,,
+NCT02070536,30183115,Driving pressure and acute respiratory distress syndrome in critically ill patients.,0,,1,,
+NCT02070536,29861796,Clinical and Biological Predictors of Plasma Levels of Soluble RAGE in Critically Ill Patients: Secondary Analysis of a Prospective Multicenter Observational Study.,0,,,,1
+NCT02025699,30086729,"Observational multi-centre, prospective study to characterize novel pathogen-and host-related factors in hospitalized patients with lower respiratory tract infections and/or sepsis - the \TAILORED-Treatment\"" study.""",0,1,,,
+NCT02022878,25700748,Coronary computed tomographic prediction rule for time-efficient guidewire crossing through chronic total occlusion: insights from the CT-RECTOR multicenter registry (Computed Tomography Registry of Chronic Total Occlusion Revascularization).,1,,,,
+NCT01987921,27959707,Epidemiology of Acute Kidney Injury in Critically Ill Children and Young Adults.,0,,,,1
+NCT01987921,34331019,Acute kidney injury in critically Ill children and young adults with suspected SARS-CoV2 infection.,0,,,,1
+NCT01987921,32620676,Weight as a Risk Factor for Mortality in Critically Ill Patients.,0,,2,,
+NCT01970969,29534064,Validation of a genetic risk score for atrial fibrillation: A prospective multicenter cohort study.,2,,,,
+NCT01962506,26169889,Ultra-Sensitive Copeptin and Cardiac Troponin in Diagnosing Non-ST-Segment Elevation Acute Coronary Syndromes--The COPACS Study.,1,,,,
+NCT01915615,26299218,"Hypertrophic Cardiomyopathy Registry: The rationale and design of an international, observational study of hypertrophic cardiomyopathy.",0,1,,,
+NCT01902407,28356179,Upper Airway Reflexes are Preserved During Dexmedetomidine Sedation in Children With Down Syndrome and Obstructive Sleep Apnea.,1,,2,,
+NCT01891240,24314209,A multi-centre phase IIa clinical study of predictive testing for preeclampsia: improved pregnancy outcomes via early detection (IMPROvED).,0,1,,,
+NCT01873287,23906960,Predicting and preventing postconcussive problems in paediatrics (5P) study: protocol for a prospective multicentre clinical prediction rule derivation study in children with concussion.,0,1,,,
+NCT01873287,31316452,The Stability of Retrospective Pre-injury Symptom Ratings Following Pediatric Concussion.,0,,,,1
+NCT01873287,32499388,Parent-Child Agreement on Postconcussion Symptoms in the Acute Postinjury Period.,0,,,,2
+NCT01838148,26708172,Direct comparison of cardiac troponin I and cardiac troponin T in the detection of exercise-induced myocardial ischemia.,0,,1,,
+NCT01838148,29107010,Combining high-sensitivity cardiac troponin and B-type natriuretic peptide in the detection of inducible myocardial ischemia.,2,,,,
+NCT01838148,29667014,Automatically computed ECG algorithm for the quantification of myocardial scar and the prediction of mortality.,2,,,,
+NCT01838148,31905377,Using High-Sensitivity Cardiac Troponin for the Exclusion of Inducible Myocardial Ischemia in Symptomatic Patients: A Cohort Study.,0,,2,,
+NCT01802398,29275946,ECG Predictors of Cardiac Arrhythmias in Older Adults With Syncope.,,,,,
+NCT01802398,30255862,Predictors of Clinically Significant Echocardiography Findings in Older Adults with Syncope: A Secondary Analysis.,1,,,,
+NCT01802398,30361153,Recurrent syncope is not an independent risk predictor for future syncopal events or adverse outcomes.,0,,,1,
+NCT01802398,30529112,Comparison of 30-Day Serious Adverse Clinical Events for Elderly Patients Presenting to the Emergency Department With Near-Syncope Versus Syncope.,0,,,,1
+NCT01802398,30691921,Prevalence of Pulmonary Embolism Among Emergency Department Patients With Syncope: A Multicenter Prospective Cohort Study.,0,,,,1
+NCT01802398,30721554,Do High-sensitivity Troponin and Natriuretic Peptide Predict Death or Serious Cardiac Outcomes After Syncope?,0,,,1,
+NCT01802398,31080027,Clinical Benefit of Hospitalization for Older Adults With Unexplained Syncope: A Propensity-Matched Analysis.,0,,,,1
+NCT01802398,31668571,Risk Stratification of Older Adults Who Present to the Emergency Department With Syncope: The FAINT Score.,1,,,,
+NCT01802398,33504514,Development of an electrocardiogram-based risk calculator for a cardiac cause of syncope.,1,,,,
+NCT01698632,30737137,"Risk of complications in patients with conservatively managed ovarian tumours (IOTA5): a 2-year interim analysis of a multicentre, prospective, cohort study.",0,,,,1
+NCT01698632,32732303,Validation of models to diagnose ovarian cancer in patients managed surgically or conservatively: multicentre cohort study.,1,,,,
+NCT01587573,27411053,Validation of Reference Genes for Oral Cancer Detection Panels in a Prospective Blinded Cohort.,0,,,,1
+NCT01582763,28406555,International Guillain-Barré Syndrome Outcome Study: protocol of a prospective observational cohort study on clinical and biological predictors of disease course and outcome in Guillain-Barré syndrome.,0,1,,,
+NCT01452802,26483097,Risk Assessment and Comparative Effectiveness of Left Ventricular Assist Device and Medical Management in Ambulatory Heart Failure Patients: Results From the ROADMAP Study.,0,,,,1
+NCT01452802,28396040,Risk Assessment and Comparative Effectiveness of Left Ventricular Assist Device and Medical Management in Ambulatory Heart Failure Patients: The ROADMAP Study 2-Year Results.,0,,,,1
+NCT01452802,28465311,Accuracy of Seattle Heart Failure Model and HeartMate II Risk Score in Non-Inotrope-Dependent Advanced Heart Failure Patients: Insights From the ROADMAP Study (Risk Assessment and Comparative Effectiveness of Left Ventricular Assist Device and Medical Management in Ambulatory Heart Failure Patients).,1,,,,
+NCT01452802,28611126,Patient-Reported Health-Related Quality of Life Is a Predictor of Outcomes in Ambulatory Heart Failure Patients Treated With Left Ventricular Assist Device Compared With Medical Management: Results From the ROADMAP Study (Risk Assessment and Comparative Effectiveness of Left Ventricular Assist Device and Medical Management).,0,,,,1
+NCT01392365,28682807,Development and Validation of a Novel Prediction Model for Differential Diagnosis Between Crohn's Disease and Intestinal Tuberculosis.,1,,,,
+NCT01364168,22928669,Prediction of vascular risk after stroke - protocol and pilot data of the Prospective Cohort with Incident Stroke (PROSCIS).,0,1,,,
+NCT01363856,22928669,Prediction of vascular risk after stroke - protocol and pilot data of the Prospective Cohort with Incident Stroke (PROSCIS).,2,,,,
+NCT01363856,31526121,Serum Anti-NMDA (N-Methyl-D-Aspartate)-Receptor Antibodies and Long-Term Clinical Outcome After Stroke (PROSCIS-B).,0,,,,1
+NCT01363856,32279621,High-Sensitivity Cardiac Troponin T and Cognitive Function in Patients With Ischemic Stroke.,0,,1,,
+NCT01363856,33184230,Endothelial and Leukocyte-Derived Microvesicles and Cardiovascular Risk After Stroke: PROSCIS-B.,0,,,1,
+NCT01363856,33982599,High-Sensitivity Cardiac Troponin T and Recurrent Vascular Events After First Ischemic Stroke.,0,,1,,
+NCT01357057,22363051,An admission bioclinical score to predict 1-year outcomes in patients undergoing aneurysm coiling.,1,,,,
+NCT01353547,28114441,Assessment of Early Evidence of Multiple Sclerosis in a Prospective Study of Asymptomatic High-Risk Family Members.,0,,,,1
+NCT01353131,24485635,Infiltrated atrial fat characterizes underlying atrial fibrillation substrate in patients at risk as defined by the ARIC atrial fibrillation risk score.,0,,,,1
+NCT01353131,24620844,Number of P-wave fragmentations on P-SAECG correlates with infiltrated atrial fat.,0,,,,1
+NCT01353131,26806840,"Screening for Cardiac Magnetic Resonance Scar Features by 12-Lead ECG, in Patients with Preserved Ejection Fraction.",0,,,,1
+NCT01346709,30431500,Development of a prediction model for postoperative pneumonia: A multicentre prospective observational study.,1,,,,
+NCT01325883,27589870,The effect of neoadjuvant chemotherapy and chemoradiotherapy on exercise capacity and outcome following upper gastrointestinal cancer surgery: an observational cohort study.,0,1,,,
+NCT01276678,24763965,Statin therapy and thromboxane generation in patients with coronary artery disease treated with high-dose aspirin.,0,,1,,
+NCT01276678,30626544,HDL3-C is a Marker of Coronary Artery Disease Severity and Inflammation in Patients on Statin Therapy.,0,,1,,
+NCT01276678,31218482,Gender differences in thrombogenicity among patients with angina and non-obstructive coronary artery disease.,0,,,,1
+NCT01166360,23391200,Growth differentiation factor 15: a novel risk marker adjunct to the EuroSCORE for risk stratification in cardiac surgery patients.,1,,,,
+NCT01166360,27717384,Preoperative plasma growth-differentiation factor-15 for prediction of acute kidney injury in patients undergoing cardiac surgery.,1,,,,
+NCT01161381,26937681,Evaluation of a Decision Support System for Obstructive Sleep Apnea with Nonlinear Analysis of Respiratory Signals.,1,,,,
+NCT00969657,24309199,International data-sharing for radiotherapy research: an open-source based infrastructure for multicentric clinical data mining.,0,,,,1
+NCT00961389,22323509,Development and validation of PRE-DELIRIC (PREdiction of DELIRium in ICu patients) delirium prediction model for intensive care patients: observational multicentre study.,1,,,,
+NCT00821379,22633255,High singleton live birth rate confirmed after ovulation induction in women with anovulatory polycystic ovary syndrome: validation of a prediction model for clinical practice.,1,,,,
+NCT00821379,28228318,Endocrine and cardiometabolic cord blood characteristics of offspring born to mothers with and without polycystic ovary syndrome.,0,,,,1
+NCT00821379,28778282,Increased rates of complications in singleton pregnancies of women previously diagnosed with polycystic ovary syndrome predominantly in the hyperandrogenic phenotype.,0,,,,1
+NCT00821379,30590587,Pre-Conception Characteristics Predict Obstetrical and Neonatal Outcomes in Women With Polycystic Ovary Syndrome.,0,,,1,
+NCT00821379,20943702,Sex hormone-binding globulin concentrations before conception as a predictor for gestational diabetes in women with polycystic ovary syndrome.,0,,1,,
+NCT00821379,24777850,Preconception predictors of gestational diabetes: a multicentre prospective cohort study on the predominant complication of pregnancy in polycystic ovary syndrome.,1,,,,
+NCT00821379,26498178,Placental characteristics in women with polycystic ovary syndrome.,0,,,,1
+NCT00821379,23739218,Fasting glucose measurement as a potential first step screening for glucose metabolism abnormalities in women with anovulatory polycystic ovary syndrome.,0,,,,1
+NCT00821379,25840428,Insulin action in women with polycystic ovary syndrome and its relation to gestational diabetes.,0,,,,1
+NCT00809575,26404501,"Prognostic value of self-reported fatigue on overall survival in patients with myelodysplastic syndromes: a multicentre, prospective, observational, cohort study.",0,,,1,
+NCT00604773,21426560,Urinary protein profiling in hyperactive delirium and non-delirium cardiac surgery ICU patients.,0,,,,1
+NCT00604773,22323509,Development and validation of PRE-DELIRIC (PREdiction of DELIRium in ICu patients) delirium prediction model for intensive care patients: observational multicentre study.,0,,,,duplicate
+NCT00604773,22206727,Biomarkers associated with delirium in critically ill patients and their relation with long-term subjective cognitive dysfunction; indications for different pathways governing delirium in inflamed and noninflamed patients.,0,,1,,
+NCT00258869,19846634,Multiplex PCR to diagnose bloodstream infections in patients admitted from the emergency department with sepsis.,0,,,,1
+NCT00258869,20370777,Disease progression in hemodynamically stable patients presenting to the emergency department with sepsis.,0,,,1,
+NCT00258869,25538794,An integrated transcriptome and expressed variant analysis of sepsis survival and death.,0,,,,1
+NCT00258869,33938716,Discriminating Bacterial and Viral Infection Using a Rapid Host Gene Expression Test.,2,,,,
+NCT00258869,34150923,"Rapid, Sample-to-Answer Host Gene Expression Test to Diagnose Viral Infection.",2,,,,
+NCT00119522,20684896,Wheelchair-related falls in veterans with spinal cord injury residing in the community: a prospective cohort study.,0,,,1,
+NCT00119522,15839290,Wheelchair-related falls: current evidence and directions for improved quality care.,0,,,,1
+NCT00092235,28797782,Predictors for Permanent Discontinuation of Systemic Immunosuppression in Severely Affected Chronic Graft-Versus-Host Disease Patients.,0,,,1,
+NCT00092235,27374829,Vitamin D levels and their associations with survival and major disease outcomes in a large cohort of patients with chronic graft-vs-host disease.,0,,,1,
+NCT00092235,33526918,Predictors of hematologic malignancy relapse in patients with advanced chronic graft-versus-host disease.,0,,,1,
+NCT00092235,26088932,Predictive models for ocular chronic graft-versus-host disease diagnosis and disease activity in transplant clinical practice.,1,,,,
