@@ -5,16 +5,14 @@ source('99_functions.R')
 
 load('data/study_info_included_R1.rda')
 
-filter(study_info) %>% count(lead_sponsor_agency_class,lead_sponsor_agency,sort=T) %>% head()
+#reported funding as grant or contract
+study_history %>% unnest(cols=c('field_last','value_last')) %>% filter(field_last=='Secondary IDs',grepl('grant|contract',value_last,ignore.case=T)) 
+
 
 #get words, ngrams
 sponsor_words = filter(study_info) %>% group_by(lead_sponsor_agency_class) %>% unnest_tokens(words,lead_sponsor_agency,token='words') %>% count(lead_sponsor_agency_class,words) %>% ungroup()
-sponsor_words %>% filter(lead_sponsor_agency_class=='Industry') %>% arrange(-n)
-sponsor_words %>% filter(lead_sponsor_agency_class=='Other') %>% arrange(-n)
-sponsor_words %>% filter(lead_sponsor_agency_class=='NIH') %>% arrange(-n)
-sponsor_words %>% filter(lead_sponsor_agency_class=='U.S. Fed') %>% arrange(-n)
 
-#remove stop words
+
 sponsor_bigrams = filter(study_info) %>% group_by(lead_sponsor_agency_class) %>% unnest_tokens(bigram,lead_sponsor_agency,token='ngrams',n=2) %>% count(lead_sponsor_agency_class,bigram) %>% ungroup() %>% 
   separate(bigram,into=c('word1','word2'),sep=" ") %>%
   filter(!word1 %in% stop_words$word) %>%
@@ -23,18 +21,6 @@ sponsor_bigrams = filter(study_info) %>% group_by(lead_sponsor_agency_class) %>%
   filter(!is.na(word2)) %>% 
   unite(bigram, word1, word2, sep=" ")
   
-bigram_counts = sponsor_bigrams %>% filter(lead_sponsor_agency_class=='Other') %>% arrange(-n)
-
-#visulaise bigrams
-require(igraph)
-bigram_graph <- select(bigram_counts,bigram,n) %>%
-  filter(n >= 5) %>%
-  graph_from_data_frame()
-library(ggraph)
-ggraph(bigram_graph, layout = "fr") +
-  geom_edge_link() +
-  geom_node_point() +
-  geom_node_text(aes(label = name), vjust = 1, hjust = 1)
 
 #code Other class based on lead sponsor
 #university
@@ -53,4 +39,3 @@ study_info = study_info %>% mutate_at('university',~if_else(grepl('college(.*)lo
 study_info %>% count(lead_sponsor_agency_class)
 
 
-#id_info,sponsors,source,oversight_info
